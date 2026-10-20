@@ -1,0 +1,15 @@
+# Local build products and tooling
+build/
+build-*/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Captures and logs require explicit review before sharing
+logs/
+captures/
+*.log
