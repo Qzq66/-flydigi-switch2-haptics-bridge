@@ -4,7 +4,9 @@
 
 目标是八爪鱼 6 Pro 操作 Switch 2 真机原生游戏，并获得来自游戏原生触觉指令的反馈。不是在 PC 运行 Switch 游戏，也不是从游戏混音生成震动。
 
-当前只完成研究和计划。尚未编写、编译或烧录桥接固件，也没有完成手柄输出、主机识别或蓝牙协议的实机测试。
+现已完成 Mac 接收器枚举和厂商身份／状态查询，详见 `docs/MAC_RECEIVER_DIAGNOSIS.md`。接收器为 `37d7:2502`，设备类型 `0x96` 对应八爪鱼 6 Pro；第三方接管许可字段为 0。按键流、震动输出、Pico 固件和 Switch 2 兼容均未验证。
+
+后续以 Windows 为主开发与硬件实测环境，Mac 负责资料、审阅及文档。Windows 是开发测试台，最终独立桥接器不依赖 Windows。参见 `docs/CROSS_PLATFORM_WORKFLOW.md`。
 
 ## 同步到 Windows
 
@@ -32,6 +34,8 @@ git pull --ff-only
 1. 阅读 `开发计划.md` 和 `docs/STATUS.md`。
 2. 确认硬件是否到货、八爪鱼及原装接收器是否齐全，记录现有固件版本。
 3. 盘点已有 Git、CMake、编译器、Pico SDK 和调试工具，避免盲目重复安装。
+   - 先阅读 `docs/FLYDIGI_OFFICIAL_FINDINGS.md`；在飞智空间站高级设置检查“允许第三方应用接管映射”。开启会停用飞智自身映射服务，记录前后状态，不与原生触觉基线的设置混淆。
+   - 手柄电量保持高于 20%。按键、普通震动、原生音圈输出分别验证。
 4. 阅读 ApexSenseBridge 的 6 Pro 初始化、能力查询、波形打包、发送和停止路径，核对许可证。
 5. 有真实八爪鱼时，先按项目发布说明建立 Windows 原生触觉基线，记录实测结果。
 6. 提取最小波形输出实验；板卡到货后再验证 USB 设备端与工具链。
@@ -51,7 +55,7 @@ git pull --ff-only
 
 ## 可直接交给 Windows 上开发助手的任务
 
-> 请继续本仓库的八爪鱼 6 Pro → Switch 2 真机原生触觉桥接项目。先读 README.md、开发计划.md、docs/STATUS.md 和 docs/WINDOWS_HANDOFF.md。当前只有计划，没有固件或实机验证。先盘点 Windows 工具链和可用硬件，核查 ApexSenseBridge 的 6 Pro 波形输出接口与许可证，建立最小可复现的左右独立波形测试。不要把 PC 虚拟设备识别视为真机兼容证明，不要把普通强弱震动视为音圈波形输出。硬件不齐时继续源码研究和记录未知项，不伪造测试结果。每次结束更新 STATUS.md，说明改动、验证、阻塞和下一步。
+> 请继续本仓库的八爪鱼 6 Pro → Switch 2 真机原生触觉桥接项目。先检查 Git 状态，拉取远程更新，再读 README.md、开发计划.md、docs/STATUS.md、docs/WINDOWS_HANDOFF.md、docs/MAC_RECEIVER_DIAGNOSIS.md 和 docs/FLYDIGI_OFFICIAL_FINDINGS.md。Mac 已验证接收器枚举、身份与状态查询，接管许可字段为 0；按键流、震动输出及固件尚未验证。以 Windows 为主要硬件测试环境，先盘点工具链、硬件和固件，检查第三方接管开关及手柄电量，再核查 ApexSenseBridge 输出接口和许可证，建立最小左右独立波形测试。不要将普通震动视为原生波形，也不要将 PC 识别视为真机兼容。结束时更新 STATUS.md 的验证、问题和下一步，提交并推送本次修改；有冲突时保留双方改动，不强制覆盖。
 
 ## 每次交接记录
 
