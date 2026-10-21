@@ -2,13 +2,16 @@
 
 在 Switch 2 真机运行原生游戏，使用飞智八爪鱼 6 Pro 操作，将主机原生触觉指令转换为八爪鱼音圈波形。
 
-**当前状态：规划阶段。没有完成固件、接线方案或实机验证。**
+**当前状态：已完成 Mac 接收器枚举及厂商身份／状态查询；尚无桥接固件、按键流或震动输出验证。**
 
 ## 从这里开始
 
 - [完整开发计划](开发计划.md)
 - [Windows 接续说明](docs/WINDOWS_HANDOFF.md)
 - [进度与验收清单](docs/STATUS.md)
+- [Mac 接收器实测](docs/MAC_RECEIVER_DIAGNOSIS.md)
+- [飞智官方文档核对](docs/FLYDIGI_OFFICIAL_FINDINGS.md)
+- [Mac / Windows 分工与同步](docs/CROSS_PLATFORM_WORKFLOW.md)
 
 ## 已有条件
 
