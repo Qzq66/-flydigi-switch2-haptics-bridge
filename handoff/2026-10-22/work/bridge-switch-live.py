@@ -1,6 +1,6 @@
 """Bounded actual Switch receiver, guarded by the existing Flydigi owner parent."""
 import socket,struct,time,json,pathlib,threading,queue,ctypes as C,sys,argparse
-from bridge_runtime import Client,Renderer,BridgeFault,unpack
+from bridge_runtime import Client,Renderer,BridgeFault,unpack,collect_frames
 from importlib.util import spec_from_file_location,module_from_spec
 HERE=pathlib.Path(__file__).absolute().parent
 spec=spec_from_file_location('bench',HERE/'flydigi-live-bridge-bench.py');bench=module_from_spec(spec);spec.loader.exec_module(bench)
@@ -51,12 +51,7 @@ def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
         ip=discover(session,120);report['pico_ip']=ip;client=Client(ip,session,input_source=input_source);renderer=Renderer(prompt_ms=prompt_ms,prompt_offset=prompt_offset,game_pilot=game_pilot)
         def collect():
             try:
-                while not stop.is_set():
-                    f=client.poll()
-                    if f:
-                        inbox.put_nowait(f)
-                        if f['flags']&16:client.confirm_end();return
-                    time.sleep(.004)
+                collect_frames(client,inbox.put_nowait,stop.is_set)
             except BaseException as e:
                 try:inbox.put_nowait(e)
                 except queue.Full:stop.set()

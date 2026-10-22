@@ -10,6 +10,8 @@ def decode_sector(data):
     if version!=5 or reason not in (1,2) or flags&~7 or capacity!=CAPACITY or clock!=1000000:raise ValueError('header')
     if stored!=min(total,CAPACITY) or width!=RECORD or payload!=stored*RECORD:raise ValueError('counts')
     if target not in (0,0xe0000,0xf0000) or data[64:69]!=b'BCAP\x05':raise ValueError('identity or target')
+    end_status=struct.unpack_from('<I',data,60)[0] if data[56:60]==b'END2' else None
+    if end_status is not None and end_status not in (1,2):raise ValueError('invalid END2 status')
     overflow=total>stored
     if bool(flags&2)!=overflow or (first_drop!=0xffffffff)!=overflow:raise ValueError('overflow marker')
     if overflow and first_drop>elapsed*1000:raise ValueError('drop timestamp')
@@ -33,7 +35,7 @@ def decode_sector(data):
         overflow=overflow,complete=not overflow,first_dropped_at_us=first_drop if overflow else None,
         usb_mounted_seen=bool(flags&1),no_flash_marker=int(bool(flags&4)),target_offset=hex(target),
         crc_valid=True,diagnostics_raw_hex=data[64:128].hex(),events=events,
-        stream_end=('client_confirmed' if struct.unpack_from('<I',data,60)[0]==1 else 'drain_timeout') if data[56:60]==b'END2' else None)
+        stream_end=('client_confirmed' if end_status==1 else 'drain_timeout') if end_status is not None else None)
 def decode_slots(data):
     if len(data) not in (SLOT,SLOT*2):raise ValueError('Expected one or two 64KiB slots')
     slots=[];valid=[]

@@ -2,6 +2,8 @@
 
 这是对现有代码/实测的交接说明，不是厂商完整协议规范。
 
+Mac离线维护更新：主机Client现在拒绝排空后恢复/complete回退，BHE2必须收到complete应答。收集器先通知停止播放，再等待有界确认；确认失败不发布成功结束。排空不再采样输入，END2仅接受状态1/2。见 [离线测试记录](MAC_OFFLINE_RESULTS_2026-10-22.md)。Pico固件未修改，这些主机侧更改尚需Windows/硬件复测。
+
 ## 飞智临时输出
 
 Windows HID报告33B：report ID0 + 32B私有数据。私有数据头5A A5、命令与长度，末尾累加校验；命令0x57的25B载荷为selector与8组 `(trigger,left,right)` 样本。扳机固定128，中值128，按8样本/帧、1kHz发送。selector98用于波形，80用于关闭。

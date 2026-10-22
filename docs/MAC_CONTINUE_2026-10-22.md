@@ -1,5 +1,7 @@
 # macOS 接续指南
 
+后续更新：已在Mac完成九组142项纯离线检查及主机侧结束确认修正，见 [验证记录](MAC_OFFLINE_RESULTS_2026-10-22.md)。旧Windows导出报告与原始捕获保持不变；当前新增结果单独保存在 `MAC_OFFLINE_VERIFICATION_2026-10-22.json`。本次没有编译/烧写固件或恢复硬件测试。
+
 先读 [详细交接](HANDOFF_2026-10-22.md)。本次交接提供源码和筛选证据，**没有宣称 Windows 硬件控制脚本已移植为 Mac 版本**。
 
 ## 1. 取回仓库与纯离线检查
@@ -12,7 +14,7 @@ cd flydigi-switch2-resume
 python3 tools/run_offline_checks.py
 ```
 
-离线检查不打开 USB、不发送网络包、不驱动马达，无第三方 Python 包依赖。检查报告是在本次上传前的 Windows Python 上执行所得，Mac 的实际执行结果请另存，不把它当成本次已测试过 macOS。
+离线检查不打开 USB、不发送网络包、不驱动马达，无第三方 Python 包依赖。最初导出报告是在 Windows 执行所得；新增Mac报告单独记录，不外推为硬件路径已移植。新运行需要报告时使用 `--report` 指定尚不存在的文件，避免覆盖历史证据。
 
 当前文件布局：
 

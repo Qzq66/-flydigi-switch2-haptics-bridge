@@ -36,4 +36,10 @@ check('unmarked_overflow_rejected',invalid(seal(bad)))
 bad=bytearray(a);bad[128+20]=0
 check('missing_motor_flag_rejected',invalid(seal(bad)))
 check('capacity_fixture_complete',decode_sector(fixture(total=CAPACITY))['complete'])
+for status,label in ((1,'client_confirmed'),(2,'drain_timeout')):
+    marked=bytearray(a);marked[56:60]=b'END2';struct.pack_into('<I',marked,60,status)
+    check('END2_'+label,decode_sector(seal(marked))['stream_end']==label)
+check('legacy_log_has_no_end_claim',decode_sector(a)['stream_end'] is None)
+marked=bytearray(a);marked[56:60]=b'END2';struct.pack_into('<I',marked,60,3)
+check('invalid_END2_status_rejected',invalid(seal(marked)))
 print(json.dumps(checks,indent=2))

@@ -26,13 +26,13 @@ class Client:
     def __init__(self,ip,session,input_source=None):
         self.ip=ip;self.session=session;self.request=secrets.randbits(32);self.ack=0xffffffff
         self.boot=None;self.expected=0;self.last_at=None;self.received=0;self.duplicates=0
-        self.terminal_received=False;self.terminal_ack_replied=False
+        self.terminal_received=False;self.terminal_ack_replied=False;self.draining=False
         self.input_source=input_source
         self.sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM);self.sock.bind(('192.168.137.1',0));self.sock.settimeout(.06)
     def poll(self,final_ack=False):
         if final_ack and not self.terminal_received:raise BridgeFault('cannot acknowledge unseen stream end')
         self.request=(self.request+1)&0xffffffff
-        magic=b'BHE2' if final_ack else (b'BHI2' if self.input_source is not None else b'BHP2')
+        magic=b'BHE2' if final_ack else (b'BHI2' if self.input_source is not None and not self.draining else b'BHP2')
         query=struct.pack('<4sIQI',magic,self.request,self.session,self.ack)
         if magic==b'BHI2':
             state=self.input_source()
@@ -48,6 +48,10 @@ class Client:
             if len(data)<20 or struct.unpack_from('<I',data,16)[0]!=self.request:continue
             frame=unpack(data,self.session,self.request)
             if self.boot is not None and self.boot!=frame['boot']:raise BridgeFault('Pico restarted; explicit new session required')
+            if self.draining and not frame['flags']&8:raise BridgeFault('stream resumed after terminal marker')
+            if self.terminal_received and not frame['flags']&16:raise BridgeFault('complete stream marker regressed')
+            if final_ack and not frame['flags']&16:raise BridgeFault('end confirmation missing complete marker')
+            if frame['flags']&8:self.draining=True
             self.boot=frame['boot'];accepted=[]
             if frame['flags']&16:self.terminal_received=True
             for event in frame['events']:
@@ -67,6 +71,26 @@ class Client:
             frame=self.poll(final_ack=True)
             if frame is not None:return frame
         return None
+
+def collect_frames(client,publish,stopped,pause=time.sleep):
+    """Collect frames without owning hardware; stop playback before end retries.
+
+    A complete marker is not published as successful until BHE2 is answered.
+    Publish a draining-only marker first so an output consumer can stop while
+    the bounded network acknowledgement is in progress.
+    """
+    while not stopped():
+        frame=client.poll()
+        if frame:
+            if frame['flags']&16:
+                publish(dict(frame,flags=frame['flags']&~16))
+                reply=client.confirm_end()
+                if reply is None or not client.terminal_ack_replied:
+                    raise BridgeFault('stream end acknowledgement timeout')
+                publish(frame)
+                return
+            publish(frame)
+        pause(.004)
 
 class Renderer:
     """64ms experimental jitter buffer; 5ms parameter groups, 1kHz PCM.
