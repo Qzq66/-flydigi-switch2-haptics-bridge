@@ -17,21 +17,9 @@ def convert(g):
         return tuple(max(448,min(3648,2048+round(v*1600/32768))) for v in (x,y))
     return bytes((right,shared,left))+pack_axes(*stick(g.lx,g.ly,7849))+pack_axes(*stick(g.rx,g.ry,8689))
 
-class XInputSource:
-    def __init__(self):
-        import xinput_readonly as xi
-        from bridge_runtime import BridgeFault
-        self.xi=xi;self.fault=BridgeFault;slots=xi.connected()
-        if len(slots)!=1:raise BridgeFault('Exactly one PC XInput controller required')
-        self.slot=slots[0]
-        self.changes=[];self.previous=None;self.nonneutral_reads=0
-    def __call__(self):
-        state=self.xi.read(self.slot)
-        if state is None:raise self.fault('XInput source disconnected; relay stopped')
-        value=convert(state.gamepad)
-        if value!=NEUTRAL:self.nonneutral_reads+=1
-        if value!=self.previous:
-            import time
-            if len(self.changes)<64:self.changes.append(dict(at=time.perf_counter(),pro_input=value.hex()))
-            self.previous=value
-        return value
+def __getattr__(name):
+    # Preserve old imports without putting the Windows implementation here.
+    if name=='XInputSource':
+        from bridge_windows import XInputSource
+        return XInputSource
+    raise AttributeError(name)

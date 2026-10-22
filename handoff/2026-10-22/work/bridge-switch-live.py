@@ -2,6 +2,8 @@
 import socket,struct,time,json,pathlib,threading,queue,sys,argparse
 from bridge_runtime import Client,Renderer,BridgeFault,unpack,collect_frames
 from importlib.util import spec_from_file_location,module_from_spec
+from bridge_windows import TimerResolution
+from bridge_network import DEFAULT_NETWORK
 HERE=pathlib.Path(__file__).absolute().parent
 bench=owner=safe=OUT=None
 
@@ -14,16 +16,16 @@ def load_hardware():
         bench=module_from_spec(spec);spec.loader.exec_module(bench)
         bench.load_hardware();owner=bench.owner;safe=bench.safe;OUT=bench.OUT
 
-def discover(session,timeout=60):
+def discover(session,timeout=60,network=DEFAULT_NETWORK):
     sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     try:
-        sock.setsockopt(socket.SOL_SOCKET,socket.SO_BROADCAST,1);sock.bind(('192.168.137.1',0));sock.settimeout(.3)
+        sock.setsockopt(socket.SOL_SOCKET,socket.SO_BROADCAST,1);sock.bind((network.bind_host,0));sock.settimeout(.3)
         end=time.perf_counter()+timeout;request=0
         while time.perf_counter()<end:
-            request+=1;sock.sendto(struct.pack('<4sIQI',b'BHP2',request,session,0xffffffff),('192.168.137.255',49724))
+            request+=1;sock.sendto(struct.pack('<4sIQI',b'BHP2',request,session,0xffffffff),(network.broadcast,network.port))
             try:data,peer=sock.recvfrom(512)
             except socket.timeout:continue
-            if peer[1]!=49724 or not peer[0].startswith('192.168.137.'):continue
+            if not network.accepts(peer):continue
             try:unpack(data,session,request)
             except BridgeFault:continue
             return peer[0]
@@ -32,7 +34,6 @@ def discover(session,timeout=60):
 
 def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
     load_hardware()
-    import ctypes as C
     report=dict(status='INCOMPLETE',events=[],frames=0,nonneutral_frames=0,maximum_offset=0)
     report.update(prompt_ms=prompt_ms,rendering_mode='calibrated notification mapping' if prompt_ms else 'original experimental parameter groups')
     report['prompt_offset']=prompt_offset
@@ -75,7 +76,7 @@ def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
             if frame['flags']&6==6:break
         if list(r.state())!=b['state_before']:raise ValueError('Controller state changed while waiting')
         r.maximum_offset=prompt_offset if prompt_ms else 5
-        timer=C.WinDLL('winmm').timeBeginPeriod(1)==0
+        timer=TimerResolution();timer.start()
         dirty=True;r.mode(b'\x01\x12\x02\x40\x00');start=time.perf_counter();block=0
         draining=False;stream_complete=False
         limit=62 if game_pilot else 22
@@ -121,7 +122,7 @@ def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
             except BaseException as e:report['cleanup_error']=repr(e)
         if r:r.close()
         safe.ro.lib.hid_exit()
-        if timer:C.WinDLL('winmm').timeEndPeriod(1)
+        if timer:timer.close()
         # A deliberate USB end/heartbeat loss is expected at the firmware's 20s cap.
         reason=report.get('ended_reason','')
         complete_prompt=(not prompt_ms or (all(report.get('prompt_counts',[0,0])) and report.get('active_samples')==[120*n for n in report['prompt_counts']]))

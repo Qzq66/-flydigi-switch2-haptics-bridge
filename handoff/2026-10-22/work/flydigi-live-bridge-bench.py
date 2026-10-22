@@ -6,6 +6,7 @@ No persistent Flydigi commands. Does not claim an actual Switch live test.
 import pathlib,importlib.util,json,time,sys,subprocess,datetime,threading,queue,argparse
 from bridge_runtime import Client,Renderer,BridgeFault
 from bridge_process import communicate_bounded,child_succeeded
+from bridge_windows import TimerResolution
 HERE=pathlib.Path(__file__).absolute().parent
 def module(name,file):
     spec=importlib.util.spec_from_file_location(name,HERE/file)
@@ -17,13 +18,13 @@ def load_hardware(replay=False):
     if sys.platform!='win32':
         raise RuntimeError('Windows hardware backend is not available on this platform; use tools/run_offline_checks.py')
     if owner is None:
-        owner=module('owner','flydigi-owner-hotplug.py');safe=owner.safe;OUT=owner.OUT
+        from bridge_windows import load_owner
+        owner=load_owner();safe=owner.safe;OUT=owner.OUT
     if replay and probe is None:
         probe=module('probe','test-pico-bridge-v040.py');m=probe.m
 
 def child(bp,rp):
     load_hardware(replay=True)
-    import ctypes as C
     report={'status':'INCOMPLETE','frames':0,'nonneutral_frames':0,'maximum_offset':0,'events':0,'wire_trace':[]}
     b=json.loads(bp.read_text(encoding='utf-8'));r=None;client=None;dirty=False
     stop=threading.Event();thread=None;inbox=queue.Queue(maxsize=512);timer=False
@@ -54,7 +55,7 @@ def child(bp,rp):
         r=safe.open_reader({});owner.identity(r,b)
         before={};owner.verify(r,b,before)
         if not before['configuration_unchanged']:raise ValueError('Configuration changed before output')
-        r.allowed_modes=owner.MODES;timer=C.WinDLL('winmm').timeBeginPeriod(1)==0
+        r.allowed_modes=owner.MODES;timer=TimerResolution();timer.start()
         dirty=True;r.mode(b'\x01\x12\x02\x40\x00')
         start=time.perf_counter();origin=events[0]['at_us'];index=0;block=0
         duration=(events[-1]['at_us']-origin)/1e6+.25
@@ -96,7 +97,7 @@ def child(bp,rp):
             except BaseException as e:report['pico_reset_error']=repr(e)
             m.lib.hid_close(m.handle);m.handle=None
         m.lib.hid_exit()
-        if timer:C.WinDLL('winmm').timeEndPeriod(1)
+        if timer:timer.close()
         rp.write_text(json.dumps(report,indent=2),encoding='utf-8')
     return 0 if report['status']=='PASSED_PICO_WIFI_FLYDIGI_BENCH' else 1
 
