@@ -19,7 +19,7 @@ TESTS = [
     'test-bridge-prompt.py', 'test-bridge-input.py',
     'test-pico-continuous-format.py', 'test-pico-capture-format.py',
     'test-bridge-game-pilot.py', 'test-bridge-end.py',
-    'test-bridge-capture-replay.py', 'test-bridge-platform.py',
+    'test-bridge-capture-replay.py', 'test-bridge-platform.py', 'test-capture-corpus.py',
 ]
 BOOTSTRAP = '''
 import runpy, sys
@@ -81,7 +81,11 @@ def main():
         sources['tools/run_offline_checks.py'] = hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()
         report = dict(platform=sys.platform, python=platform.python_version(),
                       hardware_access=False, io_guard=True, results=results,
-                      total_checks=sum(r.get('checks', 0) for r in results), source_sha256=sources)
+                      total_checks=sum(r.get('checks', 0) for r in results), source_sha256=sources,
+                      capture_sha256={str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
+                          for pattern in ('pico-continuous-capture-*.json', 'flydigi-live-bench-child-*.json',
+                                          'pico-bridge-v042-raw-test-20261022-165112.json')
+                          for p in sorted((WORK.parent / 'outputs').glob(pattern))})
         report_path.parent.mkdir(parents=True, exist_ok=True)
         with report_path.open('x', encoding='utf-8') as output:
             json.dump(report, output, ensure_ascii=False, indent=2)
