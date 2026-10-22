@@ -1,0 +1,119 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "source_base_commit": "d6f9051f46203eec8aa0062b6e8cd11c702c677e",
+  "hardware_access": false,
+  "flashed": false,
+  "credentials": "public example only; compile-only images",
+  "sdk": "2.3.1 official tag archive",
+  "gcc": "arm-none-eabi-gcc (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119",
+  "cmake": "cmake version 3.31.6",
+  "ninja": "1.13.0.git.kitware.jobserver-pipe-1",
+  "picotool": "2.3.1; built PICOTOOL_NO_LIBUSB=1; no mbedtls signing/hashing",
+  "dependencies": {
+    "cyw43-driver": "055d64274b014dd7b1c2fc94d26e8a18face7124",
+    "lwip": "77dcd25a72509eb83f72b033d219b1d40cd8eb95",
+    "tinyusb": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47"
+  },
+  "archives_sha256": {
+    "arm-toolchain.tar.xz": "c7c78ffab9bebfce91d99d3c24da6bf4b81c01e16cf551eb2ff9f25b9e0a3818",
+    "pico-sdk-2.3.1.tar.gz": "38d315b7091985134721cd3bb6a9656f0ef8462ec8dc7b62d5886bc7a9d275a2",
+    "picotool.tar.gz": "07946d294ab5c474b610660c53c5d94216e4ab13555de075ed521f98afc4f44c",
+    "tinyusb.tar.gz": "9f43fd2a745e2543a42ac79b99774c24155e6ef1e0d2ae3cb16ed4ffacf5c517",
+    "cyw43-driver.tar.gz": "43de020475e71d56e4fe966958e5ca52d10143d3a507859760481943ceebd56a",
+    "lwip.tar.gz": "85a09ebe68c260d4876e800220588e5a0b624266c994cc25da978210c2813f14"
+  },
+  "profiles": {
+    "ram": {
+      "passed": true,
+      "image": {
+        "profile": "ram",
+        "file": "build/pico-v042-ram-compile-only/pico_pro_capture.uf2",
+        "bytes": 609280,
+        "blocks": 1190,
+        "minimum_address": "0x20000000",
+        "maximum_end": "0x2004a600",
+        "sha256": "2341bb1bb750842182aaef1c7bea4b30f252e867d45d0073120ac5d0f5098d7d",
+        "program_erase_start": null,
+        "program_erase_end": null,
+        "log_offsets": [
+          "0xe0000",
+          "0xf0000"
+        ],
+        "log_slot_bytes": 65536,
+        "filesystem_start": "0x100000",
+        "program_excludes_logs_and_filesystem": false
+      },
+      "elf_sha256": "f1e4e4fcb8c49fcba4f4737e1e912cefdc1f73ddbbc584e9d20abfca79770733",
+      "elf_symbols": {
+        "__end__": "0x20061608",
+        "__HeapLimit": "0x20080000",
+        "__StackTop": "0x20082000"
+      },
+      "flash_mutation_symbols": [],
+      "size_output": [
+        "308544",
+        "0",
+        "94212",
+        "402756",
+        "62544"
+      ]
+    },
+    "flash": {
+      "passed": true,
+      "image": {
+        "profile": "flash",
+        "file": "build/pico-v042-flash-compile-only/pico_pro_capture.bin",
+        "bytes": 306036,
+        "minimum_address": "0x10000000",
+        "maximum_end": "0x1004ab74",
+        "sha256": "7cccbae2e2e0a3ffb3eb4c5c94ea58323c67edd1c886d7dce5b3ded91db5a070",
+        "program_erase_start": "0x0",
+        "program_erase_end": "0x4b000",
+        "log_offsets": [
+          "0xe0000",
+          "0xf0000"
+        ],
+        "log_slot_bytes": 65536,
+        "filesystem_start": "0x100000",
+        "program_excludes_logs_and_filesystem": true
+      },
+      "elf_sha256": "6d65264d791a50b43667f387de302f7bbd5c289975bf72bb54a7bf93a314a463",
+      "elf_symbols": {
+        "__end__": "0x2001880c",
+        "__HeapLimit": "0x20080000",
+        "__StackTop": "0x20082000"
+      },
+      "flash_mutation_symbols": [
+        "flash_range_erase",
+        "flash_range_program"
+      ],
+      "size_output": [
+        "310128",
+        "0",
+        "94764",
+        "404892",
+        "62d9c"
+      ]
+    }
+  },
+  "source_sha256": {
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/CMakeLists.txt": "3996c00aaca13a592b213561b6186973d1a1a114c819c0f032c3a92d0949ddb1",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/LICENSE-GP2040-CE.txt": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/THIRD_PARTY.md": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.c": "c818330c153d9eaf0d933a98414de4a8df5f12f3cce1c4e153ed4011111fd225",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.h": "2da6dfe1da06eb501a5b63bc239c2c73ad350dfce85021f4cccc817ae84c2f5f",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.c": "cf8c3132f30ea8eb30b8e81394cda6ce7ced008ff64e5f4aac976a2bb802f415",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.h": "e436b8cbc14812d7f93f84813cb3877b0205da948344b229f2350352e777e619",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/lwipopts.h": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/main.c": "3f100b9be5c308b52db145003cca9a163b3ac89efe35a36c3569c5440a3132e1",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/pro_report_descriptor.h": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/reference-manifest.json": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/tusb_config.h": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/usb_descriptors.c": "7504ccc18b3e81942128560bbbc6e1e101c195ac03273ca199ada4fbf81a528a",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.c": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.h": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+    "tools/build_pico_snapshot.py": "fe6e240f1546ec09d30fd4044065ca840aa810218158acf0c72b338cca96418a",
+    "handoff/2026-10-22/work/verify-capture-v035-image.py": "fa25235628d41a1a4549c3841ec0284eb6f57e5b2a3fed9ab1400439886e607d",
+    "handoff/2026-10-22/work/bridge_credentials.example.h": "7ff0d7b46b10c6c9bbafa41762818eb46937cc68166cc09e8565d186a7ecfa1e"
+  }
+}

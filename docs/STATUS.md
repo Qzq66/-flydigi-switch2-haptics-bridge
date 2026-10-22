@@ -10,6 +10,8 @@ Mac 后续：九组142项离线检查全部通过，包含游戏提示渲染、C
 
 第四步平台拆分：十二组301项离线检查通过；纯协议/渲染、UDP、网络配置与Windows适配器已分离，旧导入兼容。见 [依赖拆分结果](MAC_ADAPTER_RESULTS_2026-10-22.md)。Windows硬件重构后尚未复测。
 
+第五步构建：Mac v042 RAM/Flash均编译且镜像边界通过，公开占位参数、未烧写。见 [构建结果](MAC_V042_BUILD_RESULTS_2026-10-22.md) 和 [Windows接续汇总](WINDOWS_RESUME_2026-10-22.md)。
+
 ## 已实测
 
 - [x] RP2350、4MiB Flash、BOOTSEL、RAM构建、全Flash备份与恢复，原MicroPython回归。

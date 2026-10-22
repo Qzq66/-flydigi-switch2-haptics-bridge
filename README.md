@@ -6,6 +6,8 @@
 
 ## 接续入口
 
+- [Windows最新接续：Mac五项工作汇总](docs/WINDOWS_RESUME_2026-10-22.md)（301项离线检查，v042双配置编译通过、未烧写）
+
 - [Mac 离线进展：九组142项与收尾修正](docs/MAC_OFFLINE_RESULTS_2026-10-22.md)（尚无硬件复测）
 - [Windows → macOS 详细交接](docs/HANDOFF_2026-10-22.md)
 - [Mac 拉取、离线检查、构建及移植清单](docs/MAC_CONTINUE_2026-10-22.md)
