@@ -1,0 +1,50 @@
+[
+  {
+    "name": "neutral_absolute_7bit",
+    "passed": true
+  },
+  {
+    "name": "zero_packet_preserves_state",
+    "passed": true
+  },
+  {
+    "name": "one_5bit_full_amplitude",
+    "passed": true
+  },
+  {
+    "name": "two_5bit_state_progression",
+    "passed": true
+  },
+  {
+    "name": "two_7bit_select_high",
+    "passed": true
+  },
+  {
+    "name": "three_5bit_reset_and_restore",
+    "passed": true
+  },
+  {
+    "name": "three_7bit_select_low_amplitude",
+    "passed": true
+  },
+  {
+    "name": "delta_after_gap_stays_unknown",
+    "passed": true
+  },
+  {
+    "name": "absolute_recovers_after_gap",
+    "passed": true
+  },
+  {
+    "name": "captured_left_packet_is_three_sample",
+    "passed": true
+  },
+  {
+    "name": "captured_right_packet_is_three_sample",
+    "passed": true
+  },
+  {
+    "name": "truncated_motor_word_rejected",
+    "passed": true
+  }
+]

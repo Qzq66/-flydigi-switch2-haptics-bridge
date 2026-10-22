@@ -13,3 +13,16 @@ Thumbs.db
 logs/
 captures/
 *.log
+
+# Private handoff material and firmware containing credentials
+**/private/
+**/backups/
+**/bridge_credentials.h
+*.uf2
+*.elf
+*.bin
+*.dll
+*.exe
+*.zip
+*.pyc
+handoff-upload-*/

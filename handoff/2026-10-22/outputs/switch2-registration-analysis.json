@@ -1,0 +1,200 @@
+{
+  "recorded_at": "2026-10-22T13:37:07.543888+08:00",
+  "source": "pico-persistent-capture-20261022-133525.json",
+  "user_observation": "New controller icon appeared; disappeared at about 20 seconds",
+  "crc_valid": true,
+  "elapsed_ms": 20000,
+  "total_events": 219,
+  "retained_events": 48,
+  "dropped_middle_events": 171,
+  "counts": {
+    "received": 219,
+    "replies": 76,
+    "rumble_fields_received": 217,
+    "rejected": 57,
+    "overflow": 0,
+    "short_packets": 0,
+    "input_reports_sent": 1304,
+    "pressed_reports_sent": 26,
+    "released_reports_sent": 1047
+  },
+  "input_mode": 48,
+  "usb_stage": 5,
+  "player_lights": 0,
+  "imu_mode": 2,
+  "vibration_enabled": 1,
+  "registration_flags": 7,
+  "mount_count": 1,
+  "unmount_count": 0,
+  "suspend_count": 0,
+  "retained_command_histogram": {
+    "03": 2,
+    "48": 2,
+    "02": 1,
+    "08": 1,
+    "10": 7,
+    "01": 1,
+    "04": 1,
+    "40": 1,
+    "30": 1,
+    "21": 8
+  },
+  "rumble_events": [
+    {
+      "at_ms": 3803,
+      "packet_counter": 0,
+      "left_hex": "c2000f40",
+      "right_hex": "00000000",
+      "raw_hex": "1000c2000f4000000000"
+    },
+    {
+      "at_ms": 3883,
+      "packet_counter": 1,
+      "left_hex": "00000000",
+      "right_hex": "00014040",
+      "raw_hex": "10010000000000014040"
+    },
+    {
+      "at_ms": 3899,
+      "packet_counter": 2,
+      "left_hex": "00014040",
+      "right_hex": "00000000",
+      "raw_hex": "10020001404000000000"
+    },
+    {
+      "at_ms": 3923,
+      "packet_counter": 3,
+      "left_hex": "00000000",
+      "right_hex": "c318606d",
+      "raw_hex": "100300000000c318606d"
+    },
+    {
+      "at_ms": 18068,
+      "packet_counter": 15,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "100f0001404000014040"
+    },
+    {
+      "at_ms": 18188,
+      "packet_counter": 1,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10010001404000014040"
+    },
+    {
+      "at_ms": 18300,
+      "packet_counter": 2,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10020001404000014040"
+    },
+    {
+      "at_ms": 18420,
+      "packet_counter": 3,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10030001404000014040"
+    },
+    {
+      "at_ms": 18524,
+      "packet_counter": 5,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10050001404000014040"
+    },
+    {
+      "at_ms": 18644,
+      "packet_counter": 6,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10060001404000014040"
+    },
+    {
+      "at_ms": 18764,
+      "packet_counter": 8,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10080001404000014040"
+    },
+    {
+      "at_ms": 18876,
+      "packet_counter": 9,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10090001404000014040"
+    },
+    {
+      "at_ms": 18996,
+      "packet_counter": 10,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "100a0001404000014040"
+    },
+    {
+      "at_ms": 19100,
+      "packet_counter": 12,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "100c0001404000014040"
+    },
+    {
+      "at_ms": 19220,
+      "packet_counter": 13,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "100d0001404000014040"
+    },
+    {
+      "at_ms": 19340,
+      "packet_counter": 15,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "100f0001404000014040"
+    },
+    {
+      "at_ms": 19452,
+      "packet_counter": 0,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10000001404000014040"
+    },
+    {
+      "at_ms": 19572,
+      "packet_counter": 1,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10010001404000014040"
+    },
+    {
+      "at_ms": 19676,
+      "packet_counter": 3,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10030001404000014040"
+    },
+    {
+      "at_ms": 19796,
+      "packet_counter": 4,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10040001404000014040"
+    },
+    {
+      "at_ms": 19916,
+      "packet_counter": 6,
+      "left_hex": "00014040",
+      "right_hex": "00014040",
+      "raw_hex": "10060001404000014040"
+    }
+  ],
+  "conclusions": [
+    "USB controller icon and L+R response observed by user",
+    "Host enabled vibration at 3771ms, then sent changing 0x10 output payloads",
+    "Exactly one bounded press interval in firmware; counters show press and release reports sent",
+    "Unsupported 0x21 repeated after registration; compatibility incomplete",
+    "No Flydigi output, waveform decode or end-to-end haptics validated in this test",
+    "Player number not confirmed: last player-light value remained zero",
+    "Trace retains first/last 24 events, not a complete haptics stream"
+  ]
+}

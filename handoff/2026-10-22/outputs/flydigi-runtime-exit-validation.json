@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-22",
+  "identity_sha256": "256cdb11971f3a225c501986f74f5a6de930fda73a00c0fb3ab88a0daad24990",
+  "motor_ram_sha256": "a0689f72d383f7af7e8a331c271092d2c24bcd50218b88b2a154342e195f0f05",
+  "device_type": "96",
+  "policy": "neutral frames, channel off, acknowledged group disable 01 12 00, no per-grip restore",
+  "settle_ms": 80,
+  "maximum_disable_attempts": 3,
+  "retry_on": [
+    "timeout",
+    "transport error"
+  ],
+  "do_not_retry": "explicit rejection",
+  "transport_report": "flydigi-runtime-disable-20261022-112051.json",
+  "human_before_and_after_rumble_confirmed": true,
+  "human_feedback": "User selected option 1: both ordinary rumble pulses were felt, about five seconds apart.",
+  "configuration_byte_comparison": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "scope": "One current device and motor configuration; neutral realtime session followed by ordinary XInput rumble. Does not prove all firmware variants or full waveform lifecycle reliability."
+}

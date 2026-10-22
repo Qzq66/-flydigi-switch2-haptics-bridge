@@ -1,0 +1,8 @@
+{
+  "status": "INCOMPLETE",
+  "readonly": true,
+  "expected_button": "physical bottom A",
+  "press_seen": false,
+  "release_seen": false,
+  "slot": 0
+}

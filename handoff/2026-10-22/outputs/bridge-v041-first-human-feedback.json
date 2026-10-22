@@ -1,0 +1,9 @@
+{
+  "live_report": "flydigi-live-bench-20261022-161338.json",
+  "pico_returned_in_bootsel": true,
+  "prompt_ms": 120,
+  "prompt_offset": 3,
+  "felt_rumble": false,
+  "user_feedback": "2 没感觉到震动或者是震动太小了",
+  "conclusion": "Program reported complete 120ms outputs on both sides, but perceptual confirmation failed."
+}

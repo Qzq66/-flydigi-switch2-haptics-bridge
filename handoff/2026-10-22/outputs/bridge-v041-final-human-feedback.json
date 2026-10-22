@@ -1,0 +1,10 @@
+{
+  "live_report": "flydigi-live-bench-20261022-162748.json",
+  "pico_returned_in_bootsel": true,
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "felt_rumble": true,
+  "both_sides_felt": true,
+  "strength_comfortable": true,
+  "user_feedback": "1 这一次有明显的震动了"
+}

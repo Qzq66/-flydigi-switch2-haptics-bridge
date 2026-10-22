@@ -1,0 +1,36 @@
+{
+  "platform": "win32",
+  "python": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "hardware_access": false,
+  "results": [
+    {
+      "script": "test-switch-hd-decode.py",
+      "passed": true,
+      "checks": 12
+    },
+    {
+      "script": "test-bridge-runtime.py",
+      "passed": true,
+      "checks": 18
+    },
+    {
+      "script": "test-bridge-prompt.py",
+      "passed": true,
+      "checks": 16
+    },
+    {
+      "script": "test-bridge-input.py",
+      "passed": true,
+      "checks": 7
+    },
+    {
+      "script": "test-pico-continuous-format.py",
+      "passed": true,
+      "checks": 12
+    },
+    {
+      "script": "test-pico-capture-format.py",
+      "passed": true
+    }
+  ]
+}

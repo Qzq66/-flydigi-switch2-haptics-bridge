@@ -1,0 +1,33 @@
+{
+  "status": "THREE_PULSES_SENT",
+  "settings": [
+    [
+      120,
+      5
+    ],
+    [
+      120,
+      8
+    ],
+    [
+      120,
+      12
+    ]
+  ],
+  "frames": 69,
+  "pulse_started": [
+    0.0,
+    3.0,
+    6.0
+  ],
+  "maximum_offset": 12,
+  "maximum_schedule_lateness_ms": 1.163200000000586,
+  "neutral_written_clock": 12.3465027,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true
+}

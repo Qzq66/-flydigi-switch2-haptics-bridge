@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-22",
+  "status": "HUMAN_CONFIRMED_LOW_AMPLITUDE_120MS",
+  "path": "PC direct to validated Flydigi receiver; no Switch or Pico replay in this calibration",
+  "initial_duration_report": "flydigi-calibration-duration-20261022-155916.json",
+  "repeated_duration_report": "flydigi-calibration-duration-20261022-160051.json",
+  "confirmation_report": "flydigi-calibration-confirm120-20261022-160239.json",
+  "duration_ms": 120,
+  "pcm_rate_hz": 1000,
+  "block_samples": 8,
+  "neutral_sample": 128,
+  "maximum_sample_offset": 3,
+  "left_frequency_hz": 160,
+  "right_frequency_hz": 320,
+  "confirmation_pulses": 3,
+  "pulse_start_spacing_ms": 3000,
+  "neutral_tail_ms": 64,
+  "human_feedback": {
+    "duration_comparison": "First 40ms pulse possibly too short to feel; later 120ms and 320ms pulses felt.",
+    "confirm120_answer": "1 有三次微小震动",
+    "all_three_felt": true,
+    "both_grips_felt": true,
+    "forty_ms_threshold_confirmed": false
+  },
+  "persistent_controller_write_commands": 0,
+  "independent_parent_cleanup_guardian": true,
+  "automatic_replay_resume": false,
+  "pico_firmware_modified_this_calibration": false,
+  "network_configuration_modified_this_calibration": false,
+  "bridge_renderer_changed": false,
+  "scope": "A confirmed perceptible local calibration point for this user and controller. Not the minimum perception threshold, a physical amplitude measurement, or a faithful 120ms Switch haptic duration. Original realtime bridge remains at experimental 5ms per decoded group."
+}

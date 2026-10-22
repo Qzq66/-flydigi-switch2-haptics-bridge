@@ -1,0 +1,74 @@
+[
+  {
+    "name": "wire_roundtrip",
+    "passed": true
+  },
+  {
+    "name": "CRC_corruption_stops",
+    "passed": true
+  },
+  {
+    "name": "wrong_session_stops",
+    "passed": true
+  },
+  {
+    "name": "wrong_request_stops",
+    "passed": true
+  },
+  {
+    "name": "source_overflow_stops",
+    "passed": true
+  },
+  {
+    "name": "unknown_wire_flags_stop",
+    "passed": true
+  },
+  {
+    "name": "neutral_render",
+    "passed": true
+  },
+  {
+    "name": "all_groups_preserved_with_stop",
+    "passed": true
+  },
+  {
+    "name": "waveform_limit",
+    "passed": true
+  },
+  {
+    "name": "heartbeat_timeout_latches",
+    "passed": true
+  },
+  {
+    "name": "fault_does_not_autoresume",
+    "passed": true
+  },
+  {
+    "name": "upstream_loss_stops",
+    "passed": true
+  },
+  {
+    "name": "old_active_sample_stops",
+    "passed": true
+  },
+  {
+    "name": "unrenderable_frequency_stops",
+    "passed": true
+  },
+  {
+    "name": "sustained_energy_stops",
+    "passed": true
+  },
+  {
+    "name": "already_sent_active_samples_stop",
+    "passed": true
+  },
+  {
+    "name": "skipped_output_clock_stops",
+    "passed": true
+  },
+  {
+    "name": "queued_active_frame_processing_deadline",
+    "passed": true
+  }
+]

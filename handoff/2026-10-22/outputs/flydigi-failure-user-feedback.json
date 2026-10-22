@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "fault_test_report": "flydigi-failure-tests-20261022-113717.json",
+  "three_short_outputs_stopped_without_persistent_residual": true,
+  "user_estimated_vibration_seconds": 0.5,
+  "duration_is_subjective_estimate_not_instrument_measurement": true,
+  "receiver_unplug_and_reinsert_confirmed_by_user": true,
+  "receiver_reconnect_report": "flydigi-receiver-reconnect.json",
+  "receiver_removed_while_output_idle": true,
+  "owner_process_force_kill_tested": false,
+  "active_output_receiver_disconnect_tested": false
+}

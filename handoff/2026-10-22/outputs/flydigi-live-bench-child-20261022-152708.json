@@ -1,0 +1,9 @@
+{
+  "status": "INCOMPLETE",
+  "frames": 0,
+  "nonneutral_frames": 0,
+  "maximum_offset": 0,
+  "events": 0,
+  "wire_trace": [],
+  "error": "TimeoutError('WiFi join did not complete')"
+}

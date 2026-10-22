@@ -1,0 +1,66 @@
+[
+  {
+    "name": "one_source_group_becomes_exactly_120_samples",
+    "passed": true
+  },
+  {
+    "name": "calibrated_amplitude_and_other_side_neutral",
+    "passed": true
+  },
+  {
+    "name": "automatic_neutral_after_prompt",
+    "passed": true
+  },
+  {
+    "name": "prompt_is_not_retriggered_by_empty_heartbeats",
+    "passed": true
+  },
+  {
+    "name": "heartbeat_loss_cancels_longer_prompt",
+    "passed": true
+  },
+  {
+    "name": "fault_cannot_resume_prompt",
+    "passed": true
+  },
+  {
+    "name": "vibration_disable_cancels_prompt_immediately",
+    "passed": true
+  },
+  {
+    "name": "reenable_without_new_active_event_does_not_resume_old_prompt",
+    "passed": true
+  },
+  {
+    "name": "USB_loss_cancels_prompt",
+    "passed": true
+  },
+  {
+    "name": "left_right_start_order_and_independent_duration",
+    "passed": true
+  },
+  {
+    "name": "overlapping_source_pulse_does_not_extend_output",
+    "passed": true
+  },
+  {
+    "name": "fourth_prompt_is_rejected",
+    "passed": true
+  },
+  {
+    "name": "all_supported_values_are_explicit",
+    "passed": true
+  },
+  {
+    "name": "unreviewed_duration_rejected",
+    "passed": true
+  },
+  {
+    "name": "explicit_higher_amplitude_retains_120ms_cap",
+    "passed": true
+  },
+  {
+    "name": "unreviewed_amplitude_rejected",
+    "passed": true
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "started_at": "2026-10-22T11:17:45.469984+08:00",
+  "persistent_write_commands": 0,
+  "per_grip_restore_commands": 0,
+  "non_neutral_custom_waveform_frames": 0,
+  "rumble_phases": [
+    {
+      "label": "BEFORE",
+      "xinput_status": "OK",
+      "nominal_ms": 180,
+      "actual_ms": 192.162
+    }
+  ],
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "xinput_slot": 0,
+  "identity_sha256": "256cdb11971f3a225c501986f74f5a6de930fda73a00c0fb3ab88a0daad24990",
+  "backup_file": "flydigi-runtime-backup-20261022-111745.json",
+  "neutral_realtime_enable_ack": true,
+  "error": "TimeoutError: No reply to read-only query 53",
+  "status": "STOPPED",
+  "xinput_stop_ok": true,
+  "finally_disable_ack": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "identity_matches": true,
+  "configuration_unchanged": true,
+  "command_counts": {
+    "01": 1,
+    "04": 4,
+    "A1": 3,
+    "A3": 66,
+    "53": 3
+  },
+  "neutral_only_stream_frames": 6,
+  "ended_at": "2026-10-22T11:17:48.532358+08:00"
+}

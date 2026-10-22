@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "case": "source_stall",
+      "persistent_commands": 0,
+      "watchdog_ms": 80,
+      "maximum_sample_offset": 5,
+      "frames": 25,
+      "status": "PASSED_SOFTWARE_STOP_AND_CONFIG_RECHECK",
+      "cleanup": [
+        "neutral and channels off: OK"
+      ],
+      "interface": {
+        "vid": "37D7",
+        "pid": "2502",
+        "usage_page": "FFA0",
+        "interface": 2,
+        "input_bytes": 33,
+        "output_bytes": 33,
+        "feature_bytes": 0
+      },
+      "backup_file": "flydigi-failure-backup-20261022-113717-source_stall.json",
+      "stop_reason": "source_watchdog",
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "cleanup_ms": 78.0,
+      "last_nonzero_to_neutral_ms": 94.0,
+      "detection_to_neutral_ms": 0.0,
+      "producer_exit_code": 1,
+      "identity_unchanged": true,
+      "state_unchanged": true,
+      "ram_equal": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true,
+      "command_counts": {
+        "01": 1,
+        "04": 3,
+        "A1": 3,
+        "A3": 66,
+        "53": 2
+      }
+    },
+    {
+      "case": "source_crash",
+      "persistent_commands": 0,
+      "watchdog_ms": 80,
+      "maximum_sample_offset": 5,
+      "frames": 25,
+      "status": "PASSED_SOFTWARE_STOP_AND_CONFIG_RECHECK",
+      "cleanup": [
+        "neutral and channels off: OK"
+      ],
+      "interface": {
+        "vid": "37D7",
+        "pid": "2502",
+        "usage_page": "FFA0",
+        "interface": 2,
+        "input_bytes": 33,
+        "output_bytes": 33,
+        "feature_bytes": 0
+      },
+      "backup_file": "flydigi-failure-backup-20261022-113717-source_crash.json",
+      "stop_reason": "producer_eof",
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "cleanup_ms": 94.0,
+      "last_nonzero_to_neutral_ms": 16.0,
+      "detection_to_neutral_ms": 0.0,
+      "producer_exit_code": 23,
+      "identity_unchanged": true,
+      "state_unchanged": true,
+      "ram_equal": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true,
+      "command_counts": {
+        "01": 1,
+        "04": 3,
+        "A1": 3,
+        "A3": 66,
+        "53": 2
+      }
+    },
+    {
+      "case": "worker_exception",
+      "persistent_commands": 0,
+      "watchdog_ms": 80,
+      "maximum_sample_offset": 5,
+      "frames": 25,
+      "status": "PASSED_SOFTWARE_STOP_AND_CONFIG_RECHECK",
+      "cleanup": [
+        "neutral and channels off: OK"
+      ],
+      "interface": {
+        "vid": "37D7",
+        "pid": "2502",
+        "usage_page": "FFA0",
+        "interface": 2,
+        "input_bytes": 33,
+        "output_bytes": 33,
+        "feature_bytes": 0
+      },
+      "backup_file": "flydigi-failure-backup-20261022-113717-worker_exception.json",
+      "stop_reason": "injected_worker_exception",
+      "injected_exception": "Intentional output-loop exception",
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "cleanup_ms": 94.0,
+      "last_nonzero_to_neutral_ms": 15.0,
+      "detection_to_neutral_ms": 0.0,
+      "identity_unchanged": true,
+      "state_unchanged": true,
+      "ram_equal": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true,
+      "command_counts": {
+        "01": 1,
+        "04": 3,
+        "A1": 3,
+        "A3": 66,
+        "53": 2
+      }
+    }
+  ],
+  "owner_force_kill_tested": false,
+  "receiver_hotplug_tested": false
+}

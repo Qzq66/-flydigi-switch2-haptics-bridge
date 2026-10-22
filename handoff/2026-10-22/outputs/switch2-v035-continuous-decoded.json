@@ -1,0 +1,26 @@
+{
+  "source": "pico-continuous-capture-20261022-140937.json",
+  "complete": true,
+  "total_events": 291,
+  "stored_events": 291,
+  "dropped_events": 0,
+  "event_sequence_contiguous": true,
+  "microsecond_timestamps_monotonic": true,
+  "motor_packets": 289,
+  "decoded_samples": 277,
+  "unknown_state_samples": 0,
+  "formats": {
+    "no_new_samples": 304,
+    "one_7bit": 272,
+    "two_7bit": 1,
+    "three_7bit": 1
+  },
+  "motor_arrival_intervals_us": {
+    "min": 7977,
+    "median": 24001.5,
+    "max": 3032096
+  },
+  "hardware_output": false,
+  "realtime_forwarding_tested": false,
+  "timing_limit": "Timestamps measure Pico receive time. Samples within a packet retain order but have no separately measured generation time. This does not establish transport latency or actuator timing."
+}

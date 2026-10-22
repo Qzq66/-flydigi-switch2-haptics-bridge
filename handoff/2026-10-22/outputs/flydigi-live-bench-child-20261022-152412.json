@@ -1,0 +1,21 @@
+{
+  "status": "INCOMPLETE",
+  "frames": 484,
+  "nonneutral_frames": 1,
+  "maximum_offset": 2,
+  "events": 28,
+  "sent_raw_events": 25,
+  "active_samples": [
+    0,
+    5
+  ],
+  "error": "ValueError('Did not render both captured sides')",
+  "neutral_written_clock": 18.552517,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true
+}

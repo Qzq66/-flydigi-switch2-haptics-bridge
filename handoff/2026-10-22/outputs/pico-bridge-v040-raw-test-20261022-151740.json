@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "unique_candidate",
+      "passed": true
+    },
+    {
+      "name": "HID_open",
+      "passed": true
+    },
+    {
+      "name": "RAM_identity",
+      "passed": true
+    },
+    {
+      "name": "input_mode",
+      "passed": true
+    },
+    {
+      "name": "IMU_mode2",
+      "passed": true
+    },
+    {
+      "name": "vibration_enable",
+      "passed": true
+    },
+    {
+      "name": "MCU_compat",
+      "passed": true
+    },
+    {
+      "name": "SPI_write_rejected",
+      "passed": true
+    },
+    {
+      "name": "player_LED_zero",
+      "passed": true
+    },
+    {
+      "name": "collector_no_errors",
+      "passed": false
+    }
+  ],
+  "status": "INCOMPLETE",
+  "physical_output": false,
+  "endpoint": {
+    "ip": "0.0.0.0",
+    "session": "REDACTED",
+    "port": 49724
+  },
+  "error": "AssertionError('collector_no_errors')",
+  "collector_errors": [
+    "OSError(10049, '在其上下文中，该请求的地址无效。', None, 10049, None)"
+  ]
+}

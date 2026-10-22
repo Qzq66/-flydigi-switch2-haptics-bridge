@@ -1,0 +1,18 @@
+{
+  "name": "calibrated_perceptible_notification",
+  "verified_on": "2026-10-22",
+  "enabled_by_default": false,
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "neutral_sample": 128,
+  "sample_rate_hz": 1000,
+  "left_frequency_hz": 160,
+  "right_frequency_hz": 320,
+  "maximum_prompts_per_side_per_test": 3,
+  "overlap_extends_prompt": false,
+  "heartbeat_timeout_ms": 80,
+  "automatic_resume_after_fault": false,
+  "live_report": "flydigi-live-bench-20261022-162748.json",
+  "human_feedback": "bridge-v041-final-human-feedback.json",
+  "scope": "Opt-in computer-side notification mapping. This JSON records the tested profile; it does not write controller settings or override the CLI default."
+}

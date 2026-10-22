@@ -1,0 +1,1527 @@
+{
+  "snapshot_date": "2026-10-22",
+  "text_only": true,
+  "credentials_excluded": true,
+  "device_backups_excluded": true,
+  "source_location": "Windows workspace, never uploaded as a whole",
+  "files": [
+    {
+      "path": "handoff/2026-10-22/work/analyze-continuous-rumble.py",
+      "source_sha256": "38feeba326f1b8fcce38e430dc1f0e5ad2e9e2ea9ff070d6f36c42a973655310",
+      "export_sha256": "38feeba326f1b8fcce38e430dc1f0e5ad2e9e2ea9ff070d6f36c42a973655310",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-registration.py",
+      "source_sha256": "050bd15a4fe97ddc4497944c617fd6de9b604e8ebb56ca09414bc0f7a4f9c046",
+      "export_sha256": "050bd15a4fe97ddc4497944c617fd6de9b604e8ebb56ca09414bc0f7a4f9c046",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-v034.py",
+      "source_sha256": "6c29b75411b4b8ee088249bb53b1fe5b1d182804cd9afead0157339e8b70afcf",
+      "export_sha256": "6c29b75411b4b8ee088249bb53b1fe5b1d182804cd9afead0157339e8b70afcf",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-prompt-live.py",
+      "source_sha256": "c3f2db84428885fca535cccfb2068031390674abe4cf90ba81edc7dccade1111",
+      "export_sha256": "c3f2db84428885fca535cccfb2068031390674abe4cf90ba81edc7dccade1111",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge-switch-live.py",
+      "source_sha256": "f661893e3bc07900ba1b507d1ff65db6220dce74799802a4c37cf379c4fd6257",
+      "export_sha256": "cb157f25759da1e78b014185f3f513feb1e8343cab93fd105344b0df2f3ebe11",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_input.py",
+      "source_sha256": "1ab62bc207d9b2f829f95f2ffe90e5d08fbdd80b97e033652b9e8ff7169e91b1",
+      "export_sha256": "1ab62bc207d9b2f829f95f2ffe90e5d08fbdd80b97e033652b9e8ff7169e91b1",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_runtime.py",
+      "source_sha256": "dcff7a2c15f222ba39d3c4b9f156bcdb872a3ad5e9e1d41b92a2e0a9880fe3c6",
+      "export_sha256": "c7d0b1e4a9eedc2469fcc8f31fec147fb387a046c34a5beb92182e8ded3a1bf5",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/confirm-xinput-source.py",
+      "source_sha256": "c7794ca4f308c5d2351f2b8fc041af81f087278e142edc1b11ee0d4e02a71ff9",
+      "export_sha256": "c7794ca4f308c5d2351f2b8fc041af81f087278e142edc1b11ee0d4e02a71ff9",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/diagnose-bridge-flash.py",
+      "source_sha256": "17186f83c7a44626480ed18186a73f4925f07dc1db11bcef09de63606ceb205f",
+      "export_sha256": "17186f83c7a44626480ed18186a73f4925f07dc1db11bcef09de63606ceb205f",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-capture-flash.py",
+      "source_sha256": "36d494bb8f9856fe4123df645c2450580504006415e39927dd42314ea2b016cc",
+      "export_sha256": "36d494bb8f9856fe4123df645c2450580504006415e39927dd42314ea2b016cc",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-continuous-flash.py",
+      "source_sha256": "ebf96a797045528e2d172739546ae7c30960427e0a749aee15cb023dcc469d52",
+      "export_sha256": "ebf96a797045528e2d172739546ae7c30960427e0a749aee15cb023dcc469d52",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-captured-replay.py",
+      "source_sha256": "9b06620104ce875064a67175463ba6a7938c4e303c6c29fab6f4469b02da3439",
+      "export_sha256": "9b06620104ce875064a67175463ba6a7938c4e303c6c29fab6f4469b02da3439",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-failure-tests.py",
+      "source_sha256": "6b755ed09137c4ab2e20e1ed0b59df3c08601c6444872850939701f8bab48ce3",
+      "export_sha256": "6b755ed09137c4ab2e20e1ed0b59df3c08601c6444872850939701f8bab48ce3",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-live-bridge-bench.py",
+      "source_sha256": "133098f3f765a6942fd006d548af1a707a2ab48fafe272e0d87c35abb54c87df",
+      "export_sha256": "4677e736eacb0ae149e84fbc82df5f5e33ebe74edd756412f49247420fba948b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-monitor-reconnect.py",
+      "source_sha256": "2535316451c71500535ad39d2eb2901329143145168a323bac4fbe9b9ed2b8b9",
+      "export_sha256": "2535316451c71500535ad39d2eb2901329143145168a323bac4fbe9b9ed2b8b9",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-native-rumble-pulse.py",
+      "source_sha256": "fba04774abb5d9bc1b27c951557ab8d662e4334816018cb0114c7a9194b8fa09",
+      "export_sha256": "fba04774abb5d9bc1b27c951557ab8d662e4334816018cb0114c7a9194b8fa09",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "source_sha256": "764d011064f0f6812375fde18db04c8e54f27fd1783037de1248ef327bf03129",
+      "export_sha256": "764d011064f0f6812375fde18db04c8e54f27fd1783037de1248ef327bf03129",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-perception-calibration.py",
+      "source_sha256": "ed6eaf668f004567878762b1277429c3c2d4581fcc8d365411f0dc48911ff936",
+      "export_sha256": "ed6eaf668f004567878762b1277429c3c2d4581fcc8d365411f0dc48911ff936",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "source_sha256": "a4a92c5ccd19944bebb5732883bef77416f54e4b4dacf7afe9c877b8935e6712",
+      "export_sha256": "a4a92c5ccd19944bebb5732883bef77416f54e4b4dacf7afe9c877b8935e6712",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "source_sha256": "7d8ee1d044ee4499d483550f6cd5e792963d6652da05ff2eda92e916a2907ae5",
+      "export_sha256": "7d8ee1d044ee4499d483550f6cd5e792963d6652da05ff2eda92e916a2907ae5",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-backup.py",
+      "source_sha256": "6237bc995049576f94c206dcbe94e49ef905a02f52bfe5d6326dcac7034fb960",
+      "export_sha256": "6237bc995049576f94c206dcbe94e49ef905a02f52bfe5d6326dcac7034fb960",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-runtime-disable.py",
+      "source_sha256": "a55563be61f95cd1afa227b616445bade6d59b79f8360eedff3f5cb2cd8db733",
+      "export_sha256": "a55563be61f95cd1afa227b616445bade6d59b79f8360eedff3f5cb2cd8db733",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-xinput.py",
+      "source_sha256": "b024ee99a4ed480e7c07d79bebb879bd16d60d6eb7e370124c259ba634d86740",
+      "export_sha256": "b024ee99a4ed480e7c07d79bebb879bd16d60d6eb7e370124c259ba634d86740",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_capture_log.py",
+      "source_sha256": "49e661258c4876591d75006d0b8f57c48af2f6d35e77543f438554cc05c423d9",
+      "export_sha256": "49e661258c4876591d75006d0b8f57c48af2f6d35e77543f438554cc05c423d9",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_continuous_log.py",
+      "source_sha256": "4c0cbe95a48c98eea998d1a52bdf52517019a9326a4756355a5fa554731e034f",
+      "export_sha256": "4c0cbe95a48c98eea998d1a52bdf52517019a9326a4756355a5fa554731e034f",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/replay-bridge-prompt-capture.py",
+      "source_sha256": "f9f7387fce2d2587fe03059f918ac8489599b13802e85c4ab7dff564e1cf37e2",
+      "export_sha256": "f9f7387fce2d2587fe03059f918ac8489599b13802e85c4ab7dff564e1cf37e2",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "source_sha256": "18fcab68f41f09ceb017d4b1820d17b88d290a620411e216c6ce9478530a040b",
+      "export_sha256": "18fcab68f41f09ceb017d4b1820d17b88d290a620411e216c6ce9478530a040b",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-input.py",
+      "source_sha256": "66c69e63093e1c8b2dc463985f878acfdb5ac66cb0cd7a90373c4e46449678ed",
+      "export_sha256": "66c69e63093e1c8b2dc463985f878acfdb5ac66cb0cd7a90373c4e46449678ed",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-prompt.py",
+      "source_sha256": "012621e74cb851a035bc5c00995976b63ab776912a7be4962a5a88dcb7c7a4c8",
+      "export_sha256": "012621e74cb851a035bc5c00995976b63ab776912a7be4962a5a88dcb7c7a4c8",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-runtime.py",
+      "source_sha256": "14ddf29eba1c21a13813ffc08117fb093ba0baed96de1ad1dd02d038f4fe4d5a",
+      "export_sha256": "14ddf29eba1c21a13813ffc08117fb093ba0baed96de1ad1dd02d038f4fe4d5a",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v040.py",
+      "source_sha256": "c6f103afce5800dddfcd02b833bd36fe7ff194dc9ab8f5a4f98ae29c1394b750",
+      "export_sha256": "c6f103afce5800dddfcd02b833bd36fe7ff194dc9ab8f5a4f98ae29c1394b750",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v042.py",
+      "source_sha256": "b497f9c4bf99a7e04aed0931f692094053b6ff51bd2af04f897803a0e20abef3",
+      "export_sha256": "b497f9c4bf99a7e04aed0931f692094053b6ff51bd2af04f897803a0e20abef3",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-format.py",
+      "source_sha256": "f1f078e2c3d5b34f968545e2258c25cd2142254772ac8fd3c3c82c09b9a6c019",
+      "export_sha256": "f1f078e2c3d5b34f968545e2258c25cd2142254772ac8fd3c3c82c09b9a6c019",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-ram.py",
+      "source_sha256": "2f9e48db543dc56abaa1b0f139c375e3fc2c7b376f55068ab250bb24eb3f1ec2",
+      "export_sha256": "156672eabe1e836e1dd01213af8b52956754009b5a0e6917957f70fe7e89b30f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v031-ram.py",
+      "source_sha256": "2b2cfc825e6c4a8860e8e4f00d0a52d2f432b0bbbc50bee99335efa70acbf143",
+      "export_sha256": "5a36f65d509191e6df3b5c239430bab6da797955a9aa2ee4b28df2f5d1dd3221",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v032-ram.py",
+      "source_sha256": "19c9384bf3dadcffe4e20ee01451b91af4e6816776af9c43216c2e7fe1c2dd4d",
+      "export_sha256": "d5cece4266190f94472bce7591f38248d4acebdfce249c9a6faa7d96d81cd83b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v033-ram.py",
+      "source_sha256": "e9a3c4257ff7d30703a279428e835bd516614a2b13929899c99d1d78c116b335",
+      "export_sha256": "974e0acedfebb376f2e0c7b9a6430fc275aaf8d1748dded664c2ed8f49463333",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v034-ram.py",
+      "source_sha256": "8078511d5e2a469256316691ca52690e5117419b8ca062eb11d11a33fb3cad5c",
+      "export_sha256": "53564c0017e9e2988a0a8b6e573ef9ffcee365920c94c228d90e3965c6b9831c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v035-ram.py",
+      "source_sha256": "aa8a81af6ab7d4af02608473317c7534771eef7892e373ab1ea21cd65d5b2c39",
+      "export_sha256": "fcbb50a7bc722f285bf61c821d7bad04632aa726e4e7a6178b600e7e5a3e2532",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-continuous-format.py",
+      "source_sha256": "b95f5b131764a7f6dd4b2ee7331b1be47be60a4de12883e612b4be5827cf0e6c",
+      "export_sha256": "b95f5b131764a7f6dd4b2ee7331b1be47be60a4de12883e612b4be5827cf0e6c",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-pro-neutral.py",
+      "source_sha256": "c18c228edd897d84db3a9f25c8dde9b16dd0f108d8274a63c888101e3379ef0d",
+      "export_sha256": "c18c228edd897d84db3a9f25c8dde9b16dd0f108d8274a63c888101e3379ef0d",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-protocol-lab.py",
+      "source_sha256": "e731b382f25564acd078273fe9afcc9680a2627f98f76ffc73b1f793bcbb0285",
+      "export_sha256": "e731b382f25564acd078273fe9afcc9680a2627f98f76ffc73b1f793bcbb0285",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-v033-cancel.py",
+      "source_sha256": "8c8b07180eb2a2411c98527afb1ebc231d180917faaa08700b1d43b1a3357bdd",
+      "export_sha256": "8c8b07180eb2a2411c98527afb1ebc231d180917faaa08700b1d43b1a3357bdd",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-wifi-udp.py",
+      "source_sha256": "c3b5591b7f440052973daebaf501a08691be94497b702c4d14467c378d15bf41",
+      "export_sha256": "c3b5591b7f440052973daebaf501a08691be94497b702c4d14467c378d15bf41",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-runtime-disable.py",
+      "source_sha256": "5654df39328be063897df30a1ad4f74159c5d206f2afd879ef1ac73db6b48a08",
+      "export_sha256": "5654df39328be063897df30a1ad4f74159c5d206f2afd879ef1ac73db6b48a08",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-switch-hd-decode.py",
+      "source_sha256": "5e4ca38730e51bfa8296c09df06da9efd151e43fccc4b828ae070bb6f580427e",
+      "export_sha256": "5e4ca38730e51bfa8296c09df06da9efd151e43fccc4b828ae070bb6f580427e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-image.py",
+      "source_sha256": "0f42267b083a704cc3c0660136ac7550aed9d52206ccd97a109c55df6f9a818b",
+      "export_sha256": "0f42267b083a704cc3c0660136ac7550aed9d52206ccd97a109c55df6f9a818b",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-v035-image.py",
+      "source_sha256": "dd60dad3df26989621d730b688a75cacca01ba991624dc948f08a57115b6e35e",
+      "export_sha256": "fa25235628d41a1a4549c3841ec0284eb6f57e5b2a3fed9ab1400439886e607d",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-live-bridge-capture.py",
+      "source_sha256": "067704ca89cfb212399cc55e5a58adf4880b9655a1f22725c597fe2cfcb0dc4a",
+      "export_sha256": "067704ca89cfb212399cc55e5a58adf4880b9655a1f22725c597fe2cfcb0dc4a",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-pico-v035-flash-test.py",
+      "source_sha256": "f53ef725d36df95572284fd13eec42c3526241f543c23096f3471981e95cb308",
+      "export_sha256": "f53ef725d36df95572284fd13eec42c3526241f543c23096f3471981e95cb308",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-ram-uf2.py",
+      "source_sha256": "a36c7d2aa8a1ea3e667c64823096e0227c75e07e86fa489ac09ef53f01ddb1f6",
+      "export_sha256": "a36c7d2aa8a1ea3e667c64823096e0227c75e07e86fa489ac09ef53f01ddb1f6",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/xinput_readonly.py",
+      "source_sha256": "c038e4a045891273fc6d75c78fd51d80f5711c791ef7ae84c8003c426b174357",
+      "export_sha256": "c038e4a045891273fc6d75c78fd51d80f5711c791ef7ae84c8003c426b174357",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v040.ps1",
+      "source_sha256": "46070f116085cb7251091c59fccac269dac8ea700a6da4d8c425802a5b03fa7f",
+      "export_sha256": "3060e4c67ddb0eeadccede2e2f6fecfb7a8c4ae3acc5d2bc1ef14555dc5540aa",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v042.ps1",
+      "source_sha256": "c3029ca204562d0fda5a9870bb0dfd618a18eaa3dac7729707a6a8cf729943d8",
+      "export_sha256": "16bf8a36f2964f624abbcf0c029ed207989340e19987327b4b9fd8364f0d0633",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v031.ps1",
+      "source_sha256": "b908753c140f5dcb2396f1f84e6572a7bab3a4737d8af4a313fab7716a823046",
+      "export_sha256": "b48a041dc2e6c503f7bab2d007d44436eac2ce368c5ad943a54ac14d555468bc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v032.ps1",
+      "source_sha256": "69d3c2fb412bc7faf741d32bd0a1423d220c1945c4e2f2bcebbc25cb57c25e9e",
+      "export_sha256": "238b19942d5f28d51fffa5073fa72097662bfb6541483a76986c3a841c80acbc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v033.ps1",
+      "source_sha256": "06936f7efa9e4be01a8c271a88c45f3e5a95c6cfc5360f2bd5455bd1b30bca83",
+      "export_sha256": "85654f5062bbbd0b57b9149eecc3ee1e219e49dbbcc6b9bbeaf50b0a6e200863",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v034.ps1",
+      "source_sha256": "68b44c11c912a2c2a853f439bf1786548843ea48de2555efbf6af2804ccbb49a",
+      "export_sha256": "1e004077105e404a33494e8bdb317b82ff2651a65df905c6389408d5ab31a58b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v035.ps1",
+      "source_sha256": "0aafe8f1869fee94682a36c24b4ee8888bb3eadd168c11324e6a46f82576c500",
+      "export_sha256": "e856cb8ea4c77dbe7359efbfbf794d43db23d041e3074cda92c034e4dcd13424",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture.ps1",
+      "source_sha256": "0825cc4957412ee2077274b2f524615cbc265ed2b0bdf5cecb96d19bcd57744a",
+      "export_sha256": "81af047efdbe4db179d538703ce97287bcbffc7cbcb471930a6288992f08901c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-neutral.ps1",
+      "source_sha256": "52a7b7f6c4d7c7eea1f6b5fe2893cf953cd608d01bb163dcbb2e1c7e56997a03",
+      "export_sha256": "3489dd068c2bf323700c050862b157d93c6a8857e4f6aebd9e0340ae325580c3",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-protocol-lab.ps1",
+      "source_sha256": "fe6ba3648b139fbd5b9c52cbe2baeb53ae7d8f8da038ebf2d1e7ff75cb6c5ec7",
+      "export_sha256": "e382a63bda74808f22b8b0b288b18bf72c408ad61094ae1c0e3d9427688ec6ee",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-smoke.ps1",
+      "source_sha256": "b8c57c6de90765ec2b788a0e13cfec664312c7beaa571811b877c5eee5de7ac6",
+      "export_sha256": "b6558aaa6eadfc281330866a9f37a0eff2ce55985269f5d59114976fd138685d",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-probe.ps1",
+      "source_sha256": "9393ac596fbc0ea7e12bc626d25a1b95869fff0574afdcd6d446349458520944",
+      "export_sha256": "ac992e9de78def5d2f46f168292807592ffabcd82bb900c1535e2f11133de766",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-udp.ps1",
+      "source_sha256": "b0cfdc7d39369f57a6a6d223c062861af6a0424e12ec1af6c32dc93e172f3f79",
+      "export_sha256": "4c9fa4710b5775634665b8a43da11e2e9c17e79c897e64b4c04b6ca62a931151",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/capture-pico-usb.ps1",
+      "source_sha256": "f3763f1ca7ca6a3f76341f04cde26512dea8e305281233cbe69ce7649a2deed5",
+      "export_sha256": "f3763f1ca7ca6a3f76341f04cde26512dea8e305281233cbe69ce7649a2deed5",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/enter-pico-bootsel.ps1",
+      "source_sha256": "c41f1ddf349334bd309fee63013f1377cdb0d8ba6ca575ef9580100389406d0e",
+      "export_sha256": "c41f1ddf349334bd309fee63013f1377cdb0d8ba6ca575ef9580100389406d0e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-bridge-v040.ps1",
+      "source_sha256": "507ecb210d37f3852b7f5ef46103518de3b8082ce1c31e77ba23d2d9456ac6d0",
+      "export_sha256": "0ce67b39ace567259b968e81c598b6ac69ca9fb23008df8e90734e69bd54ae2e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v031.ps1",
+      "source_sha256": "e5f9c0c9ebe0dda93ee132e7697689c392da48b64f20dcddf608eefcc28154fe",
+      "export_sha256": "21d663f1280d1f3527ead3970f8b728c5363336e9a48caf6807b47a27ea7d9e8",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v032.ps1",
+      "source_sha256": "fca86e3825e72300ad122b7c6ef256793f819f232d96c846b0c06fbead158590",
+      "export_sha256": "b47c5438dc8c26f4014a8776f3ed13378e436814f2760011d374b80196b51de6",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v033.ps1",
+      "source_sha256": "1bced88012fafb275b0691e46ff5a9c018daf247b22aa00e1f1f76c77b219b4a",
+      "export_sha256": "1055df2eb0f39f96625c0edcea3b9a09b5c169f323598cad1478b81726774f59",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v034.ps1",
+      "source_sha256": "14099bfbc67358b17c3eaccaaa9a62c14c1d5de275f5d506ed61c76878bf77ba",
+      "export_sha256": "4e5b227cf8aa0f08a3313929dd931016044f9c68c1c78908d606cdfe2bc79b26",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v035.ps1",
+      "source_sha256": "5127d450a0a9066b459482934545c7b5e768553cc0a927b1674de609f9a25838",
+      "export_sha256": "05a42d9ba336b5ff66db28341a82708915780a2fc35eaf78c6cc3c5c88e619d9",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture.ps1",
+      "source_sha256": "76256d4d618f680569d66b05c09059fb31d02e30d8388ffafb7b39557803ef00",
+      "export_sha256": "aaf25fd82f731ce8f34f332dc1b4d2581b9d4bbee5fe1b6615731b43d91b8b47",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico-hotspot.ps1",
+      "source_sha256": "09b1138be92c2eee169942ef983de271a9eb39c9a2a2cea24817b58e85d4707c",
+      "export_sha256": "09b1138be92c2eee169942ef983de271a9eb39c9a2a2cea24817b58e85d4707c",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/prepare-pico-build.ps1",
+      "source_sha256": "a5f96e593d690e091bb9d64a6ad21bf31547b531acfcfea93c473c6ad6bebe57",
+      "export_sha256": "a5f96e593d690e091bb9d64a6ad21bf31547b531acfcfea93c473c6ad6bebe57",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/probe-pico-wifi.ps1",
+      "source_sha256": "792c584d768569e83d54186ec9e77e50f4126af956151ea06209b062cef7390e",
+      "export_sha256": "792c584d768569e83d54186ec9e77e50f4126af956151ea06209b062cef7390e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-capture.ps1",
+      "source_sha256": "557d6166c33aee21e9ae8349843b800ca30391b93678bcf8d5c300138d13cef0",
+      "export_sha256": "a465478c393e57069fef851e4c8a8dafca524adb99c51710df8131ac1d2b4953",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-continuous.ps1",
+      "source_sha256": "d3bebf6a21205d70aafc14dd7c470fbdb4701ee792c126d770aeda8e8797fe83",
+      "export_sha256": "6617c46cc0f2e1023d31c68e1bab0886f9bbf63a30540ad38fb9f4e0cda01ed4",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-hotspot.ps1",
+      "source_sha256": "9f1eadd1d525eadf4144dcc903e81be253cec003d9e8cb636725fef9c3c12a75",
+      "export_sha256": "9f1eadd1d525eadf4144dcc903e81be253cec003d9e8cb636725fef9c3c12a75",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-pre-capture.ps1",
+      "source_sha256": "dcf9e5ca8b939a59bd71bffb3e2cdfd0a267ab9d4385452554a30c393fb7e4ed",
+      "export_sha256": "d382bb61448ffe0a9ce725ead101dc0e653353525058f6f7e4fe0626da62e010",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v040-raw.ps1",
+      "source_sha256": "ee76972fcf915a99d35ed8f69239909cc7c58efdfa8461f86871dd96d2156c2c",
+      "export_sha256": "1bc4000f1a7e3f25e14bd906e4181c10f28137addb46a057255ec4ffcb757367",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v042-raw.ps1",
+      "source_sha256": "032613b80cb11deb4d8bd84ccc27994a63cf3d4140ddd1204fcfb2acfe31e146",
+      "export_sha256": "43b94c73d3c8d9c51ebf766c806cebdacd44c31f8100e31e0c8808c525c39dd5",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-pro-neutral.ps1",
+      "source_sha256": "e3846441d9871221d5dafbe8a0bc74540ae5e4ca568f6aa0c395dd8b0814a210",
+      "export_sha256": "e98e468a644fbcf1f09702594dde1d0460410c4860651908fc1bc1e6202d9485",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-probe.ps1",
+      "source_sha256": "c1bf5204d89f70446afdb66e9a3cc84d815297b89cdb2808f78b3a33300a3b83",
+      "export_sha256": "5a36425be62788cc86c761265d878ee6e44187e9c412f68644a1118ca91a4b3c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-udp.ps1",
+      "source_sha256": "790803404608dc722816ccdbad28b369556d327e854aef9351bef5cc5b795c9a",
+      "export_sha256": "f4deafe0153b1e12ce141f13221325567a9dd5d5f394c99cbaf40d744317677a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-native.ps1",
+      "source_sha256": "47b8dc2ebc9a9809cafe693b4f312bffc01e836505e2634a0440db0da537e653",
+      "export_sha256": "47b8dc2ebc9a9809cafe693b4f312bffc01e836505e2634a0440db0da537e653",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-repl.ps1",
+      "source_sha256": "417949c85e0712966bb39e0c685c90a17a73593c10a672579c7e9296223fab67",
+      "export_sha256": "417949c85e0712966bb39e0c685c90a17a73593c10a672579c7e9296223fab67",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.c",
+      "source_sha256": "3e79d6d09740a9edc60979488065d5d12abf942805d1dced5713c947556417f8",
+      "export_sha256": "3e79d6d09740a9edc60979488065d5d12abf942805d1dced5713c947556417f8",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.h",
+      "source_sha256": "6f527f9ea234b24a9b1e7315b9524dcc6a65526b18ded99c2b963765f2d502c5",
+      "export_sha256": "6f527f9ea234b24a9b1e7315b9524dcc6a65526b18ded99c2b963765f2d502c5",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.c",
+      "source_sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b",
+      "export_sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.h",
+      "source_sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653",
+      "export_sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/CMakeLists.txt",
+      "source_sha256": "d6d89ff6e942bdb0c1d785ee65e027105d1d09594df9f3544bf0face33048b81",
+      "export_sha256": "834651870a88ed241f831502a55e58d22b36b22624f7fb80877cc165dba5c414",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/LICENSE-GP2040-CE.txt",
+      "source_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "export_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/lwipopts.h",
+      "source_sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07",
+      "export_sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/main.c",
+      "source_sha256": "a836bca7a543eb7cebc53ddcc4c488359655c2d75134b30d66f4c6487a32ed41",
+      "export_sha256": "71e2d929cacf67f0f4dc60b053b56c3abb57de84ada028c56ccad2a1940e074f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/pro_report_descriptor.h",
+      "source_sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c",
+      "export_sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/reference-manifest.json",
+      "source_sha256": "9981227b25c8959aa7ac6101e91b80ce5ac304c4314ceb853fa0ed90a465b623",
+      "export_sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/THIRD_PARTY.md",
+      "source_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "export_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/tusb_config.h",
+      "source_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "export_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/usb_descriptors.c",
+      "source_sha256": "b367b3dbc615f594b06895384c0103dbf387ce6ab6e5fff7a532232771257865",
+      "export_sha256": "7808d759283e9e4fb7c3127ff1123077361e2d7677de42aa85683dee50ba2d30",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.c",
+      "source_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "export_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.h",
+      "source_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "export_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/refs/switch-pico-LICENSE",
+      "source_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "export_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/refs/switch-pico-source.txt",
+      "source_sha256": "46078ea80dee6ffaa462938d5d0f384c3165859743e97cc3d27b538f3196622f",
+      "export_sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.c",
+      "source_sha256": "c818330c153d9eaf0d933a98414de4a8df5f12f3cce1c4e153ed4011111fd225",
+      "export_sha256": "c818330c153d9eaf0d933a98414de4a8df5f12f3cce1c4e153ed4011111fd225",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.h",
+      "source_sha256": "2da6dfe1da06eb501a5b63bc239c2c73ad350dfce85021f4cccc817ae84c2f5f",
+      "export_sha256": "2da6dfe1da06eb501a5b63bc239c2c73ad350dfce85021f4cccc817ae84c2f5f",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.c",
+      "source_sha256": "cf8c3132f30ea8eb30b8e81394cda6ce7ced008ff64e5f4aac976a2bb802f415",
+      "export_sha256": "cf8c3132f30ea8eb30b8e81394cda6ce7ced008ff64e5f4aac976a2bb802f415",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.h",
+      "source_sha256": "e436b8cbc14812d7f93f84813cb3877b0205da948344b229f2350352e777e619",
+      "export_sha256": "e436b8cbc14812d7f93f84813cb3877b0205da948344b229f2350352e777e619",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/CMakeLists.txt",
+      "source_sha256": "cc5128ffe78048aab4630c20efa5e4da0023b84b6fbbe3428b6bd04e08a4b866",
+      "export_sha256": "3996c00aaca13a592b213561b6186973d1a1a114c819c0f032c3a92d0949ddb1",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/LICENSE-GP2040-CE.txt",
+      "source_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "export_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/lwipopts.h",
+      "source_sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07",
+      "export_sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/main.c",
+      "source_sha256": "0c160cea7d0a77c294fc6219076860cf00d27681e7fefd11a3805cf25ea0ef63",
+      "export_sha256": "3f100b9be5c308b52db145003cca9a163b3ac89efe35a36c3569c5440a3132e1",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/pro_report_descriptor.h",
+      "source_sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c",
+      "export_sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/reference-manifest.json",
+      "source_sha256": "9981227b25c8959aa7ac6101e91b80ce5ac304c4314ceb853fa0ed90a465b623",
+      "export_sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/THIRD_PARTY.md",
+      "source_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "export_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/tusb_config.h",
+      "source_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "export_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/usb_descriptors.c",
+      "source_sha256": "8bb0b9e5f3d1d446a0642052682bccb3f547b588a3c42d1d99afe59d69b4fdef",
+      "export_sha256": "7504ccc18b3e81942128560bbbc6e1e101c195ac03273ca199ada4fbf81a528a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.c",
+      "source_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "export_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.h",
+      "source_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "export_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/refs/switch-pico-LICENSE",
+      "source_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "export_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/refs/switch-pico-source.txt",
+      "source_sha256": "46078ea80dee6ffaa462938d5d0f384c3165859743e97cc3d27b538f3196622f",
+      "export_sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.c",
+      "source_sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b",
+      "export_sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.h",
+      "source_sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653",
+      "export_sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/CMakeLists.txt",
+      "source_sha256": "93a039c7c344787f3c6857d09e0a6d09419fb883b16a10edbff1b3a954f53d90",
+      "export_sha256": "f904dd5b5c176e4b55198a18e3fd2a7e8e8e541ae101d16183909a6487283354",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/LICENSE-GP2040-CE.txt",
+      "source_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "export_sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/main.c",
+      "source_sha256": "ebf33b7312409bfcf86c003c436079a1c10cfedb8c4261039f51fc9ff311963b",
+      "export_sha256": "98fa9f02f63782f66ece8227a6666948e064a9f5ec0afdfcc770337d3e997f50",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/pro_report_descriptor.h",
+      "source_sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c",
+      "export_sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/README.md",
+      "source_sha256": "67f3afe8ce3db802ca810c096aa4a81dab7140da6a3b077d6594fc2e5aee046f",
+      "export_sha256": "67f3afe8ce3db802ca810c096aa4a81dab7140da6a3b077d6594fc2e5aee046f",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/reference-manifest.json",
+      "source_sha256": "9981227b25c8959aa7ac6101e91b80ce5ac304c4314ceb853fa0ed90a465b623",
+      "export_sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/THIRD_PARTY.md",
+      "source_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "export_sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/tusb_config.h",
+      "source_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "export_sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/usb_descriptors.c",
+      "source_sha256": "f040827d71cea5e20a721a848253230fea92de6373dcf0000fba248808152bde",
+      "export_sha256": "033072a39be4bc0cbfef323fe307c9e263410e8bff714548a6b91adc297d66c9",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.c",
+      "source_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "export_sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.h",
+      "source_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "export_sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/refs/switch-pico-LICENSE",
+      "source_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "export_sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/refs/switch-pico-source.txt",
+      "source_sha256": "46078ea80dee6ffaa462938d5d0f384c3165859743e97cc3d27b538f3196622f",
+      "export_sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/work/references/missioncontrol-LICENSE",
+      "source_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "export_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W接入检查.md",
+      "source_sha256": "ca0c2c4b7a27909ab538f1c0163148ef891cf41fd0ac459f56c2c3ce01c3c81d",
+      "export_sha256": "bc9d89242f6fb5c854607ccd210429337e8ee562f57ffbe2683a600d047cff7f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W最小固件测试结果.md",
+      "source_sha256": "e831fe6f2a40d980014563644cb61837251232ba9fca3a2453178c519011e6da",
+      "export_sha256": "8d30013358c729745433da833f2dca650f278b1cae474cd819957f026da54672",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico直连接口与键鼠排查.md",
+      "source_sha256": "609f13752214dea8f9cd4e16c9e3ffa0409174c3cd68ed74d103e3d813cebb12",
+      "export_sha256": "64de2381dba204afd809e917e37b109bc1e1f9920f62f870d1fec177829b9d6f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2直连协议路线核对.md",
+      "source_sha256": "b423a62294567d40d5703f14c83c60c494e75b84317f448088eda34e4f07b180",
+      "export_sha256": "043e4bbbdcf2e21ea2ac9e5455e6189802292b967cf3e0b8e492df0a9d97a01b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第三轮识别记录.md",
+      "source_sha256": "8228f5b1e42775d3d13aee14b90cada76d869ba5f48e8b9ef05601ed3128f8f0",
+      "export_sha256": "f1ca8eda83b8fbfd19a0281d5288ac3ec2d4bb2ff2e18f2f9a4b70dcbabf636c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第二轮识别记录.md",
+      "source_sha256": "ec58b661985e5e985de7ed8dac9c19e8df161604bba7de9d12ad4b2e890986c6",
+      "export_sha256": "ae380eb804a919d0c0ec2229603a262146940587e04dfd38d5d3273859165672",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第五轮兼容验证记录.md",
+      "source_sha256": "4e483ffd31420aa000dcb0629503ae2a72c7e1650176b650c672fd6d55fec176",
+      "export_sha256": "33ebb8820a5fd530cb30d13c3b7f7b43e2805e20069499d63d9d5a7d6b134f71",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第六轮连续采集记录.md",
+      "source_sha256": "84a9fe3af9bd9f497649cc27117d338c6fb917e16e71776127c2d9056769be72",
+      "export_sha256": "ece8666d059276569462d3e87d7cc39e85760a073636d13713a5351b5a897cb7",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第四轮登记记录.md",
+      "source_sha256": "4e07d6ccc89c6d2cfc9d57698499b5c9042ae367b942a5b9f41666af42eb5419",
+      "export_sha256": "44ae92957b2a26c18c502a8b504b1f538d52ae4622f8e9afebf4838f05daa203",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2首轮识别记录.md",
+      "source_sha256": "f64053a067274cca9a8307b72ffd019577dc26a69dd48991c698a0ec58043638",
+      "export_sha256": "382354907e38eaa4fb531797a0af9117a70a2f147e0737060178aa4122adc31a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/受限回放与无线链路首测.md",
+      "source_sha256": "d2b9a54aee1a8af997ba741c25ccd452e740df3eeb12c3fbb8c78fa8db9acccd",
+      "export_sha256": "b3e20d16af6d50a639ed4c83c11f1b69645f1dc2a6dea5888e01d192c17002c1",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/可感知提示模式主机复测.md",
+      "source_sha256": "fb792a35c36dec230d2741b3bee28e9cfacfbd9831cc191315d0b27637dd2ac2",
+      "export_sha256": "2c7664319e966ae4528c00a45c07a64367cd91f1393bc919da2aa709af943cfe",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/实时桥接v040验证记录.md",
+      "source_sha256": "0f6ce1bbc90bdcbac0b2e0396808ce0a363c142e106b46d9794e2546631a619c",
+      "export_sha256": "92772ab8e9c530aa4967c3f04ad81be23fe4e4d846a0dfec9526e3d0bf0b749f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/游戏短测暂停交接.md",
+      "source_sha256": "9bee73837228b79e11e98587a48bb4fc6eb4d1dfe4a60f7142fff63bf9ab6e54",
+      "export_sha256": "3817997a7af0c4bfbd7e22391519d70f9a66549c3fcf0a4457966d052f3a3f88",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/短震动体感校准记录.md",
+      "source_sha256": "1f3bcb99f2875f8ac37725df6a2a40885835cb9e6250b815c3d52368465e6fcb",
+      "export_sha256": "1692552a084219f8ae82d263b949d131b7f39658e2af43d491b3811f142f3109",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/项目进度.md",
+      "source_sha256": "cea4dda2ce0cd7a934eccae7ada40d073b03e3d0df6483e180e7f077bbced00d",
+      "export_sha256": "979b2275a14720df97d6af1c047483f56a9f2fa908d3e6aca95bd2ae54fd5eda",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智Engine扫描分析.md",
+      "source_sha256": "526a1122b19cf11b6fc6de493ac30887e76458e3c50eddee06e190c58708bcd7",
+      "export_sha256": "c40004f307f19689e3e43c61048d8f9050b35eaf66ac47b438baf5f04d494032",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智实时通道退出验证结果.md",
+      "source_sha256": "90c82b4d5f7df84b23770a6b8141e344317c546dae0e7b234f9eda3bf0829387",
+      "export_sha256": "b044e7d1e0dca719c8c997c14b1e9dc895bd2bdb8b8ef228203ffa49d65c4a69",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智左右独立与频率差异验证.md",
+      "source_sha256": "7caf71de8e7619e9dfb2ad96386468d0a0ee411c5b22e1e508088af71a5ec190",
+      "export_sha256": "f3926266cb7e319703651e933a5428d31b56e2353d6b91314dddcf206fd1566a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智手柄只读检查结果.md",
+      "source_sha256": "ede612e59a702a9441de7ef70a31c1b30dd78da94e448bcad9064c21d2d0fa61",
+      "export_sha256": "4cb7d57bb877f2be1bee9361b8ef119d0ac5a37474ddbabf142c2fcf0b19a5cc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智故障停止与接收器重连验证.md",
+      "source_sha256": "2e3b971540421a994a9b2639c5bbe4622f3647c3284ed187c696d14f55a61e84",
+      "export_sha256": "2e69cc37b43851d14befc87ba166e60c5abaad2066b582ab868e20326a19dabf",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智波形首测与配置备份结果.md",
+      "source_sha256": "758a26555df6dc3373a849576c06cadc0c237353069774d0f79f4817aa590cf4",
+      "export_sha256": "2393a7741f76f53c794061479dc3ea91a05dab6a9a33e03aa0d1ecc6f0aa42b1",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-flash-diagnostic-20261022-154239.json",
+      "source_sha256": "6436c1c5e0cdd17d5df6db39848b81b737e709b690a4a4c0668f8de621dcf426",
+      "export_sha256": "3c314cb9828bd8feea20ab1aad1c269f421e905ca3cf47df4a2c791e02d869e5",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-perceptible-profile.json",
+      "source_sha256": "135af444e2f62ecb6f34fd6a7bb6c8a9523914b2cee20f298f69e3017d6445da",
+      "export_sha256": "135af444e2f62ecb6f34fd6a7bb6c8a9523914b2cee20f298f69e3017d6445da",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-endpoint.json",
+      "source_sha256": "a196ab518f6d85192e4ce9c1719ee3508847dcad9d4c64bda799591e94ce3566",
+      "export_sha256": "ccacb5649b998f5b72645ae59089f99e366c1264b9781db3ba142a6d2fc6d3c9",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-human-feedback.json",
+      "source_sha256": "6905afef0908c585779dea842c7b1b9ba87a06ab71700e267cfcabc1ce8c22ae",
+      "export_sha256": "6905afef0908c585779dea842c7b1b9ba87a06ab71700e267cfcabc1ce8c22ae",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-runtime-tests.json",
+      "source_sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687",
+      "export_sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-switch-live-proof.json",
+      "source_sha256": "73c8b270f5d3b42a7e694fed9353d20247fee17219b2b760bfd4c5661306bef8",
+      "export_sha256": "6e22dde8a9199f0cc634367fd24c75463177e5ea35f9524bd08cf9694b5ae368",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-captured-prompt-simulation.json",
+      "source_sha256": "2fcfeb615458056fdca5a6c2e682cc017014a81b7d7bab186fc5de117b66f45c",
+      "export_sha256": "cd6384ca868f8a08eb1b184a0f722ca3e1177b440c923c5aa33bc0b198bd6069",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-human-feedback.json",
+      "source_sha256": "f3e61ebad907f651929cc6d5cff0b95eedc74c90742681b51d25f9aff498452a",
+      "export_sha256": "f3e61ebad907f651929cc6d5cff0b95eedc74c90742681b51d25f9aff498452a",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-live-proof.json",
+      "source_sha256": "ac68e9acac3d3e988eb13e9d22b16c675db287fab9c27977a2766fb954b8b61d",
+      "export_sha256": "4eb37398af8eafe6cc46de39fc855cad7fe69430fe4aba8edbf611206a542472",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-first-human-feedback.json",
+      "source_sha256": "1b7ff881a7cb1077224fff364537033fdffcf65f727578f8b455d3524b56c339",
+      "export_sha256": "1b7ff881a7cb1077224fff364537033fdffcf65f727578f8b455d3524b56c339",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-original-runtime-tests.json",
+      "source_sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687",
+      "export_sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-prompt-tests.json",
+      "source_sha256": "6074ba57c0444af063e21850994c1865fde5817dcd524747ba6ff7c7c60904eb",
+      "export_sha256": "b56fc4f76ebb6335e265d9f1f217d30a60aba8f67ad626e060eb60d141a07458",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-endpoint.json",
+      "source_sha256": "5bf8f15ee1d4732b0fae15c33ff8bdc4c4588120799153d8d54846dec50a70dc",
+      "export_sha256": "c5d8568019303e9712c276e56af6ad41e76f5e8f78d9d0f624e0fcc49c17d20b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-input-mapping-tests.json",
+      "source_sha256": "060f97085166c132d1f59e22f17338617ec6d20adafc739620c6a66f8409fbdb",
+      "export_sha256": "3ecbb0e4a4b181898fe9dc315654c31ba308be7f6dd54525b6c9db6f7f36a1b4",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-log-format-tests.json",
+      "source_sha256": "f101682e9672f0b58acdbe86bb0e83e8636f8b5a6031b76690d35f27c2670240",
+      "export_sha256": "0579ab204f947bce0819d7c902231a96a1ff234f208ac73f4a05761352d34651",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-prompt-tests.json",
+      "source_sha256": "6074ba57c0444af063e21850994c1865fde5817dcd524747ba6ff7c7c60904eb",
+      "export_sha256": "b56fc4f76ebb6335e265d9f1f217d30a60aba8f67ad626e060eb60d141a07458",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-runtime-tests.json",
+      "source_sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687",
+      "export_sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-20261022-160239.json",
+      "source_sha256": "5955c2ce4d4b93e78b44b02237e97fdacd13d7250b2a74157f70c4ae92e9bcd2",
+      "export_sha256": "46e209071cd94f35b61bca7cc961262876b2577fe848d7b1673c44d4628cccbd",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-child-20261022-160239.json",
+      "source_sha256": "30659b86f75ce507a27afa1631a6a8ccbd0cdcb11536b4210089ec5803c2fd21",
+      "export_sha256": "764844d5fe2d05760ec1389accc0e4dbd3b311df95028641988407da7ba5de62",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-155916.json",
+      "source_sha256": "59831fe719066327247c25ea8a6f93c6fbc75ba609c28d6647f7bb928c136f82",
+      "export_sha256": "0bdb40252c6c57672c093853f57bd503482c2532d5dca2af8e4ded7cddffd887",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-160051.json",
+      "source_sha256": "4eaee7a3be7005d88f5b88675e21f345def5b7bd2cdc08e606151bcc2106bd91",
+      "export_sha256": "dce34a7fed847292c1c511a20169f18b21e9acaec4daf5d2edf41b9d78229cce",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-155916.json",
+      "source_sha256": "47e3f50d259b164611df469f1b178715f19e9cd34af9443b6527b90b3b8690e3",
+      "export_sha256": "54c3ed9530d27b23560ccacd3e05ef864e902c49a2f998bc3948b960142eed49",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-160051.json",
+      "source_sha256": "04030da0ab7965e990a89ccf7aaf2fe4926f1f4d1f21e1ee219a13c8fdcd5f29",
+      "export_sha256": "73c5b8c1a27f7fde4b654ff87c67750c36b447e424bd7345ecb7ee187813d6ed",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-161847.json",
+      "source_sha256": "6462ab83488fa8673b283ef2d1079f286cdc6bf125d00766940b94faad232df7",
+      "export_sha256": "a699db671a6a66b17284063712012497044c95eefc89e448c909c182a8a202af",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-162026.json",
+      "source_sha256": "229ae4e1277e9e6ebde94d30473f01428c648b609b3f54810ab517d4842856e1",
+      "export_sha256": "bf4a67ab452d86a89de5e0bb3e3217bb2b6fe4d393f82d11dc167cd6f162ed57",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-161847.json",
+      "source_sha256": "06099ba667f01b2efef9e10c936d95b77432bbfca7ab9cb8c2c140dc56db47ff",
+      "export_sha256": "b7be5f08a556390f6e2a3cef4961e9d54a57430196e81a24487920be9817d253",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-162026.json",
+      "source_sha256": "60cd6711ea6bc04bdd5ecffb2145ca474e9fea89a835d625d69132436119a965",
+      "export_sha256": "dd716f3877fdb3afb7890a96ab33229e15341cc03f5b6943084f60ae4ecf25cc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-20261022-162328.json",
+      "source_sha256": "f530f483338df12d7e67a93bc88e7eb4aa1346405557cc129ddcb2ef844ad7da",
+      "export_sha256": "8596de7aabf231f49a8ad75b2d3c85be0e165ee8be82f34a92cfece28ab30ee6",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-child-20261022-162328.json",
+      "source_sha256": "ed2afb693f63c1da35b9ff37aa9ca5526e84385ce02adab1a497435883867546",
+      "export_sha256": "1a9dca246d1f59084f990f62a481171a45f7de829dd86cab0c8b0aaeb66575fb",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-config-recheck.json",
+      "source_sha256": "2bc4caf7f8bb382710cb849a81b69dd75fd0daddefa28339a4f86b4fb21b11be",
+      "export_sha256": "77b91073ef91c699ee5d50e5af7e71154b14b4ee795d9dc39f68d9b33942474a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-tests-20261022-113717.json",
+      "source_sha256": "cc4bd105e86d9df6c711838a6b3ee5bd312ade5bfa2c096ed914b21783459eb3",
+      "export_sha256": "eb4eb002b461549b97e037b541bb1ba9d67514493a825a3122cae44bb1b9714e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-user-feedback.json",
+      "source_sha256": "02e2651f31c66ead7435be417769cf18fc9fc2d9cbd724284bbf75661395878d",
+      "export_sha256": "02e2651f31c66ead7435be417769cf18fc9fc2d9cbd724284bbf75661395878d",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152412.json",
+      "source_sha256": "2e1525040ac33110d616c8d4aa2b9579971dc9e0166e83ab27ab22ed1e77844f",
+      "export_sha256": "0bf6eeac1a5a793624ccd5ae8ead11df5498e9b282119a5a739404c9fdc94d7e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152540.json",
+      "source_sha256": "b558c4ea691516e1203cf3e2c2a6ff10f21ec3278b84f0c7a6c0641a0494ac4a",
+      "export_sha256": "f404b6f4acdf5ee9501fe2cbe2948153d3f3f927b87495d8ec34b35decf90fe1",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152708.json",
+      "source_sha256": "55a99672f5031d9d222d9b994c92e3dcd8f72457c329b497edde8e75423f148a",
+      "export_sha256": "7e9708e4321a21791b0579a55ea11e3472e9bfd10d8620a14e0ca7b8f0b32231",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152943.json",
+      "source_sha256": "ad5261428719dcb6129de91e560f5d297b1a1ca3154cfaf127c6e075c070e2c8",
+      "export_sha256": "e3807a0cea8461f955e43db81f949d942503e63393f7926c1b49388e23edd6a5",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153139.json",
+      "source_sha256": "71a65681a97ad5104bc7cbcc3d1fc7a74f6e6884a3cf2c018b702e4316425c6e",
+      "export_sha256": "516f5cf5477fed29fde993a09297d70053a60325ace345dc8c8d75c2caec077e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153429.json",
+      "source_sha256": "9b28f5fba2503f3f5e535fdd0d21e8b84b2e8b55889bd06fba51091c72088470",
+      "export_sha256": "72783db20d63c2f77db0392b2868f93f0341d594f46facfc6c77a3d6b6b03486",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153807.json",
+      "source_sha256": "27f061a4725b555477eed58c63920cb3bcd3ed9f7170a4fde13425b7db0ab5a0",
+      "export_sha256": "cfda05aea0aad3ac24f08d593ab4d69876c2af5da69d73e2cc730b2f2aeb6782",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-154521.json",
+      "source_sha256": "0faa100080903cb63cf8dbed24ec0ff2e3374612f80042eb752d712a012ba225",
+      "export_sha256": "bd2cc8c58c8d4afe3dbaa9fead7a698b1f8d22769bc5fb7be026d4bdefce9137",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-155010.json",
+      "source_sha256": "336313dbed28f8c6643785dd7a6ea5219754b66365be6d499ac4fb9e040e329d",
+      "export_sha256": "d6a8f482c76416457058bbaae808310766a590521eab5645b67831517ea765ee",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-161338.json",
+      "source_sha256": "0372e7d43ee4023ed1054a4e26d91581435788d0e5c0f4ed8513297935c416e0",
+      "export_sha256": "7801396b293fb8784b94c9124f4a182c746380702f40d2b70518cf8403638872",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-162748.json",
+      "source_sha256": "e9f090a4db544f75d1f9880b6a08d3b51c58a64f82fae4184fe3539ccff874f1",
+      "export_sha256": "3f8ae8e1a5dbad28f1f1d8a8a5319e99dca8ca8db8fcb959bf354f268e87c26e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152412.json",
+      "source_sha256": "98fe8f613e2c0e1135f0dbcefaa8b1a34113a2a82e7c9d405db31d1445f3a080",
+      "export_sha256": "64f41880737ba6b31a419d46b25aa0f440df7c37b9effe92b265687170f9756c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152540.json",
+      "source_sha256": "ba05a4cab4e0a25e29ba119e8bfce2f95919f82815ecb114778bc73f69f06408",
+      "export_sha256": "9bb2282c3015f48bf68ecc093aa48f0d344c7f2285c8cbbed023441c9515deff",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152708.json",
+      "source_sha256": "56571d20228367386cdbec1dfad7d7c39d0744a87507ad3c28279295ae975612",
+      "export_sha256": "fcf00ac7995cd20adb3115d3f4b8aef4fde4ec218fa8a67a369098c815bb41cc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152943.json",
+      "source_sha256": "d9dcb5cebb5b95d477127158405b7e6d144379beb9cc9d7ff5e785a740b8e6ed",
+      "export_sha256": "0b34c7237c0794e4af7ac3f6cff42cc3854cede4a3b0b763146bf961e23629b0",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153139.json",
+      "source_sha256": "3a8a2ead8e0c0ed11c38abf6fbe66e7364595409d9c1a0c4226f8b7f44b6490e",
+      "export_sha256": "73badc79a7dadc51579b17a9b9bce0b23fb1084621eadf5c8409b4a07518b788",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153429.json",
+      "source_sha256": "4b49dedde753b448776824b0a1c84b208d12a5f5949af9feea4cffc7b6c2df22",
+      "export_sha256": "4f530c97957751664d71286f6abda8e7b6beb127e3775019af9ace59e7a528a0",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153807.json",
+      "source_sha256": "a75fc0e2d801a859c53e37ef37b5de9bf8cf1e260a50657277c5ebb1ac93575e",
+      "export_sha256": "bedf10dade39fea4cffcd8aa2484204d9c6a4ab5f22b45a46c03f392a0721a58",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-154521.json",
+      "source_sha256": "1885100b833cecec74f93b488f54e14f01005855fbf696d42b4d40be091e734d",
+      "export_sha256": "29f72b452e68f980267b9c91e85f6ef86129442539993656c4b705a32348e09b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-155010.json",
+      "source_sha256": "17fe1c382e207cbad7485b99a6feecb31ab573bec5eaaec979d859822308faaf",
+      "export_sha256": "e7e8d0968d6bd60451776387c14978b422ed4610847d96115e3d75d427fb117d",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-161338.json",
+      "source_sha256": "8ea665c87105e1372e0f19651c37ff4be7564449e7011bd08e7a1a6ad50ca605",
+      "export_sha256": "45d71339205159e1416b0bbcd46be57955227faf714366f794765b636b805732",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-162748.json",
+      "source_sha256": "7f4d2040b3cb2b70e4a886f912bda1855469ba39d4c1d346e58cb47d031ea32f",
+      "export_sha256": "03316514cfa2952394df9b1b9a7647d87fb035dcc83e7844a50bf8ec3bd52afc",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner-hotplug-user-feedback.json",
+      "source_sha256": "8260eb73e2c6186567091e7bb8efede753eef4dac029ead500a449c80ad756b6",
+      "export_sha256": "8260eb73e2c6186567091e7bb8efede753eef4dac029ead500a449c80ad756b6",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner_kill-20261022-114823.json",
+      "source_sha256": "9f3d73ce546031d32605e0ef1088bd0e0015b8da23dbb27ef0e6506556153731",
+      "export_sha256": "3fd32b036e72c335065095449199ca84cba987f2df0976686dd147c199323d6c",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-perception-calibration-summary.json",
+      "source_sha256": "7d75bb5e749bd31a44c8d56915d5a4941ccd4ec583dc22b66c8bb594a3bc66c0",
+      "export_sha256": "7d75bb5e749bd31a44c8d56915d5a4941ccd4ec583dc22b66c8bb594a3bc66c0",
+      "transformed": false
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-receiver-reconnect.json",
+      "source_sha256": "ed44119167acdb5160f797ce8db21dfbc7c0f5d80514a55cb9a207638c113428",
+      "export_sha256": "3aa113d72e72f08ac2d6e2f9bedfefdd32904a7f3a0e417a51fa145af6a7ccc0",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-111745.json",
+      "source_sha256": "48a986b44d9d9b6ddee4d6ed53b8e9687ccfc71f259b23998c632d8552a6efec",
+      "export_sha256": "f17a59f04aa14b822f85f255c31653e01e443603af3cb537afb5fa9bddbc38c4",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-112051.json",
+      "source_sha256": "347401f63b99da79e6b9581159f19cdb10d1fcd138c0d948b1c1ca3080756a33",
+      "export_sha256": "ec5e339406cdcff6338eab1a4722f9561d50cfd6e6716ea880f8212e1f7d0b72",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-exit-validation.json",
+      "source_sha256": "1b0f3d849e6941a3e11a10e25d134514bae89e450d7fe16e62a70a555efe1904",
+      "export_sha256": "4f6c89d97c1541cac548d79bc61c926b35686ceeee726406128a39713729746d",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-install.json",
+      "source_sha256": "b6c55be83671a14154a9c5c04b9345c79051b9da79e91323587e3fec1859736a",
+      "export_sha256": "4a29c411d0b77e5b73f06b367d445b21e62e53fc840196e36c11b96a6ce32188",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151501.json",
+      "source_sha256": "1823a5c2ce1595bef95d99426fba4fa3fe5a3c9a18e4be9fc6ebb29407cc4b32",
+      "export_sha256": "fcb781188e1eedf8c75d001438d23788b8c2aaef33f13bfdc779a3ca0bfa03e0",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151740.json",
+      "source_sha256": "0d6bb180fb0f6c0337fa5298cc95c6cb56d955fa1ae033ef56c56ce8d525f4f6",
+      "export_sha256": "7bae80de5b1a5352e3433e447130558a2b9be98d9ab50efb9845498926d9edf6",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-152208.json",
+      "source_sha256": "25eb433e0fdcd2be74f75980f6ac553b4e27dc39b31f25c56ab69f4cf36df36d",
+      "export_sha256": "17b7d4e3e01aa8d1d24e71f467502f94918cd812e0681919b839ccf710639a60",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153351.json",
+      "source_sha256": "2a6e0b42e5277cb2bde7b15513cd8c6796a4161a7227d5bbe44ba78cfa50b8d4",
+      "export_sha256": "1b3f2070827647d70b8b7d051a9afc9c10f5df252c369189bebba03197a0ac92",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153613.json",
+      "source_sha256": "051c87ade10c82736cecd07e74e5694e4369e70892b6984abfb2b105207ef724",
+      "export_sha256": "f70b2d64d0da0026364c535085fa630de1c0d79cd047f5ef6c052681d9c48d31",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-164454.json",
+      "source_sha256": "9504b9f46ec612410387808fa21dd4302653037b62f1d831669246e06a0f2df6",
+      "export_sha256": "fe57b67ca51383ef7af67a9b9f0eeaac4183a986c115954d86ed3cfab94ae70b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-165112.json",
+      "source_sha256": "455bc5460eb60042b6e23dc17c5bbf063b86b2206f77d6f9c72de78f25b510b8",
+      "export_sha256": "e60b7a9c1c2f580da28246e101314ff3884e517e36d9a4fe5f4edad39a2da7f0",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-capture-restored.json",
+      "source_sha256": "9e69ffa3d609a67ea7b2ada579aa6753ae09b2057cf1725f3d9a5cc2f5f4a3be",
+      "export_sha256": "d9e9ab90f62bff955a934239a4e57103447fa465b50c0d9d2651a841fa175bb8",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140320.json",
+      "source_sha256": "8085af59860a55537b7c7fcf1345007547167f19e5d57f654a74d354c7d386af",
+      "export_sha256": "13a21b3000ad9722b8047c4f0d0971f8f854cbbe946a0b17e9d5ab4ffa77d513",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140937.json",
+      "source_sha256": "6b85a6bdfa5a61325405474864ff9a17929dcec500e0c79ccdd5b27179340b21",
+      "export_sha256": "40348a039e3e22061fa517674466c5cc8977bd6fd4ef7ec48b64ed94f57c9c07",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154058.json",
+      "source_sha256": "466a250fe48b9da5f7589f27294e962983e6e4efb362f59a62e6809ba75f65e9",
+      "export_sha256": "0716e77bdbe3c5705bbd184157439bcbdef52606cbecec826a0bf1b9a507623b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154812.json",
+      "source_sha256": "f536abe7d19e79c70043209d22768b10a0faea2cb9fb4d0f89e53172e66401be",
+      "export_sha256": "4ec72aa78fe5d6d7bca2576e73cded37cf9da1979d3f6610a0611d54f4bb0643",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-155322.json",
+      "source_sha256": "a4597fad0d738290a82de91e3e4a5a6b2703926728baf8fead0666fd3d44548f",
+      "export_sha256": "73b1027d6d74a97b40bcb9a4b1984a815740380380535476922ab6cd0eca3c4f",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-161720.json",
+      "source_sha256": "506646e6ad0c2437c3dc5c305d886f6bb57fea86a22b1a03735a7292068b2d26",
+      "export_sha256": "2a93c6d25d3beac495a2def5a5ad996b0c74028a1d2a9523d536ceaf6e7b5831",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-163044.json",
+      "source_sha256": "0ca8de1a659404dfcbc0a12f5092a5aba348348d7c1e76c23fcd38e439c4b167",
+      "export_sha256": "16704b31ce3544c11cfc5ec0c02428360428deb93c2a8696f1bce3ba226905ee",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-format-tests.json",
+      "source_sha256": "f101682e9672f0b58acdbe86bb0e83e8636f8b5a6031b76690d35f27c2670240",
+      "export_sha256": "0579ab204f947bce0819d7c902231a96a1ff234f208ac73f4a05761352d34651",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-restored.json",
+      "source_sha256": "06a40cd848b217010e05d378f82962b026f879aa6790407cc2361236b8fbaf8d",
+      "export_sha256": "e13a8ebd3d26598c863a1e784a90773d1d875ddf1b12fb654a374bb1cdcef598",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-status.json",
+      "source_sha256": "d158827ab6fa29d252fa9aa0fad448e057ff8e9f061fdce296ba9e3a5ce36f40",
+      "export_sha256": "382373d48aef445b352fbc37e65f0f0be96d312f882824b175be579768ff0e9a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pre-capture-backup.json",
+      "source_sha256": "523cb263c6b2774e1fb4f5836ff0bb80e9d0385d78c57af1a48c23ba7eec2b9c",
+      "export_sha256": "3bb61806ce4643b4f19fb8ade2461e49de58db3168d7f23bd616ad580387cf81",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch-hd-decode-tests.json",
+      "source_sha256": "cbb4159b8b5f7bbeadc8ee297fad438819082b983a8ea04cedc8ac7cd339d8e3",
+      "export_sha256": "e266713d32b7cbf0d717b3fee21abc2c2b8a23a0be63ed95b4e2d232de368440",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan-proof.json",
+      "source_sha256": "c6ce2a6a8c00526c374b9f04e20646fdb6104698c22a7e9092690cb6e928b6ca",
+      "export_sha256": "73a06b274e3d9aa3ffd84c88ab11ff41439dc7966d39800d62cc218bdfb9b510",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan.json",
+      "source_sha256": "47c5d9b75110252fcb17210c65abb76cad30fb759b16025f12c0d1dd2e110d3f",
+      "export_sha256": "54fec2fbe3f39bdd21f0d9cc90dc01d7c3b552d938df22b801bb78c0038ae21d",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-first-capture-analysis.json",
+      "source_sha256": "778e622ec803840b9ac4bba4a8ce426c1dde690effd3e68fdf9c7bd5d3ea2874",
+      "export_sha256": "150f48b6003cf020183c5ea78caef6eef71cc9e590e2db6446b52db5ede8e459",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-analysis.json",
+      "source_sha256": "7b938568ea4746879c69d86762de0c817103991413aad8685f58af419ae1c4e2",
+      "export_sha256": "8154f84c8583c745fe9348310ac2da5392d4411543c1e216c91e67d62bb73323",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-hd-decoded.json",
+      "source_sha256": "4195916d2b9270505633ee989e84d0c38df15ab8921c7b4bd293586fd97a895a",
+      "export_sha256": "b0a9b8bda3c58752c469eca5e16aaf725d9d26fe155d470622942b370657e46a",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-rumble-retained-samples.json",
+      "source_sha256": "a8771bea4380269d8294b773e56985736a20d6681097fa988bb664a00f803294",
+      "export_sha256": "9c160ca88e43bec8da3fa9311d8beae774aff2b9a32c00145c2e139d4c578c64",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-analysis.json",
+      "source_sha256": "e31b11671e13f106945fc6faf74444c0cdf1056505de17651e555ffc621689a1",
+      "export_sha256": "a6198407515579c458deabfd7f4f3ead8a83ce7bc35f3a245ee91e2943bcec8e",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-hd-decoded.json",
+      "source_sha256": "ba8a5ea8bbd51a7f32ae8958552c7653442231876733b83c4b2e9e8048d8083e",
+      "export_sha256": "029369ec549b407c4e2b1b50e3a4b6fcb83a2c14593bc1d983b37c45955eefb9",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded-samples.json",
+      "source_sha256": "2023ca07a62b1218097a4efbbe54eb477d47f7dd7077998c27f7cde41ce7c0c7",
+      "export_sha256": "3bd2585d825b86006f40125709290b6495eee6b16476a80fa4d7069b02a17611",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded.json",
+      "source_sha256": "0d63150bbc6d44f0e1518f7d6bb3a06028a3e12c1627345f99a0624ff3477388",
+      "export_sha256": "2f94cd23ee2b3bc58871d33be1cfbb5f0ee9b094e5dac5e437e90340d0b8263b",
+      "transformed": true
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/xinput-source-confirmation-20261022-165449.json",
+      "source_sha256": "9a5c9f678979223a679e58b63abfa0604be7d21645ba7310a68934f6b608b755",
+      "export_sha256": "9393554d1dd873af260217b0d9df0c49935bec94220ea9af4fa936f41af2724c",
+      "transformed": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source": "flydigi-live-bench-child-20261022-155010.json",
+  "raw_events": 303,
+  "source_active_samples": [
+    5,
+    5
+  ],
+  "rendered_active_samples": [
+    120,
+    120
+  ],
+  "prompt_counts": [
+    1,
+    1
+  ],
+  "maximum_offset": 3,
+  "transport": "offline synthetic fixed 10ms reception offset; not measured network latency",
+  "physical_output": false
+}

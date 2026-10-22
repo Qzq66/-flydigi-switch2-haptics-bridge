@@ -1,0 +1,1341 @@
+{
+  "files": 266,
+  "bytes": 1720598,
+  "binary_files": 0,
+  "credential_scan": "passed",
+  "physical_serials_redacted": true,
+  "original_backups_excluded": true,
+  "hardware_tests_started": false,
+  "files_manifest": [
+    {
+      "path": ".gitignore",
+      "bytes": 371,
+      "sha256": "df8754eaa690aff045e1d9e0f9c40e3a0c283c8f56c7ef6e77ae79629a44b39b"
+    },
+    {
+      "path": "docs/CROSS_PLATFORM_WORKFLOW.md",
+      "bytes": 2990,
+      "sha256": "e4f1fecd2cd0561b6bddb5c0a893a2aa6e971877dd1f60db379dfb47141354b5"
+    },
+    {
+      "path": "docs/HANDOFF_2026-10-22.md",
+      "bytes": 11030,
+      "sha256": "383be0ab36e2025f70c31cddb9648214349314efc2547f9c9c311c42500835dc"
+    },
+    {
+      "path": "docs/MAC_CONTINUE_2026-10-22.md",
+      "bytes": 6047,
+      "sha256": "0e0c0f95154c55237d5e361d841cd1d17108f5a56d5c6f69c01e5f00a97fe988"
+    },
+    {
+      "path": "docs/MAC_RECEIVER_DIAGNOSIS.md",
+      "bytes": 2693,
+      "sha256": "b998fd56163beed7cd43a29651ab9a861729f19b824dc0c5e7de0f1c2b1c48ae"
+    },
+    {
+      "path": "docs/OFFLINE_EXPORT_VERIFICATION.json",
+      "bytes": 735,
+      "sha256": "78a07423b9fc6a54dbb019907ebf1fdbfee6612d7584a01f7d1291946f2cca50"
+    },
+    {
+      "path": "docs/PROTOCOL_NOTES_2026-10-22.md",
+      "bytes": 4674,
+      "sha256": "de47be45c2c60797270500ed29658af98e4e7d01cd1aa4575cb0a5069a4fdbb9"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 2310,
+      "sha256": "25a2e61280384d806823b9eff95406f465a62cb9beaabbd7884c4237668012b0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-flash-diagnostic-20261022-154239.json",
+      "bytes": 5285,
+      "sha256": "3c314cb9828bd8feea20ab1aad1c269f421e905ca3cf47df4a2c791e02d869e5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-perceptible-profile.json",
+      "bytes": 696,
+      "sha256": "135af444e2f62ecb6f34fd6a7bb6c8a9523914b2cee20f298f69e3017d6445da"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-endpoint.json",
+      "bytes": 72,
+      "sha256": "ccacb5649b998f5b72645ae59089f99e366c1264b9781db3ba142a6d2fc6d3c9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-human-feedback.json",
+      "bytes": 220,
+      "sha256": "6905afef0908c585779dea842c7b1b9ba87a06ab71700e267cfcabc1ce8c22ae"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-runtime-tests.json",
+      "bytes": 1208,
+      "sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-switch-live-proof.json",
+      "bytes": 1321,
+      "sha256": "6e22dde8a9199f0cc634367fd24c75463177e5ea35f9524bd08cf9694b5ae368"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-captured-prompt-simulation.json",
+      "bytes": 387,
+      "sha256": "cd6384ca868f8a08eb1b184a0f722ca3e1177b440c923c5aa33bc0b198bd6069"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-human-feedback.json",
+      "bytes": 279,
+      "sha256": "f3e61ebad907f651929cc6d5cff0b95eedc74c90742681b51d25f9aff498452a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-live-proof.json",
+      "bytes": 1381,
+      "sha256": "4eb37398af8eafe6cc46de39fc855cad7fe69430fe4aba8edbf611206a542472"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-first-human-feedback.json",
+      "bytes": 342,
+      "sha256": "1b7ff881a7cb1077224fff364537033fdffcf65f727578f8b455d3524b56c339"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-original-runtime-tests.json",
+      "bytes": 1208,
+      "sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-prompt-tests.json",
+      "bytes": 1310,
+      "sha256": "b56fc4f76ebb6335e265d9f1f217d30a60aba8f67ad626e060eb60d141a07458"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-endpoint.json",
+      "bytes": 71,
+      "sha256": "c5d8568019303e9712c276e56af6ad41e76f5e8f78d9d0f624e0fcc49c17d20b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-input-mapping-tests.json",
+      "bytes": 494,
+      "sha256": "3ecbb0e4a4b181898fe9dc315654c31ba308be7f6dd54525b6c9db6f7f36a1b4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-log-format-tests.json",
+      "bytes": 812,
+      "sha256": "0579ab204f947bce0819d7c902231a96a1ff234f208ac73f4a05761352d34651"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-prompt-tests.json",
+      "bytes": 1310,
+      "sha256": "b56fc4f76ebb6335e265d9f1f217d30a60aba8f67ad626e060eb60d141a07458"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-runtime-tests.json",
+      "bytes": 1208,
+      "sha256": "8b9ae24ce7c704b048fc35b04d058375847be9ed252ce7237cb5ace5c19e1701"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-20261022-160239.json",
+      "bytes": 1514,
+      "sha256": "46e209071cd94f35b61bca7cc961262876b2577fe848d7b1673c44d4628cccbd"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-child-20261022-160239.json",
+      "bytes": 452,
+      "sha256": "764844d5fe2d05760ec1389accc0e4dbd3b311df95028641988407da7ba5de62"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-155916.json",
+      "bytes": 1508,
+      "sha256": "0bdb40252c6c57672c093853f57bd503482c2532d5dca2af8e4ded7cddffd887"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-160051.json",
+      "bytes": 1509,
+      "sha256": "dce34a7fed847292c1c511a20169f18b21e9acaec4daf5d2edf41b9d78229cce"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-155916.json",
+      "bytes": 449,
+      "sha256": "54c3ed9530d27b23560ccacd3e05ef864e902c49a2f998bc3948b960142eed49"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-160051.json",
+      "bytes": 451,
+      "sha256": "73c5b8c1a27f7fde4b654ff87c67750c36b447e424bd7345ecb7ee187813d6ed"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-161847.json",
+      "bytes": 1624,
+      "sha256": "a699db671a6a66b17284063712012497044c95eefc89e448c909c182a8a202af"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-162026.json",
+      "bytes": 1626,
+      "sha256": "bf4a67ab452d86a89de5e0bb3e3217bb2b6fe4d393f82d11dc167cd6f162ed57"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-161847.json",
+      "bytes": 554,
+      "sha256": "b7be5f08a556390f6e2a3cef4961e9d54a57430196e81a24487920be9817d253"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-162026.json",
+      "bytes": 555,
+      "sha256": "dd716f3877fdb3afb7890a96ab33229e15341cc03f5b6943084f60ae4ecf25cc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-20261022-162328.json",
+      "bytes": 1515,
+      "sha256": "8596de7aabf231f49a8ad75b2d3c85be0e165ee8be82f34a92cfece28ab30ee6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-child-20261022-162328.json",
+      "bytes": 454,
+      "sha256": "1a9dca246d1f59084f990f62a481171a45f7de829dd86cab0c8b0aaeb66575fb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-config-recheck.json",
+      "bytes": 452,
+      "sha256": "77b91073ef91c699ee5d50e5af7e71154b14b4ee795d9dc39f68d9b33942474a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-tests-20261022-113717.json",
+      "bytes": 3880,
+      "sha256": "eb4eb002b461549b97e037b541bb1ba9d67514493a825a3122cae44bb1b9714e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-user-feedback.json",
+      "bytes": 543,
+      "sha256": "02e2651f31c66ead7435be417769cf18fc9fc2d9cbd724284bbf75661395878d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152412.json",
+      "bytes": 1286,
+      "sha256": "0bf6eeac1a5a793624ccd5ae8ead11df5498e9b282119a5a739404c9fdc94d7e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152540.json",
+      "bytes": 6015,
+      "sha256": "f404b6f4acdf5ee9501fe2cbe2948153d3f3f927b87495d8ec34b35decf90fe1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152708.json",
+      "bytes": 1053,
+      "sha256": "7e9708e4321a21791b0579a55ea11e3472e9bfd10d8620a14e0ca7b8f0b32231"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152943.json",
+      "bytes": 1071,
+      "sha256": "e3807a0cea8461f955e43db81f949d942503e63393f7926c1b49388e23edd6a5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153139.json",
+      "bytes": 5990,
+      "sha256": "516f5cf5477fed29fde993a09297d70053a60325ace345dc8c8d75c2caec077e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153429.json",
+      "bytes": 6208,
+      "sha256": "72783db20d63c2f77db0392b2868f93f0341d594f46facfc6c77a3d6b6b03486"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153807.json",
+      "bytes": 1036,
+      "sha256": "cfda05aea0aad3ac24f08d593ab4d69876c2af5da69d73e2cc730b2f2aeb6782"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-154521.json",
+      "bytes": 30513,
+      "sha256": "bd2cc8c58c8d4afe3dbaa9fead7a698b1f8d22769bc5fb7be026d4bdefce9137"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-155010.json",
+      "bytes": 39385,
+      "sha256": "d6a8f482c76416457058bbaae808310766a590521eab5645b67831517ea765ee"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-161338.json",
+      "bytes": 39465,
+      "sha256": "7801396b293fb8784b94c9124f4a182c746380702f40d2b70518cf8403638872"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-162748.json",
+      "bytes": 39513,
+      "sha256": "3f8ae8e1a5dbad28f1f1d8a8a5319e99dca8ca8db8fcb959bf354f268e87c26e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152412.json",
+      "bytes": 394,
+      "sha256": "64f41880737ba6b31a419d46b25aa0f440df7c37b9effe92b265687170f9756c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152540.json",
+      "bytes": 4701,
+      "sha256": "9bb2282c3015f48bf68ecc093aa48f0d344c7f2285c8cbbed023441c9515deff"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152708.json",
+      "bytes": 185,
+      "sha256": "fcf00ac7995cd20adb3115d3f4b8aef4fde4ec218fa8a67a369098c815bb41cc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152943.json",
+      "bytes": 206,
+      "sha256": "0b34c7237c0794e4af7ac3f6cff42cc3854cede4a3b0b763146bf961e23629b0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153139.json",
+      "bytes": 4684,
+      "sha256": "73badc79a7dadc51579b17a9b9bce0b23fb1084621eadf5c8409b4a07518b788"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153429.json",
+      "bytes": 4902,
+      "sha256": "4f530c97957751664d71286f6abda8e7b6beb127e3775019af9ace59e7a528a0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153807.json",
+      "bytes": 188,
+      "sha256": "bedf10dade39fea4cffcd8aa2484204d9c6a4ab5f22b45a46c03f392a0721a58"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-154521.json",
+      "bytes": 26867,
+      "sha256": "29f72b452e68f980267b9c91e85f6ef86129442539993656c4b705a32348e09b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-155010.json",
+      "bytes": 34846,
+      "sha256": "e7e8d0968d6bd60451776387c14978b422ed4610847d96115e3d75d427fb117d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-161338.json",
+      "bytes": 34898,
+      "sha256": "45d71339205159e1416b0bbcd46be57955227faf714366f794765b636b805732"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-162748.json",
+      "bytes": 34921,
+      "sha256": "03316514cfa2952394df9b1b9a7647d87fb035dcc83e7844a50bf8ec3bd52afc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner-hotplug-user-feedback.json",
+      "bytes": 658,
+      "sha256": "8260eb73e2c6186567091e7bb8efede753eef4dac029ead500a449c80ad756b6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner_kill-20261022-114823.json",
+      "bytes": 951,
+      "sha256": "3fd32b036e72c335065095449199ca84cba987f2df0976686dd147c199323d6c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-perception-calibration-summary.json",
+      "bytes": 1532,
+      "sha256": "7d75bb5e749bd31a44c8d56915d5a4941ccd4ec583dc22b66c8bb594a3bc66c0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-receiver-reconnect.json",
+      "bytes": 834,
+      "sha256": "3aa113d72e72f08ac2d6e2f9bedfefdd32904a7f3a0e417a51fa145af6a7ccc0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-111745.json",
+      "bytes": 1208,
+      "sha256": "f17a59f04aa14b822f85f255c31653e01e443603af3cb537afb5fa9bddbc38c4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-112051.json",
+      "bytes": 1393,
+      "sha256": "ec5e339406cdcff6338eab1a4722f9561d50cfd6e6716ea880f8212e1f7d0b72"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-exit-validation.json",
+      "bytes": 1033,
+      "sha256": "4f6c89d97c1541cac548d79bc61c926b35686ceeee726406128a39713729746d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-install.json",
+      "bytes": 461,
+      "sha256": "4a29c411d0b77e5b73f06b367d445b21e62e53fc840196e36c11b96a6ce32188"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151501.json",
+      "bytes": 387,
+      "sha256": "fcb781188e1eedf8c75d001438d23788b8c2aaef33f13bfdc779a3ca0bfa03e0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151740.json",
+      "bytes": 989,
+      "sha256": "7bae80de5b1a5352e3433e447130558a2b9be98d9ab50efb9845498926d9edf6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-152208.json",
+      "bytes": 4011,
+      "sha256": "17b7d4e3e01aa8d1d24e71f467502f94918cd812e0681919b839ccf710639a60"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153351.json",
+      "bytes": 1470,
+      "sha256": "1b3f2070827647d70b8b7d051a9afc9c10f5df252c369189bebba03197a0ac92"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153613.json",
+      "bytes": 6129,
+      "sha256": "f70b2d64d0da0026364c535085fa630de1c0d79cd047f5ef6c052681d9c48d31"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-164454.json",
+      "bytes": 6290,
+      "sha256": "fe57b67ca51383ef7af67a9b9f0eeaac4183a986c115954d86ed3cfab94ae70b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-165112.json",
+      "bytes": 7097,
+      "sha256": "e60b7a9c1c2f580da28246e101314ff3884e517e36d9a4fe5f4edad39a2da7f0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-capture-restored.json",
+      "bytes": 168,
+      "sha256": "d9e9ab90f62bff955a934239a4e57103447fa465b50c0d9d2651a841fa175bb8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140320.json",
+      "bytes": 52876,
+      "sha256": "13a21b3000ad9722b8047c4f0d0971f8f854cbbe946a0b17e9d5ab4ffa77d513"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140937.json",
+      "bytes": 94967,
+      "sha256": "40348a039e3e22061fa517674466c5cc8977bd6fd4ef7ec48b64ed94f57c9c07"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154058.json",
+      "bytes": 6477,
+      "sha256": "0716e77bdbe3c5705bbd184157439bcbdef52606cbecec826a0bf1b9a507623b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154812.json",
+      "bytes": 99727,
+      "sha256": "4ec72aa78fe5d6d7bca2576e73cded37cf9da1979d3f6610a0611d54f4bb0643"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-155322.json",
+      "bytes": 99725,
+      "sha256": "73b1027d6d74a97b40bcb9a4b1984a815740380380535476922ab6cd0eca3c4f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-161720.json",
+      "bytes": 99738,
+      "sha256": "2a93c6d25d3beac495a2def5a5ad996b0c74028a1d2a9523d536ceaf6e7b5831"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-163044.json",
+      "bytes": 99735,
+      "sha256": "16704b31ce3544c11cfc5ec0c02428360428deb93c2a8696f1bce3ba226905ee"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-format-tests.json",
+      "bytes": 812,
+      "sha256": "0579ab204f947bce0819d7c902231a96a1ff234f208ac73f4a05761352d34651"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.c",
+      "bytes": 5431,
+      "sha256": "3e79d6d09740a9edc60979488065d5d12abf942805d1dced5713c947556417f8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.h",
+      "bytes": 275,
+      "sha256": "6f527f9ea234b24a9b1e7315b9524dcc6a65526b18ded99c2b963765f2d502c5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.c",
+      "bytes": 4589,
+      "sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.h",
+      "bytes": 511,
+      "sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/CMakeLists.txt",
+      "bytes": 1461,
+      "sha256": "834651870a88ed241f831502a55e58d22b36b22624f7fb80877cc165dba5c414"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/LICENSE-GP2040-CE.txt",
+      "bytes": 1142,
+      "sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/lwipopts.h",
+      "bytes": 514,
+      "sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/main.c",
+      "bytes": 12102,
+      "sha256": "71e2d929cacf67f0f4dc60b053b56c3abb57de84ada028c56ccad2a1940e074f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/pro_report_descriptor.h",
+      "bytes": 1325,
+      "sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/reference-manifest.json",
+      "bytes": 675,
+      "sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/refs/switch-pico-LICENSE",
+      "bytes": 1077,
+      "sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/refs/switch-pico-source.txt",
+      "bytes": 175,
+      "sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/THIRD_PARTY.md",
+      "bytes": 1013,
+      "sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/tusb_config.h",
+      "bytes": 354,
+      "sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/usb_descriptors.c",
+      "bytes": 1526,
+      "sha256": "7808d759283e9e4fb7c3127ff1123077361e2d7677de42aa85683dee50ba2d30"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.c",
+      "bytes": 1645,
+      "sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.h",
+      "bytes": 153,
+      "sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.c",
+      "bytes": 7287,
+      "sha256": "c818330c153d9eaf0d933a98414de4a8df5f12f3cce1c4e153ed4011111fd225"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.h",
+      "bytes": 379,
+      "sha256": "2da6dfe1da06eb501a5b63bc239c2c73ad350dfce85021f4cccc817ae84c2f5f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.c",
+      "bytes": 4765,
+      "sha256": "cf8c3132f30ea8eb30b8e81394cda6ce7ced008ff64e5f4aac976a2bb802f415"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.h",
+      "bytes": 557,
+      "sha256": "e436b8cbc14812d7f93f84813cb3877b0205da948344b229f2350352e777e619"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/CMakeLists.txt",
+      "bytes": 1461,
+      "sha256": "3996c00aaca13a592b213561b6186973d1a1a114c819c0f032c3a92d0949ddb1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/LICENSE-GP2040-CE.txt",
+      "bytes": 1142,
+      "sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/lwipopts.h",
+      "bytes": 514,
+      "sha256": "cdaa92d216f520d2f02737b559dd4941dde684d5112457d61592fbbb9b8f0e07"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/main.c",
+      "bytes": 12845,
+      "sha256": "3f100b9be5c308b52db145003cca9a163b3ac89efe35a36c3569c5440a3132e1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/pro_report_descriptor.h",
+      "bytes": 1325,
+      "sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/reference-manifest.json",
+      "bytes": 675,
+      "sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/refs/switch-pico-LICENSE",
+      "bytes": 1077,
+      "sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/refs/switch-pico-source.txt",
+      "bytes": 175,
+      "sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/THIRD_PARTY.md",
+      "bytes": 1013,
+      "sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/tusb_config.h",
+      "bytes": 354,
+      "sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/usb_descriptors.c",
+      "bytes": 1526,
+      "sha256": "7504ccc18b3e81942128560bbbc6e1e101c195ac03273ca199ada4fbf81a528a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.c",
+      "bytes": 1645,
+      "sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.h",
+      "bytes": 153,
+      "sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-restored.json",
+      "bytes": 177,
+      "sha256": "e13a8ebd3d26598c863a1e784a90773d1d875ddf1b12fb654a374bb1cdcef598"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-status.json",
+      "bytes": 321,
+      "sha256": "382373d48aef445b352fbc37e65f0f0be96d312f882824b175be579768ff0e9a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pre-capture-backup.json",
+      "bytes": 459,
+      "sha256": "3bb61806ce4643b4f19fb8ade2461e49de58db3168d7f23bd616ad580387cf81"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.c",
+      "bytes": 4589,
+      "sha256": "31390a05ae8d97512d7fb9f4ee9a0ccceb9836756cbe5982a8c2bc71e5fb152b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.h",
+      "bytes": 511,
+      "sha256": "feb7bf126aac11969092305df8e3ae57b25948406d92f20199fbef5fa47f8653"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/CMakeLists.txt",
+      "bytes": 1404,
+      "sha256": "f904dd5b5c176e4b55198a18e3fd2a7e8e8e541ae101d16183909a6487283354"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/LICENSE-GP2040-CE.txt",
+      "bytes": 1142,
+      "sha256": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/main.c",
+      "bytes": 11272,
+      "sha256": "98fa9f02f63782f66ece8227a6666948e064a9f5ec0afdfcc770337d3e997f50"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/pro_report_descriptor.h",
+      "bytes": 1325,
+      "sha256": "c8ff8b910e36452580e5c92e615e75ac2654747a8bc4543880b936179a1aa357"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/README.md",
+      "bytes": 3443,
+      "sha256": "67f3afe8ce3db802ca810c096aa4a81dab7140da6a3b077d6594fc2e5aee046f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/reference-manifest.json",
+      "bytes": 675,
+      "sha256": "94a74f49c5501e6deadbabd855c5059b917e6afbe320196ab303dbb68db581f2"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/refs/switch-pico-LICENSE",
+      "bytes": 1077,
+      "sha256": "69745744c70716ad47e3a4112a9f8fec299cec68b3a4c9e5c46b5f98be1d1bc0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/refs/switch-pico-source.txt",
+      "bytes": 175,
+      "sha256": "5420f6c87b204637d129aff423522552fcd2a7762f4f735031e7519c607b5bfa"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/THIRD_PARTY.md",
+      "bytes": 1013,
+      "sha256": "9883766cd4abc2a1aaea9a4b88e40a8d9db94de4a397a20ab251e9f3683e65d1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/tusb_config.h",
+      "bytes": 354,
+      "sha256": "b44eae029067d661390ac44d9166ceda49053ab819e1345f97755351191ba433"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/usb_descriptors.c",
+      "bytes": 1435,
+      "sha256": "033072a39be4bc0cbfef323fe307c9e263410e8bff714548a6b91adc297d66c9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.c",
+      "bytes": 1645,
+      "sha256": "e88be7635c4b37ac835de792b19dd0a74b109395ea03013da4a0d7e56b36259e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.h",
+      "bytes": 153,
+      "sha256": "c5aba39831ac619ad160e8d6cf6d8af25afd3b29565ea8fcf9f22d04edc84807"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W接入检查.md",
+      "bytes": 4122,
+      "sha256": "bc9d89242f6fb5c854607ccd210429337e8ee562f57ffbe2683a600d047cff7f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W最小固件测试结果.md",
+      "bytes": 4573,
+      "sha256": "8d30013358c729745433da833f2dca650f278b1cae474cd819957f026da54672"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico直连接口与键鼠排查.md",
+      "bytes": 3207,
+      "sha256": "64de2381dba204afd809e917e37b109bc1e1f9920f62f870d1fec177829b9d6f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch-hd-decode-tests.json",
+      "bytes": 865,
+      "sha256": "e266713d32b7cbf0d717b3fee21abc2c2b8a23a0be63ed95b4e2d232de368440"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan-proof.json",
+      "bytes": 338,
+      "sha256": "73a06b274e3d9aa3ffd84c88ab11ff41439dc7966d39800d62cc218bdfb9b510"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan.json",
+      "bytes": 7024,
+      "sha256": "54fec2fbe3f39bdd21f0d9cc90dc01d7c3b552d938df22b801bb78c0038ae21d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-first-capture-analysis.json",
+      "bytes": 513,
+      "sha256": "150f48b6003cf020183c5ea78caef6eef71cc9e590e2db6446b52db5ede8e459"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-analysis.json",
+      "bytes": 4970,
+      "sha256": "8154f84c8583c745fe9348310ac2da5392d4411543c1e216c91e67d62bb73323"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-hd-decoded.json",
+      "bytes": 19440,
+      "sha256": "b0a9b8bda3c58752c469eca5e16aaf725d9d26fe155d470622942b370657e46a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-rumble-retained-samples.json",
+      "bytes": 3133,
+      "sha256": "9c160ca88e43bec8da3fa9311d8beae774aff2b9a32c00145c2e139d4c578c64"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-analysis.json",
+      "bytes": 1284,
+      "sha256": "a6198407515579c458deabfd7f4f3ead8a83ce7bc35f3a245ee91e2943bcec8e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-hd-decoded.json",
+      "bytes": 17366,
+      "sha256": "029369ec549b407c4e2b1b50e3a4b6fcb83a2c14593bc1d983b37c45955eefb9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded-samples.json",
+      "bytes": 60170,
+      "sha256": "3bd2585d825b86006f40125709290b6495eee6b16476a80fa4d7069b02a17611"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded.json",
+      "bytes": 793,
+      "sha256": "2f94cd23ee2b3bc58871d33be1cfbb5f0ee9b094e5dac5e437e90340d0b8263b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2直连协议路线核对.md",
+      "bytes": 3959,
+      "sha256": "043e4bbbdcf2e21ea2ac9e5455e6189802292b967cf3e0b8e492df0a9d97a01b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第三轮识别记录.md",
+      "bytes": 2362,
+      "sha256": "f1ca8eda83b8fbfd19a0281d5288ac3ec2d4bb2ff2e18f2f9a4b70dcbabf636c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第二轮识别记录.md",
+      "bytes": 1487,
+      "sha256": "ae380eb804a919d0c0ec2229603a262146940587e04dfd38d5d3273859165672"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第五轮兼容验证记录.md",
+      "bytes": 2808,
+      "sha256": "33ebb8820a5fd530cb30d13c3b7f7b43e2805e20069499d63d9d5a7d6b134f71"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第六轮连续采集记录.md",
+      "bytes": 2892,
+      "sha256": "ece8666d059276569462d3e87d7cc39e85760a073636d13713a5351b5a897cb7"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2第四轮登记记录.md",
+      "bytes": 2599,
+      "sha256": "44ae92957b2a26c18c502a8b504b1f538d52ae4622f8e9afebf4838f05daa203"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2首轮识别记录.md",
+      "bytes": 1540,
+      "sha256": "382354907e38eaa4fb531797a0af9117a70a2f147e0737060178aa4122adc31a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/xinput-source-confirmation-20261022-165449.json",
+      "bytes": 152,
+      "sha256": "9393554d1dd873af260217b0d9df0c49935bec94220ea9af4fa936f41af2724c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/受限回放与无线链路首测.md",
+      "bytes": 4955,
+      "sha256": "b3e20d16af6d50a639ed4c83c11f1b69645f1dc2a6dea5888e01d192c17002c1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/可感知提示模式主机复测.md",
+      "bytes": 4361,
+      "sha256": "2c7664319e966ae4528c00a45c07a64367cd91f1393bc919da2aa709af943cfe"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/实时桥接v040验证记录.md",
+      "bytes": 5918,
+      "sha256": "92772ab8e9c530aa4967c3f04ad81be23fe4e4d846a0dfec9526e3d0bf0b749f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/游戏短测暂停交接.md",
+      "bytes": 3672,
+      "sha256": "3817997a7af0c4bfbd7e22391519d70f9a66549c3fcf0a4457966d052f3a3f88"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/短震动体感校准记录.md",
+      "bytes": 2429,
+      "sha256": "1692552a084219f8ae82d263b949d131b7f39658e2af43d491b3811f142f3109"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/项目进度.md",
+      "bytes": 4833,
+      "sha256": "979b2275a14720df97d6af1c047483f56a9f2fa908d3e6aca95bd2ae54fd5eda"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智Engine扫描分析.md",
+      "bytes": 6656,
+      "sha256": "c40004f307f19689e3e43c61048d8f9050b35eaf66ac47b438baf5f04d494032"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智实时通道退出验证结果.md",
+      "bytes": 4406,
+      "sha256": "b044e7d1e0dca719c8c997c14b1e9dc895bd2bdb8b8ef228203ffa49d65c4a69"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智左右独立与频率差异验证.md",
+      "bytes": 4241,
+      "sha256": "f3926266cb7e319703651e933a5428d31b56e2353d6b91314dddcf206fd1566a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智手柄只读检查结果.md",
+      "bytes": 2841,
+      "sha256": "4cb7d57bb877f2be1bee9361b8ef119d0ac5a37474ddbabf142c2fcf0b19a5cc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智故障停止与接收器重连验证.md",
+      "bytes": 7267,
+      "sha256": "2e69cc37b43851d14befc87ba166e60c5abaad2066b582ab868e20326a19dabf"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/飞智波形首测与配置备份结果.md",
+      "bytes": 4397,
+      "sha256": "2393a7741f76f53c794061479dc3ea91a05dab6a9a33e03aa0d1ecc6f0aa42b1"
+    },
+    {
+      "path": "handoff/2026-10-22/SOURCE_MANIFEST.json",
+      "bytes": 76007,
+      "sha256": "dd2f5bb20b8737a9b6681b79d7fd47dfa1bb700cb1d03c13ba2fadde64fe40a9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-continuous-rumble.py",
+      "bytes": 2146,
+      "sha256": "38feeba326f1b8fcce38e430dc1f0e5ad2e9e2ea9ff070d6f36c42a973655310"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-registration.py",
+      "bytes": 2564,
+      "sha256": "050bd15a4fe97ddc4497944c617fd6de9b604e8ebb56ca09414bc0f7a4f9c046"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-v034.py",
+      "bytes": 1864,
+      "sha256": "6c29b75411b4b8ee088249bb53b1fe5b1d182804cd9afead0157339e8b70afcf"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-prompt-live.py",
+      "bytes": 2938,
+      "sha256": "c3f2db84428885fca535cccfb2068031390674abe4cf90ba81edc7dccade1111"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge-switch-live.py",
+      "bytes": 9003,
+      "sha256": "cb157f25759da1e78b014185f3f513feb1e8343cab93fd105344b0df2f3ebe11"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_credentials.example.h",
+      "bytes": 329,
+      "sha256": "7ff0d7b46b10c6c9bbafa41762818eb46937cc68166cc09e8565d186a7ecfa1e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_input.py",
+      "bytes": 1713,
+      "sha256": "1ab62bc207d9b2f829f95f2ffe90e5d08fbdd80b97e033652b9e8ff7169e91b1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_runtime.py",
+      "bytes": 10822,
+      "sha256": "c7d0b1e4a9eedc2469fcc8f31fec147fb387a046c34a5beb92182e8ded3a1bf5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v040.ps1",
+      "bytes": 2091,
+      "sha256": "3060e4c67ddb0eeadccede2e2f6fecfb7a8c4ae3acc5d2bc1ef14555dc5540aa"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v042.ps1",
+      "bytes": 2091,
+      "sha256": "16bf8a36f2964f624abbcf0c029ed207989340e19987327b4b9fd8364f0d0633"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v031.ps1",
+      "bytes": 2021,
+      "sha256": "b48a041dc2e6c503f7bab2d007d44436eac2ce368c5ad943a54ac14d555468bc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v032.ps1",
+      "bytes": 2021,
+      "sha256": "238b19942d5f28d51fffa5073fa72097662bfb6541483a76986c3a841c80acbc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v033.ps1",
+      "bytes": 2021,
+      "sha256": "85654f5062bbbd0b57b9149eecc3ee1e219e49dbbcc6b9bbeaf50b0a6e200863"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v034.ps1",
+      "bytes": 2021,
+      "sha256": "1e004077105e404a33494e8bdb317b82ff2651a65df905c6389408d5ab31a58b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v035.ps1",
+      "bytes": 2026,
+      "sha256": "e856cb8ea4c77dbe7359efbfbf794d43db23d041e3074cda92c034e4dcd13424"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture.ps1",
+      "bytes": 2006,
+      "sha256": "81af047efdbe4db179d538703ce97287bcbffc7cbcb471930a6288992f08901c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-neutral.ps1",
+      "bytes": 1803,
+      "sha256": "3489dd068c2bf323700c050862b157d93c6a8857e4f6aebd9e0340ae325580c3"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-protocol-lab.ps1",
+      "bytes": 1592,
+      "sha256": "e382a63bda74808f22b8b0b288b18bf72c408ad61094ae1c0e3d9427688ec6ee"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-smoke.ps1",
+      "bytes": 2209,
+      "sha256": "b6558aaa6eadfc281330866a9f37a0eff2ce55985269f5d59114976fd138685d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-probe.ps1",
+      "bytes": 1636,
+      "sha256": "ac992e9de78def5d2f46f168292807592ffabcd82bb900c1535e2f11133de766"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-udp.ps1",
+      "bytes": 1621,
+      "sha256": "4c9fa4710b5775634665b8a43da11e2e9c17e79c897e64b4c04b6ca62a931151"
+    },
+    {
+      "path": "handoff/2026-10-22/work/capture-pico-usb.ps1",
+      "bytes": 2192,
+      "sha256": "f3763f1ca7ca6a3f76341f04cde26512dea8e305281233cbe69ce7649a2deed5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/confirm-xinput-source.py",
+      "bytes": 1214,
+      "sha256": "c7794ca4f308c5d2351f2b8fc041af81f087278e142edc1b11ee0d4e02a71ff9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/diagnose-bridge-flash.py",
+      "bytes": 2293,
+      "sha256": "17186f83c7a44626480ed18186a73f4925f07dc1db11bcef09de63606ceb205f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/enter-pico-bootsel.ps1",
+      "bytes": 961,
+      "sha256": "c41f1ddf349334bd309fee63013f1377cdb0d8ba6ca575ef9580100389406d0e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-capture-flash.py",
+      "bytes": 1945,
+      "sha256": "36d494bb8f9856fe4123df645c2450580504006415e39927dd42314ea2b016cc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-continuous-flash.py",
+      "bytes": 1689,
+      "sha256": "ebf96a797045528e2d172739546ae7c30960427e0a749aee15cb023dcc469d52"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-captured-replay.py",
+      "bytes": 5101,
+      "sha256": "9b06620104ce875064a67175463ba6a7938c4e303c6c29fab6f4469b02da3439"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-failure-tests.py",
+      "bytes": 9529,
+      "sha256": "6b755ed09137c4ab2e20e1ed0b59df3c08601c6444872850939701f8bab48ce3"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-live-bridge-bench.py",
+      "bytes": 8293,
+      "sha256": "4677e736eacb0ae149e84fbc82df5f5e33ebe74edd756412f49247420fba948b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-monitor-reconnect.py",
+      "bytes": 3606,
+      "sha256": "2535316451c71500535ad39d2eb2901329143145168a323bac4fbe9b9ed2b8b9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-native-rumble-pulse.py",
+      "bytes": 953,
+      "sha256": "fba04774abb5d9bc1b27c951557ab8d662e4334816018cb0114c7a9194b8fa09"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "bytes": 9635,
+      "sha256": "764d011064f0f6812375fde18db04c8e54f27fd1783037de1248ef327bf03129"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-perception-calibration.py",
+      "bytes": 6684,
+      "sha256": "ed6eaf668f004567878762b1277429c3c2d4581fcc8d365411f0dc48911ff936"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "bytes": 9373,
+      "sha256": "a4a92c5ccd19944bebb5732883bef77416f54e4b4dacf7afe9c877b8935e6712"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "bytes": 16288,
+      "sha256": "7d8ee1d044ee4499d483550f6cd5e792963d6652da05ff2eda92e916a2907ae5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-backup.py",
+      "bytes": 1732,
+      "sha256": "6237bc995049576f94c206dcbe94e49ef905a02f52bfe5d6326dcac7034fb960"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-runtime-disable.py",
+      "bytes": 5561,
+      "sha256": "a55563be61f95cd1afa227b616445bade6d59b79f8360eedff3f5cb2cd8db733"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-xinput.py",
+      "bytes": 1805,
+      "sha256": "b024ee99a4ed480e7c07d79bebb879bd16d60d6eb7e370124c259ba634d86740"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-bridge-v040.ps1",
+      "bytes": 2312,
+      "sha256": "0ce67b39ace567259b968e81c598b6ac69ca9fb23008df8e90734e69bd54ae2e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v031.ps1",
+      "bytes": 2270,
+      "sha256": "21d663f1280d1f3527ead3970f8b728c5363336e9a48caf6807b47a27ea7d9e8"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v032.ps1",
+      "bytes": 2271,
+      "sha256": "b47c5438dc8c26f4014a8776f3ed13378e436814f2760011d374b80196b51de6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v033.ps1",
+      "bytes": 2272,
+      "sha256": "1055df2eb0f39f96625c0edcea3b9a09b5c169f323598cad1478b81726774f59"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v034.ps1",
+      "bytes": 2273,
+      "sha256": "4e5b227cf8aa0f08a3313929dd931016044f9c68c1c78908d606cdfe2bc79b26"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v035.ps1",
+      "bytes": 2484,
+      "sha256": "05a42d9ba336b5ff66db28341a82708915780a2fc35eaf78c6cc3c5c88e619d9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture.ps1",
+      "bytes": 2260,
+      "sha256": "aaf25fd82f731ce8f34f332dc1b4d2581b9d4bbee5fe1b6615731b43d91b8b47"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico-hotspot.ps1",
+      "bytes": 5880,
+      "sha256": "09b1138be92c2eee169942ef983de271a9eb39c9a2a2cea24817b58e85d4707c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_capture_log.py",
+      "bytes": 3269,
+      "sha256": "49e661258c4876591d75006d0b8f57c48af2f6d35e77543f438554cc05c423d9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_continuous_log.py",
+      "bytes": 3939,
+      "sha256": "4c0cbe95a48c98eea998d1a52bdf52517019a9326a4756355a5fa554731e034f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/prepare-pico-build.ps1",
+      "bytes": 2054,
+      "sha256": "a5f96e593d690e091bb9d64a6ad21bf31547b531acfcfea93c473c6ad6bebe57"
+    },
+    {
+      "path": "handoff/2026-10-22/work/probe-pico-wifi.ps1",
+      "bytes": 2302,
+      "sha256": "792c584d768569e83d54186ec9e77e50f4126af956151ea06209b062cef7390e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-capture.ps1",
+      "bytes": 1038,
+      "sha256": "a465478c393e57069fef851e4c8a8dafca524adb99c51710df8131ac1d2b4953"
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-continuous.ps1",
+      "bytes": 1042,
+      "sha256": "6617c46cc0f2e1023d31c68e1bab0886f9bbf63a30540ad38fb9f4e0cda01ed4"
+    },
+    {
+      "path": "handoff/2026-10-22/work/references/missioncontrol-LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "handoff/2026-10-22/work/replay-bridge-prompt-capture.py",
+      "bytes": 1537,
+      "sha256": "f9f7387fce2d2587fe03059f918ac8489599b13802e85c4ab7dff564e1cf37e2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-hotspot.ps1",
+      "bytes": 3944,
+      "sha256": "9f1eadd1d525eadf4144dcc903e81be253cec003d9e8cb636725fef9c3c12a75"
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-pre-capture.ps1",
+      "bytes": 1698,
+      "sha256": "d382bb61448ffe0a9ce725ead101dc0e653353525058f6f7e4fe0626da62e010"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v040-raw.ps1",
+      "bytes": 884,
+      "sha256": "1bc4000f1a7e3f25e14bd906e4181c10f28137addb46a057255ec4ffcb757367"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v042-raw.ps1",
+      "bytes": 884,
+      "sha256": "43b94c73d3c8d9c51ebf766c806cebdacd44c31f8100e31e0c8808c525c39dd5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-pro-neutral.ps1",
+      "bytes": 1893,
+      "sha256": "e98e468a644fbcf1f09702594dde1d0460410c4860651908fc1bc1e6202d9485"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-probe.ps1",
+      "bytes": 2531,
+      "sha256": "5a36425be62788cc86c761265d878ee6e44187e9c412f68644a1118ca91a4b3c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-udp.ps1",
+      "bytes": 3607,
+      "sha256": "f4deafe0153b1e12ce141f13221325567a9dd5d5f394c99cbaf40d744317677a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "bytes": 5274,
+      "sha256": "18fcab68f41f09ceb017d4b1820d17b88d290a620411e216c6ce9478530a040b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-input.py",
+      "bytes": 1012,
+      "sha256": "66c69e63093e1c8b2dc463985f878acfdb5ac66cb0cd7a90373c4e46449678ed"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-prompt.py",
+      "bytes": 3522,
+      "sha256": "012621e74cb851a035bc5c00995976b63ab776912a7be4962a5a88dcb7c7a4c8"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-runtime.py",
+      "bytes": 2906,
+      "sha256": "14ddf29eba1c21a13813ffc08117fb093ba0baed96de1ad1dd02d038f4fe4d5a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v040.py",
+      "bytes": 5729,
+      "sha256": "c6f103afce5800dddfcd02b833bd36fe7ff194dc9ab8f5a4f98ae29c1394b750"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v042.py",
+      "bytes": 7790,
+      "sha256": "b497f9c4bf99a7e04aed0931f692094053b6ff51bd2af04f897803a0e20abef3"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-format.py",
+      "bytes": 1595,
+      "sha256": "f1f078e2c3d5b34f968545e2258c25cd2142254772ac8fd3c3c82c09b9a6c019"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-ram.py",
+      "bytes": 10394,
+      "sha256": "156672eabe1e836e1dd01213af8b52956754009b5a0e6917957f70fe7e89b30f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v031-ram.py",
+      "bytes": 10579,
+      "sha256": "5a36f65d509191e6df3b5c239430bab6da797955a9aa2ee4b28df2f5d1dd3221"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v032-ram.py",
+      "bytes": 12087,
+      "sha256": "d5cece4266190f94472bce7591f38248d4acebdfce249c9a6faa7d96d81cd83b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v033-ram.py",
+      "bytes": 13785,
+      "sha256": "974e0acedfebb376f2e0c7b9a6430fc275aaf8d1748dded664c2ed8f49463333"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v034-ram.py",
+      "bytes": 14275,
+      "sha256": "53564c0017e9e2988a0a8b6e573ef9ffcee365920c94c228d90e3965c6b9831c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v035-ram.py",
+      "bytes": 15858,
+      "sha256": "fcbb50a7bc722f285bf61c821d7bad04632aa726e4e7a6178b600e7e5a3e2532"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-continuous-format.py",
+      "bytes": 2081,
+      "sha256": "b95f5b131764a7f6dd4b2ee7331b1be47be60a4de12883e612b4be5827cf0e6c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-native.ps1",
+      "bytes": 2896,
+      "sha256": "47b8dc2ebc9a9809cafe693b4f312bffc01e836505e2634a0440db0da537e653"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-pro-neutral.py",
+      "bytes": 9391,
+      "sha256": "c18c228edd897d84db3a9f25c8dde9b16dd0f108d8274a63c888101e3379ef0d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-protocol-lab.py",
+      "bytes": 6184,
+      "sha256": "e731b382f25564acd078273fe9afcc9680a2627f98f76ffc73b1f793bcbb0285"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-repl.ps1",
+      "bytes": 1799,
+      "sha256": "417949c85e0712966bb39e0c685c90a17a73593c10a672579c7e9296223fab67"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-v033-cancel.py",
+      "bytes": 2087,
+      "sha256": "8c8b07180eb2a2411c98527afb1ebc231d180917faaa08700b1d43b1a3357bdd"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-wifi-udp.py",
+      "bytes": 3171,
+      "sha256": "c3b5591b7f440052973daebaf501a08691be94497b702c4d14467c378d15bf41"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-runtime-disable.py",
+      "bytes": 1339,
+      "sha256": "5654df39328be063897df30a1ad4f74159c5d206f2afd879ef1ac73db6b48a08"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-switch-hd-decode.py",
+      "bytes": 2356,
+      "sha256": "5e4ca38730e51bfa8296c09df06da9efd151e43fccc4b828ae070bb6f580427e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-image.py",
+      "bytes": 2604,
+      "sha256": "0f42267b083a704cc3c0660136ac7550aed9d52206ccd97a109c55df6f9a818b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-v035-image.py",
+      "bytes": 2647,
+      "sha256": "fa25235628d41a1a4549c3841ec0284eb6f57e5b2a3fed9ab1400439886e607d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-live-bridge-capture.py",
+      "bytes": 2606,
+      "sha256": "067704ca89cfb212399cc55e5a58adf4880b9655a1f22725c597fe2cfcb0dc4a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-pico-v035-flash-test.py",
+      "bytes": 1569,
+      "sha256": "f53ef725d36df95572284fd13eec42c3526241f543c23096f3471981e95cb308"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-ram-uf2.py",
+      "bytes": 883,
+      "sha256": "a36c7d2aa8a1ea3e667c64823096e0227c75e07e86fa489ac09ef53f01ddb1f6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/xinput_readonly.py",
+      "bytes": 810,
+      "sha256": "c038e4a045891273fc6d75c78fd51d80f5711c791ef7ae84c8003c426b174357"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2417,
+      "sha256": "13926b06c7da4c88e25e8515bb72b2d6d3780e7704bfb0b08ce2ff221427fc15"
+    },
+    {
+      "path": "tools/build_pico_snapshot.py",
+      "bytes": 1524,
+      "sha256": "ddae4c5d26fc9a58a0046ca8f3aac37678dc9bd32a626e1b89048c8167d7e7e1"
+    },
+    {
+      "path": "tools/run_offline_checks.py",
+      "bytes": 1154,
+      "sha256": "cf24c4fcf74be669b917da157bf26f8b12cc1a4e8046cd2f14e91c470900063d"
+    }
+  ]
+}

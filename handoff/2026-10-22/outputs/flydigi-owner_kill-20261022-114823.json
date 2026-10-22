@@ -1,0 +1,42 @@
+{
+  "case": "owner_kill",
+  "persistent_commands": 0,
+  "maximum_sample_offset": 5,
+  "automatic_output_resume": false,
+  "status": "PASSED_HOST_RECOVERY_AND_CONFIG_RECHECK",
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "backup_file": "flydigi-owner_kill-backup-20261022-114823.json",
+  "last_frame": {
+    "frame": 25,
+    "at": 0.3746056
+  },
+  "kill_requested_clock": 0.8066099,
+  "owner_exit_code": 1,
+  "owner_force_killed": true,
+  "neutral_written_clock": 0.8581686,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "kill_to_neutral_ms": 51.559,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

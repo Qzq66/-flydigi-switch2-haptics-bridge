@@ -1,0 +1,45 @@
+{
+  "status": "INCOMPLETE",
+  "persistent_write_commands": 0,
+  "maximum_allowed_offset": 5,
+  "path": "Switch USB -> Pico -> actual WiFi -> PC decode -> Flydigi",
+  "actual_switch_live_test": true,
+  "automatic_resume": false,
+  "parent_guardian": true,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "child_error": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "events": [],
+    "frames": 0,
+    "nonneutral_frames": 0,
+    "maximum_offset": 0,
+    "ended_reason": "TimeoutError('No matching Pico within connection window')"
+  },
+  "neutral_written_clock": 61.9471109,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

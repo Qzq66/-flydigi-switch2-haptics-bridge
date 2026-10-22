@@ -1,0 +1,39 @@
+{
+  "status": "THREE_PULSES_SENT",
+  "settings": [
+    [
+      120,
+      3
+    ],
+    [
+      120,
+      5
+    ],
+    [
+      120,
+      5
+    ]
+  ],
+  "frames": 1023,
+  "pulse_started": [
+    0.0,
+    3.0,
+    6.0
+  ],
+  "maximum_offset": 5,
+  "pulse_sides": [
+    "left",
+    "left",
+    "right"
+  ],
+  "continuous_neutral_background": true,
+  "maximum_schedule_lateness_ms": 2.3746000000000045,
+  "neutral_written_clock": 8.347653,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true
+}

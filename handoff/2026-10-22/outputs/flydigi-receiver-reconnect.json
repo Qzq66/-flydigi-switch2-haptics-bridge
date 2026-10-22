@@ -1,0 +1,35 @@
+{
+  "configuration_write_commands": 0,
+  "streaming_frames": 0,
+  "backup_file": "flydigi-failure-backup-20261022-113717-worker_exception.json",
+  "events": [
+    {
+      "event": "USB_VENDOR_INTERFACE_ABSENT",
+      "time": "2026-10-22T11:39:36.513879+08:00"
+    },
+    {
+      "event": "USB_VENDOR_INTERFACE_REAPPEARED",
+      "time": "2026-10-22T11:39:44.949889+08:00"
+    }
+  ],
+  "baseline_present": true,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "status": "RECONNECT_AND_CONFIG_RECHECK_PASSED",
+  "automatic_output_resume": false
+}

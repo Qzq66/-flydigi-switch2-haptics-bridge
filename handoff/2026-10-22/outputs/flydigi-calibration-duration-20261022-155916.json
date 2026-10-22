@@ -1,0 +1,83 @@
+{
+  "status": "PASSED_OUTPUT_STOP_AND_CONFIG_RECHECK",
+  "calibration": "duration",
+  "pulse_settings_ms_and_offset": [
+    [
+      40,
+      3
+    ],
+    [
+      120,
+      3
+    ],
+    [
+      320,
+      3
+    ]
+  ],
+  "persistent_write_commands": 0,
+  "independent_parent_guardian": true,
+  "automatic_resume": false,
+  "path": "PC direct to Flydigi; deliberate duration/amplitude calibration, not Switch replay",
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 0,
+  "child_error": "",
+  "child": {
+    "status": "THREE_PULSES_SENT",
+    "settings": [
+      [
+        40,
+        3
+      ],
+      [
+        120,
+        3
+      ],
+      [
+        320,
+        3
+      ]
+    ],
+    "frames": 84,
+    "pulse_started": [
+      0.0,
+      3.0,
+      6.0
+    ],
+    "maximum_offset": 3,
+    "maximum_schedule_lateness_ms": 2.04169999999948,
+    "neutral_written_clock": 8.5464546,
+    "disable_attempts": [
+      {
+        "attempt": 1,
+        "status": "ACK_OK"
+      }
+    ],
+    "runtime_disable_ack": true
+  },
+  "neutral_written_clock": 9.0705466,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

@@ -1,0 +1,925 @@
+{
+  "source": "pico-persistent-capture-20261022-133525.json",
+  "offline_only": true,
+  "hardware_output": false,
+  "dropped_events": 171,
+  "note": "Unknown state after the omitted middle remains null until reset/absolute fields recover it. Samples are not a complete waveform or measured actuator amplitude.",
+  "events": [
+    {
+      "at_ms": 371,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 411,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 419,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 443,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 467,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 491,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 515,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 539,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 563,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 587,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 611,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 635,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 659,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 683,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 715,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 739,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 3771,
+      "report_id": "01",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 3787,
+      "report_id": "01",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 3803,
+      "report_id": "10",
+      "left": {
+        "format": "three_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          },
+          {
+            "low_amplitude": 0.5,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          },
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 3883,
+      "report_id": "10",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 3899,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 3923,
+      "report_id": "10",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "three_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.4486772687507768,
+            "high_hz": 320.0,
+            "state_complete": true
+          },
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          },
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18068,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18172,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 18188,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18300,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18420,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18460,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 18524,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18644,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18748,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 18764,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18876,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 18996,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19036,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 19100,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19220,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19324,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 19340,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19452,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19572,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19612,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 19676,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19796,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    },
+    {
+      "at_ms": 19900,
+      "report_id": "01",
+      "left": {
+        "format": "no_new_samples",
+        "samples": []
+      },
+      "right": {
+        "format": "no_new_samples",
+        "samples": []
+      }
+    },
+    {
+      "at_ms": 19916,
+      "report_id": "10",
+      "left": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      },
+      "right": {
+        "format": "one_7bit",
+        "samples": [
+          {
+            "low_amplitude": 0.0,
+            "low_hz": 160.0,
+            "high_amplitude": 0.0,
+            "high_hz": 320.0,
+            "state_complete": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "report": "pico-persistent-capture-20261022-130516.json",
+  "status": "USB_CONFIGURED_INIT_RETRIES_PAIRING_SUBCOMMAND",
+  "user_observed_no_prompt": true,
+  "usb_mounted_seen": true,
+  "elapsed_ms": 20000,
+  "total_output_requests": 131,
+  "received": 131,
+  "replies": 131,
+  "rejected": 123,
+  "usb_stage": 5,
+  "input_mode": 48,
+  "vibration_enabled": false,
+  "inference": "Repeated subcommand 0x01 coincides with firmware NACK policy; complete recognition not passed.",
+  "factory_flydigi_commands": 0
+}

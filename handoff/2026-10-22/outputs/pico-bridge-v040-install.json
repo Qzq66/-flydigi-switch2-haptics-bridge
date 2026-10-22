@@ -1,0 +1,14 @@
+{
+  "installed_at": "2026-10-22T16:26:56.9940247+08:00",
+  "candidate_sha256": "0CEF76FE7ADE60477D5F375A83830AC5877C39B9E28ED677A9CD595049904F34",
+  "backup_sha256": "09762691D3FDDF3BA592DB0BB6F520CB2384423F37194E7974089C9B0F700593",
+  "program_erase_bytes": 356352,
+  "log_offsets": [
+    "0xe0000",
+    "0xf0000"
+  ],
+  "executed": false,
+  "switch2_connected": false,
+  "contains_dedicated_test_network_key": true,
+  "contains_original_network_key": false
+}

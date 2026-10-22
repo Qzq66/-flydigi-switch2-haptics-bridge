@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "name": "unique_candidate",
+      "passed": true
+    },
+    {
+      "name": "HID_open",
+      "passed": true
+    },
+    {
+      "name": "RAM_identity",
+      "passed": true
+    },
+    {
+      "name": "broadcast_discovery_exact_endpoint",
+      "passed": true
+    },
+    {
+      "name": "input_mode",
+      "passed": true
+    },
+    {
+      "name": "IMU_mode2",
+      "passed": true
+    },
+    {
+      "name": "vibration_enable",
+      "passed": true
+    },
+    {
+      "name": "MCU_compat",
+      "passed": true
+    },
+    {
+      "name": "SPI_write_rejected",
+      "passed": true
+    },
+    {
+      "name": "player_LED_zero",
+      "passed": true
+    },
+    {
+      "name": "collector_no_errors",
+      "passed": true
+    },
+    {
+      "name": "300_raw_words_exact",
+      "passed": true
+    },
+    {
+      "name": "raw_sequence_contiguous",
+      "passed": true
+    },
+    {
+      "name": "raw_timestamps_monotonic",
+      "passed": true
+    },
+    {
+      "name": "no_transport_overflow",
+      "passed": true
+    },
+    {
+      "name": "USB_input_remains_responsive",
+      "passed": true
+    },
+    {
+      "name": "single_registration_press_and_release",
+      "passed": false
+    }
+  ],
+  "status": "INCOMPLETE",
+  "physical_output": false,
+  "endpoint": {
+    "ip": "192.168.137.234",
+    "session": "REDACTED",
+    "port": 49724
+  },
+  "error": "AssertionError('single_registration_press_and_release')",
+  "collector_errors": []
+}

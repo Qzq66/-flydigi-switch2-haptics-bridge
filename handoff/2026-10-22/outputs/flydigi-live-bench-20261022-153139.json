@@ -1,0 +1,248 @@
+{
+  "status": "PASSED_BOUNDED_LIVE_BENCH_AND_CONFIG_RECHECK",
+  "persistent_write_commands": 0,
+  "maximum_allowed_offset": 5,
+  "path": "PC captured USB reports -> RAM Pico -> actual WiFi -> PC decode -> Flydigi",
+  "actual_switch_live_test": false,
+  "automatic_resume": false,
+  "parent_guardian": true,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 0,
+  "child_error": "",
+  "child": {
+    "status": "PASSED_PICO_WIFI_FLYDIGI_BENCH",
+    "frames": 484,
+    "nonneutral_frames": 4,
+    "maximum_offset": 3,
+    "events": 27,
+    "wire_trace": [
+      {
+        "at_us": 13222020,
+        "sequence": 1,
+        "motors": "0001404000014040",
+        "received": -1.6719999999986612,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 13238020,
+        "sequence": 2,
+        "motors": "0001404000014040",
+        "received": -1.625,
+        "rtt_ms": 30.999999999039574
+      },
+      {
+        "at_us": 14918127,
+        "sequence": 3,
+        "motors": "0000000000000000",
+        "received": 0.01599999999962165,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 14958130,
+        "sequence": 4,
+        "motors": "0000000000000000",
+        "received": 0.06199999999807915,
+        "rtt_ms": 14.999999999417923
+      },
+      {
+        "at_us": 14966129,
+        "sequence": 5,
+        "motors": "0000000000000000",
+        "received": 0.06199999999807915,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 14982128,
+        "sequence": 6,
+        "motors": "0000000000000000",
+        "received": 0.10900000000037835,
+        "rtt_ms": 47.0000000022992
+      },
+      {
+        "at_us": 15014131,
+        "sequence": 7,
+        "motors": "0000000000000000",
+        "received": 0.10900000000037835,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15038130,
+        "sequence": 8,
+        "motors": "0000000000000000",
+        "received": 0.14099999999962165,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15062135,
+        "sequence": 9,
+        "motors": "0000000000000000",
+        "received": 0.15599999999903957,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15070136,
+        "sequence": 10,
+        "motors": "0000000000000000",
+        "received": 0.17199999999866122,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15110138,
+        "sequence": 11,
+        "motors": "0000000000000000",
+        "received": 0.20300000000133878,
+        "rtt_ms": 31.000000002677552
+      },
+      {
+        "at_us": 15126136,
+        "sequence": 12,
+        "motors": "0000000000000000",
+        "received": 0.21900000000096043,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15150141,
+        "sequence": 13,
+        "motors": "0000000000000000",
+        "received": 0.25,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15182143,
+        "sequence": 14,
+        "motors": "0000000000000000",
+        "received": 0.31199999999807915,
+        "rtt_ms": 45.9999999984575
+      },
+      {
+        "at_us": 15198140,
+        "sequence": 15,
+        "motors": "0000000000000000",
+        "received": 0.31199999999807915,
+        "rtt_ms": 45.9999999984575
+      },
+      {
+        "at_us": 15230148,
+        "sequence": 16,
+        "motors": "0000000000000000",
+        "received": 0.3280000000013388,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 15278149,
+        "sequence": 17,
+        "motors": "0000000000000000",
+        "received": 0.4219999999986612,
+        "rtt_ms": 46.999999998661224
+      },
+      {
+        "at_us": 15286147,
+        "sequence": 18,
+        "motors": "0000000000000000",
+        "received": 0.4219999999986612,
+        "rtt_ms": 46.999999998661224
+      },
+      {
+        "at_us": 18318335,
+        "sequence": 19,
+        "motors": "0001404000014040",
+        "received": 3.4219999999986612,
+        "rtt_ms": 15.99999999962165
+      },
+      {
+        "at_us": 18326337,
+        "sequence": 20,
+        "motors": "0001404000014040",
+        "received": 3.4219999999986612,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 18342330,
+        "sequence": 21,
+        "motors": "801860b200000000",
+        "received": 3.436999999998079,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 18350336,
+        "sequence": 22,
+        "motors": "0000000000000000",
+        "received": 3.4840000000003783,
+        "rtt_ms": 30.999999999039574
+      },
+      {
+        "at_us": 18358338,
+        "sequence": 23,
+        "motors": "0000000000000000",
+        "received": 3.4840000000003783,
+        "rtt_ms": 30.999999999039574
+      },
+      {
+        "at_us": 18390337,
+        "sequence": 24,
+        "motors": "0001404000014040",
+        "received": 3.4840000000003783,
+        "rtt_ms": 30.999999999039574
+      },
+      {
+        "at_us": 18422341,
+        "sequence": 25,
+        "motors": "00000000c318606d",
+        "received": 3.5309999999990396,
+        "rtt_ms": 14.999999999417923
+      },
+      {
+        "at_us": 18510348,
+        "sequence": 26,
+        "motors": "0001404000000000",
+        "received": 3.6090000000003783,
+        "rtt_ms": 0.0
+      },
+      {
+        "at_us": 18526346,
+        "sequence": 27,
+        "motors": "0000000000014040",
+        "received": 3.625,
+        "rtt_ms": 0.0
+      }
+    ],
+    "sent_raw_events": 25,
+    "active_samples": [
+      5,
+      5
+    ],
+    "neutral_written_clock": 18.8934453,
+    "disable_attempts": [
+      {
+        "attempt": 1,
+        "status": "ACK_OK"
+      }
+    ],
+    "runtime_disable_ack": true
+  },
+  "neutral_written_clock": 19.4393687,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

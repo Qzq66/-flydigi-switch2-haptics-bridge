@@ -1,0 +1,51 @@
+{
+  "checks": {
+    "actual_switch_path": true,
+    "local_log_crc_valid": true,
+    "local_capture_complete": true,
+    "all_raw_motor_fields_equal": true,
+    "wire_sequence_complete": true,
+    "both_sides_rendered": true,
+    "bounded_waveform": true,
+    "parent_and_child_disabled": true,
+    "configuration_unchanged": true
+  },
+  "passed": true,
+  "local_motor_fields": 303,
+  "wire_motor_fields": 303,
+  "received_source_clock_origin_difference_us": {
+    "min": 903664,
+    "max": 903702,
+    "median": 903698
+  },
+  "active_groups": [
+    {
+      "sequence": 18,
+      "side": 0,
+      "group": 0,
+      "low_amplitude": 0.5571933712979462,
+      "low_hz": 160.0,
+      "high_amplitude": 0.0,
+      "high_hz": 320.0,
+      "state_complete": true
+    },
+    {
+      "sequence": 22,
+      "side": 1,
+      "group": 0,
+      "low_amplitude": 0.0,
+      "low_hz": 160.0,
+      "high_amplitude": 0.4486772687507768,
+      "high_hz": 320.0,
+      "state_complete": true
+    }
+  ],
+  "rendered_active_samples": [
+    5,
+    5
+  ],
+  "nonneutral_frames": 2,
+  "actual_maximum_offset": 3,
+  "human_felt_rumble": false,
+  "limitation": "Human reported icon but no felt rumble. First-test rendering uses experimental 5ms groups and a 64ms buffer; this does not verify physical fidelity or end-to-end actuator latency."
+}

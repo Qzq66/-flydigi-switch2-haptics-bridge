@@ -1,0 +1,13 @@
+{
+  "repo": "OpenStickCommunity/GP2040-CE",
+  "revision": "f2932283ddd58a3dad9c8c4d076c5bf05522d4bf",
+  "accessed_at": "2026-10-22T12:23:22.2831363+08:00",
+  "report_descriptor_bytes": 203,
+  "report_descriptor_sha256": "25f0b3b7e59bdfec05e8cced16e43a8878509865a0cb223f05025c556f3bedba",
+  "files": {
+    "LICENSE": "c88392477680bd31292f1d61590f67de131fd45cf76c9b0a508942fd2a6a4176",
+    "SwitchProDescriptors.h": "f262dc61276b157a57e9c0ce66d1a479d0f19976c629619cf763e570370df970",
+    "SwitchProDriver.cpp": "64b3ee355555b58946d25437058715942f23c84cd9c13999b62caf9296a6b52b",
+    "SwitchProDriver.h": "19637bc326f09b49720719f5bf30a141b3210c89f14bf306a9746eafe4be8f00"
+  }
+}

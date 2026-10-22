@@ -1,0 +1,2 @@
+https://github.com/jyapayne/switch-pico/blob/7449d6d029a0d3aa1ff1ce80d524a8f7b1e08ba8/switch_pro_driver.cpp
+Read as protocol reference; only stationary mode 2 is implemented.

@@ -1,0 +1,304 @@
+{
+  "physical_output": false,
+  "flash_writes": 0,
+  "snapshots": [
+    {
+      "initialized": 1,
+      "active": 0,
+      "vibration": 0,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 0
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": -2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 1,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "0.0.0.0",
+      "link": 2,
+      "produced": 10
+    },
+    {
+      "initialized": 1,
+      "active": 1,
+      "vibration": 1,
+      "ip": "192.168.137.234",
+      "link": 3,
+      "produced": 10
+    }
+  ],
+  "udp_reply_received": true,
+  "udp_events": 8
+}

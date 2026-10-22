@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-22T12:40:58.0280309+08:00",
+  "chipid": "PICO_SERIAL_REDACTED",
+  "path": "C:\\Users\\WINDOWS_USER\\Documents\\ChatGPT\\86pro手柄震动\\work\\backups\\pico-pre-capture-20261022-124037.bin",
+  "bytes": 4194304,
+  "sha256": "09762691D3FDDF3BA592DB0BB6F520CB2384423F37194E7974089C9B0F700593",
+  "picotool_readback_verified": true,
+  "proposed_log_region_erased": true,
+  "proposed_log_offsets": [
+    "0xF0000",
+    "0xF1000"
+  ]
+}

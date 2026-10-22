@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "name": "unique_candidate",
+      "passed": true
+    },
+    {
+      "name": "HID_open",
+      "passed": true
+    },
+    {
+      "name": "RAM_identity",
+      "passed": true
+    }
+  ],
+  "status": "INCOMPLETE",
+  "physical_output": false,
+  "error": "AssertionError('Virtual read header expected=009200001d actual=90102060000018')",
+  "collector_errors": []
+}

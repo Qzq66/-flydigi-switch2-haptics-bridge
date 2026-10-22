@@ -1,0 +1,8 @@
+{
+  "status": "INCOMPLETE",
+  "events": [],
+  "frames": 0,
+  "nonneutral_frames": 0,
+  "maximum_offset": 0,
+  "ended_reason": "TimeoutError('No matching Pico within connection window')"
+}

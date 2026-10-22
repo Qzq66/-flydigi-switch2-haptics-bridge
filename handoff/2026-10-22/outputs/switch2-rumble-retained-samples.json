@@ -1,0 +1,149 @@
+[
+  {
+    "at_ms": 3803,
+    "packet_counter": 0,
+    "left_hex": "c2000f40",
+    "right_hex": "00000000",
+    "raw_hex": "1000c2000f4000000000"
+  },
+  {
+    "at_ms": 3883,
+    "packet_counter": 1,
+    "left_hex": "00000000",
+    "right_hex": "00014040",
+    "raw_hex": "10010000000000014040"
+  },
+  {
+    "at_ms": 3899,
+    "packet_counter": 2,
+    "left_hex": "00014040",
+    "right_hex": "00000000",
+    "raw_hex": "10020001404000000000"
+  },
+  {
+    "at_ms": 3923,
+    "packet_counter": 3,
+    "left_hex": "00000000",
+    "right_hex": "c318606d",
+    "raw_hex": "100300000000c318606d"
+  },
+  {
+    "at_ms": 18068,
+    "packet_counter": 15,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "100f0001404000014040"
+  },
+  {
+    "at_ms": 18188,
+    "packet_counter": 1,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10010001404000014040"
+  },
+  {
+    "at_ms": 18300,
+    "packet_counter": 2,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10020001404000014040"
+  },
+  {
+    "at_ms": 18420,
+    "packet_counter": 3,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10030001404000014040"
+  },
+  {
+    "at_ms": 18524,
+    "packet_counter": 5,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10050001404000014040"
+  },
+  {
+    "at_ms": 18644,
+    "packet_counter": 6,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10060001404000014040"
+  },
+  {
+    "at_ms": 18764,
+    "packet_counter": 8,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10080001404000014040"
+  },
+  {
+    "at_ms": 18876,
+    "packet_counter": 9,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10090001404000014040"
+  },
+  {
+    "at_ms": 18996,
+    "packet_counter": 10,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "100a0001404000014040"
+  },
+  {
+    "at_ms": 19100,
+    "packet_counter": 12,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "100c0001404000014040"
+  },
+  {
+    "at_ms": 19220,
+    "packet_counter": 13,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "100d0001404000014040"
+  },
+  {
+    "at_ms": 19340,
+    "packet_counter": 15,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "100f0001404000014040"
+  },
+  {
+    "at_ms": 19452,
+    "packet_counter": 0,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10000001404000014040"
+  },
+  {
+    "at_ms": 19572,
+    "packet_counter": 1,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10010001404000014040"
+  },
+  {
+    "at_ms": 19676,
+    "packet_counter": 3,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10030001404000014040"
+  },
+  {
+    "at_ms": 19796,
+    "packet_counter": 4,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10040001404000014040"
+  },
+  {
+    "at_ms": 19916,
+    "packet_counter": 6,
+    "left_hex": "00014040",
+    "right_hex": "00014040",
+    "raw_hex": "10060001404000014040"
+  }
+]

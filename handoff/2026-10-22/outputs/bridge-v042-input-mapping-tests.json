@@ -1,0 +1,30 @@
+[
+  {
+    "name": "neutral_exact",
+    "passed": true
+  },
+  {
+    "name": "bottom_face_maps_to_switch_B",
+    "passed": true
+  },
+  {
+    "name": "right_face_maps_to_switch_A",
+    "passed": true
+  },
+  {
+    "name": "home_and_capture_never_synthesized",
+    "passed": true
+  },
+  {
+    "name": "center_drift_has_deadzone",
+    "passed": true
+  },
+  {
+    "name": "axes_match_synthetic_calibration_bounds",
+    "passed": true
+  },
+  {
+    "name": "trigger_threshold",
+    "passed": true
+  }
+]

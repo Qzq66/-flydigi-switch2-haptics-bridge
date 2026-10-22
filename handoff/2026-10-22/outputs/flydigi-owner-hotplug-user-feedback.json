@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "owner_kill": {
+    "report": "flydigi-owner_kill-20261022-114823.json",
+    "human_confirmed_prompt_stop_without_residual": true
+  },
+  "active_hotplug_first_attempt": {
+    "report": "flydigi-active_hotplug-20261022-114840.json",
+    "user_unplugged_after_vibration_ended": true,
+    "counts_as_active_disconnect_test": false
+  },
+  "active_hotplug_success": {
+    "report": "flydigi-active_hotplug-20261022-115009.json",
+    "human_confirmed_quick_stop_after_unplug": true,
+    "human_confirmed_no_spontaneous_vibration_on_reinsert": true,
+    "physical_stop_latency_measured": false
+  }
+}

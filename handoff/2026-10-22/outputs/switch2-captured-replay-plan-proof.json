@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "47c5d9b75110252fcb17210c65abb76cad30fb759b16025f12c0d1dd2e110d3f",
+  "checks": {
+    "duration_below_250ms": true,
+    "all_samples_bounded": true,
+    "left_and_right_present": true,
+    "final_64ms_neutral": true,
+    "same_side_order": true
+  },
+  "duration_ms": 192,
+  "blocks": 24,
+  "actual_maximum_offset": 3
+}

@@ -1,0 +1,50 @@
+{
+  "passed_limited_perceptible_prompt_test": true,
+  "checks": {
+    "actual_switch_test": true,
+    "local_log_complete": true,
+    "received_fields_match_prefix": true,
+    "wire_sequences_contiguous": true,
+    "all_active_groups_received": true,
+    "selected_prompt_mode": true,
+    "both_prompts_complete": true,
+    "bounded_output": true,
+    "both_processes_disabled": true,
+    "original_configuration_unchanged": true,
+    "human_confirmed": true
+  },
+  "local_motor_fields": 303,
+  "received_motor_fields": 302,
+  "all_fields_received": false,
+  "final_unreceived_fields": [
+    "0000000000014040"
+  ],
+  "active_groups": [
+    {
+      "event": 18,
+      "side": 0,
+      "group": 0,
+      "low_amplitude": 0.5571933712979462,
+      "low_hz": 160.0,
+      "high_amplitude": 0.0,
+      "high_hz": 320.0,
+      "state_complete": true
+    },
+    {
+      "event": 22,
+      "side": 1,
+      "group": 0,
+      "low_amplitude": 0.0,
+      "low_hz": 160.0,
+      "high_amplitude": 0.4486772687507768,
+      "high_hz": 320.0,
+      "state_complete": true
+    }
+  ],
+  "rendered_samples": [
+    120,
+    120
+  ],
+  "actual_maximum_offset": 12,
+  "limitation": "Calibrated 120ms notifications at fixed left160/right320Hz; not faithful Nintendo waveform reconstruction or full gameplay validation. Any missing neutral tail fields at timed shutdown remain reported separately."
+}

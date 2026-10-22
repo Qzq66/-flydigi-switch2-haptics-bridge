@@ -1,0 +1,2772 @@
+[
+  {
+    "received_at_us": 3889519,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3889519,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3905567,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3905567,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3913544,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.5571933712979462,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3913544,
+    "side": "left",
+    "sample_index_in_packet": 1,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3969498,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 3969498,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4001500,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.4486772687507768,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4001500,
+    "side": "right",
+    "sample_index_in_packet": 1,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4001500,
+    "side": "right",
+    "sample_index_in_packet": 2,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4089504,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4105504,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4209511,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4225511,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4329516,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4345517,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4449522,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4465521,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4569527,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4585528,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4689532,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4705533,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4809539,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4825539,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4929543,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 4945545,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5049548,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5065548,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5169555,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5185557,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5289559,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5305562,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5409566,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5425566,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5529572,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5545572,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5649578,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5665577,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5769584,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5785585,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5889589,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 5905589,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6009594,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6025595,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6129600,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6145599,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6249605,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6265606,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6369611,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6385611,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6489616,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6505617,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6609623,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6625622,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6729628,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6745627,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6849633,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6865636,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6969639,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 6985639,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7089645,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7105647,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7209652,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7225650,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7329656,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7345656,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7449663,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7465664,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7569669,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7585669,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7689674,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7705674,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7809680,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7825678,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7929685,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 7945686,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8049691,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8065691,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8169695,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8185698,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8289700,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8305701,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8409707,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8425707,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8529712,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8545717,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8649719,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8665720,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8769724,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8785724,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8889729,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 8905731,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9009736,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9025737,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9129742,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9145743,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9249747,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9265749,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9369753,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9385754,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9489758,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9505759,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9609764,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9625764,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9729769,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9745770,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9849775,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9865774,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9969782,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 9985780,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10089788,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10105788,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10209792,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10225794,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10329799,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10345799,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10449802,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10465804,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10569809,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10585810,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10689814,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10705815,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10809822,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10825822,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10929826,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 10945827,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11049832,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11065832,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11169838,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11185838,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11289844,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11305844,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11409849,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11425850,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11529854,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11545854,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11649860,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11665860,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11769866,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11785867,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11889871,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 11905871,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12009877,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12025878,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12129882,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12145884,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12249888,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12265888,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12369893,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12385894,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12489900,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12505900,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12609905,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12625906,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12729912,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12745911,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12849918,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12865919,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12969922,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 12985921,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13089929,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13105930,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13209934,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13225933,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13329938,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13345940,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13449945,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13465945,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13569952,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13585951,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13689957,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13705956,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13809961,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13825963,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13929967,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 13945968,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14049974,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14065975,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14169979,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14185981,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14289985,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14305986,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14409990,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14425992,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14529996,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14545997,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14650001,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14666003,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14770008,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14786008,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14890012,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 14906014,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15010019,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15026019,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15130024,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15146025,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15250031,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15266030,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15370034,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15386037,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15490041,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15506042,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15610047,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15626049,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15730054,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15746054,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15850058,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15866059,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15970063,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 15986064,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16090068,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16106070,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16210074,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16226076,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16330082,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16346083,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16450086,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16466086,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16570092,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16586092,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16690098,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16706097,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16810103,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16826104,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16930108,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 16946108,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17050115,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17066115,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17170120,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17186120,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17290124,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17306127,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17410132,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17426132,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17530137,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17546139,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17650143,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17666143,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17770150,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17786148,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17890154,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 17906155,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18010160,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18026161,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18130165,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18146166,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18250172,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18266172,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18370177,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18386179,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18490183,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18506182,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18610188,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18626191,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18730194,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18746193,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18850200,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18866200,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18970206,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 18986207,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19090210,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19106212,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19210216,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19226217,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19330224,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19346224,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19450229,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19466228,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19570233,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19586234,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19690241,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19706240,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19810246,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19826246,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19930251,
+    "side": "left",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  },
+  {
+    "received_at_us": 19946252,
+    "side": "right",
+    "sample_index_in_packet": 0,
+    "low_amplitude": 0.0,
+    "low_hz": 160.0,
+    "high_amplitude": 0.0,
+    "high_hz": 320.0,
+    "state_complete": true
+  }
+]

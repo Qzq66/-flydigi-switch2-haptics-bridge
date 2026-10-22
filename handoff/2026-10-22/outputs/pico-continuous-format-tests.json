@@ -1,0 +1,50 @@
+[
+  {
+    "name": "valid_complete",
+    "passed": true
+  },
+  {
+    "name": "all_slots_erased_rejected",
+    "passed": true
+  },
+  {
+    "name": "corruption_rejected",
+    "passed": true
+  },
+  {
+    "name": "truncated_rejected",
+    "passed": true
+  },
+  {
+    "name": "old_valid_survives_partial_new_slot",
+    "passed": true
+  },
+  {
+    "name": "generation_wrap",
+    "passed": true
+  },
+  {
+    "name": "overflow_flag_and_drop_count",
+    "passed": true
+  },
+  {
+    "name": "sequence_gap_rejected",
+    "passed": true
+  },
+  {
+    "name": "reversed_timestamps_rejected",
+    "passed": true
+  },
+  {
+    "name": "unmarked_overflow_rejected",
+    "passed": true
+  },
+  {
+    "name": "missing_motor_flag_rejected",
+    "passed": true
+  },
+  {
+    "name": "capacity_fixture_complete",
+    "passed": true
+  }
+]

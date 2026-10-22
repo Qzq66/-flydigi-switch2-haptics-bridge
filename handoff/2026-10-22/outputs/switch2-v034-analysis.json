@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-22T13:51:05.167795+08:00",
+  "firmware": "0.3.4",
+  "source": "pico-persistent-capture-20261022-134847.json",
+  "crc_valid": true,
+  "duration_ms": 20000,
+  "counts": {
+    "received": 291,
+    "replies": 21,
+    "rumble_fields": 289,
+    "rejected": 0,
+    "overflow": 0,
+    "short_packets": 0,
+    "input_frames": 1309,
+    "LR_pressed_frames": 26,
+    "released_frames": 1054
+  },
+  "usb_stage": 5,
+  "player_lights": 1,
+  "imu_mode": 2,
+  "vibration_enabled": 1,
+  "registration_flags": 7,
+  "mounts": 1,
+  "unmounts": 0,
+  "suspends": 0,
+  "retained_command_histogram": {
+    "03": 2,
+    "02": 1,
+    "08": 1,
+    "10": 7,
+    "01": 2,
+    "04": 1,
+    "40": 1,
+    "30": 2,
+    "48": 1,
+    "21": 1
+  },
+  "retained_requests_requiring_reply": 20,
+  "reply_count_excluding_initial_unsolicited_identify": 20,
+  "omitted_events": 243,
+  "user_observation": "Controller icon appeared and disappeared at the planned 20 second cutoff",
+  "conclusions": [
+    "No rejected commands observed in whole-run counters",
+    "Host advanced past 0x21 and set player-light value 01 at 3862 ms",
+    "LR press and release were sent; no USB unmount or suspend before capture deadline",
+    "Continuous haptics fidelity and Flydigi forwarding remain untested"
+  ]
+}
