@@ -4,6 +4,8 @@
 
 Mac 后续：九组142项离线检查全部通过，包含游戏提示渲染、Client/收集器结束握手和捕获回放；修正主机侧结束确认与END2解析，详见 [离线结果](MAC_OFFLINE_RESULTS_2026-10-22.md)。这些修改没有硬件复测。
 
+最新离线阶段：十组176项全部通过；实时入口延迟加载Windows依赖，Mac可查看帮助；父进程拒绝超时或带清理错误的子进程结果。见 [平台隔离验证](MAC_PLATFORM_RESULTS_2026-10-22.md)。
+
 ## 已实测
 
 - [x] RP2350、4MiB Flash、BOOTSEL、RAM构建、全Flash备份与恢复，原MicroPython回归。

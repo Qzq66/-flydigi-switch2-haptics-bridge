@@ -3,16 +3,27 @@
 Replays a verified prefix of captured Switch reports into RAM Pico only.
 No persistent Flydigi commands. Does not claim an actual Switch live test.
 """
-import pathlib,importlib.util,json,time,sys,subprocess,datetime,threading,queue,ctypes as C
+import pathlib,importlib.util,json,time,sys,subprocess,datetime,threading,queue,argparse
 from bridge_runtime import Client,Renderer,BridgeFault
+from bridge_process import communicate_bounded,child_succeeded
 HERE=pathlib.Path(__file__).absolute().parent
 def module(name,file):
     spec=importlib.util.spec_from_file_location(name,HERE/file)
     obj=importlib.util.module_from_spec(spec);spec.loader.exec_module(obj);return obj
-owner=module('owner','flydigi-owner-hotplug.py');safe=owner.safe;OUT=owner.OUT
-probe=module('probe','test-pico-bridge-v040.py');m=probe.m
+owner=safe=OUT=probe=m=None
+
+def load_hardware(replay=False):
+    global owner,safe,OUT,probe,m
+    if sys.platform!='win32':
+        raise RuntimeError('Windows hardware backend is not available on this platform; use tools/run_offline_checks.py')
+    if owner is None:
+        owner=module('owner','flydigi-owner-hotplug.py');safe=owner.safe;OUT=owner.OUT
+    if replay and probe is None:
+        probe=module('probe','test-pico-bridge-v040.py');m=probe.m
 
 def child(bp,rp):
+    load_hardware(replay=True)
+    import ctypes as C
     report={'status':'INCOMPLETE','frames':0,'nonneutral_frames':0,'maximum_offset':0,'events':0,'wire_trace':[]}
     b=json.loads(bp.read_text(encoding='utf-8'));r=None;client=None;dirty=False
     stop=threading.Event();thread=None;inbox=queue.Queue(maxsize=512);timer=False
@@ -90,6 +101,7 @@ def child(bp,rp):
     return 0 if report['status']=='PASSED_PICO_WIFI_FLYDIGI_BENCH' else 1
 
 def main(live=False,prompt_ms=0,prompt_offset=3,game_pilot=False):
+    load_hardware()
     stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
     bp=OUT/f'flydigi-live-bench-backup-{stamp}.json';cp=OUT/f'flydigi-live-bench-child-{stamp}.json'
     report=dict(status='INCOMPLETE',persistent_write_commands=0,maximum_allowed_offset=5,
@@ -110,13 +122,12 @@ def main(live=False,prompt_ms=0,prompt_offset=3,game_pilot=False):
         if game_pilot:args+=['--game-pilot']
         proc=subprocess.Popen(args,
             stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,creationflags=subprocess.CREATE_NO_WINDOW)
-        try:stdout,stderr=proc.communicate(timeout=(200 if game_pilot else 155) if live else 38)
-        except subprocess.TimeoutExpired:
-            proc.kill();stdout,stderr=proc.communicate(timeout=2);report['guardian_killed_late_child']=True
+        stdout,stderr,killed=communicate_bounded(proc,(200 if game_pilot else 155) if live else 38)
+        if killed:report['guardian_killed_late_child']=True
         report['child_exit']=proc.returncode;report['child_error']=stderr[-1500:]
         if cp.exists():report['child']=json.loads(cp.read_text(encoding='utf-8'))
         r=safe.open_reader(report);owner.identity(r,b);owner.stop(r,report);dirty=False;owner.verify(r,b,report)
-        if proc.returncode==0 and report['configuration_unchanged'] and report['runtime_disable_ack']:
+        if not killed and child_succeeded(report.get('child'),proc.returncode,live) and report['configuration_unchanged'] and report['runtime_disable_ack']:
             report['status']='PASSED_SWITCH_LIVE_AND_CONFIG_RECHECK' if live else 'PASSED_BOUNDED_LIVE_BENCH_AND_CONFIG_RECHECK'
     except BaseException as e:report['error']=repr(e)
     finally:
@@ -132,5 +143,9 @@ def main(live=False,prompt_ms=0,prompt_offset=3,game_pilot=False):
         print(json.dumps(report,indent=2));print(str(path))
     return 0 if report['status'] in ('PASSED_BOUNDED_LIVE_BENCH_AND_CONFIG_RECHECK','PASSED_SWITCH_LIVE_AND_CONFIG_RECHECK') else 1
 if __name__=='__main__':
-    if len(sys.argv)==4 and sys.argv[1]=='--child':raise SystemExit(child(pathlib.Path(sys.argv[2]),pathlib.Path(sys.argv[3])))
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--child',nargs=2,metavar=('BACKUP','REPORT'))
+    args=parser.parse_args()
+    if sys.platform!='win32':parser.error('Windows hardware backend unavailable; offline checks are supported on Mac')
+    if args.child:raise SystemExit(child(pathlib.Path(args.child[0]),pathlib.Path(args.child[1])))
     raise SystemExit(main())

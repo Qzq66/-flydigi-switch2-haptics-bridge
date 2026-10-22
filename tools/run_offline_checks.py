@@ -19,7 +19,7 @@ TESTS = [
     'test-bridge-prompt.py', 'test-bridge-input.py',
     'test-pico-continuous-format.py', 'test-pico-capture-format.py',
     'test-bridge-game-pilot.py', 'test-bridge-end.py',
-    'test-bridge-capture-replay.py',
+    'test-bridge-capture-replay.py', 'test-bridge-platform.py',
 ]
 BOOTSTRAP = '''
 import runpy, sys

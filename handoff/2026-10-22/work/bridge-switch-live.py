@@ -1,10 +1,18 @@
 """Bounded actual Switch receiver, guarded by the existing Flydigi owner parent."""
-import socket,struct,time,json,pathlib,threading,queue,ctypes as C,sys,argparse
+import socket,struct,time,json,pathlib,threading,queue,sys,argparse
 from bridge_runtime import Client,Renderer,BridgeFault,unpack,collect_frames
 from importlib.util import spec_from_file_location,module_from_spec
 HERE=pathlib.Path(__file__).absolute().parent
-spec=spec_from_file_location('bench',HERE/'flydigi-live-bridge-bench.py');bench=module_from_spec(spec);spec.loader.exec_module(bench)
-owner=bench.owner;safe=bench.safe;OUT=bench.OUT
+bench=owner=safe=OUT=None
+
+def load_hardware():
+    global bench,owner,safe,OUT
+    if sys.platform!='win32':
+        raise RuntimeError('Windows hardware backend is not available on this platform; use tools/run_offline_checks.py')
+    if bench is None:
+        spec=spec_from_file_location('bench',HERE/'flydigi-live-bridge-bench.py')
+        bench=module_from_spec(spec);spec.loader.exec_module(bench)
+        bench.load_hardware();owner=bench.owner;safe=bench.safe;OUT=bench.OUT
 
 def discover(session,timeout=60):
     sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
@@ -23,6 +31,8 @@ def discover(session,timeout=60):
     finally:sock.close()
 
 def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
+    load_hardware()
+    import ctypes as C
     report=dict(status='INCOMPLETE',events=[],frames=0,nonneutral_frames=0,maximum_offset=0)
     report.update(prompt_ms=prompt_ms,rendering_mode='calibrated notification mapping' if prompt_ms else 'original experimental parameter groups')
     report['prompt_offset']=prompt_offset
@@ -121,10 +131,12 @@ def child(bp,rp,prompt_ms=0,prompt_offset=3,game_pilot=False):
     return 0 if report['status']=='PASSED_SWITCH_WIFI_FLYDIGI_LIMITED_LIVE' else 1
 
 if __name__=='__main__':
-    if len(sys.argv)>=4 and sys.argv[1]=='--child':
-        p=argparse.ArgumentParser();p.add_argument('--prompt-ms',type=int,choices=(0,120),default=0);p.add_argument('--prompt-offset',type=int,choices=(3,5,8,12),default=3);p.add_argument('--game-pilot',action='store_true');a=p.parse_args(sys.argv[4:])
-        raise SystemExit(child(pathlib.Path(sys.argv[2]),pathlib.Path(sys.argv[3]),a.prompt_ms,a.prompt_offset,a.game_pilot))
-    p=argparse.ArgumentParser();p.add_argument('--prompt-ms',type=int,choices=(0,120),default=0);p.add_argument('--prompt-offset',type=int,choices=(3,5,8,12),default=3);p.add_argument('--game-pilot',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--child',nargs=2,metavar=('BACKUP','REPORT'))
+    p.add_argument('--prompt-ms',type=int,choices=(0,120),default=0);p.add_argument('--prompt-offset',type=int,choices=(3,5,8,12),default=3);p.add_argument('--game-pilot',action='store_true');a=p.parse_args()
     if a.game_pilot and a.prompt_ms!=120:p.error('--game-pilot requires --prompt-ms 120')
     if not a.prompt_ms and a.prompt_offset!=3:p.error('--prompt-offset requires --prompt-ms 120')
+    if sys.platform!='win32':p.error('Windows hardware backend unavailable; offline checks are supported on Mac')
+    load_hardware()
+    if a.child:raise SystemExit(child(pathlib.Path(a.child[0]),pathlib.Path(a.child[1]),a.prompt_ms,a.prompt_offset,a.game_pilot))
     raise SystemExit(bench.main(live=True,prompt_ms=a.prompt_ms,prompt_offset=a.prompt_offset,game_pilot=a.game_pilot))
