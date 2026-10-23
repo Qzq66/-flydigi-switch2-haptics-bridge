@@ -6,6 +6,8 @@
 
 ## 接续入口
 
+- [Mac最新进度重读与资料收集（2026-10-23）](docs/MAC_PROGRESS_REVIEW_2026-10-23.md)
+
 - [最新跨机接续：2026-10-23 GitHub同步](docs/GITHUB_RESUME_2026-10-23.md)
 - [受限游戏提示成功基线与恢复说明](docs/STAGED_GAME_BASELINE_2026-10-23.md)
 - [游戏验证过程、失败反例与两轮成功证据](docs/WINDOWS_GAME_PILOT_2026-10-23.md)
