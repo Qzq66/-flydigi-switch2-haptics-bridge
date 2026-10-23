@@ -1,0 +1,41 @@
+{
+  "status": "PASSED_ACTUAL_SWITCH_LIMITED_PROMPTS",
+  "checks": {
+    "program_passed": true,
+    "local_crc_valid": true,
+    "local_complete": true,
+    "wire_fields_match_prefix": true,
+    "wire_sequence_contiguous": true,
+    "all_active_groups_received": true,
+    "both_prompts_complete": true,
+    "child_disabled": true,
+    "parent_disabled": true,
+    "configuration_unchanged": true
+  },
+  "local_motor_fields": 302,
+  "received_motor_fields": 302,
+  "all_motor_fields_received": true,
+  "missing_tail": [],
+  "active_groups": [
+    {
+      "motor_index": 18,
+      "at_us": 13607307,
+      "side": 0
+    },
+    {
+      "motor_index": 22,
+      "at_us": 13695300,
+      "side": 1
+    }
+  ],
+  "human_feedback": {
+    "icon_appeared": true,
+    "both_grips_held": true,
+    "left_felt": true,
+    "right_felt": true,
+    "stopped_without_residual": true
+  },
+  "terminal_handshake_verified": false,
+  "ended_reason": "BridgeFault('wire heartbeat timeout')",
+  "note": "v040 has no explicit final handshake; final timeout must be distinguished from early runtime loss. Full game input/rumble and v042 Flash are not tested."
+}

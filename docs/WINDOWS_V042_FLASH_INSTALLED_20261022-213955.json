@@ -1,0 +1,13 @@
+﻿{
+    "status":  "V042_FLASH_INSTALLED_VERIFIED_NOT_STARTED",
+    "installed_at":  "2026-10-22T21:39:55.8617808+08:00",
+    "firmware_sha256":  "1B4746C62F7E80DDB47D49B08CD3BBC3A6BE0F4C1B43A3D44FE2C8E413D6CDC3",
+    "program_bytes":  306844,
+    "program_erase_end":  "0x4b000",
+    "backup_sha256":  "4593D016E77FDCBA8C89F567EAAC2A757DE38F355395F1674E7A90F79F01D7B0",
+    "full_current_backup_verified":  true,
+    "log_regions_preserved":  true,
+    "filesystem_preserved":  true,
+    "remains_in_bootsel":  true,
+    "flydigi_commands":  0
+}

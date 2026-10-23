@@ -1,0 +1,28 @@
+{
+  "status": "INCOMPLETE",
+  "checks": {
+    "strict_child_passed": false,
+    "parent_program_passed": false,
+    "local_crc_valid": true,
+    "local_complete": true,
+    "persistent_END2_confirmed": true,
+    "all_motor_fields_exact": false,
+    "wire_sequence_contiguous": true,
+    "bottom_button_sampled": false,
+    "right_button_sampled": true,
+    "last_input_neutral": false,
+    "no_child_motor_output": true,
+    "parent_disabled": true,
+    "configuration_unchanged": true,
+    "new_log_generation": false
+  },
+  "local_motor_fields": 970,
+  "received_motor_fields": 467,
+  "log_generation": 3,
+  "source_reports": [
+    "WINDOWS_V042_INPUT_RECHECK_20261022-215343.json",
+    "WINDOWS_V042_CAPTURE_20261022-215343.json"
+  ],
+  "human_screen_confirmation": "record separately; PC sampled inputs alone do not prove host display",
+  "game_test": false
+}

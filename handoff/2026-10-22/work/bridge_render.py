@@ -25,6 +25,33 @@ def collect_frames(client,publish,stopped,pause=time.sleep):
             publish(frame)
         pause(.004)
 
+def phase_frame(frame,armed):
+    """Still decode every word before arming, but suppress source/output activity."""
+    return frame if armed else dict(frame,flags=frame['flags']&~4)
+
+class GameOutputLatch:
+    """Mute permanently at the prompt-count cap; leave transport ownership outside.
+
+    Other faults still propagate. A failed stop also propagates to the guardian.
+    Muted blocks return None so the caller sends no further motor waveforms.
+    """
+    def __init__(self,renderer,stop_output):
+        self.renderer=renderer;self.stop_output=stop_output;self.reason=None
+    def feed(self,frame):
+        if self.reason:
+            if not frame['flags']&2:raise BridgeFault('USB upstream stopped')
+            self.renderer.last_received=frame['received_at']
+        else:self.renderer.feed(frame)
+    def block(self,now):
+        if self.reason:
+            if self.renderer.last_received is None or now-self.renderer.last_received>.080:raise BridgeFault('wire heartbeat timeout')
+            return None
+        try:return self.renderer.block(now)
+        except BridgeFault as exc:
+            if str(exc)!='calibrated prompt count cap':raise
+            self.stop_output();self.reason=str(exc)
+            return None
+
 class Renderer:
     """64ms experimental jitter buffer; 5ms parameter groups, 1kHz PCM.
 

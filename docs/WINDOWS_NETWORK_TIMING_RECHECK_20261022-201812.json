@@ -1,0 +1,46 @@
+{
+  "status": "TIMING_MEASURED",
+  "flydigi_access": false,
+  "motor_output": false,
+  "persistent_writes": 0,
+  "phases": [
+    {
+      "name": "BHP2",
+      "seconds": 15.064914799999997,
+      "polls": 849,
+      "valid_replies": 702,
+      "poll_timeouts": 147,
+      "gap_ms_median": 5.568099999997855,
+      "gap_ms_p95": 83.7703999999988,
+      "gap_ms_max": 95.66719999999762,
+      "gaps_over_80ms": 105,
+      "rtt_ms_p95": 14.1670999999981,
+      "rtt_ms_max": 26.147099999999313
+    },
+    {
+      "name": "BHI2_neutral",
+      "seconds": 15.051425600000002,
+      "polls": 773,
+      "valid_replies": 625,
+      "poll_timeouts": 148,
+      "gap_ms_median": 5.556049999999146,
+      "gap_ms_p95": 85.9628999999984,
+      "gap_ms_max": 200.89180000000084,
+      "gaps_over_80ms": 108,
+      "rtt_ms_p95": 16.150700000004292,
+      "rtt_ms_max": 52.49200000000087
+    }
+  ],
+  "terminal_flags": [
+    9,
+    25
+  ],
+  "terminal_ack_replied": true,
+  "original_trace_sha256": "2fbd7faa963fbc46b855fbd6740ff77bc59cae9c3ffb447bbe4aa2abb8d4a9ad",
+  "received_datagrams": 1610,
+  "datagrams_for_superseded_requests": 281,
+  "unknown_request_datagrams": 0,
+  "raw_trace": "ignored work/private; contains session token",
+  "timer_released": true,
+  "protection_threshold_changed": false
+}

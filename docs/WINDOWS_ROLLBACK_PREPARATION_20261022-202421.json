@@ -1,0 +1,31 @@
+{
+  "status": "PREPARED_NOT_INSTALLED",
+  "target": "retained pre-Mac Windows v040 firmware and v041 perceptible notification mode",
+  "pico_flash_writes": 0,
+  "flydigi_writes": 0,
+  "firmware_sha256": "0cef76fe7ade60477d5f375a83830ac5877c39b9e28ed677a9cd595049904f34",
+  "original_flash_sha256": "09762691d3fddf3ba592db0bb6f520cb2384423f37194e7974089c9b0f700593",
+  "source_hashes": {
+    "bridge_runtime.py": "dcff7a2c15f222ba39d3c4b9f156bcdb872a3ad5e9e1d41b92a2e0a9880fe3c6",
+    "bridge-switch-live.py": "f661893e3bc07900ba1b507d1ff65db6220dce74799802a4c37cf379c4fd6257",
+    "bridge_input.py": "1ab62bc207d9b2f829f95f2ffe90e5d08fbdd80b97e033652b9e8ff7169e91b1",
+    "xinput_readonly.py": "c038e4a045891273fc6d75c78fd51d80f5711c791ef7ae84c8003c426b174357",
+    "switch_hd_decode.py": "18fcab68f41f09ceb017d4b1820d17b88d290a620411e216c6ce9478530a040b",
+    "flydigi-live-bridge-bench.py": "133098f3f765a6942fd006d548af1a707a2ab48fafe272e0d87c35abb54c87df",
+    "flydigi-owner-hotplug.py": "764d011064f0f6812375fde18db04c8e54f27fd1783037de1248ef327bf03129",
+    "flydigi-safe-waveform.py": "7d8ee1d044ee4499d483550f6cd5e792963d6652da05ff2eda92e916a2907ae5",
+    "flydigi-readonly.py": "a4a92c5ccd19944bebb5732883bef77416f54e4b4dacf7afe9c877b8935e6712",
+    "test-pico-bridge-v040.py": "c6f103afce5800dddfcd02b833bd36fe7ff194dc9ab8f5a4f98ae29c1394b750",
+    "test-pico-capture-v035-ram.py": "aa8a81af6ab7d4af02608473317c7534771eef7892e373ab1ea21cd65d5b2c39",
+    "pico-hotspot.ps1": "09b1138be92c2eee169942ef983de271a9eb39c9a2a2cea24817b58e85d4707c",
+    "restore-pico-hotspot.ps1": "9f1eadd1d525eadf4144dcc903e81be253cec003d9e8cb636725fef9c3c12a75"
+  },
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "known_limitations": [
+    "302 of 303 fields in final old trial; missing neutral tail",
+    "no full game validation",
+    "no guarantee of eliminating current wireless timing gaps"
+  ],
+  "private_snapshot": "ignored work/private/rollback-v041-20261022-202421"
+}

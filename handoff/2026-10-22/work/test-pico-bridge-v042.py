@@ -1,6 +1,7 @@
 """USB output injection -> Pico raw ring -> actual WiFi -> PC. No Flydigi output."""
 import pathlib,importlib.util,time,json,ctypes as C,threading,datetime,socket,struct
 from bridge_runtime import Client
+from bridge_network import DEFAULT_NETWORK
 here=pathlib.Path(__file__).absolute().parent
 sp=importlib.util.spec_from_file_location('candidate',here/'test-pico-capture-v035-ram.py')
 m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
@@ -25,21 +26,22 @@ def open_candidate():
     m.lib.hid_init();matches=find();check('unique_candidate',len(matches)==1)
     m.handle=m.lib.hid_open_path(matches[0]);check('HID_open',bool(m.handle))
     check('RAM_identity',m.read_virtual(0x9000,8)==b'BCAP\5\0\0\1');m.verified=True;m.allow_lr=True
-def endpoint():
-    deadline=time.monotonic()+25
+def endpoint(network=DEFAULT_NETWORK,timeout=25):
+    deadline=time.monotonic()+timeout
     while time.monotonic()<deadline:
         d=m.read_range(0x9200,48)
         if d[:4]!=b'BRD2':raise ValueError('Transport identity mismatch')
-        if struct.unpack_from('<i',d,36)[0]==3 and d[8:11]==bytes([192,168,137]) and d[11] not in (0,1,255):
+        if struct.unpack_from('<i',d,36)[0]==3 and network.accepts((socket.inet_ntoa(d[8:12]),network.port)) and socket.inet_ntoa(d[8:12])!=network.bind_host:
             value=dict(ip=socket.inet_ntoa(d[8:12]),session=f'{struct.unpack_from("<Q",d,40)[0]:016x}',port=49724)
-            (here.parent/'outputs/bridge-v042-endpoint.json').write_text(json.dumps(value,indent=2),encoding='utf-8')
+            private=here/'private';private.mkdir(exist_ok=True)
+            (private/'bridge-v042-endpoint.json').write_text(json.dumps(value,indent=2),encoding='utf-8')
             return value
         time.sleep(.15)
     raise TimeoutError(f'WiFi join did not complete: link={struct.unpack_from("<i",d,36)[0]}, ip={socket.inet_ntoa(d[8:12])}')
 def main():
     client=None;thread=None;stop=threading.Event();received=[];errors=[];rtts=[]
     try:
-        open_candidate();ep=endpoint();report['endpoint']=ep
+        open_candidate();ep=endpoint();report['endpoint']={k:v for k,v in ep.items() if k!='session'}
         discovery_spec=importlib.util.spec_from_file_location('live',here/'bridge-switch-live.py')
         discovery=importlib.util.module_from_spec(discovery_spec);discovery_spec.loader.exec_module(discovery)
         check('broadcast_discovery_exact_endpoint',discovery.discover(int(ep['session'],16),2)==ep['ip'])
@@ -102,6 +104,7 @@ def main():
         time.sleep(.12)
         produced=struct.unpack_from('<I',m.read_range(0x9200,24),12)[0]
         m.send(0x10,b'\0'+bytes.fromhex('0001404000014040'))
+        if callable(globals().get('before_end')):before_end(m)
         m.send(0x80,b'\xfcENDLAB42')
         deadline=time.perf_counter()+3
         while time.perf_counter()<deadline and thread.is_alive():time.sleep(.01)

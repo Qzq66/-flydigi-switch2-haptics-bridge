@@ -1,0 +1,11 @@
+﻿{
+    "status":  "FULL_CURRENT_FLASH_BACKED_UP",
+    "created_at":  "2026-10-22T21:37:18.9620018+08:00",
+    "bytes":  4194304,
+    "sha256":  "4593D016E77FDCBA8C89F567EAAC2A757DE38F355395F1674E7A90F79F01D7B0",
+    "picotool_readback_verified":  true,
+    "includes_current_v040_and_logs":  true,
+    "original_micropython_recovery_verified":  true,
+    "backup_location":  "ignored work/private",
+    "device_writes":  0
+}

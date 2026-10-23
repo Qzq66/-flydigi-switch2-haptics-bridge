@@ -1,0 +1,13 @@
+﻿{
+    "status":  "IPHONE_USB_SOURCE_PC_HOTSPOT_READY",
+    "created_at":  "2026-10-23T15:28:40.5803537+08:00",
+    "internet_source":  "Apple Mobile Device Ethernet",
+    "source_verified_by_adapter_guid":  true,
+    "hotspot_state":  "On",
+    "band":  "TwoPointFourGigahertz",
+    "clients":  0,
+    "upstream_wlan_disconnected":  true,
+    "driver_settings_changed":  false,
+    "pico_flash_written":  false,
+    "motor_output_started":  false
+}

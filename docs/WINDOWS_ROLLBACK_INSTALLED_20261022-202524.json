@@ -1,0 +1,14 @@
+﻿{
+    "status":  "LEGACY_V040_INSTALLED_VERIFIED_NOT_STARTED",
+    "installed_at":  "2026-10-22T20:25:24.1064583+08:00",
+    "firmware_sha256":  "0CEF76FE7ADE60477D5F375A83830AC5877C39B9E28ED677A9CD595049904F34",
+    "original_backup_sha256":  "09762691D3FDDF3BA592DB0BB6F520CB2384423F37194E7974089C9B0F700593",
+    "current_original_flash_verified_before_write":  true,
+    "program_erase_bytes":  356352,
+    "prompt_ms":  120,
+    "prompt_offset":  12,
+    "flydigi_commands":  0,
+    "remains_in_bootsel":  true,
+    "hotspot_enabled":  false,
+    "switch2_tested":  false
+}

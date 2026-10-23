@@ -1,0 +1,108 @@
+{
+  "status": "INCOMPLETE",
+  "persistent_write_commands": 0,
+  "maximum_allowed_offset": 12,
+  "path": "PC captured USB reports -> RAM Pico -> actual WiFi -> PC decode -> Flydigi",
+  "actual_switch_live_test": false,
+  "automatic_resume": false,
+  "parent_guardian": true,
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "game_pilot": false,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "child_error": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "events": [
+      {
+        "sequence": 0,
+        "at_us": 21568378,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 1,
+        "at_us": 21584383,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 2,
+        "at_us": 21600382,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 3,
+        "at_us": 21704390,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 4,
+        "at_us": 21744391,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 5,
+        "at_us": 21752389,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 6,
+        "at_us": 21784391,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 7,
+        "at_us": 21800396,
+        "motors": "0000000000000000"
+      }
+    ],
+    "frames": 23,
+    "maximum_offset": 0,
+    "identity_matches": true,
+    "state_matches": true,
+    "ram_matches": {
+      "global": true,
+      "mapping": true,
+      "lighting": true,
+      "motors": true
+    },
+    "configuration_unchanged": true,
+    "error": "BridgeFault('wire heartbeat timeout')",
+    "neutral_written_clock": 18.6605083,
+    "disable_attempts": [
+      {
+        "attempt": 1,
+        "status": "ACK_OK"
+      }
+    ],
+    "runtime_disable_ack": true,
+    "timer_released": true
+  },
+  "neutral_written_clock": 19.2360068,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "source": "verified captured Switch USB prefix injected by PC; not current game traffic",
+  "collector": "current collect_frames with real sockets and end acknowledgement"
+}

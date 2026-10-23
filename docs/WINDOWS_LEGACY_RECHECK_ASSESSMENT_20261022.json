@@ -1,0 +1,34 @@
+{
+  "local_fields": 303,
+  "received_fields": 20,
+  "received_fields_match_prefix": true,
+  "active_groups": [
+    1,
+    1
+  ],
+  "active_locations": [
+    {
+      "log_sequence": 20,
+      "at_us": 23375328,
+      "side": 0
+    },
+    {
+      "log_sequence": 24,
+      "at_us": 23463308,
+      "side": 1
+    }
+  ],
+  "rendered_samples": [
+    36,
+    0
+  ],
+  "program_status": "INCOMPLETE",
+  "human_report": {
+    "icon_appeared": true,
+    "both_sides_felt_clear": true,
+    "stopped_without_residual": true
+  },
+  "conclusion": "Human sensation confirmed; program did not complete both 120ms notifications, so full bridge test remains incomplete",
+  "hotspot_restored": true,
+  "configuration_unchanged": true
+}

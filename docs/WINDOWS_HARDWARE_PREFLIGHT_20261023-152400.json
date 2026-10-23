@@ -1,0 +1,7 @@
+{
+  "status": "INCOMPLETE",
+  "motor_commands": 0,
+  "persistent_write_commands": 0,
+  "checks": {},
+  "error": "ValueError('Exactly one known FFA0/MI02 interface is required')"
+}

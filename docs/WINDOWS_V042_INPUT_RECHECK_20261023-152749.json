@@ -1,0 +1,72 @@
+{
+  "status": "INCOMPLETE",
+  "actual_switch_test": true,
+  "game_test": false,
+  "input_check_only": true,
+  "automatic_resume": false,
+  "motor_output_enabled": false,
+  "persistent_flydigi_commands": 0,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "events": [],
+    "frames": 0,
+    "nonneutral_frames": 0,
+    "maximum_offset": 0,
+    "prompt_ms": 120,
+    "rendering_mode": "calibrated notification mapping",
+    "prompt_offset": 12,
+    "game_pilot": true,
+    "motor_output_enabled": false,
+    "output_frames": 0,
+    "ended_reason": "OSError(10049, '\u5728\u5176\u4e0a\u4e0b\u6587\u4e2d\uff0c\u8be5\u8bf7\u6c42\u7684\u5730\u5740\u65e0\u6548\u3002', None, 10049, None)",
+    "collector_ended": true,
+    "input_relay": {
+      "slot": 0,
+      "nonneutral_reads": 13,
+      "changes": [
+        {
+          "at": 1.7832034,
+          "pro_input": "000000000880000880"
+        },
+        {
+          "at": 1.9377556,
+          "pro_input": "040000000880000880"
+        },
+        {
+          "at": 2.1421707,
+          "pro_input": "000000000880000880"
+        }
+      ]
+    },
+    "timer_released": true
+  },
+  "neutral_written_clock": 3.1742259,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

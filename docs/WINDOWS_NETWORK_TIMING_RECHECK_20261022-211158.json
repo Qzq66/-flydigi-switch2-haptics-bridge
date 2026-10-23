@@ -1,0 +1,62 @@
+{
+  "status": "TIMING_MEASURED",
+  "flydigi_access": false,
+  "motor_output": false,
+  "persistent_writes": 0,
+  "phases": [
+    {
+      "name": "BHP2",
+      "seconds": 15.0046408,
+      "polls": 2437,
+      "valid_replies": 2437,
+      "poll_timeouts": 0,
+      "gap_ms_median": 5.5373000000011885,
+      "gap_ms_p95": 10.254099999999156,
+      "gap_ms_max": 20.995300000000938,
+      "gaps_over_80ms": 0,
+      "rtt_ms_p95": 6.054800000001137,
+      "rtt_ms_max": 16.282200000000913,
+      "same_request_retries": false,
+      "retry_count_cumulative": 0
+    },
+    {
+      "name": "BHI2_neutral",
+      "seconds": 15.003707200000004,
+      "polls": 2458,
+      "valid_replies": 2458,
+      "poll_timeouts": 0,
+      "gap_ms_median": 5.579300000000842,
+      "gap_ms_p95": 9.688400000001707,
+      "gap_ms_max": 26.142600000000016,
+      "gaps_over_80ms": 0,
+      "rtt_ms_p95": 5.540000000003431,
+      "rtt_ms_max": 21.63240000000144,
+      "same_request_retries": false,
+      "retry_count_cumulative": 0
+    }
+  ],
+  "pico_metrics": {
+    "pm_set_result": 0,
+    "pm_get_result": 0,
+    "pm_value": 16,
+    "max_poll_gap_us": 153,
+    "poll_gaps_over_2ms": 0,
+    "max_request_gap_us": 26271,
+    "callback_count": 4895,
+    "last_send_result": 0,
+    "max_poll_work_us": 145,
+    "observed_power_save_mode": 0
+  },
+  "terminal_flags": [
+    9,
+    25
+  ],
+  "terminal_ack_replied": true,
+  "original_trace_sha256": "f75853993a39786edc9843cb4f0776fbddc4d81728ebc79d53decc1b7dbe35c3",
+  "received_datagrams": 4897,
+  "datagrams_for_superseded_requests": 0,
+  "unknown_request_datagrams": 0,
+  "raw_trace": "ignored work/private; contains session token",
+  "timer_released": true,
+  "protection_threshold_changed": false
+}

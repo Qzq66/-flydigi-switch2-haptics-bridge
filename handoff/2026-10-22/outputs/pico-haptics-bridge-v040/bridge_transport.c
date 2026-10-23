@@ -6,6 +6,9 @@
 #include "lwip/udp.h"
 #include "bridge_transport.h"
 #include "bridge_credentials.h"
+#ifndef BRIDGE_HOST_IPV4
+#define BRIDGE_HOST_IPV4 0xc0a88901u
+#endif
 enum { CAPACITY=256,BATCH=8 };
 typedef struct {uint32_t at,sequence;uint8_t motors[8];} motor_event;
 static motor_event events[CAPACITY];
@@ -31,8 +34,8 @@ static void receive(void *arg,struct udp_pcb *pcb,struct pbuf *packet,ip_addr_t 
     if(packet->tot_len!=sizeof(request)){pbuf_free(packet);return;}
     pbuf_copy_partial(packet,request,sizeof(request),0);pbuf_free(packet);
     if(memcmp(request,"BHP2",4)||get64(request+8)!=BRIDGE_SESSION)return;
-    // Only the task hotspot host may poll this bounded experimental stream.
-    if(!IP_IS_V4(address)||ip4_addr_get_u32(ip_2_ip4(address))!=PP_HTONL(0xc0a88901u))return;
+    // Only the explicitly configured PC may poll this experimental stream.
+    if(!IP_IS_V4(address)||ip4_addr_get_u32(ip_2_ip4(address))!=PP_HTONL(BRIDGE_HOST_IPV4))return;
     last_client=time_us_64();requests++;
     uint32_t ack=get32(request+16);
     if(sent_valid && (int32_t)(last_sent-ack)>=0){

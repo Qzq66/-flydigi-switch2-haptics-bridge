@@ -6,6 +6,9 @@
 #include "lwip/udp.h"
 #include "bridge_transport.h"
 #include "bridge_credentials.h"
+#ifndef BRIDGE_HOST_IPV4
+#define BRIDGE_HOST_IPV4 0xc0a88901u
+#endif
 enum { CAPACITY=256,BATCH=8 };
 typedef struct {uint32_t at,sequence;uint8_t motors[8];} motor_event;
 static motor_event events[CAPACITY];
@@ -22,6 +25,10 @@ static uint64_t started,last_client;
 static uint64_t last_join;
 static unsigned join_attempts;
 static struct udp_pcb *server;
+static int pm_set_result,pm_get_result=-1,last_send_result;
+static uint32_t pm_observed,max_poll_gap,max_poll_work,slow_poll_count,max_request_gap,callback_count;
+static uint64_t previous_poll,previous_request;
+static bool pm_observed_valid;
 static void put16(uint8_t *p,uint16_t v){p[0]=(uint8_t)v;p[1]=(uint8_t)(v>>8);}
 static void put32(uint8_t *p,uint32_t v){for(unsigned i=0;i<4;i++)p[i]=(uint8_t)(v>>(i*8));}
 static void put64(uint8_t *p,uint64_t v){for(unsigned i=0;i<8;i++)p[i]=(uint8_t)(v>>(i*8));}
@@ -40,8 +47,8 @@ static void receive(void *arg,struct udp_pcb *pcb,struct pbuf *packet,ip_addr_t 
     bool final_ack=!memcmp(request,"BHE2",4);
     bool with_input=request_size==36 && !memcmp(request,"BHI2",4);
     if((!with_input && (request_size!=20 || (memcmp(request,"BHP2",4) && !final_ack)))||get64(request+8)!=BRIDGE_SESSION)return;
-    // Only the task hotspot host may poll this bounded experimental stream.
-    if(!IP_IS_V4(address)||ip4_addr_get_u32(ip_2_ip4(address))!=PP_HTONL(0xc0a88901u))return;
+    // Only the explicitly configured PC may poll this experimental stream.
+    if(!IP_IS_V4(address)||ip4_addr_get_u32(ip_2_ip4(address))!=PP_HTONL(BRIDGE_HOST_IPV4))return;
     if(with_input && !draining){
         uint8_t const *v=request+24;bool valid=(v[0]&~0xcfu)==0 && (v[1]&~0x0fu)==0 && (v[2]&~0xcfu)==0;
         for(unsigned i=3;i<9;i+=3){
@@ -55,6 +62,8 @@ static void receive(void *arg,struct udp_pcb *pcb,struct pbuf *packet,ip_addr_t 
         }
     }
     last_client=time_us_64();requests++;
+    if(previous_request && last_client-previous_request>max_request_gap)max_request_gap=(uint32_t)(last_client-previous_request);
+    previous_request=last_client;callback_count++;
     uint32_t ack=get32(request+16);
     if(sent_valid && (int32_t)(last_sent-ack)>=0){
         while(count && (int32_t)(ack-events[head].sequence)>=0){head=(head+1)%CAPACITY;count--;}
@@ -79,7 +88,8 @@ static void receive(void *arg,struct udp_pcb *pcb,struct pbuf *packet,ip_addr_t 
     struct pbuf *reply=pbuf_alloc(PBUF_TRANSPORT,(u16_t)size,PBUF_RAM);
     if(reply){
         memcpy(reply->payload,response,size);
-        if(udp_sendto(pcb,reply,address,port)==ERR_OK && batch){last_sent=events[(head+batch-1)%CAPACITY].sequence;sent_valid=true;}
+        last_send_result=udp_sendto(pcb,reply,address,port);
+        if(last_send_result==ERR_OK && batch){last_sent=events[(head+batch-1)%CAPACITY].sequence;sent_valid=true;}
         pbuf_free(reply);
     }
 }
@@ -87,7 +97,7 @@ void bridge_init(void){
     started=time_us_64();boot_id=get_rand_32();watchdog_enable(8000,true);
     if(cyw43_arch_init()!=0)return;
     initialized=true;cyw43_arch_enable_sta_mode();
-    cyw43_wifi_pm(&cyw43_state,CYW43_NO_POWERSAVE_MODE);
+    pm_set_result=cyw43_wifi_pm(&cyw43_state,CYW43_NO_POWERSAVE_MODE);
     cyw43_arch_wifi_connect_async(bridge_ssid,bridge_key,CYW43_AUTH_WPA2_AES_PSK);
     last_join=time_us_64();join_attempts=1;
     server=udp_new();
@@ -97,10 +107,24 @@ void bridge_init(void){
 void bridge_poll(bool upstream,bool vibration){
     active=upstream && !draining;enabled=vibration && !draining;
     if(initialized){
+        uint64_t poll_at=time_us_64();
+        if(previous_poll){
+            uint32_t gap=(uint32_t)(poll_at-previous_poll);
+            if(gap>max_poll_gap)max_poll_gap=gap;
+            if(gap>2000)slow_poll_count++;
+        }
+        previous_poll=poll_at;
         cyw43_arch_poll();
+        uint32_t work=(uint32_t)(time_us_64()-poll_at);if(work>max_poll_work)max_poll_work=work;
         // A failed asynchronous association otherwise remains failed forever.
         // Retry only before a PC session exists; never resume output implicitly.
         int link=cyw43_tcpip_link_status(&cyw43_state,CYW43_ITF_STA);
+        if(link==CYW43_LINK_UP && !pm_observed_valid){
+            pm_get_result=cyw43_wifi_get_pm(&cyw43_state,&pm_observed);
+            pm_observed_valid=true;
+            // Exclude one-off association and PM-query work from steady-state maxima.
+            previous_poll=0;max_poll_gap=0;max_poll_work=0;slow_poll_count=0;
+        }
         if(!last_client && join_attempts<3 && link<=0 && time_us_64()-last_join>8000000){
             cyw43_arch_wifi_connect_async(bridge_ssid,bridge_key,CYW43_AUTH_WPA2_AES_PSK);
             last_join=time_us_64();join_attempts++;
@@ -119,14 +143,17 @@ void bridge_begin_drain(void){draining=true;active=false;enabled=false;}
 bool bridge_drain_confirmed(void){return draining && drain_confirmed && count==0 && time_us_64()-confirmed_at>=50000;}
 bool bridge_client_ready(void){return initialized && !dropped && last_client && time_us_64()-last_client<250000;}
 uint8_t bridge_diagnostic_byte(uint32_t offset){
-    uint8_t d[64]={0};memcpy(d,"BRD2",4);d[4]=2;d[5]=initialized;d[6]=active;d[7]=enabled;
+    uint8_t d[104]={0};memcpy(d,"BRD2",4);d[4]=2;d[5]=initialized;d[6]=active;d[7]=enabled;
     if(initialized)memcpy(d+8,&netif_ip4_addr(&cyw43_state.netif[CYW43_ITF_STA])->addr,4);
     put32(d+12,produced);put32(d+16,count);put32(d+20,dropped);put32(d+24,requests);put32(d+28,boot_id);
     put32(d+32,(uint32_t)last_client);put32(d+36,initialized?(uint32_t)cyw43_tcpip_link_status(&cyw43_state,CYW43_ITF_STA):UINT32_MAX);
     put64(d+40,BRIDGE_SESSION);put32(d+48,input_sequence);
     d[52]=input_valid && !draining && time_us_64()-input_at<80000;d[53]=input_valid;
     put32(d+56,input_updates);put32(d+60,input_valid?(uint32_t)(time_us_64()-input_at):UINT32_MAX);
-    return offset<64?d[offset]:0xff;
+    memcpy(d+64,"TMD1",4);put32(d+68,(uint32_t)pm_set_result);put32(d+72,(uint32_t)pm_get_result);
+    put32(d+76,pm_observed);put32(d+80,max_poll_gap);put32(d+84,slow_poll_count);
+    put32(d+88,max_request_gap);put32(d+92,callback_count);put32(d+96,(uint32_t)last_send_result);put32(d+100,max_poll_work);
+    return offset<sizeof(d)?d[offset]:0xff;
 }
 bool bridge_copy_input(uint8_t *out){
     if(draining || !input_valid || time_us_64()-input_at>=80000)return false;

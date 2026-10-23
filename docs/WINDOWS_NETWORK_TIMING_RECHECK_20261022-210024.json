@@ -1,0 +1,92 @@
+{
+  "status": "TIMING_MEASURED",
+  "flydigi_access": false,
+  "motor_output": false,
+  "persistent_writes": 0,
+  "phases": [
+    {
+      "name": "BHP2",
+      "seconds": 12.019759999999998,
+      "polls": 931,
+      "valid_replies": 903,
+      "poll_timeouts": 28,
+      "gap_ms_median": 5.571999999999022,
+      "gap_ms_p95": 63.12440000000308,
+      "gap_ms_max": 99.43220000000252,
+      "gaps_over_80ms": 4,
+      "rtt_ms_p95": 56.97990000000175,
+      "rtt_ms_max": 60.104600000002506,
+      "same_request_retries": false,
+      "retry_count_cumulative": 0
+    },
+    {
+      "name": "BHI2_neutral",
+      "seconds": 12.003387,
+      "polls": 998,
+      "valid_replies": 980,
+      "poll_timeouts": 18,
+      "gap_ms_median": 5.404699999999707,
+      "gap_ms_p95": 61.15530000000291,
+      "gap_ms_max": 92.7256000000014,
+      "gaps_over_80ms": 5,
+      "rtt_ms_p95": 55.31609999999887,
+      "rtt_ms_max": 59.972199999997144,
+      "same_request_retries": false,
+      "retry_count_cumulative": 0
+    },
+    {
+      "name": "BHP2_same_request_retries",
+      "seconds": 12.009697800000005,
+      "polls": 1029,
+      "valid_replies": 1020,
+      "poll_timeouts": 9,
+      "gap_ms_median": 5.427699999998481,
+      "gap_ms_p95": 57.720000000003324,
+      "gap_ms_max": 171.53199999999913,
+      "gaps_over_80ms": 3,
+      "rtt_ms_p95": 52.65930000000196,
+      "rtt_ms_max": 60.28940000000205,
+      "same_request_retries": true,
+      "retry_count_cumulative": 686
+    },
+    {
+      "name": "BHI2_same_request_retries",
+      "seconds": 12.031734599999993,
+      "polls": 586,
+      "valid_replies": 552,
+      "poll_timeouts": 34,
+      "gap_ms_median": 6.571900000004405,
+      "gap_ms_p95": 68.1513000000038,
+      "gap_ms_max": 183.97790000000214,
+      "gaps_over_80ms": 22,
+      "rtt_ms_p95": 53.327800000005254,
+      "rtt_ms_max": 60.12169999999628,
+      "same_request_retries": true,
+      "retry_count_cumulative": 1227
+    }
+  ],
+  "pico_metrics": {
+    "pm_set_result": 0,
+    "pm_get_result": 0,
+    "pm_value": 16,
+    "max_poll_gap_us": 1741,
+    "poll_gaps_over_2ms": 0,
+    "max_request_gap_us": 163109,
+    "callback_count": 4771,
+    "last_send_result": 0,
+    "max_poll_work_us": 1738,
+    "observed_power_save_mode": 0
+  },
+  "terminal_flags": [
+    9,
+    25
+  ],
+  "terminal_ack_replied": true,
+  "original_trace_sha256": "97dc4216f54781add1007a61fa47582aaa4a4396b3aaa809202643672593db96",
+  "received_datagrams": 4759,
+  "datagrams_for_superseded_requests": 1302,
+  "unknown_request_datagrams": 0,
+  "raw_trace": "ignored work/private; contains session token",
+  "timer_released": true,
+  "protection_threshold_changed": false
+}

@@ -1,0 +1,197 @@
+{
+  "status": "INCOMPLETE",
+  "firmware": "retained v040",
+  "mode": "retained Windows 120ms notification, +/-12",
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "actual_switch_test": true,
+  "automatic_resume": false,
+  "persistent_flydigi_commands": 0,
+  "guardian": "strict current parent supervising frozen legacy child; no timeout accepted as success",
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "events": [
+      {
+        "at_us": 1493896,
+        "sequence": 0,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1533968,
+        "sequence": 1,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1541970,
+        "sequence": 2,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1565964,
+        "sequence": 3,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1589965,
+        "sequence": 4,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1613997,
+        "sequence": 5,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1629986,
+        "sequence": 6,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1653956,
+        "sequence": 7,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1677962,
+        "sequence": 8,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1701962,
+        "sequence": 9,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1725960,
+        "sequence": 10,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1749966,
+        "sequence": 11,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1773934,
+        "sequence": 12,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1789969,
+        "sequence": 13,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1821966,
+        "sequence": 14,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 1845949,
+        "sequence": 15,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "at_us": 24255034,
+        "sequence": 16,
+        "motors": "0001404000014040",
+        "flags": 7
+      },
+      {
+        "at_us": 24271011,
+        "sequence": 17,
+        "motors": "0001404000014040",
+        "flags": 7
+      },
+      {
+        "at_us": 24278982,
+        "sequence": 18,
+        "motors": "801860b200000000",
+        "flags": 7
+      },
+      {
+        "at_us": 24287016,
+        "sequence": 19,
+        "motors": "0000000000000000",
+        "flags": 7
+      }
+    ],
+    "frames": 7,
+    "nonneutral_frames": 5,
+    "maximum_offset": 12,
+    "prompt_ms": 120,
+    "rendering_mode": "calibrated notification mapping",
+    "prompt_offset": 12,
+    "game_pilot": false,
+    "pico_ip": "192.168.137.30",
+    "live_limit_seconds": 22,
+    "ended_reason": "BridgeFault('wire heartbeat timeout')",
+    "terminal_received": false,
+    "terminal_ack_replied": false,
+    "active_samples": [
+      36,
+      0
+    ],
+    "source_active_samples": [
+      5,
+      0
+    ],
+    "prompt_counts": [
+      1,
+      0
+    ],
+    "neutral_written_clock": 119.5394032,
+    "disable_attempts": [
+      {
+        "attempt": 1,
+        "status": "ACK_OK"
+      }
+    ],
+    "runtime_disable_ack": true
+  },
+  "neutral_written_clock": 120.0997531,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

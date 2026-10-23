@@ -1,0 +1,252 @@
+{
+  "slots": [
+    {
+      "slot_index": 0,
+      "valid": true,
+      "generation": 3
+    },
+    {
+      "slot_index": 1,
+      "valid": true,
+      "generation": 4
+    }
+  ],
+  "newest": {
+    "version": 5,
+    "generation": 4,
+    "reason": "capture_deadline",
+    "elapsed_ms": 121146,
+    "total_events": 18,
+    "stored_events": 18,
+    "dropped_events": 0,
+    "capacity": 2725,
+    "overflow": false,
+    "complete": true,
+    "first_dropped_at_us": null,
+    "usb_mounted_seen": true,
+    "no_flash_marker": 0,
+    "target_offset": "0xf0000",
+    "crc_valid": true,
+    "diagnostics_raw_hex": "424341500530000012000000120000001000000000000000000000000000000000000000000000000500020012000000291f0000000000000000000000010000",
+    "events": [
+      {
+        "at_us": 358828,
+        "at_ms": 358.828,
+        "sequence": 0,
+        "report_id": "80",
+        "wire_bytes": 2,
+        "subcommand": null,
+        "first_argument": null,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 374846,
+        "at_ms": 374.846,
+        "sequence": 1,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "03",
+        "first_argument": 48,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 390855,
+        "at_ms": 390.855,
+        "sequence": 2,
+        "report_id": "80",
+        "wire_bytes": 2,
+        "subcommand": null,
+        "first_argument": null,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 422894,
+        "at_ms": 422.894,
+        "sequence": 3,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "48",
+        "first_argument": 0,
+        "packet_counter": 6,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 430884,
+        "at_ms": 430.884,
+        "sequence": 4,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "02",
+        "first_argument": 0,
+        "packet_counter": 7,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 454890,
+        "at_ms": 454.89,
+        "sequence": 5,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "08",
+        "first_argument": 0,
+        "packet_counter": 8,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 478896,
+        "at_ms": 478.896,
+        "sequence": 6,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 0,
+        "packet_counter": 9,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 502896,
+        "at_ms": 502.896,
+        "sequence": 7,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 80,
+        "packet_counter": 10,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 526898,
+        "at_ms": 526.898,
+        "sequence": 8,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "01",
+        "first_argument": 1,
+        "packet_counter": 11,
+        "pairing_arguments_redacted": true,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 550891,
+        "at_ms": 550.891,
+        "sequence": 9,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "03",
+        "first_argument": 48,
+        "packet_counter": 12,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 574895,
+        "at_ms": 574.895,
+        "sequence": 10,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "04",
+        "first_argument": 0,
+        "packet_counter": 13,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 598901,
+        "at_ms": 598.901,
+        "sequence": 11,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 128,
+        "packet_counter": 14,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 622899,
+        "at_ms": 622.899,
+        "sequence": 12,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 152,
+        "packet_counter": 15,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 646899,
+        "at_ms": 646.899,
+        "sequence": 13,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 16,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 670899,
+        "at_ms": 670.899,
+        "sequence": 14,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 61,
+        "packet_counter": 1,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 694901,
+        "at_ms": 694.901,
+        "sequence": 15,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "10",
+        "first_argument": 32,
+        "packet_counter": 2,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 726913,
+        "at_ms": 726.913,
+        "sequence": 16,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "40",
+        "first_argument": 2,
+        "packet_counter": 3,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      },
+      {
+        "at_us": 750902,
+        "at_ms": 750.902,
+        "sequence": 17,
+        "report_id": "01",
+        "wire_bytes": 49,
+        "subcommand": "30",
+        "first_argument": 0,
+        "packet_counter": 4,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0000000000000000"
+      }
+    ],
+    "stream_end": "drain_timeout",
+    "slot_index": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASSED_PC_WIFI_DISCOVERY",
+  "flydigi_access": false,
+  "motor_output": false,
+  "flash_write": false,
+  "wifi_link_up": true,
+  "session_matches_flash_launcher": true,
+  "broadcast_exact_endpoint": true,
+  "valid_replies": 388,
+  "poll_timeouts": 0,
+  "terminal_ack_replied": true
+}

@@ -3,6 +3,7 @@
 #include <string.h>
 #include "pico/stdlib.h"
 #include "hardware/watchdog.h"
+#include "pico/bootrom.h"
 #include "tusb.h"
 #include "virtual_spi.h"
 #include "capture_journal.h"
@@ -24,6 +25,14 @@ static uint8_t registration_flags,mounts,unmounts,suspends;
 static uint32_t input_reports,pressed_reports,released_reports;
 static uint8_t const mac[6]={0x02,0x00,0x00,0x23,0x50,0x01};
 static uint64_t now_ms(void){return time_us_64()/1000;}
+static void reboot_board(void){
+#if PICO_NO_FLASH && defined(BRIDGE_RAM_END_BOOTSEL) && BRIDGE_RAM_END_BOOTSEL
+    reset_usb_boot(0,0);
+#else
+    watchdog_reboot(0,0,10);
+#endif
+    while(true)tight_loop_contents();
+}
 static void put32(uint8_t *p,uint32_t v){for(unsigned i=0;i<4;i++)p[i]=(uint8_t)(v>>(8*i));}
 static uint32_t get32(uint8_t const *p){return (uint32_t)p[0]|((uint32_t)p[1]<<8)|((uint32_t)p[2]<<16)|((uint32_t)p[3]<<24);}
 static void clear_rumble(void){have_rumble=false;memset(last_rumble,0,8);}
@@ -84,7 +93,7 @@ static bool read_virtual(uint32_t address,uint8_t *p,uint8_t size){
     for(uint8_t i=0;i<size;i++){
         uint32_t at=address+i;
         if(at>=0x9000 && at<0x9040)p[i]=snapshot[at-0x9000];
-        else if(at>=0x9200 && at<0x9240)p[i]=bridge_diagnostic_byte(at-0x9200);
+        else if(at>=0x9200 && at<0x9268)p[i]=bridge_diagnostic_byte(at-0x9200);
         else if(at>=0x9100 && at<0x9200)p[i]=((uint8_t*)trace)[at-0x9100];
         else if(at>=0xa000 && at<0x1a000)p[i]=capture_preview_byte(at-0xa000);
         else if(!virtual_spi_read(at,p+i,1))return false;
@@ -106,7 +115,7 @@ void tud_hid_set_report_cb(uint8_t instance,uint8_t id,hid_report_type_t type,ui
         return;
     }
     received++;
-    bool debug_read=id==1 && n>=15 && p[9]==0x10 && ((get32(p+10)>=0x9000 && get32(p+10)<0x9240) || (get32(p+10)>=0xa000 && get32(p+10)<0x1a000));
+    bool debug_read=id==1 && n>=15 && p[9]==0x10 && ((get32(p+10)>=0x9000 && get32(p+10)<0x9268) || (get32(p+10)>=0xa000 && get32(p+10)<0x1a000));
     if(!debug_read){
         uint8_t *entry=trace[trace_count++%TRACE_LEN];entry[0]=id;entry[1]=n?p[0]:0;entry[2]=(uint8_t)n;entry[3]=(id==1 && n>=10)?p[9]:0;
         if(!(id==0x80 && n && (p[0]==0xfd || p[0]==0xfe)))capture_record(now_ms(),id,p,n);
@@ -238,7 +247,7 @@ int main(void){
                 capture_mark_stream_end(bridge_drain_confirmed());
                 bridge_close();
 #if PICO_NO_FLASH
-                watchdog_reboot(0,0,10);while(true)tight_loop_contents();
+                reboot_board();
 #else
                 capture_finish(final_diagnostics,now);
 #endif
@@ -246,7 +255,7 @@ int main(void){
             continue;
         }
         if(have_rumble && now-rumble_at>=80)clear_rumble();
-        if((reboot_at && now>=reboot_at) || now-start>=240000){bridge_close();watchdog_reboot(0,0,10);while(true)tight_loop_contents();}
+        if((reboot_at && now>=reboot_at) || now-start>=240000){bridge_close();reboot_board();}
         if(!tud_hid_ready())continue;
         if(identify_pending){uint8_t p[DATA_LEN];identify(p);enqueue(0x81,p);identify_pending=false;}
         if(count){

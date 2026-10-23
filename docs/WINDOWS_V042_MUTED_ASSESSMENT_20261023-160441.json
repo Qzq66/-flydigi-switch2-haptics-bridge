@@ -1,0 +1,33 @@
+{
+  "status": "PASSED_MUTED_INPUT_END_CHECKS",
+  "checks": {
+    "new_generation": true,
+    "complete_crc": true,
+    "persistent_end_confirmed": true,
+    "all_motor_fields_exact": true,
+    "sequence_contiguous": true,
+    "terminal_complete": true,
+    "muted_at_expected_cap": true,
+    "no_waveforms_after_mute": true,
+    "muted_loop_continued": true,
+    "input_active_after_mute": true,
+    "bounded_output": true,
+    "collector_ended": true,
+    "timer_released": true,
+    "parent_disabled": true,
+    "configuration_unchanged": true,
+    "no_cleanup_errors": true,
+    "guardian_not_killed": true
+  },
+  "log_generation": 8,
+  "motor_fields": 584,
+  "received_fields": 584,
+  "nonneutral_reads_after_mute": 2681,
+  "game_haptics_validated": false,
+  "human_controllability": "record separately",
+  "source_reports": [
+    "WINDOWS_V042_GAME_RECHECK_20261023-160441.json",
+    "WINDOWS_V042_GAME_CAPTURE_20261023-160441.json",
+    "WINDOWS_V042_GAME_CAPTURE_20261023-155910.json"
+  ]
+}

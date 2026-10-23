@@ -1,0 +1,33 @@
+{
+  "status": "PASSED_PC_CAPTURE_WIFI_PROMPTS_AND_HUMAN_CONFIRMATION",
+  "checks": {
+    "parent_program_passed": true,
+    "prefix_fields_exact": true,
+    "all_fields_accounted": true,
+    "sequence_contiguous": true,
+    "both_prompts_complete": true,
+    "terminal_ack": true,
+    "collector_ended": true,
+    "timer_released": true,
+    "parent_disable_ack": true,
+    "child_disable_ack": true,
+    "configuration_unchanged": true
+  },
+  "raw_received": 29,
+  "replayed_source_fields": 25,
+  "human_feedback": {
+    "both_grips_held": true,
+    "left_felt": true,
+    "right_felt": true,
+    "stopped_without_residual": true
+  },
+  "network": "iPhone USB internet -> PC 2.4GHz hotspot -> Pico",
+  "no_same_request_retries": true,
+  "pico_flash_unchanged_verified": true,
+  "actual_switch_game_test": false,
+  "limited_notification_mapping": true,
+  "source_reports": [
+    "WINDOWS_INTEGRATED_RAM_RECHECK_20261022-211434.json",
+    "WINDOWS_NETWORK_TIMING_RECHECK_20261022-211158.json"
+  ]
+}

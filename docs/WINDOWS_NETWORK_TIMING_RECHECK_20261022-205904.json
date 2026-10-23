@@ -1,0 +1,15 @@
+{
+  "status": "INCOMPLETE",
+  "flydigi_access": false,
+  "motor_output": false,
+  "persistent_writes": 0,
+  "phases": [],
+  "error": "TimeoutError('WiFi join did not complete: link=2, ip=0.0.0.0')",
+  "original_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "received_datagrams": 0,
+  "datagrams_for_superseded_requests": 0,
+  "unknown_request_datagrams": 0,
+  "raw_trace": "ignored work/private; contains session token",
+  "timer_released": true,
+  "protection_threshold_changed": false
+}

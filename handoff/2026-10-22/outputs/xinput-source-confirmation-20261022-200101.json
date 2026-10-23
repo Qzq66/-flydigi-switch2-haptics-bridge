@@ -1,0 +1,8 @@
+{
+  "status": "HUMAN_SOURCE_CHALLENGE_PASSED",
+  "readonly": true,
+  "expected_button": "physical bottom A",
+  "press_seen": true,
+  "release_seen": true,
+  "slot": 0
+}

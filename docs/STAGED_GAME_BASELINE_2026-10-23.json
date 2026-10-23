@@ -1,0 +1,985 @@
+{
+  "status": "FROZEN_LOCAL_STAGED_GAME_BASELINE",
+  "created_at": "2026-10-23T16:31:35.024784+08:00",
+  "scope": "Two independent offline door-entry trials; calibrated 120ms +/-12 notifications, not original HD rumble fidelity",
+  "validated_generations": [
+    9,
+    10
+  ],
+  "exact_motor_fields": [
+    581,
+    563
+  ],
+  "firmware_sha256": "1b4746c62f7e80ddb47d49b08cd3bbc3a6be0f4c1b43a3d44fe2c8e413d6cdc3",
+  "current_full_flash_sha256": "19570913cbb248abfd8681d4bd8a5eb9df036c00de3174599ed5fad83b385eb2",
+  "current_full_flash_bytes": 4194304,
+  "original_recovery_verified": true,
+  "previous_recovery_verified": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 399,
+      "sha256": "92b042eeb9fc5814534e379207ca64ff2e66dba181be10aff74c47dea46f8857"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 3336,
+      "sha256": "ff62122db80b16e7a79f9aac932cffa6b728904735e27ee955c105a457ab9680"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_ENTRY_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "92f3ef83d5907e22359d96c6580715e3b9a960b1c24f3514a6f8fcf09b5c5e4a"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_LATCH_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "3f91b25e10633404c27a07d3930b56cad9b868bbbf6c3f468b5c046da5d945c7"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_PILOT_2026-10-23.md",
+      "bytes": 11891,
+      "sha256": "2c3919e59ae3cdd6f83f85e654d55be6521fcd726d5917d1b2f0e4f16aa2f215"
+    },
+    {
+      "path": "docs/WINDOWS_HANDOFF.md",
+      "bytes": 4758,
+      "sha256": "cfb01a00f52df42af2fd246287301b927f27f86cd1f9025a0a5a90264c2215b3"
+    },
+    {
+      "path": "docs/WINDOWS_HANDOFF_ACK_2026-10-22.md",
+      "bytes": 3091,
+      "sha256": "c25b32c4e5c0123b0e02ea585cb39a22e65519eeb138c545829858d8a68e5520"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-195945.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-202737.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-212034.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-214110.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-152400.json",
+      "bytes": 185,
+      "sha256": "581e5aa5226733674b11fdff8cf7205ce70ce36e96169f14222beb09402a67b9"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-152505.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-155843.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-161552.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-162257.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_RECHECK_2026-10-22.md",
+      "bytes": 5672,
+      "sha256": "06c20581a3c3f858785a4a70dcd222190d80bae64d6b635de8cf23a3cadefad3"
+    },
+    {
+      "path": "docs/WINDOWS_INTEGRATED_RAM_RECHECK_20261022-201532.json",
+      "bytes": 2596,
+      "sha256": "dd528e753fd8578789f091366efbda41d70b90bc370929f453270f2ad1e0703b"
+    },
+    {
+      "path": "docs/WINDOWS_INTEGRATED_RAM_RECHECK_20261022-211434.json",
+      "bytes": 5136,
+      "sha256": "467b469abcf82732dbafc7660b90919b1befa8bb65e2f624f4f4faec7fd0999d"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_BRIDGE_VERIFICATION_20261022.json",
+      "bytes": 1029,
+      "sha256": "0cf4397c580f5fb0f6e384395d58eb14302fb7cc40842c73f302e4c2cc6a2a48"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261022-211128.json",
+      "bytes": 465,
+      "sha256": "8475e47ba0f0905d6e4f1a83bb5d2e06683a6702212098841848beff9ccd304e"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-152840.json",
+      "bytes": 465,
+      "sha256": "84a47c466422c10cd6d01571f5a3f02d1543d5fa7012bae0e2da64ae226a2bd3"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-153704.json",
+      "bytes": 465,
+      "sha256": "6dbf22156db0f35768b569fe15752b893b16408bcffd8b82354ba05a4963c722"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-153845.json",
+      "bytes": 465,
+      "sha256": "babf0c7996185f447803b6330d7c9fcaad15934723712aa472718b7ff6b92fd2"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-154852.json",
+      "bytes": 465,
+      "sha256": "7a5099302ca523b3471d637f6f05fb7432a2ec31a6fccb61ad195284582ae4a0"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_CAPTURE_20261022-2032.json",
+      "bytes": 103455,
+      "sha256": "91781de7e5c9725c622f6beea0bc6f1b4c550bcf9012b40d60539887c585ddfd"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_PROMPT_RECHECK_20261022-202834.json",
+      "bytes": 4410,
+      "sha256": "26e00169ad8dcb245eddc71ae0a66dbaf2c0629654b87f0f2436f3cd573993c1"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_PROMPT_RECHECK_20261022-212056.json",
+      "bytes": 41622,
+      "sha256": "9643bdb3151ff2cdeafc7b0887ef1d96edfe77b376a15ef7878b0c020f037b2d"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_RECHECK_ASSESSMENT_20261022.json",
+      "bytes": 750,
+      "sha256": "abebb3615c857f24fe70239a871cf74e49ec36b5e3efea10011dd5cb298d359c"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_RECHECK_ASSESSMENT_20261022_CORRECTED.json",
+      "bytes": 1195,
+      "sha256": "979ba394b88de82d7d03822c599cc0f0d1b4aa8adb79bcb48abda781e968b133"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_PARAMETER_CHECKS_20261022.json",
+      "bytes": 44386,
+      "sha256": "ae3e9e6b765613b5ee5ba2743368876fc0e97d9b2c120e17deea6e232852a790"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-201812.json",
+      "bytes": 1336,
+      "sha256": "d4d91bc4d8cdd5671e80fc2b0cccf456b4e4af7e01acf5165d66fad2bd04183c"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-204326.json",
+      "bytes": 542,
+      "sha256": "b6e7b6fb53230ed214cf13a39fa02b3f03ed59a68346d0b48f63e4748d5a222a"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-205455.json",
+      "bytes": 1627,
+      "sha256": "3eca81a0aad96c1c3de8158d77e94037f37b1eb23e6d13e4192f7aa8925df939"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-205904.json",
+      "bytes": 541,
+      "sha256": "b3cf6299e59ca40bd911a2ff01ece0418eae34479bccb6f5da6402c913b2a108"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-210024.json",
+      "bytes": 2753,
+      "sha256": "d4c681b1bf97da49db8c75ffd0a2b711abb622858f682b8d2ea55e3f86da8ac7"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-211158.json",
+      "bytes": 1788,
+      "sha256": "3be851e46612252830366d85d76b3514b6b5b7a9a6fe6728390ec91a62bdb76a"
+    },
+    {
+      "path": "docs/WINDOWS_OFFLINE_RECHECK_2026-10-22_resume.json",
+      "bytes": 44386,
+      "sha256": "7008b94a81a53a9620e8bdd7765a532a213fd5ed7feb5a61194d6b6cd8f50234"
+    },
+    {
+      "path": "docs/WINDOWS_OWNER_PROCESS_RECHECK_20261022-200945.json",
+      "bytes": 3553,
+      "sha256": "dd37d76c7fe5d430c9043c99da040f4ab2ff2a6b336fbf9700610e448e423f8b"
+    },
+    {
+      "path": "docs/WINDOWS_PAUSE_2026-10-22.md",
+      "bytes": 3300,
+      "sha256": "b920481e0b5f72fff6d9b3242b1076e3ed1bfdbd9bbcccc0f694ca0d7a86ac5b"
+    },
+    {
+      "path": "docs/WINDOWS_PC_DISCOVERY_20261023-153705.json",
+      "bytes": 309,
+      "sha256": "67b02453917a296847519c4d7cb9c020928833b32f1dc884d7cfec1ffea1ecda"
+    },
+    {
+      "path": "docs/WINDOWS_PC_TIMING_DIAGNOSTICS_OFFLINE_20261022.json",
+      "bytes": 44386,
+      "sha256": "ae3e9e6b765613b5ee5ba2743368876fc0e97d9b2c120e17deea6e232852a790"
+    },
+    {
+      "path": "docs/WINDOWS_RAM_CAPTURE_RECHECK_20261022-200607.json",
+      "bytes": 307115,
+      "sha256": "b6c5d723274ca57a07ae23f0a322e12149a783d0f23de09af6637cab46421659"
+    },
+    {
+      "path": "docs/WINDOWS_RESUME_2026-10-22.md",
+      "bytes": 2954,
+      "sha256": "8a418aff4a69161a58f944eb232d8e963f037bd1970f87970219f9b06c6e08f6"
+    },
+    {
+      "path": "docs/WINDOWS_RESUME_2026-10-23.md",
+      "bytes": 4286,
+      "sha256": "5ebcacb078f4c9bb3029422aa6878fbded6f79b6000b3a9ad1491dfa7ba64759"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_2026-10-22.md",
+      "bytes": 4233,
+      "sha256": "5bfe0545e29e5006ff19647efa26bfcd9ffc79d5ced4da165afb93bdd174d4e8"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_INSTALLED_20261022-202524.json",
+      "bytes": 596,
+      "sha256": "59362ca08d07009e7f373774019f0b01fe0290db9fe00b4514f3e77d5d4e98cc"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_PREPARATION_20261022-202421.json",
+      "bytes": 1996,
+      "sha256": "a17a45afffddb611044af2c5f1a6591aa26b09f3f19f4aa5730661f3278efe14"
+    },
+    {
+      "path": "docs/WINDOWS_STAGED_GAME_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "10ff04dcc1a63a36111099b751a135830a781a87bdbb769b0c82ad00efd50439"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_CAPTURE_20261022-212056.json",
+      "bytes": 103099,
+      "sha256": "775b6c6d76fda43d24e76cbfca3c2a94899ac6195bafe8490bf03aa89b476d2d"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_RESULTS_2026-10-22.md",
+      "bytes": 2813,
+      "sha256": "881f1422832ddfc85738204e0234b79c776529d30c18b700c09844697883457b"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_VERIFICATION_20261022-212056.json",
+      "bytes": 1177,
+      "sha256": "25adaf5691cd326b530f17190cc26943bd2217c3f7d1ac1910cb3194c2b1f853"
+    },
+    {
+      "path": "docs/WINDOWS_TABLET_NETWORK_2026-10-22.md",
+      "bytes": 3274,
+      "sha256": "cb33c165f3346e2d279d519d028a695938973d102fa52624648200c75c9934ea"
+    },
+    {
+      "path": "docs/WINDOWS_USB_UPLINK_RESULTS_2026-10-22.md",
+      "bytes": 4167,
+      "sha256": "602456528799f0b2fdde5b1e76cef2c4d8d26d4b2a9d6cb1e943c05c2a345578"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261022-214151.json",
+      "bytes": 853,
+      "sha256": "ab80d0079eef6b3d849965c2dc15c71c99edd835170a8ed810c29333ab21aa7b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261022-215343.json",
+      "bytes": 856,
+      "sha256": "567c1aa72e4905b22c5123898cc5019d3ae4e26afa60195e96eac4b39cb59872"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261023-152855.json",
+      "bytes": 887,
+      "sha256": "edd7ffecb82b71c26dde4ca9e0d555b66ad5c165e262d91312652c1852670757"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261023-153900.json",
+      "bytes": 907,
+      "sha256": "7abb013e740f041cafff728468911ac0b5987a26cbe3a90485cc8ebf7ad0c1ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_BASELINE_20261023.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261022-214151.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261022-215343.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261023-152855.json",
+      "bytes": 6753,
+      "sha256": "83484fe04f5ac4e437c9649dac025b97dcbe6a92eb8c0c057d1d6dcd7d0c6b24"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261023-153900.json",
+      "bytes": 210030,
+      "sha256": "7bfe8e45bee20b1599f61f75876f07e40f8842cb8e862e9c1f15356312ae8eae"
+    },
+    {
+      "path": "docs/WINDOWS_V042_FLASH_INSTALLED_20261022-213955.json",
+      "bytes": 561,
+      "sha256": "1ed77cb702d6d7cc2af5b8a23615736331023664cc60ddff4f0d21667ed1356b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-154932.json",
+      "bytes": 169195,
+      "sha256": "ff1305736bcf79517b31e42d0b831f36c1fe47f5f923adf978bfd72ce8d3e642"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-155910.json",
+      "bytes": 195528,
+      "sha256": "b18fdd6d8d73d1b61bc1a461c405748dbfd055e2f40fedba99327318a0b3f327"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-160441.json",
+      "bytes": 198229,
+      "sha256": "ac09f7be1fe1986db2b52f91c3fa81af05ee354bec1e82b20eabb3ed0f643005"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-161628.json",
+      "bytes": 197213,
+      "sha256": "6a3f8e55ec5f2abf817c829ef7cc7a2663fdb9fbd1806ec39ccb3de75263386b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-162326.json",
+      "bytes": 191147,
+      "sha256": "7d8b0fd48ce165fb232c5b8e62dd378177fe5217e0170f79896fef563076b3b1"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-154853.json",
+      "bytes": 1628,
+      "sha256": "756e64a5f482b74cabbfa6e7bc266099e40c14141c1516159c498c59c2b6be93"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-154932.json",
+      "bytes": 29632,
+      "sha256": "64f2ce72fa8e48bfa59a46fd62b438108c99378962775b030f65a07d63840bd5"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-155910.json",
+      "bytes": 35362,
+      "sha256": "6d6afe37299f2e9e9cdf6c201257c7d141a134909e91f991c612b21647386b13"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-160441.json",
+      "bytes": 85369,
+      "sha256": "179e9e9cefa6995ec7ca3194f00e29772db3fdaa108827384d4150f95fbe0888"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-161628.json",
+      "bytes": 85053,
+      "sha256": "452501a0c54fcd619060f3c8beecfe33820bfb5fd73cdfa45836af8d06b8df64"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-162326.json",
+      "bytes": 82682,
+      "sha256": "92ec80ed14876ded4d8086609a85a26cef0f69bab821d0fe556485f80426bbe2"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_MODE_OFFLINE_20261022.json",
+      "bytes": 44512,
+      "sha256": "5093d36550bf74ae38eb6f15d981c4b91726f49041ea51dac78885a71543ede6"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261022-214151.json",
+      "bytes": 129862,
+      "sha256": "6ffea316c6e3c702cbe3a8e5a0070ec1e3e60d1eb09f41a8da88782fe4bc596a"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261022-215343.json",
+      "bytes": 69434,
+      "sha256": "6d50fcba1ecf6d81301abe1aa18910eb3100940d3681bf4ae083358d6c05e694"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-152749.json",
+      "bytes": 1788,
+      "sha256": "88455c3cd6b5abf94e30f9874a2189aa2217e86cbb64f34076497969b9d05775"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-152855.json",
+      "bytes": 1521,
+      "sha256": "772bbdf9d653ed6cf3c96603868752dad1adabdbac1077fe41680bff2931a02f"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-153900.json",
+      "bytes": 83821,
+      "sha256": "e4a5823321a5ddf6ed74b63b6827325d088301cd1bc77f9fb9c4cbb76e39bb9d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_MUTED_ASSESSMENT_20261023-160441.json",
+      "bytes": 1029,
+      "sha256": "c1236299fbe7da4994b1f186fafecbeaa285d446eb1418988861782b2b0aa4b7"
+    },
+    {
+      "path": "docs/WINDOWS_V042_PRE_FLASH_BACKUP_20261022-213702.json",
+      "bytes": 438,
+      "sha256": "1bcac448a4366e25d02e224c16e7a2687580bd7ec71ec558badd0c73a3274e7d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-161628.json",
+      "bytes": 1385,
+      "sha256": "c30dfc81dcc0d8e3dd1e24dcb46ca5f7b600126988f9edca9980ad35cbd3447d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-162326.json",
+      "bytes": 1386,
+      "sha256": "35e01794881fd32487253c2519240055d060b08da18125d6a08bc2f145bdeb6b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STALE_LOG_GATE_20261023.json",
+      "bytes": 890,
+      "sha256": "1ca86188a07e92a40d3a05cf18ab677d101b9811bf5fdcb191485df90cc1bc73"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.c",
+      "bytes": 9016,
+      "sha256": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.h",
+      "bytes": 391,
+      "sha256": "ac256c751137255e057eaa94642d449ea1570720b3ae4ae63b5d32a1d3de6ec3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.c",
+      "bytes": 4861,
+      "sha256": "301cd3b63a94fe13fdafd75aa09f2e47b97aa34f66fb33bfa7dfa89d5f26111a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.h",
+      "bytes": 571,
+      "sha256": "4cdc5f65c416c50d7997837f21672f75ebaa58efc8917e686f84c4a08e64ad57"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/CMakeLists.txt",
+      "bytes": 1800,
+      "sha256": "b97f6c9047e0a2043e506b547250cf38338e0ed4644ca9190516184beeff45ff"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/lwipopts.h",
+      "bytes": 536,
+      "sha256": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/main.c",
+      "bytes": 13276,
+      "sha256": "bf25194b7ba5810173b1983e16151226470a16569969651dbf71be75b95eb8f6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/pro_report_descriptor.h",
+      "bytes": 1345,
+      "sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/tusb_config.h",
+      "bytes": 366,
+      "sha256": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/usb_descriptors.c",
+      "bytes": 1561,
+      "sha256": "8bb0b9e5f3d1d446a0642052682bccb3f547b588a3c42d1d99afe59d69b4fdef"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.c",
+      "bytes": 1678,
+      "sha256": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.h",
+      "bytes": 158,
+      "sha256": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-continuous-rumble.py",
+      "bytes": 2173,
+      "sha256": "dcfd92b931c92a1def5f0a435840d613cbe7459e35e5e0d7ba9dad385e5bb992"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-registration.py",
+      "bytes": 2598,
+      "sha256": "1519a502334298acc90053cdbd551e28470356771285474be2749183deb5d05a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-v034.py",
+      "bytes": 1887,
+      "sha256": "570ff7377ea988d7ad2627d931e0a1839d0d63a848a618109beefc79b46f3e2d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-prompt-live.py",
+      "bytes": 2970,
+      "sha256": "f9f252285f28a4bca203699d3b3c87ffb8ffc3ddf430394698d3a15e06f787aa"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge-switch-live.py",
+      "bytes": 14300,
+      "sha256": "6aa89d38e6ba19f239252e198382c8b815fbb85ea2c29cec495bf69148cd4585"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_input.py",
+      "bytes": 1145,
+      "sha256": "9411e651310d5c1fd859567e9a9a32a1388745b1c295e4fdceecbe91c57d6043"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_network.py",
+      "bytes": 1156,
+      "sha256": "90e4546cd1dc10302ac2d959f29cfc71f0f2c59966314da195e9fa366a2aa314"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_process.py",
+      "bytes": 3554,
+      "sha256": "31342548ecf8c936189450ec44d3c984cb95026812c990feb02707bdc478ece6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_protocol.py",
+      "bytes": 1344,
+      "sha256": "205a0ce765f8f40aee0264917c05b6ff8ef1048a80e0af36e344e740a9011176"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_render.py",
+      "bytes": 9107,
+      "sha256": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_retry_socket.py",
+      "bytes": 1386,
+      "sha256": "629252f4691b19dba3141e4cee7a7b5c5c6c3792ab0dc0a015cded847e5b9d71"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_runtime.py",
+      "bytes": 373,
+      "sha256": "add50ac6bab31a8da548a9c3c99b04bc1b6e7d73059c92d8cf3921878e297822"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_transport.py",
+      "bytes": 3574,
+      "sha256": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_windows.py",
+      "bytes": 1970,
+      "sha256": "0f7bbda61a3f2d2de7777eaea2f0d1a030842c0d03f280fe735116bd7db47225"
+    },
+    {
+      "path": "handoff/2026-10-22/work/confirm-xinput-source.py",
+      "bytes": 1233,
+      "sha256": "7f92c178cf14aad9669b34c33861e3fafc2d99bb1767411c23cbe23a0f282968"
+    },
+    {
+      "path": "handoff/2026-10-22/work/diagnose-bridge-flash.py",
+      "bytes": 2336,
+      "sha256": "0107cf63797127f4bc0da4cc83caa5d4319c53dbc53d8d0fd9d562720a4ee1cc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-capture-flash.py",
+      "bytes": 1986,
+      "sha256": "c78c994f4cac8ffc0c5b0197be72fb942dd4c5d1374c080a7522bdde35ffe1df"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-continuous-flash.py",
+      "bytes": 1718,
+      "sha256": "cde2909e9ed67f8e46c66324d82ad10f828d235d8d250e5af53646aff35a3a3c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-captured-replay.py",
+      "bytes": 5190,
+      "sha256": "b6cff289e0717bda61a1adc73fdefed5f861cb7b93baa6833e9518b23a5e234e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-failure-tests.py",
+      "bytes": 9728,
+      "sha256": "c5c9f696fbb6ab37e74f8c21c6f2a801d5ec283834117078d55bb0f77b3fc387"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-live-bridge-bench.py",
+      "bytes": 9118,
+      "sha256": "8a713da374a3aa046fc9487b15306fdef9ea60fa5cfece026b56b782fddc209b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-monitor-reconnect.py",
+      "bytes": 3685,
+      "sha256": "ef6ffce77ca403de55ac96cc18c0b31bdeb78028978283772185b39accb2ba74"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-native-rumble-pulse.py",
+      "bytes": 979,
+      "sha256": "930d1e85f877b2646d6903c2276756b61b15e899296592fca938fcc7c9caec9e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "bytes": 9858,
+      "sha256": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-perception-calibration.py",
+      "bytes": 6788,
+      "sha256": "26375826b4076e8c5f3bcc78cc05adc9abcd2d4101845538bb787379e225fe19"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "bytes": 9562,
+      "sha256": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "bytes": 16584,
+      "sha256": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-backup.py",
+      "bytes": 1770,
+      "sha256": "d7de31a1ffa50623374ba9c91882d89a816cfb42265bfa2024e1dce8a0337dc7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-runtime-disable.py",
+      "bytes": 5675,
+      "sha256": "8434ee8247755623d0c96d8e5130b5329b0d4221e165229d992b9d570d61e98e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-xinput.py",
+      "bytes": 1845,
+      "sha256": "1cbf2ec2fb05703683d15d50bde0aa4e08dd80f8d52d1284f3575f335934313e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_capture_log.py",
+      "bytes": 3329,
+      "sha256": "0352a5b93e58e1e869ddd13c12532db7e9edf8927908d03c211c1d37ec5463c1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_continuous_log.py",
+      "bytes": 4154,
+      "sha256": "9d6e29b98a79654a9182478f4ce5c750ac073cd98b0f30507d557258893b4b78"
+    },
+    {
+      "path": "handoff/2026-10-22/work/replay-bridge-prompt-capture.py",
+      "bytes": 1558,
+      "sha256": "dcdaac24efb1291916cff56f813984c023e1605583e7442b488246fd8306561b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "bytes": 5377,
+      "sha256": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-adapters.py",
+      "bytes": 3667,
+      "sha256": "ef9b626192fc487db54dfd96caca28fcc136742428251ed7b1ed81a6182e6d99"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-capture-replay.py",
+      "bytes": 2404,
+      "sha256": "ef69094bc7c2233fec2e98057ee21dbf5309be6f7b8d35267fa319c623cc8a47"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-end.py",
+      "bytes": 7990,
+      "sha256": "1dea5d6e2eb227aec917930750caa572f862710b70f800d8be0f693736dd963a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-game-pilot.py",
+      "bytes": 5397,
+      "sha256": "775fa9090ffa89baad658b947ba93c04896da7500e111a709311d63b14ccf00a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-input.py",
+      "bytes": 1028,
+      "sha256": "b97ed29d47ddd170bb9dbe24d67a1ce71daae382275915e392b0615ef6e04388"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-platform.py",
+      "bytes": 4100,
+      "sha256": "1117bd6be58ec91f85f72eb89aced6433078d661dd8f43a9caa659fb5b3e81b1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-prompt.py",
+      "bytes": 3586,
+      "sha256": "fcbb48a4deacb675a235c53c8c156012bdc1cd89a10a6258f77f7590678c4fe2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-runtime.py",
+      "bytes": 2955,
+      "sha256": "7195f090a806901f8e1235d79168d262e1be19f04ef87d0cd0c74f60883b0742"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-capture-corpus.py",
+      "bytes": 3785,
+      "sha256": "ca5017059b7e9d48307bbba8aa8e74ea4b0d68b145c0c7dcf20ad52d88e4a7ae"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v040.py",
+      "bytes": 5828,
+      "sha256": "6e3ccd0ee95b43f651450ca18e8f4fed79b080bd520936c65974a3c27a3b93e7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v042.py",
+      "bytes": 8213,
+      "sha256": "9d52fef40c1d6a75e9020264d9a2dcebdec160106f57087aa46a1febbcdc46fb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-format.py",
+      "bytes": 1627,
+      "sha256": "94f9a1cd233e88d815002ffe168baeb0599f2f020ab2ffe490992aaa2ff58630"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-ram.py",
+      "bytes": 10592,
+      "sha256": "2f9e48db543dc56abaa1b0f139c375e3fc2c7b376f55068ab250bb24eb3f1ec2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v031-ram.py",
+      "bytes": 10779,
+      "sha256": "2b2cfc825e6c4a8860e8e4f00d0a52d2f432b0bbbc50bee99335efa70acbf143"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v032-ram.py",
+      "bytes": 12312,
+      "sha256": "19c9384bf3dadcffe4e20ee01451b91af4e6816776af9c43216c2e7fe1c2dd4d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v033-ram.py",
+      "bytes": 14039,
+      "sha256": "e9a3c4257ff7d30703a279428e835bd516614a2b13929899c99d1d78c116b335"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v034-ram.py",
+      "bytes": 14536,
+      "sha256": "8078511d5e2a469256316691ca52690e5117419b8ca062eb11d11a33fb3cad5c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v035-ram.py",
+      "bytes": 16141,
+      "sha256": "aa8a81af6ab7d4af02608473317c7534771eef7892e373ab1ea21cd65d5b2c39"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-continuous-format.py",
+      "bytes": 2565,
+      "sha256": "e092247e6246d56160d573f81697bd053e8888740bab94b402b426808d5cb5f7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-pro-neutral.py",
+      "bytes": 9576,
+      "sha256": "469daa8ef6b0d94e52f11499ff930020ca8208c5515ddd920e3aa2c0bd736868"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-protocol-lab.py",
+      "bytes": 6314,
+      "sha256": "0e92a707d50bcb921a0caa208b5152951abc50bbd5455f00ed30df1d049b6aa8"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-v033-cancel.py",
+      "bytes": 2129,
+      "sha256": "ce83936e801a14ebdc25ab472e83c8ad51e0b7cbb596c048e5fcce3dc0d87bb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-wifi-udp.py",
+      "bytes": 3213,
+      "sha256": "330d2fbfd0b10d69569bf402eae67db43b95862f011b9654dfe03a566741a12f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-runtime-disable.py",
+      "bytes": 1372,
+      "sha256": "a7c0ce3bf350fc5b514b7e32efb5790d81d9ec5de3358c87726a277e0ab06d19"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-switch-hd-decode.py",
+      "bytes": 2390,
+      "sha256": "bd1d85a1d9c91ca0be180dd035d298a470aa5aff7a1c1c57e07622c0899c1c61"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-image.py",
+      "bytes": 2646,
+      "sha256": "ea7ae148818009bae1692c11543919c4d628db7e8bf33b32ece1750fbea0cdcd"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-v035-image.py",
+      "bytes": 2690,
+      "sha256": "adc5048eaf8dccf2a5be8084841b69e887e3afd41e4813b36d2e44f32f7a893c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-live-bridge-capture.py",
+      "bytes": 2636,
+      "sha256": "192bbf8d28b0e3a4c87e74cd870b95a711dc528b2b791eb139919bc92d781937"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-pico-v035-flash-test.py",
+      "bytes": 1589,
+      "sha256": "cf6397baeddaecccd50bcffd987ae7288bf85529a3e79fb103e174842230d5b5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-ram-uf2.py",
+      "bytes": 902,
+      "sha256": "361a1ae48cd0f90d60b582b6661ae524b9525e7a561ae2d6f2a011311481af41"
+    },
+    {
+      "path": "handoff/2026-10-22/work/xinput_readonly.py",
+      "bytes": 823,
+      "sha256": "eedb45a79810fa17ddef157c434bde6c05c682021dcfccad62b3180c20185114"
+    },
+    {
+      "path": "tools/assess_v042_input_recheck.py",
+      "bytes": 2602,
+      "sha256": "eccac8f078f7a0144e59a6fca6fd1b266fe856570cf99eec366dfa96cd5de1d6"
+    },
+    {
+      "path": "tools/assess_v042_muted_recheck.py",
+      "bytes": 2684,
+      "sha256": "a7390aedd5bce039a148df980ecf19fa16b4c350e36cd003d277367a419dace1"
+    },
+    {
+      "path": "tools/assess_v042_staged_game.py",
+      "bytes": 3906,
+      "sha256": "ecd5ad50d5feee390a07e592f102b8c5fa90e64e410afc55e70521217233bfe3"
+    },
+    {
+      "path": "tools/backup_before_v042.ps1",
+      "bytes": 1841,
+      "sha256": "6580ec51e0ce8204303c9018d9fe47804d3f23ec0b3f70b73995da080888f7f2"
+    },
+    {
+      "path": "tools/build_pico_snapshot.py",
+      "bytes": 3007,
+      "sha256": "553873f76cd133a0f67d08e8386dd05803ae5f4f0b63a9d4ac1609b087f21c94"
+    },
+    {
+      "path": "tools/build_windows_tablet_ram.ps1",
+      "bytes": 1536,
+      "sha256": "2d4b033b2b2958410473a0ff4d07274edcf0be5734f3eb0206eee874afb231f5"
+    },
+    {
+      "path": "tools/configure_tablet_network.ps1",
+      "bytes": 5854,
+      "sha256": "b0dfed06403de198559555fcb3db216e0e48f6e9ca231a491908e8b9b56853c2"
+    },
+    {
+      "path": "tools/freeze_staged_game_baseline.py",
+      "bytes": 5212,
+      "sha256": "d759f650b1f1df8f4a8452e1ea021981f459e786b02d9f45ea19377f31338ab3"
+    },
+    {
+      "path": "tools/game_arm_window.py",
+      "bytes": 2037,
+      "sha256": "2161a957bc1ae868254a339e498d8ef3e5134daa3168a9963f035d008236d00f"
+    },
+    {
+      "path": "tools/install_legacy_rollback.ps1",
+      "bytes": 2295,
+      "sha256": "7419a2381eac0efa543f28e91a5e5e200d36b69c66beca22a73602036ea40fda"
+    },
+    {
+      "path": "tools/install_v042_flash.ps1",
+      "bytes": 2362,
+      "sha256": "3d81a29e790cc0f68da3be17c20ad02b003fac5d02d2d385cd0df57055ad8ded"
+    },
+    {
+      "path": "tools/prepare_legacy_rollback.py",
+      "bytes": 3167,
+      "sha256": "077c07bd17407f0d61191a2901e217ea8dd60128df876c360f5c9b123525083c"
+    },
+    {
+      "path": "tools/prepare_windows_ram_recheck.ps1",
+      "bytes": 1217,
+      "sha256": "0a859b32bc8750badec636a75f54309cf37315d6a531150d1711fd6e07827277"
+    },
+    {
+      "path": "tools/run_legacy_prompt_recheck.py",
+      "bytes": 2858,
+      "sha256": "b27a1127a3731e63376e04899cf8c2e54298295b94bd43c9a07ffe31216133a9"
+    },
+    {
+      "path": "tools/run_offline_checks.py",
+      "bytes": 4886,
+      "sha256": "e80142ccc9fd01849b33fb6a828028a20b6a7ba94a57aed240fc4173048c2d84"
+    },
+    {
+      "path": "tools/run_v042_input_recheck.py",
+      "bytes": 4344,
+      "sha256": "392580b1c1eedbbd917fbb8ec66b259fb15f83a0d4c06f22475cf4ca54ce651a"
+    },
+    {
+      "path": "tools/test_game_end_gate.py",
+      "bytes": 2448,
+      "sha256": "b376d21421498b81d06f7f6d815ac3ff3d93d493c4d3ef07f753f5719e201ed9"
+    },
+    {
+      "path": "tools/test_game_output_latch.py",
+      "bytes": 2307,
+      "sha256": "2ebcf86b70afb5d73e6d2d61d808314bf14ecc75f808900d8b6a4abd353ffa0f"
+    },
+    {
+      "path": "tools/test_game_phase.py",
+      "bytes": 1869,
+      "sha256": "93dd88fc7840783b508bb6ce52f99775afe216ec8702d12286c955315755020b"
+    },
+    {
+      "path": "tools/test_input_end_gate.py",
+      "bytes": 1111,
+      "sha256": "b2e4ce37c512e9437030dc6460aca73b81edbae4e306efbf998db331b16d8475"
+    },
+    {
+      "path": "tools/test_retry_socket.py",
+      "bytes": 1830,
+      "sha256": "2fb17781521bb35c6bc3d08a5cc02dfdca027d1f0a050aab275f19c49bb2e18c"
+    },
+    {
+      "path": "tools/use_iphone_usb_hotspot.ps1",
+      "bytes": 3675,
+      "sha256": "b64db434632f02bdb8b5d061b721a5acdd5ac441e024e0a78d573d23382d505e"
+    },
+    {
+      "path": "tools/windows_hardware_preflight.py",
+      "bytes": 1607,
+      "sha256": "0c15b74c23509bcbf8e7aa6c67d78d23b6a6e063e475cb9a53b259653fd4952d"
+    },
+    {
+      "path": "tools/windows_integrated_ram_recheck.py",
+      "bytes": 6986,
+      "sha256": "d2ccd1338696b12ad3c97233f3d3e672a52c7ef2b385ff395ffa323e5bb77134"
+    },
+    {
+      "path": "tools/windows_network_timing_recheck.py",
+      "bytes": 5661,
+      "sha256": "4a9f7c4decb3d2f5c95de485a407a5a72c0250c0a6191741267c2732cf0a1596"
+    },
+    {
+      "path": "tools/windows_owner_process_recheck.py",
+      "bytes": 6123,
+      "sha256": "c3fe7905e5da85a16f770522039e685e3797c7c645f67208d3e40de39bafae3f"
+    },
+    {
+      "path": "tools/windows_pc_discovery_recheck.py",
+      "bytes": 2594,
+      "sha256": "cb42fc2a15dd3bd6ead56b7c2c6be0aefc0e2d0a4f1a67ad84e157450832b32d"
+    },
+    {
+      "path": "tools/windows_ram_capture_recheck.py",
+      "bytes": 3649,
+      "sha256": "e4c9f707805742baa1378c0e74ac88c9b0b722d35f450e49774bafe8872981cc"
+    }
+  ],
+  "success_reports": [
+    "WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-161628.json",
+    "WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-162326.json"
+  ],
+  "archive_private": true,
+  "hardware_output_started": false,
+  "github_uploaded": false,
+  "archive_sha256": "d3f7f72210f106a332377fc7bad84f099feb84af71ffa5eece2e27a2272fc1c3",
+  "archive_crc_verified": true,
+  "archived_sources_verified": true
+}

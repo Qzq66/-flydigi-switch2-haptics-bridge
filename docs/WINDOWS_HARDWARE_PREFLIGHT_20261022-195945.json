@@ -1,0 +1,31 @@
+{
+  "status": "PASSED_READONLY_PREFLIGHT",
+  "motor_commands": 0,
+  "persistent_write_commands": 0,
+  "checks": {
+    "validated_identity_and_configuration_backup": true,
+    "readback_matches": true,
+    "timer_acquired": true,
+    "timer_released": true,
+    "unique_xinput_source": true
+  },
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "xinput_slot": 0
+}

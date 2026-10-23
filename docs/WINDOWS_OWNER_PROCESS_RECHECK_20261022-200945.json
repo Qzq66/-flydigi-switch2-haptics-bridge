@@ -1,0 +1,132 @@
+{
+  "status": "PASSED_PHYSICAL_OWNER_PROCESS_RECHECK",
+  "cases": [
+    {
+      "case": "normal",
+      "passed": true,
+      "killed": false,
+      "exit_code": 0,
+      "stderr": "",
+      "child": {
+        "case": "normal",
+        "status": "NORMAL_RETURN",
+        "frames": 15,
+        "identity_matches": true,
+        "state_matches": true,
+        "ram_matches": {
+          "global": true,
+          "mapping": true,
+          "lighting": true,
+          "motors": true
+        },
+        "configuration_unchanged": true,
+        "neutral_written_clock": 1.875545,
+        "disable_attempts": [
+          {
+            "attempt": 1,
+            "status": "ACK_OK"
+          }
+        ],
+        "runtime_disable_ack": true,
+        "timer_released": true
+      },
+      "neutral_written_clock": 8.4542429,
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "parent_stop_after_child_exit_ms": 39.615,
+      "identity_matches": true,
+      "state_matches": true,
+      "ram_matches": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true
+    },
+    {
+      "case": "exception",
+      "passed": true,
+      "killed": false,
+      "exit_code": 1,
+      "stderr": "",
+      "child": {
+        "case": "exception",
+        "status": "INCOMPLETE",
+        "frames": 6,
+        "identity_matches": true,
+        "state_matches": true,
+        "ram_matches": {
+          "global": true,
+          "mapping": true,
+          "lighting": true,
+          "motors": true
+        },
+        "configuration_unchanged": true,
+        "error": "RuntimeError('deliberate diagnostic exception')",
+        "neutral_written_clock": 1.8042945,
+        "disable_attempts": [
+          {
+            "attempt": 1,
+            "status": "ACK_OK"
+          }
+        ],
+        "runtime_disable_ack": true,
+        "timer_released": true
+      },
+      "neutral_written_clock": 14.0782538,
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "parent_stop_after_child_exit_ms": 41.338,
+      "identity_matches": true,
+      "state_matches": true,
+      "ram_matches": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true
+    },
+    {
+      "case": "timeout",
+      "passed": true,
+      "killed": true,
+      "exit_code": 1,
+      "stderr": "",
+      "neutral_written_clock": 19.6262415,
+      "disable_attempts": [
+        {
+          "attempt": 1,
+          "status": "ACK_OK"
+        }
+      ],
+      "runtime_disable_ack": true,
+      "parent_stop_after_child_exit_ms": 43.613,
+      "identity_matches": true,
+      "state_matches": true,
+      "ram_matches": {
+        "global": true,
+        "mapping": true,
+        "lighting": true,
+        "motors": true
+      },
+      "configuration_unchanged": true
+    }
+  ],
+  "persistent_write_commands": 0,
+  "maximum_sample_offset": 12,
+  "maximum_pulse_ms": 120,
+  "automatic_resume": false,
+  "scope": "Diagnostic controlled waves; no Switch, no network collector, no game validation. Forced child death cannot run its finally; parent independently disables output and rechecks all four RAM areas."
+}

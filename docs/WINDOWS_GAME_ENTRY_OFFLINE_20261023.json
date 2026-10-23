@@ -1,0 +1,1348 @@
+{
+  "platform": "win32",
+  "python": "3.9.13",
+  "hardware_access": false,
+  "io_guard": true,
+  "results": [
+    {
+      "script": "test-switch-hd-decode.py",
+      "passed": true,
+      "checks": 12,
+      "details": [
+        {
+          "name": "neutral_absolute_7bit",
+          "passed": true
+        },
+        {
+          "name": "zero_packet_preserves_state",
+          "passed": true
+        },
+        {
+          "name": "one_5bit_full_amplitude",
+          "passed": true
+        },
+        {
+          "name": "two_5bit_state_progression",
+          "passed": true
+        },
+        {
+          "name": "two_7bit_select_high",
+          "passed": true
+        },
+        {
+          "name": "three_5bit_reset_and_restore",
+          "passed": true
+        },
+        {
+          "name": "three_7bit_select_low_amplitude",
+          "passed": true
+        },
+        {
+          "name": "delta_after_gap_stays_unknown",
+          "passed": true
+        },
+        {
+          "name": "absolute_recovers_after_gap",
+          "passed": true
+        },
+        {
+          "name": "captured_left_packet_is_three_sample",
+          "passed": true
+        },
+        {
+          "name": "captured_right_packet_is_three_sample",
+          "passed": true
+        },
+        {
+          "name": "truncated_motor_word_rejected",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-runtime.py",
+      "passed": true,
+      "checks": 18,
+      "details": [
+        {
+          "name": "wire_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "CRC_corruption_stops",
+          "passed": true
+        },
+        {
+          "name": "wrong_session_stops",
+          "passed": true
+        },
+        {
+          "name": "wrong_request_stops",
+          "passed": true
+        },
+        {
+          "name": "source_overflow_stops",
+          "passed": true
+        },
+        {
+          "name": "unknown_wire_flags_stop",
+          "passed": true
+        },
+        {
+          "name": "neutral_render",
+          "passed": true
+        },
+        {
+          "name": "all_groups_preserved_with_stop",
+          "passed": true
+        },
+        {
+          "name": "waveform_limit",
+          "passed": true
+        },
+        {
+          "name": "heartbeat_timeout_latches",
+          "passed": true
+        },
+        {
+          "name": "fault_does_not_autoresume",
+          "passed": true
+        },
+        {
+          "name": "upstream_loss_stops",
+          "passed": true
+        },
+        {
+          "name": "old_active_sample_stops",
+          "passed": true
+        },
+        {
+          "name": "unrenderable_frequency_stops",
+          "passed": true
+        },
+        {
+          "name": "sustained_energy_stops",
+          "passed": true
+        },
+        {
+          "name": "already_sent_active_samples_stop",
+          "passed": true
+        },
+        {
+          "name": "skipped_output_clock_stops",
+          "passed": true
+        },
+        {
+          "name": "queued_active_frame_processing_deadline",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-prompt.py",
+      "passed": true,
+      "checks": 16,
+      "details": [
+        {
+          "name": "one_source_group_becomes_exactly_120_samples",
+          "passed": true
+        },
+        {
+          "name": "calibrated_amplitude_and_other_side_neutral",
+          "passed": true
+        },
+        {
+          "name": "automatic_neutral_after_prompt",
+          "passed": true
+        },
+        {
+          "name": "prompt_is_not_retriggered_by_empty_heartbeats",
+          "passed": true
+        },
+        {
+          "name": "heartbeat_loss_cancels_longer_prompt",
+          "passed": true
+        },
+        {
+          "name": "fault_cannot_resume_prompt",
+          "passed": true
+        },
+        {
+          "name": "vibration_disable_cancels_prompt_immediately",
+          "passed": true
+        },
+        {
+          "name": "reenable_without_new_active_event_does_not_resume_old_prompt",
+          "passed": true
+        },
+        {
+          "name": "USB_loss_cancels_prompt",
+          "passed": true
+        },
+        {
+          "name": "left_right_start_order_and_independent_duration",
+          "passed": true
+        },
+        {
+          "name": "overlapping_source_pulse_does_not_extend_output",
+          "passed": true
+        },
+        {
+          "name": "fourth_prompt_is_rejected",
+          "passed": true
+        },
+        {
+          "name": "all_supported_values_are_explicit",
+          "passed": true
+        },
+        {
+          "name": "unreviewed_duration_rejected",
+          "passed": true
+        },
+        {
+          "name": "explicit_higher_amplitude_retains_120ms_cap",
+          "passed": true
+        },
+        {
+          "name": "unreviewed_amplitude_rejected",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-input.py",
+      "passed": true,
+      "checks": 7,
+      "details": [
+        {
+          "name": "neutral_exact",
+          "passed": true
+        },
+        {
+          "name": "bottom_face_maps_to_switch_B",
+          "passed": true
+        },
+        {
+          "name": "right_face_maps_to_switch_A",
+          "passed": true
+        },
+        {
+          "name": "home_and_capture_never_synthesized",
+          "passed": true
+        },
+        {
+          "name": "center_drift_has_deadzone",
+          "passed": true
+        },
+        {
+          "name": "axes_match_synthetic_calibration_bounds",
+          "passed": true
+        },
+        {
+          "name": "trigger_threshold",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-pico-continuous-format.py",
+      "passed": true,
+      "checks": 16,
+      "details": [
+        {
+          "name": "valid_complete",
+          "passed": true
+        },
+        {
+          "name": "all_slots_erased_rejected",
+          "passed": true
+        },
+        {
+          "name": "corruption_rejected",
+          "passed": true
+        },
+        {
+          "name": "truncated_rejected",
+          "passed": true
+        },
+        {
+          "name": "old_valid_survives_partial_new_slot",
+          "passed": true
+        },
+        {
+          "name": "generation_wrap",
+          "passed": true
+        },
+        {
+          "name": "overflow_flag_and_drop_count",
+          "passed": true
+        },
+        {
+          "name": "sequence_gap_rejected",
+          "passed": true
+        },
+        {
+          "name": "reversed_timestamps_rejected",
+          "passed": true
+        },
+        {
+          "name": "unmarked_overflow_rejected",
+          "passed": true
+        },
+        {
+          "name": "missing_motor_flag_rejected",
+          "passed": true
+        },
+        {
+          "name": "capacity_fixture_complete",
+          "passed": true
+        },
+        {
+          "name": "END2_client_confirmed",
+          "passed": true
+        },
+        {
+          "name": "END2_drain_timeout",
+          "passed": true
+        },
+        {
+          "name": "legacy_log_has_no_end_claim",
+          "passed": true
+        },
+        {
+          "name": "invalid_END2_status_rejected",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-pico-capture-format.py",
+      "passed": true,
+      "checks": 9
+    },
+    {
+      "script": "test-bridge-game-pilot.py",
+      "passed": true,
+      "checks": 28,
+      "details": [
+        {
+          "name": "game_pilot_requires_explicit_120ms",
+          "passed": true
+        },
+        {
+          "name": "game_pilot_rejects_unreviewed_amplitude",
+          "passed": true
+        },
+        {
+          "name": "one_pulse_exactly_120ms_offset_3",
+          "passed": true
+        },
+        {
+          "name": "amplitude_bound_and_right_neutral_3",
+          "passed": true
+        },
+        {
+          "name": "empty_heartbeats_do_not_retrigger_3",
+          "passed": true
+        },
+        {
+          "name": "one_pulse_exactly_120ms_offset_5",
+          "passed": true
+        },
+        {
+          "name": "amplitude_bound_and_right_neutral_5",
+          "passed": true
+        },
+        {
+          "name": "empty_heartbeats_do_not_retrigger_5",
+          "passed": true
+        },
+        {
+          "name": "one_pulse_exactly_120ms_offset_8",
+          "passed": true
+        },
+        {
+          "name": "amplitude_bound_and_right_neutral_8",
+          "passed": true
+        },
+        {
+          "name": "empty_heartbeats_do_not_retrigger_8",
+          "passed": true
+        },
+        {
+          "name": "one_pulse_exactly_120ms_offset_12",
+          "passed": true
+        },
+        {
+          "name": "amplitude_bound_and_right_neutral_12",
+          "passed": true
+        },
+        {
+          "name": "empty_heartbeats_do_not_retrigger_12",
+          "passed": true
+        },
+        {
+          "name": "overlap_does_not_extend_or_queue_pulse",
+          "passed": true
+        },
+        {
+          "name": "three_distinct_pulses_bounded_to_360ms",
+          "passed": true
+        },
+        {
+          "name": "fourth_pulse_latches_fault",
+          "passed": true
+        },
+        {
+          "name": "faulted_renderer_cannot_restart",
+          "passed": true
+        },
+        {
+          "name": "continuous_source_exactly_1000ms_allowed",
+          "passed": true
+        },
+        {
+          "name": "continuous_source_1001st_sample_faults",
+          "passed": true
+        },
+        {
+          "name": "three_source_runs_exactly_3000ms_allowed",
+          "passed": true
+        },
+        {
+          "name": "cumulative_3001st_source_sample_faults_before_extra_pulse",
+          "passed": true
+        },
+        {
+          "name": "disable_cancels_both_sides_mid_pulse",
+          "passed": true
+        },
+        {
+          "name": "reenabling_does_not_restart_old_pulse",
+          "passed": true
+        },
+        {
+          "name": "USB_loss_latches_stop_in_game_mode",
+          "passed": true
+        },
+        {
+          "name": "heartbeat_loss_latches_stop_in_game_mode",
+          "passed": true
+        },
+        {
+          "name": "output_clock_gap_stops_in_game_mode",
+          "passed": true
+        },
+        {
+          "name": "high_frequency_source_only_generates_bounded_notification",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-end.py",
+      "passed": true,
+      "checks": 26,
+      "details": [
+        {
+          "name": "unseen_end_cannot_send_BHE2",
+          "passed": true
+        },
+        {
+          "name": "last_neutral_event_retained_while_draining",
+          "passed": true
+        },
+        {
+          "name": "draining_alone_is_not_complete",
+          "passed": true
+        },
+        {
+          "name": "duplicate_tail_not_rendered_twice",
+          "passed": true
+        },
+        {
+          "name": "empty_complete_marker_received",
+          "passed": true
+        },
+        {
+          "name": "end_confirmation_retries_timeouts_then_acknowledges",
+          "passed": true
+        },
+        {
+          "name": "end_confirmation_carries_last_event_ack",
+          "passed": true
+        },
+        {
+          "name": "fake_transport_closed",
+          "passed": true
+        },
+        {
+          "name": "missing_end_reply_is_not_success_and_retries_bounded",
+          "passed": true
+        },
+        {
+          "name": "noncomplete_end_reply_rejected",
+          "passed": true
+        },
+        {
+          "name": "upstream_cannot_resume_after_drain_marker",
+          "passed": true
+        },
+        {
+          "name": "restart_during_confirmation_rejected",
+          "passed": true
+        },
+        {
+          "name": "missing_tail_sequence_rejected",
+          "passed": true
+        },
+        {
+          "name": "old_request_and_foreign_peer_ignored",
+          "passed": true
+        },
+        {
+          "name": "input_relay_36byte_layout_and_sequence",
+          "passed": true
+        },
+        {
+          "name": "final_ack_does_not_sample_input_source",
+          "passed": true
+        },
+        {
+          "name": "drain_uses_BHP2_without_sampling_disconnected_input",
+          "passed": true
+        },
+        {
+          "name": "malformed_input_stops_before_send",
+          "passed": true
+        },
+        {
+          "name": "collector_signals_stop_before_waiting_for_end_ack",
+          "passed": true
+        },
+        {
+          "name": "collector_only_publishes_complete_after_confirmation",
+          "passed": true
+        },
+        {
+          "name": "collector_missing_ack_faults_without_complete_publication",
+          "passed": true
+        },
+        {
+          "name": "collector_preserves_tail_event_before_complete",
+          "passed": true
+        },
+        {
+          "name": "stopped_collector_sends_no_network_query",
+          "passed": true
+        },
+        {
+          "name": "invalid_end_flags_or_payload_17",
+          "passed": true
+        },
+        {
+          "name": "invalid_end_flags_or_payload_31",
+          "passed": true
+        },
+        {
+          "name": "invalid_end_flags_or_payload_25",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-capture-replay.py",
+      "passed": true,
+      "checks": 10,
+      "details": [
+        {
+          "name": "capture_has_303_contiguous_events",
+          "passed": true
+        },
+        {
+          "name": "all_events_consumed_game_False_offset_3",
+          "passed": true
+        },
+        {
+          "name": "both_prompts_120ms_with_expected_bound_game_False_offset_3",
+          "passed": true
+        },
+        {
+          "name": "all_events_consumed_game_False_offset_12",
+          "passed": true
+        },
+        {
+          "name": "both_prompts_120ms_with_expected_bound_game_False_offset_12",
+          "passed": true
+        },
+        {
+          "name": "all_events_consumed_game_True_offset_3",
+          "passed": true
+        },
+        {
+          "name": "both_prompts_120ms_with_expected_bound_game_True_offset_3",
+          "passed": true
+        },
+        {
+          "name": "all_events_consumed_game_True_offset_12",
+          "passed": true
+        },
+        {
+          "name": "both_prompts_120ms_with_expected_bound_game_True_offset_12",
+          "passed": true
+        },
+        {
+          "name": "historical_missing_neutral_tail_is_preserved_as_counterexample",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-platform.py",
+      "passed": true,
+      "checks": 34,
+      "details": [
+        {
+          "name": "normal child output preserved",
+          "passed": true
+        },
+        {
+          "name": "exited child is not killed",
+          "passed": true
+        },
+        {
+          "name": "timeout kills child and captures tail",
+          "passed": true
+        },
+        {
+          "name": "second timeout reaps live child",
+          "passed": true
+        },
+        {
+          "name": "communication error reaps live child",
+          "passed": true
+        },
+        {
+          "name": "invalid timeout does not touch child",
+          "passed": true
+        },
+        {
+          "name": "clean child accepted live=False",
+          "passed": true
+        },
+        {
+          "name": "nonzero exit rejected live=False",
+          "passed": true
+        },
+        {
+          "name": "wrong mode rejected live=False",
+          "passed": true
+        },
+        {
+          "name": "error rejected live=False",
+          "passed": true
+        },
+        {
+          "name": "cleanup_error rejected live=False",
+          "passed": true
+        },
+        {
+          "name": "pico_reset_error rejected live=False",
+          "passed": true
+        },
+        {
+          "name": "clean child accepted live=True",
+          "passed": true
+        },
+        {
+          "name": "nonzero exit rejected live=True",
+          "passed": true
+        },
+        {
+          "name": "wrong mode rejected live=True",
+          "passed": true
+        },
+        {
+          "name": "error rejected live=True",
+          "passed": true
+        },
+        {
+          "name": "cleanup_error rejected live=True",
+          "passed": true
+        },
+        {
+          "name": "pico_reset_error rejected live=True",
+          "passed": true
+        },
+        {
+          "name": "missing/incomplete child rejected None",
+          "passed": true
+        },
+        {
+          "name": "missing/incomplete child rejected []",
+          "passed": true
+        },
+        {
+          "name": "missing/incomplete child rejected {}",
+          "passed": true
+        },
+        {
+          "name": "missing/incomplete child rejected {'status': 'INCOMPLETE'}",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py import leaves backend unloaded",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py direct backend fails clearly",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py help darwin",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py help win32",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py Mac gate []",
+          "passed": true
+        },
+        {
+          "name": "bridge-switch-live.py Mac gate ['--child', 'missing-backup', 'missing-report']",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py import leaves backend unloaded",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py direct backend fails clearly",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py help darwin",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py help win32",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py Mac gate []",
+          "passed": true
+        },
+        {
+          "name": "flydigi-live-bridge-bench.py Mac gate ['--child', 'missing-backup', 'missing-report']",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-capture-corpus.py",
+      "passed": true,
+      "checks": 100,
+      "details": [
+        {
+          "name": "140320: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "140320: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "140320: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "140320: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "140320: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "140320: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "140320: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "140320: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "140320: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "140320: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "140320: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "140937: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "140937: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "140937: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "140937: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "140937: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "140937: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "140937: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "140937: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "140937: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "140937: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "140937: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "154058: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "154058: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "154058: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "154058: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "154058: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "154058: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "154058: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "154058: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "154058: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "154058: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "154058: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "154812: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "154812: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "154812: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "154812: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "154812: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "154812: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "154812: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "154812: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "154812: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "154812: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "154812: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "155322: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "155322: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "155322: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "155322: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "155322: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "155322: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "155322: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "155322: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "155322: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "155322: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "155322: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "161720: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "161720: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "161720: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "161720: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "161720: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "161720: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "161720: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "161720: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "161720: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "161720: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "161720: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "163044: declared and retained counts match",
+          "passed": true
+        },
+        {
+          "name": "163044: no reported overflow or drops",
+          "passed": true
+        },
+        {
+          "name": "163044: event sequence contiguous",
+          "passed": true
+        },
+        {
+          "name": "163044: timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "163044: events within capture deadline",
+          "passed": true
+        },
+        {
+          "name": "163044: motor fields exactly eight bytes",
+          "passed": true
+        },
+        {
+          "name": "163044: decoder retains every motor field",
+          "passed": true
+        },
+        {
+          "name": "163044: independent word replay agrees",
+          "passed": true
+        },
+        {
+          "name": "163044: decoded state remains known",
+          "passed": true
+        },
+        {
+          "name": "163044: decoded amplitudes bounded",
+          "passed": true
+        },
+        {
+          "name": "163044: legacy log has no end confirmation evidence",
+          "passed": true
+        },
+        {
+          "name": "155010: wire event count",
+          "passed": true
+        },
+        {
+          "name": "155010: wire sequences contiguous",
+          "passed": true
+        },
+        {
+          "name": "155010: wire timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "155010: wire matches local motor prefix byte for byte",
+          "passed": true
+        },
+        {
+          "name": "155010: wire and local decoding match",
+          "passed": true
+        },
+        {
+          "name": "155010: tail completeness is explicit",
+          "passed": true
+        },
+        {
+          "name": "155010: historical child does not prove terminal handshake",
+          "passed": true
+        },
+        {
+          "name": "161338: wire event count",
+          "passed": true
+        },
+        {
+          "name": "161338: wire sequences contiguous",
+          "passed": true
+        },
+        {
+          "name": "161338: wire timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "161338: wire matches local motor prefix byte for byte",
+          "passed": true
+        },
+        {
+          "name": "161338: wire and local decoding match",
+          "passed": true
+        },
+        {
+          "name": "161338: tail completeness is explicit",
+          "passed": true
+        },
+        {
+          "name": "161338: historical child does not prove terminal handshake",
+          "passed": true
+        },
+        {
+          "name": "162748: wire event count",
+          "passed": true
+        },
+        {
+          "name": "162748: wire sequences contiguous",
+          "passed": true
+        },
+        {
+          "name": "162748: wire timestamps monotonic",
+          "passed": true
+        },
+        {
+          "name": "162748: wire matches local motor prefix byte for byte",
+          "passed": true
+        },
+        {
+          "name": "162748: wire and local decoding match",
+          "passed": true
+        },
+        {
+          "name": "162748: tail completeness is explicit",
+          "passed": true
+        },
+        {
+          "name": "162748: historical child does not prove terminal handshake",
+          "passed": true
+        },
+        {
+          "name": "v042 historical summary records 307 and end ack",
+          "passed": true
+        },
+        {
+          "name": "v042 is summary evidence, not retained raw event replay",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "script": "test-bridge-adapters.py",
+      "passed": true,
+      "checks": 25,
+      "details": [
+        {
+          "name": "default Windows network preserved",
+          "passed": true
+        },
+        {
+          "name": "alternate subnet computes broadcast",
+          "passed": true
+        },
+        {
+          "name": "peer filter ('10.20.0.20', 50000)",
+          "passed": true
+        },
+        {
+          "name": "peer filter ('10.20.1.20', 50000)",
+          "passed": true
+        },
+        {
+          "name": "peer filter ('10.20.0.20', 49724)",
+          "passed": true
+        },
+        {
+          "name": "peer filter ('bad', 50000)",
+          "passed": true
+        },
+        {
+          "name": "peer filter ('10.20.0.255', 50000)",
+          "passed": true
+        },
+        {
+          "name": "invalid network rejected ('10.21.0.1', '10.20.0.0/24', 50000)",
+          "passed": true
+        },
+        {
+          "name": "invalid network rejected ('10.20.0.0', '10.20.0.0/24', 50000)",
+          "passed": true
+        },
+        {
+          "name": "invalid network rejected ('10.20.0.1', '10.20.0.0/24', 0)",
+          "passed": true
+        },
+        {
+          "name": "timer successful acquire",
+          "passed": true
+        },
+        {
+          "name": "timer acquire and release once",
+          "passed": true
+        },
+        {
+          "name": "failed timer not active",
+          "passed": true
+        },
+        {
+          "name": "failed timer is not released",
+          "passed": true
+        },
+        {
+          "name": "timer hardware gate",
+          "passed": true
+        },
+        {
+          "name": "HID owner hardware gate",
+          "passed": true
+        },
+        {
+          "name": "injected input reads neutral",
+          "passed": true
+        },
+        {
+          "name": "input records changes",
+          "passed": true
+        },
+        {
+          "name": "input disconnect faults",
+          "passed": true
+        },
+        {
+          "name": "ambiguous input rejected",
+          "passed": true
+        },
+        {
+          "name": "transport binds configured interface",
+          "passed": true
+        },
+        {
+          "name": "transport uses configured port",
+          "passed": true
+        },
+        {
+          "name": "transport closes socket",
+          "passed": true
+        },
+        {
+          "name": "bridge_protocol.py has no platform/transport dependency",
+          "passed": true
+        },
+        {
+          "name": "bridge_render.py has no platform/transport dependency",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "total_checks": 301,
+  "source_sha256": {
+    "handoff\\2026-10-22\\work\\analyze-continuous-rumble.py": "dcfd92b931c92a1def5f0a435840d613cbe7459e35e5e0d7ba9dad385e5bb992",
+    "handoff\\2026-10-22\\work\\analyze-pico-registration.py": "1519a502334298acc90053cdbd551e28470356771285474be2749183deb5d05a",
+    "handoff\\2026-10-22\\work\\analyze-pico-v034.py": "570ff7377ea988d7ad2627d931e0a1839d0d63a848a618109beefc79b46f3e2d",
+    "handoff\\2026-10-22\\work\\analyze-prompt-live.py": "f9f252285f28a4bca203699d3b3c87ffb8ffc3ddf430394698d3a15e06f787aa",
+    "handoff\\2026-10-22\\work\\bridge-switch-live.py": "56e67109ec75102cab0bb339f7456ddefb73f0adf459d48c610e8aa179300953",
+    "handoff\\2026-10-22\\work\\bridge_input.py": "9411e651310d5c1fd859567e9a9a32a1388745b1c295e4fdceecbe91c57d6043",
+    "handoff\\2026-10-22\\work\\bridge_network.py": "90e4546cd1dc10302ac2d959f29cfc71f0f2c59966314da195e9fa366a2aa314",
+    "handoff\\2026-10-22\\work\\bridge_process.py": "bf30636c596e9857e5b5e404a1a40508893d44d58a0195b75557d1d74bffa4e3",
+    "handoff\\2026-10-22\\work\\bridge_protocol.py": "205a0ce765f8f40aee0264917c05b6ff8ef1048a80e0af36e344e740a9011176",
+    "handoff\\2026-10-22\\work\\bridge_render.py": "785aeadec6504a8728d3f8612f71e37fe3ee946ca2a1f6fd0d0a9a2c36be2906",
+    "handoff\\2026-10-22\\work\\bridge_retry_socket.py": "629252f4691b19dba3141e4cee7a7b5c5c6c3792ab0dc0a015cded847e5b9d71",
+    "handoff\\2026-10-22\\work\\bridge_runtime.py": "add50ac6bab31a8da548a9c3c99b04bc1b6e7d73059c92d8cf3921878e297822",
+    "handoff\\2026-10-22\\work\\bridge_transport.py": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba",
+    "handoff\\2026-10-22\\work\\bridge_windows.py": "0f7bbda61a3f2d2de7777eaea2f0d1a030842c0d03f280fe735116bd7db47225",
+    "handoff\\2026-10-22\\work\\confirm-xinput-source.py": "7f92c178cf14aad9669b34c33861e3fafc2d99bb1767411c23cbe23a0f282968",
+    "handoff\\2026-10-22\\work\\diagnose-bridge-flash.py": "0107cf63797127f4bc0da4cc83caa5d4319c53dbc53d8d0fd9d562720a4ee1cc",
+    "handoff\\2026-10-22\\work\\exercise-pico-capture-flash.py": "c78c994f4cac8ffc0c5b0197be72fb942dd4c5d1374c080a7522bdde35ffe1df",
+    "handoff\\2026-10-22\\work\\exercise-pico-continuous-flash.py": "cde2909e9ed67f8e46c66324d82ad10f828d235d8d250e5af53646aff35a3a3c",
+    "handoff\\2026-10-22\\work\\flydigi-captured-replay.py": "b6cff289e0717bda61a1adc73fdefed5f861cb7b93baa6833e9518b23a5e234e",
+    "handoff\\2026-10-22\\work\\flydigi-failure-tests.py": "c5c9f696fbb6ab37e74f8c21c6f2a801d5ec283834117078d55bb0f77b3fc387",
+    "handoff\\2026-10-22\\work\\flydigi-live-bridge-bench.py": "8a713da374a3aa046fc9487b15306fdef9ea60fa5cfece026b56b782fddc209b",
+    "handoff\\2026-10-22\\work\\flydigi-monitor-reconnect.py": "ef6ffce77ca403de55ac96cc18c0b31bdeb78028978283772185b39accb2ba74",
+    "handoff\\2026-10-22\\work\\flydigi-native-rumble-pulse.py": "930d1e85f877b2646d6903c2276756b61b15e899296592fca938fcc7c9caec9e",
+    "handoff\\2026-10-22\\work\\flydigi-owner-hotplug.py": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af",
+    "handoff\\2026-10-22\\work\\flydigi-perception-calibration.py": "26375826b4076e8c5f3bcc78cc05adc9abcd2d4101845538bb787379e225fe19",
+    "handoff\\2026-10-22\\work\\flydigi-readonly.py": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503",
+    "handoff\\2026-10-22\\work\\flydigi-safe-waveform.py": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9",
+    "handoff\\2026-10-22\\work\\flydigi-verify-backup.py": "d7de31a1ffa50623374ba9c91882d89a816cfb42265bfa2024e1dce8a0337dc7",
+    "handoff\\2026-10-22\\work\\flydigi-verify-runtime-disable.py": "8434ee8247755623d0c96d8e5130b5329b0d4221e165229d992b9d570d61e98e",
+    "handoff\\2026-10-22\\work\\flydigi-xinput.py": "1cbf2ec2fb05703683d15d50bde0aa4e08dd80f8d52d1284f3575f335934313e",
+    "handoff\\2026-10-22\\work\\pico_capture_log.py": "0352a5b93e58e1e869ddd13c12532db7e9edf8927908d03c211c1d37ec5463c1",
+    "handoff\\2026-10-22\\work\\pico_continuous_log.py": "9d6e29b98a79654a9182478f4ce5c750ac073cd98b0f30507d557258893b4b78",
+    "handoff\\2026-10-22\\work\\replay-bridge-prompt-capture.py": "dcdaac24efb1291916cff56f813984c023e1605583e7442b488246fd8306561b",
+    "handoff\\2026-10-22\\work\\switch_hd_decode.py": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb",
+    "handoff\\2026-10-22\\work\\test-bridge-adapters.py": "ef9b626192fc487db54dfd96caca28fcc136742428251ed7b1ed81a6182e6d99",
+    "handoff\\2026-10-22\\work\\test-bridge-capture-replay.py": "ef69094bc7c2233fec2e98057ee21dbf5309be6f7b8d35267fa319c623cc8a47",
+    "handoff\\2026-10-22\\work\\test-bridge-end.py": "1dea5d6e2eb227aec917930750caa572f862710b70f800d8be0f693736dd963a",
+    "handoff\\2026-10-22\\work\\test-bridge-game-pilot.py": "775fa9090ffa89baad658b947ba93c04896da7500e111a709311d63b14ccf00a",
+    "handoff\\2026-10-22\\work\\test-bridge-input.py": "b97ed29d47ddd170bb9dbe24d67a1ce71daae382275915e392b0615ef6e04388",
+    "handoff\\2026-10-22\\work\\test-bridge-platform.py": "1117bd6be58ec91f85f72eb89aced6433078d661dd8f43a9caa659fb5b3e81b1",
+    "handoff\\2026-10-22\\work\\test-bridge-prompt.py": "fcbb48a4deacb675a235c53c8c156012bdc1cd89a10a6258f77f7590678c4fe2",
+    "handoff\\2026-10-22\\work\\test-bridge-runtime.py": "7195f090a806901f8e1235d79168d262e1be19f04ef87d0cd0c74f60883b0742",
+    "handoff\\2026-10-22\\work\\test-capture-corpus.py": "ca5017059b7e9d48307bbba8aa8e74ea4b0d68b145c0c7dcf20ad52d88e4a7ae",
+    "handoff\\2026-10-22\\work\\test-pico-bridge-v040.py": "6e3ccd0ee95b43f651450ca18e8f4fed79b080bd520936c65974a3c27a3b93e7",
+    "handoff\\2026-10-22\\work\\test-pico-bridge-v042.py": "9d52fef40c1d6a75e9020264d9a2dcebdec160106f57087aa46a1febbcdc46fb",
+    "handoff\\2026-10-22\\work\\test-pico-capture-format.py": "94f9a1cd233e88d815002ffe168baeb0599f2f020ab2ffe490992aaa2ff58630",
+    "handoff\\2026-10-22\\work\\test-pico-capture-ram.py": "2f9e48db543dc56abaa1b0f139c375e3fc2c7b376f55068ab250bb24eb3f1ec2",
+    "handoff\\2026-10-22\\work\\test-pico-capture-v031-ram.py": "2b2cfc825e6c4a8860e8e4f00d0a52d2f432b0bbbc50bee99335efa70acbf143",
+    "handoff\\2026-10-22\\work\\test-pico-capture-v032-ram.py": "19c9384bf3dadcffe4e20ee01451b91af4e6816776af9c43216c2e7fe1c2dd4d",
+    "handoff\\2026-10-22\\work\\test-pico-capture-v033-ram.py": "e9a3c4257ff7d30703a279428e835bd516614a2b13929899c99d1d78c116b335",
+    "handoff\\2026-10-22\\work\\test-pico-capture-v034-ram.py": "8078511d5e2a469256316691ca52690e5117419b8ca062eb11d11a33fb3cad5c",
+    "handoff\\2026-10-22\\work\\test-pico-capture-v035-ram.py": "aa8a81af6ab7d4af02608473317c7534771eef7892e373ab1ea21cd65d5b2c39",
+    "handoff\\2026-10-22\\work\\test-pico-continuous-format.py": "e092247e6246d56160d573f81697bd053e8888740bab94b402b426808d5cb5f7",
+    "handoff\\2026-10-22\\work\\test-pico-pro-neutral.py": "469daa8ef6b0d94e52f11499ff930020ca8208c5515ddd920e3aa2c0bd736868",
+    "handoff\\2026-10-22\\work\\test-pico-protocol-lab.py": "0e92a707d50bcb921a0caa208b5152951abc50bbd5455f00ed30df1d049b6aa8",
+    "handoff\\2026-10-22\\work\\test-pico-v033-cancel.py": "ce83936e801a14ebdc25ab472e83c8ad51e0b7cbb596c048e5fcce3dc0d87bb9",
+    "handoff\\2026-10-22\\work\\test-pico-wifi-udp.py": "330d2fbfd0b10d69569bf402eae67db43b95862f011b9654dfe03a566741a12f",
+    "handoff\\2026-10-22\\work\\test-runtime-disable.py": "a7c0ce3bf350fc5b514b7e32efb5790d81d9ec5de3358c87726a277e0ab06d19",
+    "handoff\\2026-10-22\\work\\test-switch-hd-decode.py": "bd1d85a1d9c91ca0be180dd035d298a470aa5aff7a1c1c57e07622c0899c1c61",
+    "handoff\\2026-10-22\\work\\verify-capture-image.py": "ea7ae148818009bae1692c11543919c4d628db7e8bf33b32ece1750fbea0cdcd",
+    "handoff\\2026-10-22\\work\\verify-capture-v035-image.py": "adc5048eaf8dccf2a5be8084841b69e887e3afd41e4813b36d2e44f32f7a893c",
+    "handoff\\2026-10-22\\work\\verify-live-bridge-capture.py": "192bbf8d28b0e3a4c87e74cd870b95a711dc528b2b791eb139919bc92d781937",
+    "handoff\\2026-10-22\\work\\verify-pico-v035-flash-test.py": "cf6397baeddaecccd50bcffd987ae7288bf85529a3e79fb103e174842230d5b5",
+    "handoff\\2026-10-22\\work\\verify-ram-uf2.py": "361a1ae48cd0f90d60b582b6661ae524b9525e7a561ae2d6f2a011311481af41",
+    "handoff\\2026-10-22\\work\\xinput_readonly.py": "eedb45a79810fa17ddef157c434bde6c05c682021dcfccad62b3180c20185114",
+    "tools/run_offline_checks.py": "e80142ccc9fd01849b33fb6a828028a20b6a7ba94a57aed240fc4173048c2d84"
+  },
+  "capture_sha256": {
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-140320.json": "f59638b4162bcc828403578c2e01ea449281e84850786b9d661f9592d355112a",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-140937.json": "c7b7b53983e9cec4ed96f08ca95ac27ef3ef2622e235d697180cc7534a55fd2b",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-154058.json": "530ad18081612961ee881f6d84990f2c69ac83d9931c6780ac9f726f7f978039",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-154812.json": "04eeeca09ad625c79ff3280c456448813e0d55e94d694e57127b291d8c547957",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-155322.json": "746b2481c0bbdedad9e5a7da49c6915ce356af4eda57bdcb652120c895cde5dc",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-161720.json": "33e213418d2a5fefa3812a475dc530abe8e3d001a5e81b0ddb1344fd3eb1e291",
+    "handoff\\2026-10-22\\outputs\\pico-continuous-capture-20261022-163044.json": "c3aea7c5c9d31c4c9c9119f8b3634d6b391f4f798257050cb86a06a237d365ea",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-152412.json": "e71f3f64940b6badd3e9676fb8fe1cf9653d33f23cd9d822235812316ea3f6b5",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-152540.json": "ef3323888e7af64b7b5cb6256699b9e431bb7ae47e161fe936598ded273b3337",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-152708.json": "12d43e06f502bb2d78bd41199059f0128c31745a5d71816a72510de0a9d64042",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-152943.json": "07d073e41fd70821f55cd527d71beb83ed187704f0f62d05223291b21383cd84",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-153139.json": "04323e0cdfc3dce43be1f8e0944dd1b013189d4c7da686da6ae36598ee908bc1",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-153429.json": "b55e91426a60fa3306a88dd5131de4935489c6ce18cf5d51faeeeef4b3043b08",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-153807.json": "b711cf6d3d527f9eee98f6f6c06f2ba5b4af6f5c343b3d4bf546cd157953c27d",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-154521.json": "bdf0e8c5df1b2e535bdcd52d1ff4235bd7713a519f126d47c1527c425a231793",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-155010.json": "3228e0a97c60b699e8ca8a9b7d744876a7ffe2a4547c5e52bb602a902b329b6d",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-161338.json": "13e5285abd80a5c82d69234454cf294f6bd30e23a115562c191074315bd9cd94",
+    "handoff\\2026-10-22\\outputs\\flydigi-live-bench-child-20261022-162748.json": "6108f16f35ea9d71a8c55272fb3803ca6cc6f060fb6d57a9596ad9e6eb4603fc",
+    "handoff\\2026-10-22\\outputs\\pico-bridge-v042-raw-test-20261022-165112.json": "0b8ca4d205fa1dbba6988d97eb096a0c34779e4bf3397fed70b5bd530f9790a4"
+  }
+}

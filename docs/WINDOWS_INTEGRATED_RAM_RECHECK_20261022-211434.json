@@ -1,0 +1,224 @@
+{
+  "status": "PASSED_BOUNDED_LIVE_BENCH_AND_CONFIG_RECHECK",
+  "persistent_write_commands": 0,
+  "maximum_allowed_offset": 12,
+  "path": "PC captured USB reports -> RAM Pico -> actual WiFi -> PC decode -> Flydigi",
+  "actual_switch_live_test": false,
+  "automatic_resume": false,
+  "parent_guardian": true,
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "game_pilot": false,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 0,
+  "child_error": "",
+  "child": {
+    "status": "PASSED_PICO_WIFI_FLYDIGI_BENCH",
+    "events": [
+      {
+        "sequence": 0,
+        "at_us": 12510406,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 1,
+        "at_us": 12526404,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 2,
+        "at_us": 12542415,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 3,
+        "at_us": 12566406,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 4,
+        "at_us": 12606409,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 5,
+        "at_us": 12622414,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 6,
+        "at_us": 12638413,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 7,
+        "at_us": 12670414,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 8,
+        "at_us": 12686416,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 9,
+        "at_us": 12710417,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 10,
+        "at_us": 12742418,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 11,
+        "at_us": 12758422,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 12,
+        "at_us": 12790423,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 13,
+        "at_us": 12806423,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 14,
+        "at_us": 12830423,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 15,
+        "at_us": 12854427,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 16,
+        "at_us": 12878430,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 17,
+        "at_us": 12918434,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 18,
+        "at_us": 12934433,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 19,
+        "at_us": 15966622,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 20,
+        "at_us": 15982625,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 21,
+        "at_us": 15990627,
+        "motors": "801860b200000000"
+      },
+      {
+        "sequence": 22,
+        "at_us": 16006629,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 23,
+        "at_us": 16014629,
+        "motors": "0000000000000000"
+      },
+      {
+        "sequence": 24,
+        "at_us": 16046628,
+        "motors": "0001404000014040"
+      },
+      {
+        "sequence": 25,
+        "at_us": 16078632,
+        "motors": "00000000c318606d"
+      },
+      {
+        "sequence": 26,
+        "at_us": 16166638,
+        "motors": "0001404000000000"
+      },
+      {
+        "sequence": 27,
+        "at_us": 16182636,
+        "motors": "0000000000014040"
+      },
+      {
+        "sequence": 28,
+        "at_us": 16630664,
+        "motors": "0001404000014040"
+      }
+    ],
+    "frames": 497,
+    "maximum_offset": 12,
+    "identity_matches": true,
+    "state_matches": true,
+    "ram_matches": {
+      "global": true,
+      "mapping": true,
+      "lighting": true,
+      "motors": true
+    },
+    "configuration_unchanged": true,
+    "neutral_written_clock": 12.348829,
+    "disable_attempts": [
+      {
+        "attempt": 1,
+        "status": "ACK_OK"
+      }
+    ],
+    "runtime_disable_ack": true,
+    "sent_raw_events": 25,
+    "active_samples": [
+      120,
+      120
+    ],
+    "prompt_counts": [
+      1,
+      1
+    ],
+    "terminal_received": true,
+    "terminal_ack_replied": true,
+    "collector_ended": true,
+    "timer_released": true
+  },
+  "neutral_written_clock": 13.1663968,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "source": "verified captured Switch USB prefix injected by PC; not current game traffic",
+  "collector": "current collect_frames with real sockets and end acknowledgement"
+}
