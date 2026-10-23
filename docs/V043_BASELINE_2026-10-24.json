@@ -1,0 +1,2476 @@
+{
+  "status": "FROZEN_LOCAL_V043_TWO_GAME_TRIAL_BASELINE",
+  "created_at": "2026-10-24T00:16:57.036646+08:00",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "current_full_flash_sha256": "48de32d41fc18a771bf4e5ab3254f9ce40aa3dfc052676fecc13f4bed6ec46fc",
+  "current_full_flash_bytes": 4194304,
+  "journal_generation": 15,
+  "trials": [
+    {
+      "stamp": "20261023-234407",
+      "generation": 14,
+      "baseline_generation": 13,
+      "motor_fields": 1107,
+      "live_seconds": 120.06667249999998,
+      "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+      "program": "WINDOWS_V043_GAME_RECHECK_20261023-234407.json",
+      "capture": "V043_HOST_CAPTURE_20261023-235027.json",
+      "assessment": "V043_STAGED_GAME_ASSESSMENT_20261023-234407.json"
+    },
+    {
+      "stamp": "20261023-235855",
+      "generation": 15,
+      "baseline_generation": 14,
+      "motor_fields": 1120,
+      "live_seconds": 120.0673501,
+      "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+      "program": "WINDOWS_V043_GAME_RECHECK_20261023-235855.json",
+      "capture": "V043_HOST_CAPTURE_20261024-000336.json",
+      "assessment": "V043_STAGED_GAME_ASSESSMENT_20261023-235855.json"
+    }
+  ],
+  "prior_physical_verification_report": "V043_READY_BASELINE_20261024-000440.json",
+  "device_access_this_run": false,
+  "flash_write": false,
+  "hardware_output_started": false,
+  "recovery_verified": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 399,
+      "sha256": "92b042eeb9fc5814534e379207ca64ff2e66dba181be10aff74c47dea46f8857"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3261,
+      "sha256": "2f71f557d54b5638ff51ee6a9e3694a690b2f14c059fa632dfc9357b052a1b34"
+    },
+    {
+      "path": "docs/CROSS_PLATFORM_WORKFLOW.md",
+      "bytes": 3041,
+      "sha256": "8026fcd16c1e4a97baf45436fea0fa3292ac06287227474a0781528f1b56c9ad"
+    },
+    {
+      "path": "docs/FLYDIGI_OFFICIAL_FINDINGS.md",
+      "bytes": 2773,
+      "sha256": "a745b6b77227f2afd3f15da8e2849b7be0704c67ce0998188ee9f24eaf07731f"
+    },
+    {
+      "path": "docs/GITHUB_RESUME_2026-10-23.md",
+      "bytes": 4004,
+      "sha256": "858bdd9faf6822026d773f58b0e9180be7fe82ebc35309cf3922d92aa3c31e15"
+    },
+    {
+      "path": "docs/HANDOFF_2026-10-22.md",
+      "bytes": 11416,
+      "sha256": "e6b700799505dbc677dd9a7d3ff46aa9cbd6fffae2f8f47bf7b268382b37a99d"
+    },
+    {
+      "path": "docs/MAC_ADAPTER_RESULTS_2026-10-22.md",
+      "bytes": 2851,
+      "sha256": "3c4b876522e20bee71382cd4506c01b99c4cb65f4bcecc21e5f6c941d09a33ec"
+    },
+    {
+      "path": "docs/MAC_ADAPTER_VERIFICATION_2026-10-22.json",
+      "bytes": 44138,
+      "sha256": "ede700a9c1c3d04afa6d1696f06dd2eff8cc32db883a0c4237620b09e713ff5e"
+    },
+    {
+      "path": "docs/MAC_CAPTURE_REPLAY_RESULTS_2026-10-22.md",
+      "bytes": 2733,
+      "sha256": "20d1b340301fb213f40702388d2fc0d743c53818d3a5b24fb042ad8dec155939"
+    },
+    {
+      "path": "docs/MAC_CAPTURE_REPLAY_VERIFICATION_2026-10-22.json",
+      "bytes": 40645,
+      "sha256": "12223e84fbccbdd3bda350562dceca318a756b6d7ac5eba6016bcd0d25a3c9b1"
+    },
+    {
+      "path": "docs/MAC_CONTINUE_2026-10-22.md",
+      "bytes": 6531,
+      "sha256": "74fe4addfd2ecaa33953782860d7ac6c7231178cff2aebf465bc04cf6584d022"
+    },
+    {
+      "path": "docs/MAC_OFFLINE_RESULTS_2026-10-22.md",
+      "bytes": 4062,
+      "sha256": "459d609d53c56d898ac14895115124dfce7acf2da6bfcbbe118beec0275e2863"
+    },
+    {
+      "path": "docs/MAC_OFFLINE_VERIFICATION_2026-10-22.json",
+      "bytes": 22342,
+      "sha256": "df58749f6270a152f83aaaa96b3930cf4e1fdc9e069c6c3f2b9f2c48b6455427"
+    },
+    {
+      "path": "docs/MAC_PLATFORM_RESULTS_2026-10-22.md",
+      "bytes": 1824,
+      "sha256": "3b960558e3a89abae2b681d00635c68b2f3a6b04adbe65f0d716e9ed70a8c6ad"
+    },
+    {
+      "path": "docs/MAC_PLATFORM_VERIFICATION_2026-10-22.json",
+      "bytes": 26492,
+      "sha256": "4d9efacef38ffb7aec577ac6e7058bcf1c727aecb8f7e6ed9bcc5fb3126657c6"
+    },
+    {
+      "path": "docs/MAC_RECEIVER_DIAGNOSIS.md",
+      "bytes": 2731,
+      "sha256": "0613f81ad03bafd1dee99491fa0a94b53aee6fab0a9d062ccf941052abf8c826"
+    },
+    {
+      "path": "docs/MAC_V042_BUILD_RESULTS_2026-10-22.md",
+      "bytes": 4870,
+      "sha256": "8f1c789b128277e5478a9d556895dd61a76afe12f42d0e79143cdc7c3774f447"
+    },
+    {
+      "path": "docs/MAC_V042_BUILD_VERIFICATION_2026-10-22.json",
+      "bytes": 6110,
+      "sha256": "e0b9accdc05bdb5580673d4158cdf2b916bc90f5591c16a5cc0bf788c7f1ce59"
+    },
+    {
+      "path": "docs/OFFLINE_EXPORT_VERIFICATION.json",
+      "bytes": 770,
+      "sha256": "78a07423b9fc6a54dbb019907ebf1fdbfee6612d7584a01f7d1291946f2cca50"
+    },
+    {
+      "path": "docs/PROTOCOL_NOTES_2026-10-22.md",
+      "bytes": 5124,
+      "sha256": "3e60542dda50310931d4b7ccb0b43c269d74c4ca6b2168cd174208d68c961f48"
+    },
+    {
+      "path": "docs/PUBLIC_SYNC_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "10ff04dcc1a63a36111099b751a135830a781a87bdbb769b0c82ad00efd50439"
+    },
+    {
+      "path": "docs/STAGED_GAME_BASELINE_2026-10-23.json",
+      "bytes": 36864,
+      "sha256": "dbbbf51209a1ca362e15ba3f31de76a1be1e617f3772df0be1835cc3e061d41e"
+    },
+    {
+      "path": "docs/STAGED_GAME_BASELINE_2026-10-23.md",
+      "bytes": 3812,
+      "sha256": "1299a8e7f8cfaae0fc971d86b570a6b1fe4d29e1bf031b18c693efd4857aac32"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 6531,
+      "sha256": "a7d7d42cd5c3ccc3f5b11b4965e3281e668333dd95e67ab8c3400f51b7cee43e"
+    },
+    {
+      "path": "docs/UPLOAD_AUDIT_2026-10-22.json",
+      "bytes": 53048,
+      "sha256": "d8323e072d73474e9a7c061f46612ce3a0a3973036d315039e25ea52b5758f52"
+    },
+    {
+      "path": "docs/V043_120S_BUILD_20261023.json",
+      "bytes": 4015,
+      "sha256": "281326a1f804b3fd82d296137f5cdee2c52d7a5a11eef852dbffad40c5940955"
+    },
+    {
+      "path": "docs/V043_120S_OFFLINE_20261023.json",
+      "bytes": 44640,
+      "sha256": "c19aff3338653332691943f8d47f9be565aec7f61b2b22b72b1116dded5f7e5c"
+    },
+    {
+      "path": "docs/V043_FLASH_GATE_OFFLINE_20261023.json",
+      "bytes": 44640,
+      "sha256": "282dd5cfe5f530c853ce106cc6d9a00b8cb6304429fe494af46e0eb62694b51c"
+    },
+    {
+      "path": "docs/V043_FLASH_INSTALL_20261023-214620.json",
+      "bytes": 225,
+      "sha256": "d6e3da20c205f385c25118962d19d1410270b2e5435aa6c5e043e819493204be"
+    },
+    {
+      "path": "docs/V043_FLASH_INSTALL_20261023-214640.json",
+      "bytes": 359,
+      "sha256": "f6d6c843c7f0905ea9e4f2ef281f955266b603b53d9b8cd43a3a6c668721d7ec"
+    },
+    {
+      "path": "docs/V043_FLASH_INSTALL_20261023-214659.json",
+      "bytes": 1126,
+      "sha256": "548cd706c157297c645e8dfa15f93810f9d3db918ea6daa7b42c620c4c29e273"
+    },
+    {
+      "path": "docs/V043_HOST_ASSESSMENT_20261023-221320.json",
+      "bytes": 1033,
+      "sha256": "74ab95987e1dd83d5ef30748ad95f6fdcfd941221f47da4cd933c1045e885f3e"
+    },
+    {
+      "path": "docs/V043_HOST_ASSESSMENT_20261023-223712.json",
+      "bytes": 1010,
+      "sha256": "420c82102e40320343c974197a2afb5186b51867ace3eb44b9b7141c2ea8197c"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261023-215338.json",
+      "bytes": 408,
+      "sha256": "8d5d9c3da62eb2fc4922cf5ecb484990de6600f30b1fbb865193f6cb1699e6bc"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261023-221901.json",
+      "bytes": 667958,
+      "sha256": "a5c24b94cff68eeebbcc169c812825bc5800fa13d36deda87cc9290c6cce8f89"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261023-224226.json",
+      "bytes": 667994,
+      "sha256": "3c23db0685dd4d27ed60817c30929f89d7372f0e5a3d0f72121c34f75a9b079a"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261023-234908.json",
+      "bytes": 243,
+      "sha256": "0fa657c1931fdc17cc8e2c10dcfe6c53de2bb16ba7520288f200ac8fcd060bf9"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261023-235027.json",
+      "bytes": 375891,
+      "sha256": "31ca4d2733e2e8bcd0d672ee1cc3f07440ade30746c0f63b2e4129c90478866f"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261024-000336.json",
+      "bytes": 380273,
+      "sha256": "1ff96823af9534e63ce9aa5da63c5a3ed9a937bb8d88ad9ad2fa57054ec46eb7"
+    },
+    {
+      "path": "docs/V043_PC_FLASH_STARTUP_20261023-220652.json",
+      "bytes": 2182,
+      "sha256": "33087051452dd51e35b583d0230b477cec1d2f571bc0a5e897e81ecde1464d51"
+    },
+    {
+      "path": "docs/V043_RAM_CAPACITY_20261023-212313.json",
+      "bytes": 277846,
+      "sha256": "7c3b309d473c927102dda1c6172e06bcfca754e57557e2a0fc4a8ae79ef3d5a2"
+    },
+    {
+      "path": "docs/V043_RAM_CAPACITY_20261023-212645.json",
+      "bytes": 278725,
+      "sha256": "610c5bd6ef015b3267d7f849e323a4eed9692a2fd39bf9fa65b34a39a8210e2f"
+    },
+    {
+      "path": "docs/V043_RAM_DIAG_OFFLINE_20261023.json",
+      "bytes": 44640,
+      "sha256": "c19aff3338653332691943f8d47f9be565aec7f61b2b22b72b1116dded5f7e5c"
+    },
+    {
+      "path": "docs/V043_RAM_LIFECYCLE_20261023-211313.json",
+      "bytes": 13455,
+      "sha256": "c1ce6a1228980fe6ef603b65fbf6822ac4386172fa076ac90f7fe943af01cad1"
+    },
+    {
+      "path": "docs/V043_RAM_LIFECYCLE_20261023-212918.json",
+      "bytes": 14404,
+      "sha256": "bf57bf79dc083e71cc03f2d25ce75733f4e7c5c0f24198160717cef9cb9c8e69"
+    },
+    {
+      "path": "docs/V043_RAM_VERIFICATION_20261023.json",
+      "bytes": 3479,
+      "sha256": "d6e1f1c0754f7e84f1431800087c66a2a81bb0537777591c55c942f2b47f3620"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261023-221142.json",
+      "bytes": 453,
+      "sha256": "f7e36d23d731266d41b94fc5c021e6fb164cb69fa988690459d9592f812a3d9f"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261023-222221.json",
+      "bytes": 453,
+      "sha256": "87a5bb261225ad54f4bdd756c736df95c2b6a81ff9d4a5856eacc0c751632ff2"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261023-224502.json",
+      "bytes": 453,
+      "sha256": "51792c9b98a0ab7746adbc903189c6e2c672d6feb26e4f9712d2297eb1864f53"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261023-235159.json",
+      "bytes": 453,
+      "sha256": "1f96afcafdb7d8f37c3e7c2b169f113b998d9f603478545ba8f2669bb9ec753b"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261024-000440.json",
+      "bytes": 453,
+      "sha256": "9d35ebb6a302f3289aa925b5d5844d4dd83ceaf4d7f1290c26951ac6ba45a3bc"
+    },
+    {
+      "path": "docs/V043_RESUME_2026-10-24.md",
+      "bytes": 5475,
+      "sha256": "674587c7984a7979495e03f105fcd8fb2b6008e28b911bb5c49a860bdb6b44b7"
+    },
+    {
+      "path": "docs/V043_STAGED_GAME_ASSESSMENT_20261023-234407.json",
+      "bytes": 1271,
+      "sha256": "8a2abb17b00aff5e45ff793aa4f3ff76fb1e4aa66beabc7f39fca97a4dd81a01"
+    },
+    {
+      "path": "docs/V043_STAGED_GAME_ASSESSMENT_20261023-235855.json",
+      "bytes": 1264,
+      "sha256": "03e9e0a7a2442c14cc4d11547acf782f4b0ed68b3df62942be73992e412911d8"
+    },
+    {
+      "path": "docs/V043_STAGED_GAME_OFFLINE_20261023.json",
+      "bytes": 44764,
+      "sha256": "f406cc01322beb9fd8c4f2110347c2d1a350c93f015b3bb97a8172a9233c5b1c"
+    },
+    {
+      "path": "docs/V043_STAGED_GAME_PREREQUISITE_20261023.json",
+      "bytes": 1113,
+      "sha256": "e9976771065ef0b55574c39fca9a005fae24bb2493ffc05c9d9e8ed4cc53097f"
+    },
+    {
+      "path": "docs/V043_TIMED_INPUT_OFFLINE_20261023.json",
+      "bytes": 44640,
+      "sha256": "7878e40ab7afe534f6969ccc4eaebb012f702357363310ded0a991c6b811edcd"
+    },
+    {
+      "path": "docs/V043_TIMING_CLOCK_20261023-224352.json",
+      "bytes": 743,
+      "sha256": "bca436c7aead665e2a1671cabc7b112873d0da89c2ace12fb97cabec4018e482"
+    },
+    {
+      "path": "docs/V043_TWO_GAME_TRIALS.md",
+      "bytes": 3516,
+      "sha256": "e330a6faa2da431b535dd9980511073fe176dc2f089834b0180ec9f851f2c4a6"
+    },
+    {
+      "path": "docs/V043_WINDOW_CANDIDATE_2026-10-23.md",
+      "bytes": 26636,
+      "sha256": "7235c407ff9301dfddac300259fc9218f6e09e567ba11b8aea3003b62259c062"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_ENTRY_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "92f3ef83d5907e22359d96c6580715e3b9a960b1c24f3514a6f8fcf09b5c5e4a"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_LATCH_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "3f91b25e10633404c27a07d3930b56cad9b868bbbf6c3f468b5c046da5d945c7"
+    },
+    {
+      "path": "docs/WINDOWS_GAME_PILOT_2026-10-23.md",
+      "bytes": 12254,
+      "sha256": "9b0f68f85dbf2bbd3c98b2cce67a6161ed8126e71e20e710949abd0ddf39ee4e"
+    },
+    {
+      "path": "docs/WINDOWS_HANDOFF.md",
+      "bytes": 4758,
+      "sha256": "cfb01a00f52df42af2fd246287301b927f27f86cd1f9025a0a5a90264c2215b3"
+    },
+    {
+      "path": "docs/WINDOWS_HANDOFF_ACK_2026-10-22.md",
+      "bytes": 3091,
+      "sha256": "c25b32c4e5c0123b0e02ea585cb39a22e65519eeb138c545829858d8a68e5520"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-195945.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-202737.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-212034.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261022-214110.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-152400.json",
+      "bytes": 185,
+      "sha256": "581e5aa5226733674b11fdff8cf7205ce70ce36e96169f14222beb09402a67b9"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-152505.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-155843.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-161552.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_PREFLIGHT_20261023-162257.json",
+      "bytes": 715,
+      "sha256": "89acce2cf815856e374b462939c240fb68c84c3fc6dcd6f8b188005b89700d36"
+    },
+    {
+      "path": "docs/WINDOWS_HARDWARE_RECHECK_2026-10-22.md",
+      "bytes": 5672,
+      "sha256": "06c20581a3c3f858785a4a70dcd222190d80bae64d6b635de8cf23a3cadefad3"
+    },
+    {
+      "path": "docs/WINDOWS_INTEGRATED_RAM_RECHECK_20261022-201532.json",
+      "bytes": 2596,
+      "sha256": "dd528e753fd8578789f091366efbda41d70b90bc370929f453270f2ad1e0703b"
+    },
+    {
+      "path": "docs/WINDOWS_INTEGRATED_RAM_RECHECK_20261022-211434.json",
+      "bytes": 5136,
+      "sha256": "467b469abcf82732dbafc7660b90919b1befa8bb65e2f624f4f4faec7fd0999d"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_BRIDGE_VERIFICATION_20261022.json",
+      "bytes": 1029,
+      "sha256": "0cf4397c580f5fb0f6e384395d58eb14302fb7cc40842c73f302e4c2cc6a2a48"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261022-211128.json",
+      "bytes": 465,
+      "sha256": "8475e47ba0f0905d6e4f1a83bb5d2e06683a6702212098841848beff9ccd304e"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-152840.json",
+      "bytes": 465,
+      "sha256": "84a47c466422c10cd6d01571f5a3f02d1543d5fa7012bae0e2da64ae226a2bd3"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-153704.json",
+      "bytes": 465,
+      "sha256": "6dbf22156db0f35768b569fe15752b893b16408bcffd8b82354ba05a4963c722"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-153845.json",
+      "bytes": 465,
+      "sha256": "babf0c7996185f447803b6330d7c9fcaad15934723712aa472718b7ff6b92fd2"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-154852.json",
+      "bytes": 465,
+      "sha256": "7a5099302ca523b3471d637f6f05fb7432a2ec31a6fccb61ad195284582ae4a0"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-211309.json",
+      "bytes": 465,
+      "sha256": "056441c6c526820605f923cd679ae61801a4f92c5b3248d3a7fee6acb3200713"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-212309.json",
+      "bytes": 465,
+      "sha256": "3204629f0ea3d9923515c466e70a1817437cae2382392ea4e882dc0fd886a5c6"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-212641.json",
+      "bytes": 465,
+      "sha256": "2651fa5393bcf79f2bfa3f76942bee9e3145efdd630542008a533e9149043f1d"
+    },
+    {
+      "path": "docs/WINDOWS_IPHONE_USB_HOTSPOT_20261023-212915.json",
+      "bytes": 465,
+      "sha256": "572b611c10e0e5442d1143839b3f8a8131425b2c8c896ca7bc6387fcdd080bb7"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_CAPTURE_20261022-2032.json",
+      "bytes": 103455,
+      "sha256": "91781de7e5c9725c622f6beea0bc6f1b4c550bcf9012b40d60539887c585ddfd"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_PROMPT_RECHECK_20261022-202834.json",
+      "bytes": 4410,
+      "sha256": "26e00169ad8dcb245eddc71ae0a66dbaf2c0629654b87f0f2436f3cd573993c1"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_PROMPT_RECHECK_20261022-212056.json",
+      "bytes": 41622,
+      "sha256": "9643bdb3151ff2cdeafc7b0887ef1d96edfe77b376a15ef7878b0c020f037b2d"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_RECHECK_ASSESSMENT_20261022.json",
+      "bytes": 750,
+      "sha256": "abebb3615c857f24fe70239a871cf74e49ec36b5e3efea10011dd5cb298d359c"
+    },
+    {
+      "path": "docs/WINDOWS_LEGACY_RECHECK_ASSESSMENT_20261022_CORRECTED.json",
+      "bytes": 1195,
+      "sha256": "979ba394b88de82d7d03822c599cc0f0d1b4aa8adb79bcb48abda781e968b133"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_PARAMETER_CHECKS_20261022.json",
+      "bytes": 44386,
+      "sha256": "ae3e9e6b765613b5ee5ba2743368876fc0e97d9b2c120e17deea6e232852a790"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-201812.json",
+      "bytes": 1336,
+      "sha256": "d4d91bc4d8cdd5671e80fc2b0cccf456b4e4af7e01acf5165d66fad2bd04183c"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-204326.json",
+      "bytes": 542,
+      "sha256": "b6e7b6fb53230ed214cf13a39fa02b3f03ed59a68346d0b48f63e4748d5a222a"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-205455.json",
+      "bytes": 1627,
+      "sha256": "3eca81a0aad96c1c3de8158d77e94037f37b1eb23e6d13e4192f7aa8925df939"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-205904.json",
+      "bytes": 541,
+      "sha256": "b3cf6299e59ca40bd911a2ff01ece0418eae34479bccb6f5da6402c913b2a108"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-210024.json",
+      "bytes": 2753,
+      "sha256": "d4c681b1bf97da49db8c75ffd0a2b711abb622858f682b8d2ea55e3f86da8ac7"
+    },
+    {
+      "path": "docs/WINDOWS_NETWORK_TIMING_RECHECK_20261022-211158.json",
+      "bytes": 1788,
+      "sha256": "3be851e46612252830366d85d76b3514b6b5b7a9a6fe6728390ec91a62bdb76a"
+    },
+    {
+      "path": "docs/WINDOWS_OFFLINE_RECHECK_2026-10-22_resume.json",
+      "bytes": 44386,
+      "sha256": "7008b94a81a53a9620e8bdd7765a532a213fd5ed7feb5a61194d6b6cd8f50234"
+    },
+    {
+      "path": "docs/WINDOWS_OWNER_PROCESS_RECHECK_20261022-200945.json",
+      "bytes": 3553,
+      "sha256": "dd37d76c7fe5d430c9043c99da040f4ab2ff2a6b336fbf9700610e448e423f8b"
+    },
+    {
+      "path": "docs/WINDOWS_PAUSE_2026-10-22.md",
+      "bytes": 3300,
+      "sha256": "b920481e0b5f72fff6d9b3242b1076e3ed1bfdbd9bbcccc0f694ca0d7a86ac5b"
+    },
+    {
+      "path": "docs/WINDOWS_PC_DISCOVERY_20261023-153705.json",
+      "bytes": 309,
+      "sha256": "67b02453917a296847519c4d7cb9c020928833b32f1dc884d7cfec1ffea1ecda"
+    },
+    {
+      "path": "docs/WINDOWS_PC_TIMING_DIAGNOSTICS_OFFLINE_20261022.json",
+      "bytes": 44386,
+      "sha256": "ae3e9e6b765613b5ee5ba2743368876fc0e97d9b2c120e17deea6e232852a790"
+    },
+    {
+      "path": "docs/WINDOWS_RAM_CAPTURE_RECHECK_20261022-200607.json",
+      "bytes": 307115,
+      "sha256": "b6c5d723274ca57a07ae23f0a322e12149a783d0f23de09af6637cab46421659"
+    },
+    {
+      "path": "docs/WINDOWS_RESUME_2026-10-22.md",
+      "bytes": 3191,
+      "sha256": "ce09c241c8efc1e0f67391ba1158bf85f03760bee8a2e7012b1b6f0fd5168038"
+    },
+    {
+      "path": "docs/WINDOWS_RESUME_2026-10-23.md",
+      "bytes": 4659,
+      "sha256": "c28ed20e3c8157bdf657117dc063dd1d9f4415ec5b358ed71cce4bbe2ceb1664"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_2026-10-22.md",
+      "bytes": 4233,
+      "sha256": "5bfe0545e29e5006ff19647efa26bfcd9ffc79d5ced4da165afb93bdd174d4e8"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_INSTALLED_20261022-202524.json",
+      "bytes": 596,
+      "sha256": "59362ca08d07009e7f373774019f0b01fe0290db9fe00b4514f3e77d5d4e98cc"
+    },
+    {
+      "path": "docs/WINDOWS_ROLLBACK_PREPARATION_20261022-202421.json",
+      "bytes": 1996,
+      "sha256": "a17a45afffddb611044af2c5f1a6591aa26b09f3f19f4aa5730661f3278efe14"
+    },
+    {
+      "path": "docs/WINDOWS_STAGED_GAME_OFFLINE_20261023.json",
+      "bytes": 44512,
+      "sha256": "10ff04dcc1a63a36111099b751a135830a781a87bdbb769b0c82ad00efd50439"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_CAPTURE_20261022-212056.json",
+      "bytes": 103099,
+      "sha256": "775b6c6d76fda43d24e76cbfca3c2a94899ac6195bafe8490bf03aa89b476d2d"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_RESULTS_2026-10-22.md",
+      "bytes": 2813,
+      "sha256": "881f1422832ddfc85738204e0234b79c776529d30c18b700c09844697883457b"
+    },
+    {
+      "path": "docs/WINDOWS_SWITCH_USB_VERIFICATION_20261022-212056.json",
+      "bytes": 1177,
+      "sha256": "25adaf5691cd326b530f17190cc26943bd2217c3f7d1ac1910cb3194c2b1f853"
+    },
+    {
+      "path": "docs/WINDOWS_TABLET_NETWORK_2026-10-22.md",
+      "bytes": 3274,
+      "sha256": "cb33c165f3346e2d279d519d028a695938973d102fa52624648200c75c9934ea"
+    },
+    {
+      "path": "docs/WINDOWS_USB_UPLINK_RESULTS_2026-10-22.md",
+      "bytes": 4167,
+      "sha256": "602456528799f0b2fdde5b1e76cef2c4d8d26d4b2a9d6cb1e943c05c2a345578"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261022-214151.json",
+      "bytes": 853,
+      "sha256": "ab80d0079eef6b3d849965c2dc15c71c99edd835170a8ed810c29333ab21aa7b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261022-215343.json",
+      "bytes": 856,
+      "sha256": "567c1aa72e4905b22c5123898cc5019d3ae4e26afa60195e96eac4b39cb59872"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261023-152855.json",
+      "bytes": 887,
+      "sha256": "edd7ffecb82b71c26dde4ca9e0d555b66ad5c165e262d91312652c1852670757"
+    },
+    {
+      "path": "docs/WINDOWS_V042_ASSESSMENT_20261023-153900.json",
+      "bytes": 907,
+      "sha256": "7abb013e740f041cafff728468911ac0b5987a26cbe3a90485cc8ebf7ad0c1ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_BASELINE_20261023.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261022-214151.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261022-215343.json",
+      "bytes": 328401,
+      "sha256": "8a44acfa52c771279ec46e245b13bd73f906fb6d8d99324770438e45e2b166ec"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261023-152855.json",
+      "bytes": 6753,
+      "sha256": "83484fe04f5ac4e437c9649dac025b97dcbe6a92eb8c0c057d1d6dcd7d0c6b24"
+    },
+    {
+      "path": "docs/WINDOWS_V042_CAPTURE_20261023-153900.json",
+      "bytes": 210030,
+      "sha256": "7bfe8e45bee20b1599f61f75876f07e40f8842cb8e862e9c1f15356312ae8eae"
+    },
+    {
+      "path": "docs/WINDOWS_V042_FLASH_INSTALLED_20261022-213955.json",
+      "bytes": 561,
+      "sha256": "1ed77cb702d6d7cc2af5b8a23615736331023664cc60ddff4f0d21667ed1356b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-154932.json",
+      "bytes": 169195,
+      "sha256": "ff1305736bcf79517b31e42d0b831f36c1fe47f5f923adf978bfd72ce8d3e642"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-155910.json",
+      "bytes": 195528,
+      "sha256": "b18fdd6d8d73d1b61bc1a461c405748dbfd055e2f40fedba99327318a0b3f327"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-160441.json",
+      "bytes": 198229,
+      "sha256": "ac09f7be1fe1986db2b52f91c3fa81af05ee354bec1e82b20eabb3ed0f643005"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-161628.json",
+      "bytes": 197213,
+      "sha256": "6a3f8e55ec5f2abf817c829ef7cc7a2663fdb9fbd1806ec39ccb3de75263386b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_CAPTURE_20261023-162326.json",
+      "bytes": 191147,
+      "sha256": "7d8b0fd48ce165fb232c5b8e62dd378177fe5217e0170f79896fef563076b3b1"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-154853.json",
+      "bytes": 1628,
+      "sha256": "756e64a5f482b74cabbfa6e7bc266099e40c14141c1516159c498c59c2b6be93"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-154932.json",
+      "bytes": 29632,
+      "sha256": "64f2ce72fa8e48bfa59a46fd62b438108c99378962775b030f65a07d63840bd5"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-155910.json",
+      "bytes": 35362,
+      "sha256": "6d6afe37299f2e9e9cdf6c201257c7d141a134909e91f991c612b21647386b13"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-160441.json",
+      "bytes": 85369,
+      "sha256": "179e9e9cefa6995ec7ca3194f00e29772db3fdaa108827384d4150f95fbe0888"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-161628.json",
+      "bytes": 85053,
+      "sha256": "452501a0c54fcd619060f3c8beecfe33820bfb5fd73cdfa45836af8d06b8df64"
+    },
+    {
+      "path": "docs/WINDOWS_V042_GAME_RECHECK_20261023-162326.json",
+      "bytes": 82682,
+      "sha256": "92ec80ed14876ded4d8086609a85a26cef0f69bab821d0fe556485f80426bbe2"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_MODE_OFFLINE_20261022.json",
+      "bytes": 44512,
+      "sha256": "5093d36550bf74ae38eb6f15d981c4b91726f49041ea51dac78885a71543ede6"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261022-214151.json",
+      "bytes": 129862,
+      "sha256": "6ffea316c6e3c702cbe3a8e5a0070ec1e3e60d1eb09f41a8da88782fe4bc596a"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261022-215343.json",
+      "bytes": 69434,
+      "sha256": "6d50fcba1ecf6d81301abe1aa18910eb3100940d3681bf4ae083358d6c05e694"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-152749.json",
+      "bytes": 1788,
+      "sha256": "88455c3cd6b5abf94e30f9874a2189aa2217e86cbb64f34076497969b9d05775"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-152855.json",
+      "bytes": 1521,
+      "sha256": "772bbdf9d653ed6cf3c96603868752dad1adabdbac1077fe41680bff2931a02f"
+    },
+    {
+      "path": "docs/WINDOWS_V042_INPUT_RECHECK_20261023-153900.json",
+      "bytes": 83821,
+      "sha256": "e4a5823321a5ddf6ed74b63b6827325d088301cd1bc77f9fb9c4cbb76e39bb9d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_MUTED_ASSESSMENT_20261023-160441.json",
+      "bytes": 1029,
+      "sha256": "c1236299fbe7da4994b1f186fafecbeaa285d446eb1418988861782b2b0aa4b7"
+    },
+    {
+      "path": "docs/WINDOWS_V042_PRE_FLASH_BACKUP_20261022-213702.json",
+      "bytes": 438,
+      "sha256": "1bcac448a4366e25d02e224c16e7a2687580bd7ec71ec558badd0c73a3274e7d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-161628.json",
+      "bytes": 1385,
+      "sha256": "c30dfc81dcc0d8e3dd1e24dcb46ca5f7b600126988f9edca9980ad35cbd3447d"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STAGED_GAME_ASSESSMENT_20261023-162326.json",
+      "bytes": 1386,
+      "sha256": "35e01794881fd32487253c2519240055d060b08da18125d6a08bc2f145bdeb6b"
+    },
+    {
+      "path": "docs/WINDOWS_V042_STALE_LOG_GATE_20261023.json",
+      "bytes": 890,
+      "sha256": "1ca86188a07e92a40d3a05cf18ab677d101b9811bf5fdcb191485df90cc1bc73"
+    },
+    {
+      "path": "docs/WINDOWS_V043_GAME_RECHECK_20261023-234148.json",
+      "bytes": 1631,
+      "sha256": "bbf91cab8c944f96b4d83f1614ae9b925110874bc9bd68d1dcb28cbcff4ad241"
+    },
+    {
+      "path": "docs/WINDOWS_V043_GAME_RECHECK_20261023-234407.json",
+      "bytes": 156861,
+      "sha256": "740e0297cd710510514aa4c6e673f86805b6816cfb2d3029994b50c17868c6a1"
+    },
+    {
+      "path": "docs/WINDOWS_V043_GAME_RECHECK_20261023-235855.json",
+      "bytes": 158585,
+      "sha256": "61eeae476f73fc07d45c7097cb0f03892c328b9c015d335b93c3b2c7f97d815d"
+    },
+    {
+      "path": "docs/WINDOWS_V043_INPUT_RECHECK_20261023-214902.json",
+      "bytes": 2603,
+      "sha256": "224221fa7f726ca958f66c9d4755fb6b5645217fa5362bb04da0d5a5ed4a9784"
+    },
+    {
+      "path": "docs/WINDOWS_V043_INPUT_RECHECK_20261023-221320.json",
+      "bytes": 270678,
+      "sha256": "27d4a5afaf1106f3e23c93d908abd5db6a76953b3b9fbb737768e1d3bbb67f20"
+    },
+    {
+      "path": "docs/WINDOWS_V043_INPUT_RECHECK_20261023-223712.json",
+      "bytes": 270748,
+      "sha256": "dfb15c6f7b315b0a4545e59c3c6e6d59569977bd93a4fc9ee2e550b06a237867"
+    },
+    {
+      "path": "handoff/2026-10-22/SOURCE_MANIFEST.json",
+      "bytes": 77533,
+      "sha256": "dd2f5bb20b8737a9b6681b79d7fd47dfa1bb700cb1d03c13ba2fadde64fe40a9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W\u63a5\u5165\u68c0\u67e5.md",
+      "bytes": 4165,
+      "sha256": "595e37a90a329cc7a7a592bd9c5d02d72b8ac158c1f726e88913b4fd7075a4d8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico2W\u6700\u5c0f\u56fa\u4ef6\u6d4b\u8bd5\u7ed3\u679c.md",
+      "bytes": 4641,
+      "sha256": "b3cc67c0d47a66ee2c80679b9258baa0e1ec9c583327b96cf3265b76e1b9e55b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Pico\u76f4\u8fde\u63a5\u53e3\u4e0e\u952e\u9f20\u6392\u67e5.md",
+      "bytes": 3248,
+      "sha256": "30599d11635fc2ed491ec8eecad011f922707d1de449b5fcc9dcc3f9985963ab"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u76f4\u8fde\u534f\u8bae\u8def\u7ebf\u6838\u5bf9.md",
+      "bytes": 4001,
+      "sha256": "791943203971eab6cff8d74e7a5bd9ad1837d827766771f88f6bb12619e1c238"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u7b2c\u4e09\u8f6e\u8bc6\u522b\u8bb0\u5f55.md",
+      "bytes": 2388,
+      "sha256": "f40833110d25d92a6a0d73ee7d9f631b75f35b5c5d69cd37699e263aca79d094"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u7b2c\u4e8c\u8f6e\u8bc6\u522b\u8bb0\u5f55.md",
+      "bytes": 1500,
+      "sha256": "f92849262ef6b90b283c55b62d1c35f02b0b0fae8ce98e572d4b907ed3070f8a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u7b2c\u4e94\u8f6e\u517c\u5bb9\u9a8c\u8bc1\u8bb0\u5f55.md",
+      "bytes": 2837,
+      "sha256": "c19ea8b1f21bd9d7ed602ecd265b3834b0b0f37f1322515e4714b31c6b09a45b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u7b2c\u516d\u8f6e\u8fde\u7eed\u91c7\u96c6\u8bb0\u5f55.md",
+      "bytes": 2918,
+      "sha256": "c5df3947e671987646be1a6491d4df9364129e91369963d72635b2f34b822a76"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u7b2c\u56db\u8f6e\u767b\u8bb0\u8bb0\u5f55.md",
+      "bytes": 2623,
+      "sha256": "50dc2b58f8e35c9f959d01d16831d18c429c0bd39adaf116319da44203c224d6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/Switch2\u9996\u8f6e\u8bc6\u522b\u8bb0\u5f55.md",
+      "bytes": 1553,
+      "sha256": "334ce08cef02646387aa480ca55ee54a6d97e09b164333d184147ff4c6eb6af3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-flash-diagnostic-20261022-154239.json",
+      "bytes": 5589,
+      "sha256": "7c13cfdd5f81f5199769a43c2e4a3d522c0791403d31be714506380958d36089"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-perceptible-profile.json",
+      "bytes": 714,
+      "sha256": "9e5d6d06624ca35e214cb475f8e6249ab7302dd03f199fcfcbe67673e5daea27"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-endpoint.json",
+      "bytes": 77,
+      "sha256": "b292b78132b3d9b58c2df25977729a385827ab2f34a128221e933cfbf56209e7"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-human-feedback.json",
+      "bytes": 227,
+      "sha256": "eb49d9a963119382480bb3a5d738d3cc62b2c6dfa586dbcebca64b1dca88434e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-runtime-tests.json",
+      "bytes": 1282,
+      "sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v040-switch-live-proof.json",
+      "bytes": 1372,
+      "sha256": "69b245be1c81fca1b2d3e618cb695dd5e7a3ae80215b00054f629f8832298c5c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-captured-prompt-simulation.json",
+      "bytes": 407,
+      "sha256": "3793d58f93724f6b6aaf9dd70ecfe7ef3eb875f235508afc8c61b16827cef168"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-human-feedback.json",
+      "bytes": 289,
+      "sha256": "2c3d2a4b9dbe517b0d4b2b1f92d25cd22a591aad9058e3d13a4030394af60a6b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-final-live-proof.json",
+      "bytes": 1431,
+      "sha256": "1600492e4486481f38752a38108f3337b81d83b294c791842b565973da3e3450"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-first-human-feedback.json",
+      "bytes": 351,
+      "sha256": "8507ba63fbbbe37d1b0848d1ab6a9760a804e6087eb38f58d8c5769e437d9ccd"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-original-runtime-tests.json",
+      "bytes": 1282,
+      "sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v041-prompt-tests.json",
+      "bytes": 1376,
+      "sha256": "6074ba57c0444af063e21850994c1865fde5817dcd524747ba6ff7c7c60904eb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-endpoint.json",
+      "bytes": 76,
+      "sha256": "2150b27f3f57b9d8402f41e0dfa904e47c5d586e0294964d54c0c4f2a30e7054"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-input-mapping-tests.json",
+      "bytes": 524,
+      "sha256": "060f97085166c132d1f59e22f17338617ec6d20adafc739620c6a66f8409fbdb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-log-format-tests.json",
+      "bytes": 862,
+      "sha256": "f101682e9672f0b58acdbe86bb0e83e8636f8b5a6031b76690d35f27c2670240"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-prompt-tests.json",
+      "bytes": 1376,
+      "sha256": "6074ba57c0444af063e21850994c1865fde5817dcd524747ba6ff7c7c60904eb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/bridge-v042-runtime-tests.json",
+      "bytes": 1282,
+      "sha256": "6d5997dec20d6602d3355f2762914b7fb93796c5f5295d7b80936c3ac7fad687"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-20261022-160239.json",
+      "bytes": 1597,
+      "sha256": "21f16338442fa3ff94542cfb75148bc1d069dc31ccd57c8292314cd53741da7d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-confirm120-child-20261022-160239.json",
+      "bytes": 485,
+      "sha256": "1099003f74c9c85fe2d1f69baeb8ca92b324e69d517c8bacd93d9c5ef1a934a0"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-155916.json",
+      "bytes": 1591,
+      "sha256": "107b2adb5be1528c8f2537430b43b820523b3eee90f673fd84da89aa4dd618ce"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-20261022-160051.json",
+      "bytes": 1592,
+      "sha256": "fce160869a03141ea17183662e63a659a7fa8d3d641de4d4ab31ee4fdbaa7b81"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-155916.json",
+      "bytes": 482,
+      "sha256": "2df925297e27574d730de1b351065d190822785bbe38304a9fbdfbdd3267087f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-duration-child-20261022-160051.json",
+      "bytes": 484,
+      "sha256": "1f07472b6e0f547d3496c0650d5c0d700199eee96b1070552d57a5a7babc6e1e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-161847.json",
+      "bytes": 1713,
+      "sha256": "fdc44ffe76993aadb1b8b06fd7d65950ba1313122c16e68a0124eb0ade804003"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-20261022-162026.json",
+      "bytes": 1715,
+      "sha256": "e6977adda721e409c14120626cd2bec7a72d16866dffc46c11204fb0e7a673cf"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-161847.json",
+      "bytes": 593,
+      "sha256": "8cf199f779e331f20c38ff0eb29acf9b3c3230c0dbf83d2711505b3fbb006fde"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-single-child-20261022-162026.json",
+      "bytes": 594,
+      "sha256": "ad2ad3846bfb6f5a579fb89f3278569d8761858856ca877285c861fabba99d65"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-20261022-162328.json",
+      "bytes": 1598,
+      "sha256": "050fe90d34002cb8901e3f3b0b56cb1df421faae2e692cd5330ee210258578c6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-calibration-stronger-child-20261022-162328.json",
+      "bytes": 487,
+      "sha256": "0ba183a8cfe09211c097bbc8d9c6bec1290b8b441173eafb19c94816182283ee"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-config-recheck.json",
+      "bytes": 474,
+      "sha256": "62e4075e16664873a74a25a614bce04abeaaa9ac290cf8e0c748e66dd397fbbd"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-tests-20261022-113717.json",
+      "bytes": 4033,
+      "sha256": "1a087e6494bb2732b702d0de9631385133dedc1dad940071b39470a5a55c2495"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-failure-user-feedback.json",
+      "bytes": 555,
+      "sha256": "9ee3308a999b1481f187bcaea35b4a9242408fbcd0e092ac4b5332ffa3a16e90"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152412.json",
+      "bytes": 1344,
+      "sha256": "6289f4f7778d95a0f87b4e91f2f67b86bea8d9f88a856fedb9c4d01917939a01"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152540.json",
+      "bytes": 6267,
+      "sha256": "4f19a90bd517cf9ae0bc5b7b48f469eb6d45fe7cbb68631b3f55f853f2c53b6a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152708.json",
+      "bytes": 1099,
+      "sha256": "5c4a44698673ffd0d4e64f03252522f3f503f5e8b249f9f59fe0bd7cf51473f8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-152943.json",
+      "bytes": 1117,
+      "sha256": "0092c356fa7cebe868df8d8917ec547898bb97df098053b47b412cc7c2b8170c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153139.json",
+      "bytes": 6238,
+      "sha256": "b7e1edc29da45aa72fa9ac6e4bcb07082892c1dde1468c3b21a7059b8ab49d30"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153429.json",
+      "bytes": 6456,
+      "sha256": "7808425828e0efc5d42677288226a6ac0b16ab27be15e9b8e950c6d112a8b58f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-153807.json",
+      "bytes": 1081,
+      "sha256": "46b0fcb7eebbb62b37ec0208ccff9f7a31c1a45ff21238668f797cb049891b25"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-154521.json",
+      "bytes": 31957,
+      "sha256": "239f1ac8a7eae60bbd0c378b33387e7f8920e725e13e7be8edf44c6d8aedd04a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-155010.json",
+      "bytes": 41262,
+      "sha256": "a6361ea5eab8ecbc8fa3783809bce86197d411149a9c175c959dc13bdcdc6bf1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-161338.json",
+      "bytes": 41347,
+      "sha256": "08e0d263247400f2ace2dc950c89a436bb8de63dd58dc3f898fd5ef1e97ad5bb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-20261022-162748.json",
+      "bytes": 41397,
+      "sha256": "a5b4cfb5c2328220617d07a05354cce4bc70833e02a9826117c552c4b35c5a21"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152412.json",
+      "bytes": 415,
+      "sha256": "e71f3f64940b6badd3e9676fb8fe1cf9653d33f23cd9d822235812316ea3f6b5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152540.json",
+      "bytes": 4916,
+      "sha256": "ef3323888e7af64b7b5cb6256699b9e431bb7ae47e161fe936598ded273b3337"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152708.json",
+      "bytes": 194,
+      "sha256": "12d43e06f502bb2d78bd41199059f0128c31745a5d71816a72510de0a9d64042"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-152943.json",
+      "bytes": 215,
+      "sha256": "07d073e41fd70821f55cd527d71beb83ed187704f0f62d05223291b21383cd84"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153139.json",
+      "bytes": 4895,
+      "sha256": "04323e0cdfc3dce43be1f8e0944dd1b013189d4c7da686da6ae36598ee908bc1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153429.json",
+      "bytes": 5113,
+      "sha256": "b55e91426a60fa3306a88dd5131de4935489c6ce18cf5d51faeeeef4b3043b08"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-153807.json",
+      "bytes": 196,
+      "sha256": "b711cf6d3d527f9eee98f6f6c06f2ba5b4af6f5c343b3d4bf546cd157953c27d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-154521.json",
+      "bytes": 28274,
+      "sha256": "bdf0e8c5df1b2e535bdcd52d1ff4235bd7713a519f126d47c1527c425a231793"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-155010.json",
+      "bytes": 36686,
+      "sha256": "3228e0a97c60b699e8ca8a9b7d744876a7ffe2a4547c5e52bb602a902b329b6d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-161338.json",
+      "bytes": 36742,
+      "sha256": "13e5285abd80a5c82d69234454cf294f6bd30e23a115562c191074315bd9cd94"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-live-bench-child-20261022-162748.json",
+      "bytes": 36766,
+      "sha256": "6108f16f35ea9d71a8c55272fb3803ca6cc6f060fb6d57a9596ad9e6eb4603fc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner-hotplug-user-feedback.json",
+      "bytes": 677,
+      "sha256": "247b7a2e0cd412202b24912253b48c473b25017acf9e917edf73892f641b0fc1"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-owner_kill-20261022-114823.json",
+      "bytes": 993,
+      "sha256": "aca4e17dd80e9fce86be0c4d72c81ab0f3cefd36d0b588004f60ae25d1a7458c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-perception-calibration-summary.json",
+      "bytes": 1564,
+      "sha256": "05f7d04b9758e774574f27bd74940fa3d1ebf7bb04f2eb1c396126158b6cc3ce"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-receiver-reconnect.json",
+      "bytes": 869,
+      "sha256": "a94dec0735d67de04f01f60a1a0e60b0c37835e67c42f47dc1bf9a8c4709ed00"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-111745.json",
+      "bytes": 1257,
+      "sha256": "c32ba6c96b1bd5d387e407d50b4e78c0998dcab9ef7fcdc10a86ed234030a3ee"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-disable-20261022-112051.json",
+      "bytes": 1453,
+      "sha256": "91dfc18ab88116f55f155f927565eba93319312070fa332a7b5dacc63b6cdbd5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/flydigi-runtime-exit-validation.json",
+      "bytes": 1057,
+      "sha256": "3e2e85535943a8ca40f1b916430362e14da1c1c1726fc55a027746903aef894d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-install.json",
+      "bytes": 475,
+      "sha256": "b6c55be83671a14154a9c5c04b9345c79051b9da79e91323587e3fec1859736a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151501.json",
+      "bytes": 407,
+      "sha256": "a003a14d31a5548a08d68f1120ecaabb068cf72bce20327e88276607a213e83b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-151740.json",
+      "bytes": 1044,
+      "sha256": "9215d205686caa1769cb00e53df6cc6189faf0bad83c878541dc89e791a7a38a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-152208.json",
+      "bytes": 4281,
+      "sha256": "2146166565117d2a77f4546b5ad2ba598898bf60d082eb3a026c4bc4d07b5503"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153351.json",
+      "bytes": 1551,
+      "sha256": "1de3f195f77fe5fa59840ed50b407161da7b08a2787f99e316aa8a3908b16e48"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v040-raw-test-20261022-153613.json",
+      "bytes": 6412,
+      "sha256": "b8f07222f5e6550c97a3d0089130988f168683138b2d63cd810b354b8bedaadc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-164454.json",
+      "bytes": 6584,
+      "sha256": "6cdd1a024b383f768cd475887d3c3385c92bd14639061c4f60590b197d23cebb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-165112.json",
+      "bytes": 7430,
+      "sha256": "0b8ca4d205fa1dbba6988d97eb096a0c34779e4bf3397fed70b5bd530f9790a4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-bridge-v042-raw-test-20261022-200702.json",
+      "bytes": 25213,
+      "sha256": "e7e64cdb993f33cd3b3df77c9a38c4ffc076095094906e08fce17d1d8b24d568"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-capture-restored.json",
+      "bytes": 173,
+      "sha256": "9e69ffa3d609a67ea7b2ada579aa6753ae09b2057cf1725f3d9a5cc2f5f4a3be"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140320.json",
+      "bytes": 54867,
+      "sha256": "f59638b4162bcc828403578c2e01ea449281e84850786b9d661f9592d355112a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-140937.json",
+      "bytes": 98494,
+      "sha256": "c7b7b53983e9cec4ed96f08ca95ac27ef3ef2622e235d697180cc7534a55fd2b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154058.json",
+      "bytes": 6728,
+      "sha256": "530ad18081612961ee881f6d84990f2c69ac83d9931c6780ac9f726f7f978039"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-154812.json",
+      "bytes": 103422,
+      "sha256": "04eeeca09ad625c79ff3280c456448813e0d55e94d694e57127b291d8c547957"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-155322.json",
+      "bytes": 103420,
+      "sha256": "746b2481c0bbdedad9e5a7da49c6915ce356af4eda57bdcb652120c895cde5dc"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-161720.json",
+      "bytes": 103433,
+      "sha256": "33e213418d2a5fefa3812a475dc530abe8e3d001a5e81b0ddb1344fd3eb1e291"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-capture-20261022-163044.json",
+      "bytes": 103430,
+      "sha256": "c3aea7c5c9d31c4c9c9119f8b3634d6b391f4f798257050cb86a06a237d365ea"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-continuous-format-tests.json",
+      "bytes": 862,
+      "sha256": "f101682e9672f0b58acdbe86bb0e83e8636f8b5a6031b76690d35f27c2670240"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/CMakeLists.txt",
+      "bytes": 1486,
+      "sha256": "b4deb1623af0cbdd3ff065b0f6b81ed5d10d622c914557980c0b8807d23e35b7"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/THIRD_PARTY.md",
+      "bytes": 1020,
+      "sha256": "878d011e8fd59924e32c61b6665412a6ef49254d37d2482a4fd1ddb2d82d5713"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.c",
+      "bytes": 5609,
+      "sha256": "2e741380221bd931e4a3e48ffa33f079341ee6f7721a45ec27e6fe87c2998887"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/bridge_transport.h",
+      "bytes": 284,
+      "sha256": "0574f04b184a385e40030cb872244fb9e862c2153c4f384f77d8b9cd8fd2e67e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.c",
+      "bytes": 4682,
+      "sha256": "ab9e304f66b328e2052874482a8def50df075f0608d14615d9f028479cef6c76"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/capture_journal.h",
+      "bytes": 524,
+      "sha256": "40b8cef8deb4c3a2c50b395362ff1389df8bfcd092bf7b983033924a931da4c4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/lwipopts.h",
+      "bytes": 536,
+      "sha256": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/main.c",
+      "bytes": 12337,
+      "sha256": "a836bca7a543eb7cebc53ddcc4c488359655c2d75134b30d66f4c6487a32ed41"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/pro_report_descriptor.h",
+      "bytes": 1345,
+      "sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/reference-manifest.json",
+      "bytes": 688,
+      "sha256": "44e826673b392c0c096b23ba8e86283dcd5327218137da66eb5e9c6de000eec5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/refs/switch-pico-LICENSE",
+      "bytes": 1097,
+      "sha256": "16be8a162476a4b34a7ddaba384f7d2ad6cbbe5ed710c0a03d8933cf813aee94"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/tusb_config.h",
+      "bytes": 366,
+      "sha256": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/usb_descriptors.c",
+      "bytes": 1561,
+      "sha256": "b367b3dbc615f594b06895384c0103dbf387ce6ab6e5fff7a532232771257865"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.c",
+      "bytes": 1678,
+      "sha256": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v040/virtual_spi.h",
+      "bytes": 158,
+      "sha256": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/CMakeLists.txt",
+      "bytes": 1800,
+      "sha256": "b97f6c9047e0a2043e506b547250cf38338e0ed4644ca9190516184beeff45ff"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/THIRD_PARTY.md",
+      "bytes": 1020,
+      "sha256": "878d011e8fd59924e32c61b6665412a6ef49254d37d2482a4fd1ddb2d82d5713"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.c",
+      "bytes": 9016,
+      "sha256": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/bridge_transport.h",
+      "bytes": 391,
+      "sha256": "ac256c751137255e057eaa94642d449ea1570720b3ae4ae63b5d32a1d3de6ec3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.c",
+      "bytes": 4861,
+      "sha256": "301cd3b63a94fe13fdafd75aa09f2e47b97aa34f66fb33bfa7dfa89d5f26111a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/capture_journal.h",
+      "bytes": 571,
+      "sha256": "4cdc5f65c416c50d7997837f21672f75ebaa58efc8917e686f84c4a08e64ad57"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/lwipopts.h",
+      "bytes": 536,
+      "sha256": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/main.c",
+      "bytes": 13276,
+      "sha256": "bf25194b7ba5810173b1983e16151226470a16569969651dbf71be75b95eb8f6"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/pro_report_descriptor.h",
+      "bytes": 1345,
+      "sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/reference-manifest.json",
+      "bytes": 688,
+      "sha256": "44e826673b392c0c096b23ba8e86283dcd5327218137da66eb5e9c6de000eec5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/refs/switch-pico-LICENSE",
+      "bytes": 1097,
+      "sha256": "16be8a162476a4b34a7ddaba384f7d2ad6cbbe5ed710c0a03d8933cf813aee94"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/tusb_config.h",
+      "bytes": 366,
+      "sha256": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/usb_descriptors.c",
+      "bytes": 1561,
+      "sha256": "8bb0b9e5f3d1d446a0642052682bccb3f547b588a3c42d1d99afe59d69b4fdef"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.c",
+      "bytes": 1678,
+      "sha256": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v042/virtual_spi.h",
+      "bytes": 158,
+      "sha256": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/CMakeLists.txt",
+      "bytes": 2186,
+      "sha256": "79902a0e27ff81dc3992133b02d0a54406d912278b32f14ca51f5b61668a7552"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.c",
+      "bytes": 9016,
+      "sha256": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.h",
+      "bytes": 391,
+      "sha256": "ac256c751137255e057eaa94642d449ea1570720b3ae4ae63b5d32a1d3de6ec3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.c",
+      "bytes": 5100,
+      "sha256": "0be846bc5c6c98a91690a8e654fb23376866e224315fec1c3eda65f20ed95c2b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.h",
+      "bytes": 677,
+      "sha256": "ab5a7c683fdee91c4c528aa9eabcde1fd390d0019e99926312a050d76e8a5062"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/lwipopts.h",
+      "bytes": 536,
+      "sha256": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/main.c",
+      "bytes": 15590,
+      "sha256": "5b49115be3cc49c41680a392f58a47598a8793f882e82eefc388e175c7da2cff"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/pro_report_descriptor.h",
+      "bytes": 1345,
+      "sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/session_policy.h",
+      "bytes": 380,
+      "sha256": "aaaee19aa7f3bc225df20b2f28f3139bfefd3395c3ac6443ce43a0c0be13d71e"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/tusb_config.h",
+      "bytes": 366,
+      "sha256": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/usb_descriptors.c",
+      "bytes": 1561,
+      "sha256": "20b6039d609e13c0c650cf9000a5b5abeb986ff664c8be0bd8ab1456818aa008"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.c",
+      "bytes": 1678,
+      "sha256": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.h",
+      "bytes": 158,
+      "sha256": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-restored.json",
+      "bytes": 198,
+      "sha256": "36e7f00a29c3b52b5b80f41eebbb4b64dc96c2afe6b2f5207a298369d38a6d45"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-hotspot-status.json",
+      "bytes": 363,
+      "sha256": "cf94d32c1d563b4b4a8dc66f49c5416f77cf6e509b120709e896bc1e1b4b88dd"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pre-capture-backup.json",
+      "bytes": 472,
+      "sha256": "6474e68626a9a365a72b97e13f3f11c81a3690dbedf3d5471d4f7c0464d18be4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/CMakeLists.txt",
+      "bytes": 1429,
+      "sha256": "b285f1722b49d9853b8f0d034012781140532b653f05fcac48a37e2bd8caaa7d"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/README.md",
+      "bytes": 3467,
+      "sha256": "012e70c1d84fde5d085cb335da2bbc60369cd52afcf720191221f79323bcd679"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/THIRD_PARTY.md",
+      "bytes": 1020,
+      "sha256": "878d011e8fd59924e32c61b6665412a6ef49254d37d2482a4fd1ddb2d82d5713"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.c",
+      "bytes": 4682,
+      "sha256": "ab9e304f66b328e2052874482a8def50df075f0608d14615d9f028479cef6c76"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/capture_journal.h",
+      "bytes": 524,
+      "sha256": "40b8cef8deb4c3a2c50b395362ff1389df8bfcd092bf7b983033924a931da4c4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/main.c",
+      "bytes": 11498,
+      "sha256": "ebf33b7312409bfcf86c003c436079a1c10cfedb8c4261039f51fc9ff311963b"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/pro_report_descriptor.h",
+      "bytes": 1345,
+      "sha256": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/reference-manifest.json",
+      "bytes": 688,
+      "sha256": "44e826673b392c0c096b23ba8e86283dcd5327218137da66eb5e9c6de000eec5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/refs/switch-pico-LICENSE",
+      "bytes": 1097,
+      "sha256": "16be8a162476a4b34a7ddaba384f7d2ad6cbbe5ed710c0a03d8933cf813aee94"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/tusb_config.h",
+      "bytes": 366,
+      "sha256": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/usb_descriptors.c",
+      "bytes": 1464,
+      "sha256": "f040827d71cea5e20a721a848253230fea92de6373dcf0000fba248808152bde"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.c",
+      "bytes": 1678,
+      "sha256": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/pico-pro-capture-v035/virtual_spi.h",
+      "bytes": 158,
+      "sha256": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch-hd-decode-tests.json",
+      "bytes": 915,
+      "sha256": "cbb4159b8b5f7bbeadc8ee297fad438819082b983a8ea04cedc8ac7cd339d8e3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan-proof.json",
+      "bytes": 351,
+      "sha256": "b8abed5974a4e8b6aa5332271d20f65b95d92abc960a161a8c85d033835c1bb8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-captured-replay-plan.json",
+      "bytes": 7567,
+      "sha256": "498b6566da8dc4a8922438a06f531f84cb0065e2ee30bafc5c03f778cb0cc2b3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-first-capture-analysis.json",
+      "bytes": 529,
+      "sha256": "06ef2e90ea654d08d313b1ad5b8821c883e7eb7b6f5facb27552384cc98621b9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-analysis.json",
+      "bytes": 5170,
+      "sha256": "20531dd985536cb404b8ebb90b87a09e3ef849b30bc96a367044bade7ade8ee9"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-registration-hd-decoded.json",
+      "bytes": 20365,
+      "sha256": "eb3d4a83e79ea2c9c4ca7ae3e2213148b4a9564b3656648512333067e4a00e9a"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-rumble-retained-samples.json",
+      "bytes": 3282,
+      "sha256": "d1f247620179724562e904e0d13ff3765918d75562fd83ae94642bd5da678768"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-analysis.json",
+      "bytes": 1332,
+      "sha256": "c1adf7105b6bf8a16b17dfdbedec6da5c58826752b3cae02a65004823d183a43"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v034-hd-decoded.json",
+      "bytes": 18204,
+      "sha256": "d1b16e8873ff5b93329447084ecf2015f50b2819a61b1a024233cebc020e2221"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded-samples.json",
+      "bytes": 62942,
+      "sha256": "931f1fa882e4816201f8baafc9e30ab083f017398acf41849ffa6a7d6f82dcf5"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/switch2-v035-continuous-decoded.json",
+      "bytes": 819,
+      "sha256": "9a660a2300b13156418683c0845089318c54699d749473851195175848ea5fd8"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/xinput-source-confirmation-20261022-165449.json",
+      "bytes": 160,
+      "sha256": "89f0e6fc84a4f1953243f61d6cd82c6c08e2af5480902d2ee10ba94d390aeb6f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/xinput-source-confirmation-20261022-200101.json",
+      "bytes": 175,
+      "sha256": "a41ccac73f9c0dcee4232a10c0addd49307e2ac18c03ce7c881c777c980befcf"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u53d7\u9650\u56de\u653e\u4e0e\u65e0\u7ebf\u94fe\u8def\u9996\u6d4b.md",
+      "bytes": 4992,
+      "sha256": "d8ffd4ed4cd1d9282d41b7ed396ae1874a21740815842e2257948fe694aa4bde"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u53ef\u611f\u77e5\u63d0\u793a\u6a21\u5f0f\u4e3b\u673a\u590d\u6d4b.md",
+      "bytes": 4407,
+      "sha256": "f30b89e5c4b382c382ce27b8bfa3460f9ebd0ef7c28a27865610e0176e30f238"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u5b9e\u65f6\u6865\u63a5v040\u9a8c\u8bc1\u8bb0\u5f55.md",
+      "bytes": 5962,
+      "sha256": "862fca614ec8924a7fdd961297acfa6f3c0666fa6d6cf0a8f8eb2f468e09fadb"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u6e38\u620f\u77ed\u6d4b\u6682\u505c\u4ea4\u63a5.md",
+      "bytes": 3706,
+      "sha256": "2623076cdd8fd3d034741096f0fa50c81eb1a662cdff54d4e62e3b7b959a5cb3"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u77ed\u9707\u52a8\u4f53\u611f\u6821\u51c6\u8bb0\u5f55.md",
+      "bytes": 2454,
+      "sha256": "92ddd42ca594fd9448efc833527c239a1ae24bac2dfd50e33ba820defd3b532f"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u9879\u76ee\u8fdb\u5ea6.md",
+      "bytes": 4872,
+      "sha256": "d1a9687fc64f1db5628e820a3d500e169fedb59ba18bc7a24f771851775ca5b2"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667aEngine\u626b\u63cf\u5206\u6790.md",
+      "bytes": 6725,
+      "sha256": "4ceebfd9ad8efe7a4f9cb0566f2469201b5812c46602887d8886322599599206"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667a\u5b9e\u65f6\u901a\u9053\u9000\u51fa\u9a8c\u8bc1\u7ed3\u679c.md",
+      "bytes": 4478,
+      "sha256": "376e14f320406a99a34c7afabdb93d8159cc41bff99fd9e067bd37ef10e75d87"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667a\u5de6\u53f3\u72ec\u7acb\u4e0e\u9891\u7387\u5dee\u5f02\u9a8c\u8bc1.md",
+      "bytes": 4292,
+      "sha256": "29bd97f5bca0ca7eac8e04ac46e91128d0fdc78109d14df073e9effaf58acede"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667a\u624b\u67c4\u53ea\u8bfb\u68c0\u67e5\u7ed3\u679c.md",
+      "bytes": 2881,
+      "sha256": "50f0a2f4143244a279376219da43b7f594c29c3162493189d1c69155da500aba"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667a\u6545\u969c\u505c\u6b62\u4e0e\u63a5\u6536\u5668\u91cd\u8fde\u9a8c\u8bc1.md",
+      "bytes": 7340,
+      "sha256": "5c4888c8b31c7ac584cc8aec21b3f8e38c65031736b8cf3b7b2356787b06f417"
+    },
+    {
+      "path": "handoff/2026-10-22/outputs/\u98de\u667a\u6ce2\u5f62\u9996\u6d4b\u4e0e\u914d\u7f6e\u5907\u4efd\u7ed3\u679c.md",
+      "bytes": 4462,
+      "sha256": "8cdf8174dc6d14800feb3bff51f592838cf2059d22b6c7f8b81339a4ce21468c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-continuous-rumble.py",
+      "bytes": 2173,
+      "sha256": "dcfd92b931c92a1def5f0a435840d613cbe7459e35e5e0d7ba9dad385e5bb992"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-registration.py",
+      "bytes": 2598,
+      "sha256": "1519a502334298acc90053cdbd551e28470356771285474be2749183deb5d05a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-pico-v034.py",
+      "bytes": 1887,
+      "sha256": "570ff7377ea988d7ad2627d931e0a1839d0d63a848a618109beefc79b46f3e2d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/analyze-prompt-live.py",
+      "bytes": 2970,
+      "sha256": "f9f252285f28a4bca203699d3b3c87ffb8ffc3ddf430394698d3a15e06f787aa"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge-switch-live.py",
+      "bytes": 16013,
+      "sha256": "2ca96647935dd5e17f3fb9da486df6b3453b19f6517e6892c34f7e2bc12d593d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_credentials.example.h",
+      "bytes": 335,
+      "sha256": "9a1cf077b3534509036c485406675efb9dbf4b513359b5a731182b2ce8cb2bfa"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_game_phase.py",
+      "bytes": 467,
+      "sha256": "b911a0f7aaafa63db518f70992d853d54aaa5841e03049a41e37b65cc93a7f45"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_input.py",
+      "bytes": 1145,
+      "sha256": "9411e651310d5c1fd859567e9a9a32a1388745b1c295e4fdceecbe91c57d6043"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_network.py",
+      "bytes": 1156,
+      "sha256": "90e4546cd1dc10302ac2d959f29cfc71f0f2c59966314da195e9fa366a2aa314"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_process.py",
+      "bytes": 3554,
+      "sha256": "31342548ecf8c936189450ec44d3c984cb95026812c990feb02707bdc478ece6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_protocol.py",
+      "bytes": 1344,
+      "sha256": "205a0ce765f8f40aee0264917c05b6ff8ef1048a80e0af36e344e740a9011176"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_render.py",
+      "bytes": 9107,
+      "sha256": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_retry_socket.py",
+      "bytes": 1386,
+      "sha256": "629252f4691b19dba3141e4cee7a7b5c5c6c3792ab0dc0a015cded847e5b9d71"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_runtime.py",
+      "bytes": 373,
+      "sha256": "add50ac6bab31a8da548a9c3c99b04bc1b6e7d73059c92d8cf3921878e297822"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_session_policy.py",
+      "bytes": 629,
+      "sha256": "a139db3238eff01876d4144bc051b2f8d2bebcb39bd107f1e40f7ea0fbacfa9c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_transport.py",
+      "bytes": 3574,
+      "sha256": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_windows.py",
+      "bytes": 2061,
+      "sha256": "cdb045456d4dde9e9ff9d24279003b82c979b2aed1b4cd0ea6a65f9b71dfb924"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v040.ps1",
+      "bytes": 2115,
+      "sha256": "48b48413ed6401354d6af4ec9307be3ec66e6bc650035e71865f4403c6c41cd4"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-haptics-bridge-v042.ps1",
+      "bytes": 2115,
+      "sha256": "5abdb4f390fb3fc85fc322702308039a1360c6c3e5ca313d92e4255946a3f5b0"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v031.ps1",
+      "bytes": 2045,
+      "sha256": "273a3114494da7f11256a0598ccba24b3382965aa3416351ccd1db84fa5d06e6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v032.ps1",
+      "bytes": 2045,
+      "sha256": "f955ec861c3a1954469491b2b0c0d1d7e51ee9e664f69271f93ffaa97abd89af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v033.ps1",
+      "bytes": 2045,
+      "sha256": "a868278b6baf7742ae06e140ba26af05d43a1542818bb44b80fdb0610fd3c6fc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v034.ps1",
+      "bytes": 2045,
+      "sha256": "47d982634ccc8728aef8a8a4298e4edb5ad25826c86f5acf93065dc83eb2c677"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture-v035.ps1",
+      "bytes": 2050,
+      "sha256": "75cfe5e6ac7842848c80d2a8fd070c2f34ce47ffd2d8d9c8ca8595d95342e9a9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-capture.ps1",
+      "bytes": 2030,
+      "sha256": "8b21a70d59d1388bc30ca58abc45a1a58146719c3adc218af2318a8163b39952"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-pro-neutral.ps1",
+      "bytes": 1823,
+      "sha256": "5c0d9756a23663972a367d0ac0c00564dc786b013c06aa5535ef0ba63507f099"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-protocol-lab.ps1",
+      "bytes": 1610,
+      "sha256": "32e0eb14df3964ba3709c489237d55de9464f7f34059f6cfefceb6667517301e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-smoke.ps1",
+      "bytes": 2235,
+      "sha256": "d88501a94a891080ebee4081138186762a0dce6be00edef41805b8019c3461eb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-probe.ps1",
+      "bytes": 1654,
+      "sha256": "c997e894bf5ca5dadf3da4851ab08b2bcc9f9f98e1a7abcbcda4cca1e4826c1f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/build-pico-wifi-udp.ps1",
+      "bytes": 1640,
+      "sha256": "abf028cbd4960fd3d210d9a316476086b93471c720d1247bb346f22ffe801d08"
+    },
+    {
+      "path": "handoff/2026-10-22/work/capture-pico-usb.ps1",
+      "bytes": 2237,
+      "sha256": "63359f1298e336d4bfd0e6359dfcaf65da56564766a8a500edd8a6b98a5142ee"
+    },
+    {
+      "path": "handoff/2026-10-22/work/confirm-xinput-source.py",
+      "bytes": 1233,
+      "sha256": "7f92c178cf14aad9669b34c33861e3fafc2d99bb1767411c23cbe23a0f282968"
+    },
+    {
+      "path": "handoff/2026-10-22/work/diagnose-bridge-flash.py",
+      "bytes": 2336,
+      "sha256": "0107cf63797127f4bc0da4cc83caa5d4319c53dbc53d8d0fd9d562720a4ee1cc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/enter-pico-bootsel.ps1",
+      "bytes": 984,
+      "sha256": "bd1138404b4bf9fcbfff68a557ee74602ecbafb398850fcccf4f2b1e9c7bc000"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-capture-flash.py",
+      "bytes": 1986,
+      "sha256": "c78c994f4cac8ffc0c5b0197be72fb942dd4c5d1374c080a7522bdde35ffe1df"
+    },
+    {
+      "path": "handoff/2026-10-22/work/exercise-pico-continuous-flash.py",
+      "bytes": 1718,
+      "sha256": "cde2909e9ed67f8e46c66324d82ad10f828d235d8d250e5af53646aff35a3a3c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-captured-replay.py",
+      "bytes": 5190,
+      "sha256": "b6cff289e0717bda61a1adc73fdefed5f861cb7b93baa6833e9518b23a5e234e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-failure-tests.py",
+      "bytes": 9728,
+      "sha256": "c5c9f696fbb6ab37e74f8c21c6f2a801d5ec283834117078d55bb0f77b3fc387"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-live-bridge-bench.py",
+      "bytes": 9118,
+      "sha256": "8a713da374a3aa046fc9487b15306fdef9ea60fa5cfece026b56b782fddc209b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-monitor-reconnect.py",
+      "bytes": 3685,
+      "sha256": "ef6ffce77ca403de55ac96cc18c0b31bdeb78028978283772185b39accb2ba74"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-native-rumble-pulse.py",
+      "bytes": 979,
+      "sha256": "930d1e85f877b2646d6903c2276756b61b15e899296592fca938fcc7c9caec9e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "bytes": 9858,
+      "sha256": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-perception-calibration.py",
+      "bytes": 6788,
+      "sha256": "26375826b4076e8c5f3bcc78cc05adc9abcd2d4101845538bb787379e225fe19"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "bytes": 9562,
+      "sha256": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "bytes": 16584,
+      "sha256": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-backup.py",
+      "bytes": 1770,
+      "sha256": "d7de31a1ffa50623374ba9c91882d89a816cfb42265bfa2024e1dce8a0337dc7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-verify-runtime-disable.py",
+      "bytes": 5675,
+      "sha256": "8434ee8247755623d0c96d8e5130b5329b0d4221e165229d992b9d570d61e98e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-xinput.py",
+      "bytes": 1845,
+      "sha256": "1cbf2ec2fb05703683d15d50bde0aa4e08dd80f8d52d1284f3575f335934313e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-bridge-v040.ps1",
+      "bytes": 2336,
+      "sha256": "8c48c39b252b67ca8eca954baf7c3d48c3473f5d4117802f801c14ee6a872dd4"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v031.ps1",
+      "bytes": 2295,
+      "sha256": "cf63318be88aa41bfefdeafe992c404de586ff8e2eab56b42a347f346f1f7a46"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v032.ps1",
+      "bytes": 2297,
+      "sha256": "717f5a78a2d3885f35ac9de0263cb098b5622168d6c40bb5ba53b94ab0e9c5cc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v033.ps1",
+      "bytes": 2299,
+      "sha256": "a5f2152d16c9bf2fe80b56ef71b259e4bd9ae4f01b1ff52beb568b8fd6375deb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v034.ps1",
+      "bytes": 2301,
+      "sha256": "8b46421dd60d4fa1663ad28e3f9c77676eafffe625ed3cc13a3f0048869a7ec2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture-v035.ps1",
+      "bytes": 2516,
+      "sha256": "6dc5cfe19910d0364edfa27f0898256baf95d1b781565c4b577f289616e06cfc"
+    },
+    {
+      "path": "handoff/2026-10-22/work/install-pico-capture.ps1",
+      "bytes": 2285,
+      "sha256": "721d45fcb8f8ef067896ec381ffa58ddd1fb2d936e95a3254e0e1314937f5bde"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico-hotspot.ps1",
+      "bytes": 5952,
+      "sha256": "2732fb7d4bec49b5aa3e91908ccf6922dd3ff9d905251516ea462b2297bb673b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_capture_log.py",
+      "bytes": 3329,
+      "sha256": "0352a5b93e58e1e869ddd13c12532db7e9edf8927908d03c211c1d37ec5463c1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/pico_continuous_log.py",
+      "bytes": 4408,
+      "sha256": "9185c5bd4b812746e89913f0845ddeb28d827f5d917326158750bacd68260682"
+    },
+    {
+      "path": "handoff/2026-10-22/work/prepare-pico-build.ps1",
+      "bytes": 2090,
+      "sha256": "7e8f77af0195255108d7ad993adb1e60a74102d486f51f6ff7f9ede2353f3a9b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/probe-pico-wifi.ps1",
+      "bytes": 2355,
+      "sha256": "5822ae598dd5c102e3c8d133401bbf152e6efb4324a667de71ea52a4879632ff"
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-capture.ps1",
+      "bytes": 1053,
+      "sha256": "e8e4c1ad499993d2e33e14bde54b995803234ac1ea78e667ae7029bae1e435b8"
+    },
+    {
+      "path": "handoff/2026-10-22/work/read-pico-continuous.ps1",
+      "bytes": 1058,
+      "sha256": "130564424083e2702fcf6d0ff520376f9c1fe1fcb971a6c004d2d0a83e637253"
+    },
+    {
+      "path": "handoff/2026-10-22/work/references/missioncontrol-LICENSE",
+      "bytes": 18431,
+      "sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/replay-bridge-prompt-capture.py",
+      "bytes": 1558,
+      "sha256": "dcdaac24efb1291916cff56f813984c023e1605583e7442b488246fd8306561b"
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-hotspot.ps1",
+      "bytes": 3985,
+      "sha256": "428a98da808e53648b0e30244fcc5448000678222c5c6649ac44f84ae644ea2f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/restore-pico-pre-capture.ps1",
+      "bytes": 1721,
+      "sha256": "aed6f43fc51a6420f4a5e4cab3d8b41dcd94fd51fc8de8845813507608a45079"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v040-raw.ps1",
+      "bytes": 897,
+      "sha256": "305bfb101d3eef93aa66088351e56a0e3573df7f650858cc062d84160af5f7c1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-bridge-v042-raw.ps1",
+      "bytes": 897,
+      "sha256": "d6fe1a450adbbc72dbaf0d28e7d544188b6a5b14854b06d687c8f8a34f98bde4"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-pro-neutral.ps1",
+      "bytes": 1922,
+      "sha256": "fea3d81ce16005f99210df65c0ca747c55e4e3dcdb5006a93b62da5e74569f18"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-probe.ps1",
+      "bytes": 2573,
+      "sha256": "37c80a62edb45fe77034597373f50965a538c9d065a61fac0af11ae60c37b101"
+    },
+    {
+      "path": "handoff/2026-10-22/work/run-pico-wifi-udp.ps1",
+      "bytes": 3660,
+      "sha256": "75d59b4d6f298597748f482f02cadddb858d03b4c090272730cb8de49c9ff4a5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "bytes": 5377,
+      "sha256": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-adapters.py",
+      "bytes": 3667,
+      "sha256": "ef9b626192fc487db54dfd96caca28fcc136742428251ed7b1ed81a6182e6d99"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-capture-replay.py",
+      "bytes": 2404,
+      "sha256": "ef69094bc7c2233fec2e98057ee21dbf5309be6f7b8d35267fa319c623cc8a47"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-end.py",
+      "bytes": 7990,
+      "sha256": "1dea5d6e2eb227aec917930750caa572f862710b70f800d8be0f693736dd963a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-game-pilot.py",
+      "bytes": 5397,
+      "sha256": "775fa9090ffa89baad658b947ba93c04896da7500e111a709311d63b14ccf00a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-input.py",
+      "bytes": 1028,
+      "sha256": "b97ed29d47ddd170bb9dbe24d67a1ce71daae382275915e392b0615ef6e04388"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-platform.py",
+      "bytes": 4100,
+      "sha256": "1117bd6be58ec91f85f72eb89aced6433078d661dd8f43a9caa659fb5b3e81b1"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-prompt.py",
+      "bytes": 3586,
+      "sha256": "fcbb48a4deacb675a235c53c8c156012bdc1cd89a10a6258f77f7590678c4fe2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-bridge-runtime.py",
+      "bytes": 2955,
+      "sha256": "7195f090a806901f8e1235d79168d262e1be19f04ef87d0cd0c74f60883b0742"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-capture-corpus.py",
+      "bytes": 3785,
+      "sha256": "ca5017059b7e9d48307bbba8aa8e74ea4b0d68b145c0c7dcf20ad52d88e4a7ae"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v040.py",
+      "bytes": 5828,
+      "sha256": "6e3ccd0ee95b43f651450ca18e8f4fed79b080bd520936c65974a3c27a3b93e7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-bridge-v042.py",
+      "bytes": 8213,
+      "sha256": "9d52fef40c1d6a75e9020264d9a2dcebdec160106f57087aa46a1febbcdc46fb"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-format.py",
+      "bytes": 1627,
+      "sha256": "94f9a1cd233e88d815002ffe168baeb0599f2f020ab2ffe490992aaa2ff58630"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-ram.py",
+      "bytes": 10592,
+      "sha256": "2f9e48db543dc56abaa1b0f139c375e3fc2c7b376f55068ab250bb24eb3f1ec2"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v031-ram.py",
+      "bytes": 10779,
+      "sha256": "2b2cfc825e6c4a8860e8e4f00d0a52d2f432b0bbbc50bee99335efa70acbf143"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v032-ram.py",
+      "bytes": 12312,
+      "sha256": "19c9384bf3dadcffe4e20ee01451b91af4e6816776af9c43216c2e7fe1c2dd4d"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v033-ram.py",
+      "bytes": 14039,
+      "sha256": "e9a3c4257ff7d30703a279428e835bd516614a2b13929899c99d1d78c116b335"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v034-ram.py",
+      "bytes": 14536,
+      "sha256": "8078511d5e2a469256316691ca52690e5117419b8ca062eb11d11a33fb3cad5c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-capture-v035-ram.py",
+      "bytes": 16141,
+      "sha256": "aa8a81af6ab7d4af02608473317c7534771eef7892e373ab1ea21cd65d5b2c39"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-continuous-format.py",
+      "bytes": 2565,
+      "sha256": "e092247e6246d56160d573f81697bd053e8888740bab94b402b426808d5cb5f7"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-native.ps1",
+      "bytes": 2959,
+      "sha256": "1912f7df6c30dfdfbb7ce07af835bc33b22f9bfed5a256b9ff0c591154f6dd2a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-pro-neutral.py",
+      "bytes": 9576,
+      "sha256": "469daa8ef6b0d94e52f11499ff930020ca8208c5515ddd920e3aa2c0bd736868"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-protocol-lab.py",
+      "bytes": 6314,
+      "sha256": "0e92a707d50bcb921a0caa208b5152951abc50bbd5455f00ed30df1d049b6aa8"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-repl.ps1",
+      "bytes": 1846,
+      "sha256": "d15af0d11a6aa6b4e238f27b67ea07d93c679f3b9845baf3af6e4bc8c284e48a"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-v033-cancel.py",
+      "bytes": 2129,
+      "sha256": "ce83936e801a14ebdc25ab472e83c8ad51e0b7cbb596c048e5fcce3dc0d87bb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-pico-wifi-udp.py",
+      "bytes": 3213,
+      "sha256": "330d2fbfd0b10d69569bf402eae67db43b95862f011b9654dfe03a566741a12f"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-runtime-disable.py",
+      "bytes": 1372,
+      "sha256": "a7c0ce3bf350fc5b514b7e32efb5790d81d9ec5de3358c87726a277e0ab06d19"
+    },
+    {
+      "path": "handoff/2026-10-22/work/test-switch-hd-decode.py",
+      "bytes": 2390,
+      "sha256": "bd1d85a1d9c91ca0be180dd035d298a470aa5aff7a1c1c57e07622c0899c1c61"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-image.py",
+      "bytes": 2646,
+      "sha256": "ea7ae148818009bae1692c11543919c4d628db7e8bf33b32ece1750fbea0cdcd"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-capture-v035-image.py",
+      "bytes": 2690,
+      "sha256": "adc5048eaf8dccf2a5be8084841b69e887e3afd41e4813b36d2e44f32f7a893c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-live-bridge-capture.py",
+      "bytes": 2636,
+      "sha256": "192bbf8d28b0e3a4c87e74cd870b95a711dc528b2b791eb139919bc92d781937"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-pico-v035-flash-test.py",
+      "bytes": 1589,
+      "sha256": "cf6397baeddaecccd50bcffd987ae7288bf85529a3e79fb103e174842230d5b5"
+    },
+    {
+      "path": "handoff/2026-10-22/work/verify-ram-uf2.py",
+      "bytes": 902,
+      "sha256": "361a1ae48cd0f90d60b582b6661ae524b9525e7a561ae2d6f2a011311481af41"
+    },
+    {
+      "path": "handoff/2026-10-22/work/xinput_readonly.py",
+      "bytes": 823,
+      "sha256": "eedb45a79810fa17ddef157c434bde6c05c682021dcfccad62b3180c20185114"
+    },
+    {
+      "path": "tools/assess_v042_input_recheck.py",
+      "bytes": 2602,
+      "sha256": "eccac8f078f7a0144e59a6fca6fd1b266fe856570cf99eec366dfa96cd5de1d6"
+    },
+    {
+      "path": "tools/assess_v042_muted_recheck.py",
+      "bytes": 2684,
+      "sha256": "a7390aedd5bce039a148df980ecf19fa16b4c350e36cd003d277367a419dace1"
+    },
+    {
+      "path": "tools/assess_v042_staged_game.py",
+      "bytes": 3906,
+      "sha256": "ecd5ad50d5feee390a07e592f102b8c5fa90e64e410afc55e70521217233bfe3"
+    },
+    {
+      "path": "tools/assess_v043_host.py",
+      "bytes": 4284,
+      "sha256": "285ddf2bf722bfa3258c47f3a73d2ab915b771872d9ad2e54544e237f08baff3"
+    },
+    {
+      "path": "tools/assess_v043_ram_diagnostics.py",
+      "bytes": 3127,
+      "sha256": "0f58ca2ab53c1920faf24c1d32ace2374ed8c93bbd42b050277e56eb12229d1e"
+    },
+    {
+      "path": "tools/assess_v043_staged_game.py",
+      "bytes": 5402,
+      "sha256": "0fa1bb9568b59053b73bdcc527e95bc98db2c9deed612c8573365dbfb33715ee"
+    },
+    {
+      "path": "tools/backup_before_v042.ps1",
+      "bytes": 1841,
+      "sha256": "6580ec51e0ce8204303c9018d9fe47804d3f23ec0b3f70b73995da080888f7f2"
+    },
+    {
+      "path": "tools/build_pico_snapshot.py",
+      "bytes": 3350,
+      "sha256": "aba64fd006cde08ad3a06d91030a4726782f70b8f44d36f78ad00923c6b713a0"
+    },
+    {
+      "path": "tools/build_windows_tablet_ram.ps1",
+      "bytes": 1777,
+      "sha256": "f32fc60859fe086f145242df85401047c1023cabdd415dec33ede8cf961f209a"
+    },
+    {
+      "path": "tools/check_windows_timing_clock.py",
+      "bytes": 1244,
+      "sha256": "cb41800f44fd3c47a199c9def8f0cf51cc3d784a5e05e12eb6e5f93f0c213798"
+    },
+    {
+      "path": "tools/collect_v043_host.py",
+      "bytes": 3141,
+      "sha256": "a34ac75b4a2040ff6ae9477a2b8125f0e65d0ebc66833a82e11b805b242f9c2e"
+    },
+    {
+      "path": "tools/configure_tablet_network.ps1",
+      "bytes": 5854,
+      "sha256": "b0dfed06403de198559555fcb3db216e0e48f6e9ca231a491908e8b9b56853c2"
+    },
+    {
+      "path": "tools/freeze_staged_game_baseline.py",
+      "bytes": 5212,
+      "sha256": "d759f650b1f1df8f4a8452e1ea021981f459e786b02d9f45ea19377f31338ab3"
+    },
+    {
+      "path": "tools/freeze_v043_game_baseline.py",
+      "bytes": 8595,
+      "sha256": "eb0a65bb70166ba5d6dbb7d2eabd00f4bad53d9cd27688cc9e9baacff05954bc"
+    },
+    {
+      "path": "tools/game_arm_window.py",
+      "bytes": 2173,
+      "sha256": "189fab4f321a51f21fcb0b2e102165594f786b4a43793cec4e4bc232a1922714"
+    },
+    {
+      "path": "tools/input_timing.py",
+      "bytes": 709,
+      "sha256": "0801fa93dfb4cd96c1e763a39b68d6c44f8391e8484d994fc1879ed024fe0d7f"
+    },
+    {
+      "path": "tools/input_timing_window.py",
+      "bytes": 2097,
+      "sha256": "e3d070f739ed8b648e73b62ce541e108e16cde715b8e81673955767d4eb01785"
+    },
+    {
+      "path": "tools/install_legacy_rollback.ps1",
+      "bytes": 2295,
+      "sha256": "7419a2381eac0efa543f28e91a5e5e200d36b69c66beca22a73602036ea40fda"
+    },
+    {
+      "path": "tools/install_v042_flash.ps1",
+      "bytes": 2362,
+      "sha256": "3d81a29e790cc0f68da3be17c20ad02b003fac5d02d2d385cd0df57055ad8ded"
+    },
+    {
+      "path": "tools/install_v043_flash.py",
+      "bytes": 4445,
+      "sha256": "1298ae9dfec6d98ddd78ab64151554b342dd05a0649179c1748c6bf3ad48660c"
+    },
+    {
+      "path": "tools/make_v043_game_prerequisite.py",
+      "bytes": 1040,
+      "sha256": "ffd578f4ec8f4a05503a2a954302150aadb6bf9512ab32552915aab78b7328c9"
+    },
+    {
+      "path": "tools/pico_v043_probe.py",
+      "bytes": 2524,
+      "sha256": "4c409829917b0ead6132f9e0bc7380e7c5c5253797ec6efb7a84939a492bdc9c"
+    },
+    {
+      "path": "tools/prepare_legacy_rollback.py",
+      "bytes": 3167,
+      "sha256": "077c07bd17407f0d61191a2901e217ea8dd60128df876c360f5c9b123525083c"
+    },
+    {
+      "path": "tools/prepare_windows_ram_recheck.ps1",
+      "bytes": 1217,
+      "sha256": "0a859b32bc8750badec636a75f54309cf37315d6a531150d1711fd6e07827277"
+    },
+    {
+      "path": "tools/read_hotspot_state.ps1",
+      "bytes": 1067,
+      "sha256": "29b7b9d97bd1e3102a160d55a984a3035f5f80f8d4b5ab92907d9db7a2b55114"
+    },
+    {
+      "path": "tools/refresh_v043_preflight.py",
+      "bytes": 2724,
+      "sha256": "5034e7c3ff0437b2622bc5f5af43d2f69a8a9503975aa978bc14e879a8d303d3"
+    },
+    {
+      "path": "tools/report_extended_window_build.py",
+      "bytes": 3371,
+      "sha256": "30d7cd474ac3f22e4ff3b49840f2ed1d9c05e9a8f3656d05af1e5a64af7c1247"
+    },
+    {
+      "path": "tools/run_legacy_prompt_recheck.py",
+      "bytes": 2858,
+      "sha256": "b27a1127a3731e63376e04899cf8c2e54298295b94bd43c9a07ffe31216133a9"
+    },
+    {
+      "path": "tools/run_offline_checks.py",
+      "bytes": 4886,
+      "sha256": "e80142ccc9fd01849b33fb6a828028a20b6a7ba94a57aed240fc4173048c2d84"
+    },
+    {
+      "path": "tools/run_v042_input_recheck.py",
+      "bytes": 6788,
+      "sha256": "b4b14c36a329b0a68ab869a2dad57888198605ee8fef5c451a0cd0d1e8626e42"
+    },
+    {
+      "path": "tools/test_extended_window.py",
+      "bytes": 3499,
+      "sha256": "9d67df9628c86b6c0c69d050f4ccbdde3d64dfbdb0754548d87856323c9e31e2"
+    },
+    {
+      "path": "tools/test_game_end_gate.py",
+      "bytes": 2448,
+      "sha256": "b376d21421498b81d06f7f6d815ac3ff3d93d493c4d3ef07f753f5719e201ed9"
+    },
+    {
+      "path": "tools/test_game_output_latch.py",
+      "bytes": 2307,
+      "sha256": "2ebcf86b70afb5d73e6d2d61d808314bf14ecc75f808900d8b6a4abd353ffa0f"
+    },
+    {
+      "path": "tools/test_game_phase.py",
+      "bytes": 1869,
+      "sha256": "93dd88fc7840783b508bb6ce52f99775afe216ec8702d12286c955315755020b"
+    },
+    {
+      "path": "tools/test_input_end_gate.py",
+      "bytes": 1111,
+      "sha256": "b2e4ce37c512e9437030dc6460aca73b81edbae4e306efbf998db331b16d8475"
+    },
+    {
+      "path": "tools/test_input_timing.py",
+      "bytes": 1214,
+      "sha256": "0f95691cebff2ca2954b24f38b78beb71a731b14b466491cb0223fbc261db9be"
+    },
+    {
+      "path": "tools/test_retry_socket.py",
+      "bytes": 1830,
+      "sha256": "2fb17781521bb35c6bc3d08a5cc02dfdca027d1f0a050aab275f19c49bb2e18c"
+    },
+    {
+      "path": "tools/test_v043_game_assessment.py",
+      "bytes": 2855,
+      "sha256": "72cb7a6bdca111e3c2e832499b0d86af60400a9407adbba45cfdb58215db4551"
+    },
+    {
+      "path": "tools/test_v043_game_gate.py",
+      "bytes": 2524,
+      "sha256": "51074fc89aeed8ec34537c151b050ef1a90d10a10a09a471319a6710dda9fc32"
+    },
+    {
+      "path": "tools/test_v043_host_acceptance.py",
+      "bytes": 3795,
+      "sha256": "548d2688e9b6246c1c890ac5e1d234220740ac5faf24cf0555c034b2b410a1ce"
+    },
+    {
+      "path": "tools/test_v043_identity.py",
+      "bytes": 658,
+      "sha256": "ae9331d7b766f14f3aa3a29a5a5bb6098589f9d48b54a2fdb7ea3339a8cd936c"
+    },
+    {
+      "path": "tools/use_iphone_usb_hotspot.ps1",
+      "bytes": 3675,
+      "sha256": "b64db434632f02bdb8b5d061b721a5acdd5ac441e024e0a78d573d23382d505e"
+    },
+    {
+      "path": "tools/v043_game_gate.py",
+      "bytes": 2224,
+      "sha256": "2d9ad3a3406af0401f36c5062de2199932a6c713fd40343d221daf13b151d948"
+    },
+    {
+      "path": "tools/v043_installation.py",
+      "bytes": 1508,
+      "sha256": "e878938ad8e00d714a1e559cf7a7441a935bb0aafc6ada487d8f0f2c06354f9d"
+    },
+    {
+      "path": "tools/windows_hardware_preflight.py",
+      "bytes": 1607,
+      "sha256": "0c15b74c23509bcbf8e7aa6c67d78d23b6a6e063e475cb9a53b259653fd4952d"
+    },
+    {
+      "path": "tools/windows_integrated_ram_recheck.py",
+      "bytes": 6986,
+      "sha256": "d2ccd1338696b12ad3c97233f3d3e672a52c7ef2b385ff395ffa323e5bb77134"
+    },
+    {
+      "path": "tools/windows_network_timing_recheck.py",
+      "bytes": 5661,
+      "sha256": "4a9f7c4decb3d2f5c95de485a407a5a72c0250c0a6191741267c2732cf0a1596"
+    },
+    {
+      "path": "tools/windows_owner_process_recheck.py",
+      "bytes": 6123,
+      "sha256": "c3fe7905e5da85a16f770522039e685e3797c7c645f67208d3e40de39bafae3f"
+    },
+    {
+      "path": "tools/windows_pc_discovery_recheck.py",
+      "bytes": 2594,
+      "sha256": "cb42fc2a15dd3bd6ead56b7c2c6be0aefc0e2d0a4f1a67ad84e157450832b32d"
+    },
+    {
+      "path": "tools/windows_ram_capture_recheck.py",
+      "bytes": 3649,
+      "sha256": "e4c9f707805742baa1378c0e74ac88c9b0b722d35f450e49774bafe8872981cc"
+    },
+    {
+      "path": "tools/windows_v043_flash_startup.py",
+      "bytes": 4213,
+      "sha256": "56137260314b301743b9f78d1e071729128e6609e9dd014f04bc71b0375cec2b"
+    },
+    {
+      "path": "tools/windows_v043_ram_diagnostics.py",
+      "bytes": 10934,
+      "sha256": "ba4947c58e5db9efb03c42f08d0bb1722cc6bc1d4ea5e80c0ec6892a83ee523e"
+    },
+    {
+      "path": "\u5f00\u53d1\u8ba1\u5212.md",
+      "bytes": 11677,
+      "sha256": "f725ce3db24f7c20609c872308cb3776b3297a48e399418ffcdb2b5b86ef6c98"
+    }
+  ],
+  "archive_private": true,
+  "github_uploaded": false,
+  "scope": "Two independent offline 120s same-door notification trials; not original HD fidelity, all-game compatibility, or long-term stability",
+  "archive_sha256": "dc4c4208eb5144404fb392e070a213f7a4411f4c85c42bc5c497a4ba76b5dd2f",
+  "archive_bytes": 3779083,
+  "archive_crc_verified": true,
+  "archived_files_verified": true
+}

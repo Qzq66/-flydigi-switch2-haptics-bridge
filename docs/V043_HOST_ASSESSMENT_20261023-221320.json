@@ -1,0 +1,35 @@
+{
+  "status": "INCOMPLETE_120S_ACCEPTANCE",
+  "integrity_checks": {
+    "strict_program": true,
+    "strict_parent": true,
+    "firmware_verified": true,
+    "new_generation": true,
+    "persistent_journal": true,
+    "complete_journal": true,
+    "terminal_confirmed": true,
+    "exact_fields": true,
+    "contiguous_wire": true,
+    "configuration_unchanged": true,
+    "parent_stop": true,
+    "guardian_clean": true,
+    "no_errors": true
+  },
+  "duration_checks": {
+    "firmware_live_deadline": true,
+    "full_observed_window": true,
+    "late_input_observed": true,
+    "late_nonneutral_observed": false,
+    "final_neutral": true,
+    "human_inputs": true
+  },
+  "journal_generation": 12,
+  "transport_120s_validated": true,
+  "pending_checks": [
+    "late_nonneutral_observed"
+  ],
+  "end_reason": "capture_deadline",
+  "observed_live_seconds": 119.98514329999999,
+  "motor_fields": 1969,
+  "scope": "Input-only Switch 2 acceptance; no Flydigi waveform output or game haptics validation"
+}

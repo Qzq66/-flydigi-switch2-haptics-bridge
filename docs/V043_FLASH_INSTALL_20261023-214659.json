@@ -1,0 +1,29 @@
+{
+  "status": "V043_FLASH_INSTALLED_VERIFIED_NOT_STARTED",
+  "flydigi_commands": 0,
+  "checks": {
+    "complete_frozen_baseline": true,
+    "original_recovery_verified": true,
+    "reviewed_image": true,
+    "flash_bounds": true,
+    "actual_flash_profile": true,
+    "candidate_identity": true,
+    "steam_exited": true,
+    "current_full_baseline_verified": true,
+    "expected_generation_10": true,
+    "candidate_program_loaded_and_verified": true,
+    "all_nonprogram_flash_preserved": true,
+    "complete_installed_snapshot_saved": true,
+    "installed_snapshot_exact": true
+  },
+  "started_at": "2026-10-23T21:46:59.952471+08:00",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "program_bytes": 307420,
+  "program_erase_end": "0x4c000",
+  "baseline_generation": 10,
+  "backup_sha256": "19570913cbb248abfd8681d4bd8a5eb9df036c00de3174599ed5fad83b385eb2",
+  "remains_in_bootsel": true,
+  "log_regions_preserved": true,
+  "filesystem_preserved": true,
+  "installed_snapshot_sha256": "647928b375bd553d4c64cc9ebce205e9a86fbd8e5e00307fe6c954a5f9ac32ed"
+}

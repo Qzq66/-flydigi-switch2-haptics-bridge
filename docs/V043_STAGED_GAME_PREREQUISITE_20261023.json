@@ -1,0 +1,31 @@
+{
+  "status": "V043_STAGED_GAME_PREREQUISITE_VERIFIED",
+  "sources": {
+    "program": {
+      "path": "docs/WINDOWS_V043_INPUT_RECHECK_20261023-223712.json",
+      "sha256": "dfb15c6f7b315b0a4545e59c3c6e6d59569977bd93a4fc9ee2e550b06a237867"
+    },
+    "capture": {
+      "path": "docs/V043_HOST_CAPTURE_20261023-224226.json",
+      "sha256": "3c23db0685dd4d27ed60817c30929f89d7372f0e5a3d0f72121c34f75a9b079a"
+    },
+    "baseline": {
+      "path": "docs/V043_HOST_CAPTURE_20261023-221901.json",
+      "sha256": "a5c24b94cff68eeebbcc169c812825bc5800fa13d36deda87cc9290c6cce8f89"
+    },
+    "assessment": {
+      "path": "docs/V043_HOST_ASSESSMENT_20261023-223712.json",
+      "sha256": "420c82102e40320343c974197a2afb5186b51867ace3eb44b9b7141c2ea8197c"
+    }
+  },
+  "authorization": {
+    "verified": true,
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "accepted_input_generation": 13,
+    "staged_click_required": true,
+    "prompt_ms": 120,
+    "maximum_offset": 12,
+    "maximum_prompts_per_side": 3,
+    "wire_timeout_ms": 80
+  }
+}

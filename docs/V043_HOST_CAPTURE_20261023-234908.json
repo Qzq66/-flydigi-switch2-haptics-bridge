@@ -1,0 +1,11 @@
+{
+  "status": "INCOMPLETE",
+  "flash_write": false,
+  "flydigi_commands": 0,
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": false
+  },
+  "error": "full_readback_verified"
+}

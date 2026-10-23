@@ -41,9 +41,11 @@ class XInputSource:
         state=self.xi.read(self.slot)
         if state is None:raise self.fault('XInput source disconnected; relay stopped')
         value=convert(state.gamepad)
-        if value!=NEUTRAL:self.nonneutral_reads+=1
+        self.last_read_at=time.perf_counter()
+        if value!=NEUTRAL:
+            self.nonneutral_reads+=1
+            self.last_nonneutral_at=self.last_read_at
         if value!=self.previous:
-            import time
             if len(self.changes)<64:self.changes.append(dict(at=time.perf_counter(),pro_input=value.hex()))
             self.previous=value
         return value

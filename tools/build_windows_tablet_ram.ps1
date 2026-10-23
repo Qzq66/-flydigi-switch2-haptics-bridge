@@ -1,4 +1,4 @@
-param([string]$CredentialsDir,[string]$BuildDir,[ValidateSet('ram','flash')][string]$Profile='ram')
+param([string]$CredentialsDir,[string]$BuildDir,[ValidateSet('ram','flash')][string]$Profile='ram',[ValidateSet('v042','v043')][string]$Variant='v042',[switch]$CompileOnly,[switch]$RamDiagnosticRecovery)
 $ErrorActionPreference='Stop'
 $root=Split-Path -Parent $PSScriptRoot
 $localTools='C:\Users\quziqi\Documents\Codex\pico-work-20261022'
@@ -13,8 +13,10 @@ $env:PATH=$cmakeBin+';'+(Join-Path $localTools 'pico-tools\ninja')+';'+(Join-Pat
 $private=if($CredentialsDir){$CredentialsDir}else{Join-Path $root 'handoff\2026-10-22\work\private\tablet-network'}
 $build=if($BuildDir){$BuildDir}else{Join-Path $root 'build\pico-v042-tablet-ram'}
 $python='C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\python.exe'
-$buildArgs=@((Join-Path $root 'tools\build_pico_snapshot.py'),'--variant','v042','--profile',$Profile,'--private-dir',$private,'--build-dir',$build)
+$buildArgs=@((Join-Path $root 'tools\build_pico_snapshot.py'),'--variant',$Variant,'--profile',$Profile,'--build-dir',$build)
+if($CompileOnly){$buildArgs+='--compile-only'}else{$buildArgs+=@('--private-dir',$private)}
 if($Profile -eq 'ram'){$buildArgs+='--ram-end-bootsel'}
+if($RamDiagnosticRecovery){$buildArgs+='--ram-diagnostic-recovery'}
 & $python @buildArgs
 if($LASTEXITCODE -ne 0){throw 'RAM compilation or image checks failed'}
 'Network build verified. No device loaded, no hotspot changed.'

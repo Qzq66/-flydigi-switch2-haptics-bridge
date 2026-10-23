@@ -1,0 +1,656 @@
+{
+  "status": "INCOMPLETE",
+  "case": "lifecycle",
+  "flydigi_access": false,
+  "physical_output": false,
+  "flash_write": false,
+  "checks": {
+    "reviewed_ram_image": true,
+    "ram_bounds": true,
+    "no_flash_mutation_symbols": true,
+    "unique_ram_journal_symbol": true,
+    "journal_in_sram": true,
+    "complete_baseline_hash": true,
+    "flash_before_matches": true,
+    "exact_043_initial_ram_identity": true,
+    "session_matches_existing_network": true,
+    "broadcast_discovery": true,
+    "small_initial_journal": true,
+    "timer_acquired": true,
+    "terminal_acknowledged": true,
+    "wire_sequence_contiguous": true,
+    "all_expected_words_exact": true,
+    "live_near_120_seconds": true,
+    "usb_and_input_relay_after_115_seconds": true,
+    "flash_after_matches": true
+  },
+  "elapsed_seconds": 119.8093844,
+  "sent_injected_words": 120,
+  "extra_write_completions_after_full": 0,
+  "usb_input_milestones_seconds": [
+    30.0,
+    65.0,
+    100.03,
+    115.0
+  ],
+  "input_updates": [
+    12702,
+    26223,
+    40314,
+    46299
+  ],
+  "received_events": [
+    {
+      "sequence": 0,
+      "at_us": 13584820,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 1,
+      "at_us": 13600820,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 2,
+      "at_us": 13768833,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 3,
+      "at_us": 14768894,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 4,
+      "at_us": 15768954,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 5,
+      "at_us": 16769024,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 6,
+      "at_us": 17777085,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 7,
+      "at_us": 18777198,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 8,
+      "at_us": 19777210,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 9,
+      "at_us": 20777279,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 10,
+      "at_us": 21777336,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 11,
+      "at_us": 22785399,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 12,
+      "at_us": 23785459,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 13,
+      "at_us": 24785522,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 14,
+      "at_us": 25785588,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 15,
+      "at_us": 26785645,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 16,
+      "at_us": 27793714,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 17,
+      "at_us": 28793820,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 18,
+      "at_us": 29793840,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 19,
+      "at_us": 30793898,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 20,
+      "at_us": 31801966,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 21,
+      "at_us": 32802029,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 22,
+      "at_us": 33802091,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 23,
+      "at_us": 34802152,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 24,
+      "at_us": 35802214,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 25,
+      "at_us": 36802276,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 26,
+      "at_us": 37802339,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 27,
+      "at_us": 38810401,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 28,
+      "at_us": 39810465,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 29,
+      "at_us": 40810527,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 30,
+      "at_us": 41810643,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 31,
+      "at_us": 42818652,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 32,
+      "at_us": 43818714,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 33,
+      "at_us": 44818776,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 34,
+      "at_us": 45826840,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 35,
+      "at_us": 46826906,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 36,
+      "at_us": 47826966,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 37,
+      "at_us": 48859028,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 38,
+      "at_us": 49859092,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 39,
+      "at_us": 50859157,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 40,
+      "at_us": 51867216,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 41,
+      "at_us": 52915283,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 42,
+      "at_us": 53931347,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 43,
+      "at_us": 54931407,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 44,
+      "at_us": 55931522,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 45,
+      "at_us": 56955537,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 46,
+      "at_us": 57955651,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 47,
+      "at_us": 58955662,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 48,
+      "at_us": 59963726,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 49,
+      "at_us": 60963784,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 50,
+      "at_us": 61963900,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 51,
+      "at_us": 62963908,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 52,
+      "at_us": 63963972,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 53,
+      "at_us": 64972036,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 54,
+      "at_us": 65972096,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 55,
+      "at_us": 66972159,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 56,
+      "at_us": 67972222,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 57,
+      "at_us": 68972283,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 58,
+      "at_us": 69972347,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 59,
+      "at_us": 70980459,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 60,
+      "at_us": 71980471,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 61,
+      "at_us": 72980535,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 62,
+      "at_us": 73980595,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 63,
+      "at_us": 74980662,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 64,
+      "at_us": 75980722,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 65,
+      "at_us": 76980786,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 66,
+      "at_us": 77988848,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 67,
+      "at_us": 78988906,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 68,
+      "at_us": 79988972,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 69,
+      "at_us": 80989030,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 70,
+      "at_us": 81989096,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 71,
+      "at_us": 82989156,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 72,
+      "at_us": 83989217,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 73,
+      "at_us": 84989288,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 74,
+      "at_us": 85989346,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 75,
+      "at_us": 86989407,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 76,
+      "at_us": 87989466,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 77,
+      "at_us": 88989531,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 78,
+      "at_us": 89997593,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 79,
+      "at_us": 90997654,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 80,
+      "at_us": 91997719,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 81,
+      "at_us": 92997776,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 82,
+      "at_us": 93997838,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 83,
+      "at_us": 94997901,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 84,
+      "at_us": 96005963,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 85,
+      "at_us": 97006079,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 86,
+      "at_us": 98006090,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 87,
+      "at_us": 99006150,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 88,
+      "at_us": 100006265,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 89,
+      "at_us": 101006277,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 90,
+      "at_us": 102006335,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 91,
+      "at_us": 103014399,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 92,
+      "at_us": 104014462,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 93,
+      "at_us": 105014525,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 94,
+      "at_us": 106014587,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 95,
+      "at_us": 107014645,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 96,
+      "at_us": 108022708,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 97,
+      "at_us": 109022773,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 98,
+      "at_us": 110022836,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 99,
+      "at_us": 111030896,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 100,
+      "at_us": 112030958,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 101,
+      "at_us": 113031017,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 102,
+      "at_us": 114031087,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 103,
+      "at_us": 115031148,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 104,
+      "at_us": 116031205,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 105,
+      "at_us": 117031268,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 106,
+      "at_us": 118039333,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 107,
+      "at_us": 119039391,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 108,
+      "at_us": 120039448,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 109,
+      "at_us": 121039518,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 110,
+      "at_us": 122039584,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 111,
+      "at_us": 123039677,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 112,
+      "at_us": 124039699,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 113,
+      "at_us": 125047764,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 114,
+      "at_us": 126047823,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 115,
+      "at_us": 127047888,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 116,
+      "at_us": 128047949,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 117,
+      "at_us": 129048012,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 118,
+      "at_us": 130048073,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 119,
+      "at_us": 131056134,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 120,
+      "at_us": 132056195,
+      "motors": "0001404000014040"
+    },
+    {
+      "sequence": 121,
+      "at_us": 133056262,
+      "motors": "0001404000014040"
+    }
+  ],
+  "timer_released": true,
+  "ram_readback_error": "ValueError: length or magic"
+}

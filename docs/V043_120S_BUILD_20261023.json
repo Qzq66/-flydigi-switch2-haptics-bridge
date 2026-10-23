@@ -1,0 +1,73 @@
+{
+  "status": "COMPILE_ONLY_V043_120S_VERIFIED_NOT_INSTALLED",
+  "created_at": "2026-10-23T21:02:12.356764+08:00",
+  "credentials": "public placeholders; unsuitable for actual hotspot testing",
+  "hardware_access": false,
+  "flash_written": false,
+  "rumble_output": false,
+  "live_seconds": 120,
+  "boot_limit_seconds": 180,
+  "host_live_seconds": 122,
+  "discovery_seconds": 120,
+  "guardian_seconds": 270,
+  "journal_capacity": 2725,
+  "journal_full_action": "seal new USB callbacks after final accepted report; disconnect and drain; reason=capacity_limit",
+  "amplitude_and_count_limits_changed": false,
+  "heartbeat_threshold_changed": false,
+  "baseline_v042_source_and_image_unchanged": true,
+  "ram_flash_mutation_symbols_absent": true,
+  "offline_checks": 301,
+  "products": {
+    "ram": {
+      "profile": "ram",
+      "bytes": 611328,
+      "blocks": 1194,
+      "minimum_address": "0x20000000",
+      "maximum_end": "0x2004aa00",
+      "sha256": "c6e815581d670068b10edafb9ba4d696956f012e471434453608cb8441495b84",
+      "program_erase_start": null,
+      "program_erase_end": null,
+      "log_offsets": [
+        "0xe0000",
+        "0xf0000"
+      ],
+      "log_slot_bytes": 65536,
+      "filesystem_start": "0x100000",
+      "program_excludes_logs_and_filesystem": false,
+      "path": "build/pico-v043-120s-ram-compile-only/pico_pro_capture.uf2"
+    },
+    "flash": {
+      "profile": "flash",
+      "bytes": 307348,
+      "minimum_address": "0x10000000",
+      "maximum_end": "0x1004b094",
+      "sha256": "7e8c60b701887618085647b608c9408439b3c839724f7579321e121007d1c639",
+      "program_erase_start": "0x0",
+      "program_erase_end": "0x4c000",
+      "log_offsets": [
+        "0xe0000",
+        "0xf0000"
+      ],
+      "log_slot_bytes": 65536,
+      "filesystem_start": "0x100000",
+      "program_excludes_logs_and_filesystem": true,
+      "path": "build/pico-v043-120s-flash-compile-only/pico_pro_capture.bin"
+    }
+  },
+  "source_sha256": {
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.c": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.h": "ac256c751137255e057eaa94642d449ea1570720b3ae4ae63b5d32a1d3de6ec3",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.c": "e220dc5114ca9c2f2168e20d5dc4e3db4c6bdae77a4727f82298f1a68cda58a0",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.h": "5543ce3bdea67dbf10f45e592dd221c7a816a60a85631f50ce3e3a0bc3a57ded",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/CMakeLists.txt": "119430539cde8fc5586270ae2a6307a10e594b03e0888824bddfb5d9ddd245c9",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/lwipopts.h": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/main.c": "ec15004e249f462be01980539f1aa080f3c72f40d8be5c4e37cfdbf13511d4ee",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/pro_report_descriptor.h": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/session_policy.h": "aaaee19aa7f3bc225df20b2f28f3139bfefd3395c3ac6443ce43a0c0be13d71e",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/tusb_config.h": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/usb_descriptors.c": "20b6039d609e13c0c650cf9000a5b5abeb986ff664c8be0bd8ab1456818aa008",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.c": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.h": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+  },
+  "hardware_validation": "not performed; capacity-boundary callback and extended timing remain unverified on device"
+}

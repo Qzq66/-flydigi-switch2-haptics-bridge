@@ -1,0 +1,12 @@
+{
+  "status": "V043_FLASH_READY_VERIFIED",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "full_flash_sha256": "2873c1b7609ed4c532dd83ce58138a85e7a8f816d9bbb89b887b2c557f8c4cfb",
+  "baseline_generation": 14,
+  "previous_generation": 13,
+  "outside_journal_unchanged": true,
+  "physical_full_readback_verified": true,
+  "flash_write": false,
+  "flydigi_access": false,
+  "remains_in_bootsel": true
+}

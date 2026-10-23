@@ -1,0 +1,12 @@
+{
+  "status": "INCOMPLETE",
+  "flydigi_commands": 0,
+  "checks": {
+    "complete_frozen_baseline": true,
+    "original_recovery_verified": true,
+    "reviewed_image": true,
+    "flash_bounds": true
+  },
+  "started_at": "2026-10-23T21:46:40.616506+08:00",
+  "error": "'gbk' codec can't decode byte 0xad in position 220: illegal multibyte sequence"
+}

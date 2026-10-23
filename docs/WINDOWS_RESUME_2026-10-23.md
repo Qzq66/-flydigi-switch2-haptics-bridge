@@ -1,5 +1,7 @@
 # 2026-10-23 Windows硬件接续
 
+本页以下为v042早期接续历史。最新本地候选为v043：120秒输入验收及[两轮独立120秒分阶段门口游戏闭环](V043_TWO_GAME_TRIALS.md)通过，当前Pico BOOTSEL/第15代日志，恢复前先读[STATUS](STATUS.md)及[v043记录](V043_WINDOW_CANDIDATE_2026-10-23.md)。v043公开同步接续从[GITHUB_RESUME_2026-10-24](GITHUB_RESUME_2026-10-24.md)开始，勿沿用本页旧v042阶段判断。
+
 用户恢复测试。Pico保持原v042 Flash；没有刷写，飞智原厂持久配置未修改。
 
 只读预检 `WINDOWS_HARDWARE_PREFLIGHT_20261023-152505.json` 通过：已验证身份、四区备份及读回一致、唯一XInput槽位0、计时器获取/释放；此前接收器未插好的预检失败记录保留。

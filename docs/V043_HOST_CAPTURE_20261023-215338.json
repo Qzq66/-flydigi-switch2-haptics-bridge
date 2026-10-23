@@ -1,0 +1,15 @@
+{
+  "status": "INCOMPLETE",
+  "flash_write": false,
+  "flydigi_commands": 0,
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": true,
+    "fresh_single_generation": false
+  },
+  "error": "fresh_single_generation"
+}

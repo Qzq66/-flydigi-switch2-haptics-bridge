@@ -1,0 +1,59 @@
+{
+  "status": "PASSED_V043_RAM_DIAGNOSTICS",
+  "checks": {
+    "image_hash": true,
+    "lifecycle_strict_report": true,
+    "lifecycle_same_image": true,
+    "lifecycle_no_actuator_or_flash_output": true,
+    "lifecycle_full_flash_unchanged": true,
+    "lifecycle_journal_complete": true,
+    "lifecycle_wire_contiguous": true,
+    "lifecycle_long_window": true,
+    "capacity_strict_report": true,
+    "capacity_same_image": true,
+    "capacity_no_actuator_or_flash_output": true,
+    "capacity_full_flash_unchanged": true,
+    "capacity_journal_complete": true,
+    "capacity_wire_contiguous": true,
+    "capacity_no_extras": true,
+    "v042_source_unchanged": true
+  },
+  "cases": {
+    "lifecycle": {
+      "report": "V043_RAM_LIFECYCLE_20261023-212918.json",
+      "elapsed_seconds": 119.80922449999998,
+      "records": 123,
+      "motor_fields": 122,
+      "end_reason": "RAM_dry_run",
+      "snapshot_bytes": 65536
+    },
+    "capacity": {
+      "report": "V043_RAM_CAPACITY_20261023-212645.json",
+      "elapsed_seconds": 22.1005368,
+      "records": 2725,
+      "motor_fields": 2724,
+      "end_reason": "capacity_limit",
+      "snapshot_bytes": 65536
+    }
+  },
+  "ram_image_sha256": "49acbba65eea98c1ec29a18e697c33f364111a0b2a224f56bb792067c1ce8c56",
+  "source_sha256": {
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.c": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/bridge_transport.h": "ac256c751137255e057eaa94642d449ea1570720b3ae4ae63b5d32a1d3de6ec3",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.c": "681a816e994abcf6ede3ee8968e4fe4f69e10a384e927929935f1095d8b17995",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/capture_journal.h": "5543ce3bdea67dbf10f45e592dd221c7a816a60a85631f50ce3e3a0bc3a57ded",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/CMakeLists.txt": "79902a0e27ff81dc3992133b02d0a54406d912278b32f14ca51f5b61668a7552",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/lwipopts.h": "3f8c2e2b443eab4e00fe547b94d81928a5c6aa1eb49709a9a75d4f1435c3a016",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/main.c": "baa982144ba6c38f02ca4f4363063ec77d19a6f8dccee69e7a5d1791ee65368e",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/pro_report_descriptor.h": "f68124224d0842ef2dacdfea551472c1ba7e9a0bcceeb801f6bcc0d3592efc2c",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/session_policy.h": "aaaee19aa7f3bc225df20b2f28f3139bfefd3395c3ac6443ce43a0c0be13d71e",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/tusb_config.h": "894248b3a1db972c79de13b38ae8647c7eedfc798cfcee720768aaab28e46004",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/usb_descriptors.c": "20b6039d609e13c0c650cf9000a5b5abeb986ff664c8be0bd8ab1456818aa008",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.c": "9ca0409341505311bff2a65c1fc4576b65705693f4eeeac1e67b8c19dc890b18",
+    "handoff/2026-10-22/outputs/pico-haptics-bridge-v043/virtual_spi.h": "62b36444df1df2cc27d752b6296825f55c0581b31bfdd6fc2a528d9a549a15f4"
+  },
+  "scope": "PC-side neutral input, duration, full-journal boundary and read-only RAM snapshot; not Switch 2 or game validation",
+  "pico_flash_installed": "retained v042, persistent generation 10 unchanged",
+  "flash_candidate_installed": false,
+  "github_uploaded": false
+}

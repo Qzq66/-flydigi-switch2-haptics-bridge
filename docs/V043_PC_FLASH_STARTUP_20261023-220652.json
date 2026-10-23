@@ -1,0 +1,83 @@
+{
+  "status": "PASSED_V043_PC_FLASH_STARTUP_BOOT_LIMIT",
+  "flydigi_access": false,
+  "physical_output": false,
+  "flash_program_write": false,
+  "usb_mode_commands": 0,
+  "samples": [
+    {
+      "elapsed_seconds": 30.2,
+      "initialized": 1,
+      "active": 0,
+      "enabled": 0,
+      "link_status": 3,
+      "requests": 1
+    },
+    {
+      "elapsed_seconds": 60.1,
+      "initialized": 1,
+      "active": 0,
+      "enabled": 0,
+      "link_status": 3,
+      "requests": 1
+    },
+    {
+      "elapsed_seconds": 90.1,
+      "initialized": 1,
+      "active": 0,
+      "enabled": 0,
+      "link_status": 3,
+      "requests": 1
+    },
+    {
+      "elapsed_seconds": 120.0,
+      "initialized": 1,
+      "active": 0,
+      "enabled": 0,
+      "link_status": 3,
+      "requests": 1
+    },
+    {
+      "elapsed_seconds": 150.2,
+      "initialized": 1,
+      "active": 0,
+      "enabled": 0,
+      "link_status": 3,
+      "requests": 1
+    }
+  ],
+  "preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "647928b375bd553d4c64cc9ebce205e9a86fbd8e5e00307fe6c954a5f9ac32ed",
+    "baseline_generation": 10
+  },
+  "exact_flash_identity": true,
+  "wifi_up": true,
+  "matching_session": true,
+  "broadcast_matches": true,
+  "capture": {
+    "version": 5,
+    "generation": 11,
+    "reason": "boot_limit",
+    "elapsed_ms": 181147,
+    "total_events": 0,
+    "stored_events": 0,
+    "dropped_events": 0,
+    "capacity": 2725,
+    "overflow": false,
+    "complete": true,
+    "first_dropped_at_us": null,
+    "usb_mounted_seen": true,
+    "no_flash_marker": 0,
+    "target_offset": "0xe0000",
+    "crc_valid": true,
+    "diagnostics_raw_hex": "42434150050000009100000092000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000",
+    "events": [],
+    "stream_end": "drain_timeout",
+    "slot_index": 0
+  },
+  "full_flash_sha256": "8a0cdb3f0bcc85d4f8473c251b3b766b6ad1f8ea11b5de46ae1af8c737e30d8b",
+  "outside_journal_unchanged": true
+}

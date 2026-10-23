@@ -7,7 +7,9 @@ def decode_sector(data):
     version,generation,reason,elapsed,total=struct.unpack_from('<5I',data,8)
     stored,width=struct.unpack_from('<2H',data,28)
     flags,payload,target,capacity,first_drop,clock=struct.unpack_from('<6I',data,32)
-    if version!=5 or reason not in (1,2) or flags&~7 or capacity!=CAPACITY or clock!=1000000:raise ValueError('header')
+    if version!=5 or reason not in (1,2,3,4) or flags&~7 or capacity!=CAPACITY or clock!=1000000:raise ValueError('header')
+    if reason==3 and (total!=CAPACITY or flags&2):raise ValueError('invalid capacity termination')
+    if reason==4 and (elapsed<180000 or flags&6 or total>=CAPACITY):raise ValueError('invalid boot-limit termination')
     if stored!=min(total,CAPACITY) or width!=RECORD or payload!=stored*RECORD:raise ValueError('counts')
     if target not in (0,0xe0000,0xf0000) or data[64:69]!=b'BCAP\x05':raise ValueError('identity or target')
     end_status=struct.unpack_from('<I',data,60)[0] if data[56:60]==b'END2' else None
@@ -30,7 +32,7 @@ def decode_sector(data):
             motors_hex=r[12:20].hex() if has_motor else None))
     if any(a['at_us']>b['at_us'] for a,b in zip(events,events[1:])):raise ValueError('timestamp order')
     if overflow and events and first_drop<events[-1]['at_us']:raise ValueError('drop order')
-    return dict(version=version,generation=generation,reason='capture_deadline' if reason==1 else 'RAM_dry_run',
+    return dict(version=version,generation=generation,reason={1:'capture_deadline',2:'RAM_dry_run',3:'capacity_limit',4:'boot_limit'}[reason],
         elapsed_ms=elapsed,total_events=total,stored_events=stored,dropped_events=total-stored,capacity=capacity,
         overflow=overflow,complete=not overflow,first_dropped_at_us=first_drop if overflow else None,
         usb_mounted_seen=bool(flags&1),no_flash_marker=int(bool(flags&4)),target_offset=hex(target),

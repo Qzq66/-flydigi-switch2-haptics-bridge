@@ -1,0 +1,44 @@
+{
+  "status": "INCOMPLETE",
+  "actual_switch_test": true,
+  "game_test": true,
+  "input_check_only": false,
+  "automatic_resume": false,
+  "motor_output_enabled": false,
+  "persistent_flydigi_commands": 0,
+  "game_haptics_validated": false,
+  "session_limits": {
+    "live_seconds": 120,
+    "host_live_seconds": 122,
+    "arm_latest_seconds": 115,
+    "ui_deadline_seconds": 118,
+    "discovery_seconds": 120,
+    "guardian_seconds": 270,
+    "expected_firmware": "v043",
+    "firmware_boot_seconds": 180
+  },
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "f8102ef0666f8327deab22d82936f995acb80113d6318deca8901ba92780533a",
+    "baseline_generation": 13
+  },
+  "input_acceptance_gate": {
+    "verified": true,
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "accepted_input_generation": 13,
+    "staged_click_required": true,
+    "prompt_ms": 120,
+    "maximum_offset": 12,
+    "maximum_prompts_per_side": 3,
+    "wire_timeout_ms": 80,
+    "source_hashes": {
+      "program": "dfb15c6f7b315b0a4545e59c3c6e6d59569977bd93a4fc9ee2e550b06a237867",
+      "capture": "3c23db0685dd4d27ed60817c30929f89d7372f0e5a3d0f72121c34f75a9b079a",
+      "baseline": "a5c24b94cff68eeebbcc169c812825bc5800fa13d36deda87cc9290c6cce8f89",
+      "assessment": "420c82102e40320343c974197a2afb5186b51867ace3eb44b9b7141c2ea8197c"
+    }
+  },
+  "error": "ValueError('Exactly one known FFA0/MI02 interface is required')"
+}

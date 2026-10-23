@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_SHARED_MONOTONIC_CLOCK",
+  "python": "3.9.13",
+  "hardware_access": false,
+  "before": {
+    "perf": 0.1811806,
+    "monotonic": 6971.937
+  },
+  "child": {
+    "perf": 0.0416655,
+    "monotonic": 6972.0
+  },
+  "after": {
+    "perf": 0.2413393,
+    "monotonic": 6972.0
+  },
+  "shared": {
+    "perf": false,
+    "monotonic": true
+  },
+  "previous_timing_source_sha256": {
+    "tools/input_timing.py": "3f99c3200a7589092221e87fd64ec76a59b645a459a25df98bf69181e9206fdf",
+    "tools/input_timing_window.py": "56121f11dc754561abed93c61de2d41c25a64c2ba207b3f8f6b990ca0ca539f3",
+    "handoff/2026-10-22/work/bridge-switch-live.py": "3d5feef7e484c7f2c01d1d8423ca70ba0b1a7837c33b39c29ab034b60ed7395d"
+  }
+}
