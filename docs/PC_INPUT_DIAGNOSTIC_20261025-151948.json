@@ -1,0 +1,18 @@
+{
+  "status": "NO_PC_BUTTON_INPUT_OBSERVED",
+  "motor_commands": 0,
+  "configuration_commands": 0,
+  "pico_access": false,
+  "manual_started": true,
+  "reads": 784,
+  "raw_button_reads": 0,
+  "nonneutral_pro_reads": 0,
+  "changes": [
+    {
+      "seconds": 0.0,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    }
+  ],
+  "slot": 0
+}

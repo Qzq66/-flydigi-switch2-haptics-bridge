@@ -1,0 +1,117 @@
+{
+  "phase_gap": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true
+    },
+    "scope": "Integrity of recorded wrapper poll/pause spans and bounded contexts; not proof of a network root cause or improved latency."
+  },
+  "written_pcm": {
+    "passed": false,
+    "checks": {
+      "full_window": false,
+      "events_distributed": false,
+      "completed_six": false,
+      "stopped": false,
+      "no_fault": false,
+      "successful_frames": true,
+      "left_pcm": true,
+      "right_pcm": true,
+      "reports": true,
+      "dose": true,
+      "peak": true,
+      "whole_activity": true,
+      "whole_dose": true,
+      "per_event": true,
+      "event_totals": true
+    },
+    "expected": {
+      "recorded_frames": 2372,
+      "samples_per_side": 18976,
+      "left_sha256": "e03eda57a7997ed69c92b246efc8cca47e94d62e1c03f2d0b63739d06edecf3d",
+      "right_sha256": "e03eda57a7997ed69c92b246efc8cca47e94d62e1c03f2d0b63739d06edecf3d",
+      "report_sha256": "20dbbaf07f9cf4dc57d6812fcf8e73f56e220f930189443c2f7a746a840452bc",
+      "squared_code_sum": [
+        22024,
+        22024
+      ],
+      "peak_per_side": [
+        9,
+        9
+      ],
+      "nonneutral_samples": [
+        1055,
+        1055
+      ]
+    },
+    "scope": "Software source to successful host submission only, not controller execution or physical fidelity."
+  },
+  "status": "INCOMPLETE",
+  "checks": {
+    "strict_parent": false,
+    "parent_program_status": false,
+    "plan_bound": true,
+    "readback_verified": false,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": false,
+    "program_unchanged": true,
+    "full_source_motor_fields": false,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_game_event": false,
+    "human_prearm_silent": false,
+    "human_stopped": false,
+    "human_postmute_input": false,
+    "phase_gap_integrity": true,
+    "written_pcm_matches_independent_source": false
+  },
+  "journal_generation": 61,
+  "motor_fields": 1049,
+  "active_ms": [
+    1144,
+    1144
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    22024,
+    22024
+  ],
+  "source_reference": {
+    "active_ms": [
+      1144,
+      1144
+    ],
+    "peak_code": 9,
+    "squared_code_sum": [
+      22024,
+      22024
+    ],
+    "final_samples_neutral": true
+  },
+  "source_reference_error": null,
+  "scope": "Three bounded live game actions with startup qualification; not measured original HD/HD2 physical equivalence or long-duration stability.",
+  "source_sha256": {
+    "program": "028891acd9371314880306d98307171e0d390ac7909005384bcc0be451472a90",
+    "plan": "62b021c1ff3af5093c40aec1b0f74410a035c74a7b85b40666e9e33802178c71",
+    "capture": "68732153a03e9c2d88aa3f2ed4dadb578bc5acb48b5eb19f39331eb527ede107",
+    "baseline": "2fcd4b448d3919bf11334279fbba7211b5c094680b8ef631ecd520a6680cfd66"
+  }
+}

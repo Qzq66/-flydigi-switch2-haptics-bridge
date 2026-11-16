@@ -1,0 +1,69 @@
+{
+  "status": "PASSED_FIRST_THREE_EVENT_SWITCH_GAME_CLOSED_LOOP",
+  "checks": {
+    "strict_parent": true,
+    "parent_program_status": true,
+    "plan_bound": true,
+    "readback_verified": true,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": true,
+    "program_unchanged": true,
+    "full_source_motor_fields": true,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_game_event": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "human_postmute_input": true,
+    "phase_gap_integrity": true,
+    "written_pcm_matches_independent_source": true
+  },
+  "completed_events": 3,
+  "event_records": [
+    {
+      "index": 1,
+      "active_ms": [
+        280,
+        280
+      ],
+      "squared_code_sum": [
+        5164,
+        5164
+      ],
+      "quiet_completed_at": 118.52283849999655
+    },
+    {
+      "index": 2,
+      "active_ms": [
+        280,
+        280
+      ],
+      "squared_code_sum": [
+        5129,
+        5129
+      ],
+      "quiet_completed_at": 121.38683849999497
+    },
+    {
+      "index": 3,
+      "active_ms": [
+        296,
+        296
+      ],
+      "squared_code_sum": [
+        6000,
+        6000
+      ],
+      "quiet_completed_at": 123.93883849999355
+    }
+  ],
+  "source_motor_fields": 1071,
+  "successful_submission_frames": 1454,
+  "generation": 59,
+  "human_three_events_and_poststop_input": true,
+  "human_silent_and_no_residual": true,
+  "scope": "One bounded three-event session, not unlimited use or long-term realtime guarantee.",
+  "inherited_assessor_status_label_preserved": "PASSED_SINGLE_SWITCH_GAME_DUAL_BAND_CANDIDATE"
+}

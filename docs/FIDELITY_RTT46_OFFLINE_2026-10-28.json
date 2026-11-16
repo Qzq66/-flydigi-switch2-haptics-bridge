@@ -1,0 +1,12 @@
+{
+  "status": "PASSED_RTT46_OFFLINE_ONLY",
+  "tests": 184,
+  "io_guard": true,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "expected_generation": 46,
+  "runner_delta_checked": true,
+  "existing_parameters_unchanged": true,
+  "tampered_plan_rejected": true,
+  "synthetic_compact_snapshot_bytes": 98101
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PREPARED_REPEAT_NOT_RUN",
+  "hardware_access": false,
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_g38.py",
+      "sha256": "885f8afa30d1dd4fd63c5a5bcf0e1ca4c9f25519bf55fb42752bf085577f2a95"
+    },
+    {
+      "path": "tools/run_fidelity_game_g38.py",
+      "sha256": "a2a08b245bd929d6595ef857fb69e8d12ba9fcf5734afad8b408eb9937785d01"
+    },
+    {
+      "path": "tools/assess_fidelity_game_g38.py",
+      "sha256": "4716396c7adb926d6a00ad727a2bc0d3158f1d4024a1c27c35e541469ba57478"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_G38_2026-10-27.json",
+      "sha256": "6346a8758f07f0b883dbbb99685e627bf95c1fa684887f9f63b62d3bcc450f3c"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G38_OFFLINE_2026-10-27.json",
+      "sha256": "c95602b115e62c8af1c4ccd3a225ffe5c075bcb5bb8445dc4855e90fc50181fc"
+    }
+  ]
+}

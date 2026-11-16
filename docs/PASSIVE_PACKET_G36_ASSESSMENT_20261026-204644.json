@@ -1,0 +1,72 @@
+{
+  "status": "PASSED_DATA_INTEGRITY_IP_REMOVAL_DID_NOT_RESTORE_RX_CAPTURE",
+  "checks": {
+    "parent_completed": true,
+    "child_completed": true,
+    "baseline36": true,
+    "full_readback": true,
+    "new_generation37": true,
+    "complete_crc": true,
+    "firmware_unchanged": true,
+    "fields_identical": true,
+    "sequence_continuous": true,
+    "full_duration": true,
+    "terminal_confirmed": true,
+    "capture_stopped": true,
+    "own_filter_removed": true,
+    "cleanup_clean": true,
+    "conversion_finished": true,
+    "same_actual_components": true,
+    "ip_condition_removed": true,
+    "observer_clean": true,
+    "trace_bound": true,
+    "recovery_190s": true,
+    "zero_motor_commands": true,
+    "zero_persistent_commands": true,
+    "configuration_unchanged": true,
+    "human_bootsel": true,
+    "human_icon": true,
+    "human_silent": true
+  },
+  "generation": 37,
+  "full_flash_sha256": "1ff5b030cba9ace4e951c7395437f66778835ef9a7a003e05d33f099eb8454a5",
+  "fields": 1970,
+  "live_seconds": 119.98906290000001,
+  "application_receive_rows": 18570,
+  "capture_component_ids": [
+    20,
+    124
+  ],
+  "capture_payload_component_copy_counts": {
+    "BHP2": 255,
+    "BHI2": 35787,
+    "BHE2": 3
+  },
+  "captured_replies": 0,
+  "complete_component_coverage": false,
+  "ip_condition_removal_alone_insufficient_this_trial": true,
+  "component_mapping_root_cause_proven": false,
+  "log_retention_root_cause_proven": false,
+  "general_network_delay_root_cause_proven": false,
+  "adopt_into_game_output": false,
+  "maximum_socket_return_gap_seconds": 0.07470980000000793,
+  "maximum_accepted_frame_gap_seconds": 0.07818659999999511,
+  "observed_accepted_gap_under80ms_this_window": true,
+  "long_term_realtime_stability_proven": false,
+  "receive_wait_policy": {
+    "budget_seconds": 0.012,
+    "deadline_expirations": 128,
+    "late_matching_replies": 0,
+    "stale_replies": 125
+  },
+  "maximum_observer_seconds": 0.0005895000000037953,
+  "source_sha256": {
+    "tools/passive_packet_policy_g36.py": "c2a56824d5e746a49694e1dc94b7b16b8d82cab2fa5dc64f7b3d190170f1d02e",
+    "tools/run_passive_packet_g36.py": "785fc96d278d21515184269fcf566630a9bc4500906cafcbce50219811da6ba6",
+    "tools/run_pktmon_passive_g36.ps1": "ad3535852c6fa7123acd8e1b39243adbd6ff6d6885e818cc060319e52e2562de",
+    "tools/analyse_passive_packet_g36.py": "b9d21ddd5f49089eb9c1d5088af5e0c758d31087f5c1a800a1c954fb619c0e54",
+    "tools/component_receive_analysis_v2.py": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33",
+    "tools/pktmon_capture_common_v4.ps1": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825",
+    "tools/usb_recovery_clock.py": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+  }
+}

@@ -5,8 +5,10 @@ sys.path.insert(0,str(ROOT/'handoff/2026-10-22/work'))
 from bridge_process import game_end_check_succeeded
 from switch_hd_decode import Decoder
 from bridge_input import NEUTRAL
+from game_scenarios import SCENES
 
-def assess(program,capture,baseline,proof,human_pulse=False,human_silent=False,human_stopped=False):
+def assess(program,capture,baseline,proof,human_pulse=False,human_silent=False,human_stopped=False,scene='door'):
+    if scene not in SCENES:raise ValueError('Unknown game scene')
     child=program.get('child',{});wire=child.get('events',[]);events=[e for e in capture.get('events',[]) if e['motors_hex'] is not None]
     anchor=child.get('source_clock_anchor',{});arm=child.get('armed_at_pc_clock');start=child.get('live_started_at_pc_clock',0)
     arm_source=anchor['source_us']+(arm-anchor['pc_clock'])*1e6 if isinstance(arm,(int,float)) and anchor else None
@@ -44,16 +46,33 @@ def assess(program,capture,baseline,proof,human_pulse=False,human_silent=False,h
         guardian_not_killed=program.get('guardian_killed_child') is False,
         no_cleanup_errors=not any(obj.get(k) for obj in (program,child) for k in ('error','cleanup_error','pico_reset_error','output_fault')),
         human_game_pulse=human_pulse is True,human_prearm_silent=human_silent is True,human_stopped=human_stopped is True)
-    return dict(status='PASSED_V043_120S_STAGED_GAME_LIMITED_NOTIFICATION' if all(checks.values()) else 'INCOMPLETE',checks=checks,
+    if scene!='door':
+        counts=child.get('prompt_counts',[])
+        checks.pop('one_complete_prompt_each')
+        checks['complete_bounded_prompts_both_sides']=len(counts)==2 and all(type(n) is int and 1<=n<=3 for n in counts) and child.get('active_samples')==[120*n for n in counts]
+        checks['scene_recorded']=program.get('scene')==scene
+    repeated=None
+    if scene=='dodge-attack-repeat':
+        from repeated_event_evidence import source_episodes
+        repeated=source_episodes(wire,arm_source)
+        checks['two_complete_prompts_each']=child.get('prompt_counts')==[2,2] and child.get('active_samples')==[240,240]
+        checks['two_source_episodes_each']=repeated['state_complete'] and all(len(starts)==2 for starts in repeated['starts_us'])
+        checks['five_seconds_source_quiet_between']=all(len(gaps)==1 and type(gaps[0]) in (int,float) and gaps[0]>=5000000 for gaps in repeated['quiet_gaps_us'])
+        checks['repeat_arm_reserve']=isinstance(arm,(int,float)) and arm-start<98
+    result=dict(status='PASSED_V043_120S_STAGED_GAME_LIMITED_NOTIFICATION' if all(checks.values()) else 'INCOMPLETE',checks=checks,
         journal_generation=capture.get('generation'),motor_fields=len(events),first_active_ms_after_arm=first,decoded_post_arm_active_groups=post,
         observed_live_seconds=child.get('live_elapsed_seconds'),scope='One offline door-entry trial, calibrated 120ms notifications; not original HD fidelity or long-term stability')
+    if scene!='door':result.update(scene=scene,scope='One offline B-dodge then A-attack trial, calibrated 120ms notifications within the unchanged 3-per-side cap; not original HD fidelity or long-term stability')
+    if repeated is not None:result.update(source_episodes=repeated,scope='Two B-dodge/A-attack groups in one offline trial with at least 5s decoded source silence between episodes; bounded notifications, not original HD fidelity or long-term stability')
+    return result
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('program','capture','baseline','input-acceptance-bundle','output'):p.add_argument('--'+name,type=pathlib.Path,required=True)
     for name in ('human-game-pulse','human-prearm-silent','human-stopped'):p.add_argument('--'+name,action='store_true')
+    p.add_argument('--scene',choices=tuple(SCENES),default='door')
     a=p.parse_args();load=lambda path:json.loads(path.read_text(encoding='utf-8-sig'));program=load(a.program)
     proof=authorize(a.input_acceptance_bundle,program['firmware_preflight'])
-    result=assess(program,load(a.capture)['newest'],load(a.baseline)['newest'],proof,a.human_game_pulse,a.human_prearm_silent,a.human_stopped)
+    result=assess(program,load(a.capture)['newest'],load(a.baseline)['newest'],proof,a.human_game_pulse,a.human_prearm_silent,a.human_stopped,a.scene)
     with a.output.open('x',encoding='utf-8') as h:json.dump(result,h,indent=2)
     print(json.dumps(result,indent=2));raise SystemExit(0 if all(result['checks'].values()) else 1)

@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_READONLY_ETW_INSPECTION",
+  "files": [
+    {
+      "path": "tools/inspect_pktmon_etw_readonly.ps1",
+      "sha256": "70bfee07b6639a7f1efd6384a226eab411d7e498bb3ea1bb07f839ead14a5917"
+    },
+    {
+      "path": "docs/PKTMON_ETW_INSPECTION_2026-10-25.md",
+      "sha256": "021ef8da99eb7a54a8689815eeee6464d3fb19b127c64d1893f046326d9a5c6d"
+    },
+    {
+      "path": "docs/PKTMON_ETW_INSPECTION_20261025-213508.json",
+      "sha256": "4118dbc8cfb3d32589e594f7f510e8037ec1f74689c525b03463a69d5dffa89e"
+    },
+    {
+      "path": "docs/PKTMON_ETW_ASSESSMENT_20261025-213508.json",
+      "sha256": "0b6a9149a5db729aeecbbbbfd382285e88bf68b783bc71089fadc771f245f03f"
+    }
+  ]
+}

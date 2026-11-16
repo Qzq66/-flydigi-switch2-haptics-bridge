@@ -1,0 +1,52 @@
+{
+  "status": "WINDOWS_ADAPTER_OFFLINE_READY_NO_HARDWARE_AUTHORIZATION",
+  "hardware_actions": 0,
+  "live_windows_entry_replaced": false,
+  "product_budget_changed": false,
+  "new_forced_termination_logic": false,
+  "automatic_trial_retry": false,
+  "stop_retry_added_by_adapter": false,
+  "requires_separate_extra_trial_authorization": true,
+  "tests": {
+    "windows_contract": 14,
+    "audited_l0": 207,
+    "report": "l0-20261115-165046.json"
+  },
+  "preserved_behaviour": [
+    "Frozen original core is loaded into a separate module, not modified",
+    "Original source ordering and rendering/protection/stop core retained",
+    "Additional writer-close and observation evidence required before accepting success"
+  ],
+  "limitations": [
+    "Synthetic injected backends only; Windows realtime improvement unproven",
+    "Input draining, cancellation-file checks and OS wakeup may still delay dispatch",
+    "No diagnosis of missing Pico terminal/journal proven",
+    "Previously agreed two hardware trials have finished; additional hardware test needs user decision"
+  ],
+  "files": [
+    {
+      "path": "tools/dispatch_windows_entry.py",
+      "sha256": "9a54ea024d924e4db502014a03e14f9f885b20679d1242743b545795f266c7a5"
+    },
+    {
+      "path": "tools/dispatch_windows_profile.py",
+      "sha256": "888bbd290fd0897eb7dbb14a1af1dc96bdedd3622aeac979bcac9c99921862d2"
+    },
+    {
+      "path": "tools/test_dispatch_windows_entry.py",
+      "sha256": "2965f86a5c40777d535736d6952ea042a9453271544f1c9a7b38dda979cd3c26"
+    },
+    {
+      "path": "tools/dispatch_io_candidate.py",
+      "sha256": "234dea7156b48493aa3dda6ed4bc6e467d1b5b29717bc970fcabed186252f8ed"
+    },
+    {
+      "path": "tools/offline_phase_publisher.py",
+      "sha256": "ba2ed75185d71c28efe0c57337b71347b8c4f3cd5be4e315e0d0f94748137743"
+    },
+    {
+      "path": "docs/campaigns/realtime-2026-11-15/windows-entry-plan.json",
+      "sha256": "330d60252d3daa45c2067abce05cb1b6c3c32d7d89bff100d213919be2ad9fa3"
+    }
+  ]
+}

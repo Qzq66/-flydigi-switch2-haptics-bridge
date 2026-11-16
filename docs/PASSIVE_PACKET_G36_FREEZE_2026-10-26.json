@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_OFFLINE_RECEIVE_REPLAY_AND_SINGLE_FILTER_CANDIDATE",
+  "hardware_run": false,
+  "files": [
+    {
+      "path": "tools/forensic_wifi_decode.py",
+      "sha256": "4137a9fb354813deec03ef15ae15d2b1bbeca42e0b4a8b81cf665a975bdb3d43"
+    },
+    {
+      "path": "tools/test_forensic_wifi_decode.py",
+      "sha256": "b0728435f4fc78340ced92bc2e36e637d174403e0c70c96850ca8dc41a362492"
+    },
+    {
+      "path": "tools/audit_receive_path_offline.py",
+      "sha256": "dbf47a48c175c86ecdf95bf0cce11ef4005191dd147feb8cd52ba0be9b162905"
+    },
+    {
+      "path": "tools/passive_packet_policy_g36.py",
+      "sha256": "c2a56824d5e746a49694e1dc94b7b16b8d82cab2fa5dc64f7b3d190170f1d02e"
+    },
+    {
+      "path": "tools/run_passive_packet_g36.py",
+      "sha256": "785fc96d278d21515184269fcf566630a9bc4500906cafcbce50219811da6ba6"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g36.ps1",
+      "sha256": "ad3535852c6fa7123acd8e1b39243adbd6ff6d6885e818cc060319e52e2562de"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g36.py",
+      "sha256": "b9d21ddd5f49089eb9c1d5088af5e0c758d31087f5c1a800a1c954fb619c0e54"
+    },
+    {
+      "path": "docs/RECEIVE_PATH_OFFLINE_2026-10-26.md",
+      "sha256": "286fb9305f69c391cb38b6b99ca9fb0164b859d6ab33845f1f47ac6940abe89c"
+    },
+    {
+      "path": "docs/RECEIVE_PATH_OFFLINE_20261026.json",
+      "sha256": "de5da607d855a4fa187d211f7b670cb13e089248621419dc5127ba97e79f94ad"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_PLAN_2026-10-26.json",
+      "sha256": "abd32b0883d61b4fdb0ed72072a88e514371ea5269d04b55b2d0ec9fa20c1da7"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_OFFLINE_2026-10-26.json",
+      "sha256": "fc51b6bacdd83513f3cc114c630b5df419f13e9050712ea7a0f63894bb952bff"
+    }
+  ],
+  "private_archive_sha256": "dea7fbb28c2a4a3a3c16ea5e2f37effcc853f0d1013e1e62281feb0c2770db72"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASSED_HOTSPOT_MATCHES_FIRMWARE",
+  "checks": {
+    "header_matches_saved_network": true,
+    "hotspot_matches_saved_network": true,
+    "hotspot_is_on": true,
+    "band_is_2_4ghz": true,
+    "capture_present": true,
+    "credentials_present_in_capture": true
+  },
+  "capture": "v043-host-full-20261115-185744.bin",
+  "clients": 0
+}

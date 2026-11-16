@@ -1,0 +1,32 @@
+{
+    "status":  "PKTMON_READONLY_INVENTORY_COLLECTED",
+    "readonly":  true,
+    "administrator":  true,
+    "capture_started":  false,
+    "capture_stopped":  false,
+    "filters_changed":  false,
+    "network_settings_changed":  false,
+    "motor_commands":  0,
+    "pico_access":  false,
+    "script_sha256":  "8c8c6851a0964b4ee537d25d09b7b59b244afce86ed3f80d444568fcbef63a02",
+    "queries":  [
+                    {
+                        "query":  "status",
+                        "exit_code":  0,
+                        "raw_file":  "status.txt",
+                        "sha256":  "1f51a22b7df711ba1385081fc7d65c7ecc069e31203356d7a2e766b00a4d753d"
+                    },
+                    {
+                        "query":  "filter list",
+                        "exit_code":  0,
+                        "raw_file":  "filters.txt",
+                        "sha256":  "f2d21ba8819dbfd65b96e74e8a67e7246da47ff76c111b2ef2013882ddbc97a7"
+                    },
+                    {
+                        "query":  "list --json",
+                        "exit_code":  0,
+                        "raw_file":  "components.json",
+                        "sha256":  "768dd183ccaafe59d0341cd50c16b6a8e23151dfadd610f64bb779eb59828ff7"
+                    }
+                ]
+}

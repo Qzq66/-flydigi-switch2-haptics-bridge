@@ -1,0 +1,231 @@
+{
+  "status": "V043_HOST_FLASH_READBACK_VERIFIED",
+  "flash_write": false,
+  "flydigi_commands": 0,
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": true,
+    "fresh_single_generation": true,
+    "complete_persistent_journal": true
+  },
+  "newest": {
+    "version": 5,
+    "generation": 21,
+    "reason": "boot_limit",
+    "elapsed_ms": 181146,
+    "total_events": 15,
+    "stored_events": 15,
+    "dropped_events": 0,
+    "capacity": 2725,
+    "overflow": false,
+    "complete": true,
+    "first_dropped_at_us": null,
+    "usb_mounted_seen": true,
+    "no_flash_marker": 0,
+    "target_offset": "0xe0000",
+    "crc_valid": true,
+    "diagnostics_raw_hex": "42434150053000000f00000010000000070000000000000000000000000000000000000000000000050100010f000000ed300000000000000000000000030002",
+    "events": [
+      {
+        "at_us": 78419790,
+        "at_ms": 78419.79,
+        "sequence": 0,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 78435775,
+        "at_ms": 78435.775,
+        "sequence": 1,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 78451772,
+        "at_ms": 78451.772,
+        "sequence": 2,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79691849,
+        "at_ms": 79691.849,
+        "sequence": 3,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79707850,
+        "at_ms": 79707.85,
+        "sequence": 4,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79723852,
+        "at_ms": 79723.852,
+        "sequence": 5,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79739852,
+        "at_ms": 79739.852,
+        "sequence": 6,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79747858,
+        "at_ms": 79747.858,
+        "sequence": 7,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 16,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79763903,
+        "at_ms": 79763.903,
+        "sequence": 8,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 61,
+        "packet_counter": 1,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79787901,
+        "at_ms": 79787.901,
+        "sequence": 9,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 32,
+        "packet_counter": 2,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79811909,
+        "at_ms": 79811.909,
+        "sequence": 10,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 38,
+        "packet_counter": 3,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79835905,
+        "at_ms": 79835.905,
+        "sequence": 11,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "48",
+        "first_argument": 1,
+        "packet_counter": 4,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79859911,
+        "at_ms": 79859.911,
+        "sequence": 12,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "03",
+        "first_argument": 48,
+        "packet_counter": 5,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 79883904,
+        "at_ms": 79883.904,
+        "sequence": 13,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 79891858,
+        "at_ms": 79891.858,
+        "sequence": 14,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "30",
+        "first_argument": 1,
+        "packet_counter": 6,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      }
+    ],
+    "stream_end": "drain_timeout",
+    "slot_index": 0
+  },
+  "slots": [
+    {
+      "slot_index": 0,
+      "valid": true,
+      "generation": 21
+    },
+    {
+      "slot_index": 1,
+      "valid": true,
+      "generation": 20
+    }
+  ],
+  "full_flash_sha256": "5fdd8a5209872542626179c99d1a7f4b3ce17b06d4512fbf1b3fc2af416024d1",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50"
+}

@@ -1,0 +1,124 @@
+{
+  "status": "PRE_ARM_STARTUP_HEARTBEAT_ANALYSED",
+  "trial": "20261030-003131",
+  "hardware_access": false,
+  "checks": {
+    "unarmed": true,
+    "no_output": true,
+    "no_events_completed": true,
+    "pre_configuration": true,
+    "contiguous_tail": true,
+    "four_completed_timeouts": true,
+    "inflight_poll": true,
+    "observer_healthy": true
+  },
+  "last_accepted_frame": {
+    "event_index": 43,
+    "phase": "poll",
+    "start": 41.0801759,
+    "end": 41.0856671,
+    "duration_seconds": 0.005491200000001584,
+    "poll_index": 22,
+    "outcome": "frame",
+    "received_at": 41.0856599,
+    "source_us": 13044876,
+    "flags": 3,
+    "event_count": 0,
+    "receive_gap_seconds": 0.05054300000000467
+  },
+  "heartbeat_deadline": 41.1656599,
+  "inflight": {
+    "kind": "poll",
+    "start": 41.1587852,
+    "event_index": 53
+  },
+  "inflight_start_before_deadline_ms": 6.874700000004452,
+  "completed_timeout_ms": 48.51570000000294,
+  "observed_pause_ms": 24.32170000000866,
+  "completed_tail": [
+    {
+      "event_index": 44,
+      "phase": "pause",
+      "start": 41.0856912,
+      "end": 41.0902145,
+      "duration_seconds": 0.00452330000000245,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 45,
+      "phase": "poll",
+      "start": 41.0902286,
+      "end": 41.1021474,
+      "duration_seconds": 0.011918799999996565,
+      "poll_index": 23,
+      "outcome": "timeout"
+    },
+    {
+      "event_index": 46,
+      "phase": "pause",
+      "start": 41.1021655,
+      "end": 41.1071504,
+      "duration_seconds": 0.004984900000003734,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 47,
+      "phase": "poll",
+      "start": 41.1071662,
+      "end": 41.1192804,
+      "duration_seconds": 0.012114199999999187,
+      "poll_index": 24,
+      "outcome": "timeout"
+    },
+    {
+      "event_index": 48,
+      "phase": "pause",
+      "start": 41.1192972,
+      "end": 41.1242137,
+      "duration_seconds": 0.004916500000000212,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 49,
+      "phase": "poll",
+      "start": 41.1242434,
+      "end": 41.1362323,
+      "duration_seconds": 0.011988900000005742,
+      "poll_index": 25,
+      "outcome": "timeout"
+    },
+    {
+      "event_index": 50,
+      "phase": "pause",
+      "start": 41.1362578,
+      "end": 41.1412325,
+      "duration_seconds": 0.004974699999998222,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 51,
+      "phase": "poll",
+      "start": 41.1412767,
+      "end": 41.1537705,
+      "duration_seconds": 0.012493800000001443,
+      "poll_index": 26,
+      "outcome": "timeout"
+    },
+    {
+      "event_index": 52,
+      "phase": "pause",
+      "start": 41.1538134,
+      "end": 41.1587357,
+      "duration_seconds": 0.004922300000004043,
+      "requested_seconds": 0.004
+    }
+  ],
+  "first_frame_to_inflight_ms": 270.23009999999914,
+  "limitations": [
+    "Exact fault timestamp was not recorded",
+    "Adjacent reply following first fault not retained in bounded final contexts",
+    "12ms receive wait is not a hard OS wall-clock bound",
+    "No established radio, hotspot or scheduler root cause"
+  ],
+  "recommendation": "Separate startup/readiness from active-output heartbeat in an independent candidate; keep active 80ms stop, fresh-frame arm gate and no automatic rearm. Validate offline before hardware."
+}

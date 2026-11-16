@@ -1,0 +1,3 @@
+{"name": "BHP2", "seconds": 15.064914799999997, "polls": 849, "valid_replies": 702, "poll_timeouts": 147, "gap_ms_median": 5.568099999997855, "gap_ms_p95": 83.7703999999988, "gap_ms_max": 95.66719999999762, "gaps_over_80ms": 105, "rtt_ms_p95": 14.1670999999981, "rtt_ms_max": 26.147099999999313}
+{"name": "BHI2_neutral", "seconds": 15.051425600000002, "polls": 773, "valid_replies": 625, "poll_timeouts": 148, "gap_ms_median": 5.556049999999146, "gap_ms_p95": 85.9628999999984, "gap_ms_max": 200.89180000000084, "gaps_over_80ms": 108, "rtt_ms_p95": 16.150700000004292, "rtt_ms_max": 52.49200000000087}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\docs\WINDOWS_NETWORK_TIMING_RECHECK_20261022-201812.json

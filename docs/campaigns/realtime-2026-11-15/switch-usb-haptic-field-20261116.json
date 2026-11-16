@@ -1,0 +1,65 @@
+{
+  "status": "HAPTIC_FRAMES_FELT",
+  "classification": "measurement",
+  "scope": "Reviewed low-strength 0x10 haptic frames over USB, overlapped 8 ms grid; no configuration/initialization/feature command",
+  "date": "2026-11-16",
+  "device": {
+    "product": "Pro Controller",
+    "vid": "0x057e",
+    "pid": "0x2009",
+    "declared_output_ids": ["0x01", "0x10", "0x80", "0x82"]
+  },
+  "pattern": "left 400 ms -> right 400 ms -> both 400 ms -> neutral tail",
+  "frames": {"planned": 162, "sent": 162, "written": 162, "replaced": 0, "failed": 0},
+  "dispatch_lateness_ms": {"min": 0.0027, "median": 0.2981, "max": 0.5894},
+  "writer": {"max_write_ms": 6.4146, "max_backlog_ms": 0.236},
+  "observation": {
+    "felt": true,
+    "segments_distinguished": "three segments felt and mapped to left / right / both",
+    "quality_note": "user reported the felt quality differs from expectation; exact axis of difference not yet stated",
+    "source": "user report, 2026-11-16"
+  },
+  "compare_run": {
+    "raw": "work/private/switch-usb-haptic-compare-20261116-1425/result.json",
+    "pattern": "left 600 ms, right 600 ms, left 600 ms, right 600 ms, neutral tail",
+    "frames_sent": 312,
+    "written": 312,
+    "replaced": 0,
+    "failed": 0,
+    "max_write_ms": 5.5167,
+    "dispatch_lateness_ms": {"min": 0.0015, "median": 0.3344, "max": 0.9789}
+  },
+  "observation_compare": {
+    "same_side_repeatable": false,
+    "weaker_side": "left",
+    "source": "user report after compare run; corrected by the user to left",
+    "note": "The LEFT side is reported duller/weaker, and the same side was not identical across its two appearances. Same packets, same 8 ms schedule, all writes accepted, so the variation is downstream of the transport."
+  },
+  "compare_repeat": {
+    "raw": "work/private/switch-usb-haptic-compare2-20261116-1430/result.json",
+    "frames_sent": 312,
+    "written": 312,
+    "replaced": 0,
+    "failed": 0,
+    "max_write_ms": 6.8602,
+    "dispatch_lateness_ms": {"min": 0.0021, "median": 0.3067, "max": 0.7482},
+    "observation": "second run: the left segment was again duller than the right in both appearances",
+    "conclusion": "left-grip dullness is reproducible across two runs and is treated as a device characteristic, not a transport or scheduling fault"
+  },
+  "findings": [
+    "On an 8 ms grid with the write overlapped, dispatch lateness stays under 0.6 ms and all 162 frames reach the endpoint: the host path is end-to-end functional.",
+    "The reviewed low-strength packet produces a felt, side-separable output, so 0x10 output is honoured in Switch mode over USB.",
+    "Perceived quality is not characterised yet: the difference may be segment asymmetry, or a difference from native console haptics, or from the earlier Pico path."
+  ],
+  "limits": [
+    "Perception is a single user report, no repeat, no blind comparison.",
+    "Only one amplitude/frequency pair was sent (LOW_160); the amplitude-to-feel mapping is unknown.",
+    "WriteFile completion is not controller ACK; the report proves timing and acceptance, not waveform fidelity."
+  ],
+  "files": {
+    "probe": "tools/switch_usb_haptic_probe.py",
+    "raw": "work/private/switch-usb-haptic-20261116-1416/result.json",
+    "evidence": "docs/campaigns/realtime-2026-11-15/switch-usb-neutral-timing-field-20261116.json"
+  },
+  "next": "Pin down what 'different' means (between segments, versus native console, versus the Pico path), then run a small amplitude ladder if the difference is strength."
+}

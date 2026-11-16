@@ -1,0 +1,10 @@
+{
+  "status": "PASSED_34_OFFLINE_CHECKS_G36_SINGLE_CONDITION_CANDIDATE",
+  "tests": 34,
+  "capture_filter_only_change_verified": true,
+  "old20_file_freeze_verified": true,
+  "hardware_access": false,
+  "capture_started": false,
+  "motor_commands": 0,
+  "root_cause_proven": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_NATIVE_PULSE_API_STOP_AND_CURRENT_CONFIG_PENDING_HUMAN",
+  "persistent_commands": 0,
+  "custom_hid_mode_commands": 0,
+  "level": 4096,
+  "nominal_ms": 180,
+  "manual_clicked": true,
+  "stop_api_success": true,
+  "elapsed_ms": 189.15789999999788,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

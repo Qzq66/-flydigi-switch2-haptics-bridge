@@ -1,0 +1,44 @@
+{
+  "status": "PASSED_OFFLINE_SEPARATION",
+  "scope": "Offline separation of dispatch deadline vs USB transport completion; neutral-only diagnostic prepared; no device I/O",
+  "date": "2026-11-16",
+  "problem": "The r2 candidate used one 4 ms bound for both the scheduling deadline and the overlapped WriteFile wait, so the first cold neutral packet aborted before any active frame.",
+  "separation": {
+    "dispatch_period_ms": 4.0,
+    "max_dispatch_late_ms": 4.0,
+    "gap_ceiling_ms": 80.0,
+    "transport_timeout_ms": 50.0,
+    "slow_io_threshold_ms": 4.0,
+    "rule": "Dispatch lateness and transport completion are classified independently; a slow completion is recorded, not treated as a scheduling miss."
+  },
+  "files": {
+    "policy": "tools/switch_usb_timing.py",
+    "tests": "tools/test_switch_usb_timing.py",
+    "diagnostic_entry": "tools/switch_usb_timing_probe.py",
+    "writer_change": "tools/switch_usb_output.py Writer.send(packet, timeout_ms=4) keeps the old default and the diagnostic passes 50."
+  },
+  "diagnostic_guarantees": [
+    "Every packet is report 0x10 with both channels 00 01 40 40; a non-neutral packet raises before send.",
+    "24 frames on the 4 ms grid, transport timeout 50 ms, 80 ms gap ceiling.",
+    "No configuration, initialization, feature or LED command.",
+    "Manual click with 6 s countdown; no automatic retry; timer resolution released in finally.",
+    "Does not touch Pico; does not claim haptic capability."
+  ],
+  "tests": {
+    "module_tests": 9,
+    "switch_family_tests": 28,
+    "l0": {
+      "status": "PASSED_L0_OFFLINE_SUBSET",
+      "tests": 376,
+      "seconds": 12.175,
+      "hardware_actions": 0,
+      "evidence": "docs/campaigns/realtime-2026-11-15/l0-regression-20261116-1400.json"
+    }
+  },
+  "limits": [
+    "Offline policy and packet checks only; real transport timing still unmeasured.",
+    "WriteFile completion is not controller ACK.",
+    "Neutral-only run cannot establish rumble support."
+  ],
+  "next": "Run tools/switch_usb_timing_probe.py once with the controller in USB Switch mode and all outputs released; then decide the transport bound for the active pulse."
+}

@@ -1,0 +1,200 @@
+{
+  "status": "COMPLETE_OFFLINE_TIMING_DECOMPOSITION",
+  "hardware_access": false,
+  "motor_commands": 0,
+  "sample_count": 1943,
+  "component_id": 124,
+  "private_trace_sha256": "5dbdd34c61ea02e971acf851f7379d0d8ed1c2173e83a056a5cf27b422c345cd",
+  "capture_sha256": "b0bd0d5ee755328f990ebe04d4ac212bd9ddfe3978af7ba70a2a0462b954275c",
+  "application_round_trip": {
+    "count": 1943,
+    "minimum_ms": 0.094208,
+    "median_ms": 1.18144,
+    "p95_ms": 4.544,
+    "p99_ms": 9.396224,
+    "maximum_ms": 37.52704,
+    "over_12ms": 16,
+    "over_80ms": 0
+  },
+  "app_send_to_component": {
+    "count": 1943,
+    "minimum_ms": -2.95144,
+    "median_ms": -0.087168,
+    "p95_ms": -0.054016,
+    "p99_ms": -0.045824,
+    "maximum_ms": -0.03776,
+    "over_12ms": 0,
+    "over_80ms": 0
+  },
+  "component_round_trip": {
+    "count": 1943,
+    "minimum_ms": 0.827,
+    "median_ms": 1.111,
+    "p95_ms": 4.552,
+    "p99_ms": 9.41,
+    "maximum_ms": 37.513,
+    "over_12ms": 16,
+    "over_80ms": 0
+  },
+  "component_to_app_receive": {
+    "count": 1943,
+    "minimum_ms": 0.030224,
+    "median_ms": 0.086232,
+    "p95_ms": 0.734656,
+    "p99_ms": 1.842784,
+    "maximum_ms": 14.387592,
+    "over_12ms": 2,
+    "over_80ms": 0
+  },
+  "application_receive_intervals": {
+    "count": 1942,
+    "minimum_ms": 0.86272,
+    "median_ms": 15.28576,
+    "p95_ms": 18.399744,
+    "p99_ms": 23.959296,
+    "maximum_ms": 51.261696,
+    "over_12ms": 1854,
+    "over_80ms": 0
+  },
+  "original_request_send_intervals": {
+    "count": 1942,
+    "minimum_ms": 8.390656,
+    "median_ms": 15.27808,
+    "p95_ms": 16.196352,
+    "p99_ms": 20.25728,
+    "maximum_ms": 31.493632,
+    "over_12ms": 1940,
+    "over_80ms": 0
+  },
+  "largest_receive_gaps": [
+    {
+      "pair_index": 53,
+      "receive_gap_ms": 51.261696,
+      "send_gap_ms": 14.685184,
+      "earlier_round_trip_ms": 0.950528,
+      "later_round_trip_ms": 37.52704,
+      "later_app_send_to_component_ms": -0.080808,
+      "later_component_round_trip_ms": 37.513,
+      "later_component_to_app_ms": 0.094848,
+      "source_gap_ms": 51.382,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 80,
+      "receive_gap_ms": 46.240512,
+      "send_gap_ms": 15.966976,
+      "earlier_round_trip_ms": 0.911104,
+      "later_round_trip_ms": 31.18464,
+      "later_app_send_to_component_ms": -0.073632,
+      "later_component_round_trip_ms": 24.287,
+      "later_component_to_app_ms": 6.971272,
+      "source_gap_ms": 39.327,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 88,
+      "receive_gap_ms": 45.28,
+      "send_gap_ms": 15.549184,
+      "earlier_round_trip_ms": 1.826304,
+      "later_round_trip_ms": 31.55712,
+      "later_app_send_to_component_ms": -0.074176,
+      "later_component_round_trip_ms": 21.056,
+      "later_component_to_app_ms": 10.575296,
+      "source_gap_ms": 34.614,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 1812,
+      "receive_gap_ms": 45.239808,
+      "send_gap_ms": 15.339776,
+      "earlier_round_trip_ms": 0.733184,
+      "later_round_trip_ms": 30.633216,
+      "later_app_send_to_component_ms": -0.214712,
+      "later_component_round_trip_ms": 17.18,
+      "later_component_to_app_ms": 13.667928,
+      "source_gap_ms": 31.421,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 142,
+      "receive_gap_ms": 45.094144,
+      "send_gap_ms": 15.97184,
+      "earlier_round_trip_ms": 1.306112,
+      "later_round_trip_ms": 30.428416,
+      "later_app_send_to_component_ms": -0.1282,
+      "later_component_round_trip_ms": 23.04,
+      "later_component_to_app_ms": 7.516616,
+      "source_gap_ms": 37.83,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 1637,
+      "receive_gap_ms": 44.974848,
+      "send_gap_ms": 14.823168,
+      "earlier_round_trip_ms": 1.113088,
+      "later_round_trip_ms": 31.264768,
+      "later_app_send_to_component_ms": -0.077824,
+      "later_component_round_trip_ms": 16.955,
+      "later_component_to_app_ms": 14.387592,
+      "source_gap_ms": 30.081,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 98,
+      "receive_gap_ms": 44.9344,
+      "send_gap_ms": 15.198464,
+      "earlier_round_trip_ms": 1.30048,
+      "later_round_trip_ms": 31.036416,
+      "later_app_send_to_component_ms": -0.106672,
+      "later_component_round_trip_ms": 23.196,
+      "later_component_to_app_ms": 7.947088,
+      "source_gap_ms": 37.01,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 134,
+      "receive_gap_ms": 44.876288,
+      "send_gap_ms": 15.801344,
+      "earlier_round_trip_ms": 0.87296,
+      "later_round_trip_ms": 29.947904,
+      "later_app_send_to_component_ms": -0.177992,
+      "later_component_round_trip_ms": 25.649,
+      "later_component_to_app_ms": 4.476896,
+      "source_gap_ms": 40.456,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 106,
+      "receive_gap_ms": 44.767232,
+      "send_gap_ms": 15.520768,
+      "earlier_round_trip_ms": 1.302528,
+      "later_round_trip_ms": 30.548992,
+      "later_app_send_to_component_ms": -0.09688,
+      "later_component_round_trip_ms": 21.64,
+      "later_component_to_app_ms": 9.005872,
+      "source_gap_ms": 35.405,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 124,
+      "receive_gap_ms": 44.425472,
+      "send_gap_ms": 15.325696,
+      "earlier_round_trip_ms": 1.0368,
+      "later_round_trip_ms": 30.136576,
+      "later_app_send_to_component_ms": -0.181576,
+      "later_component_round_trip_ms": 21.423,
+      "later_component_to_app_ms": 8.895152,
+      "source_gap_ms": 35.589,
+      "request_distance": 1
+    }
+  ],
+  "negative_send_to_component_over_1ms": 5,
+  "negative_component_to_receive_over_1ms": 0,
+  "limitations": [
+    "Component timestamp is a Windows observation point, not radio transmission time.",
+    "Component round trip includes outbound path, Pico processing and inbound path; cannot isolate Wi-Fi.",
+    "Application send observation occurs after sendto, so its delta is not syscall duration.",
+    "PC/Pico absolute clocks are not synchronised; source_us used only for intervals.",
+    "An idle RAM window does not validate gameplay or native haptic fidelity."
+  ]
+}

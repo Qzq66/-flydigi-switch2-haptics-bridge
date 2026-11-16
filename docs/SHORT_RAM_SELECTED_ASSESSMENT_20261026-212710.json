@@ -1,0 +1,49 @@
+{
+  "status": "CONTROLLED_SHORT_TRIAL_REPRODUCED_RX_ABSENCE_WITH_EXPLICIT_COMPONENT_SELECTION",
+  "checks": {
+    "plan_bound": true,
+    "same_ram_image": true,
+    "same_flash_baseline": true,
+    "same_query_count": true,
+    "three_valid_replies": true,
+    "flash_before_matches": true,
+    "flash_after_matches": true,
+    "ram_reset_requested": true,
+    "bootsel_compared": true,
+    "no_cleanup_errors": true,
+    "observer_clean": true,
+    "six_observations": true,
+    "capture_stopped": true,
+    "filter_removed": true,
+    "conversion_completed": true,
+    "selected_ids_proven_in_reference": true,
+    "selected_capture_no_replies": true,
+    "native_rx_counters_zero": true,
+    "flydigi_not_accessed": true,
+    "no_motor_commands": true
+  },
+  "current_generation": 37,
+  "full_flash_sha256": "1ff5b030cba9ace4e951c7395437f66778835ef9a7a003e05d33f099eb8454a5",
+  "reference_all_component_rx_replies": 3,
+  "selected_component_rx_replies": 0,
+  "application_valid_replies_each_trial": 3,
+  "selected_component_ids": [
+    20,
+    124
+  ],
+  "capture_elapsed_seconds": 50.6884522,
+  "native_rx_counters_zero": true,
+  "not_only_a_pcapng_conversion_issue": true,
+  "long_duration_not_required_to_reproduce": true,
+  "precise_monitoring_internal_cause_proven": false,
+  "general_windows_bug_proven": false,
+  "game_delay_root_cause_proven": false,
+  "controller_battery_irrelevant_to_both_trials": true,
+  "controller_battery_user_reported_recharged": true,
+  "extra_queries_after_authorized_three": false,
+  "source_sha256": {
+    "tools/short_ram_selected.py": "ef8c56ca8c8300f42448b0a2a91167e126849b25d493d87736a718a6c851c10f",
+    "tools/run_pktmon_short_selected.ps1": "b7d45fb562367dcce9abc0aba53f4ee7559489f0e44f2884dffd4871e241f98b",
+    "tools/analyse_short_ram_selected.py": "ad22911da70eb5f8f7aac59bf2d0cc110874fbc337d3bf133c0f4d2fb0128caf"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "status": "COMPLETED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "product_acceptance": "INCOMPLETE (unchanged)",
+  "root_cause": "unproven",
+  "frozen": {
+    "path": "docs/FIDELITY_GAME_RUN_20261115-165425.json",
+    "sha256": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05"
+  },
+  "audit": {
+    "source": "docs/FIDELITY_GAME_RUN_20261115-165425.json",
+    "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+    "frames": 859,
+    "active_steps_before_fault": 15416,
+    "steps_total": 78982,
+    "gap_seconds": 0.00870160000000908,
+    "fault_lateness_seconds": 0.0066075000038239295,
+    "entry_delay_seconds": 3.5999999994373866e-06,
+    "unmeasured_in_gap_seconds": 0.008698000000009642,
+    "measured_share_of_gap": 0.00041371701749490095,
+    "gaps": {
+      "count": 31,
+      "minimum": 0.0008380000000016707,
+      "median": 0.0014642000000009148,
+      "p95": 0.002717600000011089,
+      "p99": 0.00870160000000908,
+      "maximum": 0.00870160000000908
+    },
+    "step_periods": {
+      "count": 31,
+      "minimum": 0.0008449000000041451,
+      "median": 0.0019448000000039656,
+      "p95": 0.005057999999991125,
+      "p99": 0.008707299999997531,
+      "maximum": 0.008707299999997531
+    },
+    "margins": {
+      "count": 22,
+      "minimum": 8.499996226873918e-06,
+      "median": 0.0020706499961917757,
+      "p95": 0.0034404999961878957,
+      "p99": 0.004061399996189152,
+      "maximum": 0.004061399996189152
+    },
+    "thresholds": {
+      "count": 22,
+      "minimum": 0.004008499996226874,
+      "median": 0.006070649996191776,
+      "p95": 0.007440499996187896,
+      "p99": 0.008061399996189152,
+      "maximum": 0.008061399996189152
+    },
+    "fault_gap_exceeds_largest_local_threshold": true,
+    "steps_ended_after_target": 9,
+    "lateness": {
+      "count": 859,
+      "minimum": 2.1000036980467485e-06,
+      "median": 0.0007229000016764076,
+      "p95": 0.0018735000029579396,
+      "p99": 0.0022607000035463898,
+      "maximum": 0.0027135000037787904
+    },
+    "checks": {
+      "fault_lateness_matches_recorded": true,
+      "gap_plus_entry_delay_matches": true,
+      "gap_entirely_outside_measured_spans": true,
+      "no_dispatch_exceeded_gate": true,
+      "no_automatic_recovery": true,
+      "drain_is_not_source_ingestion": true
+    },
+    "attribution_scope": {
+      "measured": [
+        "drain",
+        "enqueue",
+        "entry_to_tick",
+        "tick"
+      ],
+      "not_measured": [
+        "cancellation stat",
+        "core-side inbox drain",
+        "fault check",
+        "publish enqueue cost before step",
+        "loop overhead",
+        "wakeup delay"
+      ],
+      "note": "Rows and gaps are disjoint, so the gap is entirely outside measured spans. This bounds measurement coverage; it does not name the source."
+    },
+    "status": "PASSED_DETERMINISTIC_FROZEN_AUDIT"
+  },
+  "host": {
+    "scope": "Pure-host composed primitives; no device, network or hardware entry",
+    "process": "single process, single loop, phase file replaced every 200 iterations",
+    "resolution_before": {
+      "status": 0,
+      "minimum_100ns": 156250,
+      "current_100ns": 5000,
+      "maximum_100ns": 10000
+    },
+    "resolution_after": {
+      "status": 0,
+      "minimum_100ns": 156250,
+      "current_100ns": 5000,
+      "maximum_100ns": 10000
+    },
+    "resolution_note": "The unrequested arm is only a default-resolution control when resolution_before.current_100ns >= 156250; another process holding a finer resolution poisons it.",
+    "elapsed_seconds": 64.83406380000088,
+    "arms": {
+      "timer_1ms": {
+        "iterations": 20000,
+        "timer_request": 0,
+        "timer_release": 0,
+        "sleep_request_seconds": 0.001,
+        "phase_write_every": 200,
+        "period_seconds": {
+          "count": 20000,
+          "minimum": 0.0010726000000431668,
+          "median": 0.0016315000011672964,
+          "p95": 0.0019261000015831087,
+          "p99": 0.002394600000116043,
+          "maximum": 0.006151200001113466
+        },
+        "work_seconds": {
+          "count": 20000,
+          "minimum": 3.380000089237001e-05,
+          "median": 8.770000022195745e-05,
+          "p95": 0.0003455000005487818,
+          "p99": 0.0004531999984465074,
+          "maximum": 0.004106300000785268
+        },
+        "periods_over_4ms": 9,
+        "periods_over_6ms": 1,
+        "periods_over_8p7ms": 0
+      },
+      "timer_unrequested": {
+        "iterations": 20000,
+        "timer_request": null,
+        "timer_release": null,
+        "sleep_request_seconds": 0.001,
+        "phase_write_every": 200,
+        "period_seconds": {
+          "count": 20000,
+          "minimum": 0.0010674000004655682,
+          "median": 0.0016262999997707084,
+          "p95": 0.001907500000015716,
+          "p99": 0.0023985000007087365,
+          "maximum": 0.0073729000014282065
+        },
+        "work_seconds": {
+          "count": 20000,
+          "minimum": 2.849999873433262e-05,
+          "median": 8.454999988316558e-05,
+          "p95": 0.0003603999994084006,
+          "p99": 0.0004177999999228632,
+          "maximum": 0.004852599999139784
+        },
+        "periods_over_4ms": 17,
+        "periods_over_6ms": 2,
+        "periods_over_8p7ms": 0
+      }
+    }
+  }
+}

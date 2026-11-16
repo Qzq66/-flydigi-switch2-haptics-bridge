@@ -1,0 +1,51 @@
+{
+  "status": "EXTRA_AUTHORIZED_TRIAL_FAILED_WITH_COMPLETE_EVIDENCE",
+  "trial": "20261115-165425",
+  "product_acceptance": "INCOMPLETE",
+  "checks": {
+    "capture_eight_checks": true,
+    "source_fields_exact": true,
+    "left_pcm_exact": true,
+    "right_pcm_exact": true,
+    "reports_exact": true,
+    "dose_exact": true,
+    "stop_ack": true,
+    "configuration_unchanged": true,
+    "phase_writer_closed": true,
+    "terminal_handshake": true,
+    "precise_fault_clock": true,
+    "no_frame_during_fault": true
+  },
+  "human_vibration_count": 1,
+  "human_stop_and_poststop_control_not_explicitly_confirmed": true,
+  "frames": 859,
+  "rendered_timeline_seconds": 6.872,
+  "completed_events": 1,
+  "journal_generation": 62,
+  "source_fields": 1119,
+  "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+  "dispatch_lateness_ms": 6.6075000038239295,
+  "unobserved_outer_loop_gap_ms": 8.70160000000908,
+  "entry_to_tick_check_us": 3.5999999994373866,
+  "phase_writer": {
+    "posted": 127,
+    "written": 127,
+    "coalesced": 0,
+    "pending_count": 0,
+    "error": null,
+    "closed": true
+  },
+  "hardware_trial_authorization_consumed": true,
+  "remaining_authorized_hardware_trials": 0,
+  "root_cause": "unproven",
+  "conclusion": "Moving phase-file writes off-thread was insufficient. Gap is between instrumented tick iterations, which still contains sleep/wakeup, cancellation stat, input ingestion and UI enqueue. Do not attribute to OS/network without segment timing.",
+  "next": "Offline segment timing and controlled synthetic checks only; no additional hardware trial authorized",
+  "original_status_preserved": true,
+  "evidence_sha256": {
+    "docs/FIDELITY_GAME_RUN_20261115-165425.json": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05",
+    "docs/V043_HOST_CAPTURE_20261115-170039.json": "b1052f94a97a6fe7a17ef3428e54e6f67e7c447137cbbfd66d50b7b450ee970a",
+    "docs/campaigns/realtime-2026-11-15/windows-entry-plan.json": "330d60252d3daa45c2067abce05cb1b6c3c32d7d89bff100d213919be2ad9fa3",
+    "tools/dispatch_windows_entry.py": "9a54ea024d924e4db502014a03e14f9f885b20679d1242743b545795f266c7a5",
+    "tools/dispatch_windows_profile.py": "888bbd290fd0897eb7dbb14a1af1dc96bdedd3622aeac979bcac9c99921862d2"
+  }
+}

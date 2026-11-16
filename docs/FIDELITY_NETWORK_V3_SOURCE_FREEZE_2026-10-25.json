@@ -1,0 +1,75 @@
+{
+  "status": "FROZEN_V3_SOURCE_AND_FULL_AUTOMATIC_NETWORK_REPLAY_EVIDENCE",
+  "files": [
+    {
+      "path": "docs/FIDELITY_NETWORK_ASSESSMENT_20261025-143749.json",
+      "sha256": "4396a57cde1f1f49a41c758632434be50f631bd27a6e8bb27d961e1dd38f84e3"
+    },
+    {
+      "path": "docs/FIDELITY_NETWORK_ENTRY_OFFLINE_2026-10-25_V3.json",
+      "sha256": "1ba537e1cc9091392b71a80d322022bd1e1494d8c5310b04fe798bfd775932f3"
+    },
+    {
+      "path": "docs/FIDELITY_NETWORK_PLAN_2026-10-25_V3.json",
+      "sha256": "47a5902b709ab439a6138348acd389c0bbbc30551be59f5159924b89c3b12662"
+    },
+    {
+      "path": "docs/FIDELITY_NETWORK_RUN_20261025-143749.json",
+      "sha256": "636a7b2829367e1e5cea7453a0a15244c65db8e4a39c059abfddd3ee742b2e9b"
+    },
+    {
+      "path": "docs/FIDELITY_NETWORK_V3_2026-10-25.md",
+      "sha256": "f3bd3aadccec78d3fab70b38dbb525fa20a9e48db89f2599ae6ce2d2b38e2dd1"
+    },
+    {
+      "path": "tools/fidelity_network_io.py",
+      "sha256": "4e9ffc1df9318f90ba80e74841b39c45acd6d9a2cfd5308f8afbeda02eef557c"
+    },
+    {
+      "path": "tools/fidelity_network_session.py",
+      "sha256": "1e6dad93983e77163fbd8859831cda01a90b5101440b5e3767ba1015838c6a02"
+    },
+    {
+      "path": "tools/fidelity_network_window.py",
+      "sha256": "409d40cdcc5fdaf6a8e3c33eee742470c6e018c621d2d39d0cf8e6d4bc8cfc2f"
+    },
+    {
+      "path": "tools/live_fidelity_candidate.py",
+      "sha256": "7629b1c5d16c859699192c9eafb9fe36f301dfd0d2052549d817e177728714c5"
+    },
+    {
+      "path": "tools/pico_v043_probe.py",
+      "sha256": "4c409829917b0ead6132f9e0bc7380e7c5c5253797ec6efb7a84939a492bdc9c"
+    },
+    {
+      "path": "tools/read_hotspot_state.ps1",
+      "sha256": "29b7b9d97bd1e3102a160d55a984a3035f5f80f8d4b5ab92907d9db7a2b55114"
+    },
+    {
+      "path": "tools/run_fidelity_network.py",
+      "sha256": "4e0785a4de7cca233876d17d712e1bac3e3c121286c420caba5a48b99e3971c9"
+    },
+    {
+      "path": "tools/test_fidelity_network.py",
+      "sha256": "4a20c83e7d1299563f9dfeda3e5cb691ad33526211995302cea5230c834d2c88"
+    },
+    {
+      "path": "tools/test_fidelity_network_io.py",
+      "sha256": "5d668f4f73f4c173625ff0c1ebc65789456ab8b064cbffa0edb52cef07ff7cad"
+    },
+    {
+      "path": "tools/v043_installation.py",
+      "sha256": "e878938ad8e00d714a1e559cf7a7441a935bb0aafc6ada487d8f0f2c06354f9d"
+    },
+    {
+      "path": "tools/verify_fidelity_network_offline.py",
+      "sha256": "5b75a42f43965da3c50c2dfec71422543f8c46f0a53cb645349fafd9902dfba8"
+    }
+  ],
+  "archive_sha256": "b5e2ac8199b314760ac2bdd17bdbc23889bfe0014d70b07d63353b1dda37edc6",
+  "archive_crc_verified": true,
+  "archived_files_verified": true,
+  "device_access": false,
+  "includes_private_credentials": false,
+  "scope": "Exact V3 code and independent replay evidence; not a full private Flash/credentials recovery bundle. Existing private recovery material preserved."
+}

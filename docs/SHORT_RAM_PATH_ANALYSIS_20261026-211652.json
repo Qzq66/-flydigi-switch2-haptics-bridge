@@ -1,0 +1,371 @@
+{
+  "status": "PASSED_THREE_QUERY_BIDIRECTIONAL_CAPTURE_AND_FLASH_UNCHANGED",
+  "hardware_access": false,
+  "capture_started": false,
+  "components": [
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "known_plaintext_wifi": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        105152,
+        238080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 1,
+      "rx_counter_max": 3,
+      "capture_sha256": "99b3fb6f41252e002c647a379340df8a2b80ebfa8ba4e3f703b0ffc424b84f03"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "known_plaintext_wifi": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        119152,
+        281080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 16,
+      "rx_counter_max": 3,
+      "capture_sha256": "039517757ebeb9a879998091873199707ad36af4314e537b22b57d7a8b658f92"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        76152,
+        146080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 19,
+      "rx_counter_max": 3,
+      "capture_sha256": "c191fb1c9242d53540a5d1fcfb201f356795d61f141b6163cba789ef4cf3bc4d"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        77152,
+        168080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 20,
+      "rx_counter_max": 3,
+      "capture_sha256": "0bb1b5949915172447b297a21881aa5fa9dd32b68490fb525bf7473f06b40697"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        84152,
+        173080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 21,
+      "rx_counter_max": 3,
+      "capture_sha256": "db3a1aa3af661ed021399df69d5beecf06918fe02c172420fe4439ebc6926c30"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        85152,
+        177080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 23,
+      "rx_counter_max": 3,
+      "capture_sha256": "28716ca3e10cc55478fe7a97c49146b17a668418829c42af45f0099d243a02be"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        87152,
+        183080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 24,
+      "rx_counter_max": 3,
+      "capture_sha256": "31370e517a9fa464c898725eaca3f51f3dba10c658c6ef68ef8afd6d5b0b94b2"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "normal": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        88152,
+        188080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 25,
+      "rx_counter_max": 3,
+      "capture_sha256": "b2a2e30d997671ee2af1e560aa53b00b34bb5a52c18cac8cd1c2c61d9023be1d"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 3,
+        "normal": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        90152,
+        218080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 26,
+      "rx_counter_max": 3,
+      "capture_sha256": "3484e6bbd4a594be300f282a3528af2c6f2be2592a114939293c406004f52097"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        100152,
+        225080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 27,
+      "rx_counter_max": 3,
+      "capture_sha256": "eb45b9089c4dc47fabb4bd766559fb3dc33b0d0400a0dd1902678fa267056ca2"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        101152,
+        230080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 28,
+      "rx_counter_max": 3,
+      "capture_sha256": "ca71e62d3a79ec0e67143f8cffedb2c8810195f20b6c5e72af509ebc2cac5a78"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        103152,
+        235080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 29,
+      "rx_counter_max": 3,
+      "capture_sha256": "b64a51e3109f412f955801ac6618c0f4af757343f52235fc27bd7d535cb9680b"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "known_plaintext_wifi": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        108152,
+        247080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 80,
+      "rx_counter_max": 3,
+      "capture_sha256": "a8ab4b230dda2a1654de5c62666d1e1be966e830fe4ceea4133f32279675dcbb"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        109152,
+        251080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 81,
+      "rx_counter_max": 3,
+      "capture_sha256": "8a8c3667eedeb11ff82826850f82de2d44c51e6ec724543c6342349cd922fa7d"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        110152,
+        268080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 82,
+      "rx_counter_max": 3,
+      "capture_sha256": "876471e9837f7341fdd1ac06878eb05831cd15b70d15e28a617b2679cd62c412"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 6,
+      "formats": {
+        "known_plaintext_wifi": 6
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        115152,
+        276080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 83,
+      "rx_counter_max": 3,
+      "capture_sha256": "d465da0e9eccbf827d7ac3db95cc79c7e2a9499df3865da35c5c2514e4fc1051"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "normal": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        73152,
+        133080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 121,
+      "rx_counter_max": 3,
+      "capture_sha256": "1df41b13955a26ef47418214b73176b585f396b79f3dcb56f430169732c5c8b0"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "normal": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        72152,
+        129080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 123,
+      "rx_counter_max": 3,
+      "capture_sha256": "59b53d08eef71229c4fc3c652742af57516948c628c53128b47f5bfde8078b1b"
+    },
+    {
+      "matched_reply_sequences": 3,
+      "all_three_observed": true,
+      "matched_component_copies": 3,
+      "formats": {
+        "normal": 3
+      },
+      "truncated_or_drop_reported": 0,
+      "component_to_app_ns_range": [
+        70152,
+        125080
+      ],
+      "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration",
+      "component_id": 124,
+      "rx_counter_max": 3,
+      "capture_sha256": "a178466b9ca60de87f2e1eb300965e698a9c02957cc40d6f795519591097a35c"
+    }
+  ],
+  "motor_commands": 0,
+  "full_capture": {
+    "matched_reply_sequences": 3,
+    "all_three_observed": true,
+    "matched_component_copies": 96,
+    "formats": {
+      "known_plaintext_wifi": 48,
+      "normal": 48
+    },
+    "truncated_or_drop_reported": 0,
+    "component_to_app_ns_range": [
+      70152,
+      281080
+    ],
+    "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration"
+  },
+  "app_report_sha256": "224370f5f9d0c60f5086e6fb85ef954e2940a54363a3f7b0c0e094918720418d",
+  "helper_report_sha256": "d4ec5b5662d0a71b2170ef7fb9536f5f8a28964b25d3147fd16b2370d4cb9dcf",
+  "complete_rx_components": [
+    1,
+    16,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    80,
+    81,
+    82,
+    83,
+    121,
+    123,
+    124
+  ],
+  "full_flash_after_matches": true
+}

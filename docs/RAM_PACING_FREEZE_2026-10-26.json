@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "hardware_access": false,
+  "offline_tests_passed": 7,
+  "files": [
+    {
+      "path": "tools/ram_pacing_loop.py",
+      "sha256": "682daebc5cab284e0395f66b6c8095ad43c8b0266e63359b4ae2aac012782f95"
+    },
+    {
+      "path": "tools/ram_pacing_path.py",
+      "sha256": "7da2084f050d2c9c8b3248faf69da277642f2a0be6c4af4d82f09394b006d8bb"
+    },
+    {
+      "path": "tools/test_ram_pacing_loop.py",
+      "sha256": "3aad4657795a2548b88a8cdc03f6ebfb60931ea6089298e10ce27df273b62261"
+    },
+    {
+      "path": "docs/RAM_PACING_PLAN_2026-10-26.json",
+      "sha256": "f8c81a6090813ad09043feee4cdf8aa08d93054bfc57c1097ab0df7b5ee09af4"
+    },
+    {
+      "path": "docs/RAM_PACING_PREPARATION_2026-10-26.md",
+      "sha256": "7c3a02b08099d4472bd635284ebeafb056d49c6507ca4f3238bf1b1eef84d299"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "status":  "INCOMPLETE",
+    "readonly":  true,
+    "administrator":  true,
+    "raw_bytes_preserved":  true,
+    "capture_started":  false,
+    "capture_stopped":  false,
+    "filters_changed":  false,
+    "network_settings_changed":  false,
+    "motor_commands":  0,
+    "pico_access":  false,
+    "script_sha256":  "08c0ae9418e061dcffbddcac6ef5bba01dc1489f081459c0057d2c3c04efbcb1",
+    "queries":  [
+                    {
+
+                    },
+                    {
+
+                    },
+                    {
+                        "query":  "status",
+                        "exit_code":  0,
+                        "raw_file":  "status.txt",
+                        "sha256":  "6f982593e84087b3e4d397c41f2d3a9abbd1d1dfb0720c8aa8d8e3860149d4ac",
+                        "stderr_file":  "status.txt.stderr",
+                        "stderr_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "stdout_bytes":  37,
+                        "stderr_bytes":  0
+                    },
+                    {
+
+                    },
+                    {
+
+                    },
+                    {
+                        "query":  "filter list",
+                        "exit_code":  0,
+                        "raw_file":  "filters.txt",
+                        "sha256":  "2b6983ab84fe47ef262b9ba40a8d2e62b3d3fa5625e6e29f7e16899c4bb9e70c",
+                        "stderr_file":  "filters.txt.stderr",
+                        "stderr_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "stdout_bytes":  30,
+                        "stderr_bytes":  0
+                    },
+                    {
+
+                    },
+                    {
+
+                    },
+                    {
+                        "query":  "list --json",
+                        "exit_code":  0,
+                        "raw_file":  "components.json",
+                        "sha256":  "9d43a767373f1538fee2e2051bc4c27481677f784a92d8705784f1b71b128b38",
+                        "stderr_file":  "components.json.stderr",
+                        "stderr_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "stdout_bytes":  210084,
+                        "stderr_bytes":  0
+                    }
+                ],
+    "error":  "An inventory query failed; no capture or filter change attempted"
+}

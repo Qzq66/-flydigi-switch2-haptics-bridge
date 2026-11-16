@@ -1,0 +1,10 @@
+{
+  "status": "PASSED_REGISTRATION47_OFFLINE_ONLY",
+  "tests": 49,
+  "io_guard": true,
+  "hardware_access": false,
+  "actual_input_forwarding": true,
+  "no_actuator_child_ast_checked": true,
+  "original_transport_60ms": true,
+  "pico_input_acceptance_ack_available": false
+}

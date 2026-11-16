@@ -1,0 +1,50 @@
+{
+  "status": "PASSIVE_READONLY_MOTOR_FOLLOWUP",
+  "configuration_writes": 0,
+  "motor_commands": 0,
+  "rows": [
+    {
+      "at_pc_clock": 0.332705,
+      "comparison": {
+        "identical": false,
+        "before_bytes": 64,
+        "after_bytes": 64,
+        "before_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+        "after_sha256": "b54f53c1c2f91f7bc9b65422a567a570a0e4f064d218ed7b8e33a9e163407553",
+        "different_offsets": [
+          56,
+          58
+        ]
+      }
+    },
+    {
+      "at_pc_clock": 0.8826613,
+      "comparison": {
+        "identical": false,
+        "before_bytes": 64,
+        "after_bytes": 64,
+        "before_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+        "after_sha256": "b54f53c1c2f91f7bc9b65422a567a570a0e4f064d218ed7b8e33a9e163407553",
+        "different_offsets": [
+          56,
+          58
+        ]
+      }
+    },
+    {
+      "at_pc_clock": 1.4237487,
+      "comparison": {
+        "identical": false,
+        "before_bytes": 64,
+        "after_bytes": 64,
+        "before_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+        "after_sha256": "b54f53c1c2f91f7bc9b65422a567a570a0e4f064d218ed7b8e33a9e163407553",
+        "different_offsets": [
+          56,
+          58
+        ]
+      }
+    }
+  ],
+  "raw_evidence_sha256": "66f433e0c787718c52223d89b0342e1a525af3f3436dccbc153fed9477e84216"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "RECOVERED_ENTRY_SELECTED_NOT_HARDWARE_ACCEPTED",
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_recovered51.py",
+      "sha256": "8c3bdd4e87dbe4d667788e907b11944fb9e7c7ab48f0b01d7796d12f7ec05582"
+    },
+    {
+      "path": "tools/run_fidelity_game_recovered51.py",
+      "sha256": "e2ca8569b31ed824049d44be0c36ac02217af3d71afbd53836df96fd67aea334"
+    },
+    {
+      "path": "tools/assess_fidelity_game_recovered51.py",
+      "sha256": "04bd4d3138517d6a661cc29ca135fed7afcac2c399d3c6b02284afbc86cc252f"
+    },
+    {
+      "path": "docs/RECOVERED_GAP42_G51_PLAN_2026-10-28.json",
+      "sha256": "e689338c320bb253eb9585aea85b6a42ccc08ccc98ec6947a7ba5868d379d23f"
+    },
+    {
+      "path": "docs/RECOVERED_GAP42_G51_OFFLINE_2026-10-28.json",
+      "sha256": "a3d1789fdc01106173efb1c291ff133864d00601d4594ec7fee8238cd69be97a"
+    },
+    {
+      "path": "Run-Recovered-GAP42.cmd",
+      "sha256": "cea02b2aec253f5d3bbb7ec2d9b124d3fc07554978cf85833c9c6d09d41ff5ff"
+    }
+  ]
+}

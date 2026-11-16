@@ -1,0 +1,37 @@
+{
+  "status": "PASSED_PCM_SUBMISSION_MATCH_AND_POSTMUTE_CLEANUP_GAME_STILL_INCOMPLETE",
+  "checks": {
+    "written_pcm_reference_matches": true,
+    "all_non_status_game_checks": true,
+    "strict_game_incomplete_preserved": true,
+    "fault_persisted": true,
+    "stop_already_confirmed_at_fault": true,
+    "no_generated_frames_after_fault": true,
+    "active_dose_not_restarted": true,
+    "final_stop_confirmed": true,
+    "configuration_unchanged": true,
+    "terminal_and_collector": true,
+    "timer_and_cleanup": true
+  },
+  "strict_game_status": "INCOMPLETE",
+  "frame_count": 1038,
+  "samples_per_side": 8304,
+  "active_ms": [
+    291,
+    291
+  ],
+  "peak_code": 9,
+  "code_energy": [
+    5466,
+    5466
+  ],
+  "observer_max_ms": 0.5409999999983484,
+  "writer_max_ms": 3.0780999999961978,
+  "dispatch_lateness_max_ms": 2.545000004587905,
+  "poll_calls": 13273,
+  "responses": 13269,
+  "timeouts": 4,
+  "maximum_response_gap_ms": 135.91120000000956,
+  "run_report_sha256": "75b808a67fad3b222f88abd9a09b6e98699ec605fc98ec5b1c259e76af51efa5",
+  "scope": "Successful host waveform submissions match source reconstruction; latched post-stop fault did not replay output. Not full game success, device per-frame ACK or measured active-rumble fault stop latency."
+}

@@ -1,0 +1,44 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "a4bba07ac53238884785a57950c0a8750ac66dae6cd1ed38d50beafaeccb12fc",
+  "pico_access": false,
+  "switch_access": false,
+  "persistent_flydigi_commands": 0,
+  "automatic_resume": false,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "segments": [],
+    "persistent_flydigi_commands": 0,
+    "error": "ValueError('Release controls and center sticks before A/B')",
+    "timer_released": true
+  },
+  "neutral_written_clock": 7.7014354,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

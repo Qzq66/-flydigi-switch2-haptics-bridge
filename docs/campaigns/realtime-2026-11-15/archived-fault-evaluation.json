@@ -1,0 +1,135 @@
+{
+  "status": "PASSED_VIRTUAL_FAULT_CONTAINMENT_EVALUATION",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "virtual_clock": true,
+  "product_behavior_changed": false,
+  "protection_parameters_changed": false,
+  "cases": [
+    {
+      "case": "dispatch_stall",
+      "passed": true,
+      "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+      "frames_at_fault": 626,
+      "stop_calls": 1,
+      "checks": {
+        "injected_during_real_excerpt_output": true,
+        "fault_latched": true,
+        "first_fault_observed": true,
+        "no_frame_in_fault_step": true,
+        "no_postfault_output": true,
+        "no_automatic_reenable": true,
+        "rearm_rejected": true,
+        "fake_stop_confirmed": true,
+        "exactly_one_stop": true,
+        "expected_fault_class": true,
+        "close_does_not_repeat_stop": true,
+        "publisher_closed": true
+      }
+    },
+    {
+      "case": "wire_gap",
+      "passed": true,
+      "fault": "BridgeFault('wire heartbeat timeout')",
+      "frames_at_fault": 636,
+      "stop_calls": 1,
+      "checks": {
+        "injected_during_real_excerpt_output": true,
+        "fault_latched": true,
+        "first_fault_observed": true,
+        "no_frame_in_fault_step": true,
+        "no_postfault_output": true,
+        "no_automatic_reenable": true,
+        "rearm_rejected": true,
+        "fake_stop_confirmed": true,
+        "exactly_one_stop": true,
+        "expected_fault_class": true,
+        "close_does_not_repeat_stop": true,
+        "publisher_closed": true
+      }
+    },
+    {
+      "case": "sequence_gap",
+      "passed": true,
+      "fault": "BridgeFault('Game archive sequence gap')",
+      "frames_at_fault": 626,
+      "stop_calls": 1,
+      "checks": {
+        "injected_during_real_excerpt_output": true,
+        "fault_latched": true,
+        "first_fault_observed": true,
+        "no_frame_in_fault_step": true,
+        "no_postfault_output": true,
+        "no_automatic_reenable": true,
+        "rearm_rejected": true,
+        "fake_stop_confirmed": true,
+        "exactly_one_stop": true,
+        "expected_fault_class": true,
+        "close_does_not_repeat_stop": true,
+        "publisher_closed": true
+      }
+    },
+    {
+      "case": "output_error",
+      "passed": true,
+      "fault": "OSError('Injected fake output failure')",
+      "frames_at_fault": 626,
+      "stop_calls": 1,
+      "checks": {
+        "injected_during_real_excerpt_output": true,
+        "fault_latched": true,
+        "first_fault_observed": true,
+        "no_frame_in_fault_step": true,
+        "no_postfault_output": true,
+        "no_automatic_reenable": true,
+        "rearm_rejected": true,
+        "fake_stop_confirmed": true,
+        "exactly_one_stop": true,
+        "expected_fault_class": true,
+        "close_does_not_repeat_stop": true,
+        "publisher_closed": true
+      }
+    },
+    {
+      "case": "collector_error",
+      "passed": true,
+      "fault": "BridgeFault('Candidate loop error: OSError')",
+      "frames_at_fault": 626,
+      "stop_calls": 1,
+      "checks": {
+        "injected_during_real_excerpt_output": true,
+        "fault_latched": true,
+        "first_fault_observed": true,
+        "no_frame_in_fault_step": true,
+        "no_postfault_output": true,
+        "no_automatic_reenable": true,
+        "rearm_rejected": true,
+        "fake_stop_confirmed": true,
+        "exactly_one_stop": true,
+        "expected_fault_class": true,
+        "close_does_not_repeat_stop": true,
+        "publisher_closed": true
+      }
+    }
+  ],
+  "regression": {
+    "tests": 357,
+    "seconds": 14.358881199999999,
+    "report": "l0-20261115-211629.json",
+    "historical_freezes_match": true
+  },
+  "result_scope": "Injected software faults while archived excerpt produces active samples. Confirms containment only; does not locate or fix historical scheduling stalls.",
+  "limitations": [
+    "Stop ACK is a fake callback result; no physical stopping evidence",
+    "No real transport, device writes, receiver reconnect, thread scheduling or mechanical test",
+    "Injected output exception cannot model every partial native-write outcome",
+    "Original fault records retained; no automatic retry or hardware authorization added"
+  ],
+  "sha256": {
+    "tools/archived_fault_campaign.py": "19b21e8eb0ebf72d498c9ecaf38235bde785e6fc39fdeacf8f886ffb34cf2c31",
+    "tools/test_archived_fault_campaign.py": "02775db9923f280dd17da456119f5793e39baaf155ee624bc23acbb5384a4f97",
+    "tools/verify_campaign.py": "2ff23dbf295e4be43d5f42740c72b99ef44ad465150fdb13b7ec09862fc5ab21",
+    "docs/campaigns/realtime-2026-11-15/archived-fault-containment.json": "6487eebc51aecab8fb282a0d35fe6db7f6015b3de9a39404fdfb33d0b2162871",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-211629.json": "80381cd81c3985a614323e0c316474c8c444327c52cb6ad231d1fe6ff0b33d46"
+  }
+}

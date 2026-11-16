@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "gate_seconds": 0.004,
+  "period_seconds": 0.008,
+  "dispatch_frames": 859,
+  "lateness": {
+    "count": 859,
+    "minimum": 2.1000036980467485e-06,
+    "median": 0.0007229000016764076,
+    "p95": 0.0018709000036096768,
+    "p99": 0.00224440000150139,
+    "maximum": 0.0027135000037787904
+  },
+  "work": {
+    "count": 859,
+    "minimum": 0.0007875999999953365,
+    "median": 0.0022176000000087015,
+    "p95": 0.0028874000000058686,
+    "p99": 0.0030394000000057986,
+    "maximum": 0.0035609999999905995
+  },
+  "gate_margin": {
+    "count": 859,
+    "minimum": 0.0012864999962212097,
+    "median": 0.0032770999983235925,
+    "p95": 0.00392099999860784,
+    "p99": 0.0039824999975857055,
+    "maximum": 0.003997899996301953
+  },
+  "frames_over_2ms_late": 23,
+  "frozen": {
+    "path": "docs\\FIDELITY_GAME_RUN_20261115-165425.json",
+    "sha256": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05"
+  },
+  "fault": {
+    "last_check_to_deadline": 0.0021033999961730387,
+    "wake_delay": 0.008707299999997531,
+    "wake_delay_allowance": 0.006103399996173039,
+    "observed_lateness": 0.0066075000038239295,
+    "exceeded_allowance": 0.002603900003824492,
+    "previous_lateness": -0.002098799996176126,
+    "recorded_fault_lateness": 0.0066075000038239295
+  }
+}

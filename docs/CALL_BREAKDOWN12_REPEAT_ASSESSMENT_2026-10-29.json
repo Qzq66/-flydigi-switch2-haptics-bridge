@@ -1,0 +1,18 @@
+{
+  "status": "PASSED_TWO_SHORT_NO_ACTUATOR_12MS_RUNS_NOT_GAME_VALIDATED",
+  "checks": {
+    "flash": true,
+    "generation": true,
+    "source": true,
+    "calls": true,
+    "phase": true,
+    "first": true
+  },
+  "first_max_gap_ms": 66.02069999999571,
+  "second_max_gap_ms": 64.6419999999921,
+  "second_timeouts": 112,
+  "second_heartbeat_gaps": 0,
+  "readback_generation": 56,
+  "physical_baseline_refresh_pending": true,
+  "adopt_into_game_output": false
+}

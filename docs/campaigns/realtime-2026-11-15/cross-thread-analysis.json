@@ -1,0 +1,115 @@
+{
+  "outer_gap_seconds": 0.00870160000000908,
+  "context_contiguous": true,
+  "context_brackets_gap": true,
+  "collector_phase_seconds": {
+    "poll": 0.0018986000000040804,
+    "pause": 0.006739700000011339
+  },
+  "collector_phase_coverage_seconds": 0.00863830000001542,
+  "between_phase_seconds": 6.32999999936601e-05,
+  "collector_progress_boundaries": [
+    {
+      "event_index": 7490,
+      "boundary": "end",
+      "at": 105.1954879
+    },
+    {
+      "event_index": 7491,
+      "boundary": "start",
+      "at": 105.1955049
+    },
+    {
+      "event_index": 7491,
+      "boundary": "end",
+      "at": 105.1971918
+    },
+    {
+      "event_index": 7492,
+      "boundary": "start",
+      "at": 105.1972085
+    },
+    {
+      "event_index": 7492,
+      "boundary": "end",
+      "at": 105.2020815
+    },
+    {
+      "event_index": 7493,
+      "boundary": "start",
+      "at": 105.2021111
+    }
+  ],
+  "accepted_frames_inside_gap": [
+    {
+      "event_index": 7491,
+      "at": 105.1971864,
+      "event_count": 0,
+      "flags": 7
+    }
+  ],
+  "collector_progress_observed": true,
+  "new_motor_events_in_accepted_frames": 0,
+  "rows": [
+    {
+      "event_index": 7490,
+      "phase": "pause",
+      "start": 105.1913637,
+      "end": 105.1954879,
+      "duration_seconds": 0.004124200000006795,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 7491,
+      "phase": "poll",
+      "start": 105.1955049,
+      "end": 105.1971918,
+      "duration_seconds": 0.0016868999999957168,
+      "poll_index": 3746,
+      "outcome": "frame",
+      "received_at": 105.1971864,
+      "source_us": 38002905,
+      "flags": 7,
+      "event_count": 0,
+      "receive_gap_seconds": 0.005859000000000947
+    },
+    {
+      "event_index": 7492,
+      "phase": "pause",
+      "start": 105.1972085,
+      "end": 105.2020815,
+      "duration_seconds": 0.004873000000003458,
+      "requested_seconds": 0.004
+    },
+    {
+      "event_index": 7493,
+      "phase": "poll",
+      "start": 105.2021111,
+      "end": 105.2032789,
+      "duration_seconds": 0.001167800000004604,
+      "poll_index": 3747,
+      "outcome": "frame",
+      "received_at": 105.2032735,
+      "source_us": 38009429,
+      "flags": 7,
+      "event_count": 0,
+      "receive_gap_seconds": 0.0060870999999877995
+    }
+  ],
+  "limitations": [
+    "Poll/pause spans include waiting; not CPU occupancy",
+    "Other-thread progress does not identify why output thread did not run",
+    "No attribution to disk, GIL or OS without corresponding stage records"
+  ],
+  "fault_lateness_ms": 6.6075000038239295,
+  "scope": "Same child PC perf_counter timelines; no PC-Pico clock alignment assumed",
+  "root_cause": "unproven",
+  "status": "ARCHIVED_CROSS_THREAD_TIMELINE_VERIFIED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "product_code_changed": false,
+  "source_report_sha256": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05",
+  "l0_tests": 331,
+  "l0_report": "l0-20261115-203205.json",
+  "interpretation": "Collector progress is recorded during the main outer-loop gap. One accepted packet has zero new motor events; this is not evidence of whole-process suspension or heavy new motor decoding. Exact main-thread blocking source remains unproven."
+}

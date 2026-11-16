@@ -1,0 +1,111 @@
+{
+  "status": "PASSED_PASSIVE_WAKE_MEASUREMENT_AND_SAME_TRIAL_JOURNAL",
+  "checks": {
+    "program_completed": true,
+    "child_completed": true,
+    "plan_bound": true,
+    "pretest_flash_bound": true,
+    "exactly_one_new_generation": true,
+    "full_readback_verified": true,
+    "firmware_unchanged": true,
+    "complete_crc_journal": true,
+    "all_motor_fields_identical": true,
+    "wire_sequence_continuous": true,
+    "full_duration": true,
+    "terminal_confirmed": true,
+    "zero_motor_commands": true,
+    "zero_persistent_config_commands": true,
+    "configuration_unchanged": true,
+    "clean_exit": true,
+    "maximum_gap_context_matches": true,
+    "sleep_sample_count_matches_histogram": true,
+    "original_4ms_request_preserved": true,
+    "mean_sleep_consistent": true,
+    "worst_gap_has_correct_preceding_sleep": true,
+    "sleep_sample_counts_bounded": true,
+    "human_icon_seen": true,
+    "human_silence_confirmed": true
+  },
+  "generation": 29,
+  "motor_fields": 1969,
+  "live_seconds": 119.99147100000002,
+  "poll_calls": 18636,
+  "timeouts": 0,
+  "maximum_response_gap_seconds": 0.05182999999999538,
+  "sleep_count": 18634,
+  "mean_sleep_seconds": 0.004590367607599063,
+  "worst_sleep": {
+    "start": 137.3506267,
+    "end": 137.3566461,
+    "requested_seconds": 0.004,
+    "actual_seconds": 0.006019400000013775,
+    "overshoot_seconds": 0.0020194000000137748
+  },
+  "overshoot_bucket_counts": [
+    17017,
+    1617,
+    0,
+    0,
+    0
+  ],
+  "worst_gap_event": {
+    "start": 110.2301389,
+    "between_polls": 0.004711000000000354,
+    "stage_seconds": {
+      "input": 3.409999999348656e-05,
+      "send": 8.309999999767115e-05,
+      "receive": 0.04691510000000676
+    },
+    "stage_calls": {
+      "input": 1,
+      "send": 1,
+      "receive": 1
+    },
+    "operations": [
+      {
+        "kind": "input",
+        "duration": 3.409999999348656e-05,
+        "error_type": null
+      },
+      {
+        "kind": "send",
+        "duration": 8.309999999767115e-05,
+        "error_type": null
+      },
+      {
+        "kind": "receive",
+        "duration": 0.04691510000000676,
+        "error_type": null
+      }
+    ],
+    "end": 110.277261,
+    "duration": 0.047122099999995726,
+    "unattributed_seconds": 8.97999999978083e-05,
+    "response_gap": 0.05182999999999538,
+    "outcome": "frame",
+    "error_type": null,
+    "collector_sleep_before_poll": {
+      "start": 110.2254496,
+      "end": 110.230108,
+      "requested_seconds": 0.004,
+      "actual_seconds": 0.004658399999996732,
+      "overshoot_seconds": 0.0006583999999967317
+    }
+  },
+  "observed_window_within_80ms": true,
+  "general_realtime_stability_validated": false,
+  "root_cause_proven": false,
+  "receive_call_fraction_of_observed_worst_gap": 0.9051726799153182,
+  "human": {
+    "icon_seen": true,
+    "silence_confirmed": true,
+    "returned_bootsel": true
+  },
+  "conclusion": "In this observed window, the worst gap contained about4.66ms actual collector sleep and46.92ms receive-call time. This locates the measured delay but does not isolate radio/network from scheduling inside receive.",
+  "source_sha256": {
+    "docs\\PASSIVE_TRANSPORT_RUN_20261025-195942.json": "b9af66e72f596d42c2efa17711773c8d4cd5ff321bedc150bb6ef316f9b72886",
+    "docs\\V043_HOST_CAPTURE_20261025-200642.json": "aa4f6ab67b62b68b4d85441be25b15f47179dd01274bf1be54113f487934084d",
+    "docs\\PASSIVE_WAKE_PLAN_2026-10-25_G28.json": "ae25c123c3bb1d5daa3e235485272fd0badba1c90f28c44607dd84357b996b76",
+    "docs\\V043_READY_BASELINE_20261025-193016.json": "bbcc5dbea717fa6955050519bfd90aabb74bd1f48c6c116a5706f37655307757"
+  }
+}

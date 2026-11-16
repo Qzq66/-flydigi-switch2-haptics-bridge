@@ -1,0 +1,39 @@
+{
+  "status": "REPRODUCED_TWO_BYTE_MOTOR_RAM_CHANGE",
+  "trial": "20261115-153820",
+  "configuration_write_queries": 0,
+  "all_queries_read_or_known_volatile": true,
+  "transmit_checksums_valid": true,
+  "commands": {
+    "04": 1,
+    "A1": 18,
+    "A3": 315,
+    "53": 2,
+    "57": 17
+  },
+  "runtime_modes": [
+    "0112024000",
+    "011200"
+  ],
+  "motor_snapshots_crc_match": true,
+  "before_snapshots": 4,
+  "after_snapshots": 5,
+  "all_before_same": true,
+  "all_after_same": true,
+  "differences": [
+    {
+      "offset": 56,
+      "before": 64,
+      "after": 0
+    },
+    {
+      "offset": 58,
+      "before": 64,
+      "after": 0
+    }
+  ],
+  "persistent_state_unknown": true,
+  "field_semantics_unknown": true,
+  "no_firmware_write": true,
+  "scope": "Consistent CRC-validated motor RAM snapshots, not proof of persistent storage change; no causal isolation between mode enable, stream and disable yet."
+}

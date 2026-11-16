@@ -1,0 +1,13 @@
+{
+  "status": "OFFLINE_READY_NOT_LOADED",
+  "elf_sha256": "8d31ba4526595d6a02d6dace14c74d973c1ba28819a30c79f4ed5a98b5f27848",
+  "runner_sha256": "548489f116e275bdfba0f7667ba55a6fe37afd8ac8aef3eadb567a26b29e9893",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "hardware_actions": [],
+  "next": "confirm physical readiness; read actual Pico identity and private target before one run"
+}

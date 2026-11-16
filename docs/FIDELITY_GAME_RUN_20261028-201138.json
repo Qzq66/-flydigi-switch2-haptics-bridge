@@ -1,0 +1,101 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "b66be5a7a0a8fd5aa70f4f68a3cb9b82bd1ec9357495deaeb6a85df22f9d5c6c",
+  "actual_switch_game": true,
+  "host_flash_write": false,
+  "firmware_log_write_expected": true,
+  "persistent_flydigi_commands": 0,
+  "flash_log_validation_pending": true,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "3e6ee3be18154d9917c2b74a019caf78540cb924ab4fe961a2c3f20e2d8218c9",
+    "baseline_generation": 44
+  },
+  "accepted_input_proof": {
+    "verified": true,
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "accepted_input_generation": 13,
+    "source_hashes": {
+      "program": "dfb15c6f7b315b0a4545e59c3c6e6d59569977bd93a4fc9ee2e550b06a237867",
+      "capture": "3c23db0685dd4d27ed60817c30929f89d7372f0e5a3d0f72121c34f75a9b079a",
+      "baseline": "a5c24b94cff68eeebbcc169c812825bc5800fa13d36deda87cc9290c6cce8f89",
+      "assessment": "420c82102e40320343c974197a2afb5186b51867ace3eb44b9b7141c2ea8197c"
+    }
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "PASSED_ORDERED_PC_INPUT_LIVENESS",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 1061.515
+      },
+      {
+        "stage": 1,
+        "at": 1062.921
+      },
+      {
+        "stage": 2,
+        "at": 1063.218
+      },
+      {
+        "stage": 3,
+        "at": 1063.656
+      },
+      {
+        "stage": 4,
+        "at": 1064.296
+      }
+    ]
+  },
+  "post_neutral_discovery_ready": true,
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "host_flash_write": false,
+    "persistent_flydigi_commands": 0,
+    "actual_switch_game": true,
+    "error": "TimeoutError('No matching Pico within connection window')",
+    "input_relay": {
+      "slot": 0,
+      "reads_after_output_stop": 0,
+      "nonneutral_reads_after_output_stop": 0,
+      "last_pro_input": "000000000880000880",
+      "last_read_at_pc_clock": 2.3272833,
+      "last_nonneutral_at_pc_clock": null
+    },
+    "timer_released": true,
+    "finalization_errors": []
+  },
+  "neutral_written_clock": 140.1252167,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

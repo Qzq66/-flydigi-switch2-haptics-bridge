@@ -1,0 +1,30 @@
+{
+  "earliest_possible_drain": 105.1927775,
+  "end": 105.2023228,
+  "maximum_new_frames": 1,
+  "maximum_new_motor_events": 0,
+  "candidates": [
+    {
+      "event_index": 7491,
+      "earliest_publication": 105.1971918,
+      "latest_publication": 105.1972085,
+      "motor_events": 0
+    }
+  ],
+  "context_complete": true,
+  "actual_queue_depth_measured": false,
+  "actual_consumed_frame_count_unknown": true,
+  "assumptions": [
+    "Single serial collector producer and single consumer",
+    "collect_frames publishes a normal frame after poll returns and before pause starts",
+    "Original main loop drains FIFO before each dispatch check",
+    "Earliest drain bound is previous iteration completion, not an invented exact drain timestamp"
+  ],
+  "status": "ARCHIVED_QUEUE_ARRIVAL_UPPER_BOUND_VERIFIED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "product_code_changed": false,
+  "root_cause": "unproven",
+  "source_sha256": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05",
+  "interpretation": "At most one new normal frame with zero motor events could arrive after the conservative drain checkpoint. This weakens the old motor-backlog hypothesis; it does not measure actual queue depth or rule out delays inside a single call."
+}

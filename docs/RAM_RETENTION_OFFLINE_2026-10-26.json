@@ -1,0 +1,12 @@
+{
+  "status": "PASSED_53_OFFLINE_CHECKS_IDLE_RAM_RETENTION_BASELINE",
+  "tests": 53,
+  "hardware_access": false,
+  "capture_started": false,
+  "ram_loaded": false,
+  "old15_file_freeze_unchanged": true,
+  "baseline_generation": 37,
+  "maximum_queries": 7500,
+  "polling_seconds": 30,
+  "actual_measurement_complete": false
+}

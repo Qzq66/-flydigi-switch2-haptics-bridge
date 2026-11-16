@@ -1,0 +1,79 @@
+{
+  "status": "FROZEN_G24_PASSIVE_TIMING_SOURCE_AND_EVIDENCE",
+  "archive_name": "passive-g24-timing-source-evidence-20261025-163747.zip",
+  "archive_sha256": "d78099d2bf6151cd148f3f34a93d5b8f1dc137072092c0a7d6f15f9f679e8150",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "includes_full_flash_or_credentials": false,
+  "files": [
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_ASSESSMENT_20261025-163747.json",
+      "sha256": "c53a0477c67c8e8d2bcb44dabc36de60940206465aec71b6fb34ae9dd8fa23cf"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_G24_2026-10-25.md",
+      "sha256": "83da7e68f9c764f04076b1340a2adec87a0ca1d61cc58eedafbd0c39dfee4a08"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_OFFLINE_2026-10-25_G24.json",
+      "sha256": "ae24fd3a7d02d82a1781151e35efb262e760da42f26a7ef617494034e858dc3b"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_PLAN_2026-10-25_G24.json",
+      "sha256": "f46ed608d339f591857988f094f9d0b22848bcd254702346df1db7a5a2e43248"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-163747.json",
+      "sha256": "beee6e4c3b118315bd1342f8c8924c1fd2c1d932aebb4f87840c932df1fd01ea"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-164305.json",
+      "sha256": "cc98e65eaebd8921a885e2363d07378d55a50a28d126de40efe3432ece411ccb"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-164417.json",
+      "sha256": "323c393c28d11a7d49edd89be8abfcf2580b80ef3615450b143ff84f69e2489d"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/passive_timing_policy_g24.py",
+      "sha256": "160218dee714e85f0b51eefc8e190b90e5422f43d3b5c17ba0b4465be383f44c"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/poll_timing_probe.py",
+      "sha256": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+    },
+    {
+      "path": "tools/run_passive_timing_g24.py",
+      "sha256": "a4c3537ea412cc3d65b479f039e203a0f47f538d82434bf4df98b28522ada326"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/test_passive_timing_g24.py",
+      "sha256": "a3bdadfff8a5db41d1db4058592c85e8231b65a9ccab62b63b3b165bc3adfe2f"
+    },
+    {
+      "path": "tools/test_poll_timing_probe.py",
+      "sha256": "5c844377780e3c5030b476cc170656a7fcb4b52493a51efdf22af40a49daea90"
+    },
+    {
+      "path": "tools/verify_passive_timing_g24_offline.py",
+      "sha256": "6691c9b0a61ecf7fa93c47c3835a940f08dd9223f3e9ee83c5a50b6f3a44c1d0"
+    }
+  ],
+  "scope": "Actual V1 hardware timing evidence; V2 retention fix is separate and offline only. Not realtime stability or a proved radio/OS root cause."
+}

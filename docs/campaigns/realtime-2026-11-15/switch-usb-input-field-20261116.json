@@ -1,0 +1,100 @@
+{
+  "status": "USB_SWITCH_AB_AND_LEFT_STICK_OBSERVED",
+  "date": "2026-11-16",
+  "transport": "USB",
+  "device": {
+    "product": "Pro Controller",
+    "vid": 1406,
+    "pid": 8201,
+    "usage_page": 1,
+    "usage": 4,
+    "input_len": 64,
+    "output_len": 64,
+    "feature_len": 0
+  },
+  "user_confirmed_instructions_followed": true,
+  "reads": 2001,
+  "report_ids": {
+    "0x30": 2001
+  },
+  "report_lengths": {
+    "64": 2001
+  },
+  "stored_samples": 423,
+  "ab_order_matches": true,
+  "button_transitions": [
+    {
+      "seconds": 0.0,
+      "state": "none"
+    },
+    {
+      "seconds": 1.61,
+      "state": "A"
+    },
+    {
+      "seconds": 1.797,
+      "state": "none"
+    },
+    {
+      "seconds": 2.985,
+      "state": "B"
+    },
+    {
+      "seconds": 3.172,
+      "state": "none"
+    },
+    {
+      "seconds": 4.063,
+      "state": "A"
+    },
+    {
+      "seconds": 4.25,
+      "state": "none"
+    },
+    {
+      "seconds": 5.157,
+      "state": "B"
+    },
+    {
+      "seconds": 5.344,
+      "state": "none"
+    }
+  ],
+  "left_stick": {
+    "lx": {
+      "min": 0,
+      "max": 4095,
+      "baseline_median": 2056,
+      "end_median": 2039
+    },
+    "ly": {
+      "min": 0,
+      "max": 4095,
+      "baseline_median": 2056,
+      "end_median": 2039
+    }
+  },
+  "decoder_unit_tests_passed": 5,
+  "motor_commands": 0,
+  "configuration_commands": 0,
+  "pico_access": false,
+  "bluetooth_tested": false,
+  "haptics_verified": false,
+  "report_descriptor_raw_obtained": false,
+  "raw_capture_sha256": "61460f6ec0f1b1abe68199c1f317675924b07e532e10e72c9e1e7ab866fb3fcf",
+  "result_sha256": "29ffe75e299c8e78cd8a0f7ecc351a723a96558b979f0bc297c8026730533c90",
+  "source_hashes": {
+    "tools/switch_usb_readonly.py": "020329a9e00a7bf4b1b3e385759359925ad1a834469c846032e3ca0e5f6476a7",
+    "tools/check_switch_usb_input.py": "0e76fb2955b0c6bee05de644f8ecafcb397f18164b0c61f440ec7ba46a56752f",
+    "tools/switch_report30.py": "656acdf2848bf69ae9504ab80035c3b81997e61a97cd48da0e4a6d8b80b5ce09",
+    "tools/test_switch_report30.py": "4ea4e80ee485d02d19c8ed529aaec55d563d9ae2138b44c480b03d704001b77d"
+  },
+  "private_folder": "switch-usb-input-1794806246604",
+  "limits": [
+    "HID capabilities and observed input are verified; raw HID report descriptor not captured",
+    "No claim about output format acceptance or HD fidelity",
+    "Axis return-to-center is observed metric, not calibration or new deadzone",
+    "VID/PID identifies compatibility, not manufacturer authenticity",
+    "No persistent configuration comparison performed; no device-output API called"
+  ]
+}

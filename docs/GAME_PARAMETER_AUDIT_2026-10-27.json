@@ -1,0 +1,263 @@
+{
+  "status": "PASSED_ACCEPTED_GAME_PARAMETER_AND_SOFTWARE_CORE_AUDIT",
+  "hardware_access": false,
+  "motor_commands": 0,
+  "mapping_changed": false,
+  "trials": [
+    {
+      "trial": "20261026-232226",
+      "source_report_sha256": "ebd27c5d36631d85b6d91fd27392da2090d9f33cbe68b2e3774f6480af4be0b7",
+      "accepted_assessment_sha256": "98ea27869f660341221650d6ce6fc9cbab47a55a2164adc86ff2026b02b6ed1e",
+      "compared_pcm_samples_per_side": 4768,
+      "streaming_core_equals_independent_pcm": true,
+      "historical_pcm_bytes_recorded": false,
+      "transport_replayed": false,
+      "gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "side": "left",
+          "decoded_points": 59,
+          "parameter_changes": 5,
+          "bands": {
+            "low": {
+              "active_frequency_levels_hz": [
+                40.875885946164665,
+                99.34862496587871,
+                123.37686603263526
+              ],
+              "active_amplitude_levels": [
+                0.04419417382415922,
+                0.052556025953357156
+              ],
+              "maximum_individual_code_amplitude": 5.045378491522287
+            },
+            "high": {
+              "active_frequency_levels_hz": [
+                118.14609167515995,
+                246.75373206527053,
+                320.0
+              ],
+              "active_amplitude_levels": [
+                0.03716272234383503,
+                0.04419417382415922
+              ],
+              "maximum_individual_code_amplitude": 4.242640687119286
+            }
+          },
+          "band_active_sample_counts": {
+            "both": 283,
+            "low_only": 0,
+            "high_only": 0,
+            "neutral": 4485
+          },
+          "active_intervals_ms": [
+            {
+              "start_ms": 4484,
+              "end_ms": 4767,
+              "duration_ms": 283
+            }
+          ],
+          "conservative_peak_bound": 8.61299983653045,
+          "headroom_to_12": 3.3870001634695495,
+          "metrics": {
+            "active_ms": 283,
+            "longest_active_ms": 283,
+            "peak_code": 9,
+            "nonneutral_samples": 259,
+            "quantization_error_rms": 0.28844544741882455,
+            "quantization_error_max": 0.49951795941466814,
+            "snr_db": 23.613099294897367,
+            "zero_code_active_samples": 24,
+            "maximum_parameter_grid_delay_us": 656.4999999850988,
+            "clipped_samples": 0
+          },
+          "offline_pcm_sha256": "bc5c2c1f11b382f63a5e7ae02268ff883aa38278ca86e85f1d62fe89ebc21c48"
+        },
+        {
+          "side": "right",
+          "decoded_points": 59,
+          "parameter_changes": 5,
+          "bands": {
+            "low": {
+              "active_frequency_levels_hz": [
+                40.875885946164665,
+                99.34862496587871,
+                123.37686603263526
+              ],
+              "active_amplitude_levels": [
+                0.04419417382415922,
+                0.052556025953357156
+              ],
+              "maximum_individual_code_amplitude": 5.045378491522287
+            },
+            "high": {
+              "active_frequency_levels_hz": [
+                118.14609167515995,
+                246.75373206527053,
+                320.0
+              ],
+              "active_amplitude_levels": [
+                0.03716272234383503,
+                0.04419417382415922
+              ],
+              "maximum_individual_code_amplitude": 4.242640687119286
+            }
+          },
+          "band_active_sample_counts": {
+            "both": 283,
+            "low_only": 0,
+            "high_only": 0,
+            "neutral": 4485
+          },
+          "active_intervals_ms": [
+            {
+              "start_ms": 4484,
+              "end_ms": 4767,
+              "duration_ms": 283
+            }
+          ],
+          "conservative_peak_bound": 8.61299983653045,
+          "headroom_to_12": 3.3870001634695495,
+          "metrics": {
+            "active_ms": 283,
+            "longest_active_ms": 283,
+            "peak_code": 9,
+            "nonneutral_samples": 259,
+            "quantization_error_rms": 0.28844544741882455,
+            "quantization_error_max": 0.49951795941466814,
+            "snr_db": 23.613099294897367,
+            "zero_code_active_samples": 24,
+            "maximum_parameter_grid_delay_us": 656.4999999850988,
+            "clipped_samples": 0
+          },
+          "offline_pcm_sha256": "bc5c2c1f11b382f63a5e7ae02268ff883aa38278ca86e85f1d62fe89ebc21c48"
+        }
+      ]
+    },
+    {
+      "trial": "20261027-212240",
+      "source_report_sha256": "b17d15215526461d21fc5bff7a6674c2f54a5b6eeff9d06b5fd0ca948d58d42e",
+      "accepted_assessment_sha256": "6ddf25e523fd70a77c236731bd212c8c4ecd5c76806000e05d659eb7abae6512",
+      "compared_pcm_samples_per_side": 3760,
+      "streaming_core_equals_independent_pcm": true,
+      "historical_pcm_bytes_recorded": false,
+      "transport_replayed": false,
+      "gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "side": "left",
+          "decoded_points": 49,
+          "parameter_changes": 3,
+          "bands": {
+            "low": {
+              "active_frequency_levels_hz": [
+                99.34862496587871
+              ],
+              "active_amplitude_levels": [
+                0.052556025953357156
+              ],
+              "maximum_individual_code_amplitude": 5.045378491522287
+            },
+            "high": {
+              "active_frequency_levels_hz": [
+                118.14609167515995
+              ],
+              "active_amplitude_levels": [
+                0.03716272234383503
+              ],
+              "maximum_individual_code_amplitude": 3.5676213450081633
+            }
+          },
+          "band_active_sample_counts": {
+            "both": 272,
+            "low_only": 0,
+            "high_only": 0,
+            "neutral": 3488
+          },
+          "active_intervals_ms": [
+            {
+              "start_ms": 3486,
+              "end_ms": 3758,
+              "duration_ms": 272
+            }
+          ],
+          "conservative_peak_bound": 8.61299983653045,
+          "headroom_to_12": 3.3870001634695495,
+          "metrics": {
+            "active_ms": 272,
+            "longest_active_ms": 272,
+            "peak_code": 9,
+            "nonneutral_samples": 250,
+            "quantization_error_rms": 0.298865392671559,
+            "quantization_error_max": 0.4961381278099868,
+            "snr_db": 23.388407322830016,
+            "zero_code_active_samples": 22,
+            "maximum_parameter_grid_delay_us": 802.0999999940395,
+            "clipped_samples": 0
+          },
+          "offline_pcm_sha256": "0d18aa9bde22c49a4c9f4f1ee5ac796e7bcc45b78949d42b23c54957c049ef18"
+        },
+        {
+          "side": "right",
+          "decoded_points": 49,
+          "parameter_changes": 3,
+          "bands": {
+            "low": {
+              "active_frequency_levels_hz": [
+                99.34862496587871
+              ],
+              "active_amplitude_levels": [
+                0.052556025953357156
+              ],
+              "maximum_individual_code_amplitude": 5.045378491522287
+            },
+            "high": {
+              "active_frequency_levels_hz": [
+                118.14609167515995
+              ],
+              "active_amplitude_levels": [
+                0.03716272234383503
+              ],
+              "maximum_individual_code_amplitude": 3.5676213450081633
+            }
+          },
+          "band_active_sample_counts": {
+            "both": 272,
+            "low_only": 0,
+            "high_only": 0,
+            "neutral": 3488
+          },
+          "active_intervals_ms": [
+            {
+              "start_ms": 3486,
+              "end_ms": 3758,
+              "duration_ms": 272
+            }
+          ],
+          "conservative_peak_bound": 8.61299983653045,
+          "headroom_to_12": 3.3870001634695495,
+          "metrics": {
+            "active_ms": 272,
+            "longest_active_ms": 272,
+            "peak_code": 9,
+            "nonneutral_samples": 250,
+            "quantization_error_rms": 0.298865392671559,
+            "quantization_error_max": 0.4961381278099868,
+            "snr_db": 23.388407322830016,
+            "zero_code_active_samples": 22,
+            "maximum_parameter_grid_delay_us": 802.0999999940395,
+            "clipped_samples": 0
+          },
+          "offline_pcm_sha256": "0d18aa9bde22c49a4c9f4f1ee5ac796e7bcc45b78949d42b23c54957c049ef18"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Compares mathematical reconstruction with isolated software core, not recorded historical HID PCM bytes.",
+    "No transport scheduling replay, physical force measurement or original-controller equivalence.",
+    "Source active samples that quantise to neutral are not classified as source-off or packet loss."
+  ]
+}

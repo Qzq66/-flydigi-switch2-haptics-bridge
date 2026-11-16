@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_OFFLINE_OUTER_LOOP_SEGMENTATION_AND_HOST_SAMPLES",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "live_entry_changed": false,
+  "hardware_plan_created": false,
+  "protection_parameters_changed": false,
+  "tests": {
+    "probe": 11,
+    "attachment": 4,
+    "audited_l0": 222,
+    "report": "l0-20261115-170833.json"
+  },
+  "host_samples": [
+    "host-timing-sample.json",
+    "host-timing-live-timer.json"
+  ],
+  "same_live_timer_request_ms": 1,
+  "timer_request_successfully_released": true,
+  "instrumentation_scope": [
+    "sleep/wakeup call span",
+    "cancel marker stat",
+    "arm marker stat/read",
+    "input ingestion",
+    "phase enqueue",
+    "unattributed residual"
+  ],
+  "call_span_not_pure_subsystem_latency": true,
+  "ring_capacity": 256,
+  "first_stall_context_retained": true,
+  "missing_context_explicit": true,
+  "product_trial_root_cause": "unproven",
+  "remaining_authorized_hardware_trials": 0,
+  "files": [
+    {
+      "path": "tools/outer_loop_probe.py",
+      "sha256": "bdd4767a5d76588c13bdb53ef5bf56dd21bb8c240e6a5dab4025d22521a41657"
+    },
+    {
+      "path": "tools/test_outer_loop_probe.py",
+      "sha256": "bb2c06accd4e91a7d3c250fbc138be4676b89c2958aa5143eb3f7b9f4ef8d975"
+    },
+    {
+      "path": "tools/test_outer_loop_attachment.py",
+      "sha256": "5b281480635092ece63495730e9b9101dcede02a46a3d24899a99003e5dfbc05"
+    }
+  ]
+}

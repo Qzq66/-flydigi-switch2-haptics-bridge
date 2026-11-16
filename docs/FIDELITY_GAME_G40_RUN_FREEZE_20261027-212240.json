@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_PASSED_REPEAT_AND_STARTUP_HISTORY",
+  "baseline_generation": 41,
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_g40.py",
+      "sha256": "adcac5ca9c4bf7530f105046debd35fc7f62bd897862a9585b9db74df4c65275"
+    },
+    {
+      "path": "tools/run_fidelity_game_g40.py",
+      "sha256": "06951448364bd58744018cce47247014237a52ee822f34b95b9db1eb616845f3"
+    },
+    {
+      "path": "tools/assess_fidelity_game_g40.py",
+      "sha256": "1e9b31d0fd3fd315292155f0402a7b24275b8a81eead8f2cabf99ee0e93de49b"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_G40_2026-10-27.json",
+      "sha256": "eeb7c26e96f90302b0d2fc7a505df8f14df9489ffe49efbfa3b905571e762801"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G40_PREPARATION_2026-10-27.json",
+      "sha256": "343bd3681de42448e944a906242ce5854e62051a75032e3a3d24acf0e1edc254"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G40_2026-10-27.md",
+      "sha256": "7dbcd757d3509287914bdff21e2c175771b22f734263654732f719b915dab428"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261027-211903.json",
+      "sha256": "89577dfd2f3327a773b017f6b47fe6a2dde6f2f5c214cd51e846f1bd1a868d2b"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261027-211946.json",
+      "sha256": "0d957d6908e688a6973bff63ce3cfc69dccb740e341867993e89833e7c777f74"
+    },
+    {
+      "path": "docs/STARTUP_JOURNAL_20261027-211946.json",
+      "sha256": "a7d49fedc1ae55896702b6ccf42d8d49475b265f3163a27c0e68c52dad4bf36f"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261027-212240.json",
+      "sha256": "b17d15215526461d21fc5bff7a6674c2f54a5b6eeff9d06b5fd0ca948d58d42e"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261027-212903.json",
+      "sha256": "85c573572862491151e0f5d87dd56c5b0f38844da270727b1e905a1a63bfb488"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G40_ASSESSMENT_20261027-212240.json",
+      "sha256": "6ddf25e523fd70a77c236731bd212c8c4ecd5c76806000e05d659eb7abae6512"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_REPEAT_ASSESSMENT_20261027-212240.json",
+      "sha256": "641c7f0bd3aa06b981321b96c1345bcce74034dbdb1964f31ac0bffaac365f1d"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261027-212936.json",
+      "sha256": "94f26b994d408d99a1aed47e95c44d3d859e6601dcd5aedc7fb5a2b0d01f532a"
+    }
+  ]
+}

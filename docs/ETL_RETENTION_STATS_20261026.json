@@ -1,0 +1,37 @@
+{
+  "status": "OFFLINE_ETL_STATS_COMPLETE_CAPACITY_HYPOTHESIS_UNPROVEN",
+  "cases": [
+    {
+      "label": "long-all",
+      "source_etl_sha256": "26277d086fff7735c90d30552d4858abe3d1b57bb425e7885fc7865272adc789",
+      "summary_sha256": "680308758456dfda08952039c0d26087136293d4b0523d81fa704f0a690b97bf",
+      "buffers_processed": 8,
+      "events_processed": 289036,
+      "events_lost": 0
+    },
+    {
+      "label": "short-all",
+      "source_etl_sha256": "3ed140137db2f8229de21b85c6ecf96f966afcd8c6d015a6eeef079f888a3b16",
+      "summary_sha256": "0eb07d4a2508b8fe2a19bdb8bce26c1b19874e244bff16614ad5fc0829adf5f0",
+      "buffers_processed": 7,
+      "events_processed": 1989,
+      "events_lost": 0
+    },
+    {
+      "label": "short-selected",
+      "source_etl_sha256": "a389b7edf7147449819b4e25ab6bb7ba97869598fedb2dbace8d69d17a65280f",
+      "summary_sha256": "a846974e2b3b2443ed635339245b224a84de877f584c7c4e08130905d72f5ae1",
+      "buffers_processed": 5,
+      "events_processed": 1853,
+      "events_lost": 0
+    }
+  ],
+  "observed_buffer_kb": 16384,
+  "configured_file_limit_mb": 128,
+  "nominal_total_buffer_slots": 8,
+  "processed_counts_include_header_metadata": true,
+  "zero_events_lost_does_not_prove_complete_application_match": true,
+  "overwrite_cause_proven": false,
+  "hardware_access": false,
+  "capture_started": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASSED_TEST_CONTRACT_REFACTOR",
+  "scope": "Offline test reliability only; not a scheduling or hardware fix",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "tests_changed": [
+    "tools/test_sustained_game_spin_child.py"
+  ],
+  "changes": [
+    "Replace wall-clock duration gates with exact sleep-call assertions and scripted clocks",
+    "Verify spin/no-spin branch and counters deterministically",
+    "Restore caller environment and counters with cleanup",
+    "Add None-target, expired-target, and exact-enable-value coverage"
+  ],
+  "regression": {
+    "report": "docs/campaigns/realtime-2026-11-15/l0-20261115-205925.json",
+    "tests": 343,
+    "seconds": 13.2546437,
+    "status": "PASSED_L0_OFFLINE_SUBSET",
+    "historical_freezes_match": true
+  },
+  "product_sources_unchanged": {
+    "tools/sustained_game_spin_child.py": true,
+    "tools/software_loop_replay.py": true,
+    "tools/retained_outer_gap.py": true
+  },
+  "original_failure": {
+    "report": "docs/campaigns/realtime-2026-11-15/l0-20261115-205212.json",
+    "unchanged": true,
+    "elapsed_seconds": 0.00038980000000066184,
+    "cause": "UNPROVEN; neither hidden nor reclassified by this refactor"
+  },
+  "timing_metrics_retained": [
+    "software-loop-replay.json",
+    "software-loop-highres.json",
+    "software-loop-last-gap.json",
+    "host-timing-live-timer.json"
+  ],
+  "limitations": [
+    "Deterministic tests verify the requested wait and control flow, not OS sleep accuracy",
+    "No new timing measurement or hardware acceptance performed",
+    "Earlier dispatch failures remain unresolved"
+  ],
+  "sha256": {
+    "tools/sustained_game_spin_child.py": "ecb75dc7111f2755aa4af3b02a3d645ff18faa90dcaa09198d06ff1e519466de",
+    "tools/software_loop_replay.py": "141102c6edc6cf61a9cd7f824a00d02eedf77250c8468467dac790f6188c010e",
+    "tools/retained_outer_gap.py": "8a29c51cdd33525abdee914ce1a48e77437baf692472f578a6bf34bb10186a3f",
+    "tools/test_sustained_game_spin_child.py": "1b3c29d7554d30cf3df24f5a7dfcf6922bc25a5911d2706b6a33bda2cd428090",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-205212.json": "8c862feeed95b8e95488089420bfc607decafbc978e282f215d6da550e2ce6f6",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-205925.json": "b395067accd8a573c431dc6c0c5214bb62f6d93a37ad0552cefe9caa974fb90e"
+  }
+}

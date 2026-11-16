@@ -1,0 +1,31 @@
+{
+  "status": "OFFLINE_OBSERVER_COST_AND_THREAD_CONTENTION_EVALUATED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "live_code_changed": false,
+  "protection_parameters_changed": false,
+  "observer_cost": {
+    "samples": 10000,
+    "capacity": 256,
+    "median_us": 9.2,
+    "p99_us": 11.7,
+    "max_us": 86.9,
+    "over4ms": 0
+  },
+  "contention_sample": {
+    "unloaded_deadlines": 100,
+    "original_interval_seconds": 0.005,
+    "synthetic_busy_worker_fault_ms": 5.4868,
+    "experimental_interval_seconds": 0.001,
+    "experimental_max_successful_lateness_ms": 3.9293
+  },
+  "all_host_settings_restored": true,
+  "all_workers_joined": true,
+  "actual_trial_root_cause": "unproven",
+  "decision": "Do not deploy the switch-interval experiment. Next inspect/profile real archived collector/decoder workload offline to evaluate whether synthetic contention is representative.",
+  "remaining_authorized_hardware_trials": 0,
+  "evidence": [
+    "probe-overhead.json",
+    "thread-contention-host.json"
+  ]
+}

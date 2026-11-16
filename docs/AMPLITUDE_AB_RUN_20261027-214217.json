@@ -1,0 +1,86 @@
+{
+  "status": "PASSED_FIDELITY_AB_PROGRAM_AND_CONFIG",
+  "plan_sha256": "1238238d52c180e6179de7debefd6dbdea79a8bebbefec8065884a937404dcc6",
+  "pico_access": false,
+  "switch_access": false,
+  "persistent_flydigi_commands": 0,
+  "automatic_resume": false,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 0,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "PASSED_FIDELITY_AB_CLIP_PROGRAM",
+    "segments": [
+      {
+        "label": "A",
+        "stop": {
+          "neutral_written_clock": 22.1072499,
+          "disable_attempts": [
+            {
+              "attempt": 1,
+              "status": "ACK_OK"
+            }
+          ],
+          "runtime_disable_ack": true,
+          "confirmed_at_monotonic": 2755.375
+        },
+        "started_at_monotonic": 2755.078,
+        "playback": {
+          "frames": 26,
+          "samples_per_side": 208,
+          "elapsed_seconds": 0.21013510000000224
+        }
+      },
+      {
+        "label": "B",
+        "stop": {
+          "neutral_written_clock": 27.4073306,
+          "disable_attempts": [
+            {
+              "attempt": 1,
+              "status": "ACK_OK"
+            }
+          ],
+          "runtime_disable_ack": true,
+          "confirmed_at_monotonic": 2760.671
+        },
+        "started_at_monotonic": 2760.375,
+        "playback": {
+          "frames": 26,
+          "samples_per_side": 208,
+          "elapsed_seconds": 0.21116870000000176
+        }
+      }
+    ],
+    "persistent_flydigi_commands": 0,
+    "manual_armed": true,
+    "manual_accepted_at_monotonic": 2749.062,
+    "timer_released": true
+  },
+  "neutral_written_clock": 28.0801969,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

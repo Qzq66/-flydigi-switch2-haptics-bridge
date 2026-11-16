@@ -1,0 +1,35 @@
+{
+  "kind": "same_idle_RAM_polling_capacity_comparison_1024MB",
+  "file_limit_mb": 1024,
+  "reference_sha256": "7ec49b2c563db91cd4ec394672caec24bc5fbeca300ebdd5d53a2e5a5fbc01e8",
+  "baseline_generation": 37,
+  "expected_full_flash_sha256": "1ff5b030cba9ace4e951c7395437f66778835ef9a7a003e05d33f099eb8454a5",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "baseline_proof_sha256": "e690cc30eabf0f613783fd4757f966f10d96ea85d4c2ad4b1ba9c59888abc011",
+  "ram_sha256": "49acbba65eea98c1ec29a18e697c33f364111a0b2a224f56bb792067c1ce8c56",
+  "ram_bounds": {
+    "blocks": 1195,
+    "minimum_address": "0x20000000",
+    "maximum_end": "0x2004ab00"
+  },
+  "maximum_queries": 7500,
+  "polling_seconds": 30,
+  "retries": 0,
+  "receive_timeout_seconds": 0.012,
+  "request_spacing_seconds": 0.004,
+  "maximum_capture_seconds": 240,
+  "motor_commands": 0,
+  "flydigi_access": false,
+  "flash_write": false,
+  "switch_required": false,
+  "source_sha256": {
+    "ram_capacity_path.py": "437372590a27be7616b1d5d07b2a9193f243a989beee3bcedefc098d7720d74f",
+    "packet_clock_probe.py": "77d124e5317a233f957ddf8d14d01fb6d6319aac715bfa1bb68da34dfba45349",
+    "capture_clock.py": "57ff348a4208cd105231cd2b59d4c9fefec2e4a47ed5b9f0139c82e7b4c1112b",
+    "pico_v043_probe.py": "4c409829917b0ead6132f9e0bc7380e7c5c5253797ec6efb7a84939a492bdc9c",
+    "ram_retention_loop.py": "af2ae68a982adba4ce03d6c3bd7e0be945222c4603c09355b26437f70286457a",
+    "short_wait_transport.py": "39b86fa8183b9ecdf5154c8d8a5d34adfe524c01aade3a1eada3b3dfdf0508dd",
+    "run_pktmon_ram_capacity.ps1": "70f802c9f6d40170ed6d01e817223f704524892d32606b45d8e8f80c0089f9e8",
+    "pktmon_capture_common_v4.ps1": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825"
+  }
+}

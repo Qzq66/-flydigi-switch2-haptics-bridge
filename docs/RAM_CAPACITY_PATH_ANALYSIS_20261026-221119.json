@@ -1,0 +1,1669 @@
+{
+  "status": "PASSED_BOUNDED_RAM_FULL_RECEIVE_COVERAGE_AND_FLASH_UNCHANGED",
+  "hardware_access": false,
+  "capture_started": false,
+  "components": [
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 53616,
+        "median": 124200,
+        "p95": 766256,
+        "max": 14428592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51242000,
+        "earlier_component_to_app_ns": 114152,
+        "later_component_to_app_ns": 133848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 1,
+      "rx_counter_max": 1943,
+      "capture_sha256": "17564eebbd2d6b1c643d062565a83d30879abe8d396036f7962ebb2b0ba9a960"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 60616,
+        "median": 140536,
+        "p95": 777840,
+        "max": 14444592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51241000,
+        "earlier_component_to_app_ns": 128152,
+        "later_component_to_app_ns": 148848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 16,
+      "rx_counter_max": 1943,
+      "capture_sha256": "c026ad75cfea85909be3373896e5f6510758a66e7c0380d85c9bdb173c4946b7"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 35224,
+        "median": 93048,
+        "p95": 734192,
+        "max": 14395592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 84152,
+        "later_component_to_app_ns": 101848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 19,
+      "rx_counter_max": 1943,
+      "capture_sha256": "bf7931e7b0d7e81907069c69e7cf8bda053be1a365fb76d72eef4eed1e79e2cb"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 37224,
+        "median": 99560,
+        "p95": 741192,
+        "max": 14402592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 90152,
+        "later_component_to_app_ns": 107848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 20,
+      "rx_counter_max": 1943,
+      "capture_sha256": "5d46a88cb2345216d160546383b0f54751c0e6b15ce0cb21c2c4f23021455044"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 38224,
+        "median": 100744,
+        "p95": 743192,
+        "max": 14403592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 92152,
+        "later_component_to_app_ns": 109848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 21,
+      "rx_counter_max": 1943,
+      "capture_sha256": "170160071caf0c3a5f9981d2949906c4bedd2c2a88f8d28600c20c5fdc7dc28b"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 39224,
+        "median": 102648,
+        "p95": 745192,
+        "max": 14405592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 93152,
+        "later_component_to_app_ns": 110848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 23,
+      "rx_counter_max": 1943,
+      "capture_sha256": "bf4b0dda27b30d0b21f3a9bd096890f836d9ec5c4b1c6848a53def6a027508f1"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 40224,
+        "median": 104560,
+        "p95": 747192,
+        "max": 14407592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51243000,
+        "earlier_component_to_app_ns": 95152,
+        "later_component_to_app_ns": 113848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 24,
+      "rx_counter_max": 1943,
+      "capture_sha256": "ed78b7094630f20f51aebe7814fec10f7ad77c5dc9b0f846055a4135202d59cd"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 41224,
+        "median": 106240,
+        "p95": 749192,
+        "max": 14409592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 97152,
+        "later_component_to_app_ns": 114848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 25,
+      "rx_counter_max": 1943,
+      "capture_sha256": "d6aea009901e56ad26f5660e2353ecf131f6223d5cfeeb029ef542f5afd838db"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 49616,
+        "median": 116416,
+        "p95": 760192,
+        "max": 14420592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51242000,
+        "earlier_component_to_app_ns": 107152,
+        "later_component_to_app_ns": 126848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 26,
+      "rx_counter_max": 1943,
+      "capture_sha256": "af9751028b9b01e10253330d2f9f39dcc40e058796e7302433c0c56bad989c89"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 50616,
+        "median": 119240,
+        "p95": 763192,
+        "max": 14423592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51243000,
+        "earlier_component_to_app_ns": 110152,
+        "later_component_to_app_ns": 128848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 27,
+      "rx_counter_max": 1943,
+      "capture_sha256": "24f4198829c648de3aee3cacd8faa7a5449f71de95f91a1f5e7c8b4df37bc7be"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 51616,
+        "median": 121384,
+        "p95": 764256,
+        "max": 14425592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51243000,
+        "earlier_component_to_app_ns": 112152,
+        "later_component_to_app_ns": 130848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 28,
+      "rx_counter_max": 1943,
+      "capture_sha256": "a931035348fcf5edf73db8b7124685f85d4558fbf88030dd2b06e9665a395bd7"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 53616,
+        "median": 123320,
+        "p95": 765256,
+        "max": 14427592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51242000,
+        "earlier_component_to_app_ns": 113152,
+        "later_component_to_app_ns": 132848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 29,
+      "rx_counter_max": 1943,
+      "capture_sha256": "9befce9f8004aea19b8f69e8508f0a03436885fdffac3c917d1c2a01c1041ddf"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 55616,
+        "median": 127544,
+        "p95": 768256,
+        "max": 14431592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51241000,
+        "earlier_component_to_app_ns": 117152,
+        "later_component_to_app_ns": 137848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 80,
+      "rx_counter_max": 1943,
+      "capture_sha256": "f0a733ad636588acdf6a24ebf5be06466af3881d55b7d70b0b050c2e802dafff"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 56616,
+        "median": 129288,
+        "p95": 769256,
+        "max": 14432592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51242000,
+        "earlier_component_to_app_ns": 119152,
+        "later_component_to_app_ns": 138848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 81,
+      "rx_counter_max": 1943,
+      "capture_sha256": "f4a659f736d26bf9265de96bd9a7a65b7ac32c7addc6b6f06e38a0e2f0718593"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 58616,
+        "median": 135088,
+        "p95": 772256,
+        "max": 14438592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51241000,
+        "earlier_component_to_app_ns": 123152,
+        "later_component_to_app_ns": 143848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 82,
+      "rx_counter_max": 1943,
+      "capture_sha256": "1f005f6607932664ea4c9be4f441c72ae727d339897d9f5963ec0f0bbc840c4e"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 3886,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 59616,
+        "median": 137944,
+        "p95": 775840,
+        "max": 14441592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51241000,
+        "earlier_component_to_app_ns": 126152,
+        "later_component_to_app_ns": 146848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 83,
+      "rx_counter_max": 1943,
+      "capture_sha256": "03e31c4a50f301673ec9309c12cda1785b4f378e045bf7e50b3051967a6b82c6"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 32224,
+        "median": 89048,
+        "p95": 729192,
+        "max": 14390592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 80152,
+        "later_component_to_app_ns": 97848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 121,
+      "rx_counter_max": 1943,
+      "capture_sha256": "1fbd35295a81d1a2f81a7e4f913d0dd9c029b6bf61a17f9702b0f22b195389a2"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 31224,
+        "median": 87632,
+        "p95": 728192,
+        "max": 14389592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51243000,
+        "earlier_component_to_app_ns": 78152,
+        "later_component_to_app_ns": 96848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 123,
+      "rx_counter_max": 1943,
+      "capture_sha256": "f8a7e5992a7e7b287c23490434b848d2fc6025ec38a0493492748bbf04a2d3cd"
+    },
+    {
+      "application_receive_rows": 1943,
+      "matched_receive_rows": 1943,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": true,
+      "component_copies": 1943,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": {
+        "min": 30224,
+        "median": 86232,
+        "p95": 727192,
+        "max": 14387592
+      },
+      "matched_original_adjacent_pairs": 1942,
+      "largest_matched_original_adjacent_gap": {
+        "application_pair_index": 53,
+        "app_gap_ns": 51261696,
+        "component_gap_ns": 51244000,
+        "earlier_component_to_app_ns": 77152,
+        "later_component_to_app_ns": 94848
+      },
+      "largest_original_application_gap": {
+        "application_pair_index": 53,
+        "application_gap_seconds": 0.0512617000000013,
+        "both_packets_matched": true
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 151,
+          "matched": 151
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 164,
+          "matched": 164
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 163,
+          "matched": 163
+        },
+        {
+          "application": 162,
+          "matched": 162
+        },
+        {
+          "application": 163,
+          "matched": 163
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization.",
+      "component_id": 124,
+      "rx_counter_max": 1943,
+      "capture_sha256": "b0bd0d5ee755328f990ebe04d4ac212bd9ddfe3978af7ba70a2a0462b954275c"
+    }
+  ],
+  "motor_commands": 0,
+  "full_capture": {
+    "application_receive_rows": 1943,
+    "matched_receive_rows": 1943,
+    "ambiguous_payload_groups": 0,
+    "truncated_or_drop_reported": 0,
+    "complete_receive_coverage": true,
+    "component_copies": 62176,
+    "negative_beyond_1ms": 0,
+    "component_to_application_ns": {
+      "min": 60616,
+      "median": 140536,
+      "p95": 777840,
+      "max": 14444592
+    },
+    "matched_original_adjacent_pairs": 1942,
+    "largest_matched_original_adjacent_gap": {
+      "application_pair_index": 53,
+      "app_gap_ns": 51261696,
+      "component_gap_ns": 51241000,
+      "earlier_component_to_app_ns": 128152,
+      "later_component_to_app_ns": 148848
+    },
+    "largest_original_application_gap": {
+      "application_pair_index": 53,
+      "application_gap_seconds": 0.0512617000000013,
+      "both_packets_matched": true
+    },
+    "coverage_12_time_bins": [
+      {
+        "application": 151,
+        "matched": 151
+      },
+      {
+        "application": 162,
+        "matched": 162
+      },
+      {
+        "application": 162,
+        "matched": 162
+      },
+      {
+        "application": 164,
+        "matched": 164
+      },
+      {
+        "application": 164,
+        "matched": 164
+      },
+      {
+        "application": 163,
+        "matched": 163
+      },
+      {
+        "application": 163,
+        "matched": 163
+      },
+      {
+        "application": 163,
+        "matched": 163
+      },
+      {
+        "application": 163,
+        "matched": 163
+      },
+      {
+        "application": 163,
+        "matched": 163
+      },
+      {
+        "application": 162,
+        "matched": 162
+      },
+      {
+        "application": 163,
+        "matched": 163
+      }
+    ],
+    "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization."
+  },
+  "app_report_sha256": "7289fb1545bf2730f00f8c4cfec771be63301a45cf8c42179370f8b8957a1fe1",
+  "helper_report_sha256": "58879101aea5a8b7aa43c2e06156e5f4fd91a267f718fc5053ee2c7385a96bd2",
+  "complete_rx_components": [
+    1,
+    16,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    80,
+    81,
+    82,
+    83,
+    121,
+    123,
+    124
+  ],
+  "full_flash_after_matches": true
+}

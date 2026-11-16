@@ -1,0 +1,201 @@
+{
+  "status": "OFFLINE_CANDIDATE_RECONSTRUCTED",
+  "device_access": false,
+  "network_access": false,
+  "io_guard": true,
+  "live_output_enabled": false,
+  "physical_fidelity_validated": false,
+  "frequency_mapping": "Two independent oscillators per grip at decoded frequencies",
+  "amplitude_mapping": "Global fixed gain96, no per-event normalization, no clipping",
+  "limitations": [
+    "5ms parameter-group scheduling remains an assumption.",
+    "Initial oscillator phase is an explicit zero-phase convention, not recovered actuator phase.",
+    "1000Hz PCM and +/-12 code bound; active frequencies >=500Hz refused.",
+    "Source timing is USB reception, not original effect-generation time.",
+    "CSV omits long silent gaps; original sample indices retain timing.",
+    "Gain96 is an offline numerical candidate, not physical calibration or a hardware playback authorization."
+  ],
+  "trials": [
+    {
+      "stamp": "20261024-131624",
+      "scene": "dodge-attack",
+      "sample_count": 101996,
+      "fixed_gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "active_ms": 296,
+          "longest_active_ms": 296,
+          "peak_code": 9,
+          "nonneutral_samples": 273,
+          "quantization_error_rms": 0.2949672575011897,
+          "quantization_error_max": 0.49996212423262865,
+          "snr_db": 23.639066718886482,
+          "zero_code_active_samples": 23,
+          "maximum_parameter_grid_delay_us": 999.9000000059605,
+          "clipped_samples": 0
+        },
+        {
+          "active_ms": 296,
+          "longest_active_ms": 296,
+          "peak_code": 9,
+          "nonneutral_samples": 273,
+          "quantization_error_rms": 0.2949672575011897,
+          "quantization_error_max": 0.49996212423262865,
+          "snr_db": 23.639066718886482,
+          "zero_code_active_samples": 23,
+          "maximum_parameter_grid_delay_us": 999.9000000059605,
+          "clipped_samples": 0
+        }
+      ],
+      "excluded_prearm_group_order_conflicts": [
+        1,
+        0
+      ],
+      "postarm_group_order_conflicts": 0,
+      "parameter_file": "20261024-131624-parameters.json",
+      "parameter_sha256": "8d9009fbfea6a1e953ebba74e5838f1148c84183b1032a90ca22bf7fc9c46712",
+      "preview_file": "20261024-131624-active-windows.csv",
+      "preview_rows": 306,
+      "preview_sha256": "49dd27086fab39ebaa9df63811778c28e927744d38954f82d43b5b8c68401a03"
+    },
+    {
+      "stamp": "20261024-132744",
+      "scene": "dodge-attack",
+      "sample_count": 105409,
+      "fixed_gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "active_ms": 296,
+          "longest_active_ms": 296,
+          "peak_code": 9,
+          "nonneutral_samples": 274,
+          "quantization_error_rms": 0.2950255816147042,
+          "quantization_error_max": 0.49926289116946365,
+          "snr_db": 23.39410161735133,
+          "zero_code_active_samples": 22,
+          "maximum_parameter_grid_delay_us": 998.0999999940395,
+          "clipped_samples": 0
+        },
+        {
+          "active_ms": 296,
+          "longest_active_ms": 296,
+          "peak_code": 9,
+          "nonneutral_samples": 274,
+          "quantization_error_rms": 0.2950255816147042,
+          "quantization_error_max": 0.49926289116946365,
+          "snr_db": 23.39410161735133,
+          "zero_code_active_samples": 22,
+          "maximum_parameter_grid_delay_us": 998.0999999940395,
+          "clipped_samples": 0
+        }
+      ],
+      "excluded_prearm_group_order_conflicts": [
+        0,
+        0
+      ],
+      "postarm_group_order_conflicts": 0,
+      "parameter_file": "20261024-132744-parameters.json",
+      "parameter_sha256": "cb7f73d36d73ea02fa6f41050fb2d73d8bc4c0dd9c257e3218564bdc7442454a",
+      "preview_file": "20261024-132744-active-windows.csv",
+      "preview_rows": 306,
+      "preview_sha256": "dc283544c3ef27e25014da59b7474a312fe48505aaf7c22048f16c79a1b28d52"
+    },
+    {
+      "stamp": "20261024-135514",
+      "scene": "dodge-attack-repeat",
+      "sample_count": 104408,
+      "fixed_gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "active_ms": 560,
+          "longest_active_ms": 288,
+          "peak_code": 9,
+          "nonneutral_samples": 517,
+          "quantization_error_rms": 0.2938124060853366,
+          "quantization_error_max": 0.496388588138422,
+          "snr_db": 23.35629775219393,
+          "zero_code_active_samples": 43,
+          "maximum_parameter_grid_delay_us": 999.4000000059605,
+          "clipped_samples": 0
+        },
+        {
+          "active_ms": 560,
+          "longest_active_ms": 288,
+          "peak_code": 9,
+          "nonneutral_samples": 517,
+          "quantization_error_rms": 0.2938124060853366,
+          "quantization_error_max": 0.496388588138422,
+          "snr_db": 23.35629775219393,
+          "zero_code_active_samples": 43,
+          "maximum_parameter_grid_delay_us": 999.4000000059605,
+          "clipped_samples": 0
+        }
+      ],
+      "excluded_prearm_group_order_conflicts": [
+        0,
+        0
+      ],
+      "postarm_group_order_conflicts": 0,
+      "parameter_file": "20261024-135514-parameters.json",
+      "parameter_sha256": "d060d55161abfc6ddb3336fca842546cabb9a7c40616dc93d2149dbd128d4861",
+      "preview_file": "20261024-135514-active-windows.csv",
+      "preview_rows": 580,
+      "preview_sha256": "5ab935a72927e6a27af99d4c1e51bbe661d36bce5bfb67538342d2a4c5cc6d1c"
+    },
+    {
+      "stamp": "20261024-140244",
+      "scene": "dodge-attack-repeat",
+      "sample_count": 106786,
+      "fixed_gain": 96,
+      "sample_rate_hz": 1000,
+      "sides": [
+        {
+          "active_ms": 588,
+          "longest_active_ms": 300,
+          "peak_code": 9,
+          "nonneutral_samples": 538,
+          "quantization_error_rms": 0.28992982529598066,
+          "quantization_error_max": 0.49969820967496004,
+          "snr_db": 23.329602268434904,
+          "zero_code_active_samples": 50,
+          "maximum_parameter_grid_delay_us": 999.4000000059605,
+          "clipped_samples": 0
+        },
+        {
+          "active_ms": 588,
+          "longest_active_ms": 300,
+          "peak_code": 9,
+          "nonneutral_samples": 538,
+          "quantization_error_rms": 0.28992982529598066,
+          "quantization_error_max": 0.49969820967496004,
+          "snr_db": 23.329602268434904,
+          "zero_code_active_samples": 50,
+          "maximum_parameter_grid_delay_us": 999.4000000059605,
+          "clipped_samples": 0
+        }
+      ],
+      "excluded_prearm_group_order_conflicts": [
+        1,
+        0
+      ],
+      "postarm_group_order_conflicts": 0,
+      "parameter_file": "20261024-140244-parameters.json",
+      "parameter_sha256": "cf93bacbedfc8ebadd8531e1c1107bfbec111be7c82d6527bccebbdc3767ae5b",
+      "preview_file": "20261024-140244-active-windows.csv",
+      "preview_rows": 608,
+      "preview_sha256": "d2d2086a8beef968fd1b1727c77aed34bdb261adf6fc217c3582aacb5f91e36c"
+    }
+  ],
+  "source_sha256": {
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-131624.json": "c47d0eb7a317a624827ce0104e58eb54e02a53f6e1fc2befedd5afcbcb1b1907",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-132744.json": "387e83613f31f625138ee0cabb72e274c467d3b9c37732aaff7eecfa9e9445f4",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-135514.json": "df5c2e3e74fac8f35c23bba7a12b719c4a6b412ab4f19fcca8ea4c5085b22fb8",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-140244.json": "3362fb5eb298cbd0fa46c3b448523ffcf8eb91f5422b7923c8d2197b320d77da",
+    "tools/reconstruct_haptic_traces.py": "44ec05f207922a7102e9918a6c403e24dc907edab3d78a7a3144d51054961d1f",
+    "tools/haptic_fidelity_candidate.py": "991c95e62e3b1e2aa014b9da3d5262b9389f639474794a1cf0b34a9981212ef6",
+    "handoff/2026-10-22/work/switch_hd_decode.py": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+  }
+}

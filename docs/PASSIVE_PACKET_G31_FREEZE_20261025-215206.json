@@ -1,0 +1,68 @@
+{
+  "status": "FROZEN_INCOMPLETE_DISCOVERY_ATTEMPT",
+  "files": [
+    {
+      "path": "tools/packet_clock_probe.py",
+      "sha256": "77d124e5317a233f957ddf8d14d01fb6d6319aac715bfa1bb68da34dfba45349"
+    },
+    {
+      "path": "tools/component_receive_analysis.py",
+      "sha256": "4f82b17669c9ae1c8361e9361722a9c6ffa80d69b6ad60c1c8274b20d2e0904c"
+    },
+    {
+      "path": "tools/passive_packet_policy_g31.py",
+      "sha256": "c7a8c3f9a188e4c907ff7f67031b1fe3729bfdd7debe2fe030b9e8f48d88d203"
+    },
+    {
+      "path": "tools/run_passive_packet_g31.py",
+      "sha256": "b96f66861c2cb2387cb76420463466c07793cc06ec30fd730ba0250c1faeea1a"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g31.py",
+      "sha256": "4f2922a41013b8c64b5865bdf38bce2336b0ddf64e65fe64d8d820e2400fcbf6"
+    },
+    {
+      "path": "tools/test_packet_clock_probe.py",
+      "sha256": "8cc8292d272672dc1ea3f7ef0e9f1a26b77f44c4e619645658add7e7852905f9"
+    },
+    {
+      "path": "tools/test_component_receive_analysis.py",
+      "sha256": "b0b9ed631216f8220ee86e772963cc99d9ba85fc082aa6a17d73c5aad1194d73"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g31.ps1",
+      "sha256": "0cb7ece1d5f785dc36df631d18c053843afb81c02044c7a7af7091a64af4dd20"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G31_PLAN_2026-10-25.json",
+      "sha256": "2819187d36dea785e563e607d8821630a512461b6a4a2361504d2e6e4be5f0f3"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G31_OFFLINE_2026-10-25.json",
+      "sha256": "b70d04379a3ffe72e0f79df89e0a29797424062ce5d6303cc1f33456255ac3ab"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G31_ATTEMPT_20261025-215206.json",
+      "sha256": "d30258915272152a07af7afeac54de774ec3206e810a9b4d77087eb82020dc18"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G31_2026-10-25.md",
+      "sha256": "b214fa770ba295eb74c84438cc37e7b021c87bdde370b2a95d71f32f4423cc93"
+    },
+    {
+      "path": "docs/PKTMON_PASSIVE_G31_20261025-215206.json",
+      "sha256": "f3bfcb874c93da65bc8d4fef5a9b7dda58cc028f78c729e440ea85e047bdfbb1"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_RUN_20261025-215234.json",
+      "sha256": "6f7b6691e6d3ba747d39dda041490b8b85bb985db3e50b001bb3c5cec04c535c"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-215618.json",
+      "sha256": "29871303ad1cc60ba5d7bc284395768bc0baf2f8362e71865fa6856d29227d34"
+    }
+  ],
+  "current_physical_generation": 31,
+  "no_automatic_retry": true,
+  "private_archive_sha256": "8c7da00a95adb3106d3f6caad863261c3662e6366b5b283ce7a52dedf8dddb81"
+}

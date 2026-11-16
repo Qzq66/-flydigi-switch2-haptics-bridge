@@ -1,0 +1,32 @@
+{
+  "status": "PREPARED_G40_REPEAT_SAME_RENDERING",
+  "current_binding_and_difference_checks_passed": true,
+  "reused_rendering_regression_tests": 120,
+  "hardware_output_started": false,
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_g40.py",
+      "sha256": "adcac5ca9c4bf7530f105046debd35fc7f62bd897862a9585b9db74df4c65275"
+    },
+    {
+      "path": "tools/run_fidelity_game_g40.py",
+      "sha256": "06951448364bd58744018cce47247014237a52ee822f34b95b9db1eb616845f3"
+    },
+    {
+      "path": "tools/assess_fidelity_game_g40.py",
+      "sha256": "1e9b31d0fd3fd315292155f0402a7b24275b8a81eead8f2cabf99ee0e93de49b"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_G40_2026-10-27.json",
+      "sha256": "eeb7c26e96f90302b0d2fc7a505df8f14df9489ffe49efbfa3b905571e762801"
+    },
+    {
+      "path": "docs/STARTUP_JOURNAL_20261027-211946.json",
+      "sha256": "a7d49fedc1ae55896702b6ccf42d8d49475b265f3163a27c0e68c52dad4bf36f"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G38_OFFLINE_2026-10-27.json",
+      "sha256": "c95602b115e62c8af1c4ccd3a225ffe5c075bcb5bb8445dc4855e90fc50181fc"
+    }
+  ]
+}

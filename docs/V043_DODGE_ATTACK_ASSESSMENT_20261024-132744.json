@@ -1,0 +1,44 @@
+{
+  "status": "PASSED_V043_120S_STAGED_GAME_LIMITED_NOTIFICATION",
+  "checks": {
+    "strict_game_program": true,
+    "strict_parent": true,
+    "input_acceptance_bound": true,
+    "exact_new_generation": true,
+    "journal_complete": true,
+    "persistent_end": true,
+    "all_fields_exact": true,
+    "contiguous_wire": true,
+    "full_live_window": true,
+    "staged_explicit_arm": true,
+    "arm_within_window": true,
+    "silent_preparation": true,
+    "post_arm_source_both_sides": true,
+    "output_bound": true,
+    "relay_observed": true,
+    "final_neutral": true,
+    "input_through_end": true,
+    "parent_disabled": true,
+    "configuration_unchanged": true,
+    "guardian_not_killed": true,
+    "no_cleanup_errors": true,
+    "human_game_pulse": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "complete_bounded_prompts_both_sides": true,
+    "scene_recorded": true
+  },
+  "journal_generation": 18,
+  "motor_fields": 1078,
+  "first_active_ms_after_arm": [
+    6345.822900000006,
+    6345.822900000006
+  ],
+  "decoded_post_arm_active_groups": [
+    20,
+    20
+  ],
+  "observed_live_seconds": 120.06850610000001,
+  "scope": "One offline B-dodge then A-attack trial, calibrated 120ms notifications within the unchanged 3-per-side cap; not original HD fidelity or long-term stability",
+  "scene": "dodge-attack"
+}

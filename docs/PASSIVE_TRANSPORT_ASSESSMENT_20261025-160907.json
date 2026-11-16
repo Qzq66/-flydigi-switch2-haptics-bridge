@@ -1,0 +1,47 @@
+{
+  "status": "PASSED_PASSIVE_TRANSPORT_AND_PERSISTENT_JOURNAL_WITH_TIMING_GAP",
+  "checks": {
+    "program_completed": true,
+    "child_completed": true,
+    "plan_bound": true,
+    "verified_pretest_baseline": true,
+    "same_trial_new_generation": true,
+    "full_readback_verified": true,
+    "firmware_unchanged": true,
+    "complete_crc_journal": true,
+    "source_fields_identical": true,
+    "wire_sequence": true,
+    "full_live_duration": true,
+    "terminal_confirmed": true,
+    "zero_actuator_commands": true,
+    "zero_persistent_configuration_commands": true,
+    "configuration_unchanged": true,
+    "clean_exit": true,
+    "discovered_after_precheck": true,
+    "single_observed_boot": true
+  },
+  "live_seconds": 120.01080679999998,
+  "journal_generation": 23,
+  "motor_fields": 1969,
+  "poll_calls": 9873,
+  "responses": 9872,
+  "timeouts": 1,
+  "maximum_response_gap_seconds": 0.08787220000002094,
+  "heartbeat_observation_count": 1,
+  "realtime_80ms_requirement_met": false,
+  "human": {
+    "registration_icon_seen": true,
+    "pico_returned_bootsel": true,
+    "silence_confirmed": null,
+    "note": "User did not pay attention to rumble; do not claim a silence observation."
+  },
+  "original_game_fidelity_validated": false,
+  "root_cause_proven": false,
+  "source_sha256": {
+    "docs\\PASSIVE_TRANSPORT_RUN_20261025-160907.json": "6437ab3d9572dd5f7430665d39a1d39e1c4264f1ac58429d0ca3976c9f172223",
+    "docs\\V043_HOST_CAPTURE_20261025-161532.json": "a19a8edd8d393efd4ee0dc9ed156611e21f06957904e39f8466cfcead2a1e1a4",
+    "docs\\PASSIVE_TRANSPORT_PLAN_2026-10-25.json": "788cadc3a58ee9f4d5231400514c0f2f4d01353058ac167f0fab634033d10551",
+    "docs\\V043_HOST_CAPTURE_20261025-151527.json": "99008cd1226482d60c480aec689a93cc21e660d475d8c50de8edd382d1af1781"
+  },
+  "scope": "Completed no-actuator transport and same-trial persistent-log validation; one over-80ms response gap recovered. Not live rumble stability, absence of all board restarts, or original HD physical fidelity."
+}

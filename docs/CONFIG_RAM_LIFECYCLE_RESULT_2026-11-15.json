@@ -1,0 +1,36 @@
+{
+  "status": "REPRODUCED_RAM_LIFECYCLE_CHANGE_POST_RESTART_MATCHES_EARLY_BASELINE",
+  "short_trial": "20261115-153820",
+  "no_output_control": "20261115-153214",
+  "post_normal_restart_control": "20261115-154118",
+  "before_motor_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+  "after_stop_motor_sha256": "b54f53c1c2f91f7bc9b65422a567a570a0e4f064d218ed7b8e33a9e163407553",
+  "post_restart_motor_sha256": "a0689f72d383f7af7e8a331c271092d2c24bcd50218b88b2a154342e195f0f05",
+  "early_baseline_same_identity": true,
+  "post_restart_three_motor_snapshots_match_early_baseline": true,
+  "stop_difference_offsets": [
+    56,
+    58
+  ],
+  "post_restart_difference_from_pre_session_offsets": [
+    33,
+    35,
+    44,
+    46,
+    55,
+    56,
+    57,
+    58
+  ],
+  "human_bilateral_pulse_and_stop_no_residual": true,
+  "raw_evidence_saved_private": true,
+  "configuration_write_commands": 0,
+  "pico_access": false,
+  "original_strict_failures_preserved": true,
+  "conclusion": "CRC-consistent motor RAM changes accompany this runtime lifecycle; after normal restart complete motor RAM matches the earlier validated baseline. This supports volatile-state interpretation, but byte semantics and causal stage remain unproven. It does not establish persistent storage modification.",
+  "remaining": [
+    "Determine byte semantics or isolate enable/stream/disable before whitelisting any differences",
+    "Do not overwrite old snapshots, restore bytes or silently accept mismatches",
+    "No additional vibration until independent lifecycle gate is prepared"
+  ]
+}

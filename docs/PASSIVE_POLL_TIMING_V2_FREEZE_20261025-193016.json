@@ -1,0 +1,139 @@
+{
+  "status": "FROZEN_V2_TIMING_AND_LATE_RETURN_EVIDENCE",
+  "archive_name": "passive-v2-two-runs-source-evidence-20261025-193016.zip",
+  "archive_sha256": "7e30e21540262681a3728f2a2bc451521f74721715fbc57e2d395da89cea18a9",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "includes_full_flash_or_credentials": false,
+  "files": [
+    {
+      "path": "docs/PASSIVE_G26_CONFIG_AFTER_RETURN_20261025-192724.json",
+      "sha256": "e2d465599f7065d3ca1a2d596cc806b63d135c6df841c1ae4e7b75273a45d67c"
+    },
+    {
+      "path": "docs/PASSIVE_G26_MATCHED_JOURNAL_20261025-192724.json",
+      "sha256": "2a38eb8df21012bb5e6c4fd375a89b902d01e1b93008309b529ad259773e72fd"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_ASSESSMENT_20261025-164910.json",
+      "sha256": "127f29ae1a8044a6d9e1c860653c41c37b711302236de65851e4262eb70c58c0"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_ASSESSMENT_20261025-165651.json",
+      "sha256": "09a2d4d85048720d8d6ce76ad11f25b195b596e82de0cdf75824cf0b80d7f013"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_G25_2026-10-25.md",
+      "sha256": "da328a87e65874cedc0edbbd39fb20815985ed0de3a50e1d2e3a5f5f2f97c6ab"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_OFFLINE_2026-10-25_G25.json",
+      "sha256": "213b3b24a14be4110fa7ec71d42873f9fa1e90243ab5b1c31017d688c1a495cf"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_OFFLINE_2026-10-25_G26.json",
+      "sha256": "aaf546a18b0a156b7c36280783fa7fad356441dd57a694652768db739d43c9e0"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_PLAN_2026-10-25_G25.json",
+      "sha256": "1ac4e05ac4c04b17a03af90c596bcf1ae7c7aae889eb0dce0bd1b2e6667ff1de"
+    },
+    {
+      "path": "docs/PASSIVE_POLL_TIMING_PLAN_2026-10-25_G26.json",
+      "sha256": "97d5a0c0c90d6b9712bdfb6dd4b0b12bd9b05a6d11aea0edb8e40c2622ad2c22"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-164910.json",
+      "sha256": "c30d450e0b323469268eb3777b0680c1ba37c92602f9025664d4167dd1988c2c"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-165651.json",
+      "sha256": "16b3ad361f06bc67ce8796b4084dd76ce6b2d6ab93c2b9316053c97b6d0fc260"
+    },
+    {
+      "path": "docs/PICO_LATER_BOOT_G28_20261025-192724.json",
+      "sha256": "ac4e17ced4a26b72ac49f0e60e8db59dd53420450dbf3d57b9a9e8a85fe75351"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-165451.json",
+      "sha256": "1b4a297bf893809e998a7fddc706ef675cba0d09aaab674e4788a96164b0530b"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-192724.json",
+      "sha256": "69c7b912c313e2b3a19b0e336bb0ed6cae093852d4857c1fd455619f1a18e052"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-165544.json",
+      "sha256": "35ac2b5b97840403e777a77d319a2d807e57263595fbb47fae027199051c164b"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-193016.json",
+      "sha256": "bbcc5dbea717fa6955050519bfd90aabb74bd1f48c6c116a5706f37655307757"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/passive_timing_policy_g24.py",
+      "sha256": "160218dee714e85f0b51eefc8e190b90e5422f43d3b5c17ba0b4465be383f44c"
+    },
+    {
+      "path": "tools/passive_timing_policy_g25.py",
+      "sha256": "6955ae285668ba0587522e2083a14af32044e827a3fbfe28771843812da6062e"
+    },
+    {
+      "path": "tools/passive_timing_policy_g26.py",
+      "sha256": "dd57ece1b2bf27422ba7a593560ab8133be370fdad5b28a1cf4441fc3a3dedde"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/poll_timing_probe.py",
+      "sha256": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+    },
+    {
+      "path": "tools/poll_timing_probe_v2.py",
+      "sha256": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d"
+    },
+    {
+      "path": "tools/run_passive_timing_g24.py",
+      "sha256": "a4c3537ea412cc3d65b479f039e203a0f47f538d82434bf4df98b28522ada326"
+    },
+    {
+      "path": "tools/run_passive_timing_g25.py",
+      "sha256": "fcf2cc0eb1d822f84ccc73e5cc833ae35871563e6306758c603c09e54b6ddf94"
+    },
+    {
+      "path": "tools/run_passive_timing_g26.py",
+      "sha256": "8ab612f1038608eebcb5a9df1a120f832df0e028f0caf2e6ba5a3bc28443fc01"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/test_passive_timing_g25.py",
+      "sha256": "68ccd32eb0f4b529849294549976a1c2a9fdb050ff474c1b3f2729bc98d263ff"
+    },
+    {
+      "path": "tools/test_passive_timing_g26.py",
+      "sha256": "40f5f89aa655c2de631d2efc059e178793f52173639a3bab936b4e47b6842ada"
+    },
+    {
+      "path": "tools/verify_passive_timing_g25_offline.py",
+      "sha256": "d6687508ac9dd44cc73b5cfeb8d300393bed0767f300d4c65e18e2ce9ed5158e"
+    },
+    {
+      "path": "tools/verify_passive_timing_g26_offline.py",
+      "sha256": "e106d25329f62a44ad411a2c564299ec96bc87ecb81ca8af90a4d0d910cfffab"
+    }
+  ],
+  "scope": "Two distinct V2 trials; trial27 matched after later28 boot. Original strict readback failure preserved. Current baseline28 is installation evidence only. No GitHub upload."
+}

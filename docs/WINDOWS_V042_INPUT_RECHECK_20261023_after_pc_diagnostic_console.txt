@@ -1,0 +1,40 @@
+INPUT_ONLY_LISTENER_STARTED; no motor output; keep physical buttons neutral until instructed
+{
+  "status": "PASSED_V042_SWITCH_INPUT_END_PROGRAM_CHECKS",
+  "actual_switch_test": true,
+  "game_test": false,
+  "input_check_only": true,
+  "automatic_resume": false,
+  "motor_output_enabled": false,
+  "persistent_flydigi_commands": 0,
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 0,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "neutral_written_clock": 118.495782,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\docs\WINDOWS_V042_INPUT_RECHECK_20261023-153900.json

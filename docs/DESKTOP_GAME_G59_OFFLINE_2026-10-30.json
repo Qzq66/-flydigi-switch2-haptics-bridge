@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_DESKTOP_ENTRY_OFFLINE_PENDING_USABILITY_TEST",
+  "tests": 188,
+  "hardware_access": false,
+  "gui_observed": false,
+  "files": [
+    {
+      "path": "tools/bridge_desktop.py",
+      "sha256": "ab733f7de6bf4b695eab70e9c06d6ce00300ef06aa14d8e19e17dbe8828e2fd9"
+    },
+    {
+      "path": "tools/desktop_game_policy_g59.py",
+      "sha256": "72c4e2c1ff7ce7b682f72c779a549c3c84bef95a29351c4fd361f49cc27c1226"
+    },
+    {
+      "path": "tools/run_desktop_game_g59.py",
+      "sha256": "d89626a198de576950dea94d0aeb413d277ba415ec40707892023760646fb9bb"
+    },
+    {
+      "path": "tools/assess_desktop_game_g59.py",
+      "sha256": "25ff4c0de5b022d1027230fb3a8b1e77bffe2a6054cfadd8b52a7cd08e2e774e"
+    },
+    {
+      "path": "tools/test_bridge_desktop.py",
+      "sha256": "a4e971b8d510b4dae879e32eb8c812bed5fa2cadca8cb3441fffca63d8a9c584"
+    }
+  ]
+}

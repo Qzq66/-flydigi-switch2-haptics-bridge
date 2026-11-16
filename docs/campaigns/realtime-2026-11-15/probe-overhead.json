@@ -1,0 +1,42 @@
+{
+  "status": "PROBE_HOST_OVERHEAD_MEASURED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "audit_denials": 0,
+  "baseline": {
+    "samples": 10000,
+    "p50_us": 0.20000000000575113,
+    "p95_us": 0.3000000000086267,
+    "p99_us": 0.3000000000086267,
+    "max_us": 2.3999999999579913,
+    "over4ms": 0,
+    "process_cpu_seconds": 0.0,
+    "retained": 0
+  },
+  "probe_capacity256": {
+    "samples": 10000,
+    "p50_us": 9.200000000042508,
+    "p95_us": 10.100000000012876,
+    "p99_us": 11.700000000058886,
+    "max_us": 86.90000000000086,
+    "over4ms": 0,
+    "process_cpu_seconds": 0.09375,
+    "retained": 256
+  },
+  "probe_capacity8_exploratory": {
+    "samples": 10000,
+    "p50_us": 5.09999999998012,
+    "p95_us": 5.299999999985872,
+    "p99_us": 5.699999999997374,
+    "max_us": 63.299999999988366,
+    "over4ms": 0,
+    "process_cpu_seconds": 0.0625,
+    "retained": 8
+  },
+  "live_probe_changed": false,
+  "limitations": [
+    "Includes host scheduling, not isolated pure CPU instruction cost",
+    "No source decoder, HID or GUI work",
+    "Smaller capacity is comparison only; loses more context and is not adopted"
+  ]
+}

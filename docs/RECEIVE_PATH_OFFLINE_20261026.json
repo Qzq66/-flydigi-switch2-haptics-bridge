@@ -1,0 +1,133 @@
+{
+  "status": "OFFLINE_REPLAY_COMPLETE_RX_CAUSE_UNRESOLVED",
+  "hardware_access": false,
+  "capture_started": false,
+  "filters_changed": false,
+  "network_settings_changed": false,
+  "motor_commands": 0,
+  "current_generation_last_physically_verified": 36,
+  "root_cause_proven": false,
+  "trials": [
+    {
+      "trial": "pktmon-passive-g31-20261025-220337",
+      "application_receive_rows": 16922,
+      "private_trace_sha256": "f2545ea5905c529069d1c2125d9427f8d432631d12f631155833df71ec0a388f",
+      "files": {
+        "packets.pcapng": {
+          "sha256": "9303ef048ec05b5cfc0b3f0a415239ab72a0195824cfeecdb5348edc826001cb",
+          "counts": {
+            "records": 286909,
+            "normal_udp_records": 143818,
+            "known_wifi_reply_records": 106155
+          },
+          "expected_application_hashes": 16922,
+          "normal_reply_hashes": 6648,
+          "wifi_reply_hashes": 6637,
+          "combined_reply_hashes": 6650,
+          "full_unique_hash_coverage": false
+        },
+        "component-3.pcapng": {
+          "sha256": "869736fd3e8cc1f6c1f9741749092b3c35470d8198fe15f9fb06df85a84fb3d7",
+          "counts": {
+            "records": 11254,
+            "known_wifi_reply_records": 6637
+          },
+          "expected_application_hashes": 16922,
+          "normal_reply_hashes": 0,
+          "wifi_reply_hashes": 6637,
+          "combined_reply_hashes": 6637,
+          "full_unique_hash_coverage": false
+        },
+        "component-16.pcapng": {
+          "sha256": "83d1c0181acd9dac0be5bdfc88a0f41372f3de3d0270493b6ae3707d81225ec2",
+          "counts": {
+            "records": 11249,
+            "known_wifi_reply_records": 6632
+          },
+          "expected_application_hashes": 16922,
+          "normal_reply_hashes": 0,
+          "wifi_reply_hashes": 6632,
+          "combined_reply_hashes": 6632,
+          "full_unique_hash_coverage": false
+        },
+        "component-35.pcapng": {
+          "sha256": "70d3ee0deefde473826c282432290a8ffed13143a25bd11759a7c681803bb983",
+          "counts": {
+            "records": 22587,
+            "normal_udp_records": 11335,
+            "known_wifi_reply_records": 6635
+          },
+          "expected_application_hashes": 16922,
+          "normal_reply_hashes": 6641,
+          "wifi_reply_hashes": 6635,
+          "combined_reply_hashes": 6641,
+          "full_unique_hash_coverage": false
+        },
+        "component-133.pcapng": {
+          "sha256": "7bc57bb98c9ffdb106f8dcaf02d9ea7e9a6ce6fbb8fe7f0fadaffec0d8c11282",
+          "counts": {
+            "records": 11339,
+            "normal_udp_records": 11339
+          },
+          "expected_application_hashes": 16922,
+          "normal_reply_hashes": 6645,
+          "wifi_reply_hashes": 0,
+          "combined_reply_hashes": 6645,
+          "full_unique_hash_coverage": false
+        }
+      }
+    },
+    {
+      "trial": "pktmon-passive-g35-20261026-202153",
+      "application_receive_rows": 9517,
+      "private_trace_sha256": "6944f8ddb2630d9bf6533363223225fdef83180e52916c6e051acd546a07d429",
+      "files": {
+        "packets.pcapng": {
+          "sha256": "50c1495993e17c160cdc568dea9ad856d6bb696911bdd0f8aac19f137246799c",
+          "counts": {
+            "records": 13278,
+            "normal_udp_records": 13278
+          },
+          "expected_application_hashes": 9517,
+          "normal_reply_hashes": 0,
+          "wifi_reply_hashes": 0,
+          "combined_reply_hashes": 0,
+          "full_unique_hash_coverage": false
+        },
+        "component-20.pcapng": {
+          "sha256": "43d010cfb16f925d5e93c96747ebb16d87fce2c96a567314c2e30879a8d15240",
+          "counts": {
+            "records": 8852,
+            "normal_udp_records": 8852
+          },
+          "expected_application_hashes": 9517,
+          "normal_reply_hashes": 0,
+          "wifi_reply_hashes": 0,
+          "combined_reply_hashes": 0,
+          "full_unique_hash_coverage": false
+        },
+        "component-124.pcapng": {
+          "sha256": "a0fb81deefdc8013ac5499aff4752a050c14ab36e7943abb357200438572ee3e",
+          "counts": {
+            "records": 4426,
+            "normal_udp_records": 4426
+          },
+          "expected_application_hashes": 9517,
+          "normal_reply_hashes": 0,
+          "wifi_reply_hashes": 0,
+          "combined_reply_hashes": 0,
+          "full_unique_hash_coverage": false
+        }
+      }
+    }
+  ],
+  "current_dropped_raw_ipv4_prefix_counts": {
+    "BHP2": 204
+  },
+  "limitations": "Known-hash forensic decoding does not change bridge acceptance or prove capture completeness. Dropped-file records do not account for every counter. Two-variable prior capture cannot isolate the IP filter from component selection.",
+  "source_sha256": {
+    "audit_receive_path_offline.py": "dbf47a48c175c86ecdf95bf0cce11ef4005191dd147feb8cd52ba0be9b162905",
+    "forensic_wifi_decode.py": "4137a9fb354813deec03ef15ae15d2b1bbeca42e0b4a8b81cf665a975bdb3d43",
+    "test_forensic_wifi_decode.py": "b0728435f4fc78340ced92bc2e36e637d174403e0c70c96850ca8dc41a362492"
+  }
+}

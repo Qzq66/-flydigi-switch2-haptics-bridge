@@ -1,0 +1,77 @@
+{
+  "status": "FROZEN_V5_SUCCESS_AND_PRIOR_FAILED_CONTROLS",
+  "files": [
+    {
+      "path": "tools/pktmon_capture_common_v3.ps1",
+      "sha256": "0a174d098b68ba58070e3ae84d9238bc21a70e3e0f97ce759fa94fc1ff68c4b4"
+    },
+    {
+      "path": "docs/PKTMON_LIVE_ETW_2026-10-25.md",
+      "sha256": "810a387564fc842d8888db0ea03b46afbeac8543f8cda9cf614022b3dd73359a"
+    },
+    {
+      "path": "docs/PKTMON_LIVE_ETW_ASSESSMENT_20261025.json",
+      "sha256": "a2e8b93a5f7c967cbfc0fa20f10ec67a4ee37cfb5702ada5396c525f63fba5cf"
+    },
+    {
+      "path": "tools/run_pktmon_smoke_v3.ps1",
+      "sha256": "7eaa8541fa5a82b0446b07d00e3583814622aa94dc41b6b1f832259998c01306"
+    },
+    {
+      "path": "tools/send_pktmon_smoke_v3.py",
+      "sha256": "e88071eca8b1b1b13dfdb8a5919c4856a28336110dabc84ad8cd4c4507a5760b"
+    },
+    {
+      "path": "tools/analyse_pktmon_smoke_v3.py",
+      "sha256": "d70593a8651860d991d168e5dc209cf774601a9a5d4bef09a16a209d78a1f7ad"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V3_20261025-213900.json",
+      "sha256": "1391a5cf341828c25311f8ef48ad92df1fcc8d78c462b8ad30e1858fc207de83"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V3_ANALYSIS_20261025-213900.json",
+      "sha256": "c4f271c44a6b4a35d81409a335bafe158fe02a00f97c100d136954dec8bfba96"
+    },
+    {
+      "path": "tools/run_pktmon_smoke_v4.ps1",
+      "sha256": "9c2e85d57204e5eba77de3486360a99052bbf0d2b29b7ad4adf6c7ee462f9a1a"
+    },
+    {
+      "path": "tools/send_pktmon_smoke_v4.py",
+      "sha256": "6bf3274f5ba3cbb0596d17861b033727ffb2c2ec4ea0e7ff0fa5ce1f9910ded2"
+    },
+    {
+      "path": "tools/analyse_pktmon_smoke_v4.py",
+      "sha256": "ebd3f9df6d73694bebcdadcabc4a2f8375c05d3154dd382c323bc55dd0f3eba3"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V4_20261025-214007.json",
+      "sha256": "c83ea468a8cad2b761094d5ae19cb43da06fd1400a1ea126d5c033371c4fc9ae"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V4_ANALYSIS_20261025-214007.json",
+      "sha256": "9e39bf1f2dfed7360d1e48df22cee0a1ed8fa1abc60db8ea3b7fbdad6b505602"
+    },
+    {
+      "path": "tools/run_pktmon_smoke_v5.ps1",
+      "sha256": "e3e2c90f731d6980e0a56d05301fbb26c9bc3a8e75e457464e860a8d31a84f62"
+    },
+    {
+      "path": "tools/send_pktmon_smoke_v5.py",
+      "sha256": "6653a95c789a6e7a0f8dfa6ee2c1b7daab494759709912349bc7c66b7071ee41"
+    },
+    {
+      "path": "tools/analyse_pktmon_smoke_v5.py",
+      "sha256": "cadd17f70f55c65aa8d2af71309ade40172becaca79af334aa47f33f753f78ae"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V5_20261025-214104.json",
+      "sha256": "94dd91c50b991fab73e74ee09acf4a587c57961c31bfc747bb21f437652e9dd7"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V5_ANALYSIS_20261025-214104.json",
+      "sha256": "edd1c3ce4240c31b6628478965b7b526cbb7d66bb375f3ae24ced16f5579b995"
+    }
+  ]
+}

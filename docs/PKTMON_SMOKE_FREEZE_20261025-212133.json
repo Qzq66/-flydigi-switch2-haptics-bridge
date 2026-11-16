@@ -1,0 +1,69 @@
+{
+  "status": "FROZEN_INCOMPLETE_PACKET_SMOKE",
+  "files": [
+    {
+      "path": "tools/capture_clock.py",
+      "sha256": "57ff348a4208cd105231cd2b59d4c9fefec2e4a47ed5b9f0139c82e7b4c1112b"
+    },
+    {
+      "path": "tools/pcapng_experiment.py",
+      "sha256": "e21d835ed9aa0be5da8a4fa7561c7088c00205fc5c1fefb2248f133efe134ab4"
+    },
+    {
+      "path": "tools/send_pktmon_smoke.py",
+      "sha256": "7fa55698f90ca3ce7c0bcd188981cfa86129c28180f5963d37fdf309812dc7af"
+    },
+    {
+      "path": "tools/analyse_pktmon_smoke.py",
+      "sha256": "52f5595ba6b382c409b3107dcf2c520055b68aa049db18134178564425ffa7c4"
+    },
+    {
+      "path": "tools/pktmon_capture_common.ps1",
+      "sha256": "baea2b5d6ab09396f29585ea8b41537657934c0236c3ebedc5383edc000f7ebe"
+    },
+    {
+      "path": "tools/run_pktmon_smoke.ps1",
+      "sha256": "d1d1e5a7bba481ef04c117bc8f23767209a3e1265de677044308e4c1d91ab09d"
+    },
+    {
+      "path": "tools/test_pktmon_capture.py",
+      "sha256": "ebf3004d3fe655c96c0d6a23b8b00604fa7585c409d57f3bcbb1cf39ff9a30c2"
+    },
+    {
+      "path": "tools/test_pktmon_capture_guards.ps1",
+      "sha256": "06ed9ff802ec4abd4e2c97200091bcd0e2f5d2bcd1a5084bb1a2715684b5e85d"
+    },
+    {
+      "path": "tools/verify_pktmon_capture_offline.py",
+      "sha256": "d25bda3a7082f207992ff8d51bcbb99a488ef62898693eeef33e8cec67e866a9"
+    },
+    {
+      "path": "docs/PKTMON_CAPTURE_SMOKE_2026-10-25.md",
+      "sha256": "7475b83d8c1c4c371d10b738796ecae4ca2af9c3d87766084f520b9d4a136495"
+    },
+    {
+      "path": "docs/PKTMON_CAPTURE_OFFLINE_2026-10-25.json",
+      "sha256": "45631bcef69fedc1f41e97b77f6951dec047ccbee27cba363c1cea515aa98940"
+    },
+    {
+      "path": "docs/PKTMON_CAPTURE_GUARDS_2026-10-25.json",
+      "sha256": "ebb5109fa5b43e869d186d775c17afc2c5926335599f9881fd95f082292acdef"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_20261025-212133.json",
+      "sha256": "1d2608d95b2e290fd6682037c4bbe30dab62f8dc0555f7c6f066d3e436d58789"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_ANALYSIS_20261025-212133.json",
+      "sha256": "d0c141d0edbdf2e6c615a1ba06a753fb01bacb8871de70adcd0726415acaee4a"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_STRUCTURE_20261025-212133.json",
+      "sha256": "5b9e56f17c24847086e18b7aec807d85620ac3b31190859611d7745ca41af3e8"
+    }
+  ],
+  "capture_cleanup_passed": true,
+  "packet_timestamp_validation_passed": false,
+  "pico_access": false,
+  "motor_commands": 0
+}

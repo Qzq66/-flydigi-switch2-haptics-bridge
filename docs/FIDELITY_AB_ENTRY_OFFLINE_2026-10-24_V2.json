@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_OFFLINE_FIDELITY_AB_ENTRY",
+  "tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "playback_started": false,
+  "physical_ab_validated": false,
+  "source_sha256": {
+    "tools/fidelity_ab_plan.py": "fcea8f04752f3428e2efeade4254f1f4bc38281e744c34920ae0bfcf21be421f",
+    "tools/run_fidelity_ab.py": "938799ed91de4e53762b22e3f00018909d4181237a907746921967fae2560879",
+    "tools/fidelity_ab_window.py": "ab3a7b21f4a30a90f339b1aaefe68e09acf5797c6d2ff20fd810a14adf416cef",
+    "tools/test_fidelity_ab.py": "4c818393cd2e1aa6ec3eb53d2ac1bec3976c24ba9c35b624832431efed1d7958",
+    "tools/haptic_fidelity_candidate.py": "6e0e5531a04fbe51b219d23cfacbbce91883e47b312f749722ba3d76c0287102",
+    "tools/test_haptic_fidelity_candidate.py": "d4df80ef31b8e84b06d040ad8034578ad2ecb1a4e4a40544b9d393548f5cb27e",
+    "tools/audit_haptic_fidelity.py": "32167004c2ed25f5bb3547ee281de4366b2e5bac416db4654b00dacd6147f23e",
+    "tools/test_haptic_fidelity_audit.py": "5644de7f019bb41f5f658a5ab80b566a9c0255abfefebf8cae25428435ef6856",
+    "tools/verify_fidelity_ab_offline.py": "86387c787c355cc665f113a93ae16615240b9a890a1647b0ff3ca2fab6c04994"
+  },
+  "comparison": [
+    {
+      "label": "A",
+      "samples_per_side": 120,
+      "peak_code": 12,
+      "squared_code_sum": [
+        8463,
+        8486
+      ]
+    },
+    {
+      "label": "B",
+      "samples_per_side": 312,
+      "peak_code": 9,
+      "squared_code_sum": [
+        5615,
+        5615
+      ]
+    }
+  ],
+  "total_samples_per_side": 432,
+  "squared_code_sum_per_side": [
+    14078,
+    14101
+  ],
+  "scope": "Deterministic source-bound clips, no-catchup scheduler, guaranteed stop attempts, complete-frame/stop/gap/manual acceptance. Fake callbacks do not prove HID/guardian behavior on hardware."
+}

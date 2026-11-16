@@ -1,0 +1,69 @@
+{
+  "status": "FINAL_PLANNED_GAME_TRIAL_FAILED_NO_AUTOMATIC_RETEST",
+  "files": [
+    {
+      "path": "tools/sustained_renderer.py",
+      "sha256": "526b0c49ada5149f3cdfaa2960a1b4807320d96d0043b45461edc6acc95e244a"
+    },
+    {
+      "path": "tools/sustained_session.py",
+      "sha256": "288cf21c3b10f9b57a84ddcdb5a41573749e9fd6392de4cf6915c5a98d525289"
+    },
+    {
+      "path": "tools/sustained_game_session.py",
+      "sha256": "c09e4cf92d60cedcf516e1cda21ffee1d789e049974515e31669e585410fd1c3"
+    },
+    {
+      "path": "tools/sustained_validation.py",
+      "sha256": "24bb8e3d31186c1ac809b600bb3c7112c0fa85a0e20220f746e023d9944e3987"
+    },
+    {
+      "path": "tools/sustained_config_owner.py",
+      "sha256": "140148aeccefdfe970c3880833a92f56504795372ccd50d488b6e2f1dcc7c6f5"
+    },
+    {
+      "path": "tools/sustained_game_policy_g61.py",
+      "sha256": "fab4c3facacb072099a2f6462fdfcd4f8f2f768dad9830d2a014bd6e4334c6f9"
+    },
+    {
+      "path": "tools/run_sustained_game_g61.py",
+      "sha256": "645f79b09d2415f8fb0ed9220944bc591ac10cb1e2d3df060d55f0985a2ae06f"
+    },
+    {
+      "path": "tools/assess_sustained_game_g61.py",
+      "sha256": "47b0b4452cd334169cc652193dd9f316999baf98a800218d47a8f053492cb2f1"
+    },
+    {
+      "path": "tools/sustained_game_window.py",
+      "sha256": "a294f9978c9417b79744ec4ece139d45757c5677e43f9f0df5dfb6e2196f3fe2"
+    },
+    {
+      "path": "tools/test_sustained_session.py",
+      "sha256": "816cd415998397091ada2e34d10662f8a5f38115568ded12f2412560015a7590"
+    },
+    {
+      "path": "tools/test_sustained_acceptance.py",
+      "sha256": "66e826f22edb2ce5b61c98564b1cd64e5dc57b2c94264d2faa70bebb32d9d474"
+    },
+    {
+      "path": "docs/SUSTAINED_G61_PLAN_2026-11-15.json",
+      "sha256": "62b021c1ff3af5093c40aec1b0f74410a035c74a7b85b40666e9e33802178c71"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261115-160600.json",
+      "sha256": "028891acd9371314880306d98307171e0d390ac7909005384bcc0be451472a90"
+    },
+    {
+      "path": "docs/SUSTAINED_G61_ASSESSMENT_20261115-160600.json",
+      "sha256": "40d92bb80ee3e9bbc5aaf9cd31edb4fbe8cd6c648d62311f2eef14eacd9641c8"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261115-161247.json",
+      "sha256": "68732153a03e9c2d88aa3f2ed4dadb578bc5acb48b5eb19f39331eb527ede107"
+    },
+    {
+      "path": "docs/SUSTAINED_FINAL_RESULT_2026-11-15.json",
+      "sha256": "177264862a5ecd8f87aefe6fbe19241c9db646b8f85d6d1c56dd4a4ee4531817"
+    }
+  ]
+}

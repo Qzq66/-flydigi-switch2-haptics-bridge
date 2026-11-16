@@ -1,0 +1,35 @@
+{
+  "status": "UNARMED_DIAGNOSTIC_ONLY_NOT_GAME_PASS",
+  "human_registered": true,
+  "human_missed_arm": true,
+  "output_frames": 0,
+  "phase_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true,
+      "rtt_schema_version": true,
+      "retained_rtt_components_valid": true
+    },
+    "scope": "Host poll/after-send receive-decode timing; not radio-only or one-way latency."
+  },
+  "new_generation": 46,
+  "source_fields_match": true,
+  "poll_calls": 17544,
+  "max_gap_seconds": 0.05940879999999993
+}

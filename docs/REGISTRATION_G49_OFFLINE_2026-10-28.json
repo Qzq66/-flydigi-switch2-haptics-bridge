@@ -1,0 +1,8 @@
+{
+  "status": "PASSED_REGISTRATION49_OFFLINE_ONLY",
+  "tests": 49,
+  "io_guard": true,
+  "hardware_access": false,
+  "runner_only_policy_import_changed": true,
+  "no_actuator_child_ast_checked": true
+}

@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED_PREEXISTING_JOURNAL_G35_NOT_A_NEW_TEST",
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "newest_complete": true,
+    "newest_crc": true,
+    "generation35": true,
+    "physical_reverified": true
+  },
+  "previous_expected_generation": 32,
+  "current_generation": 35,
+  "full_flash_sha256": "aeb99ba57841c9dacc72c29a01add18478ad781a066c3bf007a39c7f869e88ac",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "readback_original_status_preserved": "INCOMPLETE",
+  "previous_slot_preserved": false,
+  "human_reported_pc_reboot": true,
+  "extra_boot_cause_proven": false,
+  "new_hardware_measurement_run": false,
+  "motor_commands": 0,
+  "flash_write": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASSED_G26_RETAINED_POLL_TIMING_OFFLINE",
+  "tests": 111,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_g24_timing_source_and_evidence_unchanged": true,
+  "plan_sha256": "97d5a0c0c90d6b9712bdfb6dd4b0b12bd9b05a6d11aea0edb8e40c2622ad2c22",
+  "source_sha256": {
+    "tools/passive_timing_policy_g26.py": "dd57ece1b2bf27422ba7a593560ab8133be370fdad5b28a1cf4441fc3a3dedde",
+    "tools/run_passive_timing_g26.py": "8ab612f1038608eebcb5a9df1a120f832df0e028f0caf2e6ba5a3bc28443fc01",
+    "tools/poll_timing_probe.py": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef",
+    "tools/poll_timing_probe_v2.py": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d",
+    "tools/test_poll_timing_probe_v2.py": "65087cb71c47154b1ff06933496ca628665de37f6cc512d8edad9429a2a9b7dd",
+    "tools/test_poll_timing_probe.py": "5c844377780e3c5030b476cc170656a7fcb4b52493a51efdf22af40a49daea90",
+    "tools/test_passive_timing_g26.py": "40f5f89aa655c2de631d2efc059e178793f52173639a3bab936b4e47b6842ada",
+    "tools/verify_passive_timing_g26_offline.py": "e106d25329f62a44ad411a2c564299ec96bc87ecb81ca8af90a4d0d910cfffab"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "INCOMPLETE_REGRESSION_FAILURE_RETAINED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "product_changes": false,
+  "protection_changes": false,
+  "contract_probe": {
+    "passed": true,
+    "disabled_wait_calls": [
+      0.001
+    ],
+    "clock_access": false,
+    "method": "replace module-local time object; no actual sleep"
+  },
+  "regression": {
+    "tests": 340,
+    "failures": 1,
+    "original_classification": "technical",
+    "assessment": "Wall-clock assertion failed; disabled path still requests exactly 1 ms sleep. Product regression and cause of short measured elapsed remain unproven. Original report retained; no rerun."
+  },
+  "software_replay": {
+    "status": "HOST_SOFTWARE_FULL_WINDOW_PASSED",
+    "frames": 7500,
+    "events": 6,
+    "maximum_dispatch_lateness_ms": 2.9962000024141844,
+    "active_ms_per_side": 48,
+    "stable": false,
+    "physical_acceptance": false,
+    "limitation": "One synthetic low-duty pass does not negate earlier failures or represent device/real-game load."
+  },
+  "files": {
+    "tools/retained_outer_gap.py": "8a29c51cdd33525abdee914ce1a48e77437baf692472f578a6bf34bb10186a3f",
+    "tools/test_retained_outer_gap.py": "6a5cf4082d08ac60d5041d6f59b44904faf6cfefb7822d63aa94e9ea8d859820",
+    "tools/software_loop_replay.py": "141102c6edc6cf61a9cd7f824a00d02eedf77250c8468467dac790f6188c010e",
+    "tools/sustained_game_spin_child.py": "ecb75dc7111f2755aa4af3b02a3d645ff18faa90dcaa09198d06ff1e519466de",
+    "tools/test_sustained_game_spin_child.py": "0f35ff35289368972f3d753cbe55a7e0a0ae3e8c16aa8a57382a33cbc2194702",
+    "docs/campaigns/realtime-2026-11-15/software-loop-last-gap.json": "1dd579aa5de6b0eb2f45af5e1be279b9b3412f3910b5e44cc2fdaff650a234f1",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-205212.json": "8c862feeed95b8e95488089420bfc607decafbc978e282f215d6da550e2ce6f6"
+  }
+}

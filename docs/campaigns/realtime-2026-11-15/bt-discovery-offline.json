@@ -1,0 +1,51 @@
+{
+  "schema": "standalone-bt-discovery-preparation-v1",
+  "date": "2026-11-15",
+  "status": "OFFLINE_READY_HARDWARE_UNVERIFIED",
+  "user_decision": "save offline results only",
+  "goal": "Discover actual Flydigi Bluetooth transport before attempting standalone input or fine haptics",
+  "hardware_actions": [],
+  "sdk": "2.3.1",
+  "compiler": "arm-none-eabi GCC 14.2.1",
+  "board_target": "pico2_w",
+  "image": "standalone/bt_discovery/build-ram/flydigi_bt_discovery.elf",
+  "image_sha256": "d0419ee6efd90748e52ded1d010c8e4da0610869e32ff06b15fc1f30aacf7069",
+  "size_bytes": {
+    "text": 331936,
+    "data": 0,
+    "bss": 32408,
+    "sum": 364344
+  },
+  "load_policy": "RAM only, no UF2 generated",
+  "storage": "SDK Bluetooth TLV factory wrapped to RAM",
+  "symbol_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "gap_connect": 0,
+    "sm_request_pairing": 0,
+    "__wrap_pico_flash_bank_instance": 1
+  },
+  "symbol_note": "nm --defined-only still lists flash_range_erase/program, pico_flash_bank_instance and gap_connect: linked SDK/BTstack objects keep their definitions. The safety claim rests on zero call sites in objdump, not on symbol absence.",
+  "analyser_tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s tools -p test_bt_discovery.py -v"
+  },
+  "discovery": "UNVERIFIED",
+  "identity": "UNVERIFIED",
+  "full_services": "UNVERIFIED",
+  "input": "UNVERIFIED",
+  "fine_haptics": "UNVERIFIED",
+  "known_limits": [
+    "Classic inquiry transmits discovery traffic",
+    "BLE scan is passive and limited to legacy 31-byte advertising data",
+    "32 observations per transport",
+    "No physical Flash comparison yet because hardware was not touched"
+  ],
+  "build_failures_preserved": [
+    "pioasm native C++ compiler unavailable; fixed with existing SDK prebuilt pioasm",
+    "TinyUSB RHPORT mode assertion; fixed by explicit device/full-speed configuration"
+  ],
+  "next": "Await user readiness, actual BOOTSEL/Flash preflight, documented controller discovery mode, then one RAM-only scan and unchanged-Flash verification",
+  "max_observations_per_transport": 96
+}

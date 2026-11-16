@@ -1,0 +1,21 @@
+{
+  "status": "INCOMPLETE",
+  "motor_commands": 0,
+  "configuration_writes": 0,
+  "pico_access": false,
+  "before_read_queries": {
+    "status": "CANCELLED_OR_TIMED_OUT",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 8002.234
+      }
+    ]
+  },
+  "error": "ValueError('before_read_queries manual input check failed')"
+}

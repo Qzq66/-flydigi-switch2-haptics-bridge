@@ -1,0 +1,9 @@
+{
+  "status": "PASSED_G37_GAME_OFFLINE",
+  "tests": 120,
+  "io_guard": true,
+  "hardware_access": false,
+  "old_renderer_and_runner_unchanged": true,
+  "stale_baseline_rejected": true,
+  "plan_sha256": "29dcac3643d0028250212ad36c9061af494dd8049f5cfe20c4b9486028989851"
+}

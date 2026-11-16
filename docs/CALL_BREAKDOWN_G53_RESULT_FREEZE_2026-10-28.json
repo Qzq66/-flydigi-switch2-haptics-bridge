@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "docs/CALL_BREAKDOWN_RUN_20261028-224522.json",
+      "sha256": "60c9d1c8f8af5033084c8fbfc11a57eaea2b83f8fcad2084322575379f76e816"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261028-225115.json",
+      "sha256": "c009c2e81c097349ec43388642b6de10bef2be72af51c52cddf9d4ebfb6246a8"
+    },
+    {
+      "path": "docs/CALL_BREAKDOWN_G53_ASSESSMENT_2026-10-28.json",
+      "sha256": "f0cfb6675f78746a1c94824a2baf5ec41dab07c0f7815bacd4bcdeb04942ef94"
+    },
+    {
+      "path": "docs/CALL_BREAKDOWN_G53_PLAN_2026-10-28.json",
+      "sha256": "8775c5c682c0a2ec9ee9e7b1351ff9643053eb0629240f77f788a81efc942f4d"
+    },
+    {
+      "path": "tools/poll_call_breakdown.py",
+      "sha256": "c49a354d0d0208cd13b7a3c61df75c5f3afbd3a877cc0d71aec717bd4d2c5f20"
+    },
+    {
+      "path": "tools/poll_call_breakdown_validation.py",
+      "sha256": "e004e75dac8bad57e80d2163a6f485162b4a8c83c7da32b32f16d6fde14c591e"
+    },
+    {
+      "path": "tools/run_call_breakdown_g53.py",
+      "sha256": "ea47427ecd46f0245f37819cd51d4015120a1b4c17b84ec7c95f8fcc556c4123"
+    },
+    {
+      "path": "tools/call_breakdown_policy_g53.py",
+      "sha256": "0a659a1f0f37f753ebacb238e08ef753b1839a131f53f00c500a6ab99a0697ae"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "status": "NEUTRAL_TRANSPORT_MEASURED",
+  "classification": "measurement",
+  "scope": "Neutral-only USB 0x10 transport timing; no motor parameters, no configuration command",
+  "date": "2026-11-16",
+  "device": {
+    "product": "Pro Controller",
+    "vid": "0x057e",
+    "pid": "0x2009",
+    "input_len": 64,
+    "output_len": 64,
+    "declared_output_ids": ["0x01", "0x10", "0x80", "0x82"]
+  },
+  "runs": [
+    {
+      "mode": "grid",
+      "raw": "work/private/switch-usb-timing-20261116-1402/result.json",
+      "frames_sent": 24,
+      "transport_completion_ms": {"min": 7.0429, "median": 7.9884, "max": 8.1029, "over_4ms": 24},
+      "dispatch_lateness_ms": {"min": 0.0065, "median": 47.0374, "max": 91.0771, "over_4ms": 22},
+      "max_gap_ms": 8.1321
+    },
+    {
+      "mode": "dense",
+      "raw": "work/private/switch-usb-dense-20261116-1410/result.json",
+      "frames_sent": 32,
+      "transport_completion_ms": {"min": 6.8965, "median": 7.9827, "max": 8.1222, "over_4ms": 32},
+      "completion_cadence_ms": {"min": 6.9082, "median": 8.0033, "max": 8.1380},
+      "dispatch_lateness_ms": {"min": 0.0, "median": 0.0, "max": 0.0},
+      "max_gap_ms": 8.1380
+    },
+    {
+      "mode": "async",
+      "raw": "work/private/switch-usb-async-20261116-1422/result.json",
+      "frames_sent": 32,
+      "dispatch_lateness_ms": {"min": 0.0026, "median": 0.3237, "max": 0.5439, "over_4ms": 0},
+      "completion_cadence_ms": {"min": 0.0209, "median": 8.0065, "max": 8.5059},
+      "async_writer": {"submitted": 32, "written": 32, "replaced": 0, "failed": 0,
+                       "max_write_ms": 7.0478, "max_backlog_ms": 0.1616},
+      "max_gap_ms": 8.4904
+    },
+    {
+      "mode": "async-first-attempt",
+      "raw": "work/private/switch-usb-async-20261116-1418/result.json",
+      "note": "Every write failed with 'USB output did not complete within 4ms': the worker thread inherited the 4 ms default bound, so written=0 and the low lateness was vacuous.",
+      "frames_sent": 32
+    }
+  ],
+  "findings": [
+    "Back-to-back neutral writes complete every ~8 ms (cadence median 8.003 ms, min 6.908, max 8.138), so the 8 ms is the endpoint polling interval, not Windows API overhead.",
+    "The controller's OUT endpoint therefore accepts about 125 frames per second; an 8 ms haptic frame period matches the hardware exactly.",
+    "A synchronous writer on an 8 ms grid leaves zero margin (one write = one period); with a 4 ms grid it accumulates about 4 ms of lateness per frame.",
+    "Overlapping the blocking write with the dispatcher removes the problem: on an 8 ms grid, dispatch lateness is 0.0026 / 0.3237 / 0.5439 ms (min/median/max), 0 frames over 4 ms, and 32/32 frames written with 0 replaced.",
+    "Two separate 4 ms bounds produced false results in this campaign: the diagnostic's dispatch guard (stopped the run) and the writer's default timeout (rejected every write). Both are now explicit: 50 ms transport bound, lateness recorded not fatal.",
+    "Lateness in the synchronous grid run (0.0065 -> 91.08 ms) is accumulation of ~4 ms per frame, a property of the serial loop, not of the device."
+  ],
+  "limits": [
+    "WriteFile completion is not controller ACK and says nothing about haptics.",
+    "Endpoint bInterval is inferred from cadence, not read from the descriptor.",
+    "Frames were neutral; the overlapped writer has not yet carried a real haptic frame.",
+    "One host, USB direct to the machine, two short sessions."
+  ],
+  "files": {
+    "probe": "tools/switch_usb_timing_probe.py",
+    "timing_module": "tools/switch_usb_timing.py",
+    "writer": "tools/switch_usb_async_writer.py",
+    "tests": ["tools/test_switch_usb_timing.py", "tools/test_switch_usb_async_writer.py"]
+  },
+  "next": "Carry a real haptic frame through the overlapped writer on the 8 ms grid, then compare what the controller actually produces against the requested waveform."
+}

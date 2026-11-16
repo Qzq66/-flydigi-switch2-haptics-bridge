@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_OFFLINE_PARAMETER_AND_SOFTWARE_CORE_AUDIT",
+  "hardware_access": false,
+  "mapping_changed": false,
+  "files": [
+    {
+      "path": "tools/audit_game_parameter_mapping.py",
+      "sha256": "52c3647c49be6c6188d9ea8a13c340fc7ac954d79c28941ad9e8f51999913642"
+    },
+    {
+      "path": "tools/audit_game_parameter_mapping_v2.py",
+      "sha256": "5e3cdf8f6d641d00cfb99ff0b1879b2d3b124d6c47a2fcf50c82ac44cbeb7204"
+    },
+    {
+      "path": "docs/GAME_PARAMETER_AUDIT_2026-10-27.json",
+      "sha256": "8d5c972b7094f1d4ef2511a976ab6e2f315a8a1eac189aadc3787386f0434894"
+    },
+    {
+      "path": "docs/GAME_PARAMETER_AUDIT_V2_2026-10-27.json",
+      "sha256": "3f63a2efb9cbe8c207f8655f80535ab8470becdc88b7a7c8e5692ac8f2ccd8fa"
+    },
+    {
+      "path": "docs/GAME_PARAMETER_SOURCE_BINDING_2026-10-27.json",
+      "sha256": "47115f13aaf685e8b7f2187616618c05a9398b3767e35120135efcec4637af25"
+    },
+    {
+      "path": "docs/GAME_PARAMETER_AUDIT_2026-10-27.md",
+      "sha256": "00f1f12d4cf97629ece5fbbabd644e01a187d468d31b9b68d1859f8cd5a22570"
+    },
+    {
+      "path": "tools/live_fidelity_candidate.py",
+      "sha256": "7629b1c5d16c859699192c9eafb9fe36f301dfd0d2052549d817e177728714c5"
+    },
+    {
+      "path": "tools/haptic_fidelity_candidate.py",
+      "sha256": "6e0e5531a04fbe51b219d23cfacbbce91883e47b312f749722ba3d76c0287102"
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "sha256": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_G37_CANDIDATE_HARDWARE_RESULT_PENDING",
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_g37.py",
+      "sha256": "6f9283d4e6f8c632aa22f450668b5e9d432457464bdf3dbe5cf43b1832ffb93c"
+    },
+    {
+      "path": "tools/run_fidelity_game_g37.py",
+      "sha256": "e66e6144036b5a676f65b7829f37db507487663981bae2c4004e1e46986be336"
+    },
+    {
+      "path": "tools/assess_fidelity_game_g37.py",
+      "sha256": "c4b5e371ba5d0a06bfc1f2be3ce15542487c67e81eb62821ba499db4c42ac396"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_G37_2026-10-26.json",
+      "sha256": "29dcac3643d0028250212ad36c9061af494dd8049f5cfe20c4b9486028989851"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G37_OFFLINE_2026-10-26.json",
+      "sha256": "19038106f1ec93ec98e6dc032f2bc89604e0592db10416591a17d0ea3c7a2694"
+    },
+    {
+      "path": "docs/RAM_PACING_RTT_20261026-222940.json",
+      "sha256": "b59562341e46f89e5b9d13cd06f96455f620b4a2d91ea7f6b2557ad7e94a6450"
+    }
+  ]
+}

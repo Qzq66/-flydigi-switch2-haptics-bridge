@@ -1,0 +1,17 @@
+{
+  "status": "OFFLINE_READY_V6_NOT_LOADED",
+  "version": 6,
+  "policy_change": "Allow general bonding; no MITM. Host keys RAM only, peripheral may persist bond. No auto acceptance added.",
+  "elf_sha256": "9a58370e6bf2c16630afce7a77686d1b711c5a8aff819be96fa39e150a78de8d",
+  "runner_sha256": "0caab9d7956aa35d57b40d025fdf179e71623d3fb7c01e2e4e8b080bf822ec38",
+  "main_sha256": "ab76baf4f367c5d5c9ab7c1188417564c5fe2535d07d46978abad463b8c8e0c5",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "hardware_actions": [],
+  "supersedes": "bt-classic-general-bonding-20261116.json",
+  "note": "Final source line endings and accurate bonding comment; same executable behavior"
+}

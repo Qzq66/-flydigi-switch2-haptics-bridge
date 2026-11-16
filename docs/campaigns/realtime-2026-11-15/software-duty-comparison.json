@@ -1,0 +1,85 @@
+{
+  "status": "PASSED_SINGLE_HEAVIER_SYNTHETIC_SOFTWARE_REPLAY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "physical_output": false,
+  "product_behavior_changed": false,
+  "protection_parameters_changed": false,
+  "independent_condition": "Synthetic pulse duration 8ms to 280ms only; same six event start times and active motor bytes; default remains 8ms",
+  "previous": {
+    "status": "HOST_SOFTWARE_FULL_WINDOW_PASSED",
+    "frames": 7500,
+    "events": 6,
+    "active_ms": [
+      48,
+      48
+    ],
+    "squared_code_sum": [
+      1074,
+      1074
+    ],
+    "peak": 6,
+    "fault": null,
+    "cpu_seconds": 13.546875,
+    "wall_seconds": 60.73202070000001
+  },
+  "current": {
+    "status": "HOST_SOFTWARE_FULL_WINDOW_PASSED",
+    "frames": 7500,
+    "events": 6,
+    "active_ms": [
+      1680,
+      1680
+    ],
+    "squared_code_sum": [
+      32946,
+      32946
+    ],
+    "peak": 6,
+    "fault": null,
+    "cpu_seconds": 14.375,
+    "wall_seconds": 60.734863600000004
+  },
+  "activity_multiplier": 35,
+  "full_window_reference_checks": {
+    "full_window": true,
+    "events_distributed": true,
+    "completed_six": true,
+    "stopped": true,
+    "no_fault": true,
+    "successful_frames": true,
+    "left_pcm": true,
+    "right_pcm": true,
+    "reports": true,
+    "dose": true,
+    "peak": true,
+    "whole_activity": true,
+    "whole_dose": true,
+    "per_event": true,
+    "event_totals": true
+  },
+  "regression": {
+    "tests": 347,
+    "seconds": 14.9877241,
+    "status": "PASSED_L0_OFFLINE_SUBSET"
+  },
+  "interpretation": [
+    "The full window is achievable on this host under a longer synthetic motor workload",
+    "Earlier software and hardware dispatch failures remain valid",
+    "Sequential runs have uncontrolled host scheduling differences; no causal or statistical stability claim"
+  ],
+  "remaining_gaps": [
+    "No actual HID/XInput/UDP workload or captured game motor field sequence",
+    "Synthetic peak 6 does not equal maximum physical game load",
+    "No first fault occurred; last-gap fault binding was not exercised by this host run"
+  ],
+  "sha256": {
+    "tools/software_replay_source.py": "bedfdcde897bb04df351a1aabed35ba92e31f9237745e18b1bcb063af0519c32",
+    "tools/test_software_replay_source.py": "a3834b28320ae258df9ce134329bef42e90aed9e1628820195b057e48c5b807c",
+    "tools/software_loop_replay.py": "8ed4220e325f1d386f01c87fea0e694d25b45e44052f6ad2d99de7fe72a645df",
+    "tools/verify_campaign.py": "eba050e1a1c50f186ad97bfe2d0fcc66086593571754bf6d283ed57c8e7e908a",
+    "docs/campaigns/realtime-2026-11-15/software-loop-280ms.json": "75a2b7919b55122fbc85a18466970520e1cfce33285c880f84f238fe7be41314",
+    "docs/campaigns/realtime-2026-11-15/software-loop-last-gap.json": "1dd579aa5de6b0eb2f45af5e1be279b9b3412f3910b5e44cc2fdaff650a234f1",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-210254.json": "97e4a09c580098ee6ce68a3d5201641bc028c852b00d458f1cf3a7584492f6c9"
+  }
+}

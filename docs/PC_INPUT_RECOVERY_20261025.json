@@ -1,0 +1,23 @@
+{
+  "status": "PC_INPUT_RECOVERED_AFTER_RECEIVER_REPLUG",
+  "checks": {
+    "pc_input_observed": true,
+    "both_button_masks_observed": true,
+    "both_switch_buttons_observed": true,
+    "final_neutral": true,
+    "configuration_unchanged": true,
+    "readonly_no_motor_or_config_commands": true
+  },
+  "evidence_sha256": {
+    "docs/PC_INPUT_DIAGNOSTIC_20261025-151948.json": "5611bec2fffc14c88698782be2543e0b3cd733b2c9342318f6d8fb30ee46fb2d",
+    "docs/PC_INPUT_DIAGNOSTIC_20261025-152833.json": "005a123e2d8c90318e23d9cde38b98f03a6bd6ccb0f7f6317dc3149fb3c38b9f",
+    "docs/PC_INPUT_DIAGNOSTIC_20261025-153458.json": "7e7196056341099f638d47affaba374a8aca486afb20e868f377922bb4e42359",
+    "docs/FLYDIGI_CONFIG_AFTER_RECEIVER_REPLUG_20261025.json": "0f6605448f019118d69d3c7f05899be27b23f81c2dfc2239e8e5c6f0b85761b3"
+  },
+  "human_native_windows_test": "Previously unresponsive; buttons and sticks responded after receiver unplug/replug.",
+  "normal_controller_power_cycle_alone_restored_input": false,
+  "root_cause_proven": false,
+  "switch_game_dual_band_validated": false,
+  "pico_current_verified_generation": 22,
+  "next_work": "Bind a new game plan to generation 22 and add a real PC button press/release liveness precheck before another host test."
+}

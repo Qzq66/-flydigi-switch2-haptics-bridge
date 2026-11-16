@@ -1,0 +1,7 @@
+{
+  "status": "PASSED_AMPLITUDE_AB_OFFLINE",
+  "tests": 11,
+  "io_guard": true,
+  "hardware_access": false,
+  "runner_only_paths_changed": true
+}

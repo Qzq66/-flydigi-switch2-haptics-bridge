@@ -1,0 +1,35 @@
+{
+  "status": "ARCHIVED_WORKLOAD_EVALUATED_NOT_HARDWARE_ACCEPTANCE",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "source_trial": "20261115-165425",
+  "source_events": 1119,
+  "original_udp_packets_available": false,
+  "packet_envelopes_and_grouping_synthetic": true,
+  "parser_max_us": 24.2,
+  "decode_two_sides_max_us": 114.8,
+  "unarmed_feed_max_us": 207.2,
+  "sum_eight_feed_calls_max_us": 946.7,
+  "paced_parser_deadlines_completed": 100,
+  "paced_parser_max_lateness_ms": 2.1721,
+  "saturated_parser_first_late_ms": 5.7855,
+  "live_code_changed_by_this_work": false,
+  "tests": {
+    "new_cases": 5,
+    "current_workspace_l0": 325,
+    "report": "l0-20261115-202811.json"
+  },
+  "bootstrap_issue": {
+    "classification": "procedural",
+    "reason": "First profiling attempt audit-blocked standard ctypes initialization; no timer acquired or hardware accessed. Standard bootstrap moved before audit, device/backend loading remains denied."
+  },
+  "limitations": [
+    "Unarmed feed excludes active heap scheduling and HID writes",
+    "No XInput/native input or socket receive calls",
+    "Synthetic packet batching differs from historical wire packet boundaries",
+    "Cannot attribute historical8.70ms gap to Python parsing or GIL"
+  ],
+  "decision": "Saturated Python worker is not an established model of the paced collector. Do not change interpreter scheduling or add hardware tests based on this result.",
+  "evidence": "archived-workload-profile.json",
+  "source_sha256": "6125f1d4650bc902bb1fa1f7094e1aa718f7ea8bc973e73d7f4d990f02f169a3"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASSED_FREQUENCY_AB_OFFLINE",
+  "tests": 11,
+  "hardware_access": false,
+  "io_guard": true,
+  "digital_frequency_and_dose_verified": true,
+  "physical_equivalence_claimed": false
+}

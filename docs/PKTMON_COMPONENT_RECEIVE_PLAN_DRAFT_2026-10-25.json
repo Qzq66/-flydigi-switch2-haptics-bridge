@@ -1,0 +1,73 @@
+{
+  "status": "DRAFT_COMPONENT_TO_USER_RECEIVE_CAPTURE_NOT_EXECUTED",
+  "version": 1,
+  "baseline_generation": 31,
+  "inventory_sha256": "fea74f92ab66c996b9816e72602885d38a482727217b1dbff5e642b9b1ba890a",
+  "inventory_is_point_in_time": true,
+  "recheck_before_capture": true,
+  "capture_executed": false,
+  "filters_changed": false,
+  "pico_access": false,
+  "motor_commands": 0,
+  "intended_flow": {
+    "network": "IPv4",
+    "transport": "UDP",
+    "experiment_port": 49724,
+    "host_address_source": "verified existing hotspot/session, no network settings change"
+  },
+  "proposed_filter_template": [
+    "pktmon",
+    "filter",
+    "add",
+    "<unique_run_filter>",
+    "-d",
+    "IPv4",
+    "-t",
+    "UDP",
+    "-p",
+    "49724",
+    "-i",
+    "<verified_hotspot_host_ip>"
+  ],
+  "proposed_capture_template": [
+    "pktmon",
+    "start",
+    "--capture",
+    "--comp",
+    "nics",
+    "--pkt-size",
+    "0",
+    "--file-size",
+    "128",
+    "--log-mode",
+    "circular",
+    "--file-name",
+    "<private_run>/packets.etl"
+  ],
+  "capture_start_trigger": "Owned helper ready before listener; actual capture confirmed before USB-swap prompt.",
+  "maximum_capture_seconds": 270,
+  "maximum_etl_megabytes": 128,
+  "raw_capture_storage": "local private only; packet payload may contain session nonce",
+  "before_start": [
+    "Recheck no active PktMon capture and no existing filters; otherwise abort without stopping/removing them.",
+    "Bind one-run flow, runtime source, actual Flash baseline and selected component inventory."
+  ],
+  "ownership_and_cleanup": [
+    "Never stop a session unless its current log target and run identifier match this helper.",
+    "Installed help describes filter remove as removing all filters; do not assume named removal.",
+    "Only remove filters when fresh list contains exactly this run filter; preserve unexpected external filters and report incomplete cleanup."
+  ],
+  "analysis_requirements": [
+    "Keep component IDs and direction; do not count copies at different components as network retransmissions.",
+    "Validate packet timestamp units/clock interpretation with local sample and independent clock anchors.",
+    "Compare matched UDP request numbers at a specific Windows component observation point and user-space receive.",
+    "Do not label a NIC component observation time as physical radio arrival or one-way network latency.",
+    "Detect circular-log truncation or lost events before making timing claims."
+  ],
+  "implementation_pending": [
+    "Admin capture helper with bounded lifetime and ownership-aware stop/cleanup.",
+    "Offline parser/correlation and clock-anchor checks using synthetic samples.",
+    "Explicit real-run readiness and Windows UAC for the capture helper."
+  ],
+  "scope": "Plan only. Read-only administrator inventory was executed; no capture, filter mutation, Pico operation or haptic playback was performed. No root-cause conclusion."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASSED_FIRST_OF_TWO_ISOLATED_RUNTIME_STAGE_TEST",
+  "trial": "20261115-155555",
+  "checks": {
+    "raw_evidence_bound": true,
+    "normal_baseline": true,
+    "four_pre_samples_exact": true,
+    "enable_changes_only_expected_motor_bytes": true,
+    "waveform_does_not_add_ram_changes": true,
+    "disable_restores_complete_motor_blob": true,
+    "all_five_later_reads_normal": true,
+    "all_other_regions_exact": true,
+    "states_unchanged": true,
+    "all_blob_crc_and_hashes_valid": true,
+    "only_known_commands": true,
+    "only_enable_disable_modes": true,
+    "one_120ms_pulse": true,
+    "shutdown_ack": true,
+    "human_bilateral_and_no_residual": true
+  },
+  "mode_motor_offsets": [
+    55,
+    56,
+    57,
+    58
+  ],
+  "enabled_values": [
+    2,
+    64,
+    2,
+    64
+  ],
+  "normal_full_motor_sha256": "a0689f72d383f7af7e8a331c271092d2c24bcd50218b88b2a154342e195f0f05",
+  "commands": {
+    "04": 1,
+    "A1": 25,
+    "A3": 420,
+    "53": 2,
+    "57": 19
+  },
+  "configuration_writes": 0,
+  "pico_access": false,
+  "engine_was_closed": true,
+  "engine_unique_cause_not_proven": true,
+  "scope": "Observed exact lifecycle for this controller/baseline and approved mode pair, not a blanket byte whitelist or universal firmware schema",
+  "remaining_user_vibration_trials": 1
+}

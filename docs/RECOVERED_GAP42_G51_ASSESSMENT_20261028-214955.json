@@ -1,0 +1,119 @@
+{
+  "phase_gap": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true
+    },
+    "scope": "Integrity of recorded wrapper poll/pause spans and bounded contexts; not proof of a network root cause or improved latency."
+  },
+  "written_pcm": {
+    "passed": true,
+    "checks": {
+      "complete": true,
+      "observation_point": true,
+      "bounded": true,
+      "no_errors": true,
+      "submission_only": true,
+      "all_successes_recorded": true,
+      "finite_cost": true,
+      "reference_available": true,
+      "recorded_frames": true,
+      "samples_per_side": true,
+      "left_sha256": true,
+      "right_sha256": true,
+      "report_sha256": true,
+      "squared_code_sum": true,
+      "peak_per_side": true,
+      "nonneutral_samples": true
+    },
+    "reference_error": null,
+    "expected": {
+      "recorded_frames": 551,
+      "samples_per_side": 4408,
+      "left_sha256": "fcf4d5f4809fc2f4b384702bd20361ecdafaf30c3496f8f9d3230358e3b889f0",
+      "right_sha256": "fcf4d5f4809fc2f4b384702bd20361ecdafaf30c3496f8f9d3230358e3b889f0",
+      "report_sha256": "047814056dda94f7dbe30126b0d252cf0584ab3917ef0918abfe1f4cd83b00d0",
+      "squared_code_sum": [
+        6041,
+        6041
+      ],
+      "peak_per_side": [
+        9,
+        9
+      ],
+      "nonneutral_samples": [
+        275,
+        275
+      ]
+    },
+    "scope": "Successful host writer submissions only; not controller receipt or mechanical execution."
+  },
+  "status": "INCOMPLETE",
+  "checks": {
+    "strict_parent": true,
+    "parent_program_status": true,
+    "plan_bound": true,
+    "readback_verified": true,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": true,
+    "program_unchanged": true,
+    "full_source_motor_fields": true,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_game_event": false,
+    "human_prearm_silent": false,
+    "human_stopped": true,
+    "human_postmute_input": false,
+    "phase_gap_integrity": true,
+    "written_pcm_matches_independent_source": true
+  },
+  "journal_generation": 52,
+  "motor_fields": 1439,
+  "active_ms": [
+    296,
+    296
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    6041,
+    6041
+  ],
+  "source_reference": {
+    "active_ms": [
+      296,
+      296
+    ],
+    "peak_code": 9,
+    "squared_code_sum": [
+      6041,
+      6041
+    ],
+    "final_samples_neutral": true
+  },
+  "source_reference_error": null,
+  "scope": "One selected game action with live dual-band rendering and bounded gain; not measured original HD/HD2 physical fidelity or general game compatibility.",
+  "source_sha256": {
+    "program": "ec3431f9c17809bb147718a184ce534ba3e096131e81eba596137bddd87e3a34",
+    "plan": "e689338c320bb253eb9585aea85b6a42ccc08ccc98ec6947a7ba5868d379d23f",
+    "capture": "817cfdafe1a9683431e6082c20c0291b9f0db8412111c8e980f7254d1de76aa6",
+    "baseline": "a998dc019726b3ecfdba5ebbab6ec6373502cae90bd5febeb0ded36e51d3f49c"
+  }
+}

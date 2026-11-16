@@ -1,0 +1,89 @@
+{
+  "status": "CONVERTED_EXISTING_STOPPED_ETL",
+  "capture_started": false,
+  "filters_changed": false,
+  "pico_access": false,
+  "motor_commands": 0,
+  "source_etl_sha256": "26277d086fff7735c90d30552d4858abe3d1b57bb425e7885fc7865272adc789",
+  "source_helper_sha256": "d5d4103cbdfcbc44e6bf5c4f495efd0e65d9bd531d92704dcd2a0cf22490c44b",
+  "files": [
+    {
+      "name": "packets.pcapng",
+      "exit_code": 0,
+      "sha256": "9303ef048ec05b5cfc0b3f0a415239ab72a0195824cfeecdb5348edc826001cb",
+      "bytes": 35375824
+    },
+    {
+      "name": "component-3.pcapng",
+      "exit_code": 0,
+      "sha256": "869736fd3e8cc1f6c1f9741749092b3c35470d8198fe15f9fb06df85a84fb3d7",
+      "bytes": 1483896
+    },
+    {
+      "name": "component-12.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-16.pcapng",
+      "exit_code": 0,
+      "sha256": "83d1c0181acd9dac0be5bdfc88a0f41372f3de3d0270493b6ae3707d81225ec2",
+      "bytes": 1483220
+    },
+    {
+      "name": "component-29.pcapng",
+      "exit_code": 0,
+      "sha256": "a8c96c2205d363c7cba1c89d6c063d3a3ed2e911e3ab04810edcd5d35bc3103a",
+      "bytes": 2570228
+    },
+    {
+      "name": "component-35.pcapng",
+      "exit_code": 0,
+      "sha256": "70d3ee0deefde473826c282432290a8ffed13143a25bd11759a7c681803bb983",
+      "bytes": 2768592
+    },
+    {
+      "name": "component-61.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-67.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-72.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-78.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-133.pcapng",
+      "exit_code": 0,
+      "sha256": "7bc57bb98c9ffdb106f8dcaf02d9ea7e9a6ce6fbb8fe7f0fadaffec0d8c11282",
+      "bytes": 1285620
+    },
+    {
+      "name": "component-159.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    },
+    {
+      "name": "component-170.pcapng",
+      "exit_code": 0,
+      "sha256": "e398d320ae60502f958c3fbace6b17fb95de00700bbfd05d23904695aa83da1d",
+      "bytes": 196
+    }
+  ]
+}

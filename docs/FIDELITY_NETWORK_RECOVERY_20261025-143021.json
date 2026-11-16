@@ -1,0 +1,14 @@
+{
+  "status": "LATER_BOOTSEL_FULL_FLASH_VERIFIED",
+  "flash_write": false,
+  "flydigi_access": false,
+  "run": "FIDELITY_NETWORK_RUN_20261025-143021.json",
+  "manual_reconnect_requested": false,
+  "proof": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "5fdd8a5209872542626179c99d1a7f4b3ce17b06d4512fbf1b3fc2af416024d1",
+    "baseline_generation": 21
+  }
+}

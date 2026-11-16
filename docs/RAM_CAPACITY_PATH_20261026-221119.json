@@ -1,0 +1,45 @@
+{
+  "status": "BOUNDED_RAM_POLLING_FLASH_UNCHANGED_PENDING_CAPTURE_ANALYSIS",
+  "motor_commands": 0,
+  "flydigi_access": false,
+  "flash_write": false,
+  "queries_sent_limit": 7500,
+  "ram_loaded": true,
+  "full_flash_after_matches": true,
+  "cleanup_errors": [],
+  "plan_sha256": "ef997fd0a3ce94769c47b10fdd1be1dc4f36c0ccb7966d81af373390beadf039",
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "steam_exited": true,
+  "full_flash_before_matches": true,
+  "no_flash_writer_symbols": true,
+  "polling": {
+    "completed_window": true,
+    "elapsed_seconds": 30.0123162,
+    "poll_calls": 1943,
+    "accepted_frames": 1927,
+    "deadline_expirations": 16,
+    "late_matching_replies": 2,
+    "stale_replies": 14
+  },
+  "timer_released": true,
+  "packet_clock": {
+    "rows": 3886,
+    "errors": 0,
+    "overflow": 0,
+    "maximum_observer_seconds": 0.002921100000001786,
+    "private_trace_sha256": "5dbdd34c61ea02e971acf851f7379d0d8ed1c2173e83a056a5cf27b422c345cd",
+    "contains_payload": false,
+    "clock_anchors": 2
+  },
+  "ram_reset_requested": true,
+  "bootsel_verify": {
+    "matched": true,
+    "attempts": 5,
+    "elapsed_seconds": 10.593999999999141
+  }
+}

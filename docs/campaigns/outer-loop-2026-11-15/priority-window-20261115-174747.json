@@ -1,0 +1,66 @@
+{
+  "status": "PASSED_PRIORITY_WINDOW_OFFLINE",
+  "scope": "Offline priority-window integration check; no hardware opened, no protocol value changed",
+  "iterations": 4000,
+  "checks": {
+    "held_during_action": true,
+    "restored_after_action": true,
+    "exception_propagates": true,
+    "restored_after_exception": true,
+    "disabled_makes_no_call": true,
+    "real_original_priority": true,
+    "real_restored_after_disabled_arm": true,
+    "real_restored_after_enabled_arm": true,
+    "real_restored_after_fault": true,
+    "enabled_max_overshoot_under_3ms": true,
+    "window_is_short": true,
+    "boost_actually_applied": true
+  },
+  "priority": {
+    "original": 0,
+    "time_critical": 15
+  },
+  "arms": {
+    "window_disabled": {
+      "overshoot_ms": {
+        "n": 4000,
+        "min": 0.013699998817173764,
+        "median": 0.5253999988781288,
+        "p99": 1.1758000000554603,
+        "max": 6.132399999842164,
+        "over_3ms": 4,
+        "over_5ms": 1
+      },
+      "holds_ms": {
+        "n": 4000,
+        "min": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0,
+        "over_3ms": 0,
+        "over_5ms": 0
+      }
+    },
+    "window_enabled": {
+      "overshoot_ms": {
+        "n": 4000,
+        "min": 0.014400000509340316,
+        "median": 0.5220000002736924,
+        "p99": 1.0074000001623062,
+        "max": 1.614399998288718,
+        "over_3ms": 0,
+        "over_5ms": 0
+      },
+      "holds_ms": {
+        "n": 4000,
+        "min": 1.0930999997071922,
+        "median": 1.6330000016751,
+        "p99": 2.1122000016475795,
+        "max": 2.7369000017642975,
+        "over_3ms": 0,
+        "over_5ms": 0
+      }
+    }
+  },
+  "evidence_tool": "tools/verify_priority_window.py"
+}

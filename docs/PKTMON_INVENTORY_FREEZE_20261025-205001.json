@@ -1,0 +1,50 @@
+{
+  "status": "FROZEN_READONLY_PKTMON_INVENTORY_AND_UNEXECUTED_DRAFT",
+  "archive_name": "pktmon-inventory-source-evidence-20261025-205001.zip",
+  "archive_sha256": "eb055fc13ad2ee64eb516da9cf9ec0b09118ad181bff875d5af56d874ee780e7",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "files": [
+    {
+      "path": "tools/collect_pktmon_inventory.ps1",
+      "sha256": "8c8c6851a0964b4ee537d25d09b7b59b244afce86ed3f80d444568fcbef63a02"
+    },
+    {
+      "path": "tools/collect_pktmon_inventory_v2.ps1",
+      "sha256": "08c0ae9418e061dcffbddcac6ef5bba01dc1489f081459c0057d2c3c04efbcb1"
+    },
+    {
+      "path": "tools/collect_pktmon_inventory_v3.ps1",
+      "sha256": "5876d40b69e1919404fc49f7457cc7fb17e7a372fcec0119442db028dc0352ab"
+    },
+    {
+      "path": "tools/validate_pktmon_inventory.py",
+      "sha256": "e7edd3403b114784a949761b640c8a61d345cbae1bdcb6295e6fb98d8d63be4d"
+    },
+    {
+      "path": "docs/PKTMON_INVENTORY_20261025-204713.json",
+      "sha256": "1a3187e64469393007bdd1f05a354db356d92f5670d6bcc32858b5e4792db544"
+    },
+    {
+      "path": "docs/PKTMON_INVENTORY_20261025-205001.json",
+      "sha256": "92c5e3ba375603de14f361cc17829d0a835d63ceb2c2f44a1571eb32f2565677"
+    },
+    {
+      "path": "docs/PKTMON_INVENTORY_VALIDATION_20261025-205001.json",
+      "sha256": "fea74f92ab66c996b9816e72602885d38a482727217b1dbff5e642b9b1ba890a"
+    },
+    {
+      "path": "docs/PKTMON_COMPONENT_RECEIVE_PLAN_DRAFT_2026-10-25.json",
+      "sha256": "08f450a2ed057349f1a491486f936f03685ccd559d6233c04cf9a7fb0c588184"
+    },
+    {
+      "path": "docs/PKTMON_COMPONENT_RECEIVE_PREPARATION_2026-10-25.md",
+      "sha256": "648fbb93ba57fb2eac56e45d65b922fbe4ac5be0fce9e3c619017b5ab1b13a1a"
+    }
+  ],
+  "includes_raw_component_inventory": false,
+  "capture_started": false,
+  "filters_changed": false,
+  "pico_access": false,
+  "scope": "Actual read-only inventory plus independently validated raw hashes. Original V1/V2 defects preserved; V3 syntax only. Capture plan is a draft, no packet timing comparison performed. No GitHub upload."
+}

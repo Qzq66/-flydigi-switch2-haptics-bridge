@@ -1,0 +1,7 @@
+{
+  "status": "PASSED_OFFLINE_ONLY",
+  "tests": 162,
+  "hardware_access": false,
+  "guards_unchanged": true,
+  "default_game_replaced": false
+}

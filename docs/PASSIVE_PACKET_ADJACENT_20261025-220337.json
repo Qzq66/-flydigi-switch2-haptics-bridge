@@ -1,0 +1,122 @@
+{
+  "status": "PARTIAL_COMPONENT_COVERAGE_ADJACENT_PAIRS_ONLY",
+  "application_receive_rows": 16922,
+  "actual_maximum_application_gap_seconds": 0.47859679999999827,
+  "components": [
+    {
+      "component_id": 29,
+      "adjacent_application_pairs_matched": 2772,
+      "worst_five_adjacent_pairs": [
+        {
+          "application_gap_seconds": 0.06323740000000555,
+          "component_gap_seconds": 0.064955,
+          "earlier_component_to_return_seconds": 0.001861872,
+          "later_component_to_return_seconds": 0.000144248
+        },
+        {
+          "application_gap_seconds": 0.05683170000000359,
+          "component_gap_seconds": 0.051807,
+          "earlier_component_to_return_seconds": 8.7976e-05,
+          "later_component_to_return_seconds": 0.00511272
+        },
+        {
+          "application_gap_seconds": 0.05543910000000096,
+          "component_gap_seconds": 0.050979,
+          "earlier_component_to_return_seconds": 0.000110312,
+          "later_component_to_return_seconds": 0.004570416
+        },
+        {
+          "application_gap_seconds": 0.050709399999988136,
+          "component_gap_seconds": 0.050705,
+          "earlier_component_to_return_seconds": 0.000103424,
+          "later_component_to_return_seconds": 0.000107928
+        },
+        {
+          "application_gap_seconds": 0.050349100000005365,
+          "component_gap_seconds": 0.05031,
+          "earlier_component_to_return_seconds": 8.9848e-05,
+          "later_component_to_return_seconds": 0.000128904
+        }
+      ],
+      "global_largest_gap_has_both_packets": false
+    },
+    {
+      "component_id": 35,
+      "adjacent_application_pairs_matched": 2771,
+      "worst_five_adjacent_pairs": [
+        {
+          "application_gap_seconds": 0.06323740000000555,
+          "component_gap_seconds": 0.064952,
+          "earlier_component_to_return_seconds": 0.001866872,
+          "later_component_to_return_seconds": 0.000152248
+        },
+        {
+          "application_gap_seconds": 0.05683170000000359,
+          "component_gap_seconds": 0.051807,
+          "earlier_component_to_return_seconds": 9.5976e-05,
+          "later_component_to_return_seconds": 0.00512072
+        },
+        {
+          "application_gap_seconds": 0.05543910000000096,
+          "component_gap_seconds": 0.050979,
+          "earlier_component_to_return_seconds": 0.000118312,
+          "later_component_to_return_seconds": 0.004578416
+        },
+        {
+          "application_gap_seconds": 0.050709399999988136,
+          "component_gap_seconds": 0.050705,
+          "earlier_component_to_return_seconds": 0.000111424,
+          "later_component_to_return_seconds": 0.000115928
+        },
+        {
+          "application_gap_seconds": 0.050349100000005365,
+          "component_gap_seconds": 0.05031,
+          "earlier_component_to_return_seconds": 9.7848e-05,
+          "later_component_to_return_seconds": 0.000136904
+        }
+      ],
+      "global_largest_gap_has_both_packets": false
+    },
+    {
+      "component_id": 133,
+      "adjacent_application_pairs_matched": 2774,
+      "worst_five_adjacent_pairs": [
+        {
+          "application_gap_seconds": 0.06323740000000555,
+          "component_gap_seconds": 0.064968,
+          "earlier_component_to_return_seconds": 0.001855872,
+          "later_component_to_return_seconds": 0.000125248
+        },
+        {
+          "application_gap_seconds": 0.05683170000000359,
+          "component_gap_seconds": 0.051809,
+          "earlier_component_to_return_seconds": 7.2976e-05,
+          "later_component_to_return_seconds": 0.00509572
+        },
+        {
+          "application_gap_seconds": 0.05543910000000096,
+          "component_gap_seconds": 0.05098,
+          "earlier_component_to_return_seconds": 9.2312e-05,
+          "later_component_to_return_seconds": 0.004551416
+        },
+        {
+          "application_gap_seconds": 0.050709399999988136,
+          "component_gap_seconds": 0.050703,
+          "earlier_component_to_return_seconds": 8.7424e-05,
+          "later_component_to_return_seconds": 9.3928e-05
+        },
+        {
+          "application_gap_seconds": 0.050349100000005365,
+          "component_gap_seconds": 0.05031,
+          "earlier_component_to_return_seconds": 7.4848e-05,
+          "later_component_to_return_seconds": 0.000113904
+        }
+      ],
+      "global_largest_gap_has_both_packets": false
+    }
+  ],
+  "entire_capture_complete": false,
+  "root_cause_proven": false,
+  "warning": "Old largest_matched_application_gap may span unmatched intermediate application rows; do not interpret it as a consecutive application gap. This report requires adjacent original application rows.",
+  "source_trace_sha256": "f2545ea5905c529069d1c2125d9427f8d432631d12f631155833df71ec0a388f"
+}

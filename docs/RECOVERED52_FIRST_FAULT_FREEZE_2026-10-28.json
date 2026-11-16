@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "tools/analyse_recovered52_heartbeat.py",
+      "sha256": "1b6f41b989158e6e2a8b302b03ff625587ecded8c72ed6eb26001b1f2df28d52"
+    },
+    {
+      "path": "tools/test_recovered52_heartbeat.py",
+      "sha256": "6ff45a5ef7173a5efc3f6551ba89f06a8f67c684d72d9c6f1bfe2760f466826c"
+    },
+    {
+      "path": "docs/RECOVERED52_FIRST_FAULT_ANALYSIS_2026-10-28.json",
+      "sha256": "e1171c330937ce8b23527be87e12bd69cbdd54b69d7e0b64e3878cc9d2f71b5b"
+    }
+  ]
+}

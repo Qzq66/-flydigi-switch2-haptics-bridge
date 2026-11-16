@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_FREQUENCY_COMPARISON_CANDIDATE",
+  "files": [
+    {
+      "path": "tools/frequency_ab_plan.py",
+      "sha256": "8fea6a0bbb84a73d8ebc235dab174ad39808796a05fbc4103903fcb71af4516a"
+    },
+    {
+      "path": "tools/run_frequency_ab.py",
+      "sha256": "9f9665eb0a60f23b23b941bd5ba8433d8f47d1c84628d85a650d8ab82fd4a929"
+    },
+    {
+      "path": "tools/frequency_ab_window.py",
+      "sha256": "eabdc60fc18a61ef5d9c1d832e83d5cece4f29faaa78d246e242d1a54e64de46"
+    },
+    {
+      "path": "tools/test_frequency_ab.py",
+      "sha256": "e005171aa89fbabbc79232c9a428f6fe25ed42e2ca7f50e291fa856d8410bfad"
+    },
+    {
+      "path": "docs/FREQUENCY_AB_PLAN_2026-10-27.json",
+      "sha256": "2f1754d1617c5546bb94e3959dda53256d48de89dd8dedd57b2d37e0b75e33c3"
+    },
+    {
+      "path": "docs/FREQUENCY_AB_OFFLINE_2026-10-27.json",
+      "sha256": "5986b8e96ec0c3a31a602814787fcd72f846d8b8485c199c82b6146116af90ce"
+    }
+  ]
+}

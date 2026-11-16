@@ -1,0 +1,25 @@
+{
+  "status": "OFFLINE_READY_V4_NOT_LOADED",
+  "elf_sha256": "e5b22cee3760a0414f234bc4e3769105eb74ee504c48e638400d2709db91164a",
+  "main_sha256": "4899815f24cf41dbafb30c62d81ef9821cde3c68b64dc6358633c1ef711de978",
+  "runner_sha256": "8135321d93bc6d515ace2c6718ba952d302d04c8b5e75232545e5d4f1a57da20",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "checks": [
+    "No application-level raw Authentication Requested call",
+    "One GAP LEVEL_2 request in target ACL callback",
+    "HID meta subevent decoding retained",
+    "Output sequence absent"
+  ],
+  "security_policy": "LEVEL_2 authentication/encryption without MITM; SSP no-bonding unchanged; local keys in RAM",
+  "hardware_actions": [],
+  "limits": [
+    "No evidence yet that authentication completes",
+    "No evidence yet that SDP/HID succeeds",
+    "No console test or motor output"
+  ]
+}

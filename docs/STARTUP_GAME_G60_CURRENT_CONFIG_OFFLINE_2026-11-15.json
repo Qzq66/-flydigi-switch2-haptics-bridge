@@ -1,0 +1,50 @@
+{
+  "status": "PASSED_CURRENT_CONFIG_STARTUP_OFFLINE",
+  "tests": 179,
+  "hardware_access": false,
+  "configuration_writes": 0,
+  "failures": 0,
+  "errors": 0,
+  "files": [
+    {
+      "path": "tools/startup_ready_game_session.py",
+      "sha256": "77c915f9f9fe9baffe552dbaf120c45066dcae5a2d509c3bed79bd877666ff51"
+    },
+    {
+      "path": "tools/startup_game_policy_g60.py",
+      "sha256": "93e87eb179a2b4e6fd1aad79d6e836fe61c62221a59db52bda6b6bf3e2b513bc"
+    },
+    {
+      "path": "tools/run_startup_game_g60.py",
+      "sha256": "c464766b6e7ce734a83fc70ca4de2f20af66d0783678eb6cfd67ce601f73a488"
+    },
+    {
+      "path": "tools/assess_startup_game_g60.py",
+      "sha256": "e5fb48cc41f98288bca924ab9c5713102c79390f9b5b39e00540b958b19a6c81"
+    },
+    {
+      "path": "tools/startup_game_window.py",
+      "sha256": "bae61171a63bbb4750074a4a47c12eeb012245a4c44931ee263675fc07c525d4"
+    },
+    {
+      "path": "tools/bridge_desktop_startup.py",
+      "sha256": "43425279dcfeec9bb1092dc537a69e7da93473ce367be0d57a2c03184f361e6a"
+    },
+    {
+      "path": "tools/test_startup_ready_game_session.py",
+      "sha256": "5abac9eb80789d78c91da1ffb28ae012e8828b196edde793f8def1f2f00660d4"
+    },
+    {
+      "path": "tools/test_startup_game_acceptance.py",
+      "sha256": "04073d3348e44335640f23f0146e28476c6cf64ebbaa245b64f2f9378e7398fd"
+    },
+    {
+      "path": "tools/startup_current_config_owner.py",
+      "sha256": "d016b44ae88a8d922cc42246e92b807bae111f1751440c17e11463d75435963c"
+    },
+    {
+      "path": "tools/test_startup_current_config_owner.py",
+      "sha256": "9f2ce021a9b50ff568543ad023e632d2e4c6f96707c01c88eeb67a1da2077c17"
+    }
+  ]
+}

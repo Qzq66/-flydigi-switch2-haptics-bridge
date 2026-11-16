@@ -1,0 +1,64 @@
+{
+  "status": "PASSED_CAPTURED_WIFI_DUAL_BAND_FULL_AUTOMATIC_RECOVERY_AND_HUMAN",
+  "checks": {
+    "strict_parent_gate": true,
+    "strict_child_gate": true,
+    "parent_status_passed": true,
+    "same_plan_hash": true,
+    "current_source_matches_bound_hashes": true,
+    "offline_evidence_passed": true,
+    "manual_click": true,
+    "normal_child_exit": true,
+    "all_21_fields_exact": true,
+    "one_bilateral_episode": true,
+    "waveform_bounds": true,
+    "injection_and_output_lateness_bounded": true,
+    "injector_joined": true,
+    "input_continued": true,
+    "terminal_handshake": true,
+    "child_and_parent_stop": true,
+    "original_configuration_unchanged": true,
+    "snapshot_confirmed_before_reset": true,
+    "actual_full_flash_matches": true,
+    "automatic_bootsel_no_extra_reset": true,
+    "no_persistent_writes": true,
+    "human_bilateral_texture": true,
+    "human_stopped_without_residual": true,
+    "human_no_replug": true
+  },
+  "active_ms": [
+    296,
+    296
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    5838,
+    5838
+  ],
+  "output_frames": 51,
+  "source_fields": 21,
+  "maximum_injection_lateness_ms": 1.6414000000004592,
+  "maximum_injection_write_ms": 7.011300000002052,
+  "maximum_output_lateness_ms": 2.1561000000325237,
+  "maximum_output_write_ms": 3.022599999997766,
+  "input_calls_after_stop": 40,
+  "pico_updates_after_stop": 40,
+  "bootsel_wait": {
+    "matched": true,
+    "attempts": 5,
+    "elapsed_seconds": 9.858999999999924
+  },
+  "full_flash_sha256": "5fdd8a5209872542626179c99d1a7f4b3ce17b06d4512fbf1b3fc2af416024d1",
+  "current_flash_journal_generation": 21,
+  "successful_switch_game_baseline_generation": 20,
+  "previous_independent_replay": "FIDELITY_NETWORK_ASSESSMENT_20261025-143021.json",
+  "same_version_full_automatic_trials": 1,
+  "source_sha256": {
+    "FIDELITY_NETWORK_RUN_20261025-143749.json": "636a7b2829367e1e5cea7453a0a15244c65db8e4a39c059abfddd3ee742b2e9b",
+    "FIDELITY_NETWORK_PLAN_2026-10-25_V3.json": "47a5902b709ab439a6138348acd389c0bbbc30551be59f5159924b89c3b12662",
+    "FIDELITY_NETWORK_ENTRY_OFFLINE_2026-10-25_V3.json": "1ba537e1cc9091392b71a80d322022bd1e1494d8c5310b04fe798bfd775932f3"
+  },
+  "actual_switch_game_dual_band_validated": false,
+  "original_physical_haptics_fidelity_validated": false,
+  "scope": "One V3 replay through RAM Pico/real UDP/streaming synthesis/Flydigi with complete automatic cleanup and human feedback. Previous V2 replay had separate later Flash proof. Neither is live Switch game dual-band evidence."
+}

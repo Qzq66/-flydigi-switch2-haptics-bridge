@@ -1,0 +1,33 @@
+{
+  "status": "PASSED_CONFIG_TRACE_OFFLINE",
+  "tests": 16,
+  "hardware_access": false,
+  "raw_capture_max_events": 4096,
+  "raw_capture_max_bytes": 1048576,
+  "files": [
+    {
+      "path": "tools/config_read_trace.py",
+      "sha256": "1b1dd95373d3d4f7c6875086658b84e9a7e6001bc487b9fe5fb4b6bdd499642f"
+    },
+    {
+      "path": "tools/config_output_trace.py",
+      "sha256": "0261c8c160cfb923de9cfe555df9904ea6eba6b126fd704148f3165a3fa49031"
+    },
+    {
+      "path": "tools/run_config_read_control.py",
+      "sha256": "2a50efae3d77cf607a58d5239a5db71387c49e2727477fc611f8c297934f0dce"
+    },
+    {
+      "path": "tools/run_config_stop_trace.py",
+      "sha256": "f015106eb78c88e61e67c006b792c180de12c472e03d0beab85d8b9b9ce1a1d3"
+    },
+    {
+      "path": "tools/test_config_read_trace.py",
+      "sha256": "40506f3a67580600286a288f4de1a0be60339b87b596a215945bea362d29b1d7"
+    },
+    {
+      "path": "tools/test_config_output_trace.py",
+      "sha256": "863f291aea5d6da3cd4e20ce08089d61094d6d9c510f4f3133d725bfb0d943dd"
+    }
+  ]
+}

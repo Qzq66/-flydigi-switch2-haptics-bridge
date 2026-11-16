@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_ACCEPTED_WRITER_HELPER_SOURCE_BINDING",
+  "hardware_access": false,
+  "validated_writer_contract": "TestReader.stream returns None only after hid_write returns complete report length; failure raises",
+  "files": [
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "sha256": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "sha256": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "sha256": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503"
+    }
+  ]
+}

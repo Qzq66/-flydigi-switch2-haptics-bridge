@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_COUNTERS_OBSERVED_PACKET_LOG_INCOMPLETE",
+  "files": [
+    {
+      "path": "tools/run_pktmon_smoke_v2.ps1",
+      "sha256": "9cf9487c56c00526688ac41b428fa1dc3454f1c3e81bbc34844dd94d83aad2b3"
+    },
+    {
+      "path": "tools/send_pktmon_smoke_v2.py",
+      "sha256": "c63b902729de5b1a7f3769f80bd9e64cbe5746c0ddeb4a253d5840e3676dbe30"
+    },
+    {
+      "path": "tools/analyse_pktmon_smoke_v2.py",
+      "sha256": "b0be6879f32ec07e001b19877da10485e0b6477db077dbb233e80b9765ad76fb"
+    },
+    {
+      "path": "docs/PKTMON_CAPTURE_SMOKE_V2_2026-10-25.md",
+      "sha256": "3ab652d54ec489932d824f1c1bbfb6ac5d4813dd6d566e264e0033ccc7f8bac7"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V2_20261025-213134.json",
+      "sha256": "30f244683a46bed9d7336cecd9834975e303937b2af95e0658fb33fe7de0ae24"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V2_ANALYSIS_20261025-213134.json",
+      "sha256": "d9e0ecdbf700f31b1983d227e288ab0a5a6ff63998aa4e4f97c52d28c41fa526"
+    },
+    {
+      "path": "docs/PKTMON_SMOKE_V2_COUNTERS_20261025-213134.json",
+      "sha256": "fa3ac9b2ce40df618251f040b7afa7966c0dc1fb28181c6a8ebbc36a6b7815a0"
+    }
+  ]
+}

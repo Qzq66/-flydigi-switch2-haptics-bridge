@@ -1,0 +1,114 @@
+{
+  "status": "COMPLETED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "iterations": 300,
+  "scope": "Pure-host composed wait loop; no device, network or hardware entry",
+  "notes": [],
+  "arms": {
+    "sleep_1ms": {
+      "period_seconds": {
+        "count": 299,
+        "minimum": 0.0010892999998759478,
+        "median": 0.001607000000149128,
+        "p95": 0.0018306999991182238,
+        "p99": 0.0022527000000991393,
+        "maximum": 0.0025241000003006775
+      },
+      "overshoot_seconds": {
+        "count": 300,
+        "minimum": 2.0899999071843922e-05,
+        "median": 0.0005331000011210563,
+        "p95": 0.0007311999997909879,
+        "p99": 0.0010452000005898299,
+        "maximum": 0.0014816000002610963
+      },
+      "periods_over_4ms": 0,
+      "periods_over_6ms": 0,
+      "overshoots_over_1ms": 4,
+      "overshoots_over_3ms": 0,
+      "overshoots_over_5ms": 0,
+      "timer_request": 0,
+      "priority_raised": false,
+      "timer": "sleep"
+    },
+    "sleep_1ms_priority": {
+      "period_seconds": {
+        "count": 299,
+        "minimum": 0.001096599999073078,
+        "median": 0.0016095999999379274,
+        "p95": 0.001822399999582558,
+        "p99": 0.002079500000036205,
+        "maximum": 0.002376300000832998
+      },
+      "overshoot_seconds": {
+        "count": 300,
+        "minimum": 2.4000000848900527e-05,
+        "median": 0.0005438000007416122,
+        "p95": 0.0007248000001709443,
+        "p99": 0.0010302999999112217,
+        "maximum": 0.0013284999986353796
+      },
+      "periods_over_4ms": 0,
+      "periods_over_6ms": 0,
+      "overshoots_over_1ms": 4,
+      "overshoots_over_3ms": 0,
+      "overshoots_over_5ms": 0,
+      "timer_request": 0,
+      "priority_raised": true,
+      "timer": "sleep"
+    },
+    "waitable_highres": {
+      "period_seconds": {
+        "count": 299,
+        "minimum": 0.0010649999985616887,
+        "median": 0.0016125000001920853,
+        "p95": 0.0019436000002315268,
+        "p99": 0.0022706999989168253,
+        "maximum": 0.002508300000044983
+      },
+      "overshoot_seconds": {
+        "count": 300,
+        "minimum": 2.13999992411118e-05,
+        "median": 0.0005444999987957999,
+        "p95": 0.0008455000006506452,
+        "p99": 0.0010898000000452157,
+        "maximum": 0.0014675000002171146
+      },
+      "periods_over_4ms": 0,
+      "periods_over_6ms": 0,
+      "overshoots_over_1ms": 6,
+      "overshoots_over_3ms": 0,
+      "overshoots_over_5ms": 0,
+      "timer_request": 0,
+      "priority_raised": false,
+      "timer": "waitable_highres"
+    },
+    "waitable_highres_priority": {
+      "period_seconds": {
+        "count": 299,
+        "minimum": 0.0010820999996212777,
+        "median": 0.0016079999986686744,
+        "p95": 0.0017710000010993099,
+        "p99": 0.0019451999996817904,
+        "maximum": 0.002066900000500027
+      },
+      "overshoot_seconds": {
+        "count": 300,
+        "minimum": 2.2300000637187622e-05,
+        "median": 0.0005383000006986549,
+        "p95": 0.0006921999993210193,
+        "p99": 0.0008935999994719168,
+        "maximum": 0.0010136000000784406
+      },
+      "periods_over_4ms": 0,
+      "periods_over_6ms": 0,
+      "overshoots_over_1ms": 1,
+      "overshoots_over_3ms": 0,
+      "overshoots_over_5ms": 0,
+      "timer_request": 0,
+      "priority_raised": true,
+      "timer": "waitable_highres"
+    }
+  }
+}

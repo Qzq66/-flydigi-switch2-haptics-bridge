@@ -1,0 +1,78 @@
+{
+  "arms": {
+    "baseline": {
+      "dispatch": {
+        "at_or_over_4ms": 0,
+        "dispatched": 2500,
+        "lateness_seconds": {
+          "count": 2500,
+          "maximum": 0.003965700141634443,
+          "median": 0.0006018004714860581,
+          "minimum": 2.0008701540064067e-07,
+          "p95": 0.0014558001876139315,
+          "p99": 0.001553500256704865
+        }
+      },
+      "receive": {
+        "gap_seconds": {
+          "count": 2499,
+          "maximum": 0.01319089999924472,
+          "median": 0.00798410000061267,
+          "minimum": 0.003439000000071246,
+          "p95": 0.008447900001556263,
+          "p99": 0.008672500000102445
+        },
+        "gaps_over_16ms": 0,
+        "gaps_over_8ms": 1205,
+        "lost": 0,
+        "received": 2500,
+        "sent": 2500,
+        "sequence_gaps": 0
+      },
+      "receiver_error": null,
+      "sender_error": null
+    },
+    "spin_2ms": {
+      "dispatch": {
+        "at_or_over_4ms": 2,
+        "dispatched": 2500,
+        "lateness_seconds": {
+          "count": 2500,
+          "maximum": 0.004295600123441545,
+          "median": 3.583409124985337e-10,
+          "minimum": 0.0,
+          "p95": 5.2003269956912845e-06,
+          "p99": 0.0001284002501051873
+        }
+      },
+      "receive": {
+        "gap_seconds": {
+          "count": 2499,
+          "maximum": 0.011667300001136027,
+          "median": 0.007983499999681953,
+          "minimum": 0.004020299998956034,
+          "p95": 0.008425100000749808,
+          "p99": 0.008582500000557047
+        },
+        "gaps_over_16ms": 0,
+        "gaps_over_8ms": 1185,
+        "lost": 0,
+        "received": 2500,
+        "sent": 2500,
+        "sequence_gaps": 0
+      },
+      "receiver_error": null,
+      "sender_error": null
+    }
+  },
+  "constants": {
+    "gate_seconds": 0.004,
+    "packet_interval_seconds": 0.008,
+    "period_seconds": 0.008
+  },
+  "hardware_actions": 0,
+  "sample": {
+    "periods": 2500
+  },
+  "status": "PASSED_OFFLINE_RECV_SPIN"
+}

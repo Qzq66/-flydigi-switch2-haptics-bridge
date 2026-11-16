@@ -1,0 +1,10 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "d1bf30d911ef44ea43d9510522ef1f2fde613ea34d308109f66f4de08ed6d8bb",
+  "actual_switch_game": true,
+  "host_flash_write": false,
+  "firmware_log_write_expected": true,
+  "persistent_flydigi_commands": 0,
+  "flash_log_validation_pending": true,
+  "error": "ValueError('Physical Flash does not match the v043 installation; keep BOOTSEL')"
+}

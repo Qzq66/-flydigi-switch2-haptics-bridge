@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_FIDELITY_NETWORK_ENTRY_OFFLINE",
+  "tests": 46,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "ram_loaded": false,
+  "physical_output": false,
+  "flash_write": false,
+  "real_network_replay_validated": false,
+  "actual_switch_game_fidelity_validated": false,
+  "legacy_hardware_entries_unchanged": true,
+  "plan_sha256": "766a43c24bab882c4983136dc074be23508e69b997f3ea6152d93a9994f3aa5c",
+  "source_words": 21,
+  "source_duration_us": 296016,
+  "reviewed_ram_file_hash_matches": true,
+  "source_sha256": {
+    "tools/fidelity_network_session.py": "ae67dc66077ba26c17312f06d2b77d2720a45884bb625fdaf6ab9af4234f736e",
+    "tools/run_fidelity_network.py": "e92b031d543a4d7301f05189acec8ed9a795a75b11e9c54e8de33a2afed46bdd",
+    "tools/fidelity_network_window.py": "409d40cdcc5fdaf6a8e3c33eee742470c6e018c621d2d39d0cf8e6d4bc8cfc2f",
+    "tools/live_fidelity_candidate.py": "7629b1c5d16c859699192c9eafb9fe36f301dfd0d2052549d817e177728714c5",
+    "tools/test_fidelity_network.py": "039b450bbd43aee9b718f9230f37151d652c8004f8d7f758df2af18b64277fb5",
+    "tools/verify_fidelity_network_offline.py": "147f5302426b39beebfe4e15808b87de53689b72e35b85d981f48b4ad18d0d2e"
+  },
+  "scope": "Injected clock/lifecycle/failure tests and strict evidence gates; no actual Windows scheduling, network jitter, RAM boot, ENDLAB handshake or actuator output tested here."
+}

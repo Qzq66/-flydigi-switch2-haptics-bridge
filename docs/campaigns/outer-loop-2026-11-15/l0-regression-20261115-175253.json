@@ -1,0 +1,126 @@
+{
+  "tier": "L0",
+  "scope": "Pure offline subset; not hardware/GUI/full product acceptance",
+  "passed": [],
+  "failed": [
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_cancel_preserves_failure_and_stops_once",
+      "classification": "unknown",
+      "detail": "Work\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 59, in test_cancel_preserves_failure_and_stops_once\n    code,c,phase,stops=self.run_fake('cancel');self.assertEqual(code,1);self.assertEqual(c['status'],'INCOMPLETE');self.assertIn('cancelled',c['output_fault']);self.assertEqual(stops,[1])\n                       ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmpspqzdbky\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_complete_fake_windows_child_drains_ended_and_passes",
+      "classification": "unknown",
+      "detail": "ume-20261022\\tools\\test_dispatch_windows_entry.py\", line 57, in test_complete_fake_windows_child_drains_ended_and_passes\n    code,c,phase,stops=self.run_fake();self.assertEqual(code,0);self.assertTrue(profile.child_passed(c));self.assertEqual(phase['phase'],'ENDED');self.assertEqual(stops,[1]);self.assertTrue(c['phase_publisher']['closed'])\n                       ^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmptzx64lq6\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_failed_child_exit_never_upgraded",
+      "classification": "unknown",
+      "detail": "raceback (most recent call last):\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 85, in test_failed_child_exit_never_upgraded\n    code,c,phase,stops=self.run_fake(force_exit_failure=True);self.assertEqual(code,1);self.assertEqual(c['status'],'INCOMPLETE')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmp3xo98pp8\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_missing_dispatch_observation_not_accepted",
+      "classification": "unknown",
+      "detail": "Traceback (most recent call last):\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 101, in test_missing_dispatch_observation_not_accepted\n    code,c,phase,stops=self.run_fake();self.assertEqual(code,0);del c['dispatch_io'];self.assertFalse(profile.child_passed(c))\n                       ^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmphu0tqixd\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_terminal_disconnect_not_accepted",
+      "classification": "unknown",
+      "detail": "call last):\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 83, in test_terminal_disconnect_not_accepted\n    code,c,phase,stops=self.run_fake('terminal_disconnect');self.assertEqual(code,1);self.assertFalse(c['terminal_observed']);self.assertEqual(stops,[1])\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmpsen57jnu\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_unconfirmed_stop_not_retried_by_adapter",
+      "classification": "unknown",
+      "detail": "ch_windows_entry.py\", line 61, in test_unconfirmed_stop_not_retried_by_adapter\n    code,c,phase,stops=self.run_fake('stop_failure');self.assertEqual(code,1);self.assertIn('original child output stop unconfirmed',c['adapter_cleanup_errors']);self.assertEqual(len(stops),2) # fail() then original finally; no third adapter attempt\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmpjtl1w6qd\\\\plan'\n"
+    },
+    {
+      "test": "test_dispatch_windows_entry.Tests.test_writer_close_failure_cannot_become_success",
+      "classification": "unknown",
+      "detail": "-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 69, in test_writer_close_failure_cannot_become_success\n    code,c,phase,stops=self.run_fake(publisher_factory=FailedPublisher);self.assertEqual(code,1);self.assertIn('publisher: TimeoutError',c['adapter_cleanup_errors']);self.assertEqual(stops,[1])\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_dispatch_windows_entry.py\", line 53, in run_fake\n    code=entry.run_child(*paths,core=core,publisher_factory=publisher_factory)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmpri3vk2bh\\\\plan'\n"
+    },
+    {
+      "test": "test_outer_loop_attachment.Tests.test_cancel_keeps_failure_and_stop_count",
+      "classification": "unknown",
+      "detail": "Traceback (most recent call last):\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_outer_loop_attachment.py\", line 28, in test_cancel_keeps_failure_and_stop_count\n    p=[pathlib.Path(d)/n for n in ('plan','backup','result','phase','arm')];code=windows.run_child(*p,core=core);r=json.loads(p[2].read_text())\n                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmp8io9upbh\\\\plan'\n"
+    },
+    {
+      "test": "test_outer_loop_attachment.Tests.test_full_offline_windows_child_retains_acceptance_and_probe",
+      "classification": "unknown",
+      "detail": "Traceback (most recent call last):\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\test_outer_loop_attachment.py\", line 21, in test_full_offline_windows_child_retains_acceptance_and_probe\n    code=windows.run_child(*p,core=core);report=json.loads(p[2].read_text())\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWork\\Codex\\flydigi-switch2-windows-resume-20261022\\tools\\dispatch_windows_entry.py\", line 69, in run_child\n    generation=int(json.loads(pathlib.Path(plan).read_text())['expected_flash_generation'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\quziqi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\quziqi\\\\AppData\\\\Local\\\\Temp\\\\bridge-campaign-l0-4r2fb5y3\\\\tmp25lrud8a\\\\plan'\n"
+    }
+  ],
+  "warnings": [
+    "Audit hooks are not an OS security boundary",
+    "Hardware adapter and GUI tests intentionally excluded",
+    "Single run does not establish absence of flaky tests"
+  ],
+  "metrics": {
+    "tests": 271,
+    "seconds": 7.47005800000079,
+    "within_five_minutes": true,
+    "hardware_actions": 0,
+    "audit_denials": 0
+  },
+  "flaky": [],
+  "classification": {
+    "process": 0,
+    "technical": 0,
+    "unknown": 9
+  },
+  "classification_labels": {
+    "process": "procedural",
+    "technical": "technical",
+    "unknown": "unproven"
+  },
+  "coverage": [
+    "test_startup_ready_game_session",
+    "test_bounded_multi_event_renderer",
+    "test_bounded_multi_event_session",
+    "test_multi_event_game_session",
+    "test_multi_game_acceptance",
+    "test_live_fidelity_candidate",
+    "test_fidelity_game",
+    "test_fidelity_network",
+    "test_fidelity_network_io",
+    "test_haptic_fidelity_candidate",
+    "test_written_pcm_probe",
+    "test_phase_gap_probe",
+    "test_phase_gap_integration",
+    "test_receive_budget12_single_variable",
+    "test_game_input_liveness",
+    "test_listener_readiness",
+    "test_bridge_desktop",
+    "test_recovered52_heartbeat",
+    "test_sustained_session.Tests",
+    "test_dispatch_failure_analysis.Tests",
+    "test_offline_phase_publisher.Tests",
+    "test_dispatch_io_candidate.Tests",
+    "test_dispatch_windows_entry.Tests",
+    "test_outer_loop_probe.Tests",
+    "test_outer_loop_attachment.Tests",
+    "test_deadline_wait_candidate.Tests",
+    "test_highres_wait_candidate.Tests",
+    "test_outer_gap_audit.Tests",
+    "test_step_budget_model.Tests",
+    "test_wake_tail_probe.Tests",
+    "test_thread_priority.Tests",
+    "test_priority_window.Tests",
+    "test_sustained_policy_g62.Tests"
+  ],
+  "frozen_sources": [
+    {
+      "file": "MULTI_GAME_RESULT_FREEZE_2026-10-30.json",
+      "matched": true
+    },
+    {
+      "file": "CONFIG_STAGE_RESULT_FREEZE_2026-11-15.json",
+      "matched": true
+    },
+    {
+      "file": "SUSTAINED_FINAL_FREEZE_2026-11-15.json",
+      "matched": true
+    }
+  ],
+  "audit_violations": [],
+  "status": "INCOMPLETE"
+}

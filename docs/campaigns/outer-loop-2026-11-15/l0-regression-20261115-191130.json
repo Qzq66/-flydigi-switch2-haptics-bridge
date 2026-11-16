@@ -1,0 +1,93 @@
+{
+  "tier": "L0",
+  "scope": "Pure offline subset; not hardware/GUI/full product acceptance",
+  "passed": [
+    "regression",
+    "historical_freezes"
+  ],
+  "failed": [],
+  "warnings": [
+    "Audit hooks are not an OS security boundary",
+    "Hardware adapter and GUI tests intentionally excluded",
+    "Single run does not establish absence of flaky tests"
+  ],
+  "metrics": {
+    "tests": 320,
+    "seconds": 10.99435519999679,
+    "within_five_minutes": true,
+    "hardware_actions": 0,
+    "audit_denials": 0
+  },
+  "flaky": [],
+  "classification": {
+    "process": 0,
+    "technical": 0,
+    "unknown": 0
+  },
+  "classification_labels": {
+    "process": "procedural",
+    "technical": "technical",
+    "unknown": "unproven"
+  },
+  "coverage": [
+    "test_startup_ready_game_session",
+    "test_bounded_multi_event_renderer",
+    "test_bounded_multi_event_session",
+    "test_multi_event_game_session",
+    "test_multi_game_acceptance",
+    "test_live_fidelity_candidate",
+    "test_fidelity_game",
+    "test_fidelity_network",
+    "test_fidelity_network_io",
+    "test_haptic_fidelity_candidate",
+    "test_written_pcm_probe",
+    "test_phase_gap_probe",
+    "test_phase_gap_integration",
+    "test_receive_budget12_single_variable",
+    "test_game_input_liveness",
+    "test_listener_readiness",
+    "test_bridge_desktop",
+    "test_recovered52_heartbeat",
+    "test_sustained_session.Tests",
+    "test_dispatch_failure_analysis.Tests",
+    "test_offline_phase_publisher.Tests",
+    "test_dispatch_io_candidate.Tests",
+    "test_dispatch_windows_entry.Tests",
+    "test_outer_loop_probe.Tests",
+    "test_outer_loop_attachment.Tests",
+    "test_deadline_wait_candidate.Tests",
+    "test_highres_wait_candidate.Tests",
+    "test_outer_gap_audit.Tests",
+    "test_step_budget_model.Tests",
+    "test_wake_tail_probe.Tests",
+    "test_thread_priority.Tests",
+    "test_priority_window.Tests",
+    "test_sustained_policy_g62.Tests",
+    "test_async_phase_path.Tests",
+    "test_sustained_policy_current.Tests",
+    "test_priority_game_session.Tests",
+    "test_priority_coverage_probe.Tests",
+    "test_spin_wait_probe.Tests",
+    "test_recv_spin_probe.Tests",
+    "test_sustained_game_spin_child.Tests",
+    "test_loop_probe_session.Tests",
+    "test_async_phase_path.Tests",
+    "test_async_phase_writer.Tests"
+  ],
+  "frozen_sources": [
+    {
+      "file": "MULTI_GAME_RESULT_FREEZE_2026-10-30.json",
+      "matched": true
+    },
+    {
+      "file": "CONFIG_STAGE_RESULT_FREEZE_2026-11-15.json",
+      "matched": true
+    },
+    {
+      "file": "SUSTAINED_FINAL_FREEZE_2026-11-15.json",
+      "matched": true
+    }
+  ],
+  "audit_violations": [],
+  "status": "PASSED_L0_OFFLINE_SUBSET"
+}

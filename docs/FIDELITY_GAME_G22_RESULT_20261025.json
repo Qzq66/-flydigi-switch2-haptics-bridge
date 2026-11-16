@@ -1,0 +1,23 @@
+{
+  "status": "PARTIAL_GAME_EPISODE_WITH_HUMAN_FEEDBACK_NOT_FULL_TRIAL_ACCEPTANCE",
+  "human": {
+    "pico_returned_bootsel": true,
+    "bilateral_texture_and_stop_and_postmute_control": true,
+    "first_action_had_rumble": true,
+    "second_action_no_rumble": true,
+    "prearm_silent": true,
+    "no_residual": true,
+    "second_action_interpretation": "Expected: one bilateral episode then permanently muted for this trial."
+  },
+  "full_flash_identical_to_pretest": true,
+  "current_generation": 22,
+  "new_trial_persistent_journal_found": false,
+  "flash_write": false,
+  "persistent_flydigi_commands": 0,
+  "game_dual_band_full_trial_validated": false,
+  "source_sha256": {
+    "docs\\FIDELITY_GAME_RUN_20261025-154212.json": "b6057963bbdd0eead9afff0b3e9c63f69dc4e9b00707e4166b1b2cf59e8c5f04",
+    "docs\\V043_HOST_CAPTURE_20261025-154705.json": "653cf19cdd8194c5c0ec90cf9c4e726542f99437846ae9874bd4c14bea78ecd5",
+    "docs\\FIDELITY_GAME_ASSESSMENT_20261025-154212.json": "3fc074d3194565f66db5c3fa4ec7b323cbbb3c5ba0061a1ac11cce9078d2b823"
+  }
+}

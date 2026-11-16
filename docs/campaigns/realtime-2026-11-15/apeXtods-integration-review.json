@@ -1,0 +1,90 @@
+{
+  "status": "INTEGRATION_PATH_IDENTIFIED_WITH_BLUETOOTH_GATE_OPEN",
+  "review_date": "2026-11-15",
+  "local_product": "APEXtoDS 0.8.25.10",
+  "local_package": "D:\\\u4e0b\u8f7d\\APEXtoDS\\APEXtoDS-0.8.25.10-Windows-x64\\APEXtoDS",
+  "local_files": [
+    {
+      "path": "README-PORTABLE.txt",
+      "sha256": "de09c7fd071c94640585cb71cf476be833d54ae8e2069d0dcd2a6ae384aeddbd",
+      "package_declared_sha256": "de09c7fd071c94640585cb71cf476be833d54ae8e2069d0dcd2a6ae384aeddbd",
+      "package_manifest_match": true
+    },
+    {
+      "path": "BUILD-INFO.json",
+      "sha256": "7f6356596b118e2ddb97d2ac13836d15a06b5ce729762847d498f428d7e15bd1",
+      "package_declared_sha256": "7f6356596b118e2ddb97d2ac13836d15a06b5ce729762847d498f428d7e15bd1",
+      "package_manifest_match": true
+    },
+    {
+      "path": "APEXtoDS.exe",
+      "sha256": "d040db43c5b04543718b0c6e8dde285ba90ee72d1b8a6bbca3bf8f14181b159c",
+      "package_declared_sha256": "d040db43c5b04543718b0c6e8dde285ba90ee72d1b8a6bbca3bf8f14181b159c",
+      "package_manifest_match": true
+    },
+    {
+      "path": "APEXMaestro.dll",
+      "sha256": "a122836d7f76c36d2d531d932b8564aea4f9b11b5d8724f4e3c208cc5db9ddad",
+      "package_declared_sha256": "a122836d7f76c36d2d531d932b8564aea4f9b11b5d8724f4e3c208cc5db9ddad",
+      "package_manifest_match": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "35e7192f2354a76613ab98e0095a6fb77281f0f7b8f446eb1181b32d72c67a32",
+      "package_declared_sha256": "35e7192f2354a76613ab98e0095a6fb77281f0f7b8f446eb1181b32d72c67a32",
+      "package_manifest_match": true
+    },
+    {
+      "path": "Docs/APEXtoDS_\u7528\u6237\u64cd\u4f5c\u624b\u518c_0.8.25.10.md",
+      "sha256": "989cded4a3fad92ee0b1f17df8b47054b23ac06bb85b7b352368d7c40efdbbba",
+      "package_declared_sha256": "989cded4a3fad92ee0b1f17df8b47054b23ac06bb85b7b352368d7c40efdbbba",
+      "package_manifest_match": true
+    }
+  ],
+  "package_hash_match_is_not_runtime_validation": true,
+  "binary_executed": false,
+  "binary_decompiled": false,
+  "binary_copied": false,
+  "hardware_actions": 0,
+  "flash_writes": 0,
+  "driver_or_controller_changes": 0,
+  "local_documented_capabilities": {
+    "connection_modes": [
+      "wired USB",
+      "original wireless receiver"
+    ],
+    "bluetooth": "Not listed as validated; manual line 588",
+    "input": "private HID only; README-PORTABLE line 13",
+    "virtual_output": "Windows DualSense via Maestro",
+    "minimum_controller_firmware": "9.0.7.6 per package documentation; not queried or upgraded",
+    "portable_firmware_source_in_reviewed_package": false
+  },
+  "integration": {
+    "current_project": "Retain known Switch-compatible USB device and rumble parameter decoding",
+    "DS5Dongle": "Reference single-board USB device + CYW43 Bluetooth scaffold; replace Sony-specific protocol",
+    "PRO2_Bridge": "Reference BLE/GATT output separation and frequency/amplitude encoding; Nintendo-specific, not a Flydigi transport",
+    "APEXtoDS": "Behavior/reference for Flydigi haptics; Windows binary is not a Pico module",
+    "public_ApexSenseBridge": "Alternative source for known Flydigi vendor packet/waveform encoding",
+    "intermediate_virtual_PS5_layer_needed": false,
+    "proposed_runtime": "Switch 2 USB <-> Pico input/rumble processing <-> Flydigi Bluetooth (unverified)",
+    "USB_receiver_fallback": "Independent USB Host path plus original receiver; extra interface/hardware required"
+  },
+  "open_gates": [
+    "Identify actual Flydigi Bluetooth mode/service/report layout",
+    "Read real Bluetooth input, not Windows XInput structures",
+    "Prove an accepted Flydigi Bluetooth fine-haptic output format; do not blindly forward USB 0x57 or Nintendo/Sony packets",
+    "Port decoding/rendering with existing protective bounds and verify on-device timing"
+  ],
+  "public_source": {
+    "repository": "ReynArts/ApexSenseBridge",
+    "commit": "f43d06a828a78c709bf336bcd7f93beb026ba3c0",
+    "header": "src/flydigi/Apex6Protocol.h",
+    "command": "0x57",
+    "windows_report_bytes": 33,
+    "private_frame_bytes": 32,
+    "subframes": 8,
+    "input_fields": "trigger,leftGrip,rightGrip",
+    "bluetooth_support_not_proven_by_these_files": true
+  },
+  "decision": "Compose portable protocol modules, not a chain of Windows programs. First build Bluetooth discovery/input feasibility for the actual Flydigi controller; do not claim a working standalone path yet."
+}

@@ -1,0 +1,77 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "2819187d36dea785e563e607d8821630a512461b6a4a2361504d2e6e4be5f0f3",
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "host_flash_write": false,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "f291926e84012142f5677dc302b03966b020a887756130e2c4126cc91ddf1751",
+    "baseline_generation": 31
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "PASSED_ORDERED_PC_INPUT_LIVENESS",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 9020.625
+      },
+      {
+        "stage": 1,
+        "at": 9022.921
+      },
+      {
+        "stage": 2,
+        "at": 9023.203
+      },
+      {
+        "stage": 3,
+        "at": 9023.546
+      },
+      {
+        "stage": 4,
+        "at": 9024.156
+      }
+    ]
+  },
+  "post_neutral_discovery_ready": true,
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "motor_commands": 0,
+    "output_frames": 0,
+    "persistent_configuration_commands": 0,
+    "error": "TimeoutError('No matching Pico within connection window')",
+    "events": [],
+    "heartbeat_gap_observations": [],
+    "terminal_observed": false,
+    "upstream_seen": false,
+    "timer_released": true,
+    "finalization_errors": []
+  },
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "finalization_errors": []
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASSED_UPDATED_CONFIG_LOW_AMPLITUDE_ENTRY_EXIT_AND_NATIVE_RECOVERY",
+  "checks": {
+    "program_pass": true,
+    "manual_clicked": true,
+    "no_persistent_writes": true,
+    "custom_frames": true,
+    "disable_ack": true,
+    "native_stop_api": true,
+    "quiet": true,
+    "identity": true,
+    "state": true,
+    "four_regions": true,
+    "human_bilateral": true,
+    "human_stopped_no_residual": true,
+    "human_input_without_replug": true
+  },
+  "custom_frequency_hz": 160,
+  "custom_peak_code_offset": 5,
+  "custom_source_ms": 120,
+  "native_level": 4096,
+  "native_nominal_ms": 180,
+  "motor_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+  "scope": "One short PC-only trial on updated configuration; not game validation, full-amplitude approval, physical fidelity, or proof of driver causality.",
+  "game_baseline_adopted": false,
+  "source_sha256": {
+    "UPDATED_CONFIG_CUSTOM_EXIT_AMP5_20261029-233710.json": "dd361413a2345cff2bf0c693772e0ad48f9dfb90aa06539d72d7b5b397953f88",
+    "tools/updated_config_custom_exit_amp5.py": "6f6053a70c8bf8b2dfa4f184b90ac889b824552e666e6b465104f21e2cbbc714"
+  }
+}

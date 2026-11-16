@@ -1,0 +1,29 @@
+{
+  "status": "PASSED_CUSTOM_EXIT_NATIVE_RECOVERY_CONFIG_PENDING_HUMAN",
+  "persistent_commands": 0,
+  "custom_hid_mode_commands": true,
+  "level": 4096,
+  "nominal_ms": 180,
+  "manual_clicked": true,
+  "stop_api_success": true,
+  "neutral_written_clock": 12.1368557,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "custom_frames": 15,
+  "custom_elapsed_ms": 207.93069999999858,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "quiet_seconds": 5.000901900000001
+}

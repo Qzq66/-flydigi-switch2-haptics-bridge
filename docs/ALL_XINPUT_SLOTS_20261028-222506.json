@@ -1,0 +1,145 @@
+{
+  "status": "COMPLETED_ALL_SLOT_OBSERVATION",
+  "motor_commands": 0,
+  "configuration_commands": 0,
+  "pico_access": false,
+  "slots": {
+    "0": {
+      "reads": 691,
+      "connected_reads": 691,
+      "button_reads": 28,
+      "movement_reads": 0,
+      "changes": [
+        {
+          "seconds": 0.0,
+          "packet": 51350,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.9530000000013388,
+          "packet": 51399,
+          "values": [
+            8192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 1.1560000000008586,
+          "packet": 51415,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 2.3440000000009604,
+          "packet": 51469,
+          "values": [
+            4096,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 2.54700000000048,
+          "packet": 51480,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 4.235000000000582,
+          "packet": 51564,
+          "values": [
+            256,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 4.25,
+          "packet": 51566,
+          "values": [
+            768,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 4.516000000001441,
+          "packet": 51577,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "omitted_changes": 0
+    },
+    "1": {
+      "reads": 691,
+      "connected_reads": 0,
+      "button_reads": 0,
+      "movement_reads": 0,
+      "changes": [],
+      "omitted_changes": 0
+    },
+    "2": {
+      "reads": 691,
+      "connected_reads": 0,
+      "button_reads": 0,
+      "movement_reads": 0,
+      "changes": [],
+      "omitted_changes": 0
+    },
+    "3": {
+      "reads": 691,
+      "connected_reads": 0,
+      "button_reads": 0,
+      "movement_reads": 0,
+      "changes": [],
+      "omitted_changes": 0
+    }
+  }
+}

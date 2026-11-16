@@ -1,0 +1,11 @@
+{
+  "status": "PRECHECK_STOPPED_NO_DEVICE_OUTPUT",
+  "classification": "technical",
+  "reason": "Whole misc byte incorrectly treated as buttons; neutral status/reserved bit0x80 caused rejection",
+  "device_output_commands_sent": 0,
+  "pico_access": false,
+  "private_folder": "switch-usb-pulse-1794807271196",
+  "result_sha256": "b549389273186a82f20af4181d2a13caf80813c8ec8deb8dec2a2eef3e04eb8f",
+  "neutral_regression_current_samples": 10,
+  "fix": "Separate active misc bits0..5 from upper status bits; retain raw byte and reject unreviewed bit6; no strength/duration/timing change"
+}

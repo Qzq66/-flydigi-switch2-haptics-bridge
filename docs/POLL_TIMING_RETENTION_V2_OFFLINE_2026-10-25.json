@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_CRITICAL_AND_WORST_GAP_RETENTION_OFFLINE",
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "hardware_validated": false,
+  "recorded_hardware_probe_source_unchanged": true,
+  "source_sha256": {
+    "tools/poll_timing_probe_v2.py": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d",
+    "tools/test_poll_timing_probe_v2.py": "65087cb71c47154b1ff06933496ca628665de37f6cc512d8edad9429a2a9b7dd",
+    "tools/verify_poll_timing_retention_offline.py": "f57d6ad1964bb0b3ff5fb2c32f9c9017164dc0c1b1a3b2b1328816651ec7ac2d",
+    "tools/poll_timing_probe.py": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+  },
+  "scope": "Separate V2 probe preserves critical events and worst gap with preceding context. Not yet wired to a new generation25 hardware plan."
+}

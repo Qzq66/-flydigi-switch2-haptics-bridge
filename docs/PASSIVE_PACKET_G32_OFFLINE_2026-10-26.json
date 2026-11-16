@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_26_OFFLINE_CHECKS_AND_G32_PLAN_BINDING",
+  "tests": 26,
+  "device_access": false,
+  "capture_started": false,
+  "network_settings_changed": false,
+  "old15_file_freeze_verified": true,
+  "baseline_generation": 32,
+  "complete_capture_coverage_still_unproven": true,
+  "source_sha256": {
+    "component_receive_analysis_v2.py": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33",
+    "test_component_receive_analysis_v2.py": "c91c4df84a65b8061f5c9ead5685aa0dd76a164586f88935169778a9b64760d6",
+    "pktmon_capture_common_v4.ps1": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825",
+    "run_pktmon_passive_g32.ps1": "4f974d63283af36e8805eb8ea17af9c1c95236f8bdbc97584b5e6b7a00a2ecfe",
+    "passive_packet_policy_g32.py": "fe95320a290c8cce3c7d2fae02fdfe5787ea5f35958d9823182005fc63be42b2",
+    "run_passive_packet_g32.py": "8f85e1b523fe8b85ee52d77f5b689caf25ff66c5027162ea9678b11dde381e99",
+    "analyse_passive_packet_g31_v2.py": "b9a70ebf13d596e0bac7d2be03948344e79bdd3758e216999ebefe522f9e72ba"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_PKTMON_CAPTURE_PARSER_CLOCK_OFFLINE",
+  "tests": 24,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "driver_access": false,
+  "capture_started": false,
+  "filters_changed": false,
+  "motor_output": false,
+  "hardware_validated": false,
+  "previous_inventory_source_unchanged": true,
+  "source_sha256": {
+    "tools/capture_clock.py": "57ff348a4208cd105231cd2b59d4c9fefec2e4a47ed5b9f0139c82e7b4c1112b",
+    "tools/pcapng_experiment.py": "e21d835ed9aa0be5da8a4fa7561c7088c00205fc5c1fefb2248f133efe134ab4",
+    "tools/send_pktmon_smoke.py": "7fa55698f90ca3ce7c0bcd188981cfa86129c28180f5963d37fdf309812dc7af",
+    "tools/analyse_pktmon_smoke.py": "52f5595ba6b382c409b3107dcf2c520055b68aa049db18134178564425ffa7c4",
+    "tools/test_pktmon_capture.py": "ebf3004d3fe655c96c0d6a23b8b00604fa7585c409d57f3bcbb1cf39ff9a30c2",
+    "tools/verify_pktmon_capture_offline.py": "d25bda3a7082f207992ff8d51bcbb99a488ef62898693eeef33e8cec67e866a9",
+    "tools/pktmon_capture_common.ps1": "baea2b5d6ab09396f29585ea8b41537657934c0236c3ebedc5383edc000f7ebe",
+    "tools/run_pktmon_smoke.ps1": "d1d1e5a7bba481ef04c117bc8f23767209a3e1265de677044308e4c1d91ab09d",
+    "tools/test_pktmon_capture_guards.ps1": "06ed9ff802ec4abd4e2c97200091bcd0e2f5d2bcd1a5084bb1a2715684b5e85d"
+  },
+  "scope": "Synthetic PCAPNG/clock tests only. Admin helper syntax/guards checked separately; real capture and timestamp format remain unverified."
+}

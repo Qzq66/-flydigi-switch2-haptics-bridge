@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_G36_FILTER_COMPARISON_DATA_INTEGRITY_RX_STILL_ABSENT",
+  "current_generation": 37,
+  "files": [
+    {
+      "path": "tools/passive_packet_policy_g36.py",
+      "sha256": "c2a56824d5e746a49694e1dc94b7b16b8d82cab2fa5dc64f7b3d190170f1d02e"
+    },
+    {
+      "path": "tools/run_passive_packet_g36.py",
+      "sha256": "785fc96d278d21515184269fcf566630a9bc4500906cafcbce50219811da6ba6"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g36.ps1",
+      "sha256": "ad3535852c6fa7123acd8e1b39243adbd6ff6d6885e818cc060319e52e2562de"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g36.py",
+      "sha256": "b9d21ddd5f49089eb9c1d5088af5e0c758d31087f5c1a800a1c954fb619c0e54"
+    },
+    {
+      "path": "tools/component_receive_analysis_v2.py",
+      "sha256": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33"
+    },
+    {
+      "path": "tools/pktmon_capture_common_v4.ps1",
+      "sha256": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825"
+    },
+    {
+      "path": "tools/usb_recovery_clock.py",
+      "sha256": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_2026-10-26.md",
+      "sha256": "1be84345c6eae7a417bab8d26a3fc1890919c6248e79d929bcd0495b16f814ff"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_PLAN_2026-10-26.json",
+      "sha256": "abd32b0883d61b4fdb0ed72072a88e514371ea5269d04b55b2d0ec9fa20c1da7"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_OFFLINE_2026-10-26.json",
+      "sha256": "fc51b6bacdd83513f3cc114c630b5df419f13e9050712ea7a0f63894bb952bff"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_ASSESSMENT_20261026-204644.json",
+      "sha256": "bb9c1a122ce874184ad99c9e8219150908319134f3282b8d014612638647e871"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_RUN_20261026-204711.json",
+      "sha256": "fb1296883407de43b244c886faebd97fb390cc5fa942518cf15dd1dd73160f27"
+    },
+    {
+      "path": "docs/PKTMON_PASSIVE_G36_20261026-204644.json",
+      "sha256": "730766937a009fe49e740670ca1d30025d3a6cc767f4597e4614376583fe2174"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G36_COMPONENTS_DIRECT_20261026-204644.json",
+      "sha256": "ea04a194846cec6dd9fa55c6ab5770d44cb6762d77a559dc72d8ef9084ab6518"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261026-205325.json",
+      "sha256": "c0a5fa66cf81a26893b7a7248b6e855bb277d333d4d859d4889ec19a66cd2b38"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261026-205500.json",
+      "sha256": "e690cc30eabf0f613783fd4757f966f10d96ea85d4c2ad4b1ba9c59888abc011"
+    }
+  ],
+  "private_archive_sha256": "34f9fae997a8fac7f2496007123e267edb68731dcc1069571d06fed2e8ebe263"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "WAIT_POLICIES_EVALUATED_NO_LIVE_REPLACEMENT",
+  "hardware_actions": 0,
+  "network_actions_in_host_measurements": 0,
+  "protection_thresholds_changed": false,
+  "live_entry_changed": false,
+  "remaining_authorized_hardware_trials": 0,
+  "tests": {
+    "audited_l0": 237,
+    "report": "l0-20261115-172122.json",
+    "wait_model": 8,
+    "highres_api_contract": 7
+  },
+  "synthetic_findings": [
+    "Deadline-aware suppression of near-target sleeps avoids the conditional oversleep model and preserves all PCM/reports",
+    "Unconditional8.7ms preemption still triggers original4ms stop; no catchup"
+  ],
+  "host_findings": {
+    "near_deadline_busy_guard_ms": 3,
+    "busy_candidate_cpu_fraction_one_core": 0.29296836547902033,
+    "busy_candidate_max_lateness_ms": 0.09470000000000312,
+    "highres_candidate_cpu_fraction_one_core": 0.00976543030173336,
+    "highres_candidate_max_lateness_ms": 2.4866999999986206,
+    "same_process_fixed_wait_max_lateness_ms": 2.015799999998791
+  },
+  "decision": "Do not deploy busy-wait candidate due CPU cost; no demonstrated worst-case advantage for highres timer in this small sample. Keep existing behaviour and collect no new hardware trial.",
+  "limitations": [
+    "200empty8ms deadlines per host policy; not statistical or device stability proof",
+    "CPU sample0for fixed wait reflects measurement granularity, not zero actual CPU",
+    "Actual prior outer gap still unproven"
+  ],
+  "api_references": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw",
+    "https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-setwaitabletimerex"
+  ],
+  "source_sha256": {
+    "tools/deadline_wait_candidate.py": "c8e5e3c041cdd874fb96ae4cefd143be6cfc3e18f0e978df8895eca3c7e074df",
+    "tools/highres_wait_candidate.py": "ca0820e12691dc31b4bbfc7a444dda12b048c1b9198a61c085ab893b56909513",
+    "tools/test_deadline_wait_candidate.py": "0aa81be5ff2d7363363bc59a9c4fe04a54997a47e0e471bcf7f6b8e3d07c32f8",
+    "tools/test_highres_wait_candidate.py": "dfe9f34886be1cc61442652f86530478d2e4430f21ec83e22dc2befcdd1f878e"
+  }
+}

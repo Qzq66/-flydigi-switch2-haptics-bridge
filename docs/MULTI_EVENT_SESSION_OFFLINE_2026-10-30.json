@@ -1,0 +1,31 @@
+{
+  "status": "PASSED_MULTI_EVENT_SESSION_OFFLINE_ONLY",
+  "tests": 175,
+  "io_guard": true,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "events": 3,
+  "maximum_offset": 9,
+  "per_event_activity_ms": 320,
+  "quiet_ms": 500,
+  "lifetime_activity_ms": 960,
+  "lifetime_squared_codes": 24000,
+  "files": [
+    {
+      "path": "tools/bounded_multi_event_renderer.py",
+      "sha256": "e5fa114336eea6c91b0be18870a6e84aced89c1fddc336d8ac7811a8a15efc4f"
+    },
+    {
+      "path": "tools/bounded_multi_event_session.py",
+      "sha256": "2707092e8b5fe1d684c3a946f271b0e8d7a71e9df35df742bf492f3bfd1cd34e"
+    },
+    {
+      "path": "tools/test_bounded_multi_event_renderer.py",
+      "sha256": "8cb67248fcbf85a57965242e9a0c9c18884ae43545ca59468453cb644424c811"
+    },
+    {
+      "path": "tools/test_bounded_multi_event_session.py",
+      "sha256": "59dbd545bf2c38d922726cf7e3ba3da6efd6b0e4089645aba16acc6416e465b6"
+    }
+  ]
+}

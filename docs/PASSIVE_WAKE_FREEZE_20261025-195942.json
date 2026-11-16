@@ -1,0 +1,111 @@
+{
+  "status": "FROZEN_PASSIVE_WAKE_MEASUREMENT_AND_SAME_TRIAL_JOURNAL",
+  "archive_name": "passive-wake-source-evidence-20261025-195942.zip",
+  "archive_sha256": "8f58fcb5c602ca2d4ed8dd7cba3b58a32a543259e6ccf662646d4ec7c20325b4",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "includes_full_flash_or_credentials": false,
+  "files": [
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-195942.json",
+      "sha256": "b9af66e72f596d42c2efa17711773c8d4cd5ff321bedc150bb6ef316f9b72886"
+    },
+    {
+      "path": "docs/PASSIVE_WAKE_ASSESSMENT_20261025-195942.json",
+      "sha256": "5cdf1d7ef67812104f00cce0d3764f9e976f28a56fa1bca044a9413d8f96b22f"
+    },
+    {
+      "path": "docs/PASSIVE_WAKE_G28_2026-10-25.md",
+      "sha256": "9a108af6b8a4a85dcebb34010951c8c875ec80d39446e544be7d82568881f6d7"
+    },
+    {
+      "path": "docs/PASSIVE_WAKE_OFFLINE_2026-10-25_G28.json",
+      "sha256": "cfa2723b739dd0f723110c53d5d2b306c6ff2d86fcc07dfdd61e1ec515f89cf3"
+    },
+    {
+      "path": "docs/PASSIVE_WAKE_PLAN_2026-10-25_G28.json",
+      "sha256": "ae25c123c3bb1d5daa3e235485272fd0badba1c90f28c44607dd84357b996b76"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-200642.json",
+      "sha256": "aa4f6ab67b62b68b4d85441be25b15f47179dd01274bf1be54113f487934084d"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-200800.json",
+      "sha256": "1ea8a73e41c738b29f61b6d9ed97f1c509284ec84df08831e8915856f6777b04"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/passive_timing_policy_g24.py",
+      "sha256": "160218dee714e85f0b51eefc8e190b90e5422f43d3b5c17ba0b4465be383f44c"
+    },
+    {
+      "path": "tools/passive_timing_policy_g25.py",
+      "sha256": "6955ae285668ba0587522e2083a14af32044e827a3fbfe28771843812da6062e"
+    },
+    {
+      "path": "tools/passive_timing_policy_g26.py",
+      "sha256": "dd57ece1b2bf27422ba7a593560ab8133be370fdad5b28a1cf4441fc3a3dedde"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/passive_wake_policy_g28.py",
+      "sha256": "178b62fa0334dfa20e694f73b3a34e1ccb2d185e75934021c16912ec5a6e03bc"
+    },
+    {
+      "path": "tools/poll_timing_probe.py",
+      "sha256": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+    },
+    {
+      "path": "tools/poll_timing_probe_v2.py",
+      "sha256": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d"
+    },
+    {
+      "path": "tools/run_passive_timing_g24.py",
+      "sha256": "a4c3537ea412cc3d65b479f039e203a0f47f538d82434bf4df98b28522ada326"
+    },
+    {
+      "path": "tools/run_passive_timing_g25.py",
+      "sha256": "fcf2cc0eb1d822f84ccc73e5cc833ae35871563e6306758c603c09e54b6ddf94"
+    },
+    {
+      "path": "tools/run_passive_timing_g26.py",
+      "sha256": "8ab612f1038608eebcb5a9df1a120f832df0e028f0caf2e6ba5a3bc28443fc01"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/run_passive_wake_g28.py",
+      "sha256": "13a2d336debcbfd8ca8dbb4fbd4ce060d58efd84497cf8da7704889a52d73fdf"
+    },
+    {
+      "path": "tools/test_passive_wake_g28.py",
+      "sha256": "3336f343f2cc0e0175cea566d9b0ca35821102ea6ed0cf49e1d8e71e1a9565e1"
+    },
+    {
+      "path": "tools/test_wake_timing_probe.py",
+      "sha256": "774099624cffa42cc3bfe24e206d1834d4bcf202d0a19c2194d38a948b823003"
+    },
+    {
+      "path": "tools/verify_passive_wake_g28_offline.py",
+      "sha256": "812fcf08498e0bccbd6300fd90a81b29d65f6f7cb023a1aab03678c94f460570"
+    },
+    {
+      "path": "tools/wake_timing_probe.py",
+      "sha256": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f"
+    }
+  ],
+  "scope": "Same-thread sleep and receive timing with standard28-to29 readback. One no-over80ms trial; no claim of long-term realtime stability or root cause. No GitHub upload."
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASSED_POST_EPISODE_FAULT_LATCH_AND_CAPTURE_CONTINUATION",
+  "checks": {
+    "plan_bound": true,
+    "readback_verified": true,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": true,
+    "program_unchanged": true,
+    "full_source_motor_fields": true,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_game_event": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "human_postmute_input": true,
+    "output_fault_retained": true,
+    "stop_confirmed": true,
+    "no_frames_after_observed_fault": true,
+    "activity_unchanged_after_fault": true,
+    "stop_already_confirmed_at_fault": true,
+    "live_window_complete": true,
+    "terminal_and_collector": true,
+    "configuration_unchanged": true,
+    "clean_exit_without_guardian": true,
+    "output_dispatch_within_bounds": true
+  },
+  "game_strict_status": "INCOMPLETE",
+  "realtime_stability_validated": false,
+  "inflight_fault_stop_latency_validated": false,
+  "source_model_reconstruction_matches": true,
+  "generation": 24,
+  "motor_fields": 1311,
+  "active_ms": [
+    280,
+    280
+  ],
+  "peak_code": 9,
+  "output_frames": 711,
+  "maximum_response_gap_seconds": 0.12006449999998381,
+  "poll_timeouts": 6,
+  "human": {
+    "bilateral_texture": true,
+    "stopped_promptly": true,
+    "poststop_control": true,
+    "prearm_silent": true,
+    "no_residual": true
+  },
+  "source_sha256": {
+    "docs\\FIDELITY_GAME_RUN_20261025-162237.json": "fe0c576be43179a1414151db145fb812b9b4ccf08b01bdd7797bc461d6c55759",
+    "docs\\FIDELITY_GAME_ASSESSMENT_20261025-162237.json": "0be96a2f8d46c6b68582a645155b5f4f1c2cf5b6940dd505825ee5c3b9ca6016",
+    "docs\\V043_HOST_CAPTURE_20261025-162834.json": "bf262e565e524376ff147c89f7aff75301ea1a4b91942e64cb180a25b5d30313",
+    "docs\\FIDELITY_GAME_PLAN_2026-10-25_G23.json": "0264f4e038733c3d6c56d44b76debf4352f3da299752d7f7ba6467b2f0f593c5"
+  },
+  "scope": "A completed episode was already stopped when heartbeat protection latched. No replay followed; full transport/journal collection and human checks completed. This does not validate stopping an active actuator during a link failure, nor waive the 80ms limit."
+}

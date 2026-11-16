@@ -1,0 +1,42 @@
+{
+  "status": "HOST_SYNTHETIC_THREAD_CONTENTION_ONLY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "original_switch_interval_seconds": 0.005,
+  "timer_begin_result": 0,
+  "unloaded": {
+    "contention": false,
+    "switch_interval_seconds": 0.005,
+    "successful_deadlines": 100,
+    "first_late_fault_ms": null,
+    "max_successful_lateness_ms": 2.121099999999876,
+    "worker_joined": true,
+    "wall_seconds": 0.8005818
+  },
+  "contention_original_interval": {
+    "contention": true,
+    "switch_interval_seconds": 0.005,
+    "successful_deadlines": 0,
+    "first_late_fault_ms": 5.486800000000125,
+    "max_successful_lateness_ms": null,
+    "worker_joined": true,
+    "wall_seconds": 0.013590699999999956
+  },
+  "contention_one_ms_interval": {
+    "contention": true,
+    "switch_interval_seconds": 0.001,
+    "successful_deadlines": 100,
+    "first_late_fault_ms": null,
+    "max_successful_lateness_ms": 3.9292999999991363,
+    "worker_joined": true,
+    "wall_seconds": 0.8015216999999999
+  },
+  "switch_interval_restored": true,
+  "timer_end_result": 0,
+  "limitations": [
+    "Synthetic CPU-heavy Python worker, not live collector workload",
+    "Small nonrandomized sample",
+    "Does not prove prior trial was GIL contention",
+    "1ms switch interval is host-only experiment, not adopted product setting"
+  ]
+}

@@ -1,0 +1,35 @@
+PICO_SDK_PATH is C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/pico-sdk
+Target board (PICO_BOARD) is 'pico2_w'.
+Using board configuration from C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/pico-sdk/src/boards/include/boards/pico2_w.h
+Pico Platform (PICO_PLATFORM) is 'rp2350-arm-s'.
+-- Defaulting build type to 'Release' since not specified.
+Detected GCC so defaulting PICO_COMPILER to `pico_arm_cortex_m33_gcc`
+Configuring toolchain based on PICO_COMPILER 'pico_arm_cortex_m33_gcc'
+Defaulting PICO_GCC_TRIPLE to 'arm-none-eabi'
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type is Release
+-- Found Python3: C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe (found version "3.9.13") found components: Interpreter
+-- Detected emulated TLS (__emutls_get_address)
+TinyUSB available at C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/pico-sdk/lib/tinyusb/hw/bsp/rp2040; enabling build support for USB.
+BTstack available at D:/CodexWork/Codex/flydigi-switch2-windows-resume-20261022/standalone/switch_input_probe/../deps/btstack-eb0bb8b
+cyw43-driver available at C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/pico-sdk/lib/cyw43-driver
+Pico W Bluetooth build support available.
+lwIP available at C:/Users/quziqi/Documents/Codex/pico-work-20261022/pico-tools/pico-sdk/lib/lwip
+Pico W Wi-Fi build support available.
+C library type is newlib
+-- Configuring done (4.5s)
+-- Generating done (1.1s)
+-- Build files have been written to: D:/CodexWork/Codex/flydigi-switch2-windows-resume-20261022/standalone/switch_input_probe/build-ram

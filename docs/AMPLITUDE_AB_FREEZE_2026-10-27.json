@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_AMPLITUDE_CANDIDATE",
+  "files": [
+    {
+      "path": "tools/amplitude_ab_plan.py",
+      "sha256": "58f96f83c243b5528ea2a3d8eeee726dace91feba5a5311124da410d1c70d191"
+    },
+    {
+      "path": "tools/run_amplitude_ab.py",
+      "sha256": "9910600f9b3c579a4f88c64810baaa44e7694ef1a44c4b6583006930f2598c33"
+    },
+    {
+      "path": "tools/amplitude_ab_window.py",
+      "sha256": "b31a7f8f2f04ea0d0747215393e8fd5ce39c20cc2fbc3d3643c397cf0af427c4"
+    },
+    {
+      "path": "tools/test_amplitude_ab.py",
+      "sha256": "48e372dd8c4c0ddde61f98d91071645a7f329cf2b0b79f996ad0cb66671bd722"
+    },
+    {
+      "path": "docs/AMPLITUDE_AB_PLAN_2026-10-27.json",
+      "sha256": "1238238d52c180e6179de7debefd6dbdea79a8bebbefec8065884a937404dcc6"
+    },
+    {
+      "path": "docs/AMPLITUDE_AB_OFFLINE_2026-10-27.json",
+      "sha256": "eb2913abdbaea8be93f524160bb3805d161f11c3fd24bd9ac8f4672dbbcfdc0a"
+    }
+  ]
+}

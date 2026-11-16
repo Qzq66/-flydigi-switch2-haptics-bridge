@@ -1,0 +1,135 @@
+{
+  "status": "FROZEN_PASSIVE_REPLY_ASSOCIATION_AND_JOURNAL_EVIDENCE",
+  "archive_name": "passive-reply-source-evidence-20261025-203103.zip",
+  "archive_sha256": "00b0020c39af21264604f0f0886d391eb49fcb88cf09c0a9b69aa62f4bcf4924",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "includes_full_flash_or_credentials": false,
+  "files": [
+    {
+      "path": "docs/PASSIVE_REPLY_ASSESSMENT_20261025-203103.json",
+      "sha256": "dedacd5f93c13c9b437a22252841a64f8e10fb31fc2513b12ae2cd2fcaf5aad3"
+    },
+    {
+      "path": "docs/PASSIVE_REPLY_G30_2026-10-25.md",
+      "sha256": "e5e8762c111d938cf09834dadf8a1fc931282316d69c58e5bbf0e4c1e227da59"
+    },
+    {
+      "path": "docs/PASSIVE_REPLY_OFFLINE_2026-10-25_G30.json",
+      "sha256": "4d8da97f50db5219976f4c800e76e94e4c9748960214aebd86ee19d217440231"
+    },
+    {
+      "path": "docs/PASSIVE_REPLY_PLAN_2026-10-25_G30.json",
+      "sha256": "236cb5c4d9b96db90795134a34f51736f6d77f56136d07c1d18c98fed00c926a"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-203103.json",
+      "sha256": "fe5ab2e6a3001882b0bb9fceadfd4e7b4d178985615ccbd4d20bab09f8b320c1"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-203754.json",
+      "sha256": "0386d5647a0eeefb19f3bb6b285485894f40a048ba3172173b5ecccb90216004"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-203921.json",
+      "sha256": "e91972abb18f133139b3e770ecd8fa2458fec16f71869f2ed0c0d2d0c6251ecf"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/passive_reply_policy_g30.py",
+      "sha256": "98691a17c805a1ad1e8ec276b97e5f748d29b3f3885b1d1ee1b629e9070eeee6"
+    },
+    {
+      "path": "tools/passive_short_wait_policy_g29.py",
+      "sha256": "c597552b3f27d7cf4b35952f5a1a689c50144d2e34883283857f4b73ccf7aaf3"
+    },
+    {
+      "path": "tools/passive_timing_policy_g24.py",
+      "sha256": "160218dee714e85f0b51eefc8e190b90e5422f43d3b5c17ba0b4465be383f44c"
+    },
+    {
+      "path": "tools/passive_timing_policy_g25.py",
+      "sha256": "6955ae285668ba0587522e2083a14af32044e827a3fbfe28771843812da6062e"
+    },
+    {
+      "path": "tools/passive_timing_policy_g26.py",
+      "sha256": "dd57ece1b2bf27422ba7a593560ab8133be370fdad5b28a1cf4441fc3a3dedde"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/passive_wake_policy_g28.py",
+      "sha256": "178b62fa0334dfa20e694f73b3a34e1ccb2d185e75934021c16912ec5a6e03bc"
+    },
+    {
+      "path": "tools/poll_timing_probe.py",
+      "sha256": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+    },
+    {
+      "path": "tools/poll_timing_probe_v2.py",
+      "sha256": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d"
+    },
+    {
+      "path": "tools/reply_provenance_probe.py",
+      "sha256": "8813e226ec0d4450d0a6816bf1bd8f8133a569c0d31403cd3bde660800c7e0e5"
+    },
+    {
+      "path": "tools/run_passive_reply_g30.py",
+      "sha256": "4a77c1d3a456a318deb7b55ac08de069bd358e69862d34ab4c58a4f8bf60359a"
+    },
+    {
+      "path": "tools/run_passive_short_wait_g29.py",
+      "sha256": "7b51ca5e6e78741f8e59dcdfab9283d2f8efb0e3007722dd5437fdf3c21b4b76"
+    },
+    {
+      "path": "tools/run_passive_timing_g24.py",
+      "sha256": "a4c3537ea412cc3d65b479f039e203a0f47f538d82434bf4df98b28522ada326"
+    },
+    {
+      "path": "tools/run_passive_timing_g25.py",
+      "sha256": "fcf2cc0eb1d822f84ccc73e5cc833ae35871563e6306758c603c09e54b6ddf94"
+    },
+    {
+      "path": "tools/run_passive_timing_g26.py",
+      "sha256": "8ab612f1038608eebcb5a9df1a120f832df0e028f0caf2e6ba5a3bc28443fc01"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/run_passive_wake_g28.py",
+      "sha256": "13a2d336debcbfd8ca8dbb4fbd4ce060d58efd84497cf8da7704889a52d73fdf"
+    },
+    {
+      "path": "tools/short_wait_transport.py",
+      "sha256": "39b86fa8183b9ecdf5154c8d8a5d34adfe524c01aade3a1eada3b3dfdf0508dd"
+    },
+    {
+      "path": "tools/test_passive_reply_g30.py",
+      "sha256": "7cf3c6340db9db3ebe1799f9f7d5c7542a7ca602b5f784fde8ec1876e46f3322"
+    },
+    {
+      "path": "tools/test_reply_provenance_probe.py",
+      "sha256": "373c736f3c19ddcf166f634121c395c22d9cba1f8ac923bf490fdff6cfca6977"
+    },
+    {
+      "path": "tools/verify_passive_reply_g30_offline.py",
+      "sha256": "c04ac8f8233c2734ec0dd1d22ffad83792a47e2f1ac95ee874814abdb3ba695c"
+    },
+    {
+      "path": "tools/wake_timing_probe.py",
+      "sha256": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f"
+    }
+  ],
+  "scope": "Original-request age and board/host interval observation; not proof of one-way latency or unique request-reply coverage. Full31 same-trial journal verified, no game adoption. No GitHub upload."
+}

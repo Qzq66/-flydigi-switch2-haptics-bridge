@@ -1,0 +1,26 @@
+{
+  "status": "INCOMPLETE",
+  "pico_access": false,
+  "motor_commands": 0,
+  "original_delay_cause_proven": false,
+  "checks": {
+    "helper_capture_started": true,
+    "helper_capture_stopped": true,
+    "own_filter_removed": true,
+    "no_cleanup_errors": true,
+    "three_diagnostic_sends": true,
+    "all_three_observed": false,
+    "clock_anchors_usable": false,
+    "no_pico_or_motor_access": true
+  },
+  "observations": [],
+  "matching_copies": 0,
+  "experiment_scope_packets": 0,
+  "private_capture_sha256": {
+    "packets.pcapng": "56f5c6cf560560d8fe05758f50b8d10e55e12fe1cadf5d478a21615eabe65422",
+    "drops.pcapng": "56f5c6cf560560d8fe05758f50b8d10e55e12fe1cadf5d478a21615eabe65422"
+  },
+  "source_report_sha256": "1d2608d95b2e290fd6682037c4bbe30dab62f8dc0555f7c6f066d3e436d58789",
+  "sender_sha256": "c79fda6c3cfb4d0b5db7d1ebdd3d47f88fb622f154e1aef74b934c7f29c8f788",
+  "scope": "Three outbound non-controller packets only, across available Windows components. Duplicate copies are not retransmissions. UTC epoch/units checked, not microsecond accuracy or incoming receive scheduling validated."
+}

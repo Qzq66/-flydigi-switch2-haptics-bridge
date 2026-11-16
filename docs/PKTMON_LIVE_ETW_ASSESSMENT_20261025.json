@@ -1,0 +1,147 @@
+{
+  "status": "PASSED_V5_THREE_PACKET_LOGGING_AND_CLOCK_SMOKE",
+  "comparisons": [
+    {
+      "version": 3,
+      "run_id": "20261025-213900",
+      "snapshot_bytes": 0,
+      "file_limit_mb": 16,
+      "sessions": [
+        {
+          "phase": "etw-session-before-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        },
+        {
+          "phase": "etw-session-after-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        }
+      ],
+      "counter_tx_rows": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "packet_smoke_status": "INCOMPLETE",
+      "matching_copies": 0,
+      "capture_stopped": true,
+      "filter_removed": true,
+      "private_file_sizes": {
+        "drops.pcapng": 196,
+        "packets-20261025-213900.etl": 19565,
+        "packets.pcapng": 196
+      }
+    },
+    {
+      "version": 4,
+      "run_id": "20261025-214007",
+      "snapshot_bytes": 128,
+      "file_limit_mb": 16,
+      "sessions": [
+        {
+          "phase": "etw-session-before-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        },
+        {
+          "phase": "etw-session-after-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        }
+      ],
+      "counter_tx_rows": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "packet_smoke_status": "INCOMPLETE",
+      "matching_copies": 0,
+      "capture_stopped": true,
+      "filter_removed": true,
+      "private_file_sizes": {
+        "drops.pcapng": 196,
+        "packets-20261025-214007.etl": 19576,
+        "packets.pcapng": 196
+      }
+    },
+    {
+      "version": 5,
+      "run_id": "20261025-214104",
+      "snapshot_bytes": 128,
+      "file_limit_mb": 128,
+      "sessions": [
+        {
+          "phase": "etw-session-before-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        },
+        {
+          "phase": "etw-session-after-send",
+          "buffer_size_kb": 16384,
+          "buffers_lost": 0,
+          "buffers_written": 1,
+          "level": "4 (win:Informational)",
+          "keywords_any": "0x32 (Rundown,Payload,CompRegister)"
+        }
+      ],
+      "counter_tx_rows": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "packet_smoke_status": "PASSED_BOUNDED_CAPTURE_CLOCK_SMOKE_AND_CLEANUP",
+      "matching_copies": 27,
+      "capture_stopped": true,
+      "filter_removed": true,
+      "private_file_sizes": {
+        "drops.pcapng": 196,
+        "packets-20261025-214104.etl": 60775,
+        "packets.pcapng": 2896
+      }
+    }
+  ],
+  "same_clock_epoch_and_units_checked": true,
+  "microsecond_accuracy_proven": false,
+  "three_unique_diagnostic_packets": true,
+  "multi_component_copies_are_not_retransmissions": true,
+  "size_change_resolved_empty_log_in_this_trial": true,
+  "general_windows_bug_root_cause_proven": false,
+  "pico_receive_path_validated": false,
+  "game_delay_cause_proven": false,
+  "pico_access": false,
+  "motor_commands": 0
+}

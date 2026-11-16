@@ -1,0 +1,7 @@
+{
+  "status": "PASSED_RECOVERED52_OFFLINE_ONLY",
+  "tests": 158,
+  "io_guard": true,
+  "hardware_access": false,
+  "accepted_runtime_unchanged": true
+}

@@ -1,0 +1,25 @@
+{
+  "status": "READONLY_OVERNIGHT_COMPARISON",
+  "flash_write": false,
+  "outside_journal_unchanged": true,
+  "slots": [
+    {
+      "slot_index": 0,
+      "valid": true,
+      "generation": 57
+    },
+    {
+      "slot_index": 1,
+      "valid": true,
+      "generation": 56
+    }
+  ],
+  "newest": {
+    "generation": 57,
+    "complete": true,
+    "crc_valid": true,
+    "reason": "boot_limit",
+    "stream_end": "drain_timeout"
+  },
+  "full_flash_sha256": "10afaaa6fcf6009fa095fadf9e63264f3b9fe497b4760f86024399b0b396894a"
+}

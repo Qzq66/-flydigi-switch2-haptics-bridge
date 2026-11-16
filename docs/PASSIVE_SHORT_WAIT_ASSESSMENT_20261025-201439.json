@@ -1,0 +1,277 @@
+{
+  "status": "PASSED_NO_ACTUATOR_SHORT_RECEIVE_DATA_INTEGRITY_COMPARISON",
+  "checks": {
+    "program_completed": true,
+    "child_completed": true,
+    "plan_bound": true,
+    "pretest_flash_bound": true,
+    "exactly_one_new_generation": true,
+    "full_readback_verified": true,
+    "firmware_unchanged": true,
+    "complete_crc_journal": true,
+    "all_motor_fields_identical": true,
+    "wire_sequence_continuous": true,
+    "full_duration": true,
+    "terminal_confirmed": true,
+    "zero_motor_commands": true,
+    "zero_persistent_config_commands": true,
+    "configuration_unchanged": true,
+    "clean_exit": true,
+    "maximum_gap_context_matches": true,
+    "sleep_sample_count_matches_histogram": true,
+    "original_4ms_request_preserved": true,
+    "mean_sleep_consistent": true,
+    "timing_records_bounded": true,
+    "receive_budget_bound": true,
+    "timeout_counter_consistent": true,
+    "human_icon_seen": true,
+    "human_silence_confirmed": true
+  },
+  "generation": 30,
+  "motor_fields": 1970,
+  "live_seconds": 119.9926294,
+  "receive_wait_policy": {
+    "budget_seconds": 0.012,
+    "deadline_expirations": 191,
+    "late_matching_replies": 0,
+    "stale_replies": 188
+  },
+  "poll_calls": 17994,
+  "responses": 17803,
+  "timeouts": 191,
+  "maximum_response_gap_seconds": 0.06650100000000236,
+  "worst_gap_context": {
+    "before": [
+      {
+        "start": 117.9493809,
+        "between_polls": 0.004360399999995934,
+        "stage_seconds": {
+          "input": 3.560000000391028e-05,
+          "send": 9.740000000135751e-05,
+          "receive": 0.011798099999992928
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 3.560000000391028e-05,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 9.740000000135751e-05,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.011798099999992928,
+            "error_type": "timeout"
+          }
+        ],
+        "end": 117.9613804,
+        "duration": 0.011999500000001717,
+        "unattributed_seconds": 6.84000000035212e-05,
+        "response_gap": null,
+        "outcome": "timeout",
+        "error_type": null,
+        "collector_sleep_before_poll": {
+          "start": 117.9450596,
+          "end": 117.9493267,
+          "requested_seconds": 0.004,
+          "actual_seconds": 0.0042671000000069625,
+          "overshoot_seconds": 0.00026710000000696246
+        }
+      },
+      {
+        "start": 117.9664045,
+        "between_polls": 0.005024099999999976,
+        "stage_seconds": {
+          "input": 5.9199999995485086e-05,
+          "send": 0.0001272000000085427,
+          "receive": 0.012600100000000225
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 5.9199999995485086e-05,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 0.0001272000000085427,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.012600100000000225,
+            "error_type": "timeout"
+          }
+        ],
+        "end": 117.9792434,
+        "duration": 0.012838900000005538,
+        "unattributed_seconds": 5.240000000128475e-05,
+        "response_gap": null,
+        "outcome": "timeout",
+        "error_type": null,
+        "collector_sleep_before_poll": {
+          "start": 117.961575,
+          "end": 117.9663081,
+          "requested_seconds": 0.004,
+          "actual_seconds": 0.004733100000009927,
+          "overshoot_seconds": 0.0007331000000099265
+        }
+      },
+      {
+        "start": 117.9843162,
+        "between_polls": 0.005072799999993549,
+        "stage_seconds": {
+          "input": 5.149999999787269e-05,
+          "send": 0.00016080000000329164,
+          "receive": 0.01269120000000612
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 5.149999999787269e-05,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 0.00016080000000329164,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.01269120000000612,
+            "error_type": "timeout"
+          }
+        ],
+        "end": 117.9972783,
+        "duration": 0.012962100000009968,
+        "unattributed_seconds": 5.860000000268428e-05,
+        "response_gap": null,
+        "outcome": "timeout",
+        "error_type": null,
+        "collector_sleep_before_poll": {
+          "start": 117.9794103,
+          "end": 117.9842659,
+          "requested_seconds": 0.004,
+          "actual_seconds": 0.004855599999999072,
+          "overshoot_seconds": 0.0008555999999990717
+        }
+      }
+    ],
+    "event": {
+      "start": 118.0022679,
+      "between_polls": 0.004989600000001815,
+      "stage_seconds": {
+        "input": 5.830000000628388e-05,
+        "send": 0.00014439999999638076,
+        "receive": 0.008898100000010345
+      },
+      "stage_calls": {
+        "input": 1,
+        "send": 1,
+        "receive": 4
+      },
+      "operations": [
+        {
+          "kind": "input",
+          "duration": 5.830000000628388e-05,
+          "error_type": null
+        },
+        {
+          "kind": "send",
+          "duration": 0.00014439999999638076,
+          "error_type": null
+        },
+        {
+          "kind": "receive",
+          "duration": 0.008423100000001682,
+          "error_type": null
+        },
+        {
+          "kind": "receive",
+          "duration": 0.00045519999999044103,
+          "error_type": null
+        },
+        {
+          "kind": "receive",
+          "duration": 1.3300000006211121e-05,
+          "error_type": null
+        },
+        {
+          "kind": "receive",
+          "duration": 6.500000012010787e-06,
+          "error_type": null
+        }
+      ],
+      "end": 118.0115226,
+      "duration": 0.009254699999999616,
+      "unattributed_seconds": 0.00015389999998660642,
+      "response_gap": 0.06650100000000236,
+      "outcome": "frame",
+      "error_type": null,
+      "collector_sleep_before_poll": {
+        "start": 117.9974622,
+        "end": 118.0021976,
+        "requested_seconds": 0.004,
+        "actual_seconds": 0.0047354000000012775,
+        "overshoot_seconds": 0.0007354000000012774
+      }
+    }
+  },
+  "stage_maximum_seconds": {
+    "input": 0.0007417000000202734,
+    "send": 0.0017418000000191114,
+    "receive": 0.014663899999987962,
+    "between_polls": 0.020393099999978404,
+    "unattributed": 0.0014284999999745196
+  },
+  "mean_sleep_seconds": 0.004682013739439781,
+  "worst_sleep": {
+    "start": 191.8746407,
+    "end": 191.8949522,
+    "requested_seconds": 0.004,
+    "actual_seconds": 0.020311500000019578,
+    "overshoot_seconds": 0.016311500000019578
+  },
+  "reference": {
+    "generation": 29,
+    "maximum_response_gap_seconds": 0.05182999999999538,
+    "timeouts": 0,
+    "receive_budget_seconds": 0.06
+  },
+  "observed_window_within_80ms": true,
+  "improvement_over_reference_proven": false,
+  "general_realtime_stability_validated": false,
+  "adopt_into_game_output": false,
+  "worst_context_timeouts": 3,
+  "conclusion": "12ms receive budget preserved all1970 motor fields despite191 request timeouts; worst66.501ms reply gap spans three timeouts. One sequential uncontrolled comparison does not show improved end-to-end response gaps; candidate remains diagnostic only.",
+  "human": {
+    "icon_seen": true,
+    "silence_confirmed": true,
+    "returned_bootsel": true
+  },
+  "source_sha256": {
+    "docs\\PASSIVE_TRANSPORT_RUN_20261025-201439.json": "7514eb3174be83e3b15a4ecc4140d93a696ae47e2184184cb4ee01207d153e96",
+    "docs\\V043_HOST_CAPTURE_20261025-202023.json": "c3f75e26bac2ab47b13bc8f90d22290be6b45d3c5a44fb9b98ab31aab9421a08",
+    "docs\\PASSIVE_SHORT_WAIT_PLAN_2026-10-25_G29.json": "9326ed69617138c440bd0baa354f73e66fd4b460535e62dd69e046a5851c64a1",
+    "docs\\V043_READY_BASELINE_20261025-200800.json": "1ea8a73e41c738b29f61b6d9ed97f1c509284ec84df08831e8915856f6777b04",
+    "docs\\PASSIVE_WAKE_ASSESSMENT_20261025-195942.json": "5cdf1d7ef67812104f00cce0d3764f9e976f28a56fa1bca044a9413d8f96b22f"
+  }
+}

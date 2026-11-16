@@ -1,0 +1,38 @@
+{
+  "status": "HOST_SOFTWARE_PIPELINE_REPRODUCED_DISPATCH_FAULT",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "cases": [
+    {
+      "evidence": "software-loop-replay.json",
+      "frames": 1055,
+      "events": 1,
+      "rendered_seconds": 8.44,
+      "late_ms": 10.076700000119843,
+      "maximum_recorded_outer_gap_ms": 15.493099999998705,
+      "maximum_gap_sleep_or_resume_ms": 14.641599999999144,
+      "maximum_gap_lies_inside_final_fault_interval": true,
+      "final_fault_phase_attribution": "sleep/wakeup span dominates",
+      "all_host_resources_closed": true
+    },
+    {
+      "evidence": "software-loop-highres.json",
+      "frames": 526,
+      "events": 0,
+      "rendered_seconds": 4.208,
+      "late_ms": 8.271599999996049,
+      "maximum_recorded_outer_gap_ms": 10.542300000000004,
+      "maximum_gap_sleep_or_resume_ms": 9.846000000000465,
+      "maximum_gap_lies_inside_final_fault_interval": false,
+      "final_fault_phase_attribution": "unknown: maximum gap belongs to prior iteration, final phase rows not retained",
+      "all_host_resources_closed": true
+    }
+  ],
+  "source_protocol_and_rumble_synthetic": true,
+  "physical_output_replaced_by_noop": true,
+  "live_code_changed": false,
+  "protection_parameters_changed": false,
+  "conclusion": "Ordinary sleep host replay has a fault interval dominated by measured waiting/resumption. Highres timer replay also fails, but its final fault phase is not established. Hardware/network are unnecessary to reproduce this failure class; neither exact historical cause nor OS/GIL mechanism is proven.",
+  "remaining_authorized_hardware_trials": 0,
+  "source_sha256": "477a7154d0658a9362a056d44f9cb36277ebb1981d67dc735c7e9ec0a490b692"
+}
