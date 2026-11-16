@@ -1,0 +1,17 @@
+{
+  "status": "PASSED_TWO_INDEPENDENT_LIMITED_GAME_EPISODES",
+  "checks": {
+    "first_complete": true,
+    "second_complete": true,
+    "same_limits": true,
+    "same_firmware": true,
+    "same_transport": true,
+    "independent_runs": true
+  },
+  "trial_assessments": [
+    "FIDELITY_GAME_G37_ASSESSMENT_20261026-232226.json",
+    "FIDELITY_GAME_G40_ASSESSMENT_20261027-212240.json"
+  ],
+  "original_physical_fidelity_proven": false,
+  "long_term_stability_proven": false
+}

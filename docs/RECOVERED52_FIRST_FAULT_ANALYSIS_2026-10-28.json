@@ -1,0 +1,338 @@
+{
+  "status": "COMPLETED_READONLY_FIRST_FAULT_VS_TERMINAL_GAP_ANALYSIS",
+  "checks": {
+    "first_span_complete": true,
+    "first_over_heartbeat": true,
+    "first_one_timeout": true,
+    "first_exceeds_while_next_poll_inflight": true,
+    "maximum_is_later_terminal_boundary": true,
+    "not_armed_no_output": true,
+    "original_parent_remains_incomplete": true
+  },
+  "first_fault_span": {
+    "receive_gap_seconds": 0.10867290000000196,
+    "heartbeat_excess_seconds": 0.028672900000001958,
+    "previous_receive": 41.3559674,
+    "next_receive": 41.4646403,
+    "heartbeat_deadline": 41.435967399999996,
+    "complete_phase_span": true,
+    "missing_phase_indices": [],
+    "observed_timeout_calls": 1,
+    "observed_timeout_seconds": 0.06039690000000064,
+    "observed_pause_seconds": 0.008856900000004941,
+    "next_poll_seconds": 0.03930459999999414,
+    "next_poll_start_relative_to_deadline": -0.010625199999992674,
+    "source_interval_us": 108485,
+    "clocks_synchronised": false,
+    "poll_is_not_radio_only": true,
+    "rows": [
+      {
+        "event_index": 1996,
+        "phase": "pause",
+        "start": 41.3560383,
+        "end": 41.3605182,
+        "duration_seconds": 0.004479899999999759,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 1997,
+        "phase": "poll",
+        "start": 41.3605284,
+        "end": 41.4209253,
+        "duration_seconds": 0.06039690000000064,
+        "poll_index": 999,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 1998,
+        "phase": "pause",
+        "start": 41.4209537,
+        "end": 41.4253307,
+        "duration_seconds": 0.004377000000005182,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 1999,
+        "phase": "poll",
+        "start": 41.4253422,
+        "end": 41.4646468,
+        "duration_seconds": 0.03930459999999414,
+        "poll_index": 1000,
+        "outcome": "frame",
+        "received_at": 41.4646403,
+        "source_us": 19820507,
+        "flags": 7,
+        "event_count": 2,
+        "receive_gap_seconds": 0.10867290000000196
+      }
+    ],
+    "previous_live_elapsed_seconds": 6.763659199999999,
+    "next_live_elapsed_seconds": 6.872332100000001,
+    "fault_snapshot_had_inflight_poll": true,
+    "exact_fault_clock_recorded": false,
+    "snapshot_completed_gap_counter_seconds": 0.07598689999999664,
+    "counter_residual": 1
+  },
+  "global_maximum_span": {
+    "receive_gap_seconds": 0.8357361999999853,
+    "heartbeat_excess_seconds": 0.7557361999999853,
+    "previous_receive": 154.57128,
+    "next_receive": 155.4070162,
+    "heartbeat_deadline": 154.65128,
+    "complete_phase_span": true,
+    "missing_phase_indices": [],
+    "observed_timeout_calls": 12,
+    "observed_timeout_seconds": 0.7468521000000692,
+    "observed_pause_seconds": 0.06146759999998608,
+    "next_poll_seconds": 0.026121100000011666,
+    "next_poll_start_relative_to_deadline": 0.7296232999999859,
+    "source_interval_us": 837888,
+    "clocks_synchronised": false,
+    "poll_is_not_radio_only": true,
+    "rows": [
+      {
+        "event_index": 33234,
+        "phase": "pause",
+        "start": 154.5713054,
+        "end": 154.5769661,
+        "duration_seconds": 0.0056606999999928576,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33235,
+        "phase": "poll",
+        "start": 154.5770026,
+        "end": 154.6375499,
+        "duration_seconds": 0.060547300000024507,
+        "poll_index": 16618,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33236,
+        "phase": "pause",
+        "start": 154.6375773,
+        "end": 154.6420045,
+        "duration_seconds": 0.004427200000009179,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33237,
+        "phase": "poll",
+        "start": 154.6420462,
+        "end": 154.7027104,
+        "duration_seconds": 0.06066419999999084,
+        "poll_index": 16619,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33238,
+        "phase": "pause",
+        "start": 154.7027355,
+        "end": 154.7068761,
+        "duration_seconds": 0.004140599999999495,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33239,
+        "phase": "poll",
+        "start": 154.7068879,
+        "end": 154.7675125,
+        "duration_seconds": 0.06062460000001124,
+        "poll_index": 16620,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33240,
+        "phase": "pause",
+        "start": 154.7676368,
+        "end": 154.7729264,
+        "duration_seconds": 0.005289599999997563,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33241,
+        "phase": "poll",
+        "start": 154.7729354,
+        "end": 154.8325,
+        "duration_seconds": 0.059564600000015844,
+        "poll_index": 16621,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33242,
+        "phase": "pause",
+        "start": 154.8325336,
+        "end": 154.8370513,
+        "duration_seconds": 0.0045177000000080625,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33243,
+        "phase": "poll",
+        "start": 154.8370658,
+        "end": 154.8973328,
+        "duration_seconds": 0.06026699999998186,
+        "poll_index": 16622,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33244,
+        "phase": "pause",
+        "start": 154.8974543,
+        "end": 154.9022852,
+        "duration_seconds": 0.004830900000001748,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33245,
+        "phase": "poll",
+        "start": 154.9023342,
+        "end": 154.9629336,
+        "duration_seconds": 0.06059940000000097,
+        "poll_index": 16623,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33246,
+        "phase": "pause",
+        "start": 154.9629609,
+        "end": 154.9680843,
+        "duration_seconds": 0.005123399999973799,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33247,
+        "phase": "poll",
+        "start": 154.9681622,
+        "end": 155.0283559,
+        "duration_seconds": 0.06019370000001345,
+        "poll_index": 16624,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33248,
+        "phase": "pause",
+        "start": 155.0285053,
+        "end": 155.032947,
+        "duration_seconds": 0.004441700000000992,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33249,
+        "phase": "poll",
+        "start": 155.0329649,
+        "end": 155.0940578,
+        "duration_seconds": 0.06109290000000556,
+        "poll_index": 16625,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33250,
+        "phase": "pause",
+        "start": 155.0940872,
+        "end": 155.0984941,
+        "duration_seconds": 0.0044069000000206415,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33251,
+        "phase": "poll",
+        "start": 155.098547,
+        "end": 155.1584525,
+        "duration_seconds": 0.05990550000001349,
+        "poll_index": 16626,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33252,
+        "phase": "pause",
+        "start": 155.1585027,
+        "end": 155.1628784,
+        "duration_seconds": 0.004375699999997096,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33253,
+        "phase": "poll",
+        "start": 155.1629225,
+        "end": 155.2238494,
+        "duration_seconds": 0.06092689999999834,
+        "poll_index": 16627,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33254,
+        "phase": "pause",
+        "start": 155.2239057,
+        "end": 155.2281764,
+        "duration_seconds": 0.0042707000000064,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33255,
+        "phase": "poll",
+        "start": 155.2282153,
+        "end": 155.3107936,
+        "duration_seconds": 0.08257830000002286,
+        "poll_index": 16628,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33256,
+        "phase": "pause",
+        "start": 155.3109219,
+        "end": 155.315923,
+        "duration_seconds": 0.005001099999986991,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33257,
+        "phase": "poll",
+        "start": 155.3159512,
+        "end": 155.3758389,
+        "duration_seconds": 0.05988769999999022,
+        "poll_index": 16629,
+        "outcome": "timeout"
+      },
+      {
+        "event_index": 33258,
+        "phase": "pause",
+        "start": 155.3758917,
+        "end": 155.3808731,
+        "duration_seconds": 0.004981399999991254,
+        "requested_seconds": 0.004
+      },
+      {
+        "event_index": 33259,
+        "phase": "poll",
+        "start": 155.3809033,
+        "end": 155.4070244,
+        "duration_seconds": 0.026121100000011666,
+        "poll_index": 16630,
+        "outcome": "frame",
+        "received_at": 155.4070162,
+        "source_us": 133769763,
+        "flags": 25,
+        "event_count": 0,
+        "receive_gap_seconds": 0.8357361999999853
+      }
+    ],
+    "previous_live_elapsed_seconds": 119.97897180000001,
+    "next_live_elapsed_seconds": 120.814708,
+    "previous_flags": 7,
+    "next_flags": 25,
+    "terminal_complete_on_next": true
+  },
+  "game_pass": false,
+  "hardware_access": false,
+  "protective_threshold_changed": false,
+  "limitations": [
+    "Exact fault time not recorded; in-flight snapshot is not a fault timestamp.",
+    "Missing maximum-span phases are explicitly listed; cannot invent them.",
+    "Request send timings/RTT not in original observer; poll time includes read/send/receive/decode/scheduling.",
+    "Board and PC absolute clocks are not synchronised; intervals do not establish one-way delay."
+  ],
+  "source_sha256": {
+    "FIDELITY_GAME_RUN_20261028-222645.json": "bc518be6c277fbe927ad99e0208a154ac5fe1c8f61066e107ed71de35f5dc964"
+  }
+}

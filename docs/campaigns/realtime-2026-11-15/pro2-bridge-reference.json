@@ -1,0 +1,130 @@
+{
+  "status": "PRO2_V29_SOURCE_REFERENCE_REVIEWED_NOT_EXECUTED",
+  "review_date": "2026-11-15",
+  "repository": "LeonChrome/XinHeLianSheng-Pro2-Bridge",
+  "tag": "pro2-v2.9",
+  "commit": "ed148a9462d6f65946b737ee8c879d17e41f581b",
+  "homepage_readme_reviewed_separately": "Current main README mentions v3.2.1; implementation findings bound to user-supplied v2.9 tag",
+  "release": {
+    "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/releases/tag/pro2-v2.9",
+    "published_at": "2026-11-12T11:45:59Z",
+    "provided_asset": [
+      {
+        "name": "PRO2ControllerAssistant-v2.9-win-x64.exe",
+        "size": 120403968,
+        "publisher_declared_digest": "sha256:d3b3a58e7b5778e3e3d1da3df82d983490fe14ac34d7120e0a49c09527964912"
+      }
+    ]
+  },
+  "binary_downloaded": false,
+  "binary_executed": false,
+  "hardware_actions": 0,
+  "flash_writes": 0,
+  "settings_or_driver_changes": 0,
+  "repository_license": "Apache-2.0 metadata; no source code integrated",
+  "source_bindings": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "20e4bd85661f5fbc86e0a8aac3934ddabe776160",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "7ba4e790463f15ce9d9a07f8259e5155d4644e7b",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/README.md"
+    },
+    {
+      "path": "docs/PS5_PRO2_ROADMAP.md",
+      "git_blob_sha1": "43b629ca3f41fc4e77d5b7084febff59195bd493",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/docs/PS5_PRO2_ROADMAP.md"
+    },
+    {
+      "path": "source/final-three-in-one/README.md",
+      "git_blob_sha1": "fd5deeaee106a649d301d046c5075ed6b8f5ee28",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/README.md"
+    },
+    {
+      "path": "source/final-three-in-one/firmware/pico2w_pro2_wireless_bridge/README_ZH.md",
+      "git_blob_sha1": "0e157a853c866e28ee9ec441a3567cc8408d21e9",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/firmware/pico2w_pro2_wireless_bridge/README_ZH.md"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/DualSenseHapticFeedback.cs",
+      "git_blob_sha1": "ecd59e11c7fd4c576189e2fbcc5ef71d79df993c",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/DualSenseHapticFeedback.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2BleInputSource.cs",
+      "git_blob_sha1": "6c84cc9dcf9a31c6d0fba789642ef7f9ddcfd2d5",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2BleInputSource.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2BleRumblePacketEncoder.cs",
+      "git_blob_sha1": "e2400b36d63da6e44bfe74feec1f97170c985277",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2BleRumblePacketEncoder.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2NativeRumbleEncoder.cs",
+      "git_blob_sha1": "625d81cd9e245cb5590585cd93e3d4336f71ff6c",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2NativeRumbleEncoder.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2OutputPacketMapper.cs",
+      "git_blob_sha1": "17e4cd7d12943b24408517d337a60d912cede933",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2OutputPacketMapper.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2QualityHapticProcessor.cs",
+      "git_blob_sha1": "c6936170bb3b3932213bf4f6d90bf9b54a9cf7c4",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2QualityHapticProcessor.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2RumbleFrequencyPolicy.cs",
+      "git_blob_sha1": "5ee470d5eaadf807225ea9de671be8c06d38b797",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2RumbleFrequencyPolicy.cs"
+    },
+    {
+      "path": "source/final-three-in-one/windows/v60_viiper_app/Pro2RumbleOutputQueue.cs",
+      "git_blob_sha1": "f1e1ea8be921fc4592bea09bcc4441eafee24476",
+      "url": "https://github.com/LeonChrome/XinHeLianSheng-Pro2-Bridge/blob/ed148a9462d6f65946b737ee8c879d17e41f581b/source/final-three-in-one/windows/v60_viiper_app/Pro2RumbleOutputQueue.cs"
+    }
+  ],
+  "protocol_findings": {
+    "transport": "NS2 Pro BLE GATT",
+    "input_notification": "FD2",
+    "rumble_characteristic": "cc483f51-9258-427d-a939-630c31f72b05",
+    "native_USB_report_bytes": 64,
+    "native_USB_report_id": "0x02",
+    "BLE_rumble_bytes": 33,
+    "actuator_blocks": 2,
+    "bytes_per_motor_block": 16,
+    "subframes_per_block": 3,
+    "bytes_per_subframe": 5,
+    "packed_field_bits": 10,
+    "PS5_PCM_conversion": "lossy per-actuator low/high frequency and amplitude estimation, not raw PCM forwarding",
+    "quality_input_PCM": {
+      "sample_rate": 48000,
+      "channels": 4,
+      "actuator_channels": [
+        3,
+        4
+      ],
+      "analysis_rate": 3000,
+      "window_samples": 96,
+      "hop_samples": 36
+    },
+    "frequency_mapping_status": "legacy_hz_proxy_unvalidated (upstream explicit label)",
+    "native_unity_gain_path": "Preserves 32 motor bytes and changes report envelope ID; distinct from synthesized PS5 conversion",
+    "queue_policy": "Explicitly lossy event selection; not a playback guarantee",
+    "historical_pico_subproject": "Real Pro2 USB input -> Pico -> wireless virtual controller; ordinary rumble only, not this Windows v2.9 BLE-central path"
+  },
+  "our_project_relevance": {
+    "single_Pico_architecture_reference": "DS5Dongle provides USB device + controller Bluetooth example; Pro2 project provides a different device-specific BLE output protocol",
+    "fine_rumble_transport_over_Bluetooth_possible_for_supported_controllers": true,
+    "Flydigi_Bluetooth_input": "UNVERIFIED",
+    "Flydigi_Bluetooth_fine_waveform_output": "UNVERIFIED",
+    "Nintendo_UUID_or_Sony_reports_not_applicable_to_Flydigi": true,
+    "our_incoming_rumble_already_parameterized_so_PS5_PCM_DSP_not_required": true
+  },
+  "decision": "Keep single-Pico USB-device + Bluetooth feasibility as mainline. Next isolate discovery/profile/input identification for Flydigi; do not send copied Sony/Nintendo commands or flash unrelated firmware."
+}

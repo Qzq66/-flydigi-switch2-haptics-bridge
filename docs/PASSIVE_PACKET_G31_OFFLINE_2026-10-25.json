@@ -1,0 +1,17 @@
+{
+  "status": "PASSED_28_OFFLINE_CHECKS_CURRENT_SOURCE",
+  "tests": 28,
+  "checked_after_attempt": true,
+  "tests_access_hardware": false,
+  "separate_hardware_attempt_exists": true,
+  "source_sha256": {
+    "tools/packet_clock_probe.py": "77d124e5317a233f957ddf8d14d01fb6d6319aac715bfa1bb68da34dfba45349",
+    "tools/component_receive_analysis.py": "4f82b17669c9ae1c8361e9361722a9c6ffa80d69b6ad60c1c8274b20d2e0904c",
+    "tools/passive_packet_policy_g31.py": "c7a8c3f9a188e4c907ff7f67031b1fe3729bfdd7debe2fe030b9e8f48d88d203",
+    "tools/run_passive_packet_g31.py": "b96f66861c2cb2387cb76420463466c07793cc06ec30fd730ba0250c1faeea1a",
+    "tools/analyse_passive_packet_g31.py": "4f2922a41013b8c64b5865bdf38bce2336b0ddf64e65fe64d8d820e2400fcbf6",
+    "tools/test_packet_clock_probe.py": "8cc8292d272672dc1ea3f7ef0e9f1a26b77f44c4e619645658add7e7852905f9",
+    "tools/test_component_receive_analysis.py": "b0b9ed631216f8220ee86e772963cc99d9ba85fc082aa6a17d73c5aad1194d73",
+    "tools/run_pktmon_passive_g31.ps1": "0cb7ece1d5f785dc36df631d18c053843afb81c02044c7a7af7091a64af4dd20"
+  }
+}

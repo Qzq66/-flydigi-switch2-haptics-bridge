@@ -1,0 +1,4899 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "e23f1f691707d6b138ea44e0f336f99cfe07c85d4e7c6683cca741ab2537bed6",
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "host_flash_write": false,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "8b22fb7f43c37c700b2120d401a14f9eddb5ff099fbc30920096c2d8d2887597",
+    "baseline_generation": 49
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "PASSED_ORDERED_PC_INPUT_LIVENESS",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 5461.046
+      },
+      {
+        "stage": 1,
+        "at": 5462.343
+      },
+      {
+        "stage": 2,
+        "at": 5462.687
+      },
+      {
+        "stage": 3,
+        "at": 5463.046
+      },
+      {
+        "stage": 4,
+        "at": 5463.765
+      }
+    ]
+  },
+  "post_neutral_discovery_ready": true,
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "child": {
+    "status": "INCOMPLETE",
+    "motor_commands": 0,
+    "output_frames": 0,
+    "persistent_configuration_commands": 0,
+    "input_mode": "actual_readonly_xinput_to_original_transport",
+    "error": "BridgeFault('Pico restarted; explicit new session required')",
+    "live_elapsed_seconds": 30.590474900000004,
+    "transport_diagnostics": {
+      "poll_calls": 2282,
+      "responses": 2020,
+      "timeouts": 261,
+      "maximum_poll_call_seconds": 0.061536700000004885,
+      "maximum_response_gap_seconds": 0.039575999999996725,
+      "observed_boot_ids": [
+        3605382515
+      ],
+      "first_frame": {
+        "kind": "frame",
+        "at": 43.4456989,
+        "duration": 0.002822100000003047,
+        "gap": null,
+        "source_us": 13768239,
+        "flags": 3,
+        "events": 8,
+        "rtt_ms": 1.5295999999977994
+      },
+      "recent": [
+        {
+          "kind": "timeout",
+          "at": 69.9728506,
+          "duration": 0.06002789999999436
+        },
+        {
+          "kind": "timeout",
+          "at": 70.0396444,
+          "duration": 0.06117659999999603
+        },
+        {
+          "kind": "timeout",
+          "at": 70.1048993,
+          "duration": 0.06074470000000076
+        },
+        {
+          "kind": "timeout",
+          "at": 70.1697621,
+          "duration": 0.06033589999999833
+        },
+        {
+          "kind": "timeout",
+          "at": 70.234996,
+          "duration": 0.06011119999999437
+        },
+        {
+          "kind": "timeout",
+          "at": 70.3004345,
+          "duration": 0.060934099999997215
+        },
+        {
+          "kind": "timeout",
+          "at": 70.3655875,
+          "duration": 0.060104300000006106
+        },
+        {
+          "kind": "timeout",
+          "at": 70.4314094,
+          "duration": 0.060223500000006425
+        },
+        {
+          "kind": "timeout",
+          "at": 70.4970893,
+          "duration": 0.06066359999999804
+        },
+        {
+          "kind": "timeout",
+          "at": 70.561721,
+          "duration": 0.06014420000001053
+        },
+        {
+          "kind": "timeout",
+          "at": 70.6277385,
+          "duration": 0.06107070000000192
+        },
+        {
+          "kind": "timeout",
+          "at": 70.6934159,
+          "duration": 0.06061560000000554
+        },
+        {
+          "kind": "timeout",
+          "at": 70.7585456,
+          "duration": 0.060398400000011065
+        },
+        {
+          "kind": "timeout",
+          "at": 70.8239883,
+          "duration": 0.060930399999989504
+        },
+        {
+          "kind": "timeout",
+          "at": 70.8894268,
+          "duration": 0.06109269999998901
+        },
+        {
+          "kind": "timeout",
+          "at": 70.9545448,
+          "duration": 0.06007019999999841
+        },
+        {
+          "kind": "timeout",
+          "at": 71.0191218,
+          "duration": 0.060052599999991685
+        },
+        {
+          "kind": "timeout",
+          "at": 71.0847207,
+          "duration": 0.060926700000010214
+        },
+        {
+          "kind": "timeout",
+          "at": 71.1506066,
+          "duration": 0.061314100000004146
+        },
+        {
+          "kind": "timeout",
+          "at": 71.2164495,
+          "duration": 0.060769399999998086
+        },
+        {
+          "kind": "timeout",
+          "at": 71.2810205,
+          "duration": 0.06034649999999431
+        },
+        {
+          "kind": "timeout",
+          "at": 71.3469185,
+          "duration": 0.06077790000000505
+        },
+        {
+          "kind": "timeout",
+          "at": 71.4114037,
+          "duration": 0.05995299999999304
+        },
+        {
+          "kind": "timeout",
+          "at": 71.4779385,
+          "duration": 0.06090179999999634
+        },
+        {
+          "kind": "timeout",
+          "at": 71.5431643,
+          "duration": 0.06072369999999694
+        },
+        {
+          "kind": "timeout",
+          "at": 71.6082314,
+          "duration": 0.06010919999999942
+        },
+        {
+          "kind": "timeout",
+          "at": 71.6730357,
+          "duration": 0.0605450999999988
+        },
+        {
+          "kind": "timeout",
+          "at": 71.7382039,
+          "duration": 0.0602499000000023
+        },
+        {
+          "kind": "timeout",
+          "at": 71.8039713,
+          "duration": 0.061301099999994335
+        },
+        {
+          "kind": "timeout",
+          "at": 71.8699357,
+          "duration": 0.06140770000000373
+        },
+        {
+          "kind": "timeout",
+          "at": 71.934658,
+          "duration": 0.06012090000000114
+        },
+        {
+          "kind": "timeout",
+          "at": 71.9998007,
+          "duration": 0.06059239999999022
+        },
+        {
+          "kind": "timeout",
+          "at": 72.0649608,
+          "duration": 0.06054460000000006
+        },
+        {
+          "kind": "timeout",
+          "at": 72.1293573,
+          "duration": 0.060188499999995315
+        },
+        {
+          "kind": "timeout",
+          "at": 72.1943481,
+          "duration": 0.060821599999997034
+        },
+        {
+          "kind": "timeout",
+          "at": 72.2598379,
+          "duration": 0.06009799999999643
+        },
+        {
+          "kind": "timeout",
+          "at": 72.3244234,
+          "duration": 0.060322999999996796
+        },
+        {
+          "kind": "timeout",
+          "at": 72.3903214,
+          "duration": 0.060596700000004944
+        },
+        {
+          "kind": "timeout",
+          "at": 72.4552762,
+          "duration": 0.06061780000000283
+        },
+        {
+          "kind": "timeout",
+          "at": 72.521373,
+          "duration": 0.060859499999992295
+        },
+        {
+          "kind": "timeout",
+          "at": 72.5867848,
+          "duration": 0.06042480000000694
+        },
+        {
+          "kind": "timeout",
+          "at": 72.6516503,
+          "duration": 0.060601800000000594
+        },
+        {
+          "kind": "timeout",
+          "at": 72.716995,
+          "duration": 0.06055680000000052
+        },
+        {
+          "kind": "timeout",
+          "at": 72.7825272,
+          "duration": 0.060667100000003416
+        },
+        {
+          "kind": "timeout",
+          "at": 72.8476904,
+          "duration": 0.06055960000000482
+        },
+        {
+          "kind": "timeout",
+          "at": 72.912813,
+          "duration": 0.06024209999999641
+        },
+        {
+          "kind": "timeout",
+          "at": 72.9795963,
+          "duration": 0.061114299999999844
+        },
+        {
+          "kind": "timeout",
+          "at": 73.0447622,
+          "duration": 0.06078029999999046
+        },
+        {
+          "kind": "timeout",
+          "at": 73.1102851,
+          "duration": 0.06097669999999766
+        },
+        {
+          "kind": "timeout",
+          "at": 73.1751643,
+          "duration": 0.06024899999999889
+        },
+        {
+          "kind": "timeout",
+          "at": 73.2410159,
+          "duration": 0.06134249999999497
+        },
+        {
+          "kind": "timeout",
+          "at": 73.3064122,
+          "duration": 0.060365099999998506
+        },
+        {
+          "kind": "timeout",
+          "at": 73.3711963,
+          "duration": 0.060577299999991396
+        },
+        {
+          "kind": "timeout",
+          "at": 73.4358019,
+          "duration": 0.06011859999999558
+        },
+        {
+          "kind": "timeout",
+          "at": 73.5013647,
+          "duration": 0.06053389999999581
+        },
+        {
+          "kind": "timeout",
+          "at": 73.5668445,
+          "duration": 0.06040450000000419
+        },
+        {
+          "kind": "timeout",
+          "at": 73.6326896,
+          "duration": 0.06133000000001232
+        },
+        {
+          "kind": "timeout",
+          "at": 73.6986438,
+          "duration": 0.06040269999999737
+        },
+        {
+          "kind": "timeout",
+          "at": 73.7634462,
+          "duration": 0.060274100000000885
+        },
+        {
+          "kind": "timeout",
+          "at": 73.8282689,
+          "duration": 0.06032059999999717
+        },
+        {
+          "kind": "timeout",
+          "at": 73.8933314,
+          "duration": 0.0604731999999899
+        },
+        {
+          "kind": "timeout",
+          "at": 73.9591421,
+          "duration": 0.06075389999999459
+        },
+        {
+          "kind": "timeout",
+          "at": 74.0243682,
+          "duration": 0.06013699999999744
+        },
+        {
+          "kind": "error",
+          "at": 74.0357256,
+          "error": "BridgeFault('Pico restarted; explicit new session required')"
+        }
+      ],
+      "phase_gap": {
+        "version": 2,
+        "snapshot_atomic": true,
+        "base_and_detail_same_instant": false,
+        "healthy": true,
+        "errors": 0,
+        "fault_latched": false,
+        "max_events": 65536,
+        "recorded_events": 4563,
+        "poll_calls": 2282,
+        "frames": 2020,
+        "timeouts": 261,
+        "poll_errors": 1,
+        "pause_calls": 2281,
+        "pause_errors": 0,
+        "in_flight": null,
+        "ring_capacity": 128,
+        "context_capacity": 8,
+        "pre_rows": 16,
+        "post_rows": 8,
+        "recent_events": [
+          {
+            "event_index": 4436,
+            "phase": "pause",
+            "start": 69.907513,
+            "end": 69.9127761,
+            "duration_seconds": 0.005263100000007626,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4437,
+            "phase": "poll",
+            "start": 69.9128143,
+            "end": 69.9728597,
+            "duration_seconds": 0.06004540000000702,
+            "poll_index": 2219,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4438,
+            "phase": "pause",
+            "start": 69.9729055,
+            "end": 69.9783385,
+            "duration_seconds": 0.005433000000010679,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4439,
+            "phase": "poll",
+            "start": 69.9784381,
+            "end": 70.0396544,
+            "duration_seconds": 0.061216299999998114,
+            "poll_index": 2220,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4440,
+            "phase": "pause",
+            "start": 70.0397144,
+            "end": 70.0441199,
+            "duration_seconds": 0.004405500000004281,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4441,
+            "phase": "poll",
+            "start": 70.0441486,
+            "end": 70.1049095,
+            "duration_seconds": 0.060760900000005336,
+            "poll_index": 2221,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4442,
+            "phase": "pause",
+            "start": 70.1049884,
+            "end": 70.1093759,
+            "duration_seconds": 0.004387500000007094,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4443,
+            "phase": "poll",
+            "start": 70.1094186,
+            "end": 70.1697702,
+            "duration_seconds": 0.06035160000000417,
+            "poll_index": 2222,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4444,
+            "phase": "pause",
+            "start": 70.1698134,
+            "end": 70.174817,
+            "duration_seconds": 0.005003600000009101,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4445,
+            "phase": "poll",
+            "start": 70.1748758,
+            "end": 70.2350094,
+            "duration_seconds": 0.06013360000000034,
+            "poll_index": 2223,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4446,
+            "phase": "pause",
+            "start": 70.2351384,
+            "end": 70.2394614,
+            "duration_seconds": 0.004322999999999411,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4447,
+            "phase": "poll",
+            "start": 70.2394945,
+            "end": 70.3004444,
+            "duration_seconds": 0.060949899999997115,
+            "poll_index": 2224,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4448,
+            "phase": "pause",
+            "start": 70.3005033,
+            "end": 70.3054333,
+            "duration_seconds": 0.004930000000001655,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4449,
+            "phase": "poll",
+            "start": 70.3054757,
+            "end": 70.3655963,
+            "duration_seconds": 0.06012060000000474,
+            "poll_index": 2225,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4450,
+            "phase": "pause",
+            "start": 70.3656843,
+            "end": 70.371149,
+            "duration_seconds": 0.005464700000004541,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4451,
+            "phase": "poll",
+            "start": 70.3711799,
+            "end": 70.4314229,
+            "duration_seconds": 0.060242999999999824,
+            "poll_index": 2226,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4452,
+            "phase": "pause",
+            "start": 70.4314836,
+            "end": 70.436382,
+            "duration_seconds": 0.004898399999987646,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4453,
+            "phase": "poll",
+            "start": 70.4364169,
+            "end": 70.4970995,
+            "duration_seconds": 0.060682600000006914,
+            "poll_index": 2227,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4454,
+            "phase": "pause",
+            "start": 70.4971585,
+            "end": 70.5015394,
+            "duration_seconds": 0.00438090000000102,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4455,
+            "phase": "poll",
+            "start": 70.5015702,
+            "end": 70.5617308,
+            "duration_seconds": 0.06016060000000323,
+            "poll_index": 2228,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4456,
+            "phase": "pause",
+            "start": 70.5617886,
+            "end": 70.5666099,
+            "duration_seconds": 0.004821300000003248,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4457,
+            "phase": "poll",
+            "start": 70.5666574,
+            "end": 70.6277468,
+            "duration_seconds": 0.06108940000000018,
+            "poll_index": 2229,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4458,
+            "phase": "pause",
+            "start": 70.6277912,
+            "end": 70.6327633,
+            "duration_seconds": 0.004972099999989155,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4459,
+            "phase": "poll",
+            "start": 70.6327942,
+            "end": 70.6934258,
+            "duration_seconds": 0.06063159999999357,
+            "poll_index": 2230,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4460,
+            "phase": "pause",
+            "start": 70.69353,
+            "end": 70.6981113,
+            "duration_seconds": 0.004581299999998123,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4461,
+            "phase": "poll",
+            "start": 70.6981408,
+            "end": 70.7585599,
+            "duration_seconds": 0.06041909999999007,
+            "poll_index": 2231,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4462,
+            "phase": "pause",
+            "start": 70.7586295,
+            "end": 70.7630157,
+            "duration_seconds": 0.0043861999999990076,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4463,
+            "phase": "poll",
+            "start": 70.7630498,
+            "end": 70.8239979,
+            "duration_seconds": 0.06094809999999029,
+            "poll_index": 2232,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4464,
+            "phase": "pause",
+            "start": 70.8240561,
+            "end": 70.8282881,
+            "duration_seconds": 0.004231999999987579,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4465,
+            "phase": "poll",
+            "start": 70.8283255,
+            "end": 70.8894351,
+            "duration_seconds": 0.06110959999999466,
+            "poll_index": 2233,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4466,
+            "phase": "pause",
+            "start": 70.8894816,
+            "end": 70.8944237,
+            "duration_seconds": 0.004942100000008054,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4467,
+            "phase": "poll",
+            "start": 70.8944662,
+            "end": 70.9545532,
+            "duration_seconds": 0.060087000000009994,
+            "poll_index": 2234,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4468,
+            "phase": "pause",
+            "start": 70.9545984,
+            "end": 70.9590313,
+            "duration_seconds": 0.004432900000011841,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4469,
+            "phase": "poll",
+            "start": 70.9590634,
+            "end": 71.0191325,
+            "duration_seconds": 0.06006909999999266,
+            "poll_index": 2235,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4470,
+            "phase": "pause",
+            "start": 71.0191974,
+            "end": 71.0236947,
+            "duration_seconds": 0.00449729999999704,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4471,
+            "phase": "poll",
+            "start": 71.0237784,
+            "end": 71.0847327,
+            "duration_seconds": 0.0609543000000059,
+            "poll_index": 2236,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4472,
+            "phase": "pause",
+            "start": 71.0848063,
+            "end": 71.0892468,
+            "duration_seconds": 0.00444050000000118,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4473,
+            "phase": "poll",
+            "start": 71.0892845,
+            "end": 71.1506163,
+            "duration_seconds": 0.06133179999999072,
+            "poll_index": 2237,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4474,
+            "phase": "pause",
+            "start": 71.1507123,
+            "end": 71.1556126,
+            "duration_seconds": 0.004900300000002744,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4475,
+            "phase": "poll",
+            "start": 71.1556704,
+            "end": 71.2164723,
+            "duration_seconds": 0.0608019000000013,
+            "poll_index": 2238,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4476,
+            "phase": "pause",
+            "start": 71.2165526,
+            "end": 71.220598,
+            "duration_seconds": 0.004045399999995425,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4477,
+            "phase": "poll",
+            "start": 71.2206654,
+            "end": 71.2810308,
+            "duration_seconds": 0.060365399999994906,
+            "poll_index": 2239,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4478,
+            "phase": "pause",
+            "start": 71.2810895,
+            "end": 71.2860788,
+            "duration_seconds": 0.004989300000005414,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4479,
+            "phase": "poll",
+            "start": 71.2861343,
+            "end": 71.3469315,
+            "duration_seconds": 0.06079719999999611,
+            "poll_index": 2240,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4480,
+            "phase": "pause",
+            "start": 71.3469921,
+            "end": 71.3514229,
+            "duration_seconds": 0.004430800000008617,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4481,
+            "phase": "poll",
+            "start": 71.351445,
+            "end": 71.4114113,
+            "duration_seconds": 0.05996629999999925,
+            "poll_index": 2241,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4482,
+            "phase": "pause",
+            "start": 71.4115008,
+            "end": 71.4169874,
+            "duration_seconds": 0.005486599999997566,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4483,
+            "phase": "poll",
+            "start": 71.4170279,
+            "end": 71.4779522,
+            "duration_seconds": 0.06092430000001059,
+            "poll_index": 2242,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4484,
+            "phase": "pause",
+            "start": 71.4780165,
+            "end": 71.4823902,
+            "duration_seconds": 0.004373700000002145,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4485,
+            "phase": "poll",
+            "start": 71.4824319,
+            "end": 71.543172,
+            "duration_seconds": 0.06074010000000385,
+            "poll_index": 2243,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4486,
+            "phase": "pause",
+            "start": 71.5432154,
+            "end": 71.5480633,
+            "duration_seconds": 0.004847900000001459,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4487,
+            "phase": "poll",
+            "start": 71.548113,
+            "end": 71.6082423,
+            "duration_seconds": 0.06012929999999983,
+            "poll_index": 2244,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4488,
+            "phase": "pause",
+            "start": 71.6083161,
+            "end": 71.6124531,
+            "duration_seconds": 0.004137000000000057,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4489,
+            "phase": "poll",
+            "start": 71.6124842,
+            "end": 71.6730476,
+            "duration_seconds": 0.060563400000006595,
+            "poll_index": 2245,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4490,
+            "phase": "pause",
+            "start": 71.6731479,
+            "end": 71.6779058,
+            "duration_seconds": 0.004757900000001314,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4491,
+            "phase": "poll",
+            "start": 71.6779457,
+            "end": 71.7382132,
+            "duration_seconds": 0.06026750000000902,
+            "poll_index": 2246,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4492,
+            "phase": "pause",
+            "start": 71.7382733,
+            "end": 71.7426156,
+            "duration_seconds": 0.004342299999990473,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4493,
+            "phase": "poll",
+            "start": 71.7426611,
+            "end": 71.8039799,
+            "duration_seconds": 0.06131879999999512,
+            "poll_index": 2247,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4494,
+            "phase": "pause",
+            "start": 71.8040234,
+            "end": 71.8084806,
+            "duration_seconds": 0.00445719999999028,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4495,
+            "phase": "poll",
+            "start": 71.808519,
+            "end": 71.869946,
+            "duration_seconds": 0.06142699999999479,
+            "poll_index": 2248,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4496,
+            "phase": "pause",
+            "start": 71.8700366,
+            "end": 71.8744925,
+            "duration_seconds": 0.004455899999996404,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4497,
+            "phase": "poll",
+            "start": 71.8745288,
+            "end": 71.9346685,
+            "duration_seconds": 0.06013970000000768,
+            "poll_index": 2249,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4498,
+            "phase": "pause",
+            "start": 71.9350202,
+            "end": 71.9391749,
+            "duration_seconds": 0.004154700000000844,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4499,
+            "phase": "poll",
+            "start": 71.9392024,
+            "end": 71.999918,
+            "duration_seconds": 0.06071559999999465,
+            "poll_index": 2250,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4500,
+            "phase": "pause",
+            "start": 71.9999715,
+            "end": 72.00436,
+            "duration_seconds": 0.004388500000004569,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4501,
+            "phase": "poll",
+            "start": 72.0044078,
+            "end": 72.0649759,
+            "duration_seconds": 0.06056809999999757,
+            "poll_index": 2251,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4502,
+            "phase": "pause",
+            "start": 72.0650277,
+            "end": 72.0691324,
+            "duration_seconds": 0.004104699999999184,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4503,
+            "phase": "poll",
+            "start": 72.0691631,
+            "end": 72.1293659,
+            "duration_seconds": 0.060202799999999,
+            "poll_index": 2252,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4504,
+            "phase": "pause",
+            "start": 72.129456,
+            "end": 72.1334946,
+            "duration_seconds": 0.0040386000000012245,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4505,
+            "phase": "poll",
+            "start": 72.1335209,
+            "end": 72.1943624,
+            "duration_seconds": 0.06084150000000932,
+            "poll_index": 2253,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4506,
+            "phase": "pause",
+            "start": 72.1944574,
+            "end": 72.1996974,
+            "duration_seconds": 0.0052400000000005775,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4507,
+            "phase": "poll",
+            "start": 72.1997315,
+            "end": 72.2598472,
+            "duration_seconds": 0.06011569999999722,
+            "poll_index": 2254,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4508,
+            "phase": "pause",
+            "start": 72.2599033,
+            "end": 72.2640627,
+            "duration_seconds": 0.00415939999999182,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4509,
+            "phase": "poll",
+            "start": 72.2640926,
+            "end": 72.3244332,
+            "duration_seconds": 0.06034060000000352,
+            "poll_index": 2255,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4510,
+            "phase": "pause",
+            "start": 72.3244922,
+            "end": 72.3296724,
+            "duration_seconds": 0.005180200000012292,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4511,
+            "phase": "poll",
+            "start": 72.3297138,
+            "end": 72.3903357,
+            "duration_seconds": 0.060621900000001006,
+            "poll_index": 2256,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4512,
+            "phase": "pause",
+            "start": 72.3904018,
+            "end": 72.3946268,
+            "duration_seconds": 0.0042249999999910415,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4513,
+            "phase": "poll",
+            "start": 72.3946527,
+            "end": 72.4552828,
+            "duration_seconds": 0.060630100000011566,
+            "poll_index": 2257,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4514,
+            "phase": "pause",
+            "start": 72.4553224,
+            "end": 72.4604784,
+            "duration_seconds": 0.005155999999999494,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4515,
+            "phase": "poll",
+            "start": 72.4605078,
+            "end": 72.5213826,
+            "duration_seconds": 0.060874799999993456,
+            "poll_index": 2258,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4516,
+            "phase": "pause",
+            "start": 72.5214399,
+            "end": 72.5263247,
+            "duration_seconds": 0.004884799999999245,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4517,
+            "phase": "poll",
+            "start": 72.5263538,
+            "end": 72.5868001,
+            "duration_seconds": 0.0604463000000095,
+            "poll_index": 2259,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4518,
+            "phase": "pause",
+            "start": 72.5868628,
+            "end": 72.5910152,
+            "duration_seconds": 0.004152399999995282,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4519,
+            "phase": "poll",
+            "start": 72.5910428,
+            "end": 72.6516633,
+            "duration_seconds": 0.060620499999998856,
+            "poll_index": 2260,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4520,
+            "phase": "pause",
+            "start": 72.6517381,
+            "end": 72.6563885,
+            "duration_seconds": 0.004650400000002719,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4521,
+            "phase": "poll",
+            "start": 72.6564295,
+            "end": 72.7170034,
+            "duration_seconds": 0.060573899999994296,
+            "poll_index": 2261,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4522,
+            "phase": "pause",
+            "start": 72.7170476,
+            "end": 72.7218223,
+            "duration_seconds": 0.004774699999998688,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4523,
+            "phase": "poll",
+            "start": 72.721854,
+            "end": 72.7825337,
+            "duration_seconds": 0.06067970000000855,
+            "poll_index": 2262,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4524,
+            "phase": "pause",
+            "start": 72.7825733,
+            "end": 72.7870714,
+            "duration_seconds": 0.004498100000006389,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4525,
+            "phase": "poll",
+            "start": 72.7871226,
+            "end": 72.8476998,
+            "duration_seconds": 0.06057719999999733,
+            "poll_index": 2263,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4526,
+            "phase": "pause",
+            "start": 72.847757,
+            "end": 72.8525217,
+            "duration_seconds": 0.004764699999995514,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4527,
+            "phase": "poll",
+            "start": 72.8525622,
+            "end": 72.9128255,
+            "duration_seconds": 0.06026330000000257,
+            "poll_index": 2264,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4528,
+            "phase": "pause",
+            "start": 72.912919,
+            "end": 72.9184471,
+            "duration_seconds": 0.005528099999992264,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4529,
+            "phase": "poll",
+            "start": 72.9184764,
+            "end": 72.9796076,
+            "duration_seconds": 0.06113119999999128,
+            "poll_index": 2265,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4530,
+            "phase": "pause",
+            "start": 72.9796787,
+            "end": 72.9839224,
+            "duration_seconds": 0.004243700000003514,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4531,
+            "phase": "poll",
+            "start": 72.9839712,
+            "end": 73.0447733,
+            "duration_seconds": 0.060802100000003634,
+            "poll_index": 2266,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4532,
+            "phase": "pause",
+            "start": 73.0448351,
+            "end": 73.0492767,
+            "duration_seconds": 0.004441599999992718,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4533,
+            "phase": "poll",
+            "start": 73.0493028,
+            "end": 73.1102955,
+            "duration_seconds": 0.0609926999999999,
+            "poll_index": 2267,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4534,
+            "phase": "pause",
+            "start": 73.1103744,
+            "end": 73.1148833,
+            "duration_seconds": 0.004508900000004701,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4535,
+            "phase": "poll",
+            "start": 73.1149082,
+            "end": 73.1751736,
+            "duration_seconds": 0.06026539999999159,
+            "poll_index": 2268,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4536,
+            "phase": "pause",
+            "start": 73.1752434,
+            "end": 73.1796353,
+            "duration_seconds": 0.0043919000000016695,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4537,
+            "phase": "poll",
+            "start": 73.1796656,
+            "end": 73.2410226,
+            "duration_seconds": 0.06135699999998678,
+            "poll_index": 2269,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4538,
+            "phase": "pause",
+            "start": 73.2410651,
+            "end": 73.2460133,
+            "duration_seconds": 0.004948200000001179,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4539,
+            "phase": "poll",
+            "start": 73.2460413,
+            "end": 73.3064327,
+            "duration_seconds": 0.06039140000000032,
+            "poll_index": 2270,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4540,
+            "phase": "pause",
+            "start": 73.3065212,
+            "end": 73.3105912,
+            "duration_seconds": 0.004069999999998686,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4541,
+            "phase": "poll",
+            "start": 73.3106139,
+            "end": 73.3712061,
+            "duration_seconds": 0.060592199999987884,
+            "poll_index": 2271,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4542,
+            "phase": "pause",
+            "start": 73.3712802,
+            "end": 73.3756589,
+            "duration_seconds": 0.004378700000003732,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4543,
+            "phase": "poll",
+            "start": 73.3756786,
+            "end": 73.4358086,
+            "duration_seconds": 0.060130000000000905,
+            "poll_index": 2272,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4544,
+            "phase": "pause",
+            "start": 73.4358471,
+            "end": 73.4408071,
+            "duration_seconds": 0.004959999999996967,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4545,
+            "phase": "poll",
+            "start": 73.4408264,
+            "end": 73.5013709,
+            "duration_seconds": 0.060544499999991785,
+            "poll_index": 2273,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4546,
+            "phase": "pause",
+            "start": 73.5014053,
+            "end": 73.5064043,
+            "duration_seconds": 0.004998999999997977,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4547,
+            "phase": "poll",
+            "start": 73.5064346,
+            "end": 73.566853,
+            "duration_seconds": 0.06041839999998899,
+            "poll_index": 2274,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4548,
+            "phase": "pause",
+            "start": 73.5669229,
+            "end": 73.5713286,
+            "duration_seconds": 0.004405700000006618,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4549,
+            "phase": "poll",
+            "start": 73.5713542,
+            "end": 73.632696,
+            "duration_seconds": 0.061341799999993896,
+            "poll_index": 2275,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4550,
+            "phase": "pause",
+            "start": 73.6327479,
+            "end": 73.6382157,
+            "duration_seconds": 0.005467800000005241,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4551,
+            "phase": "poll",
+            "start": 73.6382366,
+            "end": 73.6986501,
+            "duration_seconds": 0.06041349999999568,
+            "poll_index": 2276,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4552,
+            "phase": "pause",
+            "start": 73.6986864,
+            "end": 73.7031423,
+            "duration_seconds": 0.004455899999996404,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4553,
+            "phase": "poll",
+            "start": 73.7031669,
+            "end": 73.763453,
+            "duration_seconds": 0.06028609999999901,
+            "poll_index": 2277,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4554,
+            "phase": "pause",
+            "start": 73.7634895,
+            "end": 73.767922,
+            "duration_seconds": 0.004432499999992956,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4555,
+            "phase": "poll",
+            "start": 73.7679433,
+            "end": 73.8282849,
+            "duration_seconds": 0.060341600000000994,
+            "poll_index": 2278,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4556,
+            "phase": "pause",
+            "start": 73.8283315,
+            "end": 73.8328185,
+            "duration_seconds": 0.004486999999997465,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4557,
+            "phase": "poll",
+            "start": 73.8328509,
+            "end": 73.8933414,
+            "duration_seconds": 0.060490500000000225,
+            "poll_index": 2279,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4558,
+            "phase": "pause",
+            "start": 73.8933973,
+            "end": 73.898353,
+            "duration_seconds": 0.004955699999996455,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4559,
+            "phase": "poll",
+            "start": 73.8983825,
+            "end": 73.9591538,
+            "duration_seconds": 0.06077129999999897,
+            "poll_index": 2280,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4560,
+            "phase": "pause",
+            "start": 73.9592158,
+            "end": 73.9641818,
+            "duration_seconds": 0.00496600000001024,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4561,
+            "phase": "poll",
+            "start": 73.964223,
+            "end": 74.0243763,
+            "duration_seconds": 0.06015329999999608,
+            "poll_index": 2281,
+            "outcome": "timeout"
+          },
+          {
+            "event_index": 4562,
+            "phase": "pause",
+            "start": 74.0244177,
+            "end": 74.029706,
+            "duration_seconds": 0.005288300000003687,
+            "requested_seconds": 0.004
+          },
+          {
+            "event_index": 4563,
+            "phase": "poll",
+            "start": 74.0297391,
+            "end": 74.0357613,
+            "duration_seconds": 0.006022200000003863,
+            "error_type": "BridgeFault",
+            "poll_index": 2282,
+            "outcome": "error"
+          }
+        ],
+        "contexts": [
+          {
+            "anchor": {
+              "event_index": 23,
+              "phase": "poll",
+              "start": 43.5181606,
+              "end": 43.5526529,
+              "duration_seconds": 0.03449229999999659,
+              "poll_index": 12,
+              "outcome": "frame",
+              "received_at": 43.5526316,
+              "source_us": 13875492,
+              "flags": 3,
+              "event_count": 0,
+              "receive_gap_seconds": 0.039575999999996725,
+              "transport_receive_decode_seconds": 0.03400339999999602,
+              "poll_start_to_transport_timer_seconds": 0.0004676000000003455,
+              "received_to_poll_end_seconds": 2.1300000000223918e-05
+            },
+            "reasons": [
+              "new_max_receive_gap"
+            ],
+            "score_seconds": 0.039575999999996725,
+            "pre": [
+              {
+                "event_index": 7,
+                "phase": "poll",
+                "start": 43.4643803,
+                "end": 43.4657536,
+                "duration_seconds": 0.0013732999999973572,
+                "poll_index": 4,
+                "outcome": "frame",
+                "received_at": 43.4657363,
+                "source_us": 13788644,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.006496300000002009,
+                "transport_receive_decode_seconds": 0.0011448999999998932,
+                "poll_start_to_transport_timer_seconds": 0.00021110000000135187,
+                "received_to_poll_end_seconds": 1.7299999996112092e-05
+              },
+              {
+                "event_index": 8,
+                "phase": "pause",
+                "start": 43.4657862,
+                "end": 43.4700099,
+                "duration_seconds": 0.004223700000004271,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 9,
+                "phase": "poll",
+                "start": 43.4700361,
+                "end": 43.4719046,
+                "duration_seconds": 0.0018685000000004948,
+                "poll_index": 5,
+                "outcome": "frame",
+                "received_at": 43.4718865,
+                "source_us": 13794285,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.006150199999993333,
+                "transport_receive_decode_seconds": 0.0016338999999945258,
+                "poll_start_to_transport_timer_seconds": 0.00021650000000050795,
+                "received_to_poll_end_seconds": 1.810000000546097e-05
+              },
+              {
+                "event_index": 10,
+                "phase": "pause",
+                "start": 43.4719378,
+                "end": 43.476037,
+                "duration_seconds": 0.004099199999998859,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 11,
+                "phase": "poll",
+                "start": 43.4760711,
+                "end": 43.4778848,
+                "duration_seconds": 0.001813699999999585,
+                "poll_index": 6,
+                "outcome": "frame",
+                "received_at": 43.4778689,
+                "source_us": 13800373,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.0059824000000006095,
+                "transport_receive_decode_seconds": 0.0015512999999955923,
+                "poll_start_to_transport_timer_seconds": 0.00024650000000292493,
+                "received_to_poll_end_seconds": 1.5900000001067838e-05
+              },
+              {
+                "event_index": 12,
+                "phase": "pause",
+                "start": 43.4779154,
+                "end": 43.4822826,
+                "duration_seconds": 0.00436719999999724,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 13,
+                "phase": "poll",
+                "start": 43.4823084,
+                "end": 43.485499,
+                "duration_seconds": 0.0031905999999963797,
+                "poll_index": 7,
+                "outcome": "frame",
+                "received_at": 43.4854807,
+                "source_us": 13806585,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.007611799999999391,
+                "transport_receive_decode_seconds": 0.0029519999999934043,
+                "poll_start_to_transport_timer_seconds": 0.00022030000000228256,
+                "received_to_poll_end_seconds": 1.8300000000692762e-05
+              },
+              {
+                "event_index": 14,
+                "phase": "pause",
+                "start": 43.4855338,
+                "end": 43.4899871,
+                "duration_seconds": 0.004453300000001548,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 15,
+                "phase": "poll",
+                "start": 43.4900111,
+                "end": 43.4915974,
+                "duration_seconds": 0.0015863000000067018,
+                "poll_index": 8,
+                "outcome": "frame",
+                "received_at": 43.4915799,
+                "source_us": 13814499,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.006099200000001304,
+                "transport_receive_decode_seconds": 0.0013564999999999827,
+                "poll_start_to_transport_timer_seconds": 0.00021230000000116434,
+                "received_to_poll_end_seconds": 1.750000000555474e-05
+              },
+              {
+                "event_index": 16,
+                "phase": "pause",
+                "start": 43.4916278,
+                "end": 43.496582,
+                "duration_seconds": 0.004954199999993136,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 17,
+                "phase": "poll",
+                "start": 43.4966046,
+                "end": 43.4978878,
+                "duration_seconds": 0.0012832000000031485,
+                "poll_index": 9,
+                "outcome": "frame",
+                "received_at": 43.4978713,
+                "source_us": 13820857,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.0062914000000020565,
+                "transport_receive_decode_seconds": 0.0010316999999986365,
+                "poll_start_to_transport_timer_seconds": 0.00023500000000353793,
+                "received_to_poll_end_seconds": 1.650000000097407e-05
+              },
+              {
+                "event_index": 18,
+                "phase": "pause",
+                "start": 43.4979196,
+                "end": 43.5020435,
+                "duration_seconds": 0.004123899999996183,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 19,
+                "phase": "poll",
+                "start": 43.5020689,
+                "end": 43.5042394,
+                "duration_seconds": 0.0021705000000054042,
+                "poll_index": 10,
+                "outcome": "frame",
+                "received_at": 43.5042236,
+                "source_us": 13826692,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.006352300000003197,
+                "transport_receive_decode_seconds": 0.0019118000000020174,
+                "poll_start_to_transport_timer_seconds": 0.00024290000000348755,
+                "received_to_poll_end_seconds": 1.5799999999899228e-05
+              },
+              {
+                "event_index": 20,
+                "phase": "pause",
+                "start": 43.5042687,
+                "end": 43.5091149,
+                "duration_seconds": 0.004846200000002909,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 21,
+                "phase": "poll",
+                "start": 43.5091329,
+                "end": 43.513073,
+                "duration_seconds": 0.003940100000001223,
+                "poll_index": 11,
+                "outcome": "frame",
+                "received_at": 43.5130556,
+                "source_us": 13835599,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.008831999999998175,
+                "transport_receive_decode_seconds": 0.0037227999999984718,
+                "poll_start_to_transport_timer_seconds": 0.0001999000000054707,
+                "received_to_poll_end_seconds": 1.7399999997280702e-05
+              },
+              {
+                "event_index": 22,
+                "phase": "pause",
+                "start": 43.5131111,
+                "end": 43.5181315,
+                "duration_seconds": 0.00502039999999937,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 24,
+                "phase": "pause",
+                "start": 43.5526956,
+                "end": 43.5569476,
+                "duration_seconds": 0.004252000000001033,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 25,
+                "phase": "poll",
+                "start": 43.5569741,
+                "end": 43.5593273,
+                "duration_seconds": 0.0023532000000017206,
+                "poll_index": 13,
+                "outcome": "frame",
+                "received_at": 43.5593096,
+                "source_us": 13881243,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.00667800000000085,
+                "transport_receive_decode_seconds": 0.0021212999999988824,
+                "poll_start_to_transport_timer_seconds": 0.00021420000000205164,
+                "received_to_poll_end_seconds": 1.770000000078653e-05
+              },
+              {
+                "event_index": 26,
+                "phase": "pause",
+                "start": 43.5593626,
+                "end": 43.5634169,
+                "duration_seconds": 0.004054299999999955,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 27,
+                "phase": "poll",
+                "start": 43.5634689,
+                "end": 43.5648496,
+                "duration_seconds": 0.0013807000000056746,
+                "poll_index": 14,
+                "outcome": "frame",
+                "received_at": 43.5648333,
+                "source_us": 13887795,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.005523699999997689,
+                "transport_receive_decode_seconds": 0.0010962999999932777,
+                "poll_start_to_transport_timer_seconds": 0.0002681000000066547,
+                "received_to_poll_end_seconds": 1.6300000005742277e-05
+              },
+              {
+                "event_index": 28,
+                "phase": "pause",
+                "start": 43.5648816,
+                "end": 43.5690384,
+                "duration_seconds": 0.004156799999996963,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 29,
+                "phase": "poll",
+                "start": 43.5690719,
+                "end": 43.5705441,
+                "duration_seconds": 0.001472200000002033,
+                "poll_index": 15,
+                "outcome": "frame",
+                "received_at": 43.5705286,
+                "source_us": 13893341,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.005695300000006398,
+                "transport_receive_decode_seconds": 0.0012463999999994257,
+                "poll_start_to_transport_timer_seconds": 0.00021030000000621385,
+                "received_to_poll_end_seconds": 1.54999999963934e-05
+              },
+              {
+                "event_index": 30,
+                "phase": "pause",
+                "start": 43.5705738,
+                "end": 43.5749934,
+                "duration_seconds": 0.004419599999998525,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 31,
+                "phase": "poll",
+                "start": 43.5750157,
+                "end": 43.5769217,
+                "duration_seconds": 0.001905999999998187,
+                "poll_index": 16,
+                "outcome": "frame",
+                "received_at": 43.5769049,
+                "source_us": 13899791,
+                "flags": 3,
+                "event_count": 0,
+                "receive_gap_seconds": 0.006376299999999446,
+                "transport_receive_decode_seconds": 0.0016548000000042862,
+                "poll_start_to_transport_timer_seconds": 0.00023439999999652628,
+                "received_to_poll_end_seconds": 1.679999999737447e-05
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4153,
+              "phase": "poll",
+              "start": 60.6289468,
+              "end": 60.6903736,
+              "duration_seconds": 0.06142679999999956,
+              "poll_index": 2077,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06142679999999956,
+            "pre": [
+              {
+                "event_index": 4137,
+                "phase": "poll",
+                "start": 60.1051684,
+                "end": 60.1661643,
+                "duration_seconds": 0.06099590000000177,
+                "poll_index": 2069,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4138,
+                "phase": "pause",
+                "start": 60.1662223,
+                "end": 60.1711566,
+                "duration_seconds": 0.0049343000000021675,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4139,
+                "phase": "poll",
+                "start": 60.1711901,
+                "end": 60.2313027,
+                "duration_seconds": 0.060112600000003624,
+                "poll_index": 2070,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4140,
+                "phase": "pause",
+                "start": 60.2313621,
+                "end": 60.2359029,
+                "duration_seconds": 0.0045408000000009,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4141,
+                "phase": "poll",
+                "start": 60.2359277,
+                "end": 60.2959312,
+                "duration_seconds": 0.06000350000000054,
+                "poll_index": 2071,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4142,
+                "phase": "pause",
+                "start": 60.2959732,
+                "end": 60.3004577,
+                "duration_seconds": 0.004484500000003777,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4143,
+                "phase": "poll",
+                "start": 60.300487,
+                "end": 60.3612996,
+                "duration_seconds": 0.060812600000005546,
+                "poll_index": 2072,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4144,
+                "phase": "pause",
+                "start": 60.3613565,
+                "end": 60.366474,
+                "duration_seconds": 0.0051174999999972215,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4145,
+                "phase": "poll",
+                "start": 60.3665013,
+                "end": 60.4271871,
+                "duration_seconds": 0.06068579999999457,
+                "poll_index": 2073,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4146,
+                "phase": "pause",
+                "start": 60.4272295,
+                "end": 60.4325412,
+                "duration_seconds": 0.00531170000000003,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4147,
+                "phase": "poll",
+                "start": 60.4325836,
+                "end": 60.4932743,
+                "duration_seconds": 0.060690700000002096,
+                "poll_index": 2074,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4148,
+                "phase": "pause",
+                "start": 60.4933185,
+                "end": 60.4981142,
+                "duration_seconds": 0.004795700000002512,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4149,
+                "phase": "poll",
+                "start": 60.4981442,
+                "end": 60.5583562,
+                "duration_seconds": 0.06021199999999993,
+                "poll_index": 2075,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4150,
+                "phase": "pause",
+                "start": 60.5584119,
+                "end": 60.5635338,
+                "duration_seconds": 0.005121899999998902,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4151,
+                "phase": "poll",
+                "start": 60.5635742,
+                "end": 60.6244104,
+                "duration_seconds": 0.060836200000004226,
+                "poll_index": 2076,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4152,
+                "phase": "pause",
+                "start": 60.6244671,
+                "end": 60.6288969,
+                "duration_seconds": 0.004429800000004036,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4154,
+                "phase": "pause",
+                "start": 60.690419,
+                "end": 60.6947259,
+                "duration_seconds": 0.004306900000003111,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4155,
+                "phase": "poll",
+                "start": 60.694763,
+                "end": 60.7549445,
+                "duration_seconds": 0.06018149999999878,
+                "poll_index": 2078,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4156,
+                "phase": "pause",
+                "start": 60.7550154,
+                "end": 60.7593852,
+                "duration_seconds": 0.004369799999999202,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4157,
+                "phase": "poll",
+                "start": 60.7594105,
+                "end": 60.820326,
+                "duration_seconds": 0.06091550000000012,
+                "poll_index": 2079,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4158,
+                "phase": "pause",
+                "start": 60.8203709,
+                "end": 60.8246367,
+                "duration_seconds": 0.004265799999998876,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4159,
+                "phase": "poll",
+                "start": 60.8246648,
+                "end": 60.8856039,
+                "duration_seconds": 0.0609390999999988,
+                "poll_index": 2080,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4160,
+                "phase": "pause",
+                "start": 60.8856934,
+                "end": 60.8911336,
+                "duration_seconds": 0.005440200000002449,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4161,
+                "phase": "poll",
+                "start": 60.8911936,
+                "end": 60.9517863,
+                "duration_seconds": 0.06059270000000083,
+                "poll_index": 2081,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4261,
+              "phase": "poll",
+              "start": 64.1585127,
+              "end": 64.2200623,
+              "duration_seconds": 0.06154959999999221,
+              "poll_index": 2131,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06154959999999221,
+            "pre": [
+              {
+                "event_index": 4245,
+                "phase": "poll",
+                "start": 63.6353354,
+                "end": 63.6954908,
+                "duration_seconds": 0.060155399999999304,
+                "poll_index": 2123,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4246,
+                "phase": "pause",
+                "start": 63.6955244,
+                "end": 63.7002932,
+                "duration_seconds": 0.004768800000000795,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4247,
+                "phase": "poll",
+                "start": 63.7003341,
+                "end": 63.7614578,
+                "duration_seconds": 0.06112370000000311,
+                "poll_index": 2124,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4248,
+                "phase": "pause",
+                "start": 63.7614939,
+                "end": 63.7665291,
+                "duration_seconds": 0.005035200000001794,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4249,
+                "phase": "poll",
+                "start": 63.7665505,
+                "end": 63.8269097,
+                "duration_seconds": 0.06035920000000061,
+                "poll_index": 2125,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4250,
+                "phase": "pause",
+                "start": 63.8271155,
+                "end": 63.8320478,
+                "duration_seconds": 0.004932300000000112,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4251,
+                "phase": "poll",
+                "start": 63.8320951,
+                "end": 63.8927293,
+                "duration_seconds": 0.060634200000002636,
+                "poll_index": 2126,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4252,
+                "phase": "pause",
+                "start": 63.8927755,
+                "end": 63.8982338,
+                "duration_seconds": 0.005458300000000804,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4253,
+                "phase": "poll",
+                "start": 63.8982813,
+                "end": 63.9584423,
+                "duration_seconds": 0.0601610000000008,
+                "poll_index": 2127,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4254,
+                "phase": "pause",
+                "start": 63.9584827,
+                "end": 63.9638015,
+                "duration_seconds": 0.005318800000004842,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4255,
+                "phase": "poll",
+                "start": 63.9638403,
+                "end": 64.0239744,
+                "duration_seconds": 0.06013409999999908,
+                "poll_index": 2128,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4256,
+                "phase": "pause",
+                "start": 64.0240135,
+                "end": 64.0280719,
+                "duration_seconds": 0.004058400000005236,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4257,
+                "phase": "poll",
+                "start": 64.0281067,
+                "end": 64.0881938,
+                "duration_seconds": 0.06008710000000406,
+                "poll_index": 2129,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4258,
+                "phase": "pause",
+                "start": 64.0882506,
+                "end": 64.0932872,
+                "duration_seconds": 0.005036600000011049,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4259,
+                "phase": "poll",
+                "start": 64.0933138,
+                "end": 64.1533987,
+                "duration_seconds": 0.06008489999999256,
+                "poll_index": 2130,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4260,
+                "phase": "pause",
+                "start": 64.1534389,
+                "end": 64.1584881,
+                "duration_seconds": 0.005049200000001974,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4262,
+                "phase": "pause",
+                "start": 64.2201114,
+                "end": 64.2249953,
+                "duration_seconds": 0.004883900000010044,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4263,
+                "phase": "poll",
+                "start": 64.2251228,
+                "end": 64.2853945,
+                "duration_seconds": 0.06027170000000126,
+                "poll_index": 2132,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4264,
+                "phase": "pause",
+                "start": 64.2854369,
+                "end": 64.2898147,
+                "duration_seconds": 0.00437780000000032,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4265,
+                "phase": "poll",
+                "start": 64.2898578,
+                "end": 64.3508796,
+                "duration_seconds": 0.06102180000000601,
+                "poll_index": 2133,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4266,
+                "phase": "pause",
+                "start": 64.3509196,
+                "end": 64.3551115,
+                "duration_seconds": 0.004191900000009241,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4267,
+                "phase": "poll",
+                "start": 64.3551462,
+                "end": 64.4153171,
+                "duration_seconds": 0.0601709000000028,
+                "poll_index": 2134,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4268,
+                "phase": "pause",
+                "start": 64.415375,
+                "end": 64.4194998,
+                "duration_seconds": 0.0041247999999995955,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4269,
+                "phase": "poll",
+                "start": 64.4195262,
+                "end": 64.4804482,
+                "duration_seconds": 0.06092199999999082,
+                "poll_index": 2135,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4275,
+              "phase": "poll",
+              "start": 64.6170836,
+              "end": 64.6784346,
+              "duration_seconds": 0.06135100000000193,
+              "poll_index": 2138,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06135100000000193,
+            "pre": [
+              {
+                "event_index": 4259,
+                "phase": "poll",
+                "start": 64.0933138,
+                "end": 64.1533987,
+                "duration_seconds": 0.06008489999999256,
+                "poll_index": 2130,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4260,
+                "phase": "pause",
+                "start": 64.1534389,
+                "end": 64.1584881,
+                "duration_seconds": 0.005049200000001974,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4261,
+                "phase": "poll",
+                "start": 64.1585127,
+                "end": 64.2200623,
+                "duration_seconds": 0.06154959999999221,
+                "poll_index": 2131,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4262,
+                "phase": "pause",
+                "start": 64.2201114,
+                "end": 64.2249953,
+                "duration_seconds": 0.004883900000010044,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4263,
+                "phase": "poll",
+                "start": 64.2251228,
+                "end": 64.2853945,
+                "duration_seconds": 0.06027170000000126,
+                "poll_index": 2132,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4264,
+                "phase": "pause",
+                "start": 64.2854369,
+                "end": 64.2898147,
+                "duration_seconds": 0.00437780000000032,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4265,
+                "phase": "poll",
+                "start": 64.2898578,
+                "end": 64.3508796,
+                "duration_seconds": 0.06102180000000601,
+                "poll_index": 2133,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4266,
+                "phase": "pause",
+                "start": 64.3509196,
+                "end": 64.3551115,
+                "duration_seconds": 0.004191900000009241,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4267,
+                "phase": "poll",
+                "start": 64.3551462,
+                "end": 64.4153171,
+                "duration_seconds": 0.0601709000000028,
+                "poll_index": 2134,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4268,
+                "phase": "pause",
+                "start": 64.415375,
+                "end": 64.4194998,
+                "duration_seconds": 0.0041247999999995955,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4269,
+                "phase": "poll",
+                "start": 64.4195262,
+                "end": 64.4804482,
+                "duration_seconds": 0.06092199999999082,
+                "poll_index": 2135,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4270,
+                "phase": "pause",
+                "start": 64.4805301,
+                "end": 64.4847251,
+                "duration_seconds": 0.004195000000009941,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4271,
+                "phase": "poll",
+                "start": 64.4848023,
+                "end": 64.5454788,
+                "duration_seconds": 0.06067649999999958,
+                "poll_index": 2136,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4272,
+                "phase": "pause",
+                "start": 64.5455359,
+                "end": 64.551349,
+                "duration_seconds": 0.005813099999997462,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4273,
+                "phase": "poll",
+                "start": 64.5513958,
+                "end": 64.6113821,
+                "duration_seconds": 0.0599863000000056,
+                "poll_index": 2137,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4274,
+                "phase": "pause",
+                "start": 64.6114219,
+                "end": 64.6170396,
+                "duration_seconds": 0.005617700000001946,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4276,
+                "phase": "pause",
+                "start": 64.6785,
+                "end": 64.683396,
+                "duration_seconds": 0.004896000000002232,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4277,
+                "phase": "poll",
+                "start": 64.6834307,
+                "end": 64.743673,
+                "duration_seconds": 0.06024229999999875,
+                "poll_index": 2139,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4278,
+                "phase": "pause",
+                "start": 64.7437346,
+                "end": 64.7481746,
+                "duration_seconds": 0.004440000000002442,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4279,
+                "phase": "poll",
+                "start": 64.7482043,
+                "end": 64.8084421,
+                "duration_seconds": 0.0602377999999959,
+                "poll_index": 2140,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4280,
+                "phase": "pause",
+                "start": 64.8084993,
+                "end": 64.8134489,
+                "duration_seconds": 0.004949600000003329,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4281,
+                "phase": "poll",
+                "start": 64.8134871,
+                "end": 64.8741219,
+                "duration_seconds": 0.06063480000000254,
+                "poll_index": 2141,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4282,
+                "phase": "pause",
+                "start": 64.8741619,
+                "end": 64.8786097,
+                "duration_seconds": 0.004447799999994118,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4283,
+                "phase": "poll",
+                "start": 64.878661,
+                "end": 64.9395415,
+                "duration_seconds": 0.06088050000001033,
+                "poll_index": 2142,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4285,
+              "phase": "poll",
+              "start": 64.9441171,
+              "end": 65.0055351,
+              "duration_seconds": 0.0614180000000033,
+              "poll_index": 2143,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.0614180000000033,
+            "pre": [
+              {
+                "event_index": 4269,
+                "phase": "poll",
+                "start": 64.4195262,
+                "end": 64.4804482,
+                "duration_seconds": 0.06092199999999082,
+                "poll_index": 2135,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4270,
+                "phase": "pause",
+                "start": 64.4805301,
+                "end": 64.4847251,
+                "duration_seconds": 0.004195000000009941,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4271,
+                "phase": "poll",
+                "start": 64.4848023,
+                "end": 64.5454788,
+                "duration_seconds": 0.06067649999999958,
+                "poll_index": 2136,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4272,
+                "phase": "pause",
+                "start": 64.5455359,
+                "end": 64.551349,
+                "duration_seconds": 0.005813099999997462,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4273,
+                "phase": "poll",
+                "start": 64.5513958,
+                "end": 64.6113821,
+                "duration_seconds": 0.0599863000000056,
+                "poll_index": 2137,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4274,
+                "phase": "pause",
+                "start": 64.6114219,
+                "end": 64.6170396,
+                "duration_seconds": 0.005617700000001946,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4275,
+                "phase": "poll",
+                "start": 64.6170836,
+                "end": 64.6784346,
+                "duration_seconds": 0.06135100000000193,
+                "poll_index": 2138,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4276,
+                "phase": "pause",
+                "start": 64.6785,
+                "end": 64.683396,
+                "duration_seconds": 0.004896000000002232,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4277,
+                "phase": "poll",
+                "start": 64.6834307,
+                "end": 64.743673,
+                "duration_seconds": 0.06024229999999875,
+                "poll_index": 2139,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4278,
+                "phase": "pause",
+                "start": 64.7437346,
+                "end": 64.7481746,
+                "duration_seconds": 0.004440000000002442,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4279,
+                "phase": "poll",
+                "start": 64.7482043,
+                "end": 64.8084421,
+                "duration_seconds": 0.0602377999999959,
+                "poll_index": 2140,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4280,
+                "phase": "pause",
+                "start": 64.8084993,
+                "end": 64.8134489,
+                "duration_seconds": 0.004949600000003329,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4281,
+                "phase": "poll",
+                "start": 64.8134871,
+                "end": 64.8741219,
+                "duration_seconds": 0.06063480000000254,
+                "poll_index": 2141,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4282,
+                "phase": "pause",
+                "start": 64.8741619,
+                "end": 64.8786097,
+                "duration_seconds": 0.004447799999994118,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4283,
+                "phase": "poll",
+                "start": 64.878661,
+                "end": 64.9395415,
+                "duration_seconds": 0.06088050000001033,
+                "poll_index": 2142,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4284,
+                "phase": "pause",
+                "start": 64.9396347,
+                "end": 64.9440847,
+                "duration_seconds": 0.004450000000005616,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4286,
+                "phase": "pause",
+                "start": 65.005628,
+                "end": 65.0110705,
+                "duration_seconds": 0.005442500000000905,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4287,
+                "phase": "poll",
+                "start": 65.0111443,
+                "end": 65.0722672,
+                "duration_seconds": 0.06112290000000087,
+                "poll_index": 2144,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4288,
+                "phase": "pause",
+                "start": 65.0723146,
+                "end": 65.0772285,
+                "duration_seconds": 0.004913900000005356,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4289,
+                "phase": "poll",
+                "start": 65.0772575,
+                "end": 65.1383253,
+                "duration_seconds": 0.06106780000000356,
+                "poll_index": 2145,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4290,
+                "phase": "pause",
+                "start": 65.1383867,
+                "end": 65.1430252,
+                "duration_seconds": 0.004638499999998658,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4291,
+                "phase": "poll",
+                "start": 65.1430555,
+                "end": 65.2040397,
+                "duration_seconds": 0.06098419999999294,
+                "poll_index": 2146,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4292,
+                "phase": "pause",
+                "start": 65.2041008,
+                "end": 65.2082427,
+                "duration_seconds": 0.00414189999999337,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4293,
+                "phase": "poll",
+                "start": 65.2083065,
+                "end": 65.2685073,
+                "duration_seconds": 0.06020079999998984,
+                "poll_index": 2147,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4379,
+              "phase": "poll",
+              "start": 68.0192802,
+              "end": 68.0807636,
+              "duration_seconds": 0.06148340000000019,
+              "poll_index": 2190,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06148340000000019,
+            "pre": [
+              {
+                "event_index": 4363,
+                "phase": "poll",
+                "start": 67.4993335,
+                "end": 67.5593586,
+                "duration_seconds": 0.06002509999999006,
+                "poll_index": 2182,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4364,
+                "phase": "pause",
+                "start": 67.5594196,
+                "end": 67.5636925,
+                "duration_seconds": 0.004272900000003688,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4365,
+                "phase": "poll",
+                "start": 67.5637343,
+                "end": 67.6241601,
+                "duration_seconds": 0.060425800000004415,
+                "poll_index": 2183,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4366,
+                "phase": "pause",
+                "start": 67.6242484,
+                "end": 67.6286514,
+                "duration_seconds": 0.004402999999996382,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4367,
+                "phase": "poll",
+                "start": 67.6286815,
+                "end": 67.6893837,
+                "duration_seconds": 0.06070219999999438,
+                "poll_index": 2184,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4368,
+                "phase": "pause",
+                "start": 67.6894654,
+                "end": 67.6943053,
+                "duration_seconds": 0.004839899999993236,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4369,
+                "phase": "poll",
+                "start": 67.6943356,
+                "end": 67.7552768,
+                "duration_seconds": 0.06094120000000203,
+                "poll_index": 2185,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4370,
+                "phase": "pause",
+                "start": 67.7553264,
+                "end": 67.7594105,
+                "duration_seconds": 0.004084100000000035,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4371,
+                "phase": "poll",
+                "start": 67.7594975,
+                "end": 67.8195083,
+                "duration_seconds": 0.060010800000000586,
+                "poll_index": 2186,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4372,
+                "phase": "pause",
+                "start": 67.8195906,
+                "end": 67.8237088,
+                "duration_seconds": 0.004118200000007732,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4373,
+                "phase": "poll",
+                "start": 67.8237396,
+                "end": 67.8845717,
+                "duration_seconds": 0.060832099999998945,
+                "poll_index": 2187,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4374,
+                "phase": "pause",
+                "start": 67.8846611,
+                "end": 67.8891015,
+                "duration_seconds": 0.004440399999992906,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4375,
+                "phase": "poll",
+                "start": 67.8891286,
+                "end": 67.9493239,
+                "duration_seconds": 0.060195299999989516,
+                "poll_index": 2188,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4376,
+                "phase": "pause",
+                "start": 67.9493674,
+                "end": 67.954133,
+                "duration_seconds": 0.004765599999998926,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4377,
+                "phase": "poll",
+                "start": 67.9541636,
+                "end": 68.0142076,
+                "duration_seconds": 0.06004400000000487,
+                "poll_index": 2189,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4378,
+                "phase": "pause",
+                "start": 68.0142678,
+                "end": 68.0192368,
+                "duration_seconds": 0.004969000000002666,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4380,
+                "phase": "pause",
+                "start": 68.0808129,
+                "end": 68.0857265,
+                "duration_seconds": 0.004913600000008955,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4381,
+                "phase": "poll",
+                "start": 68.0857852,
+                "end": 68.1467315,
+                "duration_seconds": 0.06094629999999768,
+                "poll_index": 2191,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4382,
+                "phase": "pause",
+                "start": 68.1467917,
+                "end": 68.152099,
+                "duration_seconds": 0.00530730000001256,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4383,
+                "phase": "poll",
+                "start": 68.1521376,
+                "end": 68.2123455,
+                "duration_seconds": 0.06020789999999465,
+                "poll_index": 2192,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4384,
+                "phase": "pause",
+                "start": 68.2124221,
+                "end": 68.2168774,
+                "duration_seconds": 0.004455300000003604,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4385,
+                "phase": "poll",
+                "start": 68.2169015,
+                "end": 68.2773624,
+                "duration_seconds": 0.06046089999999538,
+                "poll_index": 2193,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4386,
+                "phase": "pause",
+                "start": 68.2774216,
+                "end": 68.2822049,
+                "duration_seconds": 0.004783299999999713,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4387,
+                "phase": "poll",
+                "start": 68.282243,
+                "end": 68.3424744,
+                "duration_seconds": 0.060231400000006374,
+                "poll_index": 2194,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4495,
+              "phase": "poll",
+              "start": 71.808519,
+              "end": 71.869946,
+              "duration_seconds": 0.06142699999999479,
+              "poll_index": 2248,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06142699999999479,
+            "pre": [
+              {
+                "event_index": 4479,
+                "phase": "poll",
+                "start": 71.2861343,
+                "end": 71.3469315,
+                "duration_seconds": 0.06079719999999611,
+                "poll_index": 2240,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4480,
+                "phase": "pause",
+                "start": 71.3469921,
+                "end": 71.3514229,
+                "duration_seconds": 0.004430800000008617,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4481,
+                "phase": "poll",
+                "start": 71.351445,
+                "end": 71.4114113,
+                "duration_seconds": 0.05996629999999925,
+                "poll_index": 2241,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4482,
+                "phase": "pause",
+                "start": 71.4115008,
+                "end": 71.4169874,
+                "duration_seconds": 0.005486599999997566,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4483,
+                "phase": "poll",
+                "start": 71.4170279,
+                "end": 71.4779522,
+                "duration_seconds": 0.06092430000001059,
+                "poll_index": 2242,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4484,
+                "phase": "pause",
+                "start": 71.4780165,
+                "end": 71.4823902,
+                "duration_seconds": 0.004373700000002145,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4485,
+                "phase": "poll",
+                "start": 71.4824319,
+                "end": 71.543172,
+                "duration_seconds": 0.06074010000000385,
+                "poll_index": 2243,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4486,
+                "phase": "pause",
+                "start": 71.5432154,
+                "end": 71.5480633,
+                "duration_seconds": 0.004847900000001459,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4487,
+                "phase": "poll",
+                "start": 71.548113,
+                "end": 71.6082423,
+                "duration_seconds": 0.06012929999999983,
+                "poll_index": 2244,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4488,
+                "phase": "pause",
+                "start": 71.6083161,
+                "end": 71.6124531,
+                "duration_seconds": 0.004137000000000057,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4489,
+                "phase": "poll",
+                "start": 71.6124842,
+                "end": 71.6730476,
+                "duration_seconds": 0.060563400000006595,
+                "poll_index": 2245,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4490,
+                "phase": "pause",
+                "start": 71.6731479,
+                "end": 71.6779058,
+                "duration_seconds": 0.004757900000001314,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4491,
+                "phase": "poll",
+                "start": 71.6779457,
+                "end": 71.7382132,
+                "duration_seconds": 0.06026750000000902,
+                "poll_index": 2246,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4492,
+                "phase": "pause",
+                "start": 71.7382733,
+                "end": 71.7426156,
+                "duration_seconds": 0.004342299999990473,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4493,
+                "phase": "poll",
+                "start": 71.7426611,
+                "end": 71.8039799,
+                "duration_seconds": 0.06131879999999512,
+                "poll_index": 2247,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4494,
+                "phase": "pause",
+                "start": 71.8040234,
+                "end": 71.8084806,
+                "duration_seconds": 0.00445719999999028,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4496,
+                "phase": "pause",
+                "start": 71.8700366,
+                "end": 71.8744925,
+                "duration_seconds": 0.004455899999996404,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4497,
+                "phase": "poll",
+                "start": 71.8745288,
+                "end": 71.9346685,
+                "duration_seconds": 0.06013970000000768,
+                "poll_index": 2249,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4498,
+                "phase": "pause",
+                "start": 71.9350202,
+                "end": 71.9391749,
+                "duration_seconds": 0.004154700000000844,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4499,
+                "phase": "poll",
+                "start": 71.9392024,
+                "end": 71.999918,
+                "duration_seconds": 0.06071559999999465,
+                "poll_index": 2250,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4500,
+                "phase": "pause",
+                "start": 71.9999715,
+                "end": 72.00436,
+                "duration_seconds": 0.004388500000004569,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4501,
+                "phase": "poll",
+                "start": 72.0044078,
+                "end": 72.0649759,
+                "duration_seconds": 0.06056809999999757,
+                "poll_index": 2251,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4502,
+                "phase": "pause",
+                "start": 72.0650277,
+                "end": 72.0691324,
+                "duration_seconds": 0.004104699999999184,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4503,
+                "phase": "poll",
+                "start": 72.0691631,
+                "end": 72.1293659,
+                "duration_seconds": 0.060202799999999,
+                "poll_index": 2252,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          },
+          {
+            "anchor": {
+              "event_index": 4537,
+              "phase": "poll",
+              "start": 73.1796656,
+              "end": 73.2410226,
+              "duration_seconds": 0.06135699999998678,
+              "poll_index": 2269,
+              "outcome": "timeout"
+            },
+            "reasons": [
+              "poll_timeout",
+              "poll_at_least_40ms"
+            ],
+            "score_seconds": 0.06135699999998678,
+            "pre": [
+              {
+                "event_index": 4521,
+                "phase": "poll",
+                "start": 72.6564295,
+                "end": 72.7170034,
+                "duration_seconds": 0.060573899999994296,
+                "poll_index": 2261,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4522,
+                "phase": "pause",
+                "start": 72.7170476,
+                "end": 72.7218223,
+                "duration_seconds": 0.004774699999998688,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4523,
+                "phase": "poll",
+                "start": 72.721854,
+                "end": 72.7825337,
+                "duration_seconds": 0.06067970000000855,
+                "poll_index": 2262,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4524,
+                "phase": "pause",
+                "start": 72.7825733,
+                "end": 72.7870714,
+                "duration_seconds": 0.004498100000006389,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4525,
+                "phase": "poll",
+                "start": 72.7871226,
+                "end": 72.8476998,
+                "duration_seconds": 0.06057719999999733,
+                "poll_index": 2263,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4526,
+                "phase": "pause",
+                "start": 72.847757,
+                "end": 72.8525217,
+                "duration_seconds": 0.004764699999995514,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4527,
+                "phase": "poll",
+                "start": 72.8525622,
+                "end": 72.9128255,
+                "duration_seconds": 0.06026330000000257,
+                "poll_index": 2264,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4528,
+                "phase": "pause",
+                "start": 72.912919,
+                "end": 72.9184471,
+                "duration_seconds": 0.005528099999992264,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4529,
+                "phase": "poll",
+                "start": 72.9184764,
+                "end": 72.9796076,
+                "duration_seconds": 0.06113119999999128,
+                "poll_index": 2265,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4530,
+                "phase": "pause",
+                "start": 72.9796787,
+                "end": 72.9839224,
+                "duration_seconds": 0.004243700000003514,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4531,
+                "phase": "poll",
+                "start": 72.9839712,
+                "end": 73.0447733,
+                "duration_seconds": 0.060802100000003634,
+                "poll_index": 2266,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4532,
+                "phase": "pause",
+                "start": 73.0448351,
+                "end": 73.0492767,
+                "duration_seconds": 0.004441599999992718,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4533,
+                "phase": "poll",
+                "start": 73.0493028,
+                "end": 73.1102955,
+                "duration_seconds": 0.0609926999999999,
+                "poll_index": 2267,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4534,
+                "phase": "pause",
+                "start": 73.1103744,
+                "end": 73.1148833,
+                "duration_seconds": 0.004508900000004701,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4535,
+                "phase": "poll",
+                "start": 73.1149082,
+                "end": 73.1751736,
+                "duration_seconds": 0.06026539999999159,
+                "poll_index": 2268,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4536,
+                "phase": "pause",
+                "start": 73.1752434,
+                "end": 73.1796353,
+                "duration_seconds": 0.0043919000000016695,
+                "requested_seconds": 0.004
+              }
+            ],
+            "post": [
+              {
+                "event_index": 4538,
+                "phase": "pause",
+                "start": 73.2410651,
+                "end": 73.2460133,
+                "duration_seconds": 0.004948200000001179,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4539,
+                "phase": "poll",
+                "start": 73.2460413,
+                "end": 73.3064327,
+                "duration_seconds": 0.06039140000000032,
+                "poll_index": 2270,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4540,
+                "phase": "pause",
+                "start": 73.3065212,
+                "end": 73.3105912,
+                "duration_seconds": 0.004069999999998686,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4541,
+                "phase": "poll",
+                "start": 73.3106139,
+                "end": 73.3712061,
+                "duration_seconds": 0.060592199999987884,
+                "poll_index": 2271,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4542,
+                "phase": "pause",
+                "start": 73.3712802,
+                "end": 73.3756589,
+                "duration_seconds": 0.004378700000003732,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4543,
+                "phase": "poll",
+                "start": 73.3756786,
+                "end": 73.4358086,
+                "duration_seconds": 0.060130000000000905,
+                "poll_index": 2272,
+                "outcome": "timeout"
+              },
+              {
+                "event_index": 4544,
+                "phase": "pause",
+                "start": 73.4358471,
+                "end": 73.4408071,
+                "duration_seconds": 0.004959999999996967,
+                "requested_seconds": 0.004
+              },
+              {
+                "event_index": 4545,
+                "phase": "poll",
+                "start": 73.4408264,
+                "end": 73.5013709,
+                "duration_seconds": 0.060544499999991785,
+                "poll_index": 2273,
+                "outcome": "timeout"
+              }
+            ],
+            "pre_capacity": 16,
+            "post_capacity": 8,
+            "pre_complete": true,
+            "post_complete": true
+          }
+        ],
+        "protected_gap_event_index": 23,
+        "maximum_receive_gap": {
+          "row": {
+            "event_index": 23,
+            "phase": "poll",
+            "start": 43.5181606,
+            "end": 43.5526529,
+            "duration_seconds": 0.03449229999999659,
+            "poll_index": 12,
+            "outcome": "frame",
+            "received_at": 43.5526316,
+            "source_us": 13875492,
+            "flags": 3,
+            "event_count": 0,
+            "receive_gap_seconds": 0.039575999999996725,
+            "transport_receive_decode_seconds": 0.03400339999999602,
+            "poll_start_to_transport_timer_seconds": 0.0004676000000003455,
+            "received_to_poll_end_seconds": 2.1300000000223918e-05
+          },
+          "previous_frame": {
+            "event_index": 21,
+            "phase": "poll",
+            "start": 43.5091329,
+            "end": 43.513073,
+            "duration_seconds": 0.003940100000001223,
+            "poll_index": 11,
+            "outcome": "frame",
+            "received_at": 43.5130556,
+            "source_us": 13835599,
+            "flags": 3,
+            "event_count": 0,
+            "receive_gap_seconds": 0.008831999999998175,
+            "transport_receive_decode_seconds": 0.0037227999999984718,
+            "poll_start_to_transport_timer_seconds": 0.0001999000000054707,
+            "received_to_poll_end_seconds": 1.7399999997280702e-05
+          }
+        },
+        "maximum_poll": {
+          "event_index": 4261,
+          "phase": "poll",
+          "start": 64.1585127,
+          "end": 64.2200623,
+          "duration_seconds": 0.06154959999999221,
+          "poll_index": 2131,
+          "outcome": "timeout"
+        },
+        "maximum_actual_pause": {
+          "event_index": 2640,
+          "phase": "pause",
+          "start": 52.2596014,
+          "end": 52.2665554,
+          "duration_seconds": 0.006954000000000349,
+          "requested_seconds": 0.004
+        },
+        "maximum_finish_observer_seconds": 0.00033709999999587126,
+        "maximum_begin_observer_seconds": 0.0003449000000017577,
+        "trigger_count": 266,
+        "contexts_not_selected": 228,
+        "contexts_replaced": 30,
+        "packet_bytes_recorded": false,
+        "session_or_peer_recorded": false,
+        "snapshot_copy_seconds": 0.002475100000012276
+      }
+    },
+    "input_path": {
+      "reads": 2282,
+      "successful_input_sends": 2282,
+      "matching_request_replies": 2020,
+      "categories": {
+        "L": {
+          "reads": 0,
+          "sends": 0,
+          "replies": 0
+        },
+        "R": {
+          "reads": 0,
+          "sends": 0,
+          "replies": 0
+        },
+        "LR": {
+          "reads": 0,
+          "sends": 0,
+          "replies": 0
+        },
+        "A": {
+          "reads": 148,
+          "sends": 148,
+          "replies": 139
+        },
+        "neutral": {
+          "reads": 2130,
+          "sends": 2130,
+          "replies": 1881
+        },
+        "other": {
+          "reads": 4,
+          "sends": 4,
+          "replies": 0
+        }
+      },
+      "changes": [
+        {
+          "read_index": 1,
+          "at": 43.4439456,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 848,
+          "at": 49.1343388,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 871,
+          "at": 49.2766722,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 958,
+          "at": 49.8425881,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 972,
+          "at": 49.9362212,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 986,
+          "at": 50.0276259,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1002,
+          "at": 50.130387,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1013,
+          "at": 50.2092653,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1027,
+          "at": 50.3029027,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1034,
+          "at": 50.3632055,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1046,
+          "at": 50.4399101,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1692,
+          "at": 54.6948907,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1713,
+          "at": 54.8348661,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1717,
+          "at": 54.8628224,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1734,
+          "at": 54.9798415,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1743,
+          "at": 55.0359954,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1753,
+          "at": 55.1036876,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 1763,
+          "at": 55.1718451,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 1775,
+          "at": 55.249286,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 2143,
+          "at": 64.9442257,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 2145,
+          "at": 65.077404,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 2147,
+          "at": 65.2084256,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 2149,
+          "at": 65.3386599,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 2157,
+          "at": 65.8640839,
+          "input_hex": "090000000880000880"
+        },
+        {
+          "read_index": 2161,
+          "at": 66.1257202,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 2163,
+          "at": 66.2556574,
+          "input_hex": "000000000880000880"
+        },
+        {
+          "read_index": 2164,
+          "at": 66.322189,
+          "input_hex": "080000000880000880"
+        },
+        {
+          "read_index": 2167,
+          "at": 66.5192019,
+          "input_hex": "000000000880000880"
+        }
+      ],
+      "omitted_changes": 0,
+      "change_limit": 128,
+      "call_limit": 32768,
+      "ordered_sent_input_sha256": "47dcc5e8f77841690f44a22fb5ca5e709c202298f8a142e8407a403487e700c0",
+      "fault_latched": false,
+      "scope": "Sendto success and matching request reply do not prove Pico applied input or Switch accepted USB report.",
+      "packet_payload_recorded": false,
+      "peer_or_session_recorded": false
+    },
+    "events": [
+      {
+        "sequence": 0,
+        "at_us": 1104436,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 1,
+        "at_us": 1144476,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 2,
+        "at_us": 1152465,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 3,
+        "at_us": 1176470,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 4,
+        "at_us": 1200477,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 5,
+        "at_us": 1224475,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 6,
+        "at_us": 1248475,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 7,
+        "at_us": 1272472,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 8,
+        "at_us": 1296476,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 9,
+        "at_us": 1320483,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 10,
+        "at_us": 1344480,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 11,
+        "at_us": 1368481,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 12,
+        "at_us": 1392481,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 13,
+        "at_us": 1416485,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 14,
+        "at_us": 1448483,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 15,
+        "at_us": 1472484,
+        "motors": "0000000000000000",
+        "flags": 3
+      },
+      {
+        "sequence": 16,
+        "at_us": 16793192,
+        "motors": "0001404000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 17,
+        "at_us": 16809226,
+        "motors": "0001404000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 18,
+        "at_us": 16817193,
+        "motors": "801860b200000000",
+        "flags": 7
+      },
+      {
+        "sequence": 19,
+        "at_us": 16825221,
+        "motors": "0000000000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 20,
+        "at_us": 16841224,
+        "motors": "0000000000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 21,
+        "at_us": 16873162,
+        "motors": "0001404000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 22,
+        "at_us": 16905164,
+        "motors": "00000000c318606d",
+        "flags": 7
+      },
+      {
+        "sequence": 23,
+        "at_us": 16993169,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 24,
+        "at_us": 17009165,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 25,
+        "at_us": 17113170,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 26,
+        "at_us": 17129175,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 27,
+        "at_us": 17233180,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 28,
+        "at_us": 17249181,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 29,
+        "at_us": 17353185,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 30,
+        "at_us": 17369186,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 31,
+        "at_us": 17473188,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 32,
+        "at_us": 17489194,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 33,
+        "at_us": 17593196,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 34,
+        "at_us": 17609198,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 35,
+        "at_us": 17713202,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 36,
+        "at_us": 17729198,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 37,
+        "at_us": 17833207,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 38,
+        "at_us": 17849207,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 39,
+        "at_us": 17953215,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 40,
+        "at_us": 17969214,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 41,
+        "at_us": 18073221,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 42,
+        "at_us": 18089229,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 43,
+        "at_us": 18193230,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 44,
+        "at_us": 18209227,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 45,
+        "at_us": 18313233,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 46,
+        "at_us": 18329231,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 47,
+        "at_us": 18433238,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 48,
+        "at_us": 18449232,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 49,
+        "at_us": 18553243,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 50,
+        "at_us": 18569237,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 51,
+        "at_us": 18673244,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 52,
+        "at_us": 18689243,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 53,
+        "at_us": 18793253,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 54,
+        "at_us": 18809256,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 55,
+        "at_us": 18913258,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 56,
+        "at_us": 18929260,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 57,
+        "at_us": 19033271,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 58,
+        "at_us": 19049269,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 59,
+        "at_us": 19153274,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 60,
+        "at_us": 19169269,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 61,
+        "at_us": 19273280,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 62,
+        "at_us": 19289276,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 63,
+        "at_us": 19393283,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 64,
+        "at_us": 19409282,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 65,
+        "at_us": 19513284,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 66,
+        "at_us": 19529288,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 67,
+        "at_us": 19633292,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 68,
+        "at_us": 19649295,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 69,
+        "at_us": 19753303,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 70,
+        "at_us": 19769299,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 71,
+        "at_us": 19873304,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 72,
+        "at_us": 19889309,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 73,
+        "at_us": 19993309,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 74,
+        "at_us": 20009312,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 75,
+        "at_us": 20113313,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 76,
+        "at_us": 20129315,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 77,
+        "at_us": 20233322,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 78,
+        "at_us": 20249326,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 79,
+        "at_us": 20353326,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 80,
+        "at_us": 20369328,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 81,
+        "at_us": 20473336,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 82,
+        "at_us": 20489336,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 83,
+        "at_us": 20593339,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 84,
+        "at_us": 20609339,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 85,
+        "at_us": 20713345,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 86,
+        "at_us": 20729344,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 87,
+        "at_us": 20833353,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 88,
+        "at_us": 20849349,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 89,
+        "at_us": 20953358,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 90,
+        "at_us": 20969353,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 91,
+        "at_us": 21073362,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 92,
+        "at_us": 21089353,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 93,
+        "at_us": 21193367,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 94,
+        "at_us": 21209361,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 95,
+        "at_us": 21313374,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 96,
+        "at_us": 21329375,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 97,
+        "at_us": 21433378,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 98,
+        "at_us": 21449375,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 99,
+        "at_us": 21553390,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 100,
+        "at_us": 21569389,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 101,
+        "at_us": 21673393,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 102,
+        "at_us": 21689394,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 103,
+        "at_us": 21793394,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 104,
+        "at_us": 21809390,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 105,
+        "at_us": 21913403,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 106,
+        "at_us": 21929397,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 107,
+        "at_us": 22033413,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 108,
+        "at_us": 22049441,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 109,
+        "at_us": 22153406,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 110,
+        "at_us": 22169416,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 111,
+        "at_us": 22273417,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 112,
+        "at_us": 22289417,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 113,
+        "at_us": 22393425,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 114,
+        "at_us": 22409426,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 115,
+        "at_us": 22513433,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 116,
+        "at_us": 22529428,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 117,
+        "at_us": 22633434,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 118,
+        "at_us": 22649435,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 119,
+        "at_us": 22753444,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 120,
+        "at_us": 22769436,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 121,
+        "at_us": 22873448,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 122,
+        "at_us": 22889444,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 123,
+        "at_us": 22993455,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 124,
+        "at_us": 23009452,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 125,
+        "at_us": 23113457,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 126,
+        "at_us": 23129455,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 127,
+        "at_us": 23233465,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 128,
+        "at_us": 23249461,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 129,
+        "at_us": 23353467,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 130,
+        "at_us": 23369469,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 131,
+        "at_us": 23473474,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 132,
+        "at_us": 23489479,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 133,
+        "at_us": 23593485,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 134,
+        "at_us": 23609484,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 135,
+        "at_us": 23713488,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 136,
+        "at_us": 23729518,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 137,
+        "at_us": 23833486,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 138,
+        "at_us": 23849491,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 139,
+        "at_us": 23953499,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 140,
+        "at_us": 23969487,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 141,
+        "at_us": 24073502,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 142,
+        "at_us": 24089506,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 143,
+        "at_us": 24193507,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 144,
+        "at_us": 24209515,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 145,
+        "at_us": 24313519,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 146,
+        "at_us": 24329518,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 147,
+        "at_us": 24433517,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 148,
+        "at_us": 24449573,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 149,
+        "at_us": 24553533,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 150,
+        "at_us": 24569524,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 151,
+        "at_us": 24673531,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 152,
+        "at_us": 24689532,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 153,
+        "at_us": 24793539,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 154,
+        "at_us": 24809540,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 155,
+        "at_us": 24913538,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 156,
+        "at_us": 24929546,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 157,
+        "at_us": 25033555,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 158,
+        "at_us": 25049551,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 159,
+        "at_us": 25153554,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 160,
+        "at_us": 25169563,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 161,
+        "at_us": 25273562,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 162,
+        "at_us": 25289559,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 163,
+        "at_us": 25393566,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 164,
+        "at_us": 25409571,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 165,
+        "at_us": 25513571,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 166,
+        "at_us": 25529576,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 167,
+        "at_us": 25633617,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 168,
+        "at_us": 25649575,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 169,
+        "at_us": 25753576,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 170,
+        "at_us": 25769580,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 171,
+        "at_us": 25873591,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 172,
+        "at_us": 25889770,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 173,
+        "at_us": 25993594,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 174,
+        "at_us": 26009596,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 175,
+        "at_us": 26113601,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 176,
+        "at_us": 26129605,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 177,
+        "at_us": 26233607,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 178,
+        "at_us": 26249602,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 179,
+        "at_us": 26353611,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 180,
+        "at_us": 26369616,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 181,
+        "at_us": 26473615,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 182,
+        "at_us": 26489618,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 183,
+        "at_us": 26593623,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 184,
+        "at_us": 26609626,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 185,
+        "at_us": 26713621,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 186,
+        "at_us": 26729629,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 187,
+        "at_us": 26833633,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 188,
+        "at_us": 26849632,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 189,
+        "at_us": 26953641,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 190,
+        "at_us": 26969641,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 191,
+        "at_us": 27073800,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 192,
+        "at_us": 27089646,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 193,
+        "at_us": 27113713,
+        "motors": "0000000000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 194,
+        "at_us": 27169686,
+        "motors": "0001404000000000",
+        "flags": 7
+      },
+      {
+        "sequence": 195,
+        "at_us": 27177651,
+        "motors": "0000000000014040",
+        "flags": 7
+      },
+      {
+        "sequence": 196,
+        "at_us": 27289697,
+        "motors": "0001404000000000",
+        "flags": 7
+      }
+    ],
+    "heartbeat_gap_observations": [
+      {
+        "observed_at": 57.0490608,
+        "last_received": 56.968787
+      }
+    ],
+    "terminal_observed": false,
+    "upstream_seen": true,
+    "timer_released": true,
+    "finalization_errors": []
+  },
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true,
+  "finalization_errors": []
+}

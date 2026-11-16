@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_COMPLETED_CAPACITY_RUN",
+  "files": [
+    {
+      "path": "tools/ram_capacity_path.py",
+      "sha256": "437372590a27be7616b1d5d07b2a9193f243a989beee3bcedefc098d7720d74f"
+    },
+    {
+      "path": "tools/run_pktmon_ram_capacity.ps1",
+      "sha256": "70f802c9f6d40170ed6d01e817223f704524892d32606b45d8e8f80c0089f9e8"
+    },
+    {
+      "path": "tools/analyse_ram_capacity.py",
+      "sha256": "672339bd9b44a56d7ae7d269403c5f8e5a581e484d4713c82f0800c6b943bc0d"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_PLAN_2026-10-26.json",
+      "sha256": "ef997fd0a3ce94769c47b10fdd1be1dc4f36c0ccb7966d81af373390beadf039"
+    },
+    {
+      "path": "tools/ram_retention_loop.py",
+      "sha256": "af2ae68a982adba4ce03d6c3bd7e0be945222c4603c09355b26437f70286457a"
+    },
+    {
+      "path": "tools/component_receive_analysis_v3.py",
+      "sha256": "abbaa83f40f9fe5cca38061b0025419eebd173ba4875c1d29a6195d0d4cf4a5e"
+    },
+    {
+      "path": "tools/analyse_short_ram_path.py",
+      "sha256": "e5fddd14d8cb7128aa0de61a5b834df7ccec070028bdda09097a970247e5e7f9"
+    },
+    {
+      "path": "tools/forensic_wifi_decode.py",
+      "sha256": "4137a9fb354813deec03ef15ae15d2b1bbeca42e0b4a8b81cf665a975bdb3d43"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_FREEZE_2026-10-26.json",
+      "sha256": "78986fe4c4987466b07757ffd66662d661b4d7ab6d6dbc82e6be240b8cf841ce"
+    },
+    {
+      "path": "docs/RAM_RETENTION_ASSESSMENT_20261026-215717.json",
+      "sha256": "7ec49b2c563db91cd4ec394672caec24bc5fbeca300ebdd5d53a2e5a5fbc01e8"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_RUN_2026-10-26.md",
+      "sha256": "f17126882c29f0488238dc9cbfd18f8aec1bcec197225b191cab16702a32c450"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_PATH_20261026-221119.json",
+      "sha256": "7289fb1545bf2730f00f8c4cfec771be63301a45cf8c42179370f8b8957a1fe1"
+    },
+    {
+      "path": "docs/PKTMON_RAM_CAPACITY_20261026-221119.json",
+      "sha256": "58879101aea5a8b7aa43c2e06156e5f4fd91a267f718fc5053ee2c7385a96bd2"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_PATH_ANALYSIS_20261026-221119.json",
+      "sha256": "9daf2f18d9e9add00d757a2d62f3d2126e6b432cc4381a24064eeabeb5d58028"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_GAP_CONTEXT_20261026-221119.json",
+      "sha256": "3f9dab1aad9d080aad4b7adda7d6c2c9f95472916342c3aa7619eeaceb309c40"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_ASSESSMENT_20261026-221119.json",
+      "sha256": "412244a0f919e3240f3d120a7b3da532a5dc74bc80bfeb834711494502943432"
+    }
+  ],
+  "private_archive_sha256": "684d2fe71c9cafe281828b8f7e462dc19a0c6f188a67760a3230442ba8e83dac",
+  "archive_contents_verified": true
+}

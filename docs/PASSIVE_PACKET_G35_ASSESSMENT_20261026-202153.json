@@ -1,0 +1,69 @@
+{
+  "status": "PASSED_SAME_TRIAL_DATA_INTEGRITY_RX_CAPTURE_ABSENT",
+  "checks": {
+    "parent_completed": true,
+    "child_completed": true,
+    "pretest_generation35": true,
+    "full_readback": true,
+    "new_generation36": true,
+    "complete_crc": true,
+    "firmware_unchanged": true,
+    "fields_identical": true,
+    "sequence_continuous": true,
+    "full_duration": true,
+    "terminal_confirmed": true,
+    "capture_stopped": true,
+    "own_filter_removed": true,
+    "cleanup_clean": true,
+    "conversion_finished": true,
+    "two_components": true,
+    "observer_clean": true,
+    "trace_bound": true,
+    "recovery_190s": true,
+    "zero_motor_commands": true,
+    "zero_persistent_commands": true,
+    "configuration_unchanged": true,
+    "human_bootsel": true,
+    "human_icon": true,
+    "human_silent": true
+  },
+  "generation": 36,
+  "full_flash_sha256": "119ce1cbdcafb1dcc5986dcab4216b4c1fc350adaf1e459605322ac773e4f192",
+  "fields": 1969,
+  "live_seconds": 120.01253709999999,
+  "application_receive_rows": 9517,
+  "capture_component_ids": [
+    20,
+    124
+  ],
+  "capture_payload_component_copy_counts": {
+    "BHP2": 204,
+    "BHI2": 13071,
+    "BHE2": 3
+  },
+  "captured_replies": 0,
+  "complete_component_coverage": false,
+  "root_cause_proven": false,
+  "adopt_into_game_output": false,
+  "maximum_socket_return_gap_seconds": 0.12475019999999404,
+  "maximum_accepted_frame_gap_seconds": 0.26305819999998903,
+  "receive_wait_policy": {
+    "budget_seconds": 0.012,
+    "deadline_expirations": 168,
+    "late_matching_replies": 10,
+    "stale_replies": 144
+  },
+  "maximum_observer_seconds": 0.002054299999997511,
+  "controller_configuration_writes": 0,
+  "firmware_write": false,
+  "source_sha256": {
+    "tools/passive_packet_policy_g35.py": "454db9eecc2bb86ff6a50ce7c92006f43856f963394b4afcfb3ea3883ff7ac35",
+    "tools/run_passive_packet_g35.py": "caf640d1652236a302d1180be45dd5f840bd009be9c68280c9a587bb4c86e39c",
+    "tools/run_pktmon_passive_g35.ps1": "932967c7d55646792f2411e939c8b3bd3d823069890638c8957a805e7f8dfa30",
+    "tools/analyse_passive_packet_g35.py": "f32e0973d7278a47016e5b01147dce6d5467fa9fc3274cd604bb9fe32d561a2e",
+    "tools/analyse_passive_packet_g35_recovered.py": "10d005d7c386a789773f48873a132158e5b093ba673697a0f94f4c1ca768a9bd",
+    "tools/component_receive_analysis_v2.py": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33",
+    "tools/pktmon_capture_common_v4.ps1": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825",
+    "tools/usb_recovery_clock.py": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+  }
+}

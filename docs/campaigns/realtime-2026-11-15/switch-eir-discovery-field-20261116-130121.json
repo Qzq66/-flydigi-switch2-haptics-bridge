@@ -1,0 +1,29 @@
+{
+  "status": "CAPTURED_FLASH_VERIFIED",
+  "flash_written": false,
+  "flash_unchanged": true,
+  "output_reports": 0,
+  "version": 2,
+  "scope": "single EIR inquiry, no connection",
+  "private_folder": "switch-discovery-20261116-130121",
+  "capture_sha256": "b68b8ade43745940e00e4d56886875d91977b0454108ea70ff5cd9e612dedaec",
+  "flash_before_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "flash_after_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "observations": [
+    {
+      "peer_id": "peer_01",
+      "class_of_device": "2e410c",
+      "name_present": false,
+      "switch_name_hint": false,
+      "peripheral_class_hint": false
+    }
+  ],
+  "distinct_switch_candidates": 0,
+  "done": [
+    "discovery_complete_no_connection"
+  ],
+  "pairing_attempted": false,
+  "connection_attempted": false,
+  "input_verified": false,
+  "haptics_verified": false
+}

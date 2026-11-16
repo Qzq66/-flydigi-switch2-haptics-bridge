@@ -1,0 +1,163 @@
+{
+  "status": "FROZEN_PASSIVE_TRANSPORT_SOURCE_AND_EVIDENCE",
+  "archive_name": "passive-transport-source-evidence-20261025-160907.zip",
+  "archive_sha256": "2861151b13b790ffb848396e1d2c3a63ce92713a752d85fde42854a7f622472f",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "files": [
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_2026-10-25_G22_DIAGNOSTIC.json",
+      "sha256": "bd6ad7949dd1c5a62597ffa271f7e5ad25731598137769441a6aee991666077e"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_2026-10-25.md",
+      "sha256": "4b0a313318f504fd29ae515b820970f4763b5a1942812f6540340a963af4d45a"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_ASSESSMENT_20261025-160907.json",
+      "sha256": "83d0a60abdb09dcd1951b968c02f0d5e25a8d7da92248d5d50008ba806b39c4d"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_OFFLINE_2026-10-25.json",
+      "sha256": "75b851f32cebc62265ce40412b30597a157b0caf4f43e490ac3d50fa33b8cb4b"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_PLAN_2026-10-25.json",
+      "sha256": "788cadc3a58ee9f4d5231400514c0f2f4d01353058ac167f0fab634033d10551"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-160907.json",
+      "sha256": "6437ab3d9572dd5f7430665d39a1d39e1c4264f1ac58429d0ca3976c9f172223"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-151527.json",
+      "sha256": "99008cd1226482d60c480aec689a93cc21e660d475d8c50de8edd382d1af1781"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-161532.json",
+      "sha256": "a19a8edd8d393efd4ee0dc9ed156611e21f06957904e39f8466cfcead2a1e1a4"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-161622.json",
+      "sha256": "388db71ff5ee57dae553268bdd7d837f0c48a82f6da9e4ef26ef9d0f4badc01e"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge-switch-live.py",
+      "sha256": "ec8a597f4940733b6c3074a753aceab54883360d6d6746f5c34f5dce0fea3551"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_input.py",
+      "sha256": "9411e651310d5c1fd859567e9a9a32a1388745b1c295e4fdceecbe91c57d6043"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_network.py",
+      "sha256": "90e4546cd1dc10302ac2d959f29cfc71f0f2c59966314da195e9fa366a2aa314"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_process.py",
+      "sha256": "31342548ecf8c936189450ec44d3c984cb95026812c990feb02707bdc478ece6"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_protocol.py",
+      "sha256": "205a0ce765f8f40aee0264917c05b6ff8ef1048a80e0af36e344e740a9011176"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_render.py",
+      "sha256": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_runtime.py",
+      "sha256": "add50ac6bab31a8da548a9c3c99b04bc1b6e7d73059c92d8cf3921878e297822"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_session_policy.py",
+      "sha256": "a139db3238eff01876d4144bc051b2f8d2bebcb39bd107f1e40f7ea0fbacfa9c"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_transport.py",
+      "sha256": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_windows.py",
+      "sha256": "cdb045456d4dde9e9ff9d24279003b82c979b2aed1b4cd0ea6a65f9b71dfb924"
+    },
+    {
+      "path": "handoff/2026-10-22/work/switch_hd_decode.py",
+      "sha256": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+    },
+    {
+      "path": "tools/assess_fidelity_game.py",
+      "sha256": "c0a8c54859cae701688bddb91b80551fe2251fa94892226750fed3f0f78a89d6"
+    },
+    {
+      "path": "tools/assess_v043_host.py",
+      "sha256": "285ddf2bf722bfa3258c47f3a73d2ab915b771872d9ad2e54544e237f08baff3"
+    },
+    {
+      "path": "tools/collect_v043_host.py",
+      "sha256": "a34ac75b4a2040ff6ae9477a2b8125f0e65d0ebc66833a82e11b805b242f9c2e"
+    },
+    {
+      "path": "tools/fidelity_game_policy.py",
+      "sha256": "e0ddf5e1ed7b27b6f36dc9a6de78f38bcfb222e9a1fe2aff8cd6df7e0d9a6dff"
+    },
+    {
+      "path": "tools/fidelity_game_window.py",
+      "sha256": "ef90c0c4cfe224007565acbfaa4179b31d9937c17466efc2396c7301eb879518"
+    },
+    {
+      "path": "tools/fidelity_network_session.py",
+      "sha256": "1e6dad93983e77163fbd8859831cda01a90b5101440b5e3767ba1015838c6a02"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/haptic_fidelity_candidate.py",
+      "sha256": "6e0e5531a04fbe51b219d23cfacbbce91883e47b312f749722ba3d76c0287102"
+    },
+    {
+      "path": "tools/listener_readiness.py",
+      "sha256": "50bd755235f7d6379127370370f2734a4032e49f843f01864f8bcb06f6525cb2"
+    },
+    {
+      "path": "tools/live_fidelity_candidate.py",
+      "sha256": "7629b1c5d16c859699192c9eafb9fe36f301dfd0d2052549d817e177728714c5"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/run_fidelity_game.py",
+      "sha256": "72d27fe0cde1a6b11a68e9afbff6cc8ea96ecb3f380a95eeb949f2b2e8b7fba2"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/test_passive_transport.py",
+      "sha256": "098420ed77755b62cc8cffa79f959c503417202bec26454995ec3859b02bde49"
+    },
+    {
+      "path": "tools/v043_game_gate.py",
+      "sha256": "2d9ad3a3406af0401f36c5062de2199932a6c713fd40343d221daf13b151d948"
+    },
+    {
+      "path": "tools/v043_installation.py",
+      "sha256": "e878938ad8e00d714a1e559cf7a7441a935bb0aafc6ada487d8f0f2c06354f9d"
+    },
+    {
+      "path": "tools/verify_passive_transport_offline.py",
+      "sha256": "ef80e3fecde36b2a2e9f59817ec19c15c7bb55456e9fde3f2e954de5f0de0df8"
+    }
+  ],
+  "includes_full_flash_or_credentials": false,
+  "scope": "Local source/evidence only. Full board recovery materials remain in private installation records; no GitHub upload."
+}

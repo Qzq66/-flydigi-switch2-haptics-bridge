@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "docs/CALL_BREAKDOWN_RUN_20261028-225636.json",
+      "sha256": "9c5f84bb040b38fc208e14a511c2f607e173cf29c9c402c6527ac8aa9c86f7d5"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261028-230206.json",
+      "sha256": "10628c8224fbef109e28cab678cf379f708ba89b8d98ecd4e01c0800f6797d1c"
+    },
+    {
+      "path": "docs/CALL_BREAKDOWN12_G54_ASSESSMENT_2026-10-28.json",
+      "sha256": "ed31b44e3e732a1c3568e76b95a01dd8b038b189d27aaaa7143a0b356391ec03"
+    },
+    {
+      "path": "tools/receive_budget12_transport.py",
+      "sha256": "b191f7ff3dd27dd3658a32863508bf9b65c079ce2a4a24dd194c15a876e1e75d"
+    },
+    {
+      "path": "tools/run_call_breakdown12_g54.py",
+      "sha256": "85c6571902c40e925443d3beab3f7d39f38f480a51f0e785f671a690df006523"
+    },
+    {
+      "path": "tools/call_breakdown12_policy_g54.py",
+      "sha256": "8fdeede35d9482876ea15154ebba0bdd89cc89985f3cd3b99f2c647479731b5d"
+    }
+  ]
+}

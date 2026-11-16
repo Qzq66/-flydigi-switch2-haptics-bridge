@@ -1,0 +1,111 @@
+{
+  "status": "PASSED_SINGLE_ARCHIVED_FIELDS_SOFTWARE_REPLAY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "physical_output": false,
+  "product_behavior_changed": false,
+  "protection_parameters_changed": false,
+  "source": {
+    "source_sha256": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05",
+    "excerpt_indices": [
+      465,
+      486
+    ],
+    "end_index_exclusive": true,
+    "motor_bytes_and_intra_excerpt_intervals_preserved": true,
+    "decoder_state_matches_full_archive": true,
+    "repeat_decoder_state_verified": true,
+    "repetitions": 6,
+    "repetitions_and_time_shifts_synthetic": true,
+    "packet_envelopes_sequences_and_grouping_synthetic": true,
+    "initial_neutral_field_synthetic": true
+  },
+  "observed_raw_fields_and_relative_intervals_verified": true,
+  "frames": 7500,
+  "events": 6,
+  "active_ms": [
+    1698,
+    1698
+  ],
+  "active_ms_per_event": [
+    [
+      283,
+      283
+    ],
+    [
+      283,
+      283
+    ],
+    [
+      283,
+      283
+    ],
+    [
+      283,
+      283
+    ],
+    [
+      283,
+      283
+    ],
+    [
+      283,
+      283
+    ]
+  ],
+  "dose": [
+    32753,
+    32753
+  ],
+  "peak": 9,
+  "maximum_dispatch_lateness_ms": 3.4617000006047505,
+  "reference_checks": {
+    "full_window": true,
+    "events_distributed": true,
+    "completed_six": true,
+    "stopped": true,
+    "no_fault": true,
+    "successful_frames": true,
+    "left_pcm": true,
+    "right_pcm": true,
+    "reports": true,
+    "dose": true,
+    "peak": true,
+    "whole_activity": true,
+    "whole_dose": true,
+    "per_event": true,
+    "event_totals": true
+  },
+  "cleanup": {
+    "worker_joined": true,
+    "publisher_closed": true,
+    "highres_handle_closed": true,
+    "timer_end": 0
+  },
+  "cpu_seconds": 15.140625,
+  "wall_seconds": 60.7361539,
+  "regression": {
+    "tests": 352,
+    "seconds": 14.305614499999999,
+    "status": "PASSED_L0_OFFLINE_SUBSET"
+  },
+  "implementation_issue": {
+    "classification": "procedural",
+    "detail": "Initial standalone test import lacked the existing decoder work-directory path; corrected before host replay. No timer or hardware was accessed by that failed import."
+  },
+  "limitations": [
+    "A repeated excerpt, not a captured six-action session",
+    "Original packet grouping, arrival jitter, HID writes and XInput work are absent",
+    "Oscillator phase continues between repeats; equal source excerpts need not have identical PCM dose",
+    "No statistical stability or hardware acceptance inferred; earlier faults remain valid"
+  ],
+  "sha256": {
+    "tools/archived_software_source.py": "ff4fa5cb2061b917d2cd1391f59c238d4be287b0e9e78e76c31621da73cc8532",
+    "tools/test_archived_software_source.py": "11d3ff0bd7c51689d29c4411cd29abd6847c2551c36d5acd468af2f5b1032c69",
+    "tools/software_loop_replay.py": "1dead1e6d50e11f37ee167f6909d5b91f198b89627edaa289c80757ca31a4fe0",
+    "tools/verify_campaign.py": "720c7cef295402d5b822e230645e6f44d0aa6537e0c4805dc1b78d69b3f55a05",
+    "docs/FIDELITY_GAME_RUN_20261115-165425.json": "b3f14bda90eeaf1b75c9fe5c36ae20105214c2186c610745007793e239d4de05",
+    "docs/campaigns/realtime-2026-11-15/software-loop-archived.json": "dabcb17a767c8eac6e32a4f5263a14b4b69e1d0b96cac8ecf2c3f477ea02aa5d",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-210910.json": "11c998318c80a6e5246eeb2e6d553571b39b0cd959d508d7daadbe19cb112322"
+  }
+}

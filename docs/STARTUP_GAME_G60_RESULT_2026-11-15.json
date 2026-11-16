@@ -1,0 +1,35 @@
+{
+  "status": "THREE_EVENT_FUNCTIONAL_EVIDENCE_WITH_INCOMPLETE_STRICT_ACCEPTANCE",
+  "trial": "20261115-151859",
+  "generation": 61,
+  "source_fields": 1049,
+  "source_fields_match": true,
+  "pcm_and_reports_match": true,
+  "output_frames": 1345,
+  "activity_ms_per_side": [
+    856,
+    856
+  ],
+  "peak_code": 9,
+  "completed_events": 3,
+  "maximum_response_gap_ms": 67.10759999999993,
+  "output_fault": null,
+  "stop_ack": true,
+  "initial_config_check_passed": false,
+  "later_config_checks_passed": true,
+  "later_checks_do_not_override_initial_failure": true,
+  "final_input_neutral": false,
+  "human_three_events_stopped_and_input_retained": true,
+  "human_prearm_silent": "not explicitly confirmed; question reply addressed final joystick only",
+  "startup_recovery_observed": false,
+  "flash_write": false,
+  "persistent_config_commands": 0,
+  "next_work": [
+    "Preserve strict INCOMPLETE trial and unmodified source/report freeze",
+    "Add raw first-mismatch capture and delayed read-only comparisons in a new verifier; never mask first failure",
+    "Make end-of-test release prompt clear; no repeated amplitude tests",
+    "Future hardware trial requires new generation61 binding and manual readiness"
+  ],
+  "human_final_input_explanation": "User confirms deliberate joystick operation at end; no evidence of centering drift from this sample",
+  "final_non_neutral_explained_by_user": true
+}

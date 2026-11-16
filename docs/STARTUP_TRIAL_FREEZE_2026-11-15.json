@@ -1,0 +1,53 @@
+{
+  "status": "PRESERVED_STARTUP_TRIAL_INCOMPLETE_WITH_FUNCTIONAL_EVIDENCE",
+  "files": [
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261115-151859.json",
+      "sha256": "c2a69263cac47003c8ef19d19be6d1cca905c23966f836c18e7021e77a440657"
+    },
+    {
+      "path": "docs/STARTUP_GAME_G60_PLAN_2026-11-15.json",
+      "sha256": "44aa655369e5a49a26bbf8276e690f0baa68c62f948322fb33d951fad1a5e4a0"
+    },
+    {
+      "path": "docs/STARTUP_GAME_G60_ASSESSMENT_20261115-151859.json",
+      "sha256": "bb3ba81dd49584ca0192c41ec6236d524896c225ca551827db97d3649d6fa125"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261115-152514.json",
+      "sha256": "2fcd4b448d3919bf11334279fbba7211b5c094680b8ef631ecd520a6680cfd66"
+    },
+    {
+      "path": "docs/POST_SETTLE_CONFIG_20261115-151859.json",
+      "sha256": "f4588a49551347c2679a4897c8a8eb97973e81b30aa221c58c87dbe812d3c295"
+    },
+    {
+      "path": "tools/startup_ready_game_session.py",
+      "sha256": "77c915f9f9fe9baffe552dbaf120c45066dcae5a2d509c3bed79bd877666ff51"
+    },
+    {
+      "path": "tools/startup_game_policy_g60.py",
+      "sha256": "93e87eb179a2b4e6fd1aad79d6e836fe61c62221a59db52bda6b6bf3e2b513bc"
+    },
+    {
+      "path": "tools/run_startup_game_g60.py",
+      "sha256": "c464766b6e7ce734a83fc70ca4de2f20af66d0783678eb6cfd67ce601f73a488"
+    },
+    {
+      "path": "tools/assess_startup_game_g60.py",
+      "sha256": "e5fb48cc41f98288bca924ab9c5713102c79390f9b5b39e00540b958b19a6c81"
+    },
+    {
+      "path": "tools/startup_current_config_owner.py",
+      "sha256": "d016b44ae88a8d922cc42246e92b807bae111f1751440c17e11463d75435963c"
+    },
+    {
+      "path": "tools/startup_game_window.py",
+      "sha256": "bae61171a63bbb4750074a4a47c12eeb012245a4c44931ee263675fc07c525d4"
+    },
+    {
+      "path": "tools/bridge_desktop_startup.py",
+      "sha256": "43425279dcfeec9bb1092dc537a69e7da93473ce367be0d57a2c03184f361e6a"
+    }
+  ]
+}

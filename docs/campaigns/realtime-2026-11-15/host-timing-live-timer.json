@@ -1,0 +1,32 @@
+{
+  "status": "HOST_MATCHED_TIMER_METRICS_CAPTURED_NOT_PRODUCT_ACCEPTANCE",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "timer_request_ms": 1,
+  "persistent_settings_changed": false,
+  "same_request_as_live_code": true,
+  "begin_api_result": 0,
+  "sleep1ms": {
+    "samples": 1000,
+    "p50_ms": 1.5058000000000016,
+    "p95_ms": 2.0787999999999918,
+    "p99_ms": 2.512100000000017,
+    "max_ms": 2.770699999999904,
+    "over4ms": 0
+  },
+  "sleep_plus_cancel_stat": {
+    "samples": 1000,
+    "p50_ms": 1.4942500000001413,
+    "p95_ms": 2.1996999999998046,
+    "p99_ms": 2.5309000000000026,
+    "max_ms": 4.534599999999944,
+    "over4ms": 1
+  },
+  "end_api_result": 0,
+  "audit_denials": [],
+  "limitations": [
+    "No input decoder, HID I/O or source polling load",
+    "Current process and host conditions differ from prior trial",
+    "Timing samples alone cannot identify prior trial root cause"
+  ]
+}

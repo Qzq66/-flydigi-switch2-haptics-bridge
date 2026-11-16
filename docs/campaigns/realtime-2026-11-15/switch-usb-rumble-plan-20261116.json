@@ -1,0 +1,79 @@
+{
+  "status": "OFFLINE_PREPARED_AND_OUTPUT_CAPS_READ_NO_PULSE_SENT",
+  "date": "2026-11-16",
+  "output_capabilities": [
+    {
+      "report_id": 1,
+      "usage_page": 65280,
+      "kind": "value",
+      "bit_size": 8,
+      "report_count": 63
+    },
+    {
+      "report_id": 16,
+      "usage_page": 65280,
+      "kind": "value",
+      "bit_size": 8,
+      "report_count": 63
+    },
+    {
+      "report_id": 128,
+      "usage_page": 65280,
+      "kind": "value",
+      "bit_size": 8,
+      "report_count": 63
+    },
+    {
+      "report_id": 130,
+      "usage_page": 65280,
+      "kind": "value",
+      "bit_size": 8,
+      "report_count": 63
+    }
+  ],
+  "hashes": {
+    "tools/switch_rumble_packet.py": "3d5dfb6ed39b7a6f9a085dda3c7f2e5217bcb4befa2f18137cfb1a2c8957a51c",
+    "tools/switch_rumble_trial.py": "1ee6d96a8988c812389ec0c26b3c1cde2502a04ceec4e32975bf4ef21cc0083c",
+    "tools/switch_usb_output.py": "f935d0fc1efe09f61f51644f7a3cfcdc416e494fa094cf9700b2444e6c36deda",
+    "tools/check_switch_usb_rumble.py": "e762cb4e332adbf9e1546e4eac0193627a021f548a0d483719fd12c43b51c469",
+    "tools/test_switch_rumble_packet.py": "2ba2bbe615d13db898129cd51e5ae962d7232ba7d663a8da4287d1838c9585c3",
+    "tools/test_switch_rumble_trial.py": "477838100662c1edce59e4d916c87ce14bced1e7d97786c613dce388f3c473da",
+    "tools/switch_usb_readonly.py": "020329a9e00a7bf4b1b3e385759359925ad1a834469c846032e3ca0e5f6476a7",
+    "tools/switch_report30.py": "656acdf2848bf69ae9504ab80035c3b81997e61a97cd48da0e4a6d8b80b5ce09"
+  },
+  "offline_tests_passed": 11,
+  "planned": {
+    "report_id": 16,
+    "usb_bytes": 64,
+    "frequency_table_hz": 160,
+    "amplitude_table": 80,
+    "duration_ms": 120,
+    "dispatch_ms": 4,
+    "lateness_stop_ms": 4,
+    "stream_gap_stop_ms": 80,
+    "active_frame_cap": 30,
+    "manual_start": true,
+    "prepare_countdown_seconds": 6
+  },
+  "device_output_commands_sent": 0,
+  "pico_access": false,
+  "allowed_payloads": [
+    "neutral 00014040",
+    "low 801ac046"
+  ],
+  "disallowed": [
+    "Output IDs other than0x10",
+    "0x48 vibration enable",
+    "Feature commands",
+    "Profile/config/flash commands",
+    "Automatic active-output retries"
+  ],
+  "limits": [
+    "Output descriptor declaration is not proof of actual motor behavior",
+    "WriteFile completion is not controller ACK",
+    "Physical amplitude/frequency not calibrated",
+    "No actual Windows timing/output trial yet",
+    "OS scheduling or unresponsive driver cannot guarantee physical stop latency",
+    "Persistent configuration was not read/compared; no persistent-configuration commands are used"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "CAPTURED_FLASH_VERIFIED",
+  "flash_written": false,
+  "flash_unchanged": true,
+  "output_reports": 0,
+  "version": 7,
+  "scope": "single unchanged-policy security-metadata capture",
+  "private_folder": "bt-classic-safe-20261116-115807",
+  "capture_sha256": "8223b038ab23cd85d427242397843588beead03d7079865d9465e08c231c219c",
+  "flash_before_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "flash_after_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "security_metadata": [
+    "BTH3 READY v=7 mode=classic_hid pair=general_bonding_ram storage=ram output=disabled target=required command=SCAN",
+    "BTH3 TARGET_LOCKED",
+    "BTH3 TRACE us=823387 RX_LOCAL_FEATURES status=0x00 bits=bffecffedbff7b87",
+    "BTH3 TRACE us=829310 TX_CAPABILITY opcode=0x0c56 enabled=1",
+    "BTH3 TRACE us=934552 TX_CAPABILITY opcode=0x0c7a enabled=1",
+    "BTH3 LOCAL_CAPABILITY sc_active=1 configured_ssp=1 sc_default=1 auto_accept=0",
+    "BTH3 SECURITY_REQUEST handle=11 level=2 scheduler=btstack",
+    "BTH3 TRACE us=11265326 RX_REMOTE_FEATURES status=0x00 page=0 bits=bffe8dfec82d7983",
+    "BTH3 TRACE us=11267208 RX_REMOTE_FEATURES status=0x00 page=1 max=2 bits=0100000000000000",
+    "BTH3 TRACE us=11269099 RX_REMOTE_FEATURES status=0x00 page=2 max=2 bits=0000000000000000",
+    "BTH3 TRACE us=11269261 TX_COMMAND opcode=0x0411",
+    "BTH3 LINK_KEY_REQUEST",
+    "BTH3 TRACE us=11271298 TX_COMMAND opcode=0x040c",
+    "BTH3 IO_CAP_REQUEST local_io=3 oob=0 authreq=4 bondable=1 auto_accept=0 level=2",
+    "BTH3 TRACE us=11273065 TX_IO_REPLY io=3 oob=0 authreq=4",
+    "BTH3 IO_CAP_RESPONSE remote_io=3 remote_oob=0 remote_authreq=4",
+    "BTH3 TRACE us=31502470 RX_SIMPLE_PAIRING status=0x05",
+    "BTH3 SECURITY_RESULT handle=11 level=0 status=0x05",
+    "BTH3 AUTH status=0x05",
+    "BTH3 HID_OPEN status=0x81 cid=1",
+    "BTH3 DONE reason=hid_open_failed hid_cid=1 ram_errors=0 ram_writes=1 ram_erases=0"
+  ],
+  "done": [
+    "hid_open_failed"
+  ]
+}

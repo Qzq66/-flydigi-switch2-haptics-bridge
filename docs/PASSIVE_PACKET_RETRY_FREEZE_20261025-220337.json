@@ -1,0 +1,67 @@
+{
+  "status": "FROZEN_RETRY_DATA_INTEGRITY_PARTIAL_COMPONENT_COVERAGE",
+  "files": [
+    {
+      "path": "docs/PASSIVE_PACKET_RETRY_2026-10-25.md",
+      "sha256": "c86181dbb87ca10ce724985bdcc50328ba90f995b5252d3740b0fac6665afe2f"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_RETRY_ASSESSMENT_20261025-220337.json",
+      "sha256": "aaf7df861f35c654a65331c7455429532a48ffb869c801e99eb49b99c542b34b"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_RUN_20261025-220402.json",
+      "sha256": "f6d626d3bb5350ba25aaab67fb43aa272916ca84afeeb13e97c4ecd0fc1d1422"
+    },
+    {
+      "path": "docs/PKTMON_PASSIVE_G31_20261025-220337.json",
+      "sha256": "d5d4103cbdfcbc44e6bf5c4f495efd0e65d9bd531d92704dcd2a0cf22490c44b"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_OFFLINE_CONVERSION_20261025-220337.json",
+      "sha256": "79bb7152a07079c7d4b1344b0facbcd31ed1594c6dbf699c0057e5ec76576f03"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_COMPONENTS_20261025-220337.json",
+      "sha256": "69eceb251c103d8cf2e5018ed8e4dd16c49e2678f1a521a11a7e0c8da5b4d288"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_COMPONENTS_RECOVERED_20261025-220337.json",
+      "sha256": "5e458088b2f377d2d85b09a1b6fb75c75d7d98db97a97c5e495fb04e5503e1a7"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_ADJACENT_20261025-220337.json",
+      "sha256": "e0c797dc91868356ca0cb2c4cbf838bf8b3db5d1016abb96ee413bf0c8952ee9"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-221206.json",
+      "sha256": "9f9c7374a343235647c9115200ad4924d36c1bee6d0c121106899e7ab58ee6b4"
+    },
+    {
+      "path": "tools/run_passive_packet_g31.py",
+      "sha256": "b96f66861c2cb2387cb76420463466c07793cc06ec30fd730ba0250c1faeea1a"
+    },
+    {
+      "path": "tools/packet_clock_probe.py",
+      "sha256": "77d124e5317a233f957ddf8d14d01fb6d6319aac715bfa1bb68da34dfba45349"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g31.ps1",
+      "sha256": "0cb7ece1d5f785dc36df631d18c053843afb81c02044c7a7af7091a64af4dd20"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g31_recovered.py",
+      "sha256": "c9985e7ef38dcccd60c863a933e99502c6f54a30db431516a4cd422f6327109f"
+    },
+    {
+      "path": "tools/component_receive_analysis.py",
+      "sha256": "4f82b17669c9ae1c8361e9361722a9c6ffa80d69b6ad60c1c8274b20d2e0904c"
+    },
+    {
+      "path": "tools/usb_recovery_clock.py",
+      "sha256": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+    }
+  ],
+  "current_generation": 32,
+  "private_archive_sha256": "fecfcb25814127440feac21da79bb7c4872ace3045cd4ffa71b9398550a3e5c8"
+}

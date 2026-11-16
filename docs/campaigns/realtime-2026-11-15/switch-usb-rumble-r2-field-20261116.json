@@ -1,0 +1,31 @@
+{
+  "status": "NEUTRAL_WRITE_TIMEOUT_NO_NONZERO_RUMBLE_SENT",
+  "classification": "technical",
+  "scope": "USB output transport preflight stopped before activation",
+  "date": "2026-11-16",
+  "pre_input_reports": 10,
+  "post_input_reports": 10,
+  "timer_released": true,
+  "trial": {
+    "status": "STOPPED_ON_FAULT",
+    "active_frames": 0,
+    "stop_write_completed": false,
+    "max_dispatch_late_ms": 0.0,
+    "max_io_ms": 0.0,
+    "max_gap_ms": 0.0,
+    "controller_ack_available": false,
+    "error": "USB output did not complete within 4ms"
+  },
+  "nonzero_output_reports": 0,
+  "neutral_write_attempted": true,
+  "neutral_device_delivery_verified": false,
+  "user_feedback": "No vibration felt, or protection stop",
+  "configuration_commands": 0,
+  "initialization_commands": 0,
+  "feature_commands": 0,
+  "pico_access": false,
+  "haptics_support_conclusion": "UNVERIFIED; no active packet sent",
+  "private_folder": "switch-usb-pulse-r2-1794807559047",
+  "result_sha256": "b3536024122490ea12c9ace33ef310f278a717d1ac9a7c2d33bcbf75421d0cec",
+  "next": "Offline distinguish dispatch deadline from transport completion; prepare neutral-only USB timing diagnostic; do not relax active-output guards or automatically retry pulse"
+}

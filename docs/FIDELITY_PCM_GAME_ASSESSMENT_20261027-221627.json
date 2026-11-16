@@ -1,0 +1,95 @@
+{
+  "written_pcm": {
+    "passed": true,
+    "checks": {
+      "complete": true,
+      "observation_point": true,
+      "bounded": true,
+      "no_errors": true,
+      "submission_only": true,
+      "all_successes_recorded": true,
+      "finite_cost": true,
+      "reference_available": true,
+      "recorded_frames": true,
+      "samples_per_side": true,
+      "left_sha256": true,
+      "right_sha256": true,
+      "report_sha256": true,
+      "squared_code_sum": true,
+      "peak_per_side": true,
+      "nonneutral_samples": true
+    },
+    "reference_error": null,
+    "expected": {
+      "recorded_frames": 1038,
+      "samples_per_side": 8304,
+      "left_sha256": "9dfc39d12870c152d31573283a916f112eba1fe26bac95ceca97f4c9ed3862c7",
+      "right_sha256": "9dfc39d12870c152d31573283a916f112eba1fe26bac95ceca97f4c9ed3862c7",
+      "report_sha256": "4f21a2c9afb9046dcf9cff4143c7065ff01af21bbbcff3fd1e27df5a0926239e",
+      "squared_code_sum": [
+        5466,
+        5466
+      ],
+      "peak_per_side": [
+        9,
+        9
+      ],
+      "nonneutral_samples": [
+        267,
+        267
+      ]
+    },
+    "scope": "Successful host writer submissions only; not controller receipt or mechanical execution."
+  },
+  "status": "INCOMPLETE",
+  "checks": {
+    "strict_parent": false,
+    "parent_program_status": false,
+    "plan_bound": true,
+    "readback_verified": true,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": true,
+    "program_unchanged": true,
+    "full_source_motor_fields": true,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_game_event": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "human_postmute_input": true,
+    "written_pcm_matches_independent_source": true
+  },
+  "journal_generation": 42,
+  "motor_fields": 1166,
+  "active_ms": [
+    291,
+    291
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    5466,
+    5466
+  ],
+  "source_reference": {
+    "active_ms": [
+      291,
+      291
+    ],
+    "peak_code": 9,
+    "squared_code_sum": [
+      5466,
+      5466
+    ],
+    "final_samples_neutral": true
+  },
+  "source_reference_error": null,
+  "scope": "One selected game action with live dual-band rendering and bounded gain; not measured original HD/HD2 physical fidelity or general game compatibility.",
+  "source_sha256": {
+    "program": "75b808a67fad3b222f88abd9a09b6e98699ec605fc98ec5b1c259e76af51efa5",
+    "plan": "47f2cad56033effc020fce557cb91b766a3f127ac775e1b335e7859b745d1579",
+    "capture": "084c697cbf43252d9846daa646611c5e237090e7bc89b6a2f618fff6617abfd0",
+    "baseline": "85c573572862491151e0f5d87dd56c5b0f38844da270727b1e905a1a63bfb488"
+  }
+}

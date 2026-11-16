@@ -1,0 +1,8 @@
+{
+  "status": "INCOMPLETE",
+  "pico_access": false,
+  "motor_commands": 0,
+  "original_network_delay_cause_proven": false,
+  "components": [],
+  "error": "ValueError('Component conversion incomplete')"
+}

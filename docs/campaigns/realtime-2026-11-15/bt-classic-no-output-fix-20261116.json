@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-16",
+  "scope": "offline compilation and direct-call review only",
+  "status": "BUILT_NOT_HARDWARE_VERIFIED",
+  "hardware_actions": [],
+  "elf_sha256": "423886264cfda1a66ffa61534390201a0e8993c2d70143dcd8fab5c09a25e30e",
+  "main_sha256": "6bbbe8290d69968b92771686a8bbf6c5944d67e0974d8da5b6bac250faed4aee",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0,
+    "hid_host_send_get_report": 0
+  },
+  "fixes": [
+    "Authentication uses connection handle",
+    "HID meta subevent dispatch",
+    "Removed all motor-output sequences",
+    "Disabled inquiry retry",
+    "Guarded radio shutdown"
+  ],
+  "limits": [
+    "No physical Flash comparison yet",
+    "Peripheral pairing-state effects remain unverified",
+    "Direct-call review does not exclude every indirect call"
+  ],
+  "next": "Review explicit target selection and preflight runner, then one no-output RAM-only connection trial"
+}

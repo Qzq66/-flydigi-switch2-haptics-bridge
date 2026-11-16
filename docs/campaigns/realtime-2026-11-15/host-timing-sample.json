@@ -1,0 +1,38 @@
+{
+  "status": "HOST_METRICS_CAPTURED_NOT_PRODUCT_ACCEPTANCE",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "changed_timer_resolution": false,
+  "current_timer_resolution_unknown": true,
+  "audit_denials": 0,
+  "missing_cancel_stat": {
+    "samples": 2000,
+    "p50_ms": 0.06919999999999149,
+    "p95_ms": 0.08590000000002762,
+    "p99_ms": 0.12980000000001324,
+    "max_ms": 0.5285999999999902,
+    "over4ms": 0
+  },
+  "phase_json_roundtrip": {
+    "samples": 2000,
+    "p50_ms": 0.004000000000004,
+    "p95_ms": 0.004600000000021254,
+    "p99_ms": 0.006200000000011752,
+    "max_ms": 0.14009999999997635,
+    "over4ms": 0
+  },
+  "sleep1ms": {
+    "samples": 500,
+    "p50_ms": 15.55945000000003,
+    "p95_ms": 16.151200000000365,
+    "p99_ms": 16.80150000000058,
+    "max_ms": 38.7436000000001,
+    "over4ms": 500
+  },
+  "limitations": [
+    "Current host only, not recorded trial conditions",
+    "Historical live runner requests1ms timer resolution; this sample does not request it",
+    "Call durations include OS scheduling and other processes",
+    "Metric capture success does not relax4ms or establish root cause"
+  ]
+}

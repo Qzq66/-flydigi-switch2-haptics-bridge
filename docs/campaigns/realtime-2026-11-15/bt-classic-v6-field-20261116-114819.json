@@ -1,0 +1,29 @@
+{
+  "status": "CAPTURED_FLASH_VERIFIED",
+  "flash_written": false,
+  "flash_unchanged": true,
+  "output_reports": 0,
+  "version": 6,
+  "scope": "single general-bonding no-output contrast",
+  "private_folder": "bt-classic-safe-20261116-114819",
+  "capture_sha256": "93cf831933bc593fa8d5aca572436c7add7f201e091d30c6831fd204cc9fb911",
+  "flash_before_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "flash_after_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "remote_fields": [
+    [
+      "3",
+      "0",
+      "4"
+    ]
+  ],
+  "auth_complete": [
+    "05"
+  ],
+  "hid_open": [
+    "81"
+  ],
+  "user_confirmation": false,
+  "done": [
+    "hid_open_failed"
+  ]
+}

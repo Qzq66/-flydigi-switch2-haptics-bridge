@@ -1,0 +1,17 @@
+{
+  "status": "PASSED_ACCEPTED_PLAN_AND_CURRENT_RENDERER_DECODER_SOURCE_BINDING",
+  "trials": [
+    {
+      "trial": "20261026-232226",
+      "accepted_plan_sha256": "29dcac3643d0028250212ad36c9061af494dd8049f5cfe20c4b9486028989851",
+      "tool_sources_verified": 17,
+      "transport_sources_verified": 11
+    },
+    {
+      "trial": "20261027-212240",
+      "accepted_plan_sha256": "eeb7c26e96f90302b0d2fc7a505df8f14df9489ffe49efbfa3b905571e762801",
+      "tool_sources_verified": 20,
+      "transport_sources_verified": 11
+    }
+  ]
+}

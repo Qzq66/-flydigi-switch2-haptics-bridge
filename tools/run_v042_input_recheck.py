@@ -1,22 +1,25 @@
 """Strict real-Switch input-only session; no actuator output in the child."""
-import argparse,datetime,json,pathlib,subprocess,sys
+import argparse,datetime,json,pathlib,subprocess,sys,time
 ROOT=pathlib.Path(__file__).absolute().parents[1];WORK=ROOT/'handoff/2026-10-22/work';sys.path.insert(0,str(WORK))
 from bridge_windows import load_owner
 from bridge_process import communicate_bounded,input_end_check_succeeded,game_end_check_succeeded
 from bridge_session_policy import session_limits
+from game_scenarios import SCENES
 parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--game-output',action='store_true');parser.add_argument('--staged-game',action='store_true');parser.add_argument('--live-seconds',type=int,choices=(60,120),default=60)
-parser.add_argument('--firmware-record',type=pathlib.Path);parser.add_argument('--picotool',type=pathlib.Path);parser.add_argument('--pico-serial');parser.add_argument('--timed-input',action='store_true');parser.add_argument('--input-acceptance-bundle',type=pathlib.Path);options=parser.parse_args()
+parser.add_argument('--firmware-record',type=pathlib.Path);parser.add_argument('--picotool',type=pathlib.Path);parser.add_argument('--pico-serial');parser.add_argument('--timed-input',action='store_true');parser.add_argument('--input-acceptance-bundle',type=pathlib.Path);parser.add_argument('--scene',choices=tuple(SCENES),default='door');options=parser.parse_args()
 limits=session_limits(options.live_seconds);variant=limits['expected_firmware'].upper()
 if options.staged_game and not options.game_output:parser.error('--staged-game requires --game-output')
 if options.live_seconds==120 and (not options.firmware_record or not options.picotool or not options.pico_serial):parser.error('120s requires board-bound installation record and physical BOOTSEL verification')
 if options.live_seconds==120 and options.game_output and (not options.staged_game or not options.input_acceptance_bundle):parser.error('120s output requires staged click and verified input acceptance bundle')
 if options.timed_input and (options.live_seconds!=120 or options.game_output):parser.error('--timed-input requires 120s with output disabled')
+if options.scene!='door' and not options.staged_game:parser.error('Explicit game scene requires staged game output')
 stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S');private=WORK/'private'
 selection=json.loads((private/'rollback-selection.json').read_text(encoding='utf-8'))
 session=pathlib.Path(selection['root'])/'work/private/bridge-session.json'
 bp=private/('v042-input-backup-'+stamp+'.json');cp=private/('v042-input-child-'+stamp+'.json')
 report=dict(status='INCOMPLETE',actual_switch_test=True,game_test=options.game_output,input_check_only=not options.game_output,automatic_resume=False,motor_output_enabled=options.game_output and not options.staged_game,persistent_flydigi_commands=0,game_haptics_validated=False)
 report['session_limits']=limits
+if options.game_output:report['scene']=options.scene
 owner=load_owner();safe=owner.safe;r=b=proc=ui=None;dirty=False
 try:
     if options.live_seconds==120:
@@ -44,11 +47,15 @@ try:
         if arm.exists() or phase.exists():raise ValueError('Staged session files already exist')
         args+=['--arm-file',str(arm),'--phase-status-file',str(phase)]
         report['staged_game']=True
-        ui=subprocess.Popen([sys.executable,str(ROOT/'tools/game_arm_window.py'),str(arm),str(phase)],creationflags=subprocess.CREATE_NO_WINDOW)
-    proc=subprocess.Popen(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,creationflags=subprocess.CREATE_NO_WINDOW);dirty=True
-    (private/'v042-listener-ready.json').write_text(json.dumps(dict(stamp=stamp,child_pid=proc.pid,started=True)),encoding='utf-8')
+        ui=subprocess.Popen([sys.executable,str(ROOT/'tools/game_arm_window.py'),str(arm),str(phase),options.scene],creationflags=subprocess.CREATE_NO_WINDOW)
+    proc=subprocess.Popen(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,creationflags=subprocess.CREATE_NO_WINDOW);dirty=True;guardian_start=time.monotonic()
+    if options.staged_game:
+        from listener_readiness import wait_for_discovery
+        wait_for_discovery(proc,phase)
+        report['post_neutral_discovery_ready']=True
+    (private/'v042-listener-ready.json').write_text(json.dumps(dict(stamp=stamp,child_pid=proc.pid,started=True,post_neutral_discovery_ready=bool(report.get('post_neutral_discovery_ready')))),encoding='utf-8')
     print(('BOUNDED_GAME_LISTENER_STARTED; 120ms +/-12 prompts' if options.game_output else 'INPUT_ONLY_LISTENER_STARTED; no motor output')+'; keep buttons neutral until instructed',flush=True)
-    _,stderr,killed=communicate_bounded(proc,limits['guardian_seconds']);report.update(child_exit=proc.returncode,guardian_killed_child=killed,child_stderr=stderr[-1500:])
+    _,stderr,killed=communicate_bounded(proc,max(.001,limits['guardian_seconds']-(time.monotonic()-guardian_start)));report.update(child_exit=proc.returncode,guardian_killed_child=killed,child_stderr=stderr[-1500:])
     if cp.exists():report['child']=json.loads(cp.read_text(encoding='utf-8'))
     if options.staged_game:report['motor_output_enabled']=report.get('child',{}).get('motor_output_enabled',False)
     r=safe.open_reader(report);owner.identity(r,b);owner.stop(r,report);dirty=False;owner.verify(r,b,report)

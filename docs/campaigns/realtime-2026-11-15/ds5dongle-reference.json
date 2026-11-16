@@ -1,0 +1,109 @@
+{
+  "status": "REFERENCE_REVIEW_NOT_PORT_OR_HARDWARE_TEST",
+  "review_date": "2026-11-15",
+  "repository": "awalol/DS5Dongle",
+  "tag": "v0.8.0",
+  "commit": "77d378effcda11abee87f9be1ac31d6518e87560",
+  "release": {
+    "tag": "v0.8.0",
+    "published_at": "2026-10-28T07:07:42Z",
+    "url": "https://github.com/awalol/DS5Dongle/releases/tag/v0.8.0"
+  },
+  "license": "MIT; retain original copyright/notice if code is reused",
+  "hardware_actions": 0,
+  "flash_writes": 0,
+  "firmware_assets_downloaded": false,
+  "upstream_build_scripts_executed": false,
+  "SDK_or_dependencies_modified": false,
+  "source_bindings": [
+    {
+      "path": ".gitmodules",
+      "git_blob_sha1": "6cf702b5cd8eeabf3abf5af3b9f6536afa5d932f",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/.gitmodules"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "git_blob_sha1": "45c9a917cf8c53a21f829eaa76d71eb0b2382634",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/CMakeLists.txt"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "d9b97aa97a2dba9cb42dcb61da63da540a24e158",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/LICENSE"
+    },
+    {
+      "path": "README.CN.md",
+      "git_blob_sha1": "081ea6f75bf4f9fb4eed42b0fef54a7f78416146",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/README.CN.md"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "dd81b17e807ec53e5205bdf7e84805e3233c95f8",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/README.md"
+    },
+    {
+      "path": "src/audio.cpp",
+      "git_blob_sha1": "432342976657ae38003229011581bef439f0f984",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/audio.cpp"
+    },
+    {
+      "path": "src/bt.cpp",
+      "git_blob_sha1": "fcb6d7f220a3f031500bd77d3d99aedd2151dc3b",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/bt.cpp"
+    },
+    {
+      "path": "src/bt.h",
+      "git_blob_sha1": "d0745f47d90bd36767471e1a000e00e04990059f",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/bt.h"
+    },
+    {
+      "path": "src/main.cpp",
+      "git_blob_sha1": "ef8e2a4b7e41b4c6e19192c99e224c2380038c93",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/main.cpp"
+    },
+    {
+      "path": "src/tusb_config.h",
+      "git_blob_sha1": "2c88173fc9264ca0d4a7cd9b82655f66eaa2b040",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/tusb_config.h"
+    },
+    {
+      "path": "src/usb.cpp",
+      "git_blob_sha1": "1e0db020f9228536948a8693026c417ab98d25c0",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/usb.cpp"
+    },
+    {
+      "path": "src/usb_descriptors.cpp",
+      "git_blob_sha1": "9fe892f8219d30b619e07a0e9c378644339d43aa",
+      "url": "https://github.com/awalol/DS5Dongle/blob/77d378effcda11abee87f9be1ac31d6518e87560/src/usb_descriptors.cpp"
+    }
+  ],
+  "findings": {
+    "single_usb_device_plus_classic_bluetooth": true,
+    "dual_usb_host_not_required_for_this_architecture": true,
+    "USB_side_is_Sony_not_Switch": true,
+    "device_name_filter": "DualSense",
+    "Sony_report_ids": [
+      "0x31",
+      "0x32",
+      "0x36",
+      "0x39"
+    ],
+    "direct_flydigi_input": "UNVERIFIED",
+    "direct_flydigi_fine_haptics": "UNVERIFIED",
+    "pico2w_clock_in_cmake_khz": 150000,
+    "readme_cn_clock_claim_mhz": 320,
+    "documentation_clock_conflict": true,
+    "pico_sdk_version": "2.3.1",
+    "upstream_required_tinyusb": "98741b55959564746998d0453c32d87064629d7c",
+    "our_existing_tinyusb": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+    "upstream_multicore_flash_safe_flag": 0,
+    "our_frozen_v043_multicore_flash_safe_flag": 1
+  },
+  "next_milestone": "Isolated single-Pico Bluetooth discovery/read-only input candidate; keep verified Switch USB identity; fine haptics remains a separate protocol gate",
+  "limitations": [
+    "Reference implementation proves architecture for DualSense only, not current Flydigi Bluetooth compatibility",
+    "No hardware or stock firmware flashing performed",
+    "Release firmware/config/pairing storage is not compatible with existing Pico journal layout",
+    "No unverified Sony or USB-only Flydigi commands should be sent to a Flydigi Bluetooth link"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "status": "INCOMPLETE",
+  "flash_write": false,
+  "flydigi_commands": 0,
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": false
+  },
+  "newest": {
+    "version": 5,
+    "generation": 35,
+    "reason": "boot_limit",
+    "elapsed_ms": 181146,
+    "total_events": 0,
+    "stored_events": 0,
+    "dropped_events": 0,
+    "capacity": 2725,
+    "overflow": false,
+    "complete": true,
+    "first_dropped_at_us": null,
+    "usb_mounted_seen": true,
+    "no_flash_marker": 0,
+    "target_offset": "0xe0000",
+    "crc_valid": true,
+    "diagnostics_raw_hex": "42434150050000000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030002",
+    "events": [],
+    "stream_end": "drain_timeout",
+    "slot_index": 0
+  },
+  "slots": [
+    {
+      "slot_index": 0,
+      "valid": true,
+      "generation": 35
+    },
+    {
+      "slot_index": 1,
+      "valid": true,
+      "generation": 34
+    }
+  ],
+  "full_flash_sha256": "aeb99ba57841c9dacc72c29a01add18478ad781a066c3bf007a39c7f869e88ac",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "error": "previous_generation_preserved"
+}

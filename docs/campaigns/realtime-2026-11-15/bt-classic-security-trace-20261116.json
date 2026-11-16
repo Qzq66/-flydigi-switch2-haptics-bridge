@@ -1,0 +1,24 @@
+{
+  "status": "OFFLINE_READY_V7_NOT_LOADED",
+  "policy": "Same as v6; general bonding, RAM keys, no MITM, auto_accept remains disabled",
+  "hashes": {
+    "standalone/bt_hid_classic/build-ram/flydigi_bt_hid_classic.elf": "195ce9002db2b0e194eb1665e4aca9862f860e9db71c8819bf1c24c4024f0d9f",
+    "standalone/bt_hid_classic/main.c": "6deae2b02b11fb6a4a1bdbd09f6f12e231acdc7bbec4c6f6bab58c904caf2349",
+    "standalone/bt_hid_classic/security_trace.c": "e8fd8e06cdad5869458f274658dff2f85d95270eb25fc2b72de7ca53f0537fd8",
+    "work/bt_classic_security_trace.ps1": "1d283a1366f4110f3485804a6ac631ab0906fcb74dd74ccfb6b27aaf3a741d35"
+  },
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "trace_scope": "Allowlisted host/controller HCI metadata only, not air capture; at most 96 trace records; no keys/addresses/raw packets",
+  "hardware_actions": [],
+  "limits": [
+    "No runtime trace validation yet",
+    "HCI controller failure is not proof of remote culpability",
+    "Host dump precedes transport and does not prove air transmission",
+    "Legacy main capture may contain device addresses and stays private"
+  ]
+}

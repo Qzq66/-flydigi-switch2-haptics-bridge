@@ -1,0 +1,10 @@
+{
+  "status": "PASSED_G38_REPEAT_OFFLINE",
+  "tests": 120,
+  "io_guard": true,
+  "hardware_access": false,
+  "limits_unchanged": true,
+  "runner_only_import_changed": true,
+  "stale_baseline_and_increased_limit_rejected": true,
+  "plan_sha256": "6346a8758f07f0b883dbbb99685e627bf95c1fa684887f9f63b62d3bcc450f3c"
+}

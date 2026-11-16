@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_RTT45_OFFLINE_CANDIDATE",
+  "files": [
+    {
+      "path": "tools/phase_gap_probe_v2.py",
+      "sha256": "cbd765aa51cd7eb6c546d45520b09ceabac1c2f611a5b0a3aec6ec9dc4fa01a9"
+    },
+    {
+      "path": "tools/phase_gap_validation_v2.py",
+      "sha256": "68f2de3f80e483b24e174fe02e5a636572a7a366ef190189c8646b17fb7e856b"
+    },
+    {
+      "path": "tools/fidelity_game_policy_rtt45.py",
+      "sha256": "eba69278258074b946fb2b14d7169dcf5f2bde53837692588167e1a4ddcbdabd"
+    },
+    {
+      "path": "tools/run_fidelity_game_rtt45.py",
+      "sha256": "ccd7fa942dea2a196a449844f2f196a141a43d725d44fada39c166d183b88fcc"
+    },
+    {
+      "path": "tools/assess_fidelity_game_rtt45.py",
+      "sha256": "db1cd1db7266a5492919f940b3afb729bef3a853be4d01c17cf0cc5b4ad04c5e"
+    },
+    {
+      "path": "tools/test_phase_gap_probe_v2.py",
+      "sha256": "08f37cbed4b227e574e133c34030f9e1553d32fd9ea5e7703031de7969da49e7"
+    },
+    {
+      "path": "tools/test_phase_gap_integration_v2.py",
+      "sha256": "b3ef95ac3ac93e24959ddfca3b54f6fad31b294ad761ebe6d767447f3ab74884"
+    },
+    {
+      "path": "tools/verify_rtt45_offline.py",
+      "sha256": "86d35881eae23d49362a8f4aee6863fc1ad5f1b0965bd319aa2652dabe20e340"
+    }
+  ]
+}

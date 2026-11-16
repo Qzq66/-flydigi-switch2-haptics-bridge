@@ -1,0 +1,43 @@
+{
+  "status": "PASSED_CONTROLLED_AMPLITUDE_COMPARISON_WITH_FEEDBACK",
+  "checks": {
+    "plan_hash": true,
+    "strict_child": true,
+    "strict_parent": true,
+    "final_stop_ack": true,
+    "identity": true,
+    "state": true,
+    "four_config_areas": true,
+    "factory_config_unchanged": true,
+    "no_persistent_commands": true,
+    "no_pico_or_switch_access": true,
+    "no_errors": true,
+    "matched_frequency_and_duration": true,
+    "ordered_peak_and_dose": true,
+    "human_bilateral": true,
+    "human_stopped": true
+  },
+  "subjective_intensity": "stronger_comfortable",
+  "stronger_and_comfortable_reported": true,
+  "frequency_hz": 160,
+  "active_duration_ms": 200,
+  "neutral_tail_ms": 8,
+  "peak_codes": [
+    4,
+    8
+  ],
+  "digital_squared_code_sum_per_clip_per_side": [
+    1632,
+    6496
+  ],
+  "confirmed_gap_seconds": 5.0,
+  "physical_force_measured": false,
+  "linear_force_mapping_proven": false,
+  "native_fidelity_validated": false,
+  "scope": "One fixed-order unblinded synthetic pair; confirms reported intensity ordering, not a measured force ratio or native equivalence.",
+  "evidence_sha256": {
+    "program": "264743a857d5f922ab714df434e05a2f71318238f50644cc195ad71c0738232d",
+    "plan": "1238238d52c180e6179de7debefd6dbdea79a8bebbefec8065884a937404dcc6",
+    "assessor": "27b9f3ef9ee2810871cffe86b953dec47b63c9316cf3988ca11d97bf342a363f"
+  }
+}

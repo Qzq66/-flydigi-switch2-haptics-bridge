@@ -1,0 +1,54 @@
+{
+  "status": "OFFLINE_BUILT_SWITCH_INPUT_PROBE_NOT_LOADED",
+  "date": "2026-11-16",
+  "hashes": {
+    "standalone/switch_input_probe/main.c": "a0b116da1ad14a97b54fe7e9dd543ccda14b641e5833dc57c4a0e948f7d77e66",
+    "standalone/switch_input_probe/CMakeLists.txt": "17471342b04852bf4dbe7e5a9bb8135f5f4b72a384c82cae6ba84147545e421f",
+    "standalone/bt_hid_classic/ram_bank.c": "9bfbfd4cdf33a212163777ba450a71bf5b66d4594a6031eb023f434493ddf7b9",
+    "standalone/bt_hid_classic/ram_bank.h": "8ab1123b9cd0f3b234844b0e45a6e51eb3077a1c8983b2559daae8a27805f9c1",
+    "standalone/bt_hid_classic/btstack_config.h": "8c3d6a256197ee961b4410cc608ff363a1293e94e6e0b4004199caa1780c3909",
+    "standalone/bt_hid_classic/tusb_config.h": "6194a9b149ac4bc08b40e285dfd4f0c8e68f41c99f41751c87f5fe2bd9ced1be",
+    "work/switch_discovery_probe.ps1": "1941dcba14f7fddafc3a5a8b89d210bc6bcafad2f9fbc26ec831325822b7d198",
+    "standalone/switch_input_probe/build-ram/switch_input_probe.elf": "80bf6717dcaac541e2e95ccd7f984f69aa67ae0775de8b87376346f28b080b32"
+  },
+  "elf_load_segments": [
+    {
+      "physical_address": "0x20000000",
+      "file_bytes": 349292,
+      "memory_bytes": 371740
+    },
+    {
+      "physical_address": "0x20081000",
+      "file_bytes": 0,
+      "memory_bytes": 2048
+    }
+  ],
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "application_hid_output_or_l2cap_send_imports": false,
+  "size": {
+    "text": 353380,
+    "bss": 20396,
+    "sum": 373776
+  },
+  "hardware_actions": [],
+  "features": [
+    "Explicit discovery-only command; no automatic target selection",
+    "Canonical target address command required before direct HID channels",
+    "Control PSM0x11 then interrupt PSM0x13, bypass SDP only by explicit connection command",
+    "Observe A1 input only; no set-report-mode/IMU/LED/motor commands",
+    "Manual CAPTURE logs up to 80 samples for 15seconds; absolute boot limit90seconds",
+    "Host general bonding with keys in RAM; auto_accept stays default disabled"
+  ],
+  "limits": [
+    "No hardware validation or button mapping claimed",
+    "Some devices require input initialization; absence of reports does not prove lack of support",
+    "Unsolicited/reverse HID connections are not accepted",
+    "First field entry is discovery only with full Flash before/after verification",
+    "No runtime functional test yet"
+  ]
+}

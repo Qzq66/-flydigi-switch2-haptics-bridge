@@ -1,0 +1,10 @@
+{
+  "status": "OFFLINE_BASELINE_BUFFER_STATISTICS_COLLECTED",
+  "buffers_processed": 8,
+  "events_processed": 50838,
+  "events_lost": 0,
+  "includes_header_metadata": true,
+  "overwrite_proven": false,
+  "summary_sha256": "96ccdc7f1b6cfde28bf1fe13fc9f529a8cf73cc6c369df3b780f3180f11b5ea4",
+  "capture_started": false
+}

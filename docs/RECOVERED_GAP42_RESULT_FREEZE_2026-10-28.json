@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261028-214955.json",
+      "sha256": "ec3431f9c17809bb147718a184ce534ba3e096131e81eba596137bddd87e3a34"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261028-215639.json",
+      "sha256": "817cfdafe1a9683431e6082c20c0291b9f0db8412111c8e980f7254d1de76aa6"
+    },
+    {
+      "path": "docs/RECOVERED_GAP42_G51_ASSESSMENT_20261028-214955.json",
+      "sha256": "a9ecacd75e3f18af9f34088c312dfc3a68eb56142bef70ae9d98817f2a10953a"
+    },
+    {
+      "path": "docs/RECOVERED_GAP42_REGISTRATION_RESULT_2026-10-28.json",
+      "sha256": "173cdc4a9f66886c61cc535fb22a41efdac0ef93bed7397969450101dba727c9"
+    }
+  ]
+}

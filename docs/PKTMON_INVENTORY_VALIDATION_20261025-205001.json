@@ -1,0 +1,44 @@
+{
+  "status": "PKTMON_READONLY_INVENTORY_INDEPENDENTLY_VALIDATED",
+  "readonly": true,
+  "source_report_status": "INCOMPLETE",
+  "source_report_sha256": "92c5e3ba375603de14f361cc17829d0a835d63ceb2c2f44a1571eb32f2565677",
+  "executed_script_sha256": "08c0ae9418e061dcffbddcac6ef5bba01dc1489f081459c0057d2c3c04efbcb1",
+  "raw_evidence_sha256": {
+    "status.txt": "6f982593e84087b3e4d397c41f2d3a9abbd1d1dfb0720c8aa8d8e3860149d4ac",
+    "status.txt.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "filters.txt": "2b6983ab84fe47ef262b9ba40a8d2e62b3d3fa5625e6e29f7e16899c4bb9e70c",
+    "filters.txt.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "components.json": "9d43a767373f1538fee2e2051bc4c27481677f784a92d8705784f1b71b128b38",
+    "components.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "actual_queries": 3,
+  "actual_query_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "ignored_empty_async_task_results": 6,
+  "original_summary_preserved": true,
+  "capture_running_at_inventory": false,
+  "existing_filters_empty": true,
+  "component_groups": 20,
+  "component_count": 231,
+  "component_types": {
+    "\u5fae\u578b\u7aef\u53e3": 18,
+    "\u7b5b\u9009\u5668": 101,
+    "\u534f\u8bae": 82,
+    "IP \u63a5\u53e3": 12,
+    "HTTP": 16,
+    "HTTP \u6d88\u606f": 1,
+    "13": 1
+  },
+  "raw_utf8_and_component_json_valid": true,
+  "capture_started": false,
+  "filters_changed": false,
+  "network_settings_changed": false,
+  "pico_access": false,
+  "motor_commands": 0,
+  "capture_permission_granted": false,
+  "scope": "Point-in-time inventory only. Existing capture/filter state must be rechecked before any future capture. V3 script syntax fixed but not run as administrator."
+}

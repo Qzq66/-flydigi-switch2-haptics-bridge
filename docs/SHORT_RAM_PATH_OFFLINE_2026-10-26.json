@@ -1,0 +1,18 @@
+{
+  "status": "PASSED_48_OFFLINE_CHECKS_AND_REVIEWED_SRAM_ASSETS",
+  "tests": 48,
+  "hardware_access": false,
+  "ram_loaded": false,
+  "capture_started": false,
+  "flydigi_access": false,
+  "flash_write": false,
+  "no_flash_writer_symbols": true,
+  "ram_bounds": {
+    "blocks": 1195,
+    "minimum_address": "0x20000000",
+    "maximum_end": "0x2004ab00"
+  },
+  "ram_sha256": "49acbba65eea98c1ec29a18e697c33f364111a0b2a224f56bb792067c1ce8c56",
+  "ram_elf_sha256": "a4d3a2dc895814f14dc43739535ede00944d54d482bc15652631bb57e20583af",
+  "old16_file_freeze_verified": true
+}

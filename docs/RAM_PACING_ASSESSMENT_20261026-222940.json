@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_BOUNDED_PACING_AND_CLEANUP",
+  "checks": {
+    "before": true,
+    "after": true,
+    "bootsel": true,
+    "timer": true,
+    "capture_stopped": true,
+    "filter_removed": true,
+    "cleanup": true,
+    "no_motors": true,
+    "no_flydigi": true,
+    "no_flash_write": true,
+    "network_unchanged": true,
+    "phase_count": true,
+    "phase_overflow_zero": true,
+    "receive_coverage": true,
+    "candidate_freeze_matches": true
+  }
+}

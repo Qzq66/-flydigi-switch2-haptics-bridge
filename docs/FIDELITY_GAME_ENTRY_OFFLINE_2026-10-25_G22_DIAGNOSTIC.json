@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_SWITCH_FIDELITY_ENTRY_OFFLINE",
+  "tests": 91,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "firmware_loaded": false,
+  "motor_output": false,
+  "switch_game_dual_band_validated": false,
+  "previous_v3_source_unchanged": true,
+  "plan_sha256": "bd6ad7949dd1c5a62597ffa271f7e5ad25731598137769441a6aee991666077e",
+  "source_sha256": {
+    "tools/fidelity_game_policy.py": "e0ddf5e1ed7b27b6f36dc9a6de78f38bcfb222e9a1fe2aff8cd6df7e0d9a6dff",
+    "tools/run_fidelity_game.py": "72d27fe0cde1a6b11a68e9afbff6cc8ea96ecb3f380a95eeb949f2b2e8b7fba2",
+    "tools/fidelity_game_window.py": "ef90c0c4cfe224007565acbfaa4179b31d9937c17466efc2396c7301eb879518",
+    "tools/assess_fidelity_game.py": "c0a8c54859cae701688bddb91b80551fe2251fa94892226750fed3f0f78a89d6",
+    "tools/test_fidelity_game.py": "ca9e6b3610370521f6de96403e72f9ee244f2e35164e4809034a1bd7cc3cc2e9",
+    "tools/verify_fidelity_game_offline.py": "a96c4864fb621c741673a14ab919f25befae5dea17a98b309d668cbfa6145faa",
+    "tools/game_input_liveness.py": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c",
+    "tools/test_game_input_liveness.py": "296cbd76fb3f2b057e3a8295a960e87c2ef6befd77eb4c1671e4dc8747905fb1",
+    "tools/game_transport_diagnostics.py": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3",
+    "tools/test_game_transport_diagnostics.py": "889b81194dcdb2b2136a312723a7eaef41b5a10d5cfc17596569e93c79d43a01"
+  },
+  "scope": "New controller, input continuation, manual gate, cancellation and same-trial journal acceptance only; no real Switch game or actuator session executed."
+}

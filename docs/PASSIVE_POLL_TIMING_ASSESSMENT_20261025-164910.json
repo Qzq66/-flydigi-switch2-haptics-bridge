@@ -1,0 +1,208 @@
+{
+  "status": "PASSED_RETAINED_POLL_TIMING_AND_SAME_TRIAL_JOURNAL",
+  "checks": {
+    "program_completed": true,
+    "child_completed": true,
+    "plan_bound": true,
+    "pretest_flash_bound": true,
+    "fresh_same_trial_generation": true,
+    "full_readback_verified": true,
+    "firmware_unchanged": true,
+    "journal_complete": true,
+    "exact_motor_fields": true,
+    "sequence_continuous": true,
+    "terminal_confirmed": true,
+    "live_duration_complete": true,
+    "zero_motor_commands": true,
+    "no_persistent_configuration_commands": true,
+    "configuration_unchanged": true,
+    "cleanup_complete": true,
+    "measured_input_fixed_neutral": true,
+    "finite_stage_maxima": true,
+    "bounded_details": true,
+    "single_observed_boot": true,
+    "worst_gap_context_matches": true,
+    "worst_gap_previous_context_retained": true
+  },
+  "generation": 26,
+  "motor_fields": 1969,
+  "live_seconds": 119.99984409999999,
+  "poll_calls": 7680,
+  "timeouts": 0,
+  "maximum_response_gap_seconds": 0.07392999999999006,
+  "stage_maximum_seconds": {
+    "input": 0.002119199999995658,
+    "send": 0.002560600000009572,
+    "receive": 0.05980249999998932,
+    "between_polls": 0.019516300000020692,
+    "unattributed": 0.0009255000000081282
+  },
+  "worst_gap_context": {
+    "before": [
+      {
+        "start": 163.8075843,
+        "between_polls": 0.014333999999990965,
+        "stage_seconds": {
+          "input": 5.120000000147229e-05,
+          "send": 0.0001513999999929183,
+          "receive": 0.0014888999999982389
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 5.120000000147229e-05,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 0.0001513999999929183,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.0014888999999982389,
+            "error_type": null
+          }
+        ],
+        "end": 163.8093613,
+        "duration": 0.0017770000000041364,
+        "unattributed_seconds": 8.550000001150693e-05,
+        "response_gap": 0.01611149999999384,
+        "outcome": "frame",
+        "error_type": null
+      },
+      {
+        "start": 163.823456,
+        "between_polls": 0.014094699999986915,
+        "stage_seconds": {
+          "input": 6.229999999618485e-05,
+          "send": 0.00018080000000963992,
+          "receive": 0.0011850000000208638
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 6.229999999618485e-05,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 0.00018080000000963992,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.0011850000000208638,
+            "error_type": null
+          }
+        ],
+        "end": 163.8249713,
+        "duration": 0.001515299999994113,
+        "unattributed_seconds": 8.719999996742445e-05,
+        "response_gap": 0.015610400000014124,
+        "outcome": "frame",
+        "error_type": null
+      },
+      {
+        "start": 163.8388862,
+        "between_polls": 0.013914900000003172,
+        "stage_seconds": {
+          "input": 0.00016719999999281754,
+          "send": 0.00015709999999558022,
+          "receive": 0.0012640999999860014
+        },
+        "stage_calls": {
+          "input": 1,
+          "send": 1,
+          "receive": 1
+        },
+        "operations": [
+          {
+            "kind": "input",
+            "duration": 0.00016719999999281754,
+            "error_type": null
+          },
+          {
+            "kind": "send",
+            "duration": 0.00015709999999558022,
+            "error_type": null
+          },
+          {
+            "kind": "receive",
+            "duration": 0.0012640999999860014,
+            "error_type": null
+          }
+        ],
+        "end": 163.8405734,
+        "duration": 0.001687200000020539,
+        "unattributed_seconds": 9.880000004613976e-05,
+        "response_gap": 0.015601099999997814,
+        "outcome": "frame",
+        "error_type": null
+      }
+    ],
+    "event": {
+      "start": 163.8543518,
+      "between_polls": 0.013778399999978319,
+      "stage_seconds": {
+        "input": 6.700000000137152e-05,
+        "send": 0.00018140000000244072,
+        "receive": 0.05980249999998932
+      },
+      "stage_calls": {
+        "input": 1,
+        "send": 1,
+        "receive": 1
+      },
+      "operations": [
+        {
+          "kind": "input",
+          "duration": 6.700000000137152e-05,
+          "error_type": null
+        },
+        {
+          "kind": "send",
+          "duration": 0.00018140000000244072,
+          "error_type": null
+        },
+        {
+          "kind": "receive",
+          "duration": 0.05980249999998932,
+          "error_type": null
+        }
+      ],
+      "end": 163.914506,
+      "duration": 0.06015419999999949,
+      "unattributed_seconds": 0.00010330000000635664,
+      "response_gap": 0.07392999999999006,
+      "outcome": "frame",
+      "error_type": null
+    }
+  },
+  "observed_window_within_80ms": true,
+  "general_realtime_stability_validated": false,
+  "previous_over80ms_fault_reproduced": false,
+  "root_cause_proven": false,
+  "human": {
+    "icon_seen": null,
+    "silence_confirmed": null,
+    "returned_bootsel": true,
+    "repeat_requested_to_observe_silence": true
+  },
+  "source_sha256": {
+    "docs\\PASSIVE_TRANSPORT_RUN_20261025-164910.json": "c30d450e0b323469268eb3777b0680c1ba37c92602f9025664d4167dd1988c2c",
+    "docs\\V043_HOST_CAPTURE_20261025-165451.json": "1b4a297bf893809e998a7fddc706ef675cba0d09aaab674e4788a96164b0530b",
+    "docs\\PASSIVE_POLL_TIMING_PLAN_2026-10-25_G25.json": "1ac4e05ac4c04b17a03af90c596bcf1ae7c7aae889eb0dce0bd1b2e6667ff1de",
+    "docs\\V043_HOST_CAPTURE_20261025-164305.json": "cc98e65eaebd8921a885e2363d07378d55a50a28d126de40efe3432ece411ccb"
+  }
+}

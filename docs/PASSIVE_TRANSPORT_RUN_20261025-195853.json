@@ -1,0 +1,22 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "ae25c123c3bb1d5daa3e235485272fd0badba1c90f28c44607dd84357b996b76",
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "host_flash_write": false,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "6e994a6af89d2342e1619c656e9a7b18b3a14f2721a1ba664f59c27ecc33a0ce",
+    "baseline_generation": 28
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "Off",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "error": "ValueError('Existing iPhone USB / 2.4GHz hotspot required')",
+  "finalization_errors": []
+}

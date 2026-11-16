@@ -1,0 +1,13 @@
+{
+  "status": "OFFLINE_READY_V5_NOT_LOADED",
+  "change": "Log remote IO/OOB/AuthReq, local policy, and unchanged confirmation action; no policy change",
+  "elf_sha256": "a38b52405ef4c44cf6708f8024964b06d61b2baefe70c5915766c3871203c6a3",
+  "runner_sha256": "79d30faa967e29215a28ea974e05883de37ca8b32dfbabef7c3f05c614ed4269",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "hardware_actions": []
+}

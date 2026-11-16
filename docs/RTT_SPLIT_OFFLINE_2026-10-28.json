@@ -1,0 +1,19 @@
+{
+  "status": "PASSED_RTT_SPLIT_OFFLINE_ONLY",
+  "tests": 55,
+  "hardware_access": false,
+  "io_guard": true,
+  "game_entry_integrated": false,
+  "physical_baseline_reverified": false,
+  "last_known_generation": 43,
+  "files": [
+    {
+      "path": "tools/phase_gap_probe_v2.py",
+      "sha256": "cbd765aa51cd7eb6c546d45520b09ceabac1c2f611a5b0a3aec6ec9dc4fa01a9"
+    },
+    {
+      "path": "tools/test_phase_gap_probe_v2.py",
+      "sha256": "08f37cbed4b227e574e133c34030f9e1553d32fd9ea5e7703031de7969da49e7"
+    }
+  ]
+}

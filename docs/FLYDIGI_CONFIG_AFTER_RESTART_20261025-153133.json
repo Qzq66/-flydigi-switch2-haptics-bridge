@@ -1,0 +1,47 @@
+{
+  "readonly": true,
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "xinput_module": "C:\\WINDOWS\\SYSTEM32\\XInput1_4.dll",
+  "receiver_interfaces": [
+    {
+      "usage_page": "0x1",
+      "usage": 6,
+      "interface": 1
+    },
+    {
+      "usage_page": "0x1",
+      "usage": 5,
+      "interface": 0
+    },
+    {
+      "usage_page": "0xffa0",
+      "usage": 1,
+      "interface": 2
+    },
+    {
+      "usage_page": "0xc",
+      "usage": 1,
+      "interface": 1
+    },
+    {
+      "usage_page": "0x1",
+      "usage": 128,
+      "interface": 1
+    },
+    {
+      "usage_page": "0xffee",
+      "usage": 0,
+      "interface": 3
+    }
+  ],
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}

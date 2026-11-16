@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_RECOVERED_REGISTRATION_AND_TECHNICAL_SUBMISSION_CHECKS_NOT_FULL_GAME_ACCEPTANCE",
+  "checks": {
+    "strict_parent": true,
+    "parent_program_status": true,
+    "plan_bound": true,
+    "readback_verified": true,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": true,
+    "program_unchanged": true,
+    "full_source_motor_fields": true,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": true,
+    "independent_source_reconstruction": true,
+    "human_stopped": true,
+    "phase_gap_integrity": true,
+    "written_pcm_matches_independent_source": true
+  },
+  "human_registration_exit": true,
+  "human_manual_click": true,
+  "human_stopped_no_residual": true,
+  "full_game_assessment_preserved": "INCOMPLETE",
+  "generation": 52,
+  "reason": "Selected registration-only trial; user manually armed; missing full game-specific human evidence is not invented."
+}

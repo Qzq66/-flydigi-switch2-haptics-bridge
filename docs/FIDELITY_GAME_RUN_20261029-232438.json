@@ -1,0 +1,64 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "7088ed5ba867aca5c5b14ffa69c58402f5a93a39d9d3b3abc9d824b882c73e45",
+  "actual_switch_game": true,
+  "host_flash_write": false,
+  "firmware_log_write_expected": true,
+  "persistent_flydigi_commands": 0,
+  "flash_log_validation_pending": true,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "10afaaa6fcf6009fa095fadf9e63264f3b9fe497b4760f86024399b0b396894a",
+    "baseline_generation": 57
+  },
+  "accepted_input_proof": {
+    "verified": true,
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "accepted_input_generation": 13,
+    "source_hashes": {
+      "program": "dfb15c6f7b315b0a4545e59c3c6e6d59569977bd93a4fc9ee2e550b06a237867",
+      "capture": "3c23db0685dd4d27ed60817c30929f89d7372f0e5a3d0f72121c34f75a9b079a",
+      "baseline": "a5c24b94cff68eeebbcc169c812825bc5800fa13d36deda87cc9290c6cce8f89",
+      "assessment": "420c82102e40320343c974197a2afb5186b51867ace3eb44b9b7141c2ea8197c"
+    }
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "PASSED_ORDERED_PC_INPUT_LIVENESS",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 51464.703
+      },
+      {
+        "stage": 1,
+        "at": 51467.093
+      },
+      {
+        "stage": 2,
+        "at": 51467.375
+      },
+      {
+        "stage": 3,
+        "at": 51467.781
+      },
+      {
+        "stage": 4,
+        "at": 51468.39
+      }
+    ]
+  },
+  "error": "ValueError('Motor configuration changed')"
+}

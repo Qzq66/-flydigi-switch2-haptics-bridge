@@ -1,0 +1,53 @@
+{
+  "status": "PASSED_NO_ACTUATOR_STAGE_TIMING_AND_SAME_TRIAL_JOURNAL",
+  "checks": {
+    "program_completed": true,
+    "child_completed": true,
+    "plan_bound": true,
+    "pretest_flash_bound": true,
+    "fresh_same_trial_generation": true,
+    "full_readback_verified": true,
+    "firmware_unchanged": true,
+    "journal_complete": true,
+    "exact_motor_fields": true,
+    "sequence_continuous": true,
+    "terminal_confirmed": true,
+    "live_duration_complete": true,
+    "zero_motor_commands": true,
+    "no_persistent_configuration_commands": true,
+    "configuration_unchanged": true,
+    "cleanup_complete": true,
+    "measured_input_fixed_neutral": true,
+    "finite_stage_maxima": true,
+    "bounded_details": true,
+    "single_observed_boot": true
+  },
+  "generation": 25,
+  "motor_fields": 1969,
+  "live_seconds": 119.99112500000001,
+  "poll_calls": 13110,
+  "timeouts": 2,
+  "maximum_response_gap_seconds": 0.11029330000000215,
+  "stage_maximum_seconds": {
+    "input": 0.0020432999999968615,
+    "send": 0.0024954000000008136,
+    "receive": 0.06304100000000545,
+    "between_polls": 0.0193984999999941,
+    "unattributed": 0.0017470999999957826
+  },
+  "realtime_80ms_validated": false,
+  "root_cause_proven": false,
+  "worst_gap_context_retained": false,
+  "human": {
+    "icon_seen": true,
+    "silence_confirmed": null,
+    "returned_bootsel": true
+  },
+  "conclusion": "Input read max2.0433ms does not explain an individual 80ms stall. Receive-call waits and poll gaps warrant further measurement; OS scheduling and radio/network delay are not separated. Largest-gap detailed context was evicted by later lower-priority incidents.",
+  "source_sha256": {
+    "docs\\PASSIVE_TRANSPORT_RUN_20261025-163747.json": "beee6e4c3b118315bd1342f8c8924c1fd2c1d932aebb4f87840c932df1fd01ea",
+    "docs\\V043_HOST_CAPTURE_20261025-164305.json": "cc98e65eaebd8921a885e2363d07378d55a50a28d126de40efe3432ece411ccb",
+    "docs\\PASSIVE_POLL_TIMING_PLAN_2026-10-25_G24.json": "f46ed608d339f591857988f094f9d0b22848bcd254702346df1db7a5a2e43248",
+    "docs\\V043_HOST_CAPTURE_20261025-162834.json": "bf262e565e524376ff147c89f7aff75301ea1a4b91942e64cb180a25b5d30313"
+  }
+}

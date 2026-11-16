@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.20)
+set(PICO_BOARD pico2_w CACHE STRING "Existing RP2350 board target")
+set(PICO_PLATFORM rp2350-arm-s CACHE STRING "Existing ARM target")
+set(PICO_NO_FLASH 1 CACHE BOOL "Build-only component; no flash output")
+set(PICO_NO_PICOTOOL 1 CACHE BOOL "No image tools or automatic downloads" FORCE)
+set(FETCHCONTENT_FULLY_DISCONNECTED ON CACHE BOOL "Offline dependencies only" FORCE)
+include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(receiver_input_probe C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+pico_sdk_init()
+# Static component only: no main, UF2, image, loader, power/pin configuration,
+# multicore launch or Flash journal. PIO controller integration is separate.
+add_library(receiver_input_probe STATIC receiver_input_probe.c)
+target_include_directories(receiver_input_probe PUBLIC ${CMAKE_CURRENT_LIST_DIR})
+target_link_libraries(receiver_input_probe PUBLIC tinyusb_host pico_stdlib)
+set_source_files_properties(receiver_input_probe.c PROPERTIES COMPILE_OPTIONS "-Wall;-Wextra;-Werror")

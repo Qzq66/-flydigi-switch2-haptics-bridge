@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_G28_PASSIVE_WAKE_OBSERVATION_OFFLINE",
+  "tests": 117,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_v2_timing_source_and_evidence_unchanged": true,
+  "plan_sha256": "ae25c123c3bb1d5daa3e235485272fd0badba1c90f28c44607dd84357b996b76",
+  "source_sha256": {
+    "tools/wake_timing_probe.py": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f",
+    "tools/test_wake_timing_probe.py": "774099624cffa42cc3bfe24e206d1834d4bcf202d0a19c2194d38a948b823003",
+    "tools/passive_wake_policy_g28.py": "178b62fa0334dfa20e694f73b3a34e1ccb2d185e75934021c16912ec5a6e03bc",
+    "tools/run_passive_wake_g28.py": "13a2d336debcbfd8ca8dbb4fbd4ce060d58efd84497cf8da7704889a52d73fdf",
+    "tools/poll_timing_probe.py": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef",
+    "tools/poll_timing_probe_v2.py": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d",
+    "tools/test_poll_timing_probe_v2.py": "65087cb71c47154b1ff06933496ca628665de37f6cc512d8edad9429a2a9b7dd",
+    "tools/test_poll_timing_probe.py": "5c844377780e3c5030b476cc170656a7fcb4b52493a51efdf22af40a49daea90",
+    "tools/test_passive_wake_g28.py": "3336f343f2cc0e0175cea566d9b0ca35821102ea6ed0cf49e1d8e71e1a9565e1",
+    "tools/verify_passive_wake_g28_offline.py": "812fcf08498e0bccbd6300fd90a81b29d65f6f7cb023a1aab03678c94f460570"
+  }
+}

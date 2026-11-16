@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_PREPARED_CAPACITY_ONLY_CANDIDATE_NOT_RUN",
+  "hardware_run": false,
+  "files": [
+    {
+      "path": "tools/ram_capacity_path.py",
+      "sha256": "437372590a27be7616b1d5d07b2a9193f243a989beee3bcedefc098d7720d74f"
+    },
+    {
+      "path": "tools/run_pktmon_ram_capacity.ps1",
+      "sha256": "70f802c9f6d40170ed6d01e817223f704524892d32606b45d8e8f80c0089f9e8"
+    },
+    {
+      "path": "tools/analyse_ram_capacity.py",
+      "sha256": "672339bd9b44a56d7ae7d269403c5f8e5a581e484d4713c82f0800c6b943bc0d"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_PLAN_2026-10-26.json",
+      "sha256": "ef997fd0a3ce94769c47b10fdd1be1dc4f36c0ccb7966d81af373390beadf039"
+    }
+  ]
+}

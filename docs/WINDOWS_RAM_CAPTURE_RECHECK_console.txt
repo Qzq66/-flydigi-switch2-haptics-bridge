@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "name": "unique_candidate",
+      "passed": true
+    },
+    {
+      "name": "HID_open",
+      "passed": true
+    },
+    {
+      "name": "RAM_identity",
+      "passed": true
+    },
+    {
+      "name": "broadcast_discovery_exact_endpoint",
+      "passed": true
+    },
+    {
+      "name": "input_mode",
+      "passed": true
+    },
+    {
+      "name": "IMU_mode2",
+      "passed": true
+    },
+    {
+      "name": "vibration_enable",
+      "passed": true
+    },
+    {
+      "name": "MCU_compat",
+      "passed": true
+    },
+    {
+      "name": "SPI_write_rejected",
+      "passed": true
+    },
+    {
+      "name": "player_LED_zero",
+      "passed": true
+    },
+    {
+      "name": "collector_no_errors",
+      "passed": true
+    },
+    {
+      "name": "300_raw_words_exact",
+      "passed": true
+    },
+    {
+      "name": "raw_sequence_contiguous",
+      "passed": true
+    },
+    {
+      "name": "raw_timestamps_monotonic",
+      "passed": true
+    },
+    {
+      "name": "no_transport_overflow",
+      "passed": true
+    },
+    {
+      "name": "USB_input_remains_responsive",
+      "passed": true
+    },
+    {
+      "name": "single_registration_press_and_release",
+      "passed": true
+    },
+    {
+      "name": "relay_face_bottom",
+      "passed": true
+    },
+    {
+      "name": "relay_shoulders",
+      "passed": true
+    },
+    {
+      "name": "relay_full_axes",
+      "passed": true
+    },
+    {
+      "name": "input_timeout_returns_to_neutral",
+      "passed": true
+    },
+    {
+      "name": "home_injection_rejected",
+      "passed": true
+    },
+    {
+      "name": "explicit_stream_end_received",
+      "passed": true
+    },
+    {
+      "name": "last_neutral_field_received",
+      "passed": true
+    },
+    {
+      "name": "final_event_count_exact",
+      "passed": true
+    },
+    {
+      "name": "final_sequence_exact",
+      "passed": true
+    },
+    {
+      "name": "collector_completed_without_errors",
+      "passed": true
+    },
+    {
+      "name": "end_acknowledgement_replied",
+      "passed": true
+    }
+  ],
+  "status": "PASSED_USB_WIFI_RAW_INTEGRATION",
+  "physical_output": false,
+  "endpoint": {
+    "ip": "192.168.137.174",
+    "port": 49724
+  },
+  "terminal_ack_replied": true,
+  "events": 307,
+  "duplicates": 0,
+  "final_usb_stats": {
+    "version": 5,
+    "mode": 48,
+    "rumble_live": false,
+    "no_flash": 1,
+    "received": 466,
+    "replies": 165,
+    "rumble_count": 306,
+    "rejected": 1,
+    "overflow": 0,
+    "short_packets": 0,
+    "last_rumble": "0000000000000000",
+    "usb_stage": 5,
+    "lights": 0,
+    "imu": 2,
+    "vibration": 1,
+    "trace_count": 307
+  },
+  "collector_errors": []
+}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\handoff\2026-10-22\outputs\pico-bridge-v042-raw-test-20261022-200702.json
+{
+  "status": "PASSED_COMPLETE_RAM_RECHECK",
+  "checks": {
+    "original_test_passed": true,
+    "ram_snapshot_crc_valid": true,
+    "local_log_complete": true,
+    "all_motor_fields_match": true,
+    "complete_sequence": true,
+    "end_confirmed": true
+  },
+  "motor_commands": 0,
+  "persistent_writes": 0,
+  "local_motor_fields": 307,
+  "received_motor_fields": 307,
+  "original_udp_packet_count": 2265,
+  "original_udp_sha256": "f45eaff98181bc62e304bb5fac23f364483b59d89b6927a7bed89ff3bd61daf9",
+  "original_udp_location": "local ignored work/private; contains live session nonce",
+  "note": "RAM snapshot is taken before stream end; END2 persistence still requires a separate Flash test. Original UDP packets are private; decoded events contain no session token."
+}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\docs\WINDOWS_RAM_CAPTURE_RECHECK_20261022-200607.json

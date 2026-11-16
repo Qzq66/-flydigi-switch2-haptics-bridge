@@ -1,0 +1,18 @@
+{
+  "status": "OFFLINE_READY_SWITCH_EIR_V2_NOT_LOADED",
+  "hashes": {
+    "standalone/switch_input_probe/main.c": "14f4a78bb6ae716dd55f5f0fc63e2cac19602889d45ee941cd1f264a64f1a3b7",
+    "standalone/switch_input_probe/build-ram/switch_input_probe.elf": "f392bfe3703c08a2c80ffdce9fab31025dd8f79e0224d87f142c3729f6a7b96d",
+    "work/switch_discovery_eir_probe.ps1": "4c01b15cf8f073cf1b75d336226ef8e3f0ed91e3b15aba19cc71c944a55fe113"
+  },
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "hardware_actions": [],
+  "change": "Explicit RSSI/EIR inquiry; version2; no other behavior change",
+  "field_scope": "discovery only; no connect/pair/output",
+  "context": "User corrected earlier state: controller had connected to NS2 console and has now disconnected. This does not prove Pico connection."
+}

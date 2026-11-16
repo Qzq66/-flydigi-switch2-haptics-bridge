@@ -1,0 +1,17 @@
+{
+  "status": "INCOMPLETE",
+  "hardware_access": false,
+  "capture_started": false,
+  "components": [],
+  "motor_commands": 0,
+  "full_capture": {
+    "matched_reply_sequences": 0,
+    "all_three_observed": false,
+    "matched_component_copies": 0,
+    "formats": {},
+    "truncated_or_drop_reported": 0,
+    "component_to_app_ns_range": null,
+    "timestamp_scope": "Epoch/units sanity only; not original radio timing or precise performance calibration"
+  },
+  "error": "ValueError('Actual RX component bounds')"
+}

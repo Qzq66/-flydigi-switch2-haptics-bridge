@@ -1,0 +1,17 @@
+{
+  "status": "PASSED_26_OFFLINE_CHECKS_G35_BINDING_AND_SYNTAX",
+  "tests": 26,
+  "source_sha256": {
+    "tools/passive_packet_policy_g35.py": "454db9eecc2bb86ff6a50ce7c92006f43856f963394b4afcfb3ea3883ff7ac35",
+    "tools/run_passive_packet_g35.py": "caf640d1652236a302d1180be45dd5f840bd009be9c68280c9a587bb4c86e39c",
+    "tools/run_pktmon_passive_g35.ps1": "932967c7d55646792f2411e939c8b3bd3d823069890638c8957a805e7f8dfa30",
+    "tools/analyse_passive_packet_g35.py": "f32e0973d7278a47016e5b01147dce6d5467fa9fc3274cd604bb9fe32d561a2e",
+    "tools/analyse_passive_packet_g35_recovered.py": "10d005d7c386a789773f48873a132158e5b093ba673697a0f94f4c1ca768a9bd",
+    "tools/component_receive_analysis_v2.py": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33",
+    "tools/pktmon_capture_common_v4.ps1": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825",
+    "tools/usb_recovery_clock.py": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+  },
+  "separate_hardware_attempt_completed": true,
+  "offline_tests_access_hardware": false,
+  "old_g32_freeze_preserved": true
+}

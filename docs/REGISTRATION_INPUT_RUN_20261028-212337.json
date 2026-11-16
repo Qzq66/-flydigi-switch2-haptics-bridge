@@ -1,0 +1,37 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "e23f1f691707d6b138ea44e0f336f99cfe07c85d4e7c6683cca741ab2537bed6",
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "host_flash_write": false,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "8b22fb7f43c37c700b2120d401a14f9eddb5ff099fbc30920096c2d8d2887597",
+    "baseline_generation": 49
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "CANCELLED_OR_TIMED_OUT",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "error": "BridgeFault('XInput source disconnected; relay stopped')",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 5383.453
+      }
+    ]
+  },
+  "error": "ValueError('Actual PC input precheck failed')",
+  "finalization_errors": []
+}

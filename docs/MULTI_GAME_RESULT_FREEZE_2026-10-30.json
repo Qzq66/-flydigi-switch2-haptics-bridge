@@ -1,0 +1,69 @@
+{
+  "status": "FROZEN_FIRST_THREE_EVENT_GAME_PASS",
+  "files": [
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261030-001708.json",
+      "sha256": "f5995882e55c5ac5ca076336a7562017ad2eb19cd21ed89860b520818925661d"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261030-002306.json",
+      "sha256": "b245a67017c16b1904453d29da318fbd3060638b5ad0523d5c81781f19fc7874"
+    },
+    {
+      "path": "docs/MULTI_GAME_G58_ASSESSMENT_20261030-001708.json",
+      "sha256": "25ccbd58629885abe8203bf2347710e3b63aa3715e6610bee4635e8f778f511a"
+    },
+    {
+      "path": "docs/MULTI_GAME_THREE_EVENT_RESULT_2026-10-30.json",
+      "sha256": "d8ffafad4ea68dcafef43731ad47b411dc5cc3b71d7560e2a5d31d24d44fadcc"
+    },
+    {
+      "path": "docs/MULTI_GAME_G58_PLAN_2026-10-30.json",
+      "sha256": "a29ef0c0bef2baffa9f9125bfe24928f636002dda31f0ab0dc57c6a992673180"
+    },
+    {
+      "path": "tools/multi_game_policy_g58.py",
+      "sha256": "4b0434814a8c2c6df900ff0b96090895b801dcf49542e8464b620063f621b929"
+    },
+    {
+      "path": "tools/run_multi_game_g58.py",
+      "sha256": "4d08c911565ff2fa2abd149f1bc169b84cc4c26c1a26cfc89609a4248eb6c33c"
+    },
+    {
+      "path": "tools/assess_multi_game_g58.py",
+      "sha256": "710b1d819747e99ba93684da5231d48671f7d942c7a36ba615f32923607ca4d5"
+    },
+    {
+      "path": "tools/multi_event_game_session.py",
+      "sha256": "855c140ede6a65556173c40e9332f2fbbda079b4c4cd29bfe83faa7301cea10d"
+    },
+    {
+      "path": "tools/multi_event_validation.py",
+      "sha256": "53b70830d91b439148dc3da74c5a3339c731ee0cdcedd37a9385d427d082b951"
+    },
+    {
+      "path": "tools/multi_event_game_window.py",
+      "sha256": "bbe70d1dbd26ab607ab455e6a04ec5f3adbe71978cce7e437ce91782f4fbbe20"
+    },
+    {
+      "path": "tools/bounded_multi_event_session.py",
+      "sha256": "845887fc7281b0cf4b006e2832d66ee8e75ae75ea7705a3617a20c9584878146"
+    },
+    {
+      "path": "tools/bounded_multi_event_renderer.py",
+      "sha256": "022ce233362020c39f5551b829015933a2a5c484eac1735e996a20b872ddff73"
+    },
+    {
+      "path": "tools/updated_config_game_owner.py",
+      "sha256": "97ff2a02e3108f020eb37f8091fd2bdb620ec7ef5260b454f3dbe858c31baeaa"
+    },
+    {
+      "path": "tools/receive_budget12_transport.py",
+      "sha256": "b191f7ff3dd27dd3658a32863508bf9b65c079ce2a4a24dd194c15a876e1e75d"
+    },
+    {
+      "path": "tools/bridge_control.py",
+      "sha256": "985e1ac4c3611193d9d5916879a086578d1d8ecb435f1de55e9614b7780e5534"
+    }
+  ]
+}

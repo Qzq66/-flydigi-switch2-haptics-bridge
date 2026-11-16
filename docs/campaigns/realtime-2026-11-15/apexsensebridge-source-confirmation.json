@@ -1,0 +1,66 @@
+{
+  "status": "PUBLIC_FLYDIGI_SOURCE_CONFIRMED",
+  "repository": "ReynArts/ApexSenseBridge",
+  "review_date": "2026-11-15",
+  "commit": "f43d06a828a78c709bf336bcd7f93beb026ba3c0",
+  "user_supplied_repository_url": "https://github.com/ReynArts/ApexSenseBridge",
+  "hardware_actions": 0,
+  "flash_writes": 0,
+  "binary_executed": false,
+  "code_integrated": false,
+  "files": [
+    {
+      "path": "src/flydigi/Apex6Protocol.h",
+      "role": "Known Flydigi vendor report constants and 8-subframe block types"
+    },
+    {
+      "path": "src/flydigi/Apex6Protocol.cpp",
+      "role": "Identity/command/realtime waveform packet construction and validation"
+    },
+    {
+      "path": "src/flydigi/Apex5Input.cpp",
+      "role": "Vendor input parsing; mapping types are not proof of Bluetooth packet compatibility"
+    },
+    {
+      "path": "src/dualsense/Apex6HapticBridge.cpp",
+      "role": "DualSense feedback to Flydigi haptics orchestration"
+    },
+    {
+      "path": "src/platform/windows/WindowsHidTransport.cpp",
+      "role": "Windows-specific transport; must be replaced for Pico"
+    }
+  ],
+  "connection_support": {
+    "readme_lines": [
+      176,
+      239
+    ],
+    "documented_modes": [
+      "2.4GHz original receiver",
+      "wired USB"
+    ],
+    "direct_Flydigi_Bluetooth_haptics": "UNVERIFIED"
+  },
+  "license_evidence": {
+    "readme_lines": [
+      37,
+      522
+    ],
+    "readme_label": "MIT",
+    "license_file": "GPL-3.0-or-later",
+    "inconsistent": true,
+    "no_reuse_permission_conclusion_drawn": true
+  },
+  "naming": {
+    "local_package": "APEXtoDS 0.8.25.10",
+    "public_repository": "ApexSenseBridge",
+    "same_binary_or_source_provenance": "UNVERIFIED; do not equate solely from purpose"
+  },
+  "search": {
+    "public_github_repository_name_query": "APEXtoDS",
+    "exact_name_results_seen": 0,
+    "negative_result_does_not_prove_absence": true
+  },
+  "correction": "Earlier evidence established only that the local APEXtoDS package lacked reviewed plaintext core sources. Public ApexSenseBridge source is confirmed and is a valid protocol research reference, without establishing provenance for the local binary.",
+  "next_step": "Use the public protocol/input modules as references while building isolated Pico Bluetooth discovery/input feasibility; do not import unrelated profile/config commands or Windows backend."
+}

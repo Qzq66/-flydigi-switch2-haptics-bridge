@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED_JOURNAL_ONLY_BASELINE_ADVANCE_NOT_GAME_SUCCESS",
+  "checks": {
+    "full_readback": true,
+    "same_board": true,
+    "program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "two_valid_complete_slots": true,
+    "user_confirmed_normal_power": true,
+    "not_game_acceptance": true
+  },
+  "slots": [
+    {
+      "generation": 39,
+      "reason": "boot_limit",
+      "elapsed_ms": 181146,
+      "stored_events": 15,
+      "dropped_events": 0,
+      "complete": true,
+      "crc_valid": true,
+      "stream_end": "drain_timeout"
+    },
+    {
+      "generation": 40,
+      "reason": "boot_limit",
+      "elapsed_ms": 181147,
+      "stored_events": 15,
+      "dropped_events": 0,
+      "complete": true,
+      "crc_valid": true,
+      "stream_end": "drain_timeout"
+    }
+  ],
+  "full_flash_sha256": "dba88a2bf447dd19bb73fefe512e3e1ba31f3d67d08228685f57ac28e302869e",
+  "old_capture_preserved_incomplete": true,
+  "hardware_output_started": false
+}

@@ -1,0 +1,42 @@
+LISTENER_STARTED; discovery window 120 seconds; bounded notification output only
+{
+  "status": "INCOMPLETE",
+  "firmware": "retained v040",
+  "mode": "retained Windows 120ms notification, +/-12",
+  "prompt_ms": 120,
+  "prompt_offset": 12,
+  "actual_switch_test": true,
+  "automatic_resume": false,
+  "persistent_flydigi_commands": 0,
+  "guardian": "strict current parent supervising frozen legacy child; no timeout accepted as success",
+  "interface": {
+    "vid": "37D7",
+    "pid": "2502",
+    "usage_page": "FFA0",
+    "interface": 2,
+    "input_bytes": 33,
+    "output_bytes": 33,
+    "feature_bytes": 0
+  },
+  "child_exit": 1,
+  "guardian_killed_child": false,
+  "child_stderr": "",
+  "neutral_written_clock": 120.0997531,
+  "disable_attempts": [
+    {
+      "attempt": 1,
+      "status": "ACK_OK"
+    }
+  ],
+  "runtime_disable_ack": true,
+  "identity_matches": true,
+  "state_matches": true,
+  "ram_matches": {
+    "global": true,
+    "mapping": true,
+    "lighting": true,
+    "motors": true
+  },
+  "configuration_unchanged": true
+}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\docs\WINDOWS_LEGACY_PROMPT_RECHECK_20261022-202834.json

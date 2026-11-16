@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_UPDATED_CONFIG_AMP9_120MS_EXIT_AND_NATIVE_RECOVERY",
+  "checks": {
+    "program": true,
+    "manual": true,
+    "no_config_writes": true,
+    "frames": true,
+    "disable_ack": true,
+    "native_stop": true,
+    "quiet": true,
+    "identity": true,
+    "state": true,
+    "configuration": true,
+    "human_bilateral_comfortable": true,
+    "human_stopped": true,
+    "human_input_normal_without_replug": true
+  },
+  "custom_peak_code_offset": 9,
+  "custom_frequency_hz": 160,
+  "custom_source_ms": 120,
+  "motor_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+  "game_baseline_adopted": false,
+  "source_sha256": {
+    "UPDATED_CONFIG_CUSTOM_EXIT_AMP9_20261029-234422.json": "45f4f1af2b6d56910bea567205d0cb3c65c7427c3adc146651b7eaf2e5bd0d0e",
+    "tools/updated_config_custom_exit_amp9.py": "8d2f6139d1d478dacf53458c92fa8b6f4ff9b23947a8bf551b606f387fc1fddd"
+  }
+}

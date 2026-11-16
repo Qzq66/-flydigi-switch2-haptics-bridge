@@ -1,0 +1,15 @@
+{
+  "status": "PASSED_GAP42_OFFLINE_ONLY",
+  "tests": 158,
+  "io_guard": true,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "runner_delta_checked": true,
+  "existing_parameters_unchanged": true,
+  "unsafe_plan_rejected": true,
+  "missing_detail_rejected": true,
+  "synthetic_events": 2000,
+  "synthetic_compact_snapshot_bytes": 75145,
+  "maximum_compact_snapshot_bytes": 262144,
+  "plan_sha256": "c262a6d8701832e97f57b42e8c21ce0f0b05600b3dfe7b78a618b8416cb06b0a"
+}

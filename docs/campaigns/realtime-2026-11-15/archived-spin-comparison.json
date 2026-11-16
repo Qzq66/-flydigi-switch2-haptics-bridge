@@ -1,0 +1,93 @@
+{
+  "status": "SINGLE_SOFTWARE_SPIN_COMPARISON_COMPLETED",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "product_behavior_changed": false,
+  "protection_parameters_changed": false,
+  "process_environment_modified": false,
+  "existing_spin_code_reused_with_isolated_globals": true,
+  "baseline": {
+    "status": "HOST_SOFTWARE_FULL_WINDOW_PASSED",
+    "frames": 7500,
+    "events": 6,
+    "active_ms": [
+      1698,
+      1698
+    ],
+    "peak": 9,
+    "maximum_lateness_ms": 3.4617000006047505,
+    "p99_lateness_ms": 1.3517000019334091,
+    "over2ms": 6,
+    "over3ms": 1,
+    "cpu_seconds": 15.140625,
+    "wall_seconds": 60.7361539,
+    "cpu_one_core_ratio": 0.2492852119831052
+  },
+  "candidate": {
+    "status": "HOST_SOFTWARE_FULL_WINDOW_PASSED",
+    "frames": 7500,
+    "events": 6,
+    "active_ms": [
+      1698,
+      1698
+    ],
+    "peak": 9,
+    "maximum_lateness_ms": 2.6953000009370953,
+    "p99_lateness_ms": 0.4645999992618499,
+    "over2ms": 2,
+    "over3ms": 0,
+    "cpu_seconds": 22.15625,
+    "wall_seconds": 60.739134,
+    "cpu_one_core_ratio": 0.3647771797339093
+  },
+  "source_metadata_identical": true,
+  "spin_wait": {
+    "enabled": true,
+    "spins": 7269,
+    "spin_seconds": 8.767344300000168,
+    "maximum_spin_seconds": 0.00227760000000643,
+    "margin_seconds": 0.002,
+    "process_environment_modified": false
+  },
+  "cpu_time_increase_percent": 46.33642930856554,
+  "full_window_reference_checks": {
+    "full_window": true,
+    "events_distributed": true,
+    "completed_six": true,
+    "stopped": true,
+    "no_fault": true,
+    "successful_frames": true,
+    "left_pcm": true,
+    "right_pcm": true,
+    "reports": true,
+    "dose": true,
+    "peak": true,
+    "whole_activity": true,
+    "whole_dose": true,
+    "per_event": true,
+    "event_totals": true
+  },
+  "regression": {
+    "tests": 360,
+    "seconds": 14.5672183,
+    "status": "PASSED_L0_OFFLINE_SUBSET"
+  },
+  "decision": "Retain as an offline candidate; no live-entry adoption or hardware trial scheduled",
+  "limitations": [
+    "One run per mode, at different times; uncontrolled host load prevents causal/statistical inference",
+    "Synthetic packet envelopes and repeated archived excerpt; no actual input/device/network workload",
+    "2ms is the start-of-spin margin, not a guarantee on observed wall duration; scheduling can extend it",
+    "Higher CPU time and potential competition with collector must be considered; collector latency not separately measured here",
+    "Earlier software and hardware failures remain valid"
+  ],
+  "sha256": {
+    "tools/offline_spin_adapter.py": "32d89bfb828be4cfe5b18452e6e0b9e56be14d6b4e5d97a1ba813d3881b95cf8",
+    "tools/test_offline_spin_adapter.py": "acc0dbac04897ccbf6e58939e04b821999ab2b2e9f6688713fccb0637da0daba",
+    "tools/sustained_game_spin_child.py": "ecb75dc7111f2755aa4af3b02a3d645ff18faa90dcaa09198d06ff1e519466de",
+    "tools/software_loop_replay.py": "e743a342011eb9871ab0772007fd197a3aac72a42285bc7bbd188172294e608c",
+    "tools/verify_campaign.py": "9c3d7b6f3d27e344501fd5f76790fab85868285abbe87d3e2f439ce376d2ea6e",
+    "docs/campaigns/realtime-2026-11-15/software-loop-archived.json": "dabcb17a767c8eac6e32a4f5263a14b4b69e1d0b96cac8ecf2c3f477ea02aa5d",
+    "docs/campaigns/realtime-2026-11-15/software-loop-archived-spin.json": "95e47c5d1e53ffeccf46190563d45a028b13281f65eac5ab995c98c78fa016bb",
+    "docs/campaigns/realtime-2026-11-15/l0-20261115-212045.json": "a3a108241209de24635e7b41a92bc47e7bd81976dd1fb6d2668e2f4abe9d279d"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "OFFLINE_READY_V6_NOT_LOADED",
+  "version": 6,
+  "policy_change": "Allow general bonding; no MITM. Host keys RAM only, peripheral may persist bond. No auto acceptance added.",
+  "elf_sha256": "2f29f2c12d969c66506d42222e7236850d5fba301e4fdf46e85165c3b78df353",
+  "runner_sha256": "0caab9d7956aa35d57b40d025fdf179e71623d3fb7c01e2e4e8b080bf822ec38",
+  "main_sha256": "88587b8d731793effda6f34903ca27c54ddd97fc1568881a6edef0af3271eba9",
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "hardware_actions": []
+}

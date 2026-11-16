@@ -1,0 +1,50 @@
+{
+  "status": "FROZEN_PASSED_SINGLE_GAME_DUAL_BAND",
+  "files": [
+    {
+      "path": "tools/fidelity_game_policy_g37.py",
+      "sha256": "6f9283d4e6f8c632aa22f450668b5e9d432457464bdf3dbe5cf43b1832ffb93c"
+    },
+    {
+      "path": "tools/run_fidelity_game_g37.py",
+      "sha256": "e66e6144036b5a676f65b7829f37db507487663981bae2c4004e1e46986be336"
+    },
+    {
+      "path": "tools/assess_fidelity_game_g37.py",
+      "sha256": "c4b5e371ba5d0a06bfc1f2be3ce15542487c67e81eb62821ba499db4c42ac396"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_PLAN_G37_2026-10-26.json",
+      "sha256": "29dcac3643d0028250212ad36c9061af494dd8049f5cfe20c4b9486028989851"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G37_OFFLINE_2026-10-26.json",
+      "sha256": "19038106f1ec93ec98e6dc032f2bc89604e0592db10416591a17d0ea3c7a2694"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261026-232226.json",
+      "sha256": "ebd27c5d36631d85b6d91fd27392da2090d9f33cbe68b2e3774f6480af4be0b7"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G37_ASSESSMENT_20261026-232226.json",
+      "sha256": "98ea27869f660341221650d6ce6fc9cbab47a55a2164adc86ff2026b02b6ed1e"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261026-232747.json",
+      "sha256": "cc6132b2b4d6039942536cd739462f03b8506b8e03505b8673b803500f3cef5b"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_G37_2026-10-26.md",
+      "sha256": "cf96780c74f252f6cd5c934d385f3e7b257aff62d2045ea78a29cf3419f1e58d"
+    },
+    {
+      "path": "docs/RAM_PACING_RTT_20261026-222940.json",
+      "sha256": "b59562341e46f89e5b9d13cd06f96455f620b4a2d91ea7f6b2557ad7e94a6450"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261026-232833.json",
+      "sha256": "ea143c5ddb172f7abafbb231d9bf1a63ea1a06989b5cba322b78d838748059c0"
+    }
+  ],
+  "baseline_generation": 38
+}

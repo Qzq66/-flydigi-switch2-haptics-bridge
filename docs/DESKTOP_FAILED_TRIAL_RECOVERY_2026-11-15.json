@@ -1,0 +1,25 @@
+{
+  "status": "FAILED_TRIAL_LOG_RECOVERED",
+  "trial": "20261030-003131",
+  "generation": 60,
+  "source_fields": 1251,
+  "source_fields_match": true,
+  "readback_checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": true,
+    "fresh_single_generation": true,
+    "complete_persistent_journal": true
+  },
+  "original_trial_status": "INCOMPLETE",
+  "output_fault": "BridgeFault('wire heartbeat timeout')",
+  "manual_armed": false,
+  "output_frames": 0,
+  "completed_events": 0,
+  "runtime_disable_ack": true,
+  "configuration_unchanged": true,
+  "flash_write": false
+}

@@ -1,0 +1,117 @@
+{
+  "arms": {
+    "armed_boost": {
+      "collector": {
+        "count": 6571,
+        "maximum": 0.003581800001586089,
+        "median": 0.0015492000003287103,
+        "minimum": 0.0005098999991896562,
+        "p95": 0.0016106000003783265,
+        "p99": 0.0016765000001323642
+      },
+      "dispatch": {
+        "at_or_over_4ms": 7,
+        "dispatched": 1500,
+        "lateness_seconds": {
+          "count": 1500,
+          "maximum": 0.00578480015428795,
+          "median": 0.001187800133266137,
+          "minimum": 3.002623998327181e-07,
+          "p95": 0.002815400068357121,
+          "p99": 0.003315900146844797
+        },
+        "over_3ms": 36,
+        "over_6ms": 0
+      },
+      "gate_verdicts": {
+        "FAULT": 7,
+        "OK": 1493
+      },
+      "wake_overshoot": {
+        "over_1ms": 14283,
+        "over_3ms": 168,
+        "over_4ms": 33,
+        "over_6ms": 2,
+        "overshoot_seconds": {
+          "count": 14847,
+          "maximum": 0.00626080000094953,
+          "median": 0.0011028999999543885,
+          "minimum": 1.2799999443814138e-05,
+          "p95": 0.002119999999398715,
+          "p99": 0.0030699999990465585
+        }
+      },
+      "wake_period": {
+        "count": 10000,
+        "maximum": 0.004257599999618833,
+        "median": 0.003025800000614254,
+        "minimum": 0.0010127999994438142,
+        "p95": 0.003110400000878144,
+        "p99": 0.0031710000002931338
+      }
+    },
+    "normal": {
+      "collector": {
+        "count": 6586,
+        "maximum": 0.009023499998977058,
+        "median": 0.0015446999988052994,
+        "minimum": 0.0005094999997818377,
+        "p95": 0.0016101000002090586,
+        "p99": 0.0016890999996685423
+      },
+      "dispatch": {
+        "at_or_over_4ms": 10,
+        "dispatched": 1500,
+        "lateness_seconds": {
+          "count": 1500,
+          "maximum": 0.009334800235592411,
+          "median": 0.00120740027341526,
+          "minimum": 2.2002077457727864e-06,
+          "p95": 0.002842600109943305,
+          "p99": 0.0034732001113297883
+        },
+        "over_3ms": 39,
+        "over_6ms": 1
+      },
+      "gate_verdicts": {
+        "FAULT": 10,
+        "OK": 1490
+      },
+      "wake_overshoot": {
+        "over_1ms": 14320,
+        "over_3ms": 161,
+        "over_4ms": 26,
+        "over_6ms": 4,
+        "overshoot_seconds": {
+          "count": 14852,
+          "maximum": 0.010680599998726392,
+          "median": 0.001098400000249967,
+          "minimum": 1.1700000162818448e-05,
+          "p95": 0.0021125000004976755,
+          "p99": 0.0030653999985806877
+        }
+      },
+      "wake_period": {
+        "count": 10000,
+        "maximum": 0.009751199999300297,
+        "median": 0.0021587000010185875,
+        "minimum": 0.0010122000003320863,
+        "p95": 0.0031059000011737226,
+        "p99": 0.0031546999998681713
+      }
+    }
+  },
+  "constants": {
+    "collector_wait_seconds": 0.0005,
+    "gate_seconds": 0.004,
+    "period_seconds": 0.008,
+    "wait_seconds": 0.001
+  },
+  "hardware_actions": 0,
+  "sample": {
+    "load_threads": 2,
+    "periods": 1500,
+    "wakes": 10000
+  },
+  "status": "PASSED_OFFLINE_PRIORITY_COVERAGE"
+}

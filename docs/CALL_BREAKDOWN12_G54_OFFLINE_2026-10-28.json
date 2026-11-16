@@ -1,0 +1,11 @@
+{
+  "status": "PASSED_CALL_BREAKDOWN12G54_OFFLINE_ONLY",
+  "tests": 173,
+  "io_guard": true,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "no_actuator_child_ast_checked": true,
+  "synthetic_polls": 2000,
+  "synthetic_compact_bytes": 56980,
+  "maximum_compact_bytes": 262144
+}

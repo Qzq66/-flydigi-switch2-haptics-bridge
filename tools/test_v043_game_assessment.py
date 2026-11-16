@@ -34,5 +34,14 @@ class GameAssessment(unittest.TestCase):
         self.assertEqual(result['decoded_post_arm_active_groups'],expected['decoded_post_arm_active_groups'])
         self.assertEqual(result['first_active_ms_after_arm'],expected['first_active_ms_after_arm'])
         self.assertEqual(result['status'],expected['status'])
+    def test_combat_allows_complete_multiple_edges_within_existing_budget(self):
+        args=list(fixture());args[0]['scene']='dodge-attack';args[0]['child'].update(prompt_counts=[2,1],active_samples=[240,120])
+        self.assertTrue(all(assess(*args,True,True,True,scene='dodge-attack')['checks'].values()))
+        self.assertEqual(assess(*args,True,True,True)['status'],'INCOMPLETE')
+    def test_combat_rejects_excess_partial_and_unlabelled_scene(self):
+        for counts,samples in (([4,1],[480,120]),([2,1],[232,120]),([0,1],[0,120])):
+            args=list(fixture());args[0]['scene']='dodge-attack';args[0]['child'].update(prompt_counts=counts,active_samples=samples)
+            self.assertEqual(assess(*args,True,True,True,scene='dodge-attack')['status'],'INCOMPLETE')
+        self.assertEqual(assess(*fixture(),True,True,True,scene='dodge-attack')['status'],'INCOMPLETE')
 
 if __name__=='__main__':unittest.main()

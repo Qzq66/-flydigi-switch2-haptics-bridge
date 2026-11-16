@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_CAPACITY_COMPARISON_AND_CLEANUP",
+  "checks": {
+    "flash_before": true,
+    "flash_after": true,
+    "ram_loaded": true,
+    "no_flash_writer": true,
+    "timer_released": true,
+    "bootsel_verified": true,
+    "program_cleanup": true,
+    "capture_cleanup": true,
+    "capture_stopped": true,
+    "filter_removed": true,
+    "no_flydigi": true,
+    "no_flash_write": true,
+    "no_motors": true,
+    "network_unchanged": true,
+    "full_coverage": true,
+    "nineteen_components": true,
+    "RAM_CAPACITY_FREEZE_2026-10-26": true,
+    "RAM_RETENTION_RUN_FREEZE_20261026-215717": true
+  },
+  "all_checks_passed": true,
+  "game_latency_root_cause_proven": false,
+  "native_haptics_new_validation": false
+}

@@ -1,0 +1,36 @@
+{
+  "configuration_writes": 0,
+  "motor_commands": 0,
+  "driver_update_user_reported": true,
+  "driver_causality_proven": false,
+  "reference_backup": "fidelity-game-backup-20261028-222645.json",
+  "identity_matches": true,
+  "state_matches": false,
+  "regions": {
+    "global": {
+      "before_bytes": 82,
+      "current_bytes": 82,
+      "unchanged": true,
+      "differing_byte_positions": 0
+    },
+    "mapping": {
+      "before_bytes": 22,
+      "current_bytes": 22,
+      "unchanged": true,
+      "differing_byte_positions": 0
+    },
+    "lighting": {
+      "before_bytes": 204,
+      "current_bytes": 222,
+      "unchanged": false,
+      "differing_byte_positions": 96
+    },
+    "motors": {
+      "before_bytes": 64,
+      "current_bytes": 64,
+      "unchanged": false,
+      "differing_byte_positions": 8
+    }
+  },
+  "status": "CURRENT_CONFIGURATION_BACKED_UP_READONLY_NOT_ADOPTED"
+}

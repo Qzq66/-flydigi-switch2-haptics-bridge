@@ -1,0 +1,45 @@
+{
+  "status": "PASSED_BOUNDED_FIDELITY_AB_WITH_HUMAN_FEEDBACK",
+  "checks": {
+    "source_bound_plan": true,
+    "plan_hash_matches": true,
+    "strict_child": true,
+    "strict_parent": true,
+    "final_stop_ack": true,
+    "identity_matches": true,
+    "state_matches": true,
+    "four_config_areas_match": true,
+    "configuration_unchanged": true,
+    "no_persistent_commands": true,
+    "no_pico_or_switch_access": true,
+    "no_errors": true,
+    "human_bilateral": true,
+    "human_b_texture_difference": true,
+    "human_stopped_without_residual": true
+  },
+  "program": "FIDELITY_AB_RUN_20261024-144048.json",
+  "program_sha256": "f68652fcdb34c77fb9d69457f203bfa4bef6a4a738eae5a061fe47631dda92fc",
+  "plan": "FIDELITY_AB_PLAN_2026-10-24_V2.json",
+  "plan_sha256": "a4bba07ac53238884785a57950c0a8750ac66dae6cd1ed38d50beafaeccb12fc",
+  "confirmed_gap_seconds": 5.0,
+  "frames": [
+    15,
+    39
+  ],
+  "samples_per_side": [
+    120,
+    312
+  ],
+  "playback_elapsed_seconds": [
+    0.12040169999999861,
+    0.3131317999999972
+  ],
+  "human_feedback": {
+    "bilateral": "A and B felt in both grips",
+    "difference": "B had distinguishable texture or amplitude variation",
+    "stop": "Both stopped without residual"
+  },
+  "physical_original_fidelity_validated": false,
+  "live_switch_fidelity_validated": false,
+  "scope": "One PC-only source-capture A/B comparison; different durations, frequencies and amplitudes. Confirms perceivable candidate and cleanup, not native-equivalent force, phase, frequency response or live timing."
+}

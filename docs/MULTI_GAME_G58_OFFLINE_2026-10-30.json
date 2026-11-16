@@ -1,0 +1,49 @@
+{
+  "status": "PASSED_MULTI_GAME_ENTRY_OFFLINE_PENDING_PHYSICAL_PREFLIGHT",
+  "tests": 185,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "io_guard": true,
+  "files": [
+    {
+      "path": "tools/multi_game_policy_g58.py",
+      "sha256": "4b0434814a8c2c6df900ff0b96090895b801dcf49542e8464b620063f621b929"
+    },
+    {
+      "path": "tools/run_multi_game_g58.py",
+      "sha256": "4d08c911565ff2fa2abd149f1bc169b84cc4c26c1a26cfc89609a4248eb6c33c"
+    },
+    {
+      "path": "tools/assess_multi_game_g58.py",
+      "sha256": "710b1d819747e99ba93684da5231d48671f7d942c7a36ba615f32923607ca4d5"
+    },
+    {
+      "path": "tools/multi_event_game_window.py",
+      "sha256": "bbe70d1dbd26ab607ab455e6a04ec5f3adbe71978cce7e437ce91782f4fbbe20"
+    },
+    {
+      "path": "tools/multi_event_game_session.py",
+      "sha256": "855c140ede6a65556173c40e9332f2fbbda079b4c4cd29bfe83faa7301cea10d"
+    },
+    {
+      "path": "tools/multi_event_validation.py",
+      "sha256": "53b70830d91b439148dc3da74c5a3339c731ee0cdcedd37a9385d427d082b951"
+    },
+    {
+      "path": "tools/bounded_multi_event_session.py",
+      "sha256": "845887fc7281b0cf4b006e2832d66ee8e75ae75ea7705a3617a20c9584878146"
+    },
+    {
+      "path": "tools/bounded_multi_event_renderer.py",
+      "sha256": "022ce233362020c39f5551b829015933a2a5c484eac1735e996a20b872ddff73"
+    },
+    {
+      "path": "tools/bridge_control.py",
+      "sha256": "985e1ac4c3611193d9d5916879a086578d1d8ecb435f1de55e9614b7780e5534"
+    },
+    {
+      "path": "tools/test_multi_game_acceptance.py",
+      "sha256": "e63cec409214dace1743f92ff42b36c97534896697ba3c8cbc15e02e4fa1b682"
+    }
+  ]
+}

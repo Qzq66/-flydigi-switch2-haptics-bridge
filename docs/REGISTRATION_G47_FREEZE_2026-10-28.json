@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "tools/registration_input_probe.py",
+      "sha256": "6a451385aa4ea15f2a7194dbe2775e27f7f4e27ae38854bb71f7fbd89d29c4e3"
+    },
+    {
+      "path": "tools/registration_policy_g47.py",
+      "sha256": "422c7ebd52d4a9aa5baa94bfcc7e5a22f31be80ccb198336cb4217acd59a8d45"
+    },
+    {
+      "path": "tools/run_registration_g47.py",
+      "sha256": "6ce6809781f5fea3d5ce60cf9770cd51baf774e279c0563514c0d5eb206492c6"
+    },
+    {
+      "path": "tools/test_registration_input_probe.py",
+      "sha256": "1cc0c53b8bfd45eea98f13e2e9b439f9e9b434411bd98eb3789fcba879a91636"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_PASSIVE_TRANSPORT_OFFLINE",
+  "tests": 100,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_game_diagnostic_source_unchanged": true,
+  "plan_sha256": "788cadc3a58ee9f4d5231400514c0f2f4d01353058ac167f0fab634033d10551",
+  "source_sha256": {
+    "tools/passive_transport_policy.py": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8",
+    "tools/run_passive_transport.py": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7",
+    "tools/test_passive_transport.py": "098420ed77755b62cc8cffa79f959c503417202bec26454995ec3859b02bde49",
+    "tools/verify_passive_transport_offline.py": "ef80e3fecde36b2a2e9f59817ec19c15c7bb55456e9fde3f2e954de5f0de0df8"
+  }
+}

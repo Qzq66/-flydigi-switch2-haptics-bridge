@@ -1,0 +1,16 @@
+{
+  "status": "OBSERVED_LARGEST_GAP_ORIGINAL_REQUEST_CONTEXT",
+  "application_pair_index": 53,
+  "application_receive_gap_seconds": 0.0512617000000013,
+  "original_request_send_gap_seconds": 0.014685000000000059,
+  "earlier_request_to_receive_seconds": 0.0009504999999982999,
+  "later_request_to_receive_seconds": 0.03752719999999954,
+  "same_board_boot": true,
+  "board_source_gap_us": 51382,
+  "request_sequence_distance": 1,
+  "unique_request_payloads_bound": 1943,
+  "unique_reply_payloads_bound": 1943,
+  "absolute_board_pc_clocks_synchronised": false,
+  "general_delay_root_cause_proven": false,
+  "private_trace_sha256": "5dbdd34c61ea02e971acf851f7379d0d8ed1c2173e83a056a5cf27b422c345cd"
+}

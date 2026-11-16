@@ -1,0 +1,11 @@
+{
+  "status": "RECOVERED_GAP42_PC_RUNTIME_OFFLINE_VERIFIED_PENDING_HARDWARE",
+  "tests": 158,
+  "io_guard": true,
+  "baseline_generation": 51,
+  "runner_and_assessor_match_accepted_except_policy_import": true,
+  "mapping_and_guards_unchanged": true,
+  "firmware_write": false,
+  "flydigi_configuration_write": false,
+  "hardware_retested": false
+}

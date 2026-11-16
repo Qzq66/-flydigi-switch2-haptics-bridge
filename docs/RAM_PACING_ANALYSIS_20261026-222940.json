@@ -1,0 +1,127 @@
+{
+  "status": "PASSED_PHASE_AND_RECEIVE_COVERAGE",
+  "hardware_access": false,
+  "motor_commands": 0,
+  "poll_calls": 5218,
+  "accepted_frames": 5213,
+  "poll_duration": {
+    "count": 5218,
+    "minimum_ms": 0.8721000000022627,
+    "median_ms": 1.2102999999967778,
+    "p95_ms": 4.492100000000221,
+    "p99_ms": 6.679599999998231,
+    "maximum_ms": 12.634199999993712,
+    "over_12ms": 5,
+    "over_80ms": 0
+  },
+  "actual_sleep_duration": {
+    "count": 5218,
+    "minimum_ms": 2.170499999998299,
+    "median_ms": 4.007500000000164,
+    "p95_ms": 4.875099999999577,
+    "p99_ms": 5.137600000004738,
+    "maximum_ms": 6.024199999998814,
+    "over_12ms": 0,
+    "over_80ms": 0
+  },
+  "between_iterations": {
+    "count": 5217,
+    "minimum_ms": 0.0032999999959315574,
+    "median_ms": 0.009699999999668307,
+    "p95_ms": 0.03269999999844231,
+    "p99_ms": 0.04649999999983834,
+    "maximum_ms": 0.4715999999973519,
+    "over_12ms": 0,
+    "over_80ms": 0
+  },
+  "requested_sleep_ms": 4,
+  "maximum_phase_append_ms": 0.17899999999571037,
+  "phase_sha256": "2d02c1bc594097167463cc2e7e93c8f4144c6e425ec9fa7c85627e47a26618d1",
+  "packet_trace_sha256": "ed51e033996aa02ece8978d28952a86cb48d7bc9c471a3c1f907a3cfbe8dd018",
+  "app_report_sha256": "72ca5566944fc74fef1cfe4c5d624d99d2fc5cc61190c7ca7273b260e9570019",
+  "full_capture": {
+    "application_receive_rows": 5218,
+    "matched_receive_rows": 5218,
+    "ambiguous_payload_groups": 0,
+    "truncated_or_drop_reported": 0,
+    "complete_receive_coverage": true,
+    "component_copies": 166976,
+    "negative_beyond_1ms": 0,
+    "component_to_application_ns": {
+      "min": 46120,
+      "median": 80244.0,
+      "p95": 184816,
+      "max": 2419824
+    },
+    "matched_original_adjacent_pairs": 5217,
+    "largest_matched_original_adjacent_gap": {
+      "application_pair_index": 2619,
+      "app_gap_ns": 49127424,
+      "component_gap_ns": 49084000,
+      "earlier_component_to_app_ns": 69880,
+      "later_component_to_app_ns": 113304
+    },
+    "largest_original_application_gap": {
+      "application_pair_index": 2619,
+      "application_gap_seconds": 0.049127499999997326,
+      "both_packets_matched": true
+    },
+    "coverage_12_time_bins": [
+      {
+        "application": 441,
+        "matched": 441
+      },
+      {
+        "application": 441,
+        "matched": 441
+      },
+      {
+        "application": 440,
+        "matched": 440
+      },
+      {
+        "application": 431,
+        "matched": 431
+      },
+      {
+        "application": 420,
+        "matched": 420
+      },
+      {
+        "application": 445,
+        "matched": 445
+      },
+      {
+        "application": 417,
+        "matched": 417
+      },
+      {
+        "application": 430,
+        "matched": 430
+      },
+      {
+        "application": 438,
+        "matched": 438
+      },
+      {
+        "application": 431,
+        "matched": 431
+      },
+      {
+        "application": 440,
+        "matched": 440
+      },
+      {
+        "application": 444,
+        "matched": 444
+      }
+    ],
+    "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization."
+  },
+  "full_flash_after_matches": true,
+  "limitations": [
+    "Instrumentation may perturb scheduling.",
+    "Poll duration includes receive, validation and packet recording.",
+    "Sleep duration includes wakeup scheduling; not proof of a specific Windows timer cause."
+  ]
+}

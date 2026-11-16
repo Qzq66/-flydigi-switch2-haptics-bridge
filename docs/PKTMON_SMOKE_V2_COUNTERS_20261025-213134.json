@@ -1,0 +1,46 @@
+{
+  "status": "COUNTERS_OBSERVED_THREE_SENDS_BUT_PACKET_LOG_EMPTY",
+  "before_counters_all_zero": true,
+  "component_lower_rows": [
+    {
+      "component_id": 26,
+      "rx_packets": 0,
+      "tx_packets": 3,
+      "tx_bytes": 195
+    },
+    {
+      "component_id": 24,
+      "rx_packets": 0,
+      "tx_packets": 3,
+      "tx_bytes": 195
+    },
+    {
+      "component_id": 22,
+      "rx_packets": 0,
+      "tx_packets": 3,
+      "tx_bytes": 195
+    },
+    {
+      "component_id": 20,
+      "rx_packets": 0,
+      "tx_packets": 3,
+      "tx_bytes": 195
+    },
+    {
+      "component_id": 129,
+      "rx_packets": 0,
+      "tx_packets": 3,
+      "tx_bytes": 195
+    }
+  ],
+  "counter_rows_are_not_distinct_wire_packets": true,
+  "packet_log_validation_passed": false,
+  "event_logging_failure_cause_proven": false,
+  "game_delay_cause_proven": false,
+  "raw_sha256": {
+    "before": "0781c5ddcaa0074159bfdae93ec656e5e403f973bb8bbfe85266ed25c013429c",
+    "after": "9f36eca7784beceff80969e412fd28b751a52f381c68c0372a662271d949d827"
+  },
+  "pico_access": false,
+  "motor_commands": 0
+}

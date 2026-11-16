@@ -1,0 +1,47 @@
+{
+  "status": "NO_PACKET_BLOCKS_IN_CONVERTED_ARTIFACTS",
+  "run_id": "20261025-212133",
+  "artifacts": {
+    "packets.pcapng": {
+      "bytes": 196,
+      "blocks": [
+        {
+          "type": 168627466,
+          "size": 140
+        },
+        {
+          "type": 1,
+          "size": 20
+        },
+        {
+          "type": 5,
+          "size": 36
+        }
+      ],
+      "packet_blocks": 0
+    },
+    "drops.pcapng": {
+      "bytes": 196,
+      "blocks": [
+        {
+          "type": 168627466,
+          "size": 140
+        },
+        {
+          "type": 1,
+          "size": 20
+        },
+        {
+          "type": 5,
+          "size": 36
+        }
+      ],
+      "packet_blocks": 0
+    }
+  },
+  "parser_omission_demonstrated": false,
+  "empty_capture_cause_proven": false,
+  "new_capture_started": false,
+  "pico_access": false,
+  "motor_commands": 0
+}

@@ -1,0 +1,32 @@
+{
+  "status": "STARTUP_STATE_AUDIT_REPRODUCED",
+  "hardware_access": false,
+  "frozen_sources_modified": false,
+  "checks": {
+    "startup_gap_latches_fault": true,
+    "fresh_configured_source_cannot_clear_fault": true,
+    "prearm_gap_has_no_device_calls": true,
+    "flags3_is_not_arm_ready": true,
+    "fresh_configured_neutral_can_arm": true,
+    "armed_gap_still_faults": true,
+    "armed_fault_stops_output": true
+  },
+  "initial_fault": "BridgeFault('wire heartbeat timeout')",
+  "armed_fault": "BridgeFault('wire heartbeat timeout')",
+  "findings": [
+    "Runner announces INPUT_READY after upstream flag 2, before configured flag 4 and neutral-ready gate",
+    "GameSession.tick calls renderer.block while unarmed; heartbeat check precedes unarmed return",
+    "Output abort latches fault; later configured frames cannot restore manual arm",
+    "Desktop INPUT_READY text does not inspect source_neutral_ready; separate arming gate does",
+    "Active heartbeat shutdown works and must remain unchanged"
+  ],
+  "candidate_requirements": [
+    "Explicit STARTUP_WAIT state until configured, fresh, known-neutral source",
+    "Unarmed stale input clears readiness and quiet qualification without enabling output",
+    "Maintain source integrity, sequence checks and bounded startup deadline",
+    "Require fresh 500ms quiet after stale interval and explicit manual arm",
+    "Armed faults remain latched with confirmed stop and no automatic rearm",
+    "Display WAITING_SOURCE versus READY_TO_ARM accurately"
+  ],
+  "armed_heartbeat_test_scope": "Base output tick isolates heartbeat; normal GameSession late scheduler stops first in this synthetic 81ms jump"
+}

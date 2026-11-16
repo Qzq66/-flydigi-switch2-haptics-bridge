@@ -1,0 +1,85 @@
+{
+  "status": "PASSED_SINGLE_SEQUENTIAL_NO_ACTUATOR_12MS_COMPARISON_NOT_ADOPTED",
+  "checks": {
+    "program_completed": true,
+    "no_motor_commands": true,
+    "config_unchanged": true,
+    "breakdown_valid": true,
+    "phase_valid": true,
+    "full_flash_verified": true,
+    "single_generation": true,
+    "confirmed_complete": true,
+    "source_fields_equal": true,
+    "single_variable_source": true,
+    "reference_checks_pass": true
+  },
+  "reference": {
+    "receive_budget_ms": 60,
+    "live_seconds": 119.99634420000001,
+    "poll_calls": 17448,
+    "responses": 17446,
+    "timeouts": 2,
+    "maximum_receive_gap_ms": 87.23290000000361,
+    "observed_heartbeat_gaps": 1,
+    "wire_source_fields": 1969
+  },
+  "candidate": {
+    "receive_budget_ms": 12,
+    "live_seconds": 119.9960025,
+    "poll_calls": 17682,
+    "responses": 17503,
+    "timeouts": 179,
+    "maximum_receive_gap_ms": 66.02069999999571,
+    "observed_heartbeat_gaps": 0,
+    "wire_source_fields": 1970
+  },
+  "breakdown_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "idle": true,
+      "counts": true,
+      "bounds": true,
+      "metadata_only": true,
+      "compact_size": true,
+      "ordered_call_intervals": true
+    }
+  },
+  "phase_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true
+    },
+    "scope": "Integrity of recorded wrapper poll/pause spans and bounded contexts; not proof of a network root cause or improved latency."
+  },
+  "adopt_into_game_output": false,
+  "replicated": false,
+  "source_sha256": {
+    "reference_program": "60c9d1c8f8af5033084c8fbfc11a57eaea2b83f8fcad2084322575379f76e816",
+    "candidate_program": "9c5f84bb040b38fc208e14a511c2f607e173cf29c9c402c6527ac8aa9c86f7d5",
+    "candidate_capture": "10628c8224fbef109e28cab678cf379f708ba89b8d98ecd4e01c0800f6797d1c",
+    "reference_assessment": "f0cfb6675f78746a1c94824a2baf5ec41dab07c0f7815bacd4bcdeb04942ef94"
+  },
+  "limitations": [
+    "Sequential single runs are not a controlled proof of stable improvement.",
+    "Timeout counts are receive-wait expirations, not proof of lost network packets.",
+    "Original late-return acceptance preserved; 12ms is not a guaranteed wall-clock cap.",
+    "Zero observed heartbeat gaps in one run does not establish future realtime reliability."
+  ]
+}

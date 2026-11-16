@@ -1,0 +1,22 @@
+{
+  "status": "INCOMPLETE",
+  "actual_switch_test": true,
+  "game_test": true,
+  "input_check_only": false,
+  "automatic_resume": false,
+  "motor_output_enabled": false,
+  "persistent_flydigi_commands": 0,
+  "game_haptics_validated": false,
+  "session_limits": {
+    "live_seconds": 120,
+    "host_live_seconds": 122,
+    "arm_latest_seconds": 115,
+    "ui_deadline_seconds": 118,
+    "discovery_seconds": 120,
+    "guardian_seconds": 270,
+    "expected_firmware": "v043",
+    "firmware_boot_seconds": 180
+  },
+  "scene": "dodge-attack",
+  "error": "ValueError('Physical Flash does not match the v043 installation; keep BOOTSEL')"
+}

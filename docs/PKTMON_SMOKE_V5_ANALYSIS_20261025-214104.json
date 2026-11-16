@@ -1,0 +1,270 @@
+{
+  "status": "PASSED_BOUNDED_CAPTURE_CLOCK_SMOKE_AND_CLEANUP",
+  "pico_access": false,
+  "motor_commands": 0,
+  "original_delay_cause_proven": false,
+  "checks": {
+    "helper_capture_started": true,
+    "helper_capture_stopped": true,
+    "own_filter_removed": true,
+    "no_cleanup_errors": true,
+    "three_diagnostic_sends": true,
+    "all_three_observed": true,
+    "clock_anchors_usable": true,
+    "no_pico_or_motor_access": true
+  },
+  "observations": [
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1277984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1281984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1287984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1287984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1288984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1289984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1291984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1292984
+    },
+    {
+      "sequence": 0,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1294984
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2606616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2613616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2627616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2628616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2630616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2631616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2635616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2636616
+    },
+    {
+      "sequence": 1,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 2640616
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1201552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1205552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1214552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1215552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1216552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1217552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1219552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1220552
+    },
+    {
+      "sequence": 2,
+      "file": "packets.pcapng",
+      "section": 0,
+      "interface": 0,
+      "direction": 0,
+      "timestamp_quantum_ns": 1000.0,
+      "component_observation_minus_send_begin_ns": 1222552
+    }
+  ],
+  "matching_copies": 27,
+  "experiment_scope_packets": 27,
+  "private_capture_sha256": {
+    "packets.pcapng": "f08059c894764dbeba66012492235b12283d6f41cf55eff8cc584956b6381bd4",
+    "drops.pcapng": "56f5c6cf560560d8fe05758f50b8d10e55e12fe1cadf5d478a21615eabe65422"
+  },
+  "source_report_sha256": "94dd91c50b991fab73e74ee09acf4a587c57961c31bfc747bb21f437652e9dd7",
+  "sender_sha256": "fb22f818f136e35423be1e1d9fc94836cf59d4d2a33f874762912afdffe165d9",
+  "scope": "Three outbound non-controller packets only, across available Windows components. Duplicate copies are not retransmissions. UTC epoch/units checked, not microsecond accuracy or incoming receive scheduling validated."
+}

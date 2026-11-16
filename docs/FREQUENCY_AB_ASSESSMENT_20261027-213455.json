@@ -1,0 +1,41 @@
+{
+  "status": "PASSED_CONTROLLED_FREQUENCY_COMPARISON_WITH_FEEDBACK",
+  "checks": {
+    "plan_hash": true,
+    "strict_child": true,
+    "strict_parent": true,
+    "final_stop_ack": true,
+    "identity": true,
+    "state": true,
+    "four_config_areas": true,
+    "factory_config_unchanged": true,
+    "no_persistent_commands": true,
+    "no_pico_or_switch_access": true,
+    "no_errors": true,
+    "matched_duration_and_peak": true,
+    "matched_digital_dose": true,
+    "human_bilateral": true,
+    "human_stopped": true
+  },
+  "sensation": "texture_similar_strength",
+  "frequency_texture_reported": true,
+  "subjective_strength_similar": true,
+  "frequencies_hz": [
+    80,
+    240
+  ],
+  "active_duration_ms": 200,
+  "neutral_tail_ms": 8,
+  "peak_code": 8,
+  "digital_squared_code_sum_per_clip_per_side": 6496,
+  "confirmed_gap_seconds": 5.016000000000076,
+  "physical_force_measured": false,
+  "frequency_response_calibrated": false,
+  "native_fidelity_validated": false,
+  "scope": "One fixed-order unblinded synthetic pair; subjective frequency discrimination, not objective equal force or native equivalence.",
+  "evidence_sha256": {
+    "program": "85d99be55384350ce01605255060c092fa5842745df4428857206c7b71bce764",
+    "plan": "2f1754d1617c5546bb94e3959dda53256d48de89dd8dedd57b2d37e0b75e33c3",
+    "assessor": "358b753321f7fc50d2122bdd2a9bfc6df474be7c31107ad8961e9b424d153ad3"
+  }
+}

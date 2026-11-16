@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_INDEPENDENT_RECOVERY_CLOCK_OFFLINE",
+  "tests": 4,
+  "hardware_access": false,
+  "started_live_clock": false,
+  "network_access": false,
+  "minimum_seconds": 190,
+  "requires_user_connected_confirmation": true,
+  "does_not_change_frozen_failed_attempt": true,
+  "files": [
+    {
+      "path": "tools/usb_recovery_clock.py",
+      "sha256": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+    },
+    {
+      "path": "tools/test_usb_recovery_clock.py",
+      "sha256": "e7308a8f9158333f00bbce9874642ef6632a786235dd53229721d72d866f09a9"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "f118d4def8990a2e426a20c7c41e09651954d35b2d15df33bdeafff66ec82525",
+  "motor_commands": 0,
+  "persistent_configuration_commands": 0,
+  "host_flash_write": false,
+  "firmware_preflight": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "898901e080afcbccaa85ab9bbb3dd19297f73a79769cfc1cac32b4c114d358da",
+    "baseline_generation": 50
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "On",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "pc_input_liveness": {
+    "status": "CANCELLED_OR_TIMED_OUT",
+    "manual_started": true,
+    "motor_commands": 0,
+    "configuration_commands": 0,
+    "slot": 0,
+    "final_pro_input": "000000000880000880",
+    "transitions": [
+      {
+        "stage": 0,
+        "at": 6074.234
+      }
+    ]
+  },
+  "error": "ValueError('Actual PC input precheck failed')",
+  "finalization_errors": []
+}

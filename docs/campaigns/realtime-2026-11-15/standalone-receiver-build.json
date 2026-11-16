@@ -1,0 +1,79 @@
+{
+  "status": "RP2350_STATIC_INPUT_COMPONENT_COMPILED_NOT_FIRMWARE",
+  "hardware_actions": 0,
+  "flash_writes": 0,
+  "controller_commands_sent": 0,
+  "user_flash_authorization_received": true,
+  "physical_topology_not_yet_settled": true,
+  "findings": {
+    "archived_full_speed_12mbps": true,
+    "archived_xinput_interface": "ff/5d/01",
+    "vendor_hid_query_verified_but_input_unproven": true,
+    "raw_receiver_configuration_and_input_packets_not_found_in_reviewed_public_archives": true,
+    "local_pio_usb_library_missing": true,
+    "local_btstack_missing": true
+  },
+  "build": {
+    "board": "pico2_w",
+    "platform": "rp2350-arm-s",
+    "compiler": "arm-none-eabi-gcc 14.2.1",
+    "sdk": "2.3.1",
+    "sdk_commit": "079c6f39023649b154152db30f1d781e884879bc",
+    "sdk_expected_tinyusb_commit": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+    "sdk_expected_btstack_commit": "eb0bb8b5ea6d234ccb940313b47f7a5c3b4e20ec",
+    "static_archive": true,
+    "executable_or_uf2_generated": false,
+    "own_driver_text_bytes": 788,
+    "own_driver_bss_bytes": 2166,
+    "own_driver_warnings_as_errors": true,
+    "automatic_dependency_fetch_disabled": true
+  },
+  "component": {
+    "known_receiver_only": "37d7:2502",
+    "input_interface_class": "ff/5d/01",
+    "endpoint_address_from_descriptor": true,
+    "only_interrupt_in_endpoint_opened": true,
+    "maximum_packets": 32,
+    "maximum_bytes_per_packet": 64,
+    "no_vendor_or_motor_commands": true,
+    "stops_polling_on_transfer_failure": true,
+    "no_input_layout_assumed": true
+  },
+  "own_object_external_symbols": [
+    "memcpy",
+    "memset",
+    "tuh_edpt_open",
+    "tuh_speed_get",
+    "tuh_vid_pid_get",
+    "usbh_driver_set_config_complete",
+    "usbh_edpt_xfer_with_callback"
+  ],
+  "build_issues_retained": [
+    {
+      "reason": "SDK auto-fetched picotool during first configure",
+      "network_clone_attempts": 3,
+      "result": "All clone attempts failed. Then set PICO_NO_PICOTOOL=1 and FETCHCONTENT_FULLY_DISCONNECTED=ON to prevent automatic downloads."
+    },
+    {
+      "reason": "GCC assembler failed on generated object paths containing Chinese characters",
+      "result": "Reconfigured in separate build-ascii using existing ASCII compatibility junctions. No original directory deleted or moved."
+    }
+  ],
+  "limitations": [
+    "Compile-only proof; no actual receiver enumeration, input capture or PIO operation",
+    "Native USB host controller currently used for static dependency build; simultaneous Switch-device and PIO-host integration absent",
+    "Passive polling may return no input if receiver requires initialization; no guessed activation command will be sent",
+    "USB host enumeration normally includes standard control requests; no-commands claim concerns application vendor/motor/config commands",
+    "Single Pico USB-C connector cannot serve as both USB device and host simultaneously without a second controller/path",
+    "Direct Bluetooth input and fine haptics remain unverified; USB receiver component does not solve them",
+    "Static archive size includes SDK objects/debug data; not a linked firmware Flash or RAM footprint."
+  ],
+  "sha256": {
+    "standalone/receiver_probe/CMakeLists.txt": "ab63cf5cb4ed4a56a3de1d9fa6b2c62ee57784b01b30080804de6c2ed6045e60",
+    "standalone/receiver_probe/tusb_config.h": "6a7815df3c3d20429ba64d5eccf1afc4e519578d264fd9ce91d3766e9f7b3034",
+    "standalone/receiver_probe/receiver_input_probe.h": "519628027681ec09b9a0260d3ea63cbf3aa8ead6c01790ce28489c86bc1a74ea",
+    "standalone/receiver_probe/receiver_input_probe.c": "e5d5ca9c02a9ba70f7c447f4dfe36bc19fe848ee3247b78c7a2c8953ea08087d",
+    "standalone/receiver_probe/build-ascii/libreceiver_input_probe.a": "f63e14be17d80e4380901d1921ed5fc9839891c6512fcd3a6a0728846f07af80",
+    "standalone/receiver_probe/build-ascii/CMakeFiles/receiver_input_probe.dir/receiver_input_probe.c.obj": "fb5392225fe96b7423f876ace62a48f06ff9899521c134002bb02f986939fad2"
+  }
+}

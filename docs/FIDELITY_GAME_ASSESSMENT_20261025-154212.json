@@ -1,0 +1,52 @@
+{
+  "status": "INCOMPLETE",
+  "checks": {
+    "strict_parent": false,
+    "parent_program_status": false,
+    "plan_bound": true,
+    "readback_verified": false,
+    "baseline_generation": true,
+    "baseline_full_flash": true,
+    "exactly_one_new_generation": false,
+    "program_unchanged": true,
+    "full_source_motor_fields": false,
+    "complete_persistent_journal": true,
+    "confirmed_log_end": false,
+    "independent_source_reconstruction": true,
+    "human_game_event": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "human_postmute_input": true
+  },
+  "journal_generation": 22,
+  "motor_fields": 1971,
+  "active_ms": [
+    288,
+    288
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    5568,
+    5568
+  ],
+  "source_reference": {
+    "active_ms": [
+      288,
+      288
+    ],
+    "peak_code": 9,
+    "squared_code_sum": [
+      5568,
+      5568
+    ],
+    "final_samples_neutral": true
+  },
+  "source_reference_error": null,
+  "scope": "One selected game action with live dual-band rendering and bounded gain; not measured original HD/HD2 physical fidelity or general game compatibility.",
+  "source_sha256": {
+    "program": "b6057963bbdd0eead9afff0b3e9c63f69dc4e9b00707e4166b1b2cf59e8c5f04",
+    "plan": "f8f789e823bae24ae81032d697add906ad7065f87efa409f309fb24bfca7033e",
+    "capture": "653cf19cdd8194c5c0ec90cf9c4e726542f99437846ae9874bd4c14bea78ecd5",
+    "baseline": "99008cd1226482d60c480aec689a93cc21e660d475d8c50de8edd382d1af1781"
+  }
+}

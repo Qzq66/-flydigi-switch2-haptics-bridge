@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_OFFLINE_ANALYSIS",
+  "hardware_access": false,
+  "files": [
+    {
+      "path": "tools/analyse_capacity_timing.py",
+      "sha256": "ab6fd8c45b7cec06e8f28c9c36398b986c95e9bd1f8bbfbee45d59d6eb7917b1"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_TIMING_20261026-221119.json",
+      "sha256": "4190f508fce4e172efb994cf9d0d49511a01bfd6716a5c8479f86c55d994cd30"
+    },
+    {
+      "path": "docs/RAM_CAPACITY_TIMING_2026-10-26.md",
+      "sha256": "111e4030d48e6914585acef5158c309d2d715496e6b02d90a65403e7a423aa3b"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "FAILED_REPLAY_WITH_CONFIRMED_MANUAL_RECOVERY",
+  "checks": {
+    "failed_attempt_preserved": true,
+    "no_active_samples": true,
+    "no_nonzero_samples": true,
+    "child_stop_confirmed": true,
+    "parent_stop_confirmed": true,
+    "configuration_unchanged": true,
+    "collector_and_end_ack": true,
+    "inputs_continued": true,
+    "manual_recovery_verified": true,
+    "full_flash_same_before_after": true,
+    "no_flash_write": true,
+    "no_factory_writes": true
+  },
+  "output_fault": "RuntimeError('Output scheduler late; no catch-up')",
+  "output_frames": 7,
+  "active_ms": [
+    0,
+    0
+  ],
+  "input_calls_after_output_stop": 39,
+  "pico_input_updates_after_output_stop": 39,
+  "input_time_after_output_stop": 0.24839270000000013,
+  "automatic_bootsel_recovery_verified": false,
+  "real_network_fidelity_replay_passed": false,
+  "physical_fidelity_validated": false,
+  "current_journal_generation": 21,
+  "successful_game_baseline_generation": 20,
+  "program_source": "FIDELITY_NETWORK_RUN_20261025-141841.json",
+  "program_sha256": "0dcf10a5fa2946a7ac3b3abf8a8c3a48731d7477c78dcd38ee17f16f759faa8f",
+  "manual_recovery_source": "FIDELITY_NETWORK_RECOVERY_20261025-141841.json",
+  "manual_recovery_sha256": "f4bbad4370893fb19a7319bbaaa138bf150553074db70ba76f259599cf1a8788",
+  "next_work": "Separate USB injection from PCM dispatch; wait for the exact immutable RAM snapshot phase before requesting RESETLAB; retain failure evidence and limits before a new manual run."
+}

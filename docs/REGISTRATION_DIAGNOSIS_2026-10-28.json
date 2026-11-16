@@ -1,0 +1,52 @@
+{
+  "status": "REGISTRATION_FAILED_NO_HAPTICS_PC_BUTTON_MAPPING_CONFIRMED",
+  "generation": 47,
+  "capture_checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": true,
+    "fresh_single_generation": true,
+    "complete_persistent_journal": true
+  },
+  "human_icon": true,
+  "human_lr_a_no_response": true,
+  "output_frames": 0,
+  "poll_calls": 17896,
+  "phase_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true,
+      "rtt_schema_version": true,
+      "retained_rtt_components_valid": true
+    },
+    "scope": "Host poll/after-send receive-decode timing; not radio-only or one-way latency."
+  },
+  "pc_mapping_checks": {
+    "L": true,
+    "R": true,
+    "LR": true,
+    "A": true,
+    "neutral": true
+  },
+  "persistent_configuration_commands": 0,
+  "next_step": "Bounded no-haptics input-path/registration diagnosis; not another game rumble attempt."
+}

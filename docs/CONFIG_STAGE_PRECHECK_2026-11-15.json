@@ -1,0 +1,15 @@
+{
+  "status": "PREOUTPUT_BLOCKED_KNOWN_RAM_STATE_CHANGED_WITH_ENGINE_RUNNING",
+  "trial": "20261115-155330",
+  "manual_clicked": false,
+  "output_frames": 0,
+  "configuration_writes": 0,
+  "pico_access": false,
+  "current_motor_sha256": "a833cbae2d0eac36a993c9fb4e4a9520eedc2ebcebccaf73d66a388be9a79a33",
+  "expected_normal_motor_sha256": "a0689f72d383f7af7e8a331c271092d2c24bcd50218b88b2a154342e195f0f05",
+  "three_reads_stable": true,
+  "other_regions_unchanged": true,
+  "engine_process_observed": true,
+  "engine_causality_proven": false,
+  "next": "User normal Engine exit and normal controller restart, then same staged test; no extra vibration played"
+}

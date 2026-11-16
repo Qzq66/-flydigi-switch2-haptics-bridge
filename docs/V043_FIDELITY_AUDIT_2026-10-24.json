@@ -1,0 +1,313 @@
+{
+  "status": "OFFLINE_FIDELITY_PROTOCOL_AUDIT_COMPLETE",
+  "device_access": false,
+  "network_access": false,
+  "io_guard": true,
+  "waveform_rendered": false,
+  "physical_fidelity_validated": false,
+  "trials": [
+    {
+      "stamp": "20261024-131624",
+      "scene": "dodge-attack",
+      "motor_fields": 1015,
+      "sides": [
+        {
+          "active_parameter_groups": 20,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 20
+            },
+            {
+              "hz": 118.146092,
+              "groups": 20
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 20,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 1,
+          "word_formats": {
+            "no_new_samples": 45,
+            "one_7bit": 967,
+            "three_7bit": 3
+          }
+        },
+        {
+          "active_parameter_groups": 20,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 20
+            },
+            {
+              "hz": 118.146092,
+              "groups": 20
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 20,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 45,
+            "one_7bit": 967,
+            "two_7bit": 1,
+            "three_7bit": 2
+          }
+        }
+      ]
+    },
+    {
+      "stamp": "20261024-132744",
+      "scene": "dodge-attack",
+      "motor_fields": 1078,
+      "sides": [
+        {
+          "active_parameter_groups": 20,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 20
+            },
+            {
+              "hz": 118.146092,
+              "groups": 20
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 20,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 80,
+            "one_7bit": 995,
+            "two_7bit": 1,
+            "three_7bit": 2
+          }
+        },
+        {
+          "active_parameter_groups": 20,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 20
+            },
+            {
+              "hz": 118.146092,
+              "groups": 20
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 20,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 80,
+            "one_7bit": 995,
+            "three_7bit": 3
+          }
+        }
+      ]
+    },
+    {
+      "stamp": "20261024-135514",
+      "scene": "dodge-attack-repeat",
+      "motor_fields": 1098,
+      "sides": [
+        {
+          "active_parameter_groups": 37,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 37
+            },
+            {
+              "hz": 118.146092,
+              "groups": 37
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 37,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 85,
+            "one_7bit": 1010,
+            "two_7bit": 1,
+            "three_7bit": 2
+          }
+        },
+        {
+          "active_parameter_groups": 37,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 99.348625,
+              "groups": 37
+            },
+            {
+              "hz": 118.146092,
+              "groups": 37
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 37,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 85,
+            "one_7bit": 1010,
+            "three_7bit": 3
+          }
+        }
+      ]
+    },
+    {
+      "stamp": "20261024-140244",
+      "scene": "dodge-attack-repeat",
+      "motor_fields": 1089,
+      "sides": [
+        {
+          "active_parameter_groups": 40,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 40.875886,
+              "groups": 1
+            },
+            {
+              "hz": 81.751772,
+              "groups": 1
+            },
+            {
+              "hz": 83.541903,
+              "groups": 1
+            },
+            {
+              "hz": 99.348625,
+              "groups": 38
+            },
+            {
+              "hz": 118.146092,
+              "groups": 38
+            },
+            {
+              "hz": 123.376866,
+              "groups": 1
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 40,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 1,
+          "word_formats": {
+            "no_new_samples": 75,
+            "one_7bit": 1010,
+            "three_7bit": 4
+          }
+        },
+        {
+          "active_parameter_groups": 40,
+          "active_frequency_histogram_hz": [
+            {
+              "hz": 40.875886,
+              "groups": 1
+            },
+            {
+              "hz": 81.751772,
+              "groups": 1
+            },
+            {
+              "hz": 83.541903,
+              "groups": 1
+            },
+            {
+              "hz": 99.348625,
+              "groups": 38
+            },
+            {
+              "hz": 118.146092,
+              "groups": 38
+            },
+            {
+              "hz": 123.376866,
+              "groups": 1
+            }
+          ],
+          "active_normalized_amplitude_range": [
+            0.03716272234383503,
+            0.052556025953357156
+          ],
+          "maximum_sum_of_band_amplitudes": 0.08971874829719219,
+          "legacy_gain5_peak_code_bound": 0.44859374148596093,
+          "legacy_gain5_groups_guaranteed_round_to_zero": 40,
+          "active_band_groups_at_or_above_500_hz": 0,
+          "unknown_postarm_groups": 0,
+          "assumed_5ms_group_order_overlaps": 0,
+          "word_formats": {
+            "no_new_samples": 75,
+            "one_7bit": 1010,
+            "two_7bit": 1,
+            "three_7bit": 3
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-131624.json": "c47d0eb7a317a624827ce0104e58eb54e02a53f6e1fc2befedd5afcbcb1b1907",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-132744.json": "387e83613f31f625138ee0cabb72e274c467d3b9c37732aaff7eecfa9e9445f4",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-135514.json": "df5c2e3e74fac8f35c23bba7a12b719c4a6b412ab4f19fcca8ea4c5085b22fb8",
+    "docs/WINDOWS_V043_GAME_RECHECK_20261024-140244.json": "3362fb5eb298cbd0fa46c3b448523ffcf8eb91f5422b7923c8d2197b320d77da",
+    "tools/audit_haptic_fidelity.py": "32167004c2ed25f5bb3547ee281de4366b2e5bac416db4654b00dacd6147f23e",
+    "handoff/2026-10-22/work/switch_hd_decode.py": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb",
+    "handoff/2026-10-22/work/bridge_render.py": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+  },
+  "assumptions": [
+    "Decoded amplitudes are protocol values, not measured force or displacement.",
+    "5ms per parameter group remains the current experimental scheduling assumption.",
+    "1kHz is the existing output implementation; no higher device rate is established.",
+    "Zero quantization bound describes gain5 original path, not the successful fixed notification mode."
+  ]
+}

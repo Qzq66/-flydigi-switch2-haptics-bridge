@@ -1,0 +1,30 @@
+{
+  "status": "PASSED_G30_REPLY_PROVENANCE_OFFLINE",
+  "tests": 133,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_short_wait_source_and_evidence_unchanged": true,
+  "plan_sha256": "236cb5c4d9b96db90795134a34f51736f6d77f56136d07c1d18c98fed00c926a",
+  "source_sha256": {
+    "tools/reply_provenance_probe.py": "8813e226ec0d4450d0a6816bf1bd8f8133a569c0d31403cd3bde660800c7e0e5",
+    "tools/test_reply_provenance_probe.py": "373c736f3c19ddcf166f634121c395c22d9cba1f8ac923bf490fdff6cfca6977",
+    "tools/short_wait_transport.py": "39b86fa8183b9ecdf5154c8d8a5d34adfe524c01aade3a1eada3b3dfdf0508dd",
+    "tools/test_short_wait_transport.py": "c00ea901c0a05948c5f74215e76b33a6bff63e5109d6a14cc20a65f17c493486",
+    "tools/wake_timing_probe.py": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f",
+    "tools/test_wake_timing_probe.py": "774099624cffa42cc3bfe24e206d1834d4bcf202d0a19c2194d38a948b823003",
+    "tools/passive_reply_policy_g30.py": "98691a17c805a1ad1e8ec276b97e5f748d29b3f3885b1d1ee1b629e9070eeee6",
+    "tools/run_passive_reply_g30.py": "4a77c1d3a456a318deb7b55ac08de069bd358e69862d34ab4c58a4f8bf60359a",
+    "tools/poll_timing_probe.py": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef",
+    "tools/poll_timing_probe_v2.py": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d",
+    "tools/test_poll_timing_probe_v2.py": "65087cb71c47154b1ff06933496ca628665de37f6cc512d8edad9429a2a9b7dd",
+    "tools/test_poll_timing_probe.py": "5c844377780e3c5030b476cc170656a7fcb4b52493a51efdf22af40a49daea90",
+    "tools/test_passive_reply_g30.py": "7cf3c6340db9db3ebe1799f9f7d5c7542a7ca602b5f784fde8ec1876e46f3322",
+    "tools/verify_passive_reply_g30_offline.py": "c04ac8f8233c2734ec0dd1d22ffad83792a47e2f1ac95ee874814abdb3ba695c"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "HOST_WAIT_COMPARISON_ONLY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "frame_interval_ms": 8,
+  "late_stop_ms": 4,
+  "timer_request_ms": 1,
+  "candidate_wait_guard_ms": 3,
+  "device_or_system_persistent_settings_changed": false,
+  "timer_begin_result": 0,
+  "fixed_wait": {
+    "completed_deadlines": 200,
+    "stopped_for_4ms_violation": false,
+    "max_successful_lateness_ms": 1.9767999999986685,
+    "wall_seconds": 1.6015832,
+    "process_cpu_seconds": 0.0,
+    "cpu_fraction_of_one_core": 0.0,
+    "sleep_calls": 1101,
+    "no_sleep_iterations": 0
+  },
+  "deadline_wait": {
+    "completed_deadlines": 200,
+    "stopped_for_4ms_violation": false,
+    "max_successful_lateness_ms": 0.09470000000000312,
+    "wall_seconds": 1.6000021,
+    "process_cpu_seconds": 0.46875,
+    "cpu_fraction_of_one_core": 0.29296836547902033,
+    "sleep_calls": 862,
+    "no_sleep_iterations": 1313581
+  },
+  "timer_end_result": 0,
+  "limitations": [
+    "Only200empty8ms deadlines per policy",
+    "No input, decoder, HID or UI load",
+    "CPU fraction is process CPU/wall time relative to one core",
+    "No proof of real device stability or previous root cause"
+  ]
+}

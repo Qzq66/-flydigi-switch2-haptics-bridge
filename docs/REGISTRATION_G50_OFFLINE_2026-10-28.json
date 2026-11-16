@@ -1,0 +1,7 @@
+{
+  "status": "PASSED_REGISTRATION50_OFFLINE_ONLY",
+  "tests": 49,
+  "io_guard": true,
+  "hardware_access": false,
+  "only_baseline_binding_changed": true
+}

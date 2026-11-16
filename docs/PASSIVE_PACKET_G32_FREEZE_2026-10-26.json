@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_OFFLINE_G32_TWO_COMPONENT_CANDIDATE",
+  "hardware_run": false,
+  "files": [
+    {
+      "path": "tools/component_receive_analysis_v2.py",
+      "sha256": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33"
+    },
+    {
+      "path": "tools/test_component_receive_analysis_v2.py",
+      "sha256": "c91c4df84a65b8061f5c9ead5685aa0dd76a164586f88935169778a9b64760d6"
+    },
+    {
+      "path": "tools/pktmon_capture_common_v4.ps1",
+      "sha256": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g32.ps1",
+      "sha256": "4f974d63283af36e8805eb8ea17af9c1c95236f8bdbc97584b5e6b7a00a2ecfe"
+    },
+    {
+      "path": "tools/passive_packet_policy_g32.py",
+      "sha256": "fe95320a290c8cce3c7d2fae02fdfe5787ea5f35958d9823182005fc63be42b2"
+    },
+    {
+      "path": "tools/run_passive_packet_g32.py",
+      "sha256": "8f85e1b523fe8b85ee52d77f5b689caf25ff66c5027162ea9678b11dde381e99"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g31_v2.py",
+      "sha256": "b9a70ebf13d596e0bac7d2be03948344e79bdd3758e216999ebefe522f9e72ba"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G32_2026-10-26.md",
+      "sha256": "748a5d68ebd60e1977b600eae9c2dd55d32505a83c7c61b75448d589ef456551"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G32_PLAN_2026-10-26.json",
+      "sha256": "aa7e29188fdad4a3864658fb3e78aad9fa2b1139ae5398a2125d3a51fe08997e"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G32_OFFLINE_2026-10-26.json",
+      "sha256": "ab3b248801692c3d3dad55a9b075e7475d8d009c3193277d5e9eb0a48b9df9c3"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_COMPONENTS_V2_20261025-220337.json",
+      "sha256": "3b689119bbc26b037ead3877fbca97b21f86d5aecfe4306df682bddba57f51bf"
+    }
+  ],
+  "private_archive_sha256": "64a4db9bd4fb0d5175481b2be376d1bb5f52c303eaf1d782d1173d57fd90b45e"
+}

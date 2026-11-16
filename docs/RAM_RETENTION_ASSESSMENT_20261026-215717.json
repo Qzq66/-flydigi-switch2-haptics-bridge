@@ -1,0 +1,53 @@
+{
+  "status": "RAM_BASELINE_FLASH_UNCHANGED_CAPTURE_INCOMPLETE",
+  "checks": {
+    "plan_bound": true,
+    "program_window_completed": true,
+    "bounded_duration": true,
+    "query_bound": true,
+    "observer_bound": true,
+    "observer_clean": true,
+    "valid_replies": true,
+    "flash_before": true,
+    "flash_after": true,
+    "ram_reset": true,
+    "bootrom_compared": true,
+    "timer_released": true,
+    "no_cleanup_errors": true,
+    "capture_stopped": true,
+    "filter_removed": true,
+    "capture_conversion_done": true,
+    "no_flydigi_access": true,
+    "zero_motor_commands": true,
+    "flash_not_written": true
+  },
+  "generation": 37,
+  "full_flash_sha256": "1ff5b030cba9ace4e951c7395437f66778835ef9a7a003e05d33f099eb8454a5",
+  "polling": {
+    "completed_window": true,
+    "elapsed_seconds": 30.007580599999997,
+    "poll_calls": 1890,
+    "accepted_frames": 1825,
+    "deadline_expirations": 65,
+    "late_matching_replies": 3,
+    "stale_replies": 56
+  },
+  "raw_application_receives": 1890,
+  "matched_application_receives": 1020,
+  "coverage_ratio": 0.5396825396825397,
+  "full_capture_coverage": false,
+  "complete_rx_components": [],
+  "switch_required_to_reproduce": false,
+  "root_cause_proven": false,
+  "network_packet_loss_proven": false,
+  "requested_sleep_seconds": 0.004,
+  "fixed_250Hz_achieved_claim": false,
+  "capture_elapsed_seconds": 83.4700422,
+  "source_sha256": {
+    "tools/ram_retention_path.py": "af647b3e2e3ad47196f8e8c7e692a5db4121da09c59e95ca099f0813467bd0be",
+    "tools/ram_retention_loop.py": "af2ae68a982adba4ce03d6c3bd7e0be945222c4603c09355b26437f70286457a",
+    "tools/run_pktmon_ram_retention.ps1": "4f7ec7c46b721135d54bf44c2a71a32fabd07a564b4d04a1c4186f9a43d9d397",
+    "tools/analyse_ram_retention.py": "7e87634c3c00826222a3e79550941e53d6bf8e063a96e7e25f78799eb834990b",
+    "tools/component_receive_analysis_v3.py": "abbaa83f40f9fe5cca38061b0025419eebd173ba4875c1d29a6195d0d4cf4a5e"
+  }
+}

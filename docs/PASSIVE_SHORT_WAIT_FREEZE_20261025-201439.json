@@ -1,0 +1,127 @@
+{
+  "status": "FROZEN_SHORT_RECEIVE_DATA_INTEGRITY_DIAGNOSTIC",
+  "archive_name": "passive-short-wait-source-evidence-20261025-201439.zip",
+  "archive_sha256": "eca06f1a407d623b4149c4f66d23de9517723060352fd3b8329b98a2d3161ac3",
+  "zip_crc_verified": true,
+  "each_member_sha256_verified": true,
+  "includes_full_flash_or_credentials": false,
+  "files": [
+    {
+      "path": "docs/PASSIVE_SHORT_WAIT_ASSESSMENT_20261025-201439.json",
+      "sha256": "0d742a22bfc93de8cc1ff1354153b903f9a002e4b107c5c0df5fedc039d2fe04"
+    },
+    {
+      "path": "docs/PASSIVE_SHORT_WAIT_G29_2026-10-25.md",
+      "sha256": "1b42065ce6aeee965fe13e6479cdd4bd38e86a8375e702af445f6c0c1a2d6504"
+    },
+    {
+      "path": "docs/PASSIVE_SHORT_WAIT_OFFLINE_2026-10-25_G29.json",
+      "sha256": "479ac9fcf79ccfaa2694c37e2b857bff41943b4138052973e7aeffead97bfb00"
+    },
+    {
+      "path": "docs/PASSIVE_SHORT_WAIT_PLAN_2026-10-25_G29.json",
+      "sha256": "9326ed69617138c440bd0baa354f73e66fd4b460535e62dd69e046a5851c64a1"
+    },
+    {
+      "path": "docs/PASSIVE_TRANSPORT_RUN_20261025-201439.json",
+      "sha256": "7514eb3174be83e3b15a4ecc4140d93a696ae47e2184184cb4ee01207d153e96"
+    },
+    {
+      "path": "docs/PASSIVE_WAKE_ASSESSMENT_20261025-195942.json",
+      "sha256": "5cdf1d7ef67812104f00cce0d3764f9e976f28a56fa1bca044a9413d8f96b22f"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261025-202023.json",
+      "sha256": "c3f75e26bac2ab47b13bc8f90d22290be6b45d3c5a44fb9b98ab31aab9421a08"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261025-202200.json",
+      "sha256": "94b3cdc9647a00f98b051982446d380743da60f47fed8c50098ff850aa3686c5"
+    },
+    {
+      "path": "tools/game_input_liveness.py",
+      "sha256": "ee9a7df21407cb389935dff1e66b507a5e0e031d00b64cee7e4b36cb53d45e5c"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "tools/passive_short_wait_policy_g29.py",
+      "sha256": "c597552b3f27d7cf4b35952f5a1a689c50144d2e34883283857f4b73ccf7aaf3"
+    },
+    {
+      "path": "tools/passive_timing_policy_g24.py",
+      "sha256": "160218dee714e85f0b51eefc8e190b90e5422f43d3b5c17ba0b4465be383f44c"
+    },
+    {
+      "path": "tools/passive_timing_policy_g25.py",
+      "sha256": "6955ae285668ba0587522e2083a14af32044e827a3fbfe28771843812da6062e"
+    },
+    {
+      "path": "tools/passive_timing_policy_g26.py",
+      "sha256": "dd57ece1b2bf27422ba7a593560ab8133be370fdad5b28a1cf4441fc3a3dedde"
+    },
+    {
+      "path": "tools/passive_transport_policy.py",
+      "sha256": "4882bf449a7995b763ec85ed763dffbcc8109a41765224134cf97a86d20ec6b8"
+    },
+    {
+      "path": "tools/passive_wake_policy_g28.py",
+      "sha256": "178b62fa0334dfa20e694f73b3a34e1ccb2d185e75934021c16912ec5a6e03bc"
+    },
+    {
+      "path": "tools/poll_timing_probe.py",
+      "sha256": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef"
+    },
+    {
+      "path": "tools/poll_timing_probe_v2.py",
+      "sha256": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d"
+    },
+    {
+      "path": "tools/run_passive_short_wait_g29.py",
+      "sha256": "7b51ca5e6e78741f8e59dcdfab9283d2f8efb0e3007722dd5437fdf3c21b4b76"
+    },
+    {
+      "path": "tools/run_passive_timing_g24.py",
+      "sha256": "a4c3537ea412cc3d65b479f039e203a0f47f538d82434bf4df98b28522ada326"
+    },
+    {
+      "path": "tools/run_passive_timing_g25.py",
+      "sha256": "fcf2cc0eb1d822f84ccc73e5cc833ae35871563e6306758c603c09e54b6ddf94"
+    },
+    {
+      "path": "tools/run_passive_timing_g26.py",
+      "sha256": "8ab612f1038608eebcb5a9df1a120f832df0e028f0caf2e6ba5a3bc28443fc01"
+    },
+    {
+      "path": "tools/run_passive_transport.py",
+      "sha256": "e6f712bd396006a7ea9fd6ff39ad6be91cf695ee2cfc811e2113607d3800d6e7"
+    },
+    {
+      "path": "tools/run_passive_wake_g28.py",
+      "sha256": "13a2d336debcbfd8ca8dbb4fbd4ce060d58efd84497cf8da7704889a52d73fdf"
+    },
+    {
+      "path": "tools/short_wait_transport.py",
+      "sha256": "39b86fa8183b9ecdf5154c8d8a5d34adfe524c01aade3a1eada3b3dfdf0508dd"
+    },
+    {
+      "path": "tools/test_passive_short_wait_g29.py",
+      "sha256": "654305b94750a251b18ffe306df1cc3d2f73b5c94cdb5e528d6ba5f64ab42465"
+    },
+    {
+      "path": "tools/test_short_wait_transport.py",
+      "sha256": "c00ea901c0a05948c5f74215e76b33a6bff63e5109d6a14cc20a65f17c493486"
+    },
+    {
+      "path": "tools/verify_passive_short_wait_g29_offline.py",
+      "sha256": "74eb0320e433735ac777a0e5b70d5e27ce08514cbc47947dba2e3f0c8119da88"
+    },
+    {
+      "path": "tools/wake_timing_probe.py",
+      "sha256": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f"
+    }
+  ],
+  "scope": "12ms no-actuator trial30 with full data despite191 request timeouts; no demonstrated end-to-end latency improvement, not adopted into game output. No GitHub upload."
+}

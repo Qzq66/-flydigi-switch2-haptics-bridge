@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_FIRST_UPDATED_CONFIG_12MS_GAME_PASS",
+  "files": [
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261029-234906.json",
+      "sha256": "8fcdb2f9f9769ade7cfcff5648fc0b054008ff2bc18f8e14eeca009209dfa99d"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261029-235420.json",
+      "sha256": "b1165d0bd4c2ce991fe7807e97e834f36cce16519d52c535118472f2ebbb4c54"
+    },
+    {
+      "path": "docs/UPDATED_GAME_G57_ASSESSMENT_20261029-234906.json",
+      "sha256": "e6631036e49b40b4a0c93d6001ae20a2416d90c3eaf1e7ddbba15d0a6ba0c958"
+    },
+    {
+      "path": "docs/UPDATED_GAME_G57_PLAN_2026-10-29.json",
+      "sha256": "c38a3e725b7ee6a17fd90e10ac665f3377cf04ce6392b57820e1500e5041da97"
+    },
+    {
+      "path": "tools/updated_game_policy_g57.py",
+      "sha256": "df523fb97787e9bd4ac0ca6a9f5348817941bab40c09d180586bcf9ee4f19de1"
+    },
+    {
+      "path": "tools/run_updated_game_g57.py",
+      "sha256": "74c4723b431b9e426a1973b703314f2c038117025849f5328f404b4e96e7b42b"
+    },
+    {
+      "path": "tools/assess_updated_game_g57.py",
+      "sha256": "28c9d606553c499541fb47829398db911090052b7ce8890efab8f6461c2b2a10"
+    },
+    {
+      "path": "tools/updated_config_game_owner.py",
+      "sha256": "97ff2a02e3108f020eb37f8091fd2bdb620ec7ef5260b454f3dbe858c31baeaa"
+    },
+    {
+      "path": "tools/receive_budget12_transport.py",
+      "sha256": "b191f7ff3dd27dd3658a32863508bf9b65c079ce2a4a24dd194c15a876e1e75d"
+    }
+  ]
+}

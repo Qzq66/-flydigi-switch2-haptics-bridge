@@ -1,0 +1,27 @@
+{
+  "status": "READONLY_MOTOR_DIFFERENCE_CAPTURED",
+  "trial": "20261115-151859",
+  "state_matches": true,
+  "observations": [
+    {
+      "attempt": 1,
+      "bytes": 64,
+      "matches": true,
+      "differences": []
+    },
+    {
+      "attempt": 2,
+      "bytes": 64,
+      "matches": true,
+      "differences": []
+    },
+    {
+      "attempt": 3,
+      "bytes": 64,
+      "matches": true,
+      "differences": []
+    }
+  ],
+  "configuration_writes": 0,
+  "motor_commands": 0
+}

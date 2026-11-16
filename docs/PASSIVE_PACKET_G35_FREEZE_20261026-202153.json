@@ -1,0 +1,87 @@
+{
+  "status": "FROZEN_G35_DATA_INTEGRITY_RX_CAPTURE_ABSENT",
+  "current_generation": 36,
+  "files": [
+    {
+      "path": "tools/passive_packet_policy_g35.py",
+      "sha256": "454db9eecc2bb86ff6a50ce7c92006f43856f963394b4afcfb3ea3883ff7ac35"
+    },
+    {
+      "path": "tools/run_passive_packet_g35.py",
+      "sha256": "caf640d1652236a302d1180be45dd5f840bd009be9c68280c9a587bb4c86e39c"
+    },
+    {
+      "path": "tools/run_pktmon_passive_g35.ps1",
+      "sha256": "932967c7d55646792f2411e939c8b3bd3d823069890638c8957a805e7f8dfa30"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g35.py",
+      "sha256": "f32e0973d7278a47016e5b01147dce6d5467fa9fc3274cd604bb9fe32d561a2e"
+    },
+    {
+      "path": "tools/analyse_passive_packet_g35_recovered.py",
+      "sha256": "10d005d7c386a789773f48873a132158e5b093ba673697a0f94f4c1ca768a9bd"
+    },
+    {
+      "path": "tools/component_receive_analysis_v2.py",
+      "sha256": "e78be6d1862ed4b624c270ab09868099663f9ac02a0667a156d7ef98a83dcc33"
+    },
+    {
+      "path": "tools/pktmon_capture_common_v4.ps1",
+      "sha256": "d9d507c043c91f5bb270c29cc068da9898518a6e1fa6d35eb709fa5ef27e8825"
+    },
+    {
+      "path": "tools/usb_recovery_clock.py",
+      "sha256": "02781e8d13c29531336be515d67c886c4067458e10043def03cc001fb8c14995"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G35_2026-10-26.md",
+      "sha256": "6a0273fdd8a2022156fab42674e20c476053b41bd38b0b364404f1b5f535d955"
+    },
+    {
+      "path": "docs/PASSIVE_REBASE_G35_20261026.json",
+      "sha256": "5f64508f0baf0a0c79697c01cfedd7e2e36c1b6b059aa546f268a48b21f0775e"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G35_PLAN_2026-10-26.json",
+      "sha256": "9490de22b31121ad3f77336636151cab0dc222b08f36bcddd39603476dbd7af7"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G35_OFFLINE_20261026.json",
+      "sha256": "27c322a293ea3300806f234f409713d789bc412cc17a8afbace66d04c77f57d7"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G35_ASSESSMENT_20261026-202153.json",
+      "sha256": "e1421343aea2ed0eeccffc53586d913ebc444b5dd203b9278884995e3c084acc"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_RUN_20261026-202238.json",
+      "sha256": "5aa1d30abb641dea260c0a230e832dee8ce44043daf0a7b184dfa68c28ee2f74"
+    },
+    {
+      "path": "docs/PKTMON_PASSIVE_G35_20261026-202153.json",
+      "sha256": "efe680f3f9f9f0db793f1c7614cf5f236578af971cab9afd627b0b3db51d3b6b"
+    },
+    {
+      "path": "docs/PASSIVE_PACKET_G35_COMPONENTS_DIRECT_20261026-202153.json",
+      "sha256": "eab8b4279a77927612de8279ebfee07093e6c4a1bd67d9b36367d8717ac90557"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261026-201817.json",
+      "sha256": "2ce3f653d10c78ca2dd8ca9d445603ffebd6fc5fb4ee687a670bc177d47f25d9"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261026-202829.json",
+      "sha256": "07e4ef3482ecfc3211b303099212d1be7a9cfe50c29b4188d00f63dfcdd87fa1"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261026-202001.json",
+      "sha256": "46530248eb14a2f5a7b0351bc5e9ffc2683e643d3e08576407594f81a2aa8cdb"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261026-203018.json",
+      "sha256": "c87e9b33ee3113b6267161be4507d50ffc2480e4019814c31a47d9bfa507d5f6"
+    }
+  ],
+  "private_archive_sha256": "dea37bf7af3e88df6d6dde33fd23c07ddaa4860ab269060c4a5a1fe2d93b4aef"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "READONLY_RESUME_COMPARISON",
+  "flash_write": false,
+  "full_bytes": 4194304,
+  "baseline_generation": 43,
+  "full_sha256": "3e6ee3be18154d9917c2b74a019caf78540cb924ab4fe961a2c3f20e2d8218c9",
+  "outside_journal_unchanged": true,
+  "newest": {
+    "generation": 44,
+    "complete": true,
+    "crc_valid": true,
+    "reason": "boot_limit",
+    "stream_end": "drain_timeout",
+    "no_flash_marker": 0,
+    "dropped_events": 0
+  },
+  "interpretation": "Complete boot-limit journal; not a new game acceptance. User power history pending. Installation pointer unchanged."
+}

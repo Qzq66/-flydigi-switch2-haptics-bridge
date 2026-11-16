@@ -1,0 +1,175 @@
+{
+  "status": "PASSED_NO_ACTUATOR_CALL_TIMING_INTEGRITY_NOT_GAME_REALTIME",
+  "checks": {
+    "program_completed": true,
+    "no_motor_commands": true,
+    "config_unchanged": true,
+    "breakdown_valid": true,
+    "phase_valid": true,
+    "full_flash_verified": true,
+    "single_generation": true,
+    "source_fields_equal": true,
+    "call_durations_fit_gap": true
+  },
+  "breakdown_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "idle": true,
+      "counts": true,
+      "bounds": true,
+      "metadata_only": true,
+      "compact_size": true,
+      "ordered_call_intervals": true
+    }
+  },
+  "phase_integrity": {
+    "passed": true,
+    "checks": {
+      "healthy": true,
+      "atomic_detail": true,
+      "producer_idle": true,
+      "bounded": true,
+      "completed_counts": true,
+      "old_counts_match": true,
+      "no_producer_errors": true,
+      "metadata_only": true,
+      "finite_cost": true,
+      "shape": true,
+      "capacity": true,
+      "compact_bytes": true,
+      "maximum_matches_counter": true,
+      "maximum_has_original_predecessor": true,
+      "maximum_context_retained": true,
+      "row_integrity": true,
+      "context_integrity": true
+    },
+    "scope": "Integrity of recorded wrapper poll/pause spans and bounded contexts; not proof of a network root cause or improved latency."
+  },
+  "generation": 54,
+  "receive_gap_seconds": 0.08723290000000361,
+  "call_totals_seconds": {
+    "input_read": 8.869999999205902e-05,
+    "sendto": 0.0002712000000144599,
+    "recvfrom": 0.07708969999998772
+  },
+  "receive_call_fraction": 0.8837227697346359,
+  "unattributed_seconds": 0.009783300000009376,
+  "maximum_gap_span": [
+    {
+      "poll_index": 15618,
+      "start": 154.7793606,
+      "calls": [
+        {
+          "kind": "input_read",
+          "start": 154.7793765,
+          "end": 154.7794774,
+          "duration_seconds": 0.00010089999997831,
+          "error_type": null
+        },
+        {
+          "kind": "sendto",
+          "start": 154.7794976,
+          "end": 154.7795935,
+          "duration_seconds": 9.589999999093379e-05,
+          "error_type": null
+        },
+        {
+          "kind": "recvfrom",
+          "start": 154.7795962,
+          "end": 154.7827801,
+          "duration_seconds": 0.0031839000000104534,
+          "error_type": null
+        }
+      ],
+      "end": 154.7827938,
+      "duration_seconds": 0.0034332000000176777,
+      "outcome": "frame",
+      "error_type": null,
+      "received_at": 154.7827915,
+      "receive_gap_seconds": 0.008377499999994598,
+      "source_us": 119699274,
+      "flags": 7,
+      "score_seconds": 0.008377499999994598
+    },
+    {
+      "poll_index": 15619,
+      "start": 154.7878417,
+      "calls": [
+        {
+          "kind": "input_read",
+          "start": 154.7878492,
+          "end": 154.7878983,
+          "duration_seconds": 4.909999998403691e-05,
+          "error_type": null
+        },
+        {
+          "kind": "sendto",
+          "start": 154.7879078,
+          "end": 154.7880558,
+          "duration_seconds": 0.00014799999999581814,
+          "error_type": null
+        },
+        {
+          "kind": "recvfrom",
+          "start": 154.7880628,
+          "end": 154.8485299,
+          "duration_seconds": 0.060467099999982565,
+          "error_type": "timeout"
+        }
+      ],
+      "end": 154.8485446,
+      "duration_seconds": 0.06070289999999545,
+      "outcome": "timeout",
+      "error_type": null,
+      "score_seconds": 0.06070289999999545
+    },
+    {
+      "poll_index": 15620,
+      "start": 154.8531718,
+      "calls": [
+        {
+          "kind": "input_read",
+          "start": 154.8531779,
+          "end": 154.8532175,
+          "duration_seconds": 3.960000000802211e-05,
+          "error_type": null
+        },
+        {
+          "kind": "sendto",
+          "start": 154.8532234,
+          "end": 154.8533466,
+          "duration_seconds": 0.00012320000001864173,
+          "error_type": null
+        },
+        {
+          "kind": "recvfrom",
+          "start": 154.8533511,
+          "end": 154.8699737,
+          "duration_seconds": 0.01662260000000515,
+          "error_type": null
+        }
+      ],
+      "end": 154.8700313,
+      "duration_seconds": 0.016859499999981153,
+      "outcome": "frame",
+      "error_type": null,
+      "received_at": 154.8700244,
+      "receive_gap_seconds": 0.08723290000000361,
+      "source_us": 119786224,
+      "flags": 7,
+      "score_seconds": 0.08723290000000361
+    }
+  ],
+  "counts": {
+    "poll_calls": 17448,
+    "responses": 17446,
+    "timeouts": 2
+  },
+  "game_80ms_requirement_met": false,
+  "root_cause_not_established": true,
+  "host_api_durations_include_scheduling": true,
+  "source_sha256": {
+    "CALL_BREAKDOWN_RUN_20261028-224522.json": "60c9d1c8f8af5033084c8fbfc11a57eaea2b83f8fcad2084322575379f76e816"
+  }
+}

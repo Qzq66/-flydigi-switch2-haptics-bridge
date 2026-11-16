@@ -1,0 +1,28 @@
+{
+  "status": "CAPTURED_FLASH_VERIFIED",
+  "flash_written": false,
+  "flash_unchanged": true,
+  "output_reports": 0,
+  "version": 4,
+  "scope": "single no-output scheduled-security trial",
+  "capture_sha256": "9228dae4bc4f6178bfaacbac69e672bf8da4df4b5c8006f31728705e04fc6ee6",
+  "flash_before_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "flash_after_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "auth_complete": [
+    "05"
+  ],
+  "security_result": [
+    [
+      "0",
+      "05"
+    ]
+  ],
+  "hid_open": [
+    "81"
+  ],
+  "descriptor": [],
+  "done": [
+    "hid_open_failed"
+  ],
+  "private_folder": "bt-classic-safe-20261116-112752"
+}

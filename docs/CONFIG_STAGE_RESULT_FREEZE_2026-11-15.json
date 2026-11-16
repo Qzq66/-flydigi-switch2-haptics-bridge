@@ -1,0 +1,21 @@
+{
+  "status": "PASSED_FIRST_OF_TWO_ISOLATED_RUNTIME_STAGE_TEST",
+  "files": [
+    {
+      "path": "tools/run_config_stage_trace.py",
+      "sha256": "bb0dc7ee0bf4b98d079f6feaada4d202fe1735fd7e1d99f1be8c1bdad82a6eea"
+    },
+    {
+      "path": "tools/test_config_stage_trace.py",
+      "sha256": "e830d467deae58b43302d161649072d7bd41c07b097d40e0212231f1faf9e44f"
+    },
+    {
+      "path": "docs/CONFIG_STAGE_TRACE_20261115-155555.json",
+      "sha256": "85cd4a6dbccbfd9faa4227275929f97d888d65fbad66ea4b6f718a926fe810c2"
+    },
+    {
+      "path": "docs/CONFIG_STAGE_ASSESSMENT_2026-11-15.json",
+      "sha256": "c56ac1c0ab06a6e7109f926f57e1d4f3773bc554ce738dcd0122c3bf6d614f38"
+    }
+  ]
+}

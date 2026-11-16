@@ -1,0 +1,8 @@
+{
+  "trial": "20261115-151859",
+  "user_confirms_deliberate_final_joystick": true,
+  "centering_drift_not_established": true,
+  "prearm_silence_not_explicitly_confirmed": true,
+  "strict_trial_unchanged": true,
+  "hardware_access": false
+}

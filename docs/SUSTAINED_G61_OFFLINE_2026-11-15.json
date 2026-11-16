@@ -1,0 +1,95 @@
+{
+  "status": "PASSED_OFFLINE_PENDING_FINAL_GAME_TRIAL",
+  "tests": 213,
+  "failures": 0,
+  "errors": 0,
+  "hardware_access": false,
+  "gui_observed": false,
+  "modules": [
+    "test_startup_ready_game_session",
+    "test_bounded_multi_event_renderer",
+    "test_bounded_multi_event_session",
+    "test_multi_event_game_session",
+    "test_multi_game_acceptance",
+    "test_live_fidelity_candidate",
+    "test_fidelity_game",
+    "test_fidelity_network",
+    "test_fidelity_network_io",
+    "test_haptic_fidelity_candidate",
+    "test_written_pcm_probe",
+    "test_phase_gap_probe",
+    "test_phase_gap_integration",
+    "test_receive_budget12_single_variable",
+    "test_game_input_liveness",
+    "test_listener_readiness",
+    "test_bridge_desktop",
+    "test_recovered52_heartbeat",
+    "test_startup_game_acceptance.Tests",
+    "test_startup_current_config_owner.Tests",
+    "test_sustained_session.Tests",
+    "test_sustained_acceptance.Tests",
+    "test_config_stage_trace.Tests",
+    "test_config_read_trace.Tests",
+    "test_config_output_trace.Tests"
+  ],
+  "frozen_sources": [
+    {
+      "file": "MULTI_GAME_RESULT_FREEZE_2026-10-30.json",
+      "matched": true
+    },
+    {
+      "file": "STARTUP_TRIAL_FREEZE_2026-11-15.json",
+      "matched": true
+    },
+    {
+      "file": "CONFIG_STAGE_RESULT_FREEZE_2026-11-15.json",
+      "matched": true
+    }
+  ],
+  "files": [
+    {
+      "path": "tools/sustained_renderer.py",
+      "sha256": "526b0c49ada5149f3cdfaa2960a1b4807320d96d0043b45461edc6acc95e244a"
+    },
+    {
+      "path": "tools/sustained_session.py",
+      "sha256": "288cf21c3b10f9b57a84ddcdb5a41573749e9fd6392de4cf6915c5a98d525289"
+    },
+    {
+      "path": "tools/sustained_game_session.py",
+      "sha256": "c09e4cf92d60cedcf516e1cda21ffee1d789e049974515e31669e585410fd1c3"
+    },
+    {
+      "path": "tools/sustained_validation.py",
+      "sha256": "24bb8e3d31186c1ac809b600bb3c7112c0fa85a0e20220f746e023d9944e3987"
+    },
+    {
+      "path": "tools/sustained_config_owner.py",
+      "sha256": "140148aeccefdfe970c3880833a92f56504795372ccd50d488b6e2f1dcc7c6f5"
+    },
+    {
+      "path": "tools/sustained_game_policy_g61.py",
+      "sha256": "fab4c3facacb072099a2f6462fdfcd4f8f2f768dad9830d2a014bd6e4334c6f9"
+    },
+    {
+      "path": "tools/run_sustained_game_g61.py",
+      "sha256": "645f79b09d2415f8fb0ed9220944bc591ac10cb1e2d3df060d55f0985a2ae06f"
+    },
+    {
+      "path": "tools/assess_sustained_game_g61.py",
+      "sha256": "47b0b4452cd334169cc652193dd9f316999baf98a800218d47a8f053492cb2f1"
+    },
+    {
+      "path": "tools/sustained_game_window.py",
+      "sha256": "a294f9978c9417b79744ec4ece139d45757c5677e43f9f0df5dfb6e2196f3fe2"
+    },
+    {
+      "path": "tools/test_sustained_session.py",
+      "sha256": "816cd415998397091ada2e34d10662f8a5f38115568ded12f2412560015a7590"
+    },
+    {
+      "path": "tools/test_sustained_acceptance.py",
+      "sha256": "66e826f22edb2ce5b61c98564b1cd64e5dc57b2c94264d2faa70bebb32d9d474"
+    }
+  ]
+}

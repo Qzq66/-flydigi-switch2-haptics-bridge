@@ -1,0 +1,134 @@
+{
+  "status": "PASSED_STREAMING_FIDELITY_CORE_OFFLINE",
+  "tests": 32,
+  "failures": 0,
+  "errors": 0,
+  "device_access": false,
+  "network_access": false,
+  "io_guard": true,
+  "live_hardware_entry_connected": false,
+  "physical_streaming_fidelity_validated": false,
+  "legacy_hardware_entries_unchanged": true,
+  "trace_replays": [
+    {
+      "stamp": "20261024-131624",
+      "packet_delay_ms": 0.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5928,
+        5928
+      ],
+      "blocks": 659,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    },
+    {
+      "stamp": "20261024-131624",
+      "packet_delay_ms": 16.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5928,
+        5928
+      ],
+      "blocks": 659,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    },
+    {
+      "stamp": "20261024-131624",
+      "packet_delay_ms": 32.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5928,
+        5928
+      ],
+      "blocks": 659,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    },
+    {
+      "stamp": "20261024-132744",
+      "packet_delay_ms": 0.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5615,
+        5615
+      ],
+      "blocks": 831,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    },
+    {
+      "stamp": "20261024-132744",
+      "packet_delay_ms": 16.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5615,
+        5615
+      ],
+      "blocks": 831,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    },
+    {
+      "stamp": "20261024-132744",
+      "packet_delay_ms": 32.0,
+      "active_ms": [
+        296,
+        296
+      ],
+      "peak_code": 9,
+      "squared_code_sum": [
+        5615,
+        5615
+      ],
+      "blocks": 831,
+      "muted_reason": "single bilateral episode completed",
+      "offline_prefix_pcm_exact": true
+    }
+  ],
+  "limits": {
+    "gain": 96,
+    "maximum_offset": 12,
+    "sample_rate_hz": 1000,
+    "jitter_buffer_ms": 64,
+    "heartbeat_timeout_ms": 80,
+    "source_group_ms_assumed": 5,
+    "maximum_bilateral_episodes": 1,
+    "maximum_active_ms_per_side": 320,
+    "maximum_squared_code_sum_per_side": 8000,
+    "maximum_armed_seconds": 15
+  },
+  "source_sha256": {
+    "tools/live_fidelity_candidate.py": "0e8c3d5f57e30f086e37deae709a106a4ffe493976d1d952b6f267985f61fc9f",
+    "tools/test_live_fidelity_candidate.py": "4f5ce469f5926bc22a01a59066fbfd5445cf46852da34d2f7aadb8f2caa42e4b",
+    "tools/verify_live_fidelity_offline.py": "556e8e87847b84237a5b33e62f55e4dbf971312abd9d4d47bec192d04b98b9c9",
+    "tools/haptic_fidelity_candidate.py": "6e0e5531a04fbe51b219d23cfacbbce91883e47b312f749722ba3d76c0287102",
+    "handoff/2026-10-22/work/switch_hd_decode.py": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb",
+    "handoff/2026-10-22/work/bridge_render.py": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202",
+    "handoff/2026-10-22/work/bridge-switch-live.py": "ec8a597f4940733b6c3074a753aceab54883360d6d6746f5c34f5dce0fea3551",
+    "tools/run_v042_input_recheck.py": "39c066ef9e98ddb0e5260e64d76ecbc82cb3e8f980c05f7326669b2f6149c734",
+    "tools/run_fidelity_ab.py": "938799ed91de4e53762b22e3f00018909d4181237a907746921967fae2560879"
+  },
+  "scope": "Core rendering only with synthetic packet timing and old real motor words; not actual Wi-Fi, Windows scheduling, actuator output or end-to-end input continuity"
+}

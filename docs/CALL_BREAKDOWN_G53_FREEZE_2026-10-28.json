@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "tools/poll_call_breakdown.py",
+      "sha256": "c49a354d0d0208cd13b7a3c61df75c5f3afbd3a877cc0d71aec717bd4d2c5f20"
+    },
+    {
+      "path": "tools/poll_call_breakdown_validation.py",
+      "sha256": "e004e75dac8bad57e80d2163a6f485162b4a8c83c7da32b32f16d6fde14c591e"
+    },
+    {
+      "path": "tools/call_breakdown_policy_g53.py",
+      "sha256": "0a659a1f0f37f753ebacb238e08ef753b1839a131f53f00c500a6ab99a0697ae"
+    },
+    {
+      "path": "tools/run_call_breakdown_g53.py",
+      "sha256": "ea47427ecd46f0245f37819cd51d4015120a1b4c17b84ec7c95f8fcc556c4123"
+    },
+    {
+      "path": "tools/test_poll_call_breakdown.py",
+      "sha256": "d9780facd4440a7012a8f7dbc968e077f8cac0dc825e09c4cd747ae524a8a6b8"
+    },
+    {
+      "path": "tools/verify_call_breakdown_g53_offline.py",
+      "sha256": "d7850e7c2ee1ecbbe185cdbe9b0c13b2e23fe546c385146a8f064d95f0408675"
+    }
+  ]
+}

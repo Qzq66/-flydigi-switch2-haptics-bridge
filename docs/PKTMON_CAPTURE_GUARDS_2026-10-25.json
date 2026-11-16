@@ -1,0 +1,14 @@
+{
+  "status": "PASSED_POWERSHELL_CAPTURE_GUARDS_AND_VALIDATE_ONLY",
+  "guard_checks": 8,
+  "syntax_passed": true,
+  "validate_only_passed": true,
+  "capture_started": false,
+  "filters_changed": false,
+  "pico_access": false,
+  "source_sha256": {
+    "tools/pktmon_capture_common.ps1": "baea2b5d6ab09396f29585ea8b41537657934c0236c3ebedc5383edc000f7ebe",
+    "tools/run_pktmon_smoke.ps1": "d1d1e5a7bba481ef04c117bc8f23767209a3e1265de677044308e4c1d91ab09d",
+    "tools/test_pktmon_capture_guards.ps1": "06ed9ff802ec4abd4e2c97200091bcd0e2f5d2bcd1a5084bb1a2715684b5e85d"
+  }
+}

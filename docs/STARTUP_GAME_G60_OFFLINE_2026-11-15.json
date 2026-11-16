@@ -1,0 +1,75 @@
+{
+  "status": "PASSED_OFFLINE_PENDING_SWITCH_GAME",
+  "tests": 174,
+  "failures": 0,
+  "errors": 0,
+  "hardware_access": false,
+  "gui_observed": false,
+  "modules": [
+    "test_startup_ready_game_session",
+    "test_bounded_multi_event_renderer",
+    "test_bounded_multi_event_session",
+    "test_multi_event_game_session",
+    "test_multi_game_acceptance",
+    "test_live_fidelity_candidate",
+    "test_fidelity_game",
+    "test_fidelity_network",
+    "test_fidelity_network_io",
+    "test_haptic_fidelity_candidate",
+    "test_written_pcm_probe",
+    "test_phase_gap_probe",
+    "test_phase_gap_integration",
+    "test_receive_budget12_single_variable",
+    "test_game_input_liveness",
+    "test_listener_readiness",
+    "test_bridge_desktop",
+    "test_recovered52_heartbeat",
+    "test_startup_game_acceptance.Tests"
+  ],
+  "frozen_sources": [
+    {
+      "file": "MULTI_GAME_RESULT_FREEZE_2026-10-30.json",
+      "matched": true,
+      "files": 16
+    },
+    {
+      "file": "FIDELITY_GAP42_RUN_FREEZE_20261027-234740.json",
+      "matched": true,
+      "files": 28
+    }
+  ],
+  "files": [
+    {
+      "path": "tools/startup_ready_game_session.py",
+      "sha256": "77c915f9f9fe9baffe552dbaf120c45066dcae5a2d509c3bed79bd877666ff51"
+    },
+    {
+      "path": "tools/startup_game_policy_g60.py",
+      "sha256": "46cdf479f41c2500a7d90af335d2aaf6c0ecdac9c737b295b619194733844184"
+    },
+    {
+      "path": "tools/run_startup_game_g60.py",
+      "sha256": "b62bfb31a233c7e0b26faee4ab94d0f96a0dd14577894ac1226a6432cfe441d9"
+    },
+    {
+      "path": "tools/assess_startup_game_g60.py",
+      "sha256": "e5fb48cc41f98288bca924ab9c5713102c79390f9b5b39e00540b958b19a6c81"
+    },
+    {
+      "path": "tools/startup_game_window.py",
+      "sha256": "bae61171a63bbb4750074a4a47c12eeb012245a4c44931ee263675fc07c525d4"
+    },
+    {
+      "path": "tools/bridge_desktop_startup.py",
+      "sha256": "43425279dcfeec9bb1092dc537a69e7da93473ce367be0d57a2c03184f361e6a"
+    },
+    {
+      "path": "tools/test_startup_ready_game_session.py",
+      "sha256": "5abac9eb80789d78c91da1ffb28ae012e8828b196edde793f8def1f2f00660d4"
+    },
+    {
+      "path": "tools/test_startup_game_acceptance.py",
+      "sha256": "04073d3348e44335640f23f0146e28476c6cf64ebbaa245b64f2f9378e7398fd"
+    }
+  ]
+}

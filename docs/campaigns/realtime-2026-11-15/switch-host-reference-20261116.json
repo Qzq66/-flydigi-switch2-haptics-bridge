@@ -1,0 +1,31 @@
+{
+  "status": "GENERIC_SWITCH_HOST_SOURCE_REVIEWED_NOT_INTEGRATED",
+  "date": "2026-11-16",
+  "repository": "ricardoquesada/bluepad32",
+  "commit": "80d6314e46f871719fbb4b721a2cc02227c4f369",
+  "files": {
+    "uni_hid_parser_switch.c": {
+      "sha256": "ee68174bb29c85344c1616fae9940c616ca175f9489bc266c99b70189a4b7144",
+      "bytes": 65358
+    },
+    "uni_bt_bredr.c": {
+      "sha256": "69effde068ed8d280961c23369c3ece7060188cb0a43f5dd147f0e564f38a3cb",
+      "bytes": 29729
+    },
+    "LICENSE": {
+      "sha256": "16f8ae812f7f3c61caae0f1bd658c2b20e90ef1eb722ceab45b5e3a2556d8b9b",
+      "bytes": 11587
+    }
+  },
+  "hardware_actions": [],
+  "license": "Apache-2.0 for Bluepad32; BTstack dependency license separate",
+  "findings": [
+    "Classic HID host channels and Nintendo reports implemented",
+    "Known clone names can bypass unresponsive SDP",
+    "Standard subcommands and 4-bit output sequence available",
+    "High-level rumble fixes frequency at 150Hz and duplicates data to both sides; not faithful HD passthrough",
+    "Host policy auto-accept and shorter minimum key size differ; not adopted"
+  ],
+  "fetch_failure": "Anonymous GitHub API rate-limited; empty-commit attempt failed. Source later fetched by connector-verified immutable commit. Empty source.json is not trusted.",
+  "next": "Generic Switch-mode RAM input probe; identify and lock actual mode target; no output/IMU/LED activation in initial observation"
+}

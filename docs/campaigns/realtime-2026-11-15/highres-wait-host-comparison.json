@@ -1,0 +1,36 @@
+{
+  "status": "HOST_HIGHRES_WAIT_COMPARISON_ONLY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "frame_interval_ms": 8,
+  "late_stop_ms": 4,
+  "requested_timer_resolution_ms": 1,
+  "busy_spin_used": false,
+  "timer_begin_result": 0,
+  "fixed_wait": {
+    "completed_deadlines": 200,
+    "fault": null,
+    "max_successful_lateness_ms": 2.015799999998791,
+    "wall_seconds": 1.6003659,
+    "process_cpu_seconds": 0.0,
+    "cpu_fraction_of_one_core": 0.0,
+    "wait_calls": 1072
+  },
+  "highres_deadline_wait": {
+    "completed_deadlines": 200,
+    "fault": null,
+    "max_successful_lateness_ms": 2.4866999999986206,
+    "wall_seconds": 1.6000318999999998,
+    "process_cpu_seconds": 0.015625,
+    "cpu_fraction_of_one_core": 0.00976543030173336,
+    "wait_calls": 1059
+  },
+  "highres_handle_closed": true,
+  "timer_end_result": 0,
+  "limitations": [
+    "Only200emptydeadlines per strategy",
+    "No input decoding or HID/device load",
+    "Zero CPU sample may reflect process CPU measurement granularity",
+    "No realtime guarantee or previous-trial root-cause proof"
+  ]
+}

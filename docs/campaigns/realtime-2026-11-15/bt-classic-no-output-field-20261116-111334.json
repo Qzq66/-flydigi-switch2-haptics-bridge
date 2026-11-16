@@ -1,0 +1,20 @@
+{
+  "status": "CAPTURED_FLASH_VERIFIED",
+  "flash_written": false,
+  "flash_unchanged": true,
+  "output_reports": 0,
+  "date": "2026-11-16",
+  "scope": "single target-locked no-output Classic HID connection",
+  "capture_sha256": "f98b3a38d5dea9fd4b635d1291cebddb3194c4db47f958841b42b80101576f8e",
+  "flash_before_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "flash_after_sha256": "d322b09ad79a0fd300aa459a26b1e6584ed5a2927e0467a45dcca30908004833",
+  "auth_complete": [],
+  "hid_open": [
+    "81"
+  ],
+  "descriptor": [],
+  "done": [
+    "hid_open_failed"
+  ],
+  "private_evidence_folder": "bt-classic-safe-20261116-111334"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "INCOMPLETE",
+  "plan_sha256": "65d0091538bcbbd59540e705effee860d84d3329e141adb59ef1fad63a8c3321",
+  "flash_write": false,
+  "persistent_flydigi_commands": 0,
+  "actual_switch_game": false,
+  "automatic_resume": false,
+  "ram_image_sha256": "49acbba65eea98c1ec29a18e697c33f364111a0b2a224f56bb792067c1ce8c56",
+  "flash_before": {
+    "verified": true,
+    "variant": "v043",
+    "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+    "installed_snapshot_sha256": "5fdd8a5209872542626179c99d1a7f4b3ce17b06d4512fbf1b3fc2af416024d1",
+    "baseline_generation": 21
+  },
+  "hotspot_preflight": {
+    "hotspot_state": "Off",
+    "clients": 0,
+    "band": "TwoPointFourGigahertz",
+    "iphone_usb_source": true
+  },
+  "error": "ValueError('Original iPhone USB / 2.4GHz hotspot required')"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_G29_SHORT_RECEIVE_COMPARISON_OFFLINE",
+  "tests": 125,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_wake_source_and_evidence_unchanged": true,
+  "plan_sha256": "9326ed69617138c440bd0baa354f73e66fd4b460535e62dd69e046a5851c64a1",
+  "source_sha256": {
+    "tools/short_wait_transport.py": "39b86fa8183b9ecdf5154c8d8a5d34adfe524c01aade3a1eada3b3dfdf0508dd",
+    "tools/test_short_wait_transport.py": "c00ea901c0a05948c5f74215e76b33a6bff63e5109d6a14cc20a65f17c493486",
+    "tools/wake_timing_probe.py": "73c036f5f6b3937f7f1c15a81008336a9f5aaa565eca24696d303319987ae07f",
+    "tools/test_wake_timing_probe.py": "774099624cffa42cc3bfe24e206d1834d4bcf202d0a19c2194d38a948b823003",
+    "tools/passive_short_wait_policy_g29.py": "c597552b3f27d7cf4b35952f5a1a689c50144d2e34883283857f4b73ccf7aaf3",
+    "tools/run_passive_short_wait_g29.py": "7b51ca5e6e78741f8e59dcdfab9283d2f8efb0e3007722dd5437fdf3c21b4b76",
+    "tools/poll_timing_probe.py": "c2716c43da9a7e5373591cc84039cbd6ed2a0d2bf8bdbeb2f6b1caf8b3198eef",
+    "tools/poll_timing_probe_v2.py": "308afd3c585286a9224579aa3c83a85f8059140a0380e2cec9d077df0863196d",
+    "tools/test_poll_timing_probe_v2.py": "65087cb71c47154b1ff06933496ca628665de37f6cc512d8edad9429a2a9b7dd",
+    "tools/test_poll_timing_probe.py": "5c844377780e3c5030b476cc170656a7fcb4b52493a51efdf22af40a49daea90",
+    "tools/test_passive_short_wait_g29.py": "654305b94750a251b18ffe306df1cc3d2f73b5c94cdb5e528d6ba5f64ab42465",
+    "tools/verify_passive_short_wait_g29_offline.py": "74eb0320e433735ac777a0e5b70d5e27ce08514cbc47947dba2e3f0c8119da88"
+  }
+}

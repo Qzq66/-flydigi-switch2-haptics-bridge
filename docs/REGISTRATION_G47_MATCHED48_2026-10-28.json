@@ -1,0 +1,61 @@
+{
+  "status": "MATCHED_GENERATION48_DIAGNOSTIC_ONLY_EXTRA_BOOT49_UNEXPLAINED",
+  "checks": {
+    "matched_generation": true,
+    "complete_crc": true,
+    "confirmed_end": true,
+    "source_fields_equal": true,
+    "configuration_unchanged": true,
+    "no_motor_output": true,
+    "observer_healthy": true,
+    "all_requested_categories_submitted_and_replied": true,
+    "phase_integrity": true
+  },
+  "strict_capture_status": "INCOMPLETE",
+  "strict_capture_error": "previous_generation_preserved",
+  "generation": 48,
+  "newest_generation": 49,
+  "extra_startup_history": "user_uncertain",
+  "user_later_report": "registration now works; user attributes earlier issue to console; causal attribution not independently verified",
+  "input_categories": {
+    "L": {
+      "reads": 85,
+      "sends": 85,
+      "replies": 85
+    },
+    "R": {
+      "reads": 81,
+      "sends": 81,
+      "replies": 81
+    },
+    "LR": {
+      "reads": 67,
+      "sends": 67,
+      "replies": 67
+    },
+    "A": {
+      "reads": 724,
+      "sends": 724,
+      "replies": 724
+    },
+    "neutral": {
+      "reads": 16654,
+      "sends": 16654,
+      "replies": 16652
+    },
+    "other": {
+      "reads": 621,
+      "sends": 621,
+      "replies": 621
+    }
+  },
+  "input_change_rows": 128,
+  "omitted_input_changes": 98,
+  "usb_submitted_reports": 8844,
+  "usb_lr_pattern_reports": 46,
+  "scope": "USB successful submission and request replies are not host input acceptance; LR pattern includes automatic registration.",
+  "source_sha256": {
+    "REGISTRATION_INPUT_RUN_20261028-205617.json": "5cfa82563c563bec06df4b27907a95fc3c525586a4fc018f9488b1358a5e9522",
+    "v043-host-full-20261028-210707.bin": "8b22fb7f43c37c700b2120d401a14f9eddb5ff099fbc30920096c2d8d2887597"
+  }
+}

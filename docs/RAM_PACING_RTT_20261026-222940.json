@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETE_ORIGINAL_REQUEST_TIMING_OFFLINE",
+  "hardware_access": false,
+  "sample_count": 5218,
+  "trace_sha256": "ed51e033996aa02ece8978d28952a86cb48d7bc9c471a3c1f907a3cfbe8dd018",
+  "round_trip": {
+    "count": 5218,
+    "minimum_ms": 0.592099999998652,
+    "median_ms": 1.041600000000642,
+    "p95_ms": 4.328499999999735,
+    "p99_ms": 6.486199999997666,
+    "maximum_ms": 44.68520000000353,
+    "over_12ms": 5,
+    "over_80ms": 0
+  },
+  "receive_intervals": {
+    "count": 5217,
+    "minimum_ms": 0.023999999996249244,
+    "median_ms": 5.401300000002607,
+    "p95_ms": 8.608599999995192,
+    "p99_ms": 10.791099999998721,
+    "maximum_ms": 49.127499999997326,
+    "over_12ms": 26,
+    "over_80ms": 0
+  },
+  "send_intervals": {
+    "count": 5217,
+    "minimum_ms": 3.7533999999972423,
+    "median_ms": 5.444100000005392,
+    "p95_ms": 8.569500000000119,
+    "p99_ms": 10.75699999999813,
+    "maximum_ms": 17.872900000000413,
+    "over_12ms": 26,
+    "over_80ms": 0
+  },
+  "largest_receive_gaps": [
+    {
+      "pair_index": 2619,
+      "receive_gap_ms": 49.127499999997326,
+      "original_send_gap_ms": 5.514800000000264,
+      "earlier_rtt_ms": 1.072500000006471,
+      "later_rtt_ms": 44.68520000000353,
+      "source_gap_ms": 49.204,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 4344,
+      "receive_gap_ms": 21.46999999999366,
+      "original_send_gap_ms": 6.156500000003007,
+      "earlier_rtt_ms": 1.3981000000029553,
+      "later_rtt_ms": 16.71159999999361,
+      "source_gap_ms": 6.185,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 405,
+      "receive_gap_ms": 21.263000000001142,
+      "original_send_gap_ms": 5.8179000000002645,
+      "earlier_rtt_ms": 1.2603999999996063,
+      "later_rtt_ms": 16.705500000000484,
+      "source_gap_ms": 16.206,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 3940,
+      "receive_gap_ms": 16.299199999998848,
+      "original_send_gap_ms": 6.022000000001526,
+      "earlier_rtt_ms": 1.07940000000184,
+      "later_rtt_ms": 11.356599999999162,
+      "source_gap_ms": 16.192,
+      "request_distance": 1
+    },
+    {
+      "pair_index": 698,
+      "receive_gap_ms": 16.0739999999997,
+      "original_send_gap_ms": 4.913200000000728,
+      "earlier_rtt_ms": 0.8628000000001634,
+      "later_rtt_ms": 12.023599999999135,
+      "source_gap_ms": 15.707,
+      "request_distance": 1
+    }
+  ],
+  "realtime_game_stability_proven": false
+}

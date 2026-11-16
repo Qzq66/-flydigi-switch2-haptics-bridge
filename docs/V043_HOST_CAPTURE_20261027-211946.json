@@ -1,0 +1,230 @@
+{
+  "status": "INCOMPLETE",
+  "flash_write": false,
+  "flydigi_commands": 0,
+  "checks": {
+    "same_board": true,
+    "private_material_unchanged": true,
+    "full_readback_verified": true,
+    "candidate_program_unchanged": true,
+    "outside_journal_unchanged": true,
+    "previous_generation_preserved": false
+  },
+  "newest": {
+    "version": 5,
+    "generation": 40,
+    "reason": "boot_limit",
+    "elapsed_ms": 181147,
+    "total_events": 15,
+    "stored_events": 15,
+    "dropped_events": 0,
+    "capacity": 2725,
+    "overflow": false,
+    "complete": true,
+    "first_dropped_at_us": null,
+    "usb_mounted_seen": true,
+    "no_flash_marker": 0,
+    "target_offset": "0xf0000",
+    "crc_valid": true,
+    "diagnostics_raw_hex": "42434150053000000f00000010000000070000000000000000000000000000000000000000000000050100010f00000071320000000000000000000000030002",
+    "events": [
+      {
+        "at_us": 75322357,
+        "at_ms": 75322.357,
+        "sequence": 0,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 75338337,
+        "at_ms": 75338.337,
+        "sequence": 1,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 75354340,
+        "at_ms": 75354.34,
+        "sequence": 2,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76586412,
+        "at_ms": 76586.412,
+        "sequence": 3,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76602412,
+        "at_ms": 76602.412,
+        "sequence": 4,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76618408,
+        "at_ms": 76618.408,
+        "sequence": 5,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76634412,
+        "at_ms": 76634.412,
+        "sequence": 6,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76642425,
+        "at_ms": 76642.425,
+        "sequence": 7,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 16,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76658422,
+        "at_ms": 76658.422,
+        "sequence": 8,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 61,
+        "packet_counter": 1,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76674464,
+        "at_ms": 76674.464,
+        "sequence": 9,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 32,
+        "packet_counter": 2,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76698417,
+        "at_ms": 76698.417,
+        "sequence": 10,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "10",
+        "first_argument": 38,
+        "packet_counter": 3,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76714470,
+        "at_ms": 76714.47,
+        "sequence": 11,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "48",
+        "first_argument": 1,
+        "packet_counter": 4,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76738470,
+        "at_ms": 76738.47,
+        "sequence": 12,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "03",
+        "first_argument": 48,
+        "packet_counter": 5,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      },
+      {
+        "at_us": 76762423,
+        "at_ms": 76762.423,
+        "sequence": 13,
+        "report_id": "80",
+        "wire_bytes": 64,
+        "subcommand": null,
+        "first_argument": 0,
+        "packet_counter": 0,
+        "pairing_arguments_redacted": false,
+        "motors_hex": null
+      },
+      {
+        "at_us": 76770418,
+        "at_ms": 76770.418,
+        "sequence": 14,
+        "report_id": "01",
+        "wire_bytes": 64,
+        "subcommand": "30",
+        "first_argument": 1,
+        "packet_counter": 6,
+        "pairing_arguments_redacted": false,
+        "motors_hex": "0001404000014040"
+      }
+    ],
+    "stream_end": "drain_timeout",
+    "slot_index": 1
+  },
+  "slots": [
+    {
+      "slot_index": 0,
+      "valid": true,
+      "generation": 39
+    },
+    {
+      "slot_index": 1,
+      "valid": true,
+      "generation": 40
+    }
+  ],
+  "full_flash_sha256": "dba88a2bf447dd19bb73fefe512e3e1ba31f3d67d08228685f57ac28e302869e",
+  "firmware_sha256": "3f7df3484644560548917013a66caac2c7f4b6a4307768fbf377e3fb4e751f50",
+  "error": "previous_generation_preserved"
+}

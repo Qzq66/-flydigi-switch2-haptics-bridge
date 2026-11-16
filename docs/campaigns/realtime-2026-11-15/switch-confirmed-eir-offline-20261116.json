@@ -1,0 +1,21 @@
+{
+  "status": "OFFLINE_READY_V3_NOT_LOADED",
+  "hashes": {
+    "standalone/switch_input_probe/main.c": "94060a51ef762473183d95af08daa3e205c2a1fb487acae81727f1bb65d1e0db",
+    "standalone/switch_input_probe/build-ram/switch_input_probe.elf": "ab4c538287deac16aeb84afca625dd28491b4c2fa33c5db0748714c2f71e5d5f",
+    "work/switch_discovery_confirmed_eir.ps1": "ebacf88de9d3d9aafe8c7d6dfe57b2af73c5801f1f3bee019f89d133527f18ba"
+  },
+  "direct_call_counts": {
+    "flash_range_erase": 0,
+    "flash_range_program": 0,
+    "hid_host_send_set_report": 0,
+    "hid_host_send_report": 0
+  },
+  "correction": "v2 EIR setting was after HCI power on; SDK setter only affects initialization. Move before power on and require Write Inquiry Mode Command Complete success in firmware and runner.",
+  "hardware_actions": [],
+  "limits": [
+    "No runtime confirmation yet",
+    "Prior v2 scan cannot be claimed as verified EIR inquiry",
+    "Discovery only, no connection or pairing"
+  ]
+}

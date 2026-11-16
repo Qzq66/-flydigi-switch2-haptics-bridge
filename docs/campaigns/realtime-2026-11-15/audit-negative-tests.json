@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_FIVE_AUDIT_NEGATIVE_TESTS",
+  "cases": [
+    {
+      "name": "socket",
+      "denied": true
+    },
+    {
+      "name": "subprocess",
+      "denied": true
+    },
+    {
+      "name": "native_backend",
+      "denied": true
+    },
+    {
+      "name": "out_of_scope_write",
+      "denied": true
+    },
+    {
+      "name": "device_path",
+      "denied": true
+    }
+  ],
+  "audit_events": [
+    {
+      "event": "socket.__new__",
+      "reason": "external_io_or_native_backend"
+    },
+    {
+      "event": "subprocess.Popen",
+      "reason": "external_io_or_native_backend"
+    },
+    {
+      "event": "ctypes.dlopen",
+      "reason": "external_io_or_native_backend"
+    },
+    {
+      "event": "open",
+      "reason": "write_outside_test_output"
+    },
+    {
+      "event": "open",
+      "reason": "device_path"
+    }
+  ],
+  "hardware_actions": 0
+}

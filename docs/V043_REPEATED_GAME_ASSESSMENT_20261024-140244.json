@@ -1,0 +1,69 @@
+{
+  "status": "PASSED_V043_120S_STAGED_GAME_LIMITED_NOTIFICATION",
+  "checks": {
+    "strict_game_program": true,
+    "strict_parent": true,
+    "input_acceptance_bound": true,
+    "exact_new_generation": true,
+    "journal_complete": true,
+    "persistent_end": true,
+    "all_fields_exact": true,
+    "contiguous_wire": true,
+    "full_live_window": true,
+    "staged_explicit_arm": true,
+    "arm_within_window": true,
+    "silent_preparation": true,
+    "post_arm_source_both_sides": true,
+    "output_bound": true,
+    "relay_observed": true,
+    "final_neutral": true,
+    "input_through_end": true,
+    "parent_disabled": true,
+    "configuration_unchanged": true,
+    "guardian_not_killed": true,
+    "no_cleanup_errors": true,
+    "human_game_pulse": true,
+    "human_prearm_silent": true,
+    "human_stopped": true,
+    "complete_bounded_prompts_both_sides": true,
+    "scene_recorded": true,
+    "two_complete_prompts_each": true,
+    "two_source_episodes_each": true,
+    "five_seconds_source_quiet_between": true,
+    "repeat_arm_reserve": true
+  },
+  "journal_generation": 20,
+  "motor_fields": 1089,
+  "first_active_ms_after_arm": [
+    5770.454600000002,
+    5770.454600000002
+  ],
+  "decoded_post_arm_active_groups": [
+    40,
+    40
+  ],
+  "observed_live_seconds": 120.06769500000001,
+  "scope": "Two B-dodge/A-attack groups in one offline trial with at least 5s decoded source silence between episodes; bounded notifications, not original HD fidelity or long-term stability",
+  "scene": "dodge-attack-repeat",
+  "source_episodes": {
+    "starts_us": [
+      [
+        31912654,
+        39750034
+      ],
+      [
+        31912654,
+        39750034
+      ]
+    ],
+    "quiet_gaps_us": [
+      [
+        7549362
+      ],
+      [
+        7549362
+      ]
+    ],
+    "state_complete": true
+  }
+}

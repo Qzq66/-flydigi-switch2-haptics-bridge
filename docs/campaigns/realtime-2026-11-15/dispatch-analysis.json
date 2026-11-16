@@ -1,0 +1,84 @@
+{
+  "first_fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+  "submitted_frames": 2372,
+  "rendered_timeline_seconds": 18.976,
+  "next_dispatch_target_pc_clock": 84.64888009999999,
+  "late_fault_strict_lower_bound_pc_clock": 84.65288009999999,
+  "stop_confirmation_pc_clock": 84.7447318,
+  "exact_failure_lateness_not_recorded": true,
+  "maximum_successful_dispatch_lateness_ms": 3.108100009299619,
+  "maximum_successful_writer_ms": 3.4608999999932166,
+  "maximum_receive_gap_at_fault_ms": 60.62480000001358,
+  "root_cause": "unproven",
+  "phase_order": [
+    "unbounded inbox drain",
+    "possible synchronous phase-file write",
+    "game.tick deadline check",
+    "sleep1ms"
+  ],
+  "checks": {
+    "dispatch_fault": true,
+    "not_heartbeat_fault": true,
+    "recorded_receive_gaps_within80ms": true,
+    "stop_confirmed": true,
+    "configuration_unchanged": true,
+    "no_rearm": true
+  },
+  "synthetic_cases": [
+    {
+      "kind": "phase_file_write",
+      "injected_seconds": 0.005,
+      "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+      "frames": 0,
+      "stops": 1,
+      "mode_enables": 1,
+      "output_dirty": false,
+      "heartbeat_age_seconds": 0.0050000000000000044
+    },
+    {
+      "kind": "inbox_drain",
+      "injected_seconds": 0.005,
+      "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+      "frames": 0,
+      "stops": 1,
+      "mode_enables": 1,
+      "output_dirty": false,
+      "heartbeat_age_seconds": 0.0050000000000000044
+    },
+    {
+      "kind": "sleep_overshoot",
+      "injected_seconds": 0.005,
+      "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+      "frames": 0,
+      "stops": 1,
+      "mode_enables": 1,
+      "output_dirty": false,
+      "heartbeat_age_seconds": 0.0050000000000000044
+    },
+    {
+      "kind": "writer_block",
+      "injected_seconds": 0.013,
+      "fault": "BridgeFault('Game PCM scheduler late; no catch-up')",
+      "frames": 1,
+      "stops": 1,
+      "mode_enables": 1,
+      "output_dirty": false,
+      "heartbeat_age_seconds": 0.0
+    },
+    {
+      "kind": "phase_file_write",
+      "injected_seconds": 0.003,
+      "fault": null,
+      "frames": 1,
+      "stops": 0,
+      "mode_enables": 1,
+      "output_dirty": true,
+      "heartbeat_age_seconds": 0.0030000000000000027
+    }
+  ],
+  "classification": "technical",
+  "classification_reason": "Dispatch deadline protection observed; individual blocking source remains unproven",
+  "hardware_actions": 0,
+  "product_behavior_changed": false,
+  "prototype_integrated_into_live_entry": false
+}

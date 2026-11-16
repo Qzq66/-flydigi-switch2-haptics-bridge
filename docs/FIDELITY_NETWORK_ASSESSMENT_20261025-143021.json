@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_CAPTURED_WIFI_DUAL_BAND_WITH_LATER_FLASH_VERIFICATION",
+  "checks": {
+    "child_strict_replay_gate": true,
+    "manual_click": true,
+    "guardian_not_triggered": true,
+    "plan_hash_bound": true,
+    "exact_source_fields": true,
+    "parent_stop_confirmed": true,
+    "configuration_unchanged": true,
+    "snapshot_confirmed": true,
+    "full_flash_later_verified": true,
+    "full_flash_identical": true,
+    "no_persistent_writes": true,
+    "human_bilateral_and_texture": true,
+    "human_stopped_without_residual": true,
+    "human_no_replug": true
+  },
+  "parent_original_status": "INCOMPLETE",
+  "parent_original_cleanup_error": "ValueError('Exactly one lab-043 candidate required')",
+  "automatic_parent_cleanup_passed": false,
+  "pico_automatically_returned_bootsel_confirmed_by_human_and_later_readback": true,
+  "active_ms": [
+    296,
+    296
+  ],
+  "peak_code": 9,
+  "squared_code_sum": [
+    5967,
+    5967
+  ],
+  "output_frames": 51,
+  "injected_fields": 21,
+  "maximum_injection_lateness_ms": 1.876899999999182,
+  "maximum_usb_write_ms": 7.987599999999873,
+  "maximum_output_lateness_ms": 1.8923000000441448,
+  "maximum_output_write_ms": 3.0175999999997316,
+  "input_calls_after_stop": 41,
+  "pico_updates_after_stop": 41,
+  "source_sha256": {
+    "FIDELITY_NETWORK_RUN_20261025-143021.json": "7eea4d9f25bfd5da535a5bafb945d7d9050e64f8e5f11a7a48363fd89bee15d0",
+    "FIDELITY_NETWORK_RECOVERY_20261025-143021.json": "0081fa7ab1bc6874cf7d2bb4ce66c2383a9f26a71c3430f9f69f7b7ed3f701c3",
+    "FIDELITY_NETWORK_PLAN_2026-10-25_V2_RECHECK.json": "5d399860b1aef8a60e52a56fb9405d5c357e390607d36e664e50805ec545a0cd"
+  },
+  "actual_switch_fidelity_validated": false,
+  "original_haptic_physical_fidelity_validated": false,
+  "scope": "One saved motor episode through actual RAM Pico/UDP/streaming synthesis/Flydigi; not live Switch game fidelity. Original parent report remains incomplete; later complete Flash proof and explicit no-replug feedback establish recovery separately."
+}

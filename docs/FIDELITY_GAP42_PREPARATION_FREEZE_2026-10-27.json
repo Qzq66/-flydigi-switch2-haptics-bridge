@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_GAP42_DIAGNOSTIC_CANDIDATE_NOT_HARDWARE_RUN",
+  "hardware_validated": false,
+  "files": [
+    {
+      "path": "tools/phase_gap_probe.py",
+      "sha256": "c65f9fee3912cc05da888dae17c86bc8e4599c838d2e679eb64389901363c76b"
+    },
+    {
+      "path": "tools/phase_gap_validation.py",
+      "sha256": "9d5e0793cbbf9fb70eb3777b01e4cfc76824c443e65ee07e87f234594615f939"
+    },
+    {
+      "path": "tools/fidelity_game_policy_gap42.py",
+      "sha256": "d8661aee02125f3d1a99afe824caa48e908b1f0967ed674585c7f74f6c1d5612"
+    },
+    {
+      "path": "tools/run_fidelity_game_gap42.py",
+      "sha256": "51e10a3fa90c4815df349ec90d885890f85b86f781344ed75cd8b6069660ef6c"
+    },
+    {
+      "path": "tools/assess_fidelity_game_gap42.py",
+      "sha256": "0b8151d212b0738ab7f5037d9e08118f9e7f153d8fd867e19817778f82358437"
+    },
+    {
+      "path": "tools/test_phase_gap_probe.py",
+      "sha256": "69234ea22bce22ece1b6fed52eb4f2526c47ab00b1e0c36eadc5c738518e0e63"
+    },
+    {
+      "path": "tools/test_phase_gap_integration.py",
+      "sha256": "cf5c8232052baf1a01f2206971437c50a2f9ad13456c088a9daf674b769743c5"
+    },
+    {
+      "path": "tools/verify_phase_gap_offline.py",
+      "sha256": "7a4b51fce0186fd4256ed29d23ff2430dfc2ab0bf1c8529f193e9023bd1e847c"
+    },
+    {
+      "path": "docs/FIDELITY_GAP42_PLAN_2026-10-27.json",
+      "sha256": "c262a6d8701832e97f57b42e8c21ce0f0b05600b3dfe7b78a618b8416cb06b0a"
+    },
+    {
+      "path": "docs/FIDELITY_GAP42_OFFLINE_2026-10-27.json",
+      "sha256": "a46af4d9cce8253f0cb57030a56affd8af156e561028732343086f37e8c9e96d"
+    },
+    {
+      "path": "docs/FIDELITY_GAP42_PREPARATION_2026-10-27.md",
+      "sha256": "d004deedf9080fb6ca14156c46b454f85ff3cfd278a972fd2ca9e1d5cd7591f2"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_transport.py",
+      "sha256": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_render.py",
+      "sha256": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+    },
+    {
+      "path": "tools/written_pcm_probe.py",
+      "sha256": "f2d7768577cdd482831b612f2e8d1286293889317fb5e3d0c38dbf782c3a74c6"
+    },
+    {
+      "path": "tools/written_pcm_validation.py",
+      "sha256": "e6408bae1acb629311256571027a00826d6f80b4082d1a35f2d9ac5ce3a03987"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "sha256": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "sha256": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "sha256": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503"
+    }
+  ]
+}

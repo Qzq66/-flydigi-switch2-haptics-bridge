@@ -1,0 +1,61 @@
+{
+  "source_events": 1119,
+  "synthetic_packets": 140,
+  "rounds": 20,
+  "parse": {
+    "samples": 2800,
+    "p50_us": 3.6999999999953737,
+    "p99_us": 7.900000000005125,
+    "max_us": 24.200000000002,
+    "over4ms": 0
+  },
+  "two_side_decode": {
+    "samples": 22380,
+    "p50_us": 4.199999999981996,
+    "p99_us": 5.599999999994498,
+    "max_us": 114.79999999999824,
+    "over4ms": 0
+  },
+  "unarmed_game_feed": {
+    "samples": 2800,
+    "p50_us": 85.10000000000461,
+    "p99_us": 121.50000000005213,
+    "max_us": 207.19999999996298,
+    "over4ms": 0
+  },
+  "sum_of_eight_feed_calls": {
+    "samples": 340,
+    "p50_us": 685.7499999999711,
+    "p99_us": 815.3999999999661,
+    "max_us": 946.7000000000226,
+    "over4ms": 0
+  },
+  "scope": "Real archived motor fields; headers and packet grouping synthetic. Unarmed feed includes quiet qualification, excludes active heap scheduling/HID and XInput.",
+  "status": "ARCHIVED_PAYLOAD_PROFILE_ONLY",
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "original_packet_headers_available": false,
+  "product_code_changed": false,
+  "host_timing": {
+    "begin": 0,
+    "baseline": {
+      "deadlines": 100,
+      "first_late_fault_ms": null,
+      "max_successful_lateness_ms": 1.9982999999994533,
+      "worker_joined": true
+    },
+    "paced_4ms_parser": {
+      "deadlines": 100,
+      "first_late_fault_ms": null,
+      "max_successful_lateness_ms": 2.172099999999677,
+      "worker_joined": true
+    },
+    "saturated_parser": {
+      "deadlines": 0,
+      "first_late_fault_ms": 5.785499999999999,
+      "max_successful_lateness_ms": null,
+      "worker_joined": true
+    },
+    "end": 0
+  }
+}

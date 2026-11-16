@@ -1,0 +1,88 @@
+{
+  "status": "OBSERVED_PC_INPUT",
+  "motor_commands": 0,
+  "configuration_commands": 0,
+  "pico_access": false,
+  "manual_started": true,
+  "reads": 763,
+  "raw_button_reads": 51,
+  "nonneutral_pro_reads": 54,
+  "changes": [
+    {
+      "seconds": 0.0,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    },
+    {
+      "seconds": 2.594000000000051,
+      "raw_buttons": 256,
+      "pro_input": "000040000880000880"
+    },
+    {
+      "seconds": 2.75,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    },
+    {
+      "seconds": 3.561999999999898,
+      "raw_buttons": 512,
+      "pro_input": "400000000880000880"
+    },
+    {
+      "seconds": 3.7660000000000764,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    },
+    {
+      "seconds": 4.4220000000000255,
+      "raw_buttons": 256,
+      "pro_input": "000040000880000880"
+    },
+    {
+      "seconds": 4.436999999999898,
+      "raw_buttons": 768,
+      "pro_input": "400040000880000880"
+    },
+    {
+      "seconds": 4.625,
+      "raw_buttons": 256,
+      "pro_input": "000040000880000880"
+    },
+    {
+      "seconds": 4.641000000000076,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    },
+    {
+      "seconds": 5.936999999999898,
+      "raw_buttons": 8192,
+      "pro_input": "080000000880000880"
+    },
+    {
+      "seconds": 6.155999999999949,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    },
+    {
+      "seconds": 8.766000000000076,
+      "raw_buttons": 0,
+      "pro_input": "00000017f76a000880"
+    },
+    {
+      "seconds": 8.780999999999949,
+      "raw_buttons": 0,
+      "pro_input": "00000047b658000880"
+    },
+    {
+      "seconds": 8.797000000000025,
+      "raw_buttons": 0,
+      "pro_input": "0000009c766b000880"
+    },
+    {
+      "seconds": 8.811999999999898,
+      "raw_buttons": 0,
+      "pro_input": "000000000880000880"
+    }
+  ],
+  "slot": 0
+}

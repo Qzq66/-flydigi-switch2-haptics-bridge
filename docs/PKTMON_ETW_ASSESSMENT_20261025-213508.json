@@ -1,0 +1,59 @@
+{
+  "status": "READONLY_ETW_INSPECTION_COMPLETE_CAUSE_UNRESOLVED",
+  "queries_passed": 5,
+  "raw_hashes_verified": true,
+  "pktmon_idle": true,
+  "filters_empty": true,
+  "provider_registered": true,
+  "payload_events": [
+    {
+      "id": 160,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 170,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 200,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 210,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 220,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 230,
+      "level": 4,
+      "keywords": "0x10"
+    },
+    {
+      "id": 240,
+      "level": 4,
+      "keywords": "0x10"
+    }
+  ],
+  "previous_capture_level": 4,
+  "previous_capture_keywords": "0x32",
+  "registered_payload_mask_included": true,
+  "tracerpt_records_total": 154,
+  "tracerpt_pktmon_provider_records": 0,
+  "tracerpt_total_includes_trace_metadata": true,
+  "tracerpt_warning": "Some events do not match schema; raw XML and summary retained",
+  "logging_root_cause_proven": false,
+  "network_delay_root_cause_proven": false,
+  "capture_started": false,
+  "filters_changed": false,
+  "network_settings_changed": false,
+  "pico_access": false,
+  "motor_commands": 0
+}

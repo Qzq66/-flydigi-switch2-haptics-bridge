@@ -1,0 +1,160 @@
+{
+  "status": "INCOMPLETE",
+  "pico_access": false,
+  "motor_commands": 0,
+  "original_network_delay_cause_proven": false,
+  "components": [
+    {
+      "component_id": 20,
+      "capture_sha256": "43d010cfb16f925d5e93c96747ebb16d87fce2c96a567314c2e30879a8d15240",
+      "application_receive_rows": 9517,
+      "matched_receive_rows": 0,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": false,
+      "component_copies": 0,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": null,
+      "matched_original_adjacent_pairs": 0,
+      "largest_matched_original_adjacent_gap": null,
+      "largest_original_application_gap": {
+        "application_pair_index": 3976,
+        "application_gap_seconds": 0.12475019999999404,
+        "both_packets_matched": false
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 1512,
+          "matched": 0
+        },
+        {
+          "application": 1571,
+          "matched": 0
+        },
+        {
+          "application": 767,
+          "matched": 0
+        },
+        {
+          "application": 564,
+          "matched": 0
+        },
+        {
+          "application": 647,
+          "matched": 0
+        },
+        {
+          "application": 649,
+          "matched": 0
+        },
+        {
+          "application": 645,
+          "matched": 0
+        },
+        {
+          "application": 644,
+          "matched": 0
+        },
+        {
+          "application": 642,
+          "matched": 0
+        },
+        {
+          "application": 583,
+          "matched": 0
+        },
+        {
+          "application": 647,
+          "matched": 0
+        },
+        {
+          "application": 646,
+          "matched": 0
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization."
+    },
+    {
+      "component_id": 124,
+      "capture_sha256": "a0fb81deefdc8013ac5499aff4752a050c14ab36e7943abb357200438572ee3e",
+      "application_receive_rows": 9517,
+      "matched_receive_rows": 0,
+      "ambiguous_payload_groups": 0,
+      "truncated_or_drop_reported": 0,
+      "complete_receive_coverage": false,
+      "component_copies": 0,
+      "negative_beyond_1ms": 0,
+      "component_to_application_ns": null,
+      "matched_original_adjacent_pairs": 0,
+      "largest_matched_original_adjacent_gap": null,
+      "largest_original_application_gap": {
+        "application_pair_index": 3976,
+        "application_gap_seconds": 0.12475019999999404,
+        "both_packets_matched": false
+      },
+      "coverage_12_time_bins": [
+        {
+          "application": 1512,
+          "matched": 0
+        },
+        {
+          "application": 1571,
+          "matched": 0
+        },
+        {
+          "application": 767,
+          "matched": 0
+        },
+        {
+          "application": 564,
+          "matched": 0
+        },
+        {
+          "application": 647,
+          "matched": 0
+        },
+        {
+          "application": 649,
+          "matched": 0
+        },
+        {
+          "application": 645,
+          "matched": 0
+        },
+        {
+          "application": 644,
+          "matched": 0
+        },
+        {
+          "application": 642,
+          "matched": 0
+        },
+        {
+          "application": 583,
+          "matched": 0
+        },
+        {
+          "application": 647,
+          "matched": 0
+        },
+        {
+          "application": 646,
+          "matched": 0
+        }
+      ],
+      "scope": "Per-component observation to socket return; includes OS queues and scheduling. Not physical radio arrival or one-way Pico/PC clock synchronization."
+    }
+  ],
+  "program_sha256": "5aa1d30abb641dea260c0a230e832dee8ce44043daf0a7b184dfa68c28ee2f74",
+  "helper_sha256": "efe680f3f9f9f0db793f1c7614cf5f236578af971cab9afd627b0b3db51d3b6b",
+  "private_trace_sha256": "6944f8ddb2630d9bf6533363223225fdef83180e52916c6e051acd546a07d429",
+  "application_receive_rows": 9517,
+  "application_observer_errors": 0,
+  "application_observer_overflow": 0,
+  "maximum_observer_seconds": 0.002054299999997511,
+  "complete_usable_component_count": 0,
+  "program_status": "COMPLETED_PASSIVE_PROGRAM_PENDING_FLASH_LOG",
+  "configuration_unchanged": true,
+  "requires_same_trial_flash_readback": true,
+  "scope": "Component point to socket return, including OS scheduling. No physical-air timing or absolute Pico/PC clock synchronization."
+}

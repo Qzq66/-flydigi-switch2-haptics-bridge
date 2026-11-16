@@ -1,0 +1,70 @@
+{
+  "status": "OFFLINE_FAILURE_ANALYSIS_AND_DIAGNOSTIC_CANDIDATE_READY",
+  "device_access": false,
+  "motor_output": false,
+  "firmware_changed": false,
+  "observations": [
+    {
+      "report": "docs/FIDELITY_GAME_RUN_20261025-150923.json",
+      "live_elapsed_seconds": 73.33646809999999,
+      "manual_armed": false,
+      "active_ms": [
+        0,
+        0
+      ],
+      "error": "RuntimeError(\"BridgeFault('wire heartbeat timeout')\")",
+      "wire_events": 1191,
+      "first_source_us": 1198161,
+      "last_source_us": 86322198,
+      "maximum_event_source_gap_us": 14568681,
+      "terminal_observed": false
+    },
+    {
+      "report": "docs/FIDELITY_GAME_RUN_20261025-154212.json",
+      "live_elapsed_seconds": 59.580977100000005,
+      "manual_armed": true,
+      "active_ms": [
+        288,
+        288
+      ],
+      "error": "RuntimeError(\"BridgeFault('wire heartbeat timeout')\")",
+      "wire_events": 603,
+      "first_source_us": 1086724,
+      "last_source_us": 73218182,
+      "maximum_event_source_gap_us": 15320715,
+      "terminal_observed": false
+    }
+  ],
+  "proven": [
+    "The previous parent child loop raised on output fault and stopped its collector in finally.",
+    "The latest 4MiB readback equals the generation22 pretest snapshot, so no new persistent trial journal was found.",
+    "Firmware schedules capture independently of PC output and normally closes wireless transport before capture_finish.",
+    "Raw prior reports do not contain packet response-gap history or watchdog reset evidence."
+  ],
+  "hypotheses_not_proven": [
+    "UDP loss, PC scheduling stalls, or board/transport stalls may exceed the heartbeat window.",
+    "A power interruption, reboot or stall before journal commit may explain unchanged Flash.",
+    "bridge_close runs before capture_finish; its completion on the failed trial is unknown."
+  ],
+  "changes": [
+    "Continue bounded collection after a confirmed output stop, preserving the fault and failed verdict.",
+    "Record response gaps, poll call duration, timeouts, recent64 outcomes and boot identifiers.",
+    "Keep snapshot of transport diagnostics at first observed output fault.",
+    "Abort collection immediately if an output fault leaves stop unconfirmed."
+  ],
+  "unchanged_limits": {
+    "heartbeat_seconds": 0.08,
+    "maximum_dispatch_lateness_seconds": 0.004,
+    "maximum_active_ms_per_side": 320,
+    "maximum_offset": 12,
+    "maximum_armed_seconds": 15
+  },
+  "source_sha256": {
+    "handoff\\2026-10-22\\outputs\\pico-haptics-bridge-v043\\main.c": "5b49115be3cc49c41680a392f58a47598a8793f882e82eefc388e175c7da2cff",
+    "handoff\\2026-10-22\\outputs\\pico-haptics-bridge-v043\\capture_journal.c": "0be846bc5c6c98a91690a8e654fb23376866e224315fec1c3eda65f20ed95c2b",
+    "handoff\\2026-10-22\\outputs\\pico-haptics-bridge-v043\\bridge_transport.c": "d24bfcfe63bb2be2014e2837a44f2c668a49d5f736059f632af19f7f95d14740",
+    "docs\\FIDELITY_GAME_RUN_20261025-150923.json": "4cbe1d348e14ca6b280aaa49f26d1f5d4cb50411317a59eb2851bd253dd20a47",
+    "docs\\FIDELITY_GAME_RUN_20261025-154212.json": "b6057963bbdd0eead9afff0b3e9c63f69dc4e9b00707e4166b1b2cf59e8c5f04"
+  },
+  "next_hardware_test": "Prefer a non-playing transport/logging diagnostic before further haptic replay; require current Flash and input liveness preflight."
+}

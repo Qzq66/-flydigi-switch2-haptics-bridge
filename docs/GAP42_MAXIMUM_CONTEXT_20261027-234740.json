@@ -1,0 +1,20 @@
+{
+  "status": "OBSERVED_CURRENT_MAXIMUM_GAP_CONTEXT_RETAINED_NO_ROOT_CAUSE_CLAIM",
+  "hardware_access": false,
+  "run_report_sha256": "f038b902a54e6966d9b5c32cea63aa3705bb26a4e8d112042ec3455264b05746",
+  "parts": {
+    "previous_receive_to_next_poll_ms": 4.465699999997241,
+    "next_poll_to_receive_ms": 57.531299999993735,
+    "actual_pause_ms": 4.412099999996144,
+    "other_between_poll_ms": 0.053600000001097214,
+    "poll_span_ms": 57.54279999999312,
+    "received_gap_ms": 61.996999999990976
+  },
+  "context_pre_complete": true,
+  "context_post_complete": true,
+  "timeouts": 0,
+  "phase_records": 36358,
+  "compact_snapshot_bytes": 71356,
+  "root_cause_proven": false,
+  "previous_135ms_fault_reproduced": false
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASSED_READONLY_GAP_ANALYSIS_BOUNDARY_TESTS",
+  "tests": 8,
+  "io_guard": true,
+  "hardware_access": false
+}

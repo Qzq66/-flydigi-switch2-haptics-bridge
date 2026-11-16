@@ -1,0 +1,90 @@
+{
+  "status": "FROZEN_PCM_SUBMISSION_MATCH_GAME_INCOMPLETE_POSTMUTE_FAULT",
+  "baseline_generation": 42,
+  "files": [
+    {
+      "path": "tools/written_pcm_probe.py",
+      "sha256": "f2d7768577cdd482831b612f2e8d1286293889317fb5e3d0c38dbf782c3a74c6"
+    },
+    {
+      "path": "tools/written_pcm_validation.py",
+      "sha256": "e6408bae1acb629311256571027a00826d6f80b4082d1a35f2d9ac5ce3a03987"
+    },
+    {
+      "path": "tools/fidelity_game_policy_pcm41.py",
+      "sha256": "6afd5f9ab4411fef594c89e42a4534fc086f7e08f01fedc5c4939d16a0083fbf"
+    },
+    {
+      "path": "tools/run_fidelity_game_pcm41.py",
+      "sha256": "f1b3b7a897987fb105bcbf27aa82094ac9d8410ecb8d1f4c00203f54d2928bcf"
+    },
+    {
+      "path": "tools/assess_fidelity_game_pcm41.py",
+      "sha256": "a04600763236ceb372da325d3c6bf7d4c42d97831d08bcb90917bfd06cc0941b"
+    },
+    {
+      "path": "tools/test_written_pcm_probe.py",
+      "sha256": "c87549d3e8eaee1b87346e12dfe70b635203a5626e71e4563533188baee95170"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_PLAN_G41_2026-10-27.json",
+      "sha256": "47f2cad56033effc020fce557cb91b766a3f127ac775e1b335e7859b745d1579"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_OFFLINE_2026-10-27.json",
+      "sha256": "2e21466f4997b6e16dce5192cbec7ecbff9e4a7971051edd332a0564f6b02457"
+    },
+    {
+      "path": "docs/PCM_WRITER_SOURCE_BINDING_2026-10-27.json",
+      "sha256": "a49df181e0592f20d94698bbc82593705169e5e12bd52a8c253e87994209de46"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_PREPARATION_2026-10-27.md",
+      "sha256": "1fedbfcc8a94530b5a1a66b07658fdce9a179fe4acb820d93a1ebaec44dc8527"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-safe-waveform.py",
+      "sha256": "5950573c7445048cabe41f2462f530ff8ed3700d07f12d83ecc982171adadcb9"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-owner-hotplug.py",
+      "sha256": "dbf1d1e00afcd260b6df8c7a06c8c061d016ddb15e4319e1974b84bb57b403af"
+    },
+    {
+      "path": "handoff/2026-10-22/work/flydigi-readonly.py",
+      "sha256": "2c03d602d81aae407102057d153797e41172cba19eff1211d4a9a2527496e503"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261027-221301.json",
+      "sha256": "001b2a95c4bc61aff4c972d1aeb2f43e295d36328b0a07e4281571c01e039a38"
+    },
+    {
+      "path": "docs/FIDELITY_GAME_RUN_20261027-221627.json",
+      "sha256": "75b808a67fad3b222f88abd9a09b6e98699ec605fc98ec5b1c259e76af51efa5"
+    },
+    {
+      "path": "docs/V043_HOST_CAPTURE_20261027-222306.json",
+      "sha256": "084c697cbf43252d9846daa646611c5e237090e7bc89b6a2f618fff6617abfd0"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_GAME_ASSESSMENT_20261027-221627.json",
+      "sha256": "f3c7a4aa023a926ab2516b6f9a0171335d6bc1c80842a8f8b262fdcd4e186405"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_SUBMISSION_ASSESSMENT_20261027-221627.json",
+      "sha256": "777c547d8d2fc16bf4822463e0ad49d36210a0e29d138f703847a714f7044c4b"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_ATTEMPT_2026-10-27.md",
+      "sha256": "6ac4fc570efbbf3a1104e13b68ee75382204d0da1a9777a9fea0743b3f7344c9"
+    },
+    {
+      "path": "docs/FIDELITY_PCM_RUN_2026-10-27.md",
+      "sha256": "366da3ecb0462d709d5610125728d6597462b91d7411c0843512cca707a42aff"
+    },
+    {
+      "path": "docs/V043_READY_BASELINE_20261027-222357.json",
+      "sha256": "f4331077ea1375e4fa74f7169a869d67962dddbc147723cf071236716a78e227"
+    }
+  ]
+}

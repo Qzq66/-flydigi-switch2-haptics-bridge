@@ -1,0 +1,21 @@
+{
+  "status": "PASSED_G23_GAME_ENTRY_OFFLINE",
+  "tests": 120,
+  "failures": 0,
+  "errors": 0,
+  "io_guard": true,
+  "device_access": false,
+  "network_access": false,
+  "motor_output": false,
+  "firmware_loaded": false,
+  "hardware_validated": false,
+  "previous_passive_source_and_evidence_unchanged": true,
+  "plan_sha256": "0264f4e038733c3d6c56d44b76debf4352f3da299752d7f7ba6467b2f0f593c5",
+  "source_sha256": {
+    "tools/fidelity_game_policy_g23.py": "a51e577cb33f6a63225386cc8fff8536b878f756dab64ef50e58d4a94317f3d2",
+    "tools/run_fidelity_game_g23.py": "4c2225f199a8b3c436bf52cf342e692227ef6f8286f1f6e80219c06fed738e35",
+    "tools/assess_fidelity_game_g23.py": "7fc9283d53e3f23a0008bfc7396a9a992cfe6dffd465e0183a20d1c74ed17ec6",
+    "tools/test_fidelity_game_g23.py": "f7ab491fb61b4f2148e31fa6116072205542df21a1ea8a35207e82b635d869c9",
+    "tools/verify_fidelity_game_g23_offline.py": "da86a8babf0e3f409ebcea1180fe999054e09ae6f0ae43e8768531fcaa9173c0"
+  }
+}

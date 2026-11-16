@@ -1,0 +1,9 @@
+{
+  "status": "PASSED_OFFLINE_ONLY",
+  "tests": 162,
+  "writer_cap": 9,
+  "activity_ms": 320,
+  "current_config_gate": true,
+  "hardware_access": false,
+  "duration320_not_previously_validated": true
+}

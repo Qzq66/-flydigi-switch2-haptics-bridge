@@ -1,0 +1,9 @@
+{
+  "status": "HUMAN_SOURCE_CHALLENGE_PASSED",
+  "readonly": true,
+  "expected_button": "physical bottom A",
+  "press_seen": true,
+  "release_seen": true,
+  "slot": 0
+}
+C:\Users\quziqi\Documents\Codex\flydigi-switch2-windows-resume-20261022\handoff\2026-10-22\outputs\xinput-source-confirmation-20261022-200101.json

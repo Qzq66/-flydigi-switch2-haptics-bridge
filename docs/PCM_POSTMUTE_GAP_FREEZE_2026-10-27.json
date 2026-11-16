@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_READONLY_GAP_ANALYSIS_NOT_GAME_PASS",
+  "hardware_access": false,
+  "files": [
+    {
+      "path": "tools/analyse_pcm_postmute_gap.py",
+      "sha256": "fe7ec48717ebe6a0340195ecb69fd8f0675dd297e65faadc0cc840575936f56d"
+    },
+    {
+      "path": "tools/test_pcm_postmute_gap.py",
+      "sha256": "fcc3774e9a205bfcad4fb37110feb3a6ac0f0ef4fcda78832351a7dc01225c44"
+    },
+    {
+      "path": "docs/PCM_POSTMUTE_GAP_ANALYSIS_2026-10-27.json",
+      "sha256": "d2b495417e27cc487bd855eec7315f48bb28b937c9f45744cdbd7bb8d51649f9"
+    },
+    {
+      "path": "docs/PCM_POSTMUTE_GAP_OFFLINE_2026-10-27.json",
+      "sha256": "fe22aa0d653f30b4c508dea7f38d5fcf7d2265be1ed597f9e74fb9198c31c781"
+    },
+    {
+      "path": "docs/PCM_POSTMUTE_GAP_ANALYSIS_2026-10-27.md",
+      "sha256": "3a650416a676cfbca89e47cd58c2297698f6f970394e4d4c1684f12b0c2678b6"
+    },
+    {
+      "path": "tools/game_transport_diagnostics.py",
+      "sha256": "1f3b779d4618afd5300b2a516113ed9aa0f74bda7e810c9d967016fd0ea012d3"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_transport.py",
+      "sha256": "e12e44c025cc1e7ff16529f990b4e959782af4b4c3d5f30f164133a165bd15ba"
+    },
+    {
+      "path": "handoff/2026-10-22/work/bridge_render.py",
+      "sha256": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202"
+    }
+  ]
+}

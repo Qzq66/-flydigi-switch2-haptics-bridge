@@ -1,0 +1,42 @@
+{
+  "status": "PASSED_REPEATED_EVENT_OFFLINE_CANDIDATE",
+  "hardware_access": false,
+  "network_access": false,
+  "io_guard": true,
+  "synthetic_time": true,
+  "hardware_multi_event_validated": false,
+  "tests": 37,
+  "failures": 0,
+  "errors": 0,
+  "modules": [
+    "test_repeated_game_events",
+    "test_repeated_game_assessment",
+    "test_game_output_latch",
+    "test_game_phase",
+    "test_game_end_gate",
+    "test_v043_game_assessment",
+    "test_v043_game_gate"
+  ],
+  "source_sha256": {
+    "tools/test_repeated_game_events.py": "184809d215abcea7a08be44da47aecf54fff11eace4c67cc6f3114a0f961e424",
+    "tools/test_repeated_game_assessment.py": "7a6bebfb8ffc4e92bf20fca5d4146fb6390191af30d0214b417517c6df043b53",
+    "tools/test_game_output_latch.py": "2ebcf86b70afb5d73e6d2d61d808314bf14ecc75f808900d8b6a4abd353ffa0f",
+    "tools/test_game_phase.py": "93dd88fc7840783b508bb6ce52f99775afe216ec8702d12286c955315755020b",
+    "tools/test_game_end_gate.py": "b376d21421498b81d06f7f6d815ac3ff3d93d493c4d3ef07f753f5719e201ed9",
+    "tools/test_v043_game_assessment.py": "b3a24880c0b915de98c488a9f555938f0f2c980ca3a007cecfeac5181d3bfef2",
+    "tools/test_v043_game_gate.py": "51074fc89aeed8ec34537c151b050ef1a90d10a10a09a471319a6710dda9fc32",
+    "tools/verify_repeated_events_offline.py": "0068f1eb7d266d5464e860f14528502201950322228ed8843d73d476fd61161f",
+    "tools/assess_v043_staged_game.py": "1d06f7b7d4e107a84049b14e6363ddef46de8be331babaa363650176a4aceaa6",
+    "tools/repeated_event_evidence.py": "2d8dc8f239b9bea6c770a542fe1609a79b5e6936182e628857b7d6df3c94f3ec",
+    "tools/game_scenarios.py": "e1373eb69e8b2ca0a8baf6032a3692c1d2a204540361b50da89b683cc1f9e789",
+    "tools/game_arm_window.py": "46c72bae649aebd161d4d8e4be733a578e4e9ee48b36be50cda1f2cf14c8cd77",
+    "tools/run_v042_input_recheck.py": "0d458b3a9227ba208af59c694ce99ce5b7ffee9db4ce9198d367c1f7b1f1800c",
+    "tools/v043_game_gate.py": "2d9ad3a3406af0401f36c5062de2199932a6c713fd40343d221daf13b151d948",
+    "handoff/2026-10-22/work/bridge_render.py": "5db27cff4947d4eb6723998874c69aeeda26b7d5848e7ae47516048f78141202",
+    "handoff/2026-10-22/work/bridge_input.py": "9411e651310d5c1fd859567e9a9a32a1388745b1c295e4fdceecbe91c57d6043",
+    "handoff/2026-10-22/work/bridge_process.py": "31342548ecf8c936189450ec44d3c984cb95026812c990feb02707bdc478ece6",
+    "handoff/2026-10-22/work/bridge_game_phase.py": "b911a0f7aaafa63db518f70992d853d54aaa5841e03049a41e37b65cc93a7f45",
+    "handoff/2026-10-22/work/switch_hd_decode.py": "39d63795e615a02f541e6648697ca94dbe9a9ad57d63d6f6992cb17a90270ccb"
+  },
+  "scope": "Two synthetic bilateral events separated by 5 seconds, pre-arm silence, fourth-edge cap, input conversion after mute and disable cancellation; not physical transport or actuator evidence"
+}

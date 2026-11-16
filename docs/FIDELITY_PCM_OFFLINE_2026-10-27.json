@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_PCM41_OFFLINE_ONLY",
+  "tests": 136,
+  "io_guard": true,
+  "hardware_access": false,
+  "hardware_validated": false,
+  "old_renderer_and_limits_unchanged": true,
+  "runner_delta_checked": true,
+  "unsafe_plan_rejected": true,
+  "missing_pcm_summary_rejected": true,
+  "fixtures": [
+    {
+      "trial": "20261026-232226",
+      "simulation_only": true,
+      "mock_writer_frames": 596,
+      "reference_hashes_match": true
+    },
+    {
+      "trial": "20261027-212240",
+      "simulation_only": true,
+      "mock_writer_frames": 470,
+      "reference_hashes_match": true
+    }
+  ],
+  "plan_sha256": "47f2cad56033effc020fce557cb91b766a3f127ac775e1b335e7859b745d1579"
+}
